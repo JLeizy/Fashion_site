@@ -106,8 +106,10 @@ async function completeLogin(req, res, user, remember) {
 router.get('/me', async (req, res) => {
   const csrfToken = ensureCsrfToken(req);
   const rates = await getRates();
-  if (!req.user) return res.json({ user: null, csrfToken, rates, counts: null, wishlistIds: [], compareIds: [] });
-  res.json({ user: publicUser(req.user), csrfToken, rates, ...(await headerState(req.user.id)) });
+  // Настройки магазина для клиента (порог бесплатной доставки, лимит сравнения, срок возврата) — из config/index.js
+  const shop = { freeDeliveryFromByn: config.shop.freeDeliveryFromByn, maxCompare: config.shop.maxCompare, returnDays: config.shop.returnDays };
+  if (!req.user) return res.json({ user: null, csrfToken, rates, shop, counts: null, wishlistIds: [], compareIds: [] });
+  res.json({ user: publicUser(req.user), csrfToken, rates, shop, ...(await headerState(req.user.id)) });
 });
 
 // POST /api/auth/register — регистрация покупателя (роль: гость)

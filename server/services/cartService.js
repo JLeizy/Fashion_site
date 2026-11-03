@@ -155,4 +155,25 @@ export async function cartCount(userId) {
   return rows[0].n;
 }
 
-export default { getCart, previewItems, addItem, mergeItems, ensureCart, getVariant, cartCount, summarize, MAX_QTY };
+// Проверка промокода (корзина и оформление заказа). Возвращает строку promo_codes или бросает ApiError.
+// SQL: promo_codes (SELECT; при оформлении — SELECT … FOR UPDATE в транзакции заказа через client)
+export async function validatePromo(code, client = null) {
+  const run = client ? client.query.bind(client) : query;
+  const normalized = String(code || '').trim().toUpperCase().slice(0, 30);
+  if (!normalized) throw new ApiError(404, 'cart.promoInvalid');
+  const { rows } = await run(
+    `SELECT id, code, discount_percent, valid_from, valid_to, usage_limit, used_count, is_active
+       FROM promo_codes WHERE code = $1 ${client ? 'FOR UPDATE' : ''}`,
+    [normalized]
+  );
+  const promo = rows[0];
+  if (!promo || !promo.is_active) throw new ApiError(404, 'cart.promoInvalid');
+  const now = Date.now();
+  if (new Date(promo.valid_from).getTime() > now || (promo.valid_to && new Date(promo.valid_to).getTime() < now)) {
+    throw new ApiError(410, 'cart.promoExpired');
+  }
+  if (promo.usage_limit !== null && promo.used_count >= promo.usage_limit) throw new ApiError(409, 'cart.promoLimit');
+  return promo;
+}
+
+export default { validatePromo, getCart, previewItems, addItem, mergeItems, ensureCart, getVariant, cartCount, summarize, MAX_QTY };

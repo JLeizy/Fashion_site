@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title data-i18n="meta.cart">Корзина — AMFIBIA</title>
+  <link rel="stylesheet" href="/css/pages/shop.css">
+</head>
+<body data-page="{{page}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="page shop-page cart-page" tabindex="-1">
+    <section class="shop-hero">
+      <div class="shop-hero__bg" aria-hidden="true" data-parallax="0.15">Panier</div>
+      <nav class="breadcrumbs" data-breadcrumbs data-i18n-attr="aria-label:a11y.breadcrumbs" aria-label="Навигационная цепочка"></nav>
+      <div class="shop-hero__row">
+        <div>
+          <p class="t-eyebrow" data-i18n="cart.miniEyebrow">Ваш выбор</p>
+          <h1 class="shop-hero__title" data-i18n="cart.title">Корзина</h1>
+        </div>
+        <p class="shop-hero__count t-mono" data-cart-count></p>
+      </div>
+    </section>
+
+    <div class="cart" data-cart-root>
+      <section class="cart__list" aria-live="polite">
+        <div class="cart__free" data-free-delivery hidden>
+          <p class="cart__free-text t-mono" data-free-text></p>
+          <div class="cart__free-bar"><span data-free-bar></span></div>
+        </div>
+        <ul class="cart__items" data-cart-items>
+          <li class="skeleton cart-skeleton"></li>
+          <li class="skeleton cart-skeleton"></li>
+        </ul>
+        <div class="cart__tools" data-cart-tools hidden>
+          <a class="link-u t-mono" href="/catalog" data-i18n="cartPage.continue">← Продолжить покупки</a>
+          <button type="button" class="link-u t-mono cart__clear" data-cart-clear data-i18n="cartPage.clear">Очистить корзину</button>
+        </div>
+      </section>
+
+      <aside class="cart__summary summary" data-cart-summary hidden>
+        <h2 class="summary__title" data-i18n="cartPage.summary">Итого</h2>
+        <form class="promo" data-promo-form novalidate>
+          <label class="field__label" for="promo-code" data-i18n="cartPage.promo">Промокод</label>
+          <div class="promo__row">
+            <input class="input promo__input t-mono" id="promo-code" name="code" autocomplete="off" spellcheck="false" maxlength="30" data-i18n-attr="placeholder:cartPage.promoPlaceholder" placeholder="Например, AMFIBIA10">
+            <button type="submit" class="btn btn--ghost btn--sm" data-i18n="cartPage.apply">Применить</button>
+          </div>
+          <p class="promo__applied" data-promo-applied hidden></p>
+          <p class="field__error" data-promo-error hidden></p>
+        </form>
+        <dl class="summary__rows">
+          <div><dt data-i18n="cart.subtotal">Товары</dt><dd data-sum-subtotal></dd></div>
+          <div data-sum-discount-row hidden><dt data-sum-discount-label></dt><dd class="summary__discount" data-sum-discount></dd></div>
+          <div><dt data-i18n="cartPage.delivery">Доставка</dt><dd class="t-muted" data-i18n="cartPage.deliveryNext">на следующем шаге</dd></div>
+          <div class="summary__total"><dt data-i18n="cartPage.total">Всего</dt><dd data-sum-total></dd></div>
+        </dl>
+        <p class="summary__note t-muted" data-sum-note></p>
+        <button type="button" class="btn btn--block summary__checkout" data-checkout data-magnetic><span data-i18n="cart.checkout">Оформить заказ</span></button>
+        <ul class="summary__perks t-mono">
+          <li><svg class="icon icon--sm"><use href="#i-shield"/></svg><span data-i18n="product.authenticTitle">Проверено на подлинность</span></li>
+          <li><svg class="icon icon--sm"><use href="#i-return"/></svg><span data-i18n="product.returnLine">Возврат в течение 14 дней</span></li>
+          <li><svg class="icon icon--sm"><use href="#i-lock"/></svg><span data-i18n="cartPage.secure">Безопасная оплата</span></li>
+        </ul>
+      </aside>
+    </div>
+
+    <section class="pp-section pp-rail shop-rail" data-rail="recommend" hidden>
+      <header class="pp-section__head pp-rail__head">
+        <h2 class="pp-section__title" data-i18n="cartPage.recommend">Вам может понравиться</h2>
+        <div class="pp-rail__nav">
+          <button type="button" class="icon-btn" data-rail-prev data-i18n-attr="aria-label:product.scrollPrev" aria-label="Назад"><svg class="icon"><use href="#i-arrow-left"/></svg></button>
+          <button type="button" class="icon-btn" data-rail-next data-i18n-attr="aria-label:product.scrollNext" aria-label="Вперёд"><svg class="icon"><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </header>
+      <div class="rail" data-rail-track></div>
+    </section>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/cart.js"></script>
+</body>
+</html>

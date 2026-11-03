@@ -6,7 +6,7 @@ import { query } from '../../../db/pool.js';
 import { requireAuth } from '../../middleware/auth.js';
 import { validate, msg } from '../../middleware/validate.js';
 import { ApiError } from '../../lib/errors.js';
-import { getCart, previewItems, addItem, mergeItems, getVariant, MAX_QTY } from '../../services/cartService.js';
+import { getCart, previewItems, addItem, mergeItems, getVariant, validatePromo, MAX_QTY } from '../../services/cartService.js';
 
 const router = express.Router();
 
@@ -107,6 +107,33 @@ router.delete('/', requireAuth, async (req, res) => {
 router.post('/merge', requireAuth, validate([body('items').isArray({ max: 50 })]), async (req, res) => {
   await mergeItems(req.user.id, req.body.items);
   res.json(await getCart(req.user.id));
+});
+
+// GET /api/cart/promo — промокод, применённый в текущей сессии (роль: любая). Таблицы: promo_codes (SELECT)
+router.get('/promo', async (req, res) => {
+  if (!req.session.promoCode) return res.json({ promo: null });
+  try {
+    const promo = await validatePromo(req.session.promoCode);
+    res.json({ promo: { code: promo.code, percent: promo.discount_percent } });
+  } catch {
+    // Промокод истёк или исчерпан, пока лежал в сессии — убираем
+    delete req.session.promoCode;
+    res.json({ promo: null });
+  }
+});
+
+// POST /api/cart/promo — применить промокод (роль: любая). Код сохраняется в сессии и пересчитывается при оформлении.
+// Таблицы: promo_codes (SELECT: активность, срок действия, лимит использований)
+router.post('/promo', validate([body('code').isString().trim().isLength({ min: 2, max: 30 }).withMessage(msg('validation.length', { min: 2, max: 30 }))]), async (req, res) => {
+  const promo = await validatePromo(req.valid.code);
+  req.session.promoCode = promo.code;
+  res.json({ promo: { code: promo.code, percent: promo.discount_percent }, message: req.t('cart.promoApplied', { percent: promo.discount_percent }) });
+});
+
+// DELETE /api/cart/promo — убрать промокод (роль: любая). Таблицы: не используются (только сессия)
+router.delete('/promo', (req, res) => {
+  delete req.session.promoCode;
+  res.json({ promo: null });
 });
 
 export default router;

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title data-i18n="meta.wishlist">Избранное — AMFIBIA</title>
+  <link rel="stylesheet" href="/css/pages/catalog.css">
+  <link rel="stylesheet" href="/css/pages/shop.css">
+</head>
+<body data-page="{{page}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="page shop-page wishlist-page" tabindex="-1">
+    <section class="shop-hero">
+      <div class="shop-hero__bg" aria-hidden="true" data-parallax="0.15">Favoris</div>
+      <nav class="breadcrumbs" data-breadcrumbs data-i18n-attr="aria-label:a11y.breadcrumbs" aria-label="Навигационная цепочка"></nav>
+      <div class="shop-hero__row">
+        <div>
+          <p class="t-eyebrow" data-i18n="wishlistPage.eyebrow">Сохранённые вещи</p>
+          <h1 class="shop-hero__title" data-i18n="header.wishlist">Избранное</h1>
+        </div>
+        <div class="shop-hero__tools">
+          <p class="shop-hero__count t-mono" data-wish-count></p>
+          <label class="catalog__sort">
+            <span class="sr-only" data-i18n="catalog.sortLabel">Сортировка</span>
+            <select class="select select--sm" data-wish-sort>
+              <option value="added" data-i18n="wishlistPage.sortAdded">Недавно добавленные</option>
+              <option value="price_asc" data-i18n="catalog.sort.price_asc">Сначала дешёвые</option>
+              <option value="price_desc" data-i18n="catalog.sort.price_desc">Сначала дорогие</option>
+              <option value="brand" data-i18n="wishlistPage.sortBrand">По бренду</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </section>
+    <section class="shop-body">
+      <div class="catalog__grid wish-grid" data-cols="4" data-wish-grid></div>
+    </section>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/wishlist.js"></script>
+</body>
+</html>

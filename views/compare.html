@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title data-i18n="meta.compare">Сравнение — AMFIBIA</title>
+  <link rel="stylesheet" href="/css/pages/shop.css">
+</head>
+<body data-page="{{page}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="page shop-page compare-page" tabindex="-1">
+    <section class="shop-hero">
+      <div class="shop-hero__bg" aria-hidden="true" data-parallax="0.15">Comparer</div>
+      <nav class="breadcrumbs" data-breadcrumbs data-i18n-attr="aria-label:a11y.breadcrumbs" aria-label="Навигационная цепочка"></nav>
+      <div class="shop-hero__row">
+        <div>
+          <p class="t-eyebrow" data-i18n="comparePage.eyebrow">До четырёх вещей рядом</p>
+          <h1 class="shop-hero__title" data-i18n="header.compare">Сравнение</h1>
+        </div>
+        <div class="shop-hero__tools" data-cmp-tools hidden>
+          <label class="switch">
+            <input type="checkbox" data-cmp-diff>
+            <span class="switch__track"></span>
+            <span data-i18n="comparePage.onlyDiff">Показывать только различия</span>
+          </label>
+          <button type="button" class="btn btn--ghost btn--sm" data-cmp-clear data-i18n="compare.clear">Очистить сравнение</button>
+        </div>
+      </div>
+    </section>
+    <section class="shop-body">
+      <div class="cmp" data-cmp-root aria-live="polite"></div>
+    </section>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/compare.js"></script>
+</body>
+</html>

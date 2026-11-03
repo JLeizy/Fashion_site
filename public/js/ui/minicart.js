@@ -125,7 +125,8 @@ export function initMiniCart() {
     if (e.key === 'Escape' && root.classList.contains('is-open')) closeMiniCart();
   });
   store.on('cart:change', (data) => render(data));
-  store.on('cart:added', () => openMiniCart());
+  // На странице корзины панель не нужна: изменения видны сразу в списке
+  store.on('cart:added', () => document.body.dataset.page !== 'cart' && openMiniCart());
   onLangChange(() => cart.data && render(cart.data));
   onCurrencyChange(() => cart.data && render(cart.data));
 }

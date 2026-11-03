@@ -7,7 +7,10 @@
     "e404": "Page not found — AMFIBIA",
     "e403": "Access denied — AMFIBIA",
     "e500": "Server error — AMFIBIA",
-    "product": "Product — AMFIBIA"
+    "product": "Product — AMFIBIA",
+    "cart": "Bag — AMFIBIA",
+    "wishlist": "Wishlist — AMFIBIA",
+    "compare": "Compare — AMFIBIA"
   },
   "a11y": {
     "skip": "Skip to content",
@@ -630,5 +633,77 @@
     },
     "newBadge": "New",
     "historySoon": "The house history is being prepared"
+  },
+  "cartPage": {
+    "continue": "← Continue shopping",
+    "clear": "Empty the bag",
+    "clearConfirm": "Remove all items from the bag?",
+    "summary": "Summary",
+    "promo": "Promo code",
+    "promoPlaceholder": "E.g. AMFIBIA10",
+    "apply": "Apply",
+    "removePromo": "Remove",
+    "promoApplied": "Code {code}: {percent} % off",
+    "discount": "Discount {percent} %",
+    "delivery": "Delivery",
+    "deliveryNext": "at the next step",
+    "total": "Total",
+    "secure": "Secure payment",
+    "recommend": "You may also like",
+    "itemsCount": {
+      "one": "{n} item",
+      "other": "{n} items"
+    },
+    "freeLeft": "{sum} more for free delivery",
+    "freeDone": "Delivery will be free",
+    "unavailableNote": "Unavailable items will not be included in the order",
+    "sizeLabel": "Size",
+    "qty": "Quantity",
+    "each": "{price} each",
+    "removedUndo": "Item removed",
+    "maxReached": "That's all the stock available",
+    "toProduct": "Open product",
+    "sku": "SKU {sku}"
+  },
+  "wishlistPage": {
+    "eyebrow": "Saved pieces",
+    "sortAdded": "Recently added",
+    "sortBrand": "By brand",
+    "emptyTitle": "Your wishlist is empty",
+    "emptyText": "Tap the heart on a product card — pieces will be saved here.",
+    "count": {
+      "one": "{n} piece",
+      "other": "{n} pieces"
+    }
+  },
+  "comparePage": {
+    "eyebrow": "Up to four pieces side by side",
+    "onlyDiff": "Show differences only",
+    "emptyTitle": "Nothing to compare yet",
+    "emptyText": "Add up to four products with the “Compare” button on a card — their details will line up here.",
+    "remove": "Remove from comparison",
+    "addSlot": "Add a product",
+    "bestPrice": "Best price",
+    "bestRating": "Top rated",
+    "rows": {
+      "photo": "Photo",
+      "brand": "Brand",
+      "name": "Name",
+      "price": "Price",
+      "category": "Category",
+      "collection": "Collection",
+      "material": "Material",
+      "composition": "Composition",
+      "color": "Colour",
+      "sizes": "Sizes in stock",
+      "country": "Made in",
+      "rating": "Rating",
+      "reviews": "Reviews",
+      "cart": "Add to bag"
+    },
+    "chooseSize": "Size",
+    "noSizes": "Out of stock",
+    "toCart": "Add to bag",
+    "noDiff": "All details are identical"
   }
 }

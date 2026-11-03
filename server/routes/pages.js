@@ -4,6 +4,7 @@ import { config } from '../../config/index.js';
 import { renderPage } from '../lib/render.js';
 import { query } from '../../db/pool.js';
 import { ApiError } from '../lib/errors.js';
+import { pageRequireAuth } from '../middleware/auth.js';
 
 const router = express.Router();
 
@@ -82,6 +83,15 @@ router.get('/brand/:slug', async (req, res, next) => {
     description: String(req.lang === 'en' ? b.short_desc_en : b.short_desc_ru).slice(0, 200),
   });
 });
+
+// GET /cart — корзина (роль: любая; гость видит корзину из localStorage)
+router.get('/cart', (req, res) => renderPage(req, res, 'cart.html', { page: 'cart' }));
+
+// GET /compare — сравнение до 4 товаров (роль: любая; гость — список из localStorage)
+router.get('/compare', (req, res) => renderPage(req, res, 'compare.html', { page: 'compare' }));
+
+// GET /wishlist — избранное (роль: любой авторизованный; гость перенаправляется на вход)
+router.get('/wishlist', pageRequireAuth, (req, res) => renderPage(req, res, 'wishlist.html', { page: 'wishlist' }));
 
 // Просмотр оформленных страниц ошибок напрямую (роль: любая)
 router.get('/403', (req, res) => renderPage(req, res, '403.html', { page: 'error-403' }, 403));
