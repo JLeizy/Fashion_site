@@ -3,26 +3,175 @@
 <head>
   <!-- @include partials/head.html -->
   <title data-i18n="meta.home">AMFIBIA — маркетплейс брендовой одежды</title>
-  <link rel="stylesheet" href="/css/pages/error.css">
+  <link rel="stylesheet" href="/css/pages/home.css">
 </head>
 <body data-page="{{page}}">
   <!-- @include partials/sprite.html -->
   <!-- @include partials/overlays.html -->
   <!-- @include partials/header.html -->
-  <main id="main" class="error-page" tabindex="-1">
-    <div class="error-page__code" aria-hidden="true">Amfibia</div>
-    <div class="error-page__body">
-      <svg class="error-page__orn icon--fill" aria-hidden="true"><use href="#orn-fleur"/></svg>
-      <p class="error-page__num">MAISON · MMXXVI</p>
-      <h1 class="error-page__title" data-split="chars">Amfibia</h1>
-      <p class="error-page__text">Ядро интерфейса готово: шапка, мега-меню, поиск, темы, языки, валюты, мини-корзина. Главная страница появится на этапе 8.</p>
-      <div class="error-page__actions">
-        <button class="btn" type="button" data-search-open data-magnetic>Поиск</button>
-        <button class="btn btn--ghost" type="button" data-cart-open>Корзина</button>
+  <main id="main" class="page page--flush home" tabindex="-1">
+
+    <!-- 01 · Hero: слайдер новых коллекций (WebGL-переход, параллакс, раскрытие clip-path) -->
+    <section class="hero" data-hero tabindex="-1" aria-roledescription="carousel" data-i18n-attr="aria-label:home.heroAria" aria-label="Новые коллекции">
+      <div class="hero__media" data-hero-media>
+        <div class="hero__stage" data-hero-stage></div>
+        <div class="hero__shade" aria-hidden="true"></div>
       </div>
-    </div>
+      <div class="hero__content">
+        <p class="hero__eyebrow t-eyebrow"><span data-hero-num>01</span> <span class="hero__eyebrow-line"></span> <span data-hero-collection>Fall/Winter 2026</span></p>
+        <h1 class="hero__title" data-hero-title aria-live="polite">Amfibia</h1>
+        <p class="hero__brand b-title" data-hero-brand></p>
+        <p class="hero__subtitle" data-hero-subtitle data-i18n="home.heroFallback">Маркетплейс домов высокой моды: 15 брендов, проверка подлинности, доставка по СНГ.</p>
+        <div class="hero__actions">
+          <a class="btn" href="/catalog?new=1" data-hero-link data-magnetic><span data-i18n="home.heroCta">Смотреть коллекцию</span></a>
+          <a class="btn btn--ghost" href="/catalog" data-magnetic><span data-i18n="home.heroCatalog">Весь каталог</span></a>
+        </div>
+      </div>
+      <div class="hero__controls">
+        <div class="hero__counter t-mono"><span data-hero-current>01</span><span class="hero__counter-sep">/</span><span data-hero-total>06</span></div>
+        <div class="hero__progress"><span data-hero-progress></span></div>
+        <div class="hero__arrows">
+          <button type="button" class="icon-btn" data-hero-prev data-i18n-attr="aria-label:home.prevSlide" aria-label="Предыдущий слайд"><svg class="icon"><use href="#i-arrow-left"/></svg></button>
+          <button type="button" class="icon-btn" data-hero-next data-i18n-attr="aria-label:home.nextSlide" aria-label="Следующий слайд"><svg class="icon"><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </div>
+      <ol class="hero__index" data-hero-index></ol>
+      <a class="hero__scroll t-mono" href="#home-collections"><span data-i18n="home.scroll">Листайте</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <!-- 02 · Бегущая строка с названиями 15 брендов -->
+    <section class="marquee" data-marquee data-i18n-attr="aria-label:home.marqueeAria" aria-label="Бренды Amfibia">
+      <div class="marquee__row"><div class="marquee__track" data-marquee-track data-marquee-brands></div></div>
+      <div class="marquee__row marquee__row--reverse"><div class="marquee__track" data-marquee-track data-marquee-brands-2></div></div>
+    </section>
+
+    <!-- 03 · Новые коллекции: горизонтальная прокрутка при вертикальном скролле (GSAP pin) -->
+    <section class="hcol" id="home-collections" data-hcol>
+      <div class="hcol__pin" data-hcol-pin>
+        <header class="hcol__head">
+          <span class="home-num t-mono">02</span>
+          <div>
+            <p class="t-eyebrow" data-i18n="home.collectionsEyebrow">Сезон Осень — Зима 2026</p>
+            <h2 class="home-title" data-split="words" data-i18n="home.collectionsTitle">Новые коллекции</h2>
+          </div>
+          <p class="hcol__count t-mono" data-hcol-count></p>
+        </header>
+        <div class="hcol__viewport" data-hcol-viewport>
+          <div class="hcol__track" data-hcol-track></div>
+        </div>
+        <div class="hcol__bar"><span data-hcol-progress></span></div>
+      </div>
+    </section>
+
+    <!-- 04 · Сетка брендов: 15 плиток -->
+    <section class="home-section brands-grid-wrap">
+      <header class="home-head">
+        <span class="home-num t-mono">03</span>
+        <div>
+          <p class="t-eyebrow" data-i18n="home.brandsEyebrow">Пятнадцать домов</p>
+          <h2 class="home-title" data-split="words" data-i18n="home.brandsTitle">Модные дома</h2>
+        </div>
+        <a class="link-u t-mono home-head__link" href="/catalog" data-i18n="home.allProducts">Все товары →</a>
+      </header>
+      <div class="brands-grid" data-brands-grid></div>
+    </section>
+
+    <!-- 05 · Новинки: карусель карточек -->
+    <section class="home-section pp-rail home-rail" data-rail="new">
+      <header class="home-head pp-rail__head">
+        <span class="home-num t-mono">04</span>
+        <div>
+          <p class="t-eyebrow" data-i18n="home.newEyebrow">Только что прибыли</p>
+          <h2 class="home-title" data-split="words" data-i18n="home.newTitle">Новинки</h2>
+        </div>
+        <div class="pp-rail__nav">
+          <a class="link-u t-mono" href="/catalog?new=1&amp;sort=new" data-i18n="home.allNew">Все новинки →</a>
+          <button type="button" class="icon-btn" data-rail-prev data-i18n-attr="aria-label:product.scrollPrev" aria-label="Назад"><svg class="icon"><use href="#i-arrow-left"/></svg></button>
+          <button type="button" class="icon-btn" data-rail-next data-i18n-attr="aria-label:product.scrollNext" aria-label="Вперёд"><svg class="icon"><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </header>
+      <div class="rail" data-rail-track></div>
+    </section>
+
+    <!-- 06 · Культовые вещи: 6 знаковых предметов крупно -->
+    <section class="home-section iconic">
+      <header class="home-head">
+        <span class="home-num t-mono">05</span>
+        <div>
+          <p class="t-eyebrow" data-i18n="home.iconicEyebrow">Вне сезонов</p>
+          <h2 class="home-title" data-split="words" data-i18n="home.iconicTitle">Культовые вещи</h2>
+        </div>
+        <a class="link-u t-mono home-head__link" href="/catalog?iconic=1" data-i18n="home.allIconic">Все культовые вещи →</a>
+      </header>
+      <ol class="iconic__list" data-iconic></ol>
+    </section>
+
+    <!-- 07 · Манифест + след из изображений за курсором -->
+    <section class="manifest" data-manifest>
+      <p class="manifest__eyebrow t-eyebrow" data-i18n="home.manifestEyebrow">Maison de la mode gothique</p>
+      <p class="manifest__text" data-split="words" data-i18n-html="home.manifestText">Мы собираем <em>пятнадцать домов</em> — от парижской высокой моды до уличной иронии — и проверяем каждую вещь, прежде чем она отправится к вам.</p>
+      <p class="manifest__hint t-mono" data-i18n="home.manifestHint">Проведите курсором — вещи оживут</p>
+      <svg class="manifest__orn icon--fill" aria-hidden="true"><use href="#orn-cross-filigree"/></svg>
+    </section>
+
+    <!-- 08 · Истории брендов -->
+    <section class="home-section stories">
+      <header class="home-head">
+        <span class="home-num t-mono">06</span>
+        <div>
+          <p class="t-eyebrow" data-i18n="home.storiesEyebrow">Хроники домов моды</p>
+          <h2 class="home-title" data-split="words" data-i18n="home.storiesTitle">Истории брендов</h2>
+        </div>
+        <a class="link-u t-mono home-head__link" href="/histories" data-i18n="home.allStories">Все истории →</a>
+      </header>
+      <ol class="stories__list" data-stories></ol>
+      <div class="stories__float" data-stories-float aria-hidden="true"><img alt="" data-stories-float-img></div>
+    </section>
+
+    <!-- 09 · Подборки -->
+    <section class="home-section selections">
+      <header class="home-head">
+        <span class="home-num t-mono">07</span>
+        <div>
+          <p class="t-eyebrow" data-i18n="home.selectionsEyebrow">Кураторские подборки</p>
+          <h2 class="home-title" data-split="words" data-i18n="home.selectionsTitle">Подборки</h2>
+        </div>
+      </header>
+      <div class="selections__grid" data-selections></div>
+    </section>
+
+    <!-- 10 · Преимущества -->
+    <section class="home-section perks">
+      <ul class="perks__list">
+        <li class="perk" data-reveal>
+          <svg class="perk__icon icon" aria-hidden="true"><use href="#i-shield"/></svg>
+          <span class="perk__num t-mono">I</span>
+          <h3 class="perk__title" data-i18n="home.perkAuthTitle">Проверка подлинности</h3>
+          <p class="perk__text" data-i18n="home.perkAuthText">Каждую вещь осматривают эксперты Amfibia: материалы, фурнитура, швы, маркировка. К заказу прикладывается сертификат.</p>
+        </li>
+        <li class="perk" data-reveal>
+          <svg class="perk__icon icon" aria-hidden="true"><use href="#i-truck"/></svg>
+          <span class="perk__num t-mono">II</span>
+          <h3 class="perk__title" data-i18n="home.perkDeliveryTitle">Доставка по СНГ</h3>
+          <p class="perk__text" data-i18n="home.perkDeliveryText">Беларусь, Россия, Казахстан, Армения, Узбекистан, Кыргызстан — курьером, почтой, СДЭК и Boxberry. От 3 000 Br — бесплатно.</p>
+        </li>
+        <li class="perk" data-reveal>
+          <svg class="perk__icon icon" aria-hidden="true"><use href="#i-return"/></svg>
+          <span class="perk__num t-mono">III</span>
+          <h3 class="perk__title" data-i18n="home.perkReturnTitle">Возврат 14 дней</h3>
+          <p class="perk__text" data-i18n="home.perkReturnText">Не подошло — оформите возврат в профиле в течение 14 дней. Деньги вернутся тем же способом оплаты.</p>
+        </li>
+        <li class="perk" data-reveal>
+          <svg class="perk__icon icon" aria-hidden="true"><use href="#i-chat"/></svg>
+          <span class="perk__num t-mono">IV</span>
+          <h3 class="perk__title" data-i18n="home.perkSupportTitle">Поддержка</h3>
+          <p class="perk__text" data-i18n="home.perkSupportText">Персональный консультант ответит на вопросы о размере, уходе и доставке — ежедневно с 10:00 до 22:00.</p>
+        </li>
+      </ul>
+    </section>
+    <!-- 11 · Подписка на рассылку — блок footer__newsletter в подвале (на главной оформлен крупнее) -->
   </main>
   <!-- @include partials/footer.html -->
-  <script type="module" src="/js/pages/static.js"></script>
+  <script type="module" src="/js/pages/home.js"></script>
 </body>
 </html>

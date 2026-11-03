@@ -9,6 +9,7 @@ import wishlistRouter from './wishlist.js';
 import compareRouter from './compare.js';
 import notificationsRouter from './notifications.js';
 import miscRouter from './misc.js';
+import homeRouter from './home.js';
 
 const api = express.Router();
 
@@ -27,5 +28,6 @@ api.use('/wishlist', wishlistRouter);
 api.use('/compare', compareRouter);
 api.use('/notifications', notificationsRouter);
 api.use('/', miscRouter);
+api.use('/', homeRouter);
 
 export default api;

@@ -537,5 +537,72 @@
     "existsPending": "Your review is awaiting moderation",
     "chooseRating": "Choose a rating from 1 to 5",
     "login": "Sign in"
+  },
+  "home": {
+    "heroAria": "New collections of fashion houses",
+    "heroFallback": "A marketplace of haute couture houses: 15 brands, authenticity checks, delivery across the CIS.",
+    "heroCta": "Discover the collection",
+    "heroCatalog": "Full catalogue",
+    "prevSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "scroll": "Scroll",
+    "slideOf": "Slide {i} of {n}",
+    "marqueeAria": "Amfibia brands",
+    "collectionsEyebrow": "Fall — Winter 2026 season",
+    "collectionsTitle": "New collections",
+    "collectionsCount": "{n} collections",
+    "collectionItems": {
+      "one": "{n} piece",
+      "other": "{n} pieces"
+    },
+    "openCollection": "Open collection",
+    "brandsEyebrow": "Fifteen houses",
+    "brandsTitle": "Fashion houses",
+    "allProducts": "All products →",
+    "since": "since {year}",
+    "brandItems": {
+      "one": "{n} item",
+      "other": "{n} items"
+    },
+    "newEyebrow": "Just arrived",
+    "newTitle": "New in",
+    "allNew": "All new arrivals →",
+    "iconicEyebrow": "Beyond seasons",
+    "iconicTitle": "Iconic pieces",
+    "allIconic": "All iconic pieces →",
+    "iconicHouse": "House founded in {year}",
+    "iconicView": "View the piece",
+    "manifestEyebrow": "Maison de la mode gothique",
+    "manifestText": "We bring together <em>fifteen houses</em> — from Parisian haute couture to street irony — and verify every piece before it is sent to you.",
+    "manifestHint": "Move your cursor — the pieces come alive",
+    "storiesEyebrow": "Chronicles of fashion houses",
+    "storiesTitle": "Brand stories",
+    "allStories": "All stories →",
+    "founder": "Founder: {name}",
+    "readStory": "Read the story",
+    "selectionsEyebrow": "Curated edits",
+    "selectionsTitle": "Edits",
+    "selections": {
+      "gothic": "Gothic",
+      "streetwear": "Streetwear",
+      "classic": "Classic",
+      "jewelry": "Jewellery",
+      "fragrance": "Fragrance"
+    },
+    "selectionsText": {
+      "gothic": "Black, silver, crosses and dark romance",
+      "streetwear": "Hoodies, sneakers and street irony",
+      "classic": "Quiet luxury and timeless silhouettes",
+      "jewelry": "Rings, chains and pendants",
+      "fragrance": "Scents of the fashion houses"
+    },
+    "perkAuthTitle": "Authenticity check",
+    "perkAuthText": "Every piece is inspected by Amfibia experts: materials, hardware, stitching, labels. A certificate comes with your order.",
+    "perkDeliveryTitle": "Delivery across the CIS",
+    "perkDeliveryText": "Belarus, Russia, Kazakhstan, Armenia, Uzbekistan, Kyrgyzstan — by courier, post, CDEK and Boxberry. Free from 3,000 Br.",
+    "perkReturnTitle": "14-day returns",
+    "perkReturnText": "Didn't fit? Request a return in your account within 14 days. You'll be refunded to the original payment method.",
+    "perkSupportTitle": "Support",
+    "perkSupportText": "A personal adviser answers questions on size, care and delivery — daily from 10:00 to 22:00."
   }
 }
