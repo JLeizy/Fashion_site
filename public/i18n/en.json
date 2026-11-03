@@ -597,5 +597,38 @@
     "perkReturnText": "Didn't fit? Request a return in your account within 14 days. You'll be refunded to the original payment method.",
     "perkSupportTitle": "Support",
     "perkSupportText": "A personal adviser answers questions on size, care and delivery — daily from 10:00 to 22:00."
+  },
+  "brand": {
+    "readHistory": "Read the house history",
+    "toCatalog": "Brand catalogue",
+    "aboutEyebrow": "About the house",
+    "directors": "Creative directors",
+    "present": "present",
+    "collectionsEyebrow": "Seasons of the house",
+    "collectionsTitle": "Collections",
+    "allCollections": "All pieces",
+    "lookbook": "Lookbook",
+    "openLookbook": "View lookbook",
+    "showInCatalog": "Show in catalogue",
+    "iconicEyebrow": "House archive",
+    "iconicTitle": "Iconic models",
+    "catalogEyebrow": "Every piece of the house",
+    "catalogTitle": "Catalogue",
+    "nextHouse": "Next house",
+    "founded": "Founded in {year}",
+    "founder": "Founder — {name}",
+    "statProducts": "Products",
+    "statFrom": "Prices from",
+    "statRating": "Rating",
+    "statCategories": "Categories",
+    "house": "Fashion house",
+    "lookOf": "Look {i} of {n}",
+    "lookbookClose": "Close lookbook",
+    "collectionItems": {
+      "one": "{n} piece",
+      "other": "{n} pieces"
+    },
+    "newBadge": "New",
+    "historySoon": "The house history is being prepared"
   }
 }

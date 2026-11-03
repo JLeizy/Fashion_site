@@ -611,5 +611,40 @@
     "perkReturnText": "Не подошло — оформите возврат в профиле в течение 14 дней. Деньги вернутся тем же способом оплаты.",
     "perkSupportTitle": "Поддержка",
     "perkSupportText": "Персональный консультант ответит на вопросы о размере, уходе и доставке — ежедневно с 10:00 до 22:00."
+  },
+  "brand": {
+    "readHistory": "Читать историю бренда",
+    "toCatalog": "Каталог бренда",
+    "aboutEyebrow": "О доме",
+    "directors": "Креативные директора",
+    "present": "н. в.",
+    "collectionsEyebrow": "Сезоны дома",
+    "collectionsTitle": "Коллекции",
+    "allCollections": "Все вещи",
+    "lookbook": "Лукбук",
+    "openLookbook": "Смотреть лукбук",
+    "showInCatalog": "Показать в каталоге",
+    "iconicEyebrow": "Архив дома",
+    "iconicTitle": "Культовые модели",
+    "catalogEyebrow": "Все вещи дома",
+    "catalogTitle": "Каталог",
+    "nextHouse": "Следующий дом",
+    "founded": "Основан в {year}",
+    "founder": "Основатель — {name}",
+    "statProducts": "Товаров",
+    "statFrom": "Цены от",
+    "statRating": "Рейтинг",
+    "statCategories": "Категорий",
+    "house": "Модный дом",
+    "lookOf": "Образ {i} из {n}",
+    "lookbookClose": "Закрыть лукбук",
+    "collectionItems": {
+      "one": "{n} вещь",
+      "few": "{n} вещи",
+      "many": "{n} вещей",
+      "other": "{n} вещи"
+    },
+    "newBadge": "Новая",
+    "historySoon": "История дома готовится к публикации"
   }
 }

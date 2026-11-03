@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/css/pages/catalog.css">
+  <link rel="stylesheet" href="/css/pages/brand.css">
+</head>
+<body data-page="{{page}}" data-brand="{{brandSlug}}" data-brand-page="{{brandSlug}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="page page--flush brand-page" tabindex="-1">
+
+    <!-- 01 · Hero бренда в его микростилистике (цвет, типографика, фактура — brands.css) -->
+    <section class="bh" data-bh>
+      <div class="bh__media" data-bh-media><img data-bh-img alt="" fetchpriority="high"></div>
+      <div class="bh__texture b-texture" aria-hidden="true"></div>
+      <div class="bh__shade" aria-hidden="true"></div>
+      <div class="bh__inner">
+        <nav class="breadcrumbs bh__crumbs" data-breadcrumbs data-i18n-attr="aria-label:a11y.breadcrumbs" aria-label="Навигационная цепочка"></nav>
+        <p class="bh__eyebrow t-eyebrow" data-bh-eyebrow></p>
+        <h1 class="bh__name b-title" data-bh-name>{{brandName}}</h1>
+        <p class="bh__founder t-mono" data-bh-founder></p>
+        <dl class="bh__stats" data-bh-stats></dl>
+        <div class="bh__actions">
+          <a class="btn" href="#" data-bh-history data-magnetic><svg class="icon icon--sm"><use href="#i-book"/></svg><span data-i18n="brand.readHistory">Читать историю бренда</span></a>
+          <a class="btn btn--ghost" href="#brand-catalog" data-magnetic><span data-i18n="brand.toCatalog">Каталог бренда</span></a>
+        </div>
+      </div>
+      <div class="bh__sig" data-bh-sig></div>
+      <a class="bh__side bh__side--prev t-mono" href="#" data-bh-prev><svg class="icon icon--sm"><use href="#i-arrow-left"/></svg><span></span></a>
+      <a class="bh__side bh__side--next t-mono" href="#" data-bh-next><span></span><svg class="icon icon--sm"><use href="#i-arrow-right"/></svg></a>
+    </section>
+
+    <!-- 02 · О доме + линия креативных директоров -->
+    <section class="bsec babout">
+      <div class="babout__grid">
+        <div>
+          <span class="bsec__num t-mono">01</span>
+          <p class="t-eyebrow" data-i18n="brand.aboutEyebrow">О доме</p>
+        </div>
+        <p class="babout__text" data-babout-text></p>
+      </div>
+      <div class="lineage" data-lineage-wrap>
+        <p class="t-eyebrow lineage__title" data-i18n="brand.directors">Креативные директора</p>
+        <ol class="lineage__list" data-lineage></ol>
+      </div>
+    </section>
+
+    <!-- 03 · Коллекции: вкладки + режим «лукбук» -->
+    <section class="bsec bcols" id="collections">
+      <header class="bsec__head">
+        <span class="bsec__num t-mono">02</span>
+        <div>
+          <p class="t-eyebrow" data-i18n="brand.collectionsEyebrow">Сезоны дома</p>
+          <h2 class="bsec__title b-title" data-i18n="brand.collectionsTitle">Коллекции</h2>
+        </div>
+      </header>
+      <div class="tabs bcols__tabs" role="tablist" data-i18n-attr="aria-label:brand.collectionsTitle" aria-label="Коллекции" data-col-tabs></div>
+      <div class="bcols__panel" data-col-panel aria-live="polite"></div>
+    </section>
+
+    <!-- 04 · Культовые модели бренда -->
+    <section class="bsec pp-rail" data-rail="iconic" hidden>
+      <header class="bsec__head pp-rail__head">
+        <span class="bsec__num t-mono">03</span>
+        <div>
+          <p class="t-eyebrow" data-i18n="brand.iconicEyebrow">Архив дома</p>
+          <h2 class="bsec__title b-title" data-i18n="brand.iconicTitle">Культовые модели</h2>
+        </div>
+        <div class="pp-rail__nav">
+          <button type="button" class="icon-btn" data-rail-prev data-i18n-attr="aria-label:product.scrollPrev" aria-label="Назад"><svg class="icon"><use href="#i-arrow-left"/></svg></button>
+          <button type="button" class="icon-btn" data-rail-next data-i18n-attr="aria-label:product.scrollNext" aria-label="Вперёд"><svg class="icon"><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </header>
+      <div class="rail" data-rail-track></div>
+    </section>
+
+    <!-- 05 · Каталог бренда со всеми фильтрами (6.6, 9 ТЗ) -->
+    <section class="bsec bcat" id="brand-catalog">
+      <header class="bsec__head">
+        <span class="bsec__num t-mono">04</span>
+        <div>
+          <p class="t-eyebrow" data-i18n="brand.catalogEyebrow">Все вещи дома</p>
+          <h2 class="bsec__title b-title" data-i18n="brand.catalogTitle">Каталог</h2>
+        </div>
+        <p class="catalog-hero__count t-mono bcat__count" data-catalog-count></p>
+      </header>
+      <!-- @include partials/catalog.html -->
+    </section>
+
+    <!-- 06 · Следующий дом -->
+    <a class="bnext" href="#" data-bnext>
+      <span class="t-eyebrow" data-i18n="brand.nextHouse">Следующий дом</span>
+      <span class="bnext__name" data-bnext-name></span>
+      <svg class="bnext__arrow icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+    </a>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/brand.js"></script>
+</body>
+</html>

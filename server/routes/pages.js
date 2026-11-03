@@ -67,6 +67,22 @@ router.get('/product/:id', async (req, res, next) => {
   });
 });
 
+// GET /brand/:slug — страница бренда, один шаблон на 15 домов (роль: любая).
+// Сервер подставляет title, описание и data-brand (микростилистика из brands.css). Таблица: brands (SELECT)
+router.get('/brand/:slug', async (req, res, next) => {
+  // SQL: бренд по slug для заголовка страницы
+  const { rows } = await query('SELECT name, slug, short_desc_ru, short_desc_en FROM brands WHERE slug = $1', [String(req.params.slug).slice(0, 80)]);
+  const b = rows[0];
+  if (!b) return next(ApiError.notFound());
+  renderPage(req, res, 'brand.html', {
+    page: 'brand',
+    brandSlug: b.slug,
+    brandName: b.name,
+    title: `${b.name} — AMFIBIA`,
+    description: String(req.lang === 'en' ? b.short_desc_en : b.short_desc_ru).slice(0, 200),
+  });
+});
+
 // Просмотр оформленных страниц ошибок напрямую (роль: любая)
 router.get('/403', (req, res) => renderPage(req, res, '403.html', { page: 'error-403' }, 403));
 router.get('/404', (req, res) => renderPage(req, res, '404.html', { page: 'error-404' }, 404));

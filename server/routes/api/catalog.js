@@ -4,6 +4,8 @@ import express from 'express';
 import { query } from '../../../db/pool.js';
 import { getRates } from '../../services/rates.js';
 import { buildSearch } from '../../services/searchQuery.js';
+import { CARD_SELECT, CARD_JOINS, toCard } from '../../services/productCards.js';
+import { ApiError } from '../../lib/errors.js';
 
 const router = express.Router();
 
@@ -33,6 +35,115 @@ router.get('/brands', async (req, res) => {
       accentColor: b.accent_color,
       productsCount: b.products_count,
     })),
+  });
+});
+
+// GET /api/brands/:slug — страница бренда (раздел 6.4 ТЗ): данные дома, коллекции, креативные директора,
+// культовые модели, статистика и соседние бренды для навигации «предыдущий / следующий» (роль: любая).
+// Таблицы: brands, collections, products, creative_directors, brand_history_sections, product_images,
+//          product_variants, sizes, v_variant_stock (SELECT)
+router.get('/brands/:slug', async (req, res) => {
+  // SQL: бренд по slug
+  const { rows } = await query(
+    `SELECT b.*, (SELECT COUNT(*)::int FROM brand_history_sections s WHERE s.brand_id = b.id) AS history_sections
+       FROM brands b WHERE b.slug = $1`,
+    [String(req.params.slug).slice(0, 80)]
+  );
+  const b = rows[0];
+  if (!b) throw new ApiError(404, 'catalog.brandNotFound');
+
+  const [collections, directors, iconic, stats, neighbours, looks] = await Promise.all([
+    // SQL: коллекции бренда с количеством опубликованных товаров, новые — первыми
+    query(
+      `SELECT col.id, col.name, col.season, col.year, col.is_new, col.cover_image,
+              COUNT(p.id) FILTER (WHERE p.moderation_status = 'approved')::int AS products_count
+         FROM collections col
+         LEFT JOIN products p ON p.collection_id = col.id
+        WHERE col.brand_id = $1
+        GROUP BY col.id
+        ORDER BY col.year DESC, col.is_new DESC, col.id DESC`,
+      [b.id]
+    ),
+    // SQL: креативные директора в хронологическом порядке
+    query(
+      `SELECT id, name, years_from, years_to, description_ru, description_en, key_collections_ru, key_collections_en, photo
+         FROM creative_directors WHERE brand_id = $1 ORDER BY years_from`,
+      [b.id]
+    ),
+    // SQL: культовые модели бренда (карточки)
+    query(
+      `SELECT ${CARD_SELECT} FROM products p ${CARD_JOINS}
+        WHERE p.brand_id = $1 AND p.is_iconic AND p.moderation_status = 'approved'
+        ORDER BY p.views_count DESC, p.rating_avg DESC
+        LIMIT 8`,
+      [b.id]
+    ),
+    // SQL: статистика бренда — товаров, минимальная цена, средний рейтинг, категорий
+    query(
+      `SELECT COUNT(*)::int AS products, MIN(price_byn) AS min_price, ROUND(AVG(NULLIF(rating_avg, 0)), 2) AS rating,
+              COUNT(DISTINCT category_id)::int AS categories
+         FROM products WHERE brand_id = $1 AND moderation_status = 'approved'`,
+      [b.id]
+    ),
+    // SQL: предыдущий и следующий бренд по sort_order (по кругу)
+    query(
+      `SELECT slug, name, sort_order FROM brands ORDER BY sort_order, name`
+    ),
+    // SQL: образы для лукбука — по 12 главных фото товаров каждой коллекции бренда
+    query(
+      `SELECT * FROM (
+         SELECT p.id, p.collection_id, p.name_ru, p.name_en, p.price_byn,
+                (SELECT url FROM product_images WHERE product_id = p.id ORDER BY is_main DESC, sort_order LIMIT 1) AS image,
+                ROW_NUMBER() OVER (PARTITION BY p.collection_id ORDER BY p.is_iconic DESC, p.views_count DESC) AS rn
+           FROM products p
+          WHERE p.brand_id = $1 AND p.moderation_status = 'approved' AND p.collection_id IS NOT NULL
+       ) t WHERE t.rn <= 12`,
+      [b.id]
+    ),
+  ]);
+  const list = neighbours.rows;
+  const i = list.findIndex((x) => x.slug === b.slug);
+  const prev = list[(i - 1 + list.length) % list.length];
+  const next = list[(i + 1) % list.length];
+  const s = stats.rows[0];
+  res.json({
+    brand: {
+      id: b.id,
+      name: b.name,
+      slug: b.slug,
+      country: b.country,
+      foundedYear: b.founded_year,
+      founder: b.founder,
+      shortDesc: { ru: b.short_desc_ru, en: b.short_desc_en },
+      heroImage: b.hero_image,
+      accentColor: b.accent_color,
+      hasHistory: b.history_sections > 0,
+    },
+    stats: { products: s.products, minPrice: s.min_price ? Number(s.min_price) : 0, rating: s.rating ? Number(s.rating) : 0, categories: s.categories },
+    collections: collections.rows.map((c) => ({
+      id: c.id,
+      name: c.name,
+      season: c.season,
+      year: c.year,
+      isNew: c.is_new,
+      cover: c.cover_image,
+      productsCount: c.products_count,
+      looks: looks.rows
+        .filter((l) => l.collection_id === c.id)
+        .map((l) => ({ id: l.id, name: { ru: l.name_ru, en: l.name_en }, price: Number(l.price_byn), image: l.image })),
+    })),
+    directors: directors.rows.map((d) => ({
+      id: d.id,
+      name: d.name,
+      yearsFrom: d.years_from,
+      yearsTo: d.years_to,
+      description: { ru: d.description_ru, en: d.description_en },
+      keyCollections: { ru: d.key_collections_ru, en: d.key_collections_en },
+      photo: d.photo,
+    })),
+    iconic: iconic.rows.map(toCard),
+    prev: { slug: prev.slug, name: prev.name },
+    next: { slug: next.slug, name: next.name },
   });
 });
 
