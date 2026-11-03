@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title data-i18n="meta.account">Личный кабинет — AMFIBIA</title>
+  <link rel="stylesheet" href="/css/pages/catalog.css">
+  <link rel="stylesheet" href="/css/pages/shop.css">
+  <link rel="stylesheet" href="/css/pages/checkout.css">
+  <link rel="stylesheet" href="/css/pages/account.css">
+</head>
+<body data-page="{{page}}" data-role="{{role}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="page account-page" tabindex="-1">
+    <div class="acc">
+      <!-- Боковое меню: шапка профиля + вкладки (набор зависит от роли) -->
+      <aside class="acc__side" data-acc-side>
+        <div class="acc-profile">
+          <button type="button" class="acc-profile__avatar avatar" data-avatar-btn data-i18n-attr="aria-label:account.changeAvatar;title:account.changeAvatar" aria-label="Сменить аватар">
+            <span data-avatar></span>
+            <span class="acc-profile__avatar-edit" aria-hidden="true"><svg class="icon icon--sm"><use href="#i-upload"/></svg></span>
+          </button>
+          <input type="file" accept="image/jpeg,image/png,image/webp,image/gif" hidden data-avatar-input>
+          <div class="acc-profile__info">
+            <p class="acc-profile__name" data-profile-name></p>
+            <p class="acc-profile__role t-mono" data-profile-role></p>
+            <p class="acc-profile__since t-mono" data-profile-since></p>
+          </div>
+        </div>
+        <nav class="acc-nav" data-acc-nav data-i18n-attr="aria-label:account.menu" aria-label="Меню кабинета"></nav>
+        <button type="button" class="acc-nav__logout link-u t-mono" data-logout><svg class="icon icon--sm"><use href="#i-logout"/></svg><span data-i18n="auth.logout">Выйти</span></button>
+      </aside>
+
+      <section class="acc__main" data-acc-main aria-live="polite">
+        <nav class="breadcrumbs" data-breadcrumbs data-i18n-attr="aria-label:a11y.breadcrumbs" aria-label="Навигационная цепочка"></nav>
+        <header class="acc__head">
+          <p class="t-eyebrow" data-acc-eyebrow></p>
+          <h1 class="acc__title" data-acc-title></h1>
+        </header>
+        <div class="acc__view" data-acc-view>
+          <div class="skeleton" style="height:240px"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/account.js"></script>
+</body>
+</html>

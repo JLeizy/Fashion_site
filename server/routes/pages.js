@@ -107,6 +107,10 @@ router.get('/checkout/success/:number', pageRequireAuth, async (req, res, next) 
 // GET /tracking — публичное отслеживание заказа по трек-номеру (роль: любая)
 router.get('/tracking', (req, res) => renderPage(req, res, 'tracking.html', { page: 'tracking' }));
 
+// GET /account, /account/* — личный кабинет; набор вкладок зависит от роли (роль: любой авторизованный).
+// Разделы рисуются на клиенте (js/pages/account.js), данные — через /api; права проверяются на сервере в каждом API.
+router.get(['/account', '/account/*path'], pageRequireAuth, (req, res) => renderPage(req, res, 'account.html', { page: 'account' }));
+
 // Просмотр оформленных страниц ошибок напрямую (роль: любая)
 router.get('/403', (req, res) => renderPage(req, res, '403.html', { page: 'error-403' }, 403));
 router.get('/404', (req, res) => renderPage(req, res, '404.html', { page: 'error-404' }, 404));

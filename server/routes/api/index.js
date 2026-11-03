@@ -12,6 +12,7 @@ import miscRouter from './misc.js';
 import homeRouter from './home.js';
 import ordersRouter from './orders.js';
 import addressesRouter from './addresses.js';
+import accountRouter from './account.js';
 
 const api = express.Router();
 
@@ -33,5 +34,6 @@ api.use('/', miscRouter);
 api.use('/', homeRouter);
 api.use('/', ordersRouter);
 api.use('/addresses', addressesRouter);
+api.use('/', accountRouter);
 
 export default api;
