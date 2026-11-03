@@ -9,7 +9,6 @@ import fs from 'node:fs';
 import net from 'node:net';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import EmbeddedPostgres from 'embedded-postgres';
 import { config } from '../config/index.js';
 
 let instance = null;
@@ -34,6 +33,15 @@ export async function ensureEmbeddedPostgres({ quiet = false } = {}) {
   if (!config.embeddedPg.enabled) return null;
   if (instance) return instance;
   if (await isPortOpen('127.0.0.1', config.db.port)) return null; // уже работает (например, запущен сервером)
+
+  // Динамический импорт: пакет embedded-postgres — devDependency и нужен только при USE_EMBEDDED_PG=true.
+  // Со своим PostgreSQL (USE_EMBEDDED_PG=false) проект работает даже без него (npm ci --omit=dev).
+  let EmbeddedPostgres;
+  try {
+    ({ default: EmbeddedPostgres } = await import('embedded-postgres'));
+  } catch {
+    throw new Error('USE_EMBEDDED_PG=true, но пакет embedded-postgres не установлен. Выполните: npm install');
+  }
 
   const dataDir = config.embeddedPg.dataDir;
   const pg = new EmbeddedPostgres({
