@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/css/pages/product.css">
+</head>
+<body data-page="{{page}}" data-brand="{{brandSlug}}" data-product-page="{{productId}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="page product-page" tabindex="-1">
+    <!-- Огромное имя дома контуром на фоне -->
+    <div class="pp-bg b-title" aria-hidden="true" data-parallax="0.12" data-pp-bgname></div>
+
+    <div class="pp-top">
+      <nav class="breadcrumbs" data-breadcrumbs data-i18n-attr="aria-label:a11y.breadcrumbs" aria-label="Навигационная цепочка"></nav>
+      <div class="pp-notice" data-pp-notice hidden></div>
+    </div>
+
+    <!-- 01 · Галерея + информация -->
+    <section class="pp" data-pp aria-busy="true">
+      <div class="pp-gallery" data-gallery data-i18n-attr="aria-label:product.gallery" aria-label="Галерея товара">
+        <div class="pp-gallery__thumbs" data-gallery-thumbs role="tablist"></div>
+        <div class="pp-gallery__stage">
+          <figure class="pp-gallery__main" data-gallery-main>
+            <div class="skeleton pp-gallery__skeleton"></div>
+          </figure>
+          <div class="pp-gallery__labels" data-pp-labels></div>
+          <button type="button" class="icon-btn pp-gallery__expand" data-gallery-expand data-i18n-attr="aria-label:product.fullscreen;title:product.fullscreen" aria-label="Полноэкранный просмотр"><svg class="icon"><use href="#i-expand"/></svg></button>
+          <p class="pp-gallery__hint t-mono" data-i18n="product.zoomHint">Наведите, чтобы увеличить · нажмите для полноэкранного просмотра</p>
+          <div class="pp-gallery__dots" data-gallery-dots aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <div class="pp-info" data-pp-info>
+        <div class="pp-info__inner">
+          <a class="pp-brand b-title link-u" href="#" data-pp-brand></a>
+          <h1 class="pp-name" data-pp-name><span class="skeleton-line"></span></h1>
+          <div class="pp-meta t-mono">
+            <span data-pp-sku></span>
+            <a href="#reviews" class="pp-meta__rating" data-pp-rating></a>
+          </div>
+
+          <div class="pp-price" data-pp-price></div>
+          <p class="pp-price__alt t-mono" data-pp-price-alt></p>
+
+          <div class="pp-block" data-pp-colors-block hidden>
+            <p class="t-eyebrow" data-pp-color-label></p>
+            <div class="pp-colors" data-pp-colors></div>
+          </div>
+
+          <div class="pp-block" data-pp-sizes-block>
+            <div class="pp-block__head">
+              <p class="t-eyebrow" data-pp-size-label data-i18n="product.size">Размер</p>
+              <button type="button" class="pp-link t-mono link-u" data-size-chart><svg class="icon icon--sm"><use href="#i-ruler"/></svg><span data-i18n="product.sizeChart">Таблица размеров</span></button>
+            </div>
+            <div class="size-grid pp-sizes" data-pp-sizes role="radiogroup" data-i18n-attr="aria-label:product.size" aria-label="Размер"></div>
+            <p class="pp-stock t-mono" data-pp-stock aria-live="polite"></p>
+          </div>
+
+          <div class="pp-buy">
+            <div class="qty pp-qty" data-pp-qty>
+              <button type="button" data-qty="-1" data-i18n-attr="aria-label:product.quantity" aria-label="Количество"><svg class="icon icon--sm"><use href="#i-minus"/></svg></button>
+              <input type="number" min="1" value="1" inputmode="numeric" data-qty-input data-i18n-attr="aria-label:product.quantity" aria-label="Количество">
+              <button type="button" data-qty="1" data-i18n-attr="aria-label:product.quantity" aria-label="Количество"><svg class="icon icon--sm"><use href="#i-plus"/></svg></button>
+            </div>
+            <button type="button" class="btn pp-add" data-pp-add data-magnetic><span class="btn__label" data-i18n="product.addToCart">В корзину</span></button>
+            <button type="button" class="icon-btn pp-icon" data-pp-wish data-i18n-attr="aria-label:product.toWishlist;title:product.toWishlist" aria-label="В избранное" aria-pressed="false"><svg class="icon heart-icon"><use href="#i-heart"/></svg></button>
+            <button type="button" class="icon-btn pp-icon" data-pp-compare data-i18n-attr="aria-label:product.toCompare;title:product.toCompare" aria-label="Сравнить" aria-pressed="false"><svg class="icon"><use href="#i-compare"/></svg></button>
+          </div>
+
+          <ul class="pp-perks">
+            <li><svg class="icon icon--sm"><use href="#i-truck"/></svg><span data-i18n="product.deliveryLine">Доставка по СНГ — от 1 до 10 дней</span></li>
+            <li><svg class="icon icon--sm"><use href="#i-sparkle"/></svg><span data-i18n="product.freeDeliveryLine">Бесплатная доставка от 3 000 Br</span></li>
+            <li><svg class="icon icon--sm"><use href="#i-return"/></svg><span data-i18n="product.returnLine">Возврат в течение 14 дней</span></li>
+          </ul>
+
+          <div class="pp-auth" data-pp-auth hidden>
+            <svg class="pp-auth__orn icon--fill" aria-hidden="true"><use href="#orn-cross-filigree"/></svg>
+            <div>
+              <p class="pp-auth__title" data-i18n="product.authenticTitle">Проверено на подлинность</p>
+              <p class="pp-auth__text" data-i18n="product.authenticText">Эксперты Amfibia проверили материалы, фурнитуру, швы и маркировку.</p>
+            </div>
+          </div>
+
+          <div class="accordion pp-acc" data-accordion>
+            <div class="accordion__item">
+              <button type="button" class="accordion__head" aria-expanded="true" aria-controls="acc-desc" id="acc-desc-h"><span data-i18n="product.accDescription">Описание</span><span class="accordion__icon"></span></button>
+              <div class="accordion__body" id="acc-desc" role="region" aria-labelledby="acc-desc-h"><div><div class="accordion__content" data-pp-desc></div></div></div>
+            </div>
+            <div class="accordion__item">
+              <button type="button" class="accordion__head" aria-expanded="false" aria-controls="acc-comp" id="acc-comp-h"><span data-i18n="product.accComposition">Состав</span><span class="accordion__icon"></span></button>
+              <div class="accordion__body" id="acc-comp" role="region" aria-labelledby="acc-comp-h"><div><div class="accordion__content" data-pp-composition></div></div></div>
+            </div>
+            <div class="accordion__item">
+              <button type="button" class="accordion__head" aria-expanded="false" aria-controls="acc-care" id="acc-care-h"><span data-i18n="product.accCare">Уход</span><span class="accordion__icon"></span></button>
+              <div class="accordion__body" id="acc-care" role="region" aria-labelledby="acc-care-h"><div><div class="accordion__content" data-pp-care></div></div></div>
+            </div>
+            <div class="accordion__item">
+              <button type="button" class="accordion__head" aria-expanded="false" aria-controls="acc-deliv" id="acc-deliv-h"><span data-i18n="product.accDelivery">Доставка и возврат</span><span class="accordion__icon"></span></button>
+              <div class="accordion__body" id="acc-deliv" role="region" aria-labelledby="acc-deliv-h"><div><div class="accordion__content"><p data-i18n="product.deliveryText"></p></div></div></div>
+            </div>
+          </div>
+
+          <div class="pp-seller" data-pp-seller></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 · Характеристики (бирка в духе Margiela) -->
+    <section class="pp-section pp-specs-wrap">
+      <header class="pp-section__head">
+        <span class="pp-section__num t-mono">02</span>
+        <h2 class="pp-section__title" data-i18n="product.specs">Характеристики</h2>
+      </header>
+      <div class="pp-specs">
+        <dl class="pp-specs__list" data-pp-specs></dl>
+        <aside class="pp-label-tag" data-pp-tag aria-hidden="true"></aside>
+      </div>
+    </section>
+
+    <!-- 03 · Отзывы -->
+    <section class="pp-section pp-reviews" id="reviews" data-reviews>
+      <header class="pp-section__head">
+        <span class="pp-section__num t-mono">03</span>
+        <div>
+          <p class="t-eyebrow" data-i18n="reviews.eyebrow">Голос клиентов</p>
+          <h2 class="pp-section__title" data-i18n="reviews.title">Отзывы</h2>
+        </div>
+      </header>
+      <div class="pp-reviews__grid">
+        <aside class="pp-reviews__summary" data-reviews-summary></aside>
+        <div class="pp-reviews__main">
+          <div class="pp-reviews__toolbar">
+            <p class="t-mono t-muted" data-reviews-total></p>
+            <label>
+              <span class="sr-only" data-i18n="catalog.sortLabel">Сортировка</span>
+              <select class="select select--sm" data-reviews-sort>
+                <option value="new" data-i18n="reviews.sort.new">Сначала новые</option>
+                <option value="best" data-i18n="reviews.sort.best">Сначала высокие оценки</option>
+                <option value="worst" data-i18n="reviews.sort.worst">Сначала низкие оценки</option>
+              </select>
+            </label>
+          </div>
+          <ol class="pp-reviews__list" data-reviews-list></ol>
+          <nav class="pagination" data-reviews-pages data-i18n-attr="aria-label:catalog.pagination" aria-label="Страницы"></nav>
+          <div class="pp-review-form" data-review-form-wrap></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04–06 · Подборки -->
+    <section class="pp-section pp-rail" data-rail="together" hidden>
+      <header class="pp-section__head pp-rail__head">
+        <span class="pp-section__num t-mono">04</span>
+        <h2 class="pp-section__title" data-i18n="product.together">С этим покупают</h2>
+        <div class="pp-rail__nav">
+          <button type="button" class="icon-btn" data-rail-prev data-i18n-attr="aria-label:product.scrollPrev" aria-label="Назад"><svg class="icon"><use href="#i-arrow-left"/></svg></button>
+          <button type="button" class="icon-btn" data-rail-next data-i18n-attr="aria-label:product.scrollNext" aria-label="Вперёд"><svg class="icon"><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </header>
+      <div class="rail" data-rail-track></div>
+    </section>
+    <section class="pp-section pp-rail" data-rail="similar" hidden>
+      <header class="pp-section__head pp-rail__head">
+        <span class="pp-section__num t-mono">05</span>
+        <h2 class="pp-section__title" data-i18n="product.similar">Похожие товары</h2>
+        <div class="pp-rail__nav">
+          <button type="button" class="icon-btn" data-rail-prev data-i18n-attr="aria-label:product.scrollPrev" aria-label="Назад"><svg class="icon"><use href="#i-arrow-left"/></svg></button>
+          <button type="button" class="icon-btn" data-rail-next data-i18n-attr="aria-label:product.scrollNext" aria-label="Вперёд"><svg class="icon"><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </header>
+      <div class="rail" data-rail-track></div>
+    </section>
+    <section class="pp-section pp-rail" data-rail="viewed" hidden>
+      <header class="pp-section__head pp-rail__head">
+        <span class="pp-section__num t-mono">06</span>
+        <h2 class="pp-section__title" data-i18n="product.viewed">Вы смотрели</h2>
+        <div class="pp-rail__nav">
+          <button type="button" class="icon-btn" data-rail-prev data-i18n-attr="aria-label:product.scrollPrev" aria-label="Назад"><svg class="icon"><use href="#i-arrow-left"/></svg></button>
+          <button type="button" class="icon-btn" data-rail-next data-i18n-attr="aria-label:product.scrollNext" aria-label="Вперёд"><svg class="icon"><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </header>
+      <div class="rail" data-rail-track></div>
+    </section>
+
+    <!-- Липкая панель покупки на телефоне -->
+    <div class="pp-sticky" data-pp-sticky aria-hidden="true">
+      <div class="pp-sticky__info">
+        <p class="pp-sticky__name" data-pp-sticky-name></p>
+        <p class="pp-sticky__price t-mono" data-pp-sticky-price></p>
+      </div>
+      <button type="button" class="btn btn--sm" data-pp-sticky-add tabindex="-1"><span data-i18n="product.addToCart">В корзину</span></button>
+    </div>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/product.js"></script>
+</body>
+</html>

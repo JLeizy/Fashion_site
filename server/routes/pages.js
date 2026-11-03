@@ -2,6 +2,8 @@
 import express from 'express';
 import { config } from '../../config/index.js';
 import { renderPage } from '../lib/render.js';
+import { query } from '../../db/pool.js';
+import { ApiError } from '../lib/errors.js';
 
 const router = express.Router();
 
@@ -37,6 +39,33 @@ router.get('/auth', (req, res) => {
 
 // GET /catalog — общий каталог с фильтрами; все параметры фильтра в URL (роль: любая)
 router.get('/catalog', (req, res) => renderPage(req, res, 'catalog.html', { page: 'catalog' }));
+
+// GET /product/:id — страница товара (роль: любая; неопубликованный товар — только продавец и модерация).
+// Сервер подставляет <title> и meta description, остальное страница грузит через /api/products/:id.
+// Таблицы: products, brands (SELECT)
+router.get('/product/:id', async (req, res, next) => {
+  const id = Number(req.params.id);
+  if (!Number.isInteger(id) || id < 1) return next(ApiError.notFound());
+  // SQL: название, бренд и описание товара для заголовка страницы
+  const { rows } = await query(
+    `SELECT p.id, p.name_ru, p.name_en, p.description_ru, p.description_en, p.moderation_status, p.seller_id, b.name AS brand, b.slug AS brand_slug
+       FROM products p JOIN brands b ON b.id = p.brand_id
+      WHERE p.id = $1`,
+    [id]
+  );
+  const p = rows[0];
+  const staff = req.user && ['owner', 'moderator'].includes(req.user.role);
+  if (!p || (p.moderation_status !== 'approved' && !staff && req.user?.id !== p.seller_id)) return next(ApiError.notFound());
+  const en = req.lang === 'en';
+  const name = en ? p.name_en : p.name_ru;
+  renderPage(req, res, 'product.html', {
+    page: 'product',
+    productId: p.id,
+    brandSlug: p.brand_slug,
+    title: `${p.brand} — ${name} — AMFIBIA`,
+    description: String(en ? p.description_en : p.description_ru).slice(0, 200),
+  });
+});
 
 // Просмотр оформленных страниц ошибок напрямую (роль: любая)
 router.get('/403', (req, res) => renderPage(req, res, '403.html', { page: 'error-403' }, 403));

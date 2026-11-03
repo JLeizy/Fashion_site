@@ -1,8 +1,9 @@
 // Каталог товаров (разделы 6.6–6.8 и 9 ТЗ): список с фильтрами, фасеты, карточка товара, просмотры.
 import express from 'express';
-import { param, query as q } from 'express-validator';
+import { body, param, query as q } from 'express-validator';
 import { query } from '../../../db/pool.js';
-import { validate } from '../../middleware/validate.js';
+import { validate, msg } from '../../middleware/validate.js';
+import { requireAuth } from '../../middleware/auth.js';
 import { ApiError } from '../../lib/errors.js';
 import { getRates } from '../../services/rates.js';
 import { CARD_SELECT, CARD_JOINS, toCard } from '../../services/productCards.js';
@@ -238,5 +239,227 @@ router.post('/:id/view', validate([param('id').isInt({ min: 1 })]), async (req, 
   }
   res.json({ ok: true });
 });
+
+// ---------------------------------------------------------------------------------------------
+// Отзывы (раздел 6.8 ТЗ): на сайте видны только одобренные; оставить отзыв может только
+// покупатель, который купил и получил товар (заказ в статусе delivered). Новый отзыв — pending.
+// ---------------------------------------------------------------------------------------------
+
+// Может ли пользователь оставить отзыв на товар.
+// Таблицы: reviews (SELECT — уже оставлял?), order_items JOIN orders (SELECT — купил и получил?)
+async function reviewEligibility(userId, productId) {
+  if (!userId) return { allowed: false, reason: 'auth', orderItemId: null };
+  // SQL: отзыв этого пользователя на этот товар (UNIQUE(product_id, user_id) — второй оставить нельзя)
+  const existing = await query('SELECT id, status FROM reviews WHERE product_id = $1 AND user_id = $2', [productId, userId]);
+  if (existing.rowCount) return { allowed: false, reason: 'exists', status: existing.rows[0].status, orderItemId: null };
+  // SQL: последняя позиция доставленного заказа пользователя с этим товаром
+  const bought = await query(
+    `SELECT oi.id
+       FROM order_items oi
+       JOIN orders o ON o.id = oi.order_id
+      WHERE o.user_id = $1 AND oi.product_id = $2 AND o.status = 'delivered'
+      ORDER BY o.created_at DESC
+      LIMIT 1`,
+    [userId, productId]
+  );
+  if (!bought.rowCount) return { allowed: false, reason: 'notBought', orderItemId: null };
+  return { allowed: true, reason: null, orderItemId: bought.rows[0].id };
+}
+
+const REVIEW_SORTS = {
+  new: 'r.created_at DESC',
+  best: 'r.rating DESC, r.created_at DESC',
+  worst: 'r.rating ASC, r.created_at DESC',
+};
+
+// GET /api/products/:id/reviews?page=1&limit=5&sort=new — одобренные отзывы с пагинацией (роль: любая)
+// Таблицы: reviews (SELECT approved), users (имя автора), order_items (купленный размер) — SELECT.
+// Дополнительно: canReview — может ли текущий пользователь оставить отзыв (reviews, order_items, orders).
+router.get(
+  '/:id/reviews',
+  validate([
+    param('id').isInt({ min: 1 }),
+    q('page').optional().isInt({ min: 1, max: 500 }),
+    q('limit').optional().isInt({ min: 1, max: 20 }),
+    q('sort').optional().isIn(Object.keys(REVIEW_SORTS)),
+  ]),
+  async (req, res) => {
+    const productId = Number(req.params.id);
+    const limit = Number(req.query.limit) || 5;
+    const page = Number(req.query.page) || 1;
+    const sort = REVIEW_SORTS[req.query.sort] ? req.query.sort : 'new';
+    const [list, eligibility] = await Promise.all([
+      // SQL: страница одобренных отзывов + общее количество (оконная функция COUNT(*) OVER ())
+      query(
+        `SELECT r.id, r.rating, r.text, r.created_at,
+                u.first_name, LEFT(u.last_name, 1) AS last_initial, u.avatar,
+                oi.size_label,
+                COUNT(*) OVER () AS total
+           FROM reviews r
+           JOIN users u ON u.id = r.user_id
+           LEFT JOIN order_items oi ON oi.id = r.order_item_id
+          WHERE r.product_id = $1 AND r.status = 'approved'
+          ORDER BY ${REVIEW_SORTS[sort]}
+          LIMIT $2 OFFSET $3`,
+        [productId, limit, (page - 1) * limit]
+      ),
+      reviewEligibility(req.user?.id, productId),
+    ]);
+    const total = list.rows[0]?.total || 0;
+    res.json({
+      items: list.rows.map((r) => ({
+        id: r.id,
+        rating: r.rating,
+        text: r.text,
+        createdAt: r.created_at,
+        author: `${r.first_name} ${r.last_initial ? `${r.last_initial}.` : ''}`.trim(),
+        avatar: r.avatar,
+        size: r.size_label,
+        verifiedPurchase: Boolean(r.size_label),
+      })),
+      total,
+      page,
+      pages: Math.max(1, Math.ceil(total / limit)),
+      sort,
+      canReview: { allowed: eligibility.allowed, reason: eligibility.reason, status: eligibility.status || null },
+    });
+  }
+);
+
+// POST /api/products/:id/reviews — новый отзыв (роль: любой вошедший, фактически — покупатель с доставленным заказом)
+// Таблицы: reviews (INSERT, status = 'pending' — появится на сайте после модерации),
+//          order_items + orders (SELECT — проверка покупки), products (SELECT — товар опубликован)
+router.post(
+  '/:id/reviews',
+  requireAuth,
+  validate([
+    param('id').isInt({ min: 1 }),
+    body('rating').isInt({ min: 1, max: 5 }).withMessage(msg('validation.rating')).toInt(),
+    body('text').isString().trim().isLength({ min: 10, max: 2000 }).withMessage(msg('validation.length', { min: 10, max: 2000 })),
+  ]),
+  async (req, res) => {
+    const productId = Number(req.params.id);
+    // SQL: товар существует и опубликован
+    const product = await query("SELECT id FROM products WHERE id = $1 AND moderation_status = 'approved'", [productId]);
+    if (!product.rowCount) throw new ApiError(404, 'catalog.productNotFound');
+    const eligibility = await reviewEligibility(req.user.id, productId);
+    if (!eligibility.allowed) throw new ApiError(eligibility.reason === 'exists' ? 409 : 403, eligibility.reason === 'exists' ? 'reviews.exists' : 'reviews.notAllowed');
+    // SQL: отзыв уходит на модерацию; текст хранится как есть и экранируется при выводе (защита от XSS)
+    const { rows } = await query(
+      `INSERT INTO reviews (product_id, user_id, order_item_id, rating, text, status)
+       VALUES ($1, $2, $3, $4, $5, 'pending')
+       RETURNING id, status, created_at`,
+      [productId, req.user.id, eligibility.orderItemId, req.valid.rating, req.valid.text]
+    );
+    res.status(201).json({ review: rows[0], message: req.t('reviews.sent') });
+  }
+);
+
+// ---------------------------------------------------------------------------------------------
+// Рекомендации на странице товара: «Похожие товары», «С этим покупают», «Вы смотрели»
+// ---------------------------------------------------------------------------------------------
+
+// GET /api/products/:id/related?viewed=1,2,3 — три подборки карточек (роль: любая)
+//   similar  — та же подкатегория (сначала тот же бренд и близкая цена), без других цветов этой же модели;
+//   together — товары, которые встречаются в одних заказах с этим (order_items × order_items),
+//              дополняются вещами того же бренда из других корневых категорий;
+//   viewed   — у вошедшего из viewed_products, у гостя — id из параметра viewed (localStorage).
+// Таблицы: products, brands, categories, product_images, product_variants, sizes, v_variant_stock,
+//          order_items, viewed_products (SELECT)
+router.get(
+  '/:id/related',
+  validate([param('id').isInt({ min: 1 }), q('viewed').optional().isString()]),
+  async (req, res) => {
+    const id = Number(req.params.id);
+    // SQL: базовые поля текущего товара (подкатегория, родительская категория, бренд, цена, модель)
+    const base = await query(
+      `SELECT p.id, p.brand_id, p.category_id, p.price_byn, p.model_code, c.parent_id
+         FROM products p JOIN categories c ON c.id = p.category_id
+        WHERE p.id = $1 AND p.moderation_status = 'approved'`,
+      [id]
+    );
+    const cur = base.rows[0];
+    if (!cur) throw new ApiError(404, 'catalog.productNotFound');
+
+    // SQL: похожие — та же подкатегория; сортировка: тот же бренд, затем близость цены
+    const similarSql = query(
+      `SELECT ${CARD_SELECT}
+         FROM products p ${CARD_JOINS}
+        WHERE p.category_id = $1 AND p.id <> $2 AND p.moderation_status = 'approved'
+          AND ($3::varchar IS NULL OR p.model_code IS DISTINCT FROM $3)
+        ORDER BY (p.brand_id = $4) DESC, ABS(p.price_byn - $5) ASC, p.id
+        LIMIT 12`,
+      [cur.category_id, id, cur.model_code, cur.brand_id, cur.price_byn]
+    );
+
+    // SQL: «с этим покупают» — частота совместных покупок в одном заказе
+    const togetherSql = query(
+      `WITH pairs AS (
+         SELECT oi2.product_id, COUNT(*) AS n
+           FROM order_items oi1
+           JOIN order_items oi2 ON oi2.order_id = oi1.order_id AND oi2.product_id <> oi1.product_id
+          WHERE oi1.product_id = $1 AND oi2.product_id IS NOT NULL
+          GROUP BY oi2.product_id
+       )
+       SELECT ${CARD_SELECT}, pairs.n AS pair_n
+         FROM pairs
+         JOIN products p ON p.id = pairs.product_id ${CARD_JOINS}
+        WHERE p.moderation_status = 'approved'
+        ORDER BY pairs.n DESC, p.rating_avg DESC
+        LIMIT 12`,
+      [id]
+    );
+
+    // SQL: дополнение «с этим покупают» — тот же бренд, другая корневая категория (образ целиком)
+    const complementSql = query(
+      `SELECT ${CARD_SELECT}
+         FROM products p ${CARD_JOINS}
+        WHERE p.brand_id = $1 AND p.id <> $2 AND p.moderation_status = 'approved'
+          AND c.parent_id IS DISTINCT FROM $3
+        ORDER BY p.is_iconic DESC, p.rating_avg DESC, p.views_count DESC
+        LIMIT 12`,
+      [cur.brand_id, id, cur.parent_id]
+    );
+
+    // «Вы смотрели»: вошедший — из БД, гость — список id из localStorage
+    let viewedSql;
+    if (req.user) {
+      // SQL: последние просмотренные пользователем товары (viewed_products), кроме текущего
+      viewedSql = query(
+        `SELECT ${CARD_SELECT}
+           FROM viewed_products vp
+           JOIN products p ON p.id = vp.product_id ${CARD_JOINS}
+          WHERE vp.user_id = $1 AND p.id <> $2 AND p.moderation_status = 'approved'
+          ORDER BY vp.viewed_at DESC
+          LIMIT 12`,
+        [req.user.id, id]
+      );
+    } else {
+      const ids = String(req.query.viewed || '')
+        .split(',')
+        .map(Number)
+        .filter((n) => Number.isInteger(n) && n > 0 && n !== id)
+        .slice(0, 12);
+      // SQL: карточки по списку id; порядок восстанавливается через array_position
+      viewedSql = ids.length
+        ? query(
+            `SELECT ${CARD_SELECT} FROM products p ${CARD_JOINS}
+              WHERE p.id = ANY($1::int[]) AND p.moderation_status = 'approved'
+              ORDER BY array_position($1::int[], p.id)`,
+            [ids]
+          )
+        : Promise.resolve({ rows: [] });
+    }
+
+    const [similar, together, complement, viewed] = await Promise.all([similarSql, togetherSql, complementSql, viewedSql]);
+    const seen = new Set(together.rows.map((r) => r.id));
+    const togetherRows = [...together.rows, ...complement.rows.filter((r) => !seen.has(r.id))].slice(0, 12);
+    res.json({
+      similar: similar.rows.map(toCard),
+      together: togetherRows.map(toCard),
+      viewed: viewed.rows.map(toCard),
+    });
+  }
+);
 
 export default router;

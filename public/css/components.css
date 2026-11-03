@@ -649,7 +649,8 @@ input:checked + .color-dot::after {
 @media (max-width: 767px) {
   .catalog__grid .label--verified .label__text { display: none; }
 }
-.catalog__grid[data-cols='4'] .label--verified .label__text { display: none; }
+.catalog__grid[data-cols='4'] .label--verified .label__text,
+.rail .label--verified .label__text { display: none; }
 
 /* Бирка в стиле Maison Margiela: белый лоскут с четырьмя стежками */
 .mm-tag {
@@ -1617,3 +1618,36 @@ input:checked + .color-dot::after {
     display: none !important;
   }
 }
+
+/* ---------- Размеры, образцы цветов, быстрый просмотр (каталог, товар, бренд, главная) ---------- */
+.size-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+.size-btn { min-width: 46px; height: 40px; padding: 0 10px; border: 1px solid var(--line-2); font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--text-2); transition: border-color var(--dur-2), background-color var(--dur-2), color var(--dur-2); }
+.size-btn:hover { border-color: var(--text); color: var(--text); }
+.size-btn[aria-pressed='true'] { background: var(--text); color: var(--bg); border-color: var(--text); }
+.size-btn[disabled] { opacity: 0.3; text-decoration: line-through; pointer-events: none; }
+.size-grid--filter .size-btn { min-width: 40px; height: 34px; }
+.swatches { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+.swatch-btn { display: grid; justify-items: center; gap: 4px; }
+.swatch-btn[aria-pressed='true'] .color-dot::after { content: ''; position: absolute; inset: -4px; border-radius: 50%; border: 1px solid var(--text); }
+.swatch-btn__n { font-size: 0.625rem; color: var(--text-3); }
+/* Быстрый просмотр */
+.modal--qv { --modal-w: 1040px; }
+.qv { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(20px, 3vw, 44px); }
+.qv__main { aspect-ratio: 4 / 5; background: var(--bg); overflow: hidden; }
+.qv__main img { width: 100%; height: 100%; object-fit: cover; }
+.qv__thumbs { display: flex; gap: 8px; margin-top: 8px; }
+.qv__thumb { width: 64px; opacity: 0.55; border: 1px solid transparent; }
+.qv__thumb.is-active { opacity: 1; border-color: var(--text); }
+.qv__info { display: grid; align-content: start; gap: 14px; }
+.qv__labels { display: flex; flex-wrap: wrap; gap: 6px; }
+.qv__name { font-size: var(--fs-2xl); }
+.qv__sku, .qv__stock { font-size: var(--fs-xs); color: var(--text-3); }
+.qv__price { font-size: var(--fs-lg); }
+.qv__block { display: grid; gap: 10px; }
+.qv__colors { display: flex; gap: 12px; }
+.qv__actions { display: flex; gap: 10px; align-items: center; }
+.qv__wish.is-active { color: var(--accent-text); }
+.qv__wish.is-active .heart-icon { fill: currentColor; }
+.qv__desc { font-size: var(--fs-sm); color: var(--text-2); }
+.qv__loading { padding: 60px; text-align: center; color: var(--text-3); }
+@media (max-width: 1023px) { .qv { grid-template-columns: 1fr; } }

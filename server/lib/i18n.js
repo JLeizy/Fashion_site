@@ -119,6 +119,7 @@ const messages = {
     // --- отзывы ---
     'reviews.notAllowed': 'Отзыв можно оставить только на купленный и полученный товар',
     'reviews.exists': 'Вы уже оставили отзыв на этот товар',
+    'reviews.sent': 'Спасибо! Отзыв появится после проверки модератором',
 
     // --- поддержка ---
     'tickets.notFound': 'Обращение не найдено',
@@ -255,6 +256,7 @@ const messages = {
 
     'reviews.notAllowed': 'You can only review products you bought and received',
     'reviews.exists': 'You have already reviewed this product',
+    'reviews.sent': 'Thank you! Your review will appear after moderation',
 
     'tickets.notFound': 'Support request not found',
     'tickets.closed': 'This support request is closed',
