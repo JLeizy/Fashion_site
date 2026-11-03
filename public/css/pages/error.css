@@ -1,0 +1,72 @@
+/* Страницы ошибок 404 / 403 / 500 */
+.error-page {
+  position: relative;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  text-align: center;
+  padding: calc(var(--header-h) + var(--topbar-h) + 40px) var(--gutter) 80px;
+}
+.error-page__code {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -54%);
+  font-family: var(--font-gothic);
+  font-size: clamp(14rem, 40vw, 42rem);
+  line-height: 0.8;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--line-2);
+  white-space: nowrap;
+  user-select: none;
+  pointer-events: none;
+}
+.error-page__body {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 22px;
+  max-width: 640px;
+}
+.error-page__orn {
+  width: 74px;
+  height: 74px;
+  color: var(--accent-text);
+  animation: orn-spin 18s linear infinite;
+}
+.error-page--500 .error-page__orn {
+  animation: orn-break 2.4s var(--ease-in-out) infinite alternate;
+}
+.error-page--403 .error-page__orn {
+  animation: none;
+}
+@keyframes orn-spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes orn-break {
+  0% { transform: rotate(0deg) translateX(0); }
+  40% { transform: rotate(-8deg) translateX(-3px); }
+  60% { transform: rotate(12deg) translateX(4px); }
+  100% { transform: rotate(-4deg); }
+}
+.error-page__num {
+  font-family: var(--font-mono);
+  letter-spacing: 0.4em;
+  color: var(--text-3);
+}
+.error-page__title {
+  font-size: var(--fs-3xl);
+  font-style: italic;
+  line-height: 1;
+}
+.error-page__text {
+  color: var(--text-2);
+  max-width: 48ch;
+}
+.error-page__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+}

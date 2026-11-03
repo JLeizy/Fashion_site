@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title data-i18n="meta.home">AMFIBIA — маркетплейс брендовой одежды</title>
+  <link rel="stylesheet" href="/css/pages/error.css">
+</head>
+<body data-page="{{page}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="error-page" tabindex="-1">
+    <div class="error-page__code" aria-hidden="true">Amfibia</div>
+    <div class="error-page__body">
+      <svg class="error-page__orn icon--fill" aria-hidden="true"><use href="#orn-fleur"/></svg>
+      <p class="error-page__num">MAISON · MMXXVI</p>
+      <h1 class="error-page__title" data-split="chars">Amfibia</h1>
+      <p class="error-page__text">Ядро интерфейса готово: шапка, мега-меню, поиск, темы, языки, валюты, мини-корзина. Главная страница появится на этапе 8.</p>
+      <div class="error-page__actions">
+        <button class="btn" type="button" data-search-open data-magnetic>Поиск</button>
+        <button class="btn btn--ghost" type="button" data-cart-open>Корзина</button>
+      </div>
+    </div>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/static.js"></script>
+</body>
+</html>

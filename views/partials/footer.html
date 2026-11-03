@@ -1,0 +1,64 @@
+<footer class="footer" data-footer>
+  <div class="footer__ornament divider" aria-hidden="true"><svg><use href="#orn-cross-filigree"/></svg></div>
+
+  <section class="footer__newsletter container" aria-labelledby="newsletter-title">
+    <div class="footer__newsletter-text">
+      <p class="t-eyebrow" data-i18n="footer.newsletterEyebrow">Рассылка AMFIBIA</p>
+      <h2 class="footer__newsletter-title" id="newsletter-title" data-i18n-html="footer.newsletterTitle">Первыми узнавайте о <em>новых коллекциях</em></h2>
+    </div>
+    <form class="newsletter" data-newsletter-form novalidate>
+      <label class="sr-only" for="newsletter-email" data-i18n="footer.email">Email</label>
+      <input class="newsletter__input" id="newsletter-email" type="email" name="email" required autocomplete="email" data-i18n-attr="placeholder:footer.emailPlaceholder" placeholder="Ваш email">
+      <button class="newsletter__btn" type="submit" data-magnetic><span data-i18n="footer.subscribe">Подписаться</span><svg class="icon"><use href="#i-arrow-right"/></svg></button>
+      <p class="newsletter__note t-muted" data-i18n="footer.newsletterNote">Не чаще раза в неделю. Отписаться можно в любой момент.</p>
+    </form>
+  </section>
+
+  <div class="footer__grid container">
+    <div class="footer__col">
+      <h3 class="footer__title" data-i18n="footer.brands">Бренды</h3>
+      <ul class="footer__list footer__list--brands" data-footer-brands></ul>
+    </div>
+    <div class="footer__col">
+      <h3 class="footer__title" data-i18n="footer.customers">Покупателям</h3>
+      <ul class="footer__list">
+        <li><a class="link-u" href="/delivery" data-i18n="footer.delivery">Доставка и оплата</a></li>
+        <li><a class="link-u" href="/returns" data-i18n="footer.returns">Возврат</a></li>
+        <li><a class="link-u" href="/size-guide" data-i18n="footer.sizes">Таблица размеров</a></li>
+        <li><a class="link-u" href="/tracking" data-i18n="footer.tracking">Отследить заказ</a></li>
+        <li><a class="link-u" href="/account/support" data-i18n="footer.support">Поддержка</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h3 class="footer__title" data-i18n="footer.company">О компании</h3>
+      <ul class="footer__list">
+        <li><a class="link-u" href="/about" data-i18n="footer.about">О нас</a></li>
+        <li><a class="link-u" href="/histories" data-i18n="footer.histories">Истории брендов</a></li>
+        <li><a class="link-u" href="/contacts" data-i18n="footer.contacts">Контакты</a></li>
+        <li><a class="link-u" href="/account/seller-application" data-i18n="footer.becomeSeller">Стать продавцом</a></li>
+        <li><a class="link-u" href="/privacy" data-i18n="footer.privacy">Политика конфиденциальности</a></li>
+      </ul>
+    </div>
+    <div class="footer__col footer__col--contacts">
+      <h3 class="footer__title" data-i18n="footer.contactsTitle">Контакты</h3>
+      <ul class="footer__list">
+        <li><a class="link-u t-mono" href="tel:+375291234567">+375 29 123-45-67</a></li>
+        <li><a class="link-u t-mono" href="mailto:hello@amfibia.by">hello@amfibia.by</a></li>
+        <li class="t-muted" data-i18n="footer.address">Минск, ул. Октябрьская, 16 — шоурум, ежедневно 11:00–21:00</li>
+      </ul>
+      <ul class="footer__social">
+        <li><a class="link-u t-mono" href="#" rel="noopener">Instagram</a></li>
+        <li><a class="link-u t-mono" href="#" rel="noopener">Telegram</a></li>
+        <li><a class="link-u t-mono" href="#" rel="noopener">Pinterest</a></li>
+        <li><a class="link-u t-mono" href="#" rel="noopener">YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer__bottom container">
+    <span class="t-mono">© {{year}} AMFIBIA</span>
+    <span class="footer__bottom-mid t-muted" data-i18n="footer.legal">Все торговые марки принадлежат их владельцам. Учебный проект.</span>
+    <span class="t-mono" data-i18n="footer.made">Сделано в Минске</span>
+  </div>
+  <div class="footer__watermark" aria-hidden="true">Amfibia</div>
+</footer>

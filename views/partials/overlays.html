@@ -1,0 +1,159 @@
+<div class="vignette" aria-hidden="true"></div>
+
+<!-- Прелоадер (только при первом заходе за сессию): логотип прорисовывается линией и заливается -->
+<div class="preloader" data-preloader aria-hidden="true">
+  <svg class="preloader__logo" viewBox="0 0 900 220">
+    <text x="450" y="160" text-anchor="middle" class="preloader__text">Amfibia</text>
+  </svg>
+  <div class="preloader__meta">
+    <span class="t-mono" data-preloader-count>000</span>
+    <span class="t-eyebrow">Maison de la mode — MMXXVI</span>
+  </div>
+  <div class="preloader__line"><span data-preloader-bar></span></div>
+</div>
+
+<!-- Шторка переходов между страницами -->
+<div class="curtain" data-curtain aria-hidden="true">
+  <div class="curtain__inner">
+    <svg class="curtain__orn"><use href="#orn-cross-filigree"/></svg>
+    <span class="curtain__logo">Amfibia</span>
+  </div>
+</div>
+
+<!-- Кастомный курсор (отключён на сенсорных экранах) -->
+<div class="cursor" data-cursor aria-hidden="true"><span class="cursor__label" data-cursor-label>VIEW</span></div>
+<div class="cursor-dot" data-cursor-dot aria-hidden="true"></div>
+
+<!-- Вертикальный текст по краям экрана -->
+<div class="edge edge--left" aria-hidden="true"><span>Amfibia — Maison de la mode gothique — Minsk · MMXXVI</span></div>
+<div class="edge edge--right" aria-hidden="true"><span class="t-mono" data-edge-progress>00%</span><span class="edge__line"><i data-edge-line></i></span></div>
+
+<!-- Полноэкранный поиск -->
+<div class="search" data-search role="dialog" aria-modal="true" data-i18n-attr="aria-label:header.search" aria-label="Поиск" hidden>
+  <div class="search__backdrop" data-search-close></div>
+  <div class="search__panel">
+    <div class="search__top">
+      <form class="search__form" data-search-form role="search">
+        <svg class="icon search__icon"><use href="#i-search"/></svg>
+        <input class="search__input" type="search" name="q" autocomplete="off" spellcheck="false" data-search-input
+               data-i18n-attr="placeholder:search.placeholder;aria-label:search.placeholder" placeholder="Бренд, модель, артикул…" aria-label="Бренд, модель, артикул…"
+               role="combobox" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list">
+        <span class="search__spinner" data-search-spinner hidden></span>
+      </form>
+      <button class="icon-btn search__close" type="button" data-search-close data-i18n-attr="aria-label:common.close" aria-label="Закрыть"><svg class="icon"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="search__body" data-lenis-prevent>
+      <div class="search__intro" data-search-intro>
+        <div class="search__block" data-search-history-block hidden>
+          <div class="row row--between">
+            <p class="t-eyebrow" data-i18n="search.history">Недавние запросы</p>
+            <button class="t-mono link-u" type="button" data-search-history-clear data-i18n="search.clear">Очистить</button>
+          </div>
+          <div class="chips" data-search-history></div>
+        </div>
+        <div class="search__block">
+          <p class="t-eyebrow" data-i18n="search.popular">Популярное</p>
+          <div class="chips">
+            <button class="chip" type="button" data-search-chip="Triple S">Triple S</button>
+            <button class="chip" type="button" data-search-chip="Tabi">Tabi</button>
+            <button class="chip" type="button" data-search-chip="Cross Pendant">Cross Pendant</button>
+            <button class="chip" type="button" data-search-chip="Summer Walk">Summer Walk</button>
+            <button class="chip" type="button" data-search-chip="Box Logo">Box Logo</button>
+            <button class="chip" type="button" data-search-chip="Jackie 1961">Jackie 1961</button>
+            <button class="chip" type="button" data-search-chip="N°5">N°5</button>
+          </div>
+        </div>
+      </div>
+      <div class="search__results" id="search-results" data-search-results role="listbox" hidden></div>
+    </div>
+    <p class="search__hint t-mono" data-i18n="search.hint">Enter — все результаты · ↑↓ — выбор · Esc — закрыть</p>
+  </div>
+</div>
+
+<!-- Мини-корзина: выезжающая панель справа -->
+<div class="drawer" data-minicart role="dialog" aria-modal="true" data-i18n-attr="aria-label:cart.title" aria-label="Корзина" hidden>
+  <div class="drawer__backdrop" data-minicart-close></div>
+  <aside class="drawer__panel">
+    <header class="drawer__head">
+      <div>
+        <p class="t-eyebrow" data-i18n="cart.miniEyebrow">Ваш выбор</p>
+        <h2 class="drawer__title"><span data-i18n="cart.title">Корзина</span> <sup class="t-mono" data-minicart-count>0</sup></h2>
+      </div>
+      <button class="icon-btn" type="button" data-minicart-close data-i18n-attr="aria-label:common.close" aria-label="Закрыть"><svg class="icon"><use href="#i-close"/></svg></button>
+    </header>
+    <div class="drawer__body" data-lenis-prevent data-minicart-body></div>
+    <footer class="drawer__foot" data-minicart-foot hidden>
+      <div class="row row--between drawer__total">
+        <span data-i18n="cart.subtotal">Товары</span>
+        <span class="t-mono" data-minicart-total></span>
+      </div>
+      <p class="t-muted drawer__note" data-i18n="cart.deliveryNote">Доставка рассчитывается на шаге оформления</p>
+      <a class="btn btn--block" href="/checkout" data-minicart-checkout data-magnetic><span data-i18n="cart.checkout">Оформить заказ</span></a>
+      <a class="btn btn--block btn--ghost" href="/cart" data-i18n="cart.goToCart">Перейти в корзину</a>
+    </footer>
+  </aside>
+</div>
+
+<!-- Мобильное меню на весь экран -->
+<div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
+  <div class="mobile-menu__inner" data-lenis-prevent>
+    <nav class="mobile-menu__nav">
+      <a href="/" class="mobile-menu__link"><span class="t-mono">01</span><span data-i18n="nav.home">Главная</span></a>
+      <details class="mobile-menu__group">
+        <summary class="mobile-menu__link"><span class="t-mono">02</span><span data-i18n="nav.brands">Бренды</span></summary>
+        <ul class="mobile-menu__sub" data-mobile-brands></ul>
+      </details>
+      <details class="mobile-menu__group">
+        <summary class="mobile-menu__link"><span class="t-mono">03</span><span data-i18n="nav.catalog">Каталог</span></summary>
+        <ul class="mobile-menu__sub" data-mobile-categories></ul>
+      </details>
+      <a href="/catalog?new=1" class="mobile-menu__link"><span class="t-mono">04</span><span data-i18n="nav.new">Новинки</span></a>
+      <a href="/histories" class="mobile-menu__link"><span class="t-mono">05</span><span data-i18n="nav.histories">Истории</span></a>
+      <a href="/compare" class="mobile-menu__link"><span class="t-mono">06</span><span data-i18n="header.compare">Сравнение</span></a>
+      <a href="/tracking" class="mobile-menu__link"><span class="t-mono">07</span><span data-i18n="nav.tracking">Отследить заказ</span></a>
+    </nav>
+    <div class="mobile-menu__prefs">
+      <div class="lang-switch" role="group" aria-label="Язык">
+        <button type="button" data-lang-set="ru">RU</button><span aria-hidden="true">/</span><button type="button" data-lang-set="en">EN</button>
+      </div>
+      <div class="seg" role="group">
+        <button type="button" data-currency-set="BYN">BYN</button><button type="button" data-currency-set="USD">USD</button><button type="button" data-currency-set="EUR">EUR</button>
+      </div>
+      <div class="seg" role="group">
+        <button type="button" data-theme-set="amfibia"><span class="swatch swatch--amfibia"></span></button>
+        <button type="button" data-theme-set="light"><span class="swatch swatch--light"></span></button>
+        <button type="button" data-theme-set="dark"><span class="swatch swatch--dark"></span></button>
+      </div>
+    </div>
+    <svg class="mobile-menu__orn ornament"><use href="#orn-fleur"/></svg>
+  </div>
+</div>
+
+<!-- Нижняя навигация на телефоне -->
+<nav class="bottom-nav" data-i18n-attr="aria-label:a11y.mobileNav" aria-label="Мобильная навигация">
+  <a href="/" data-bottom-nav="home"><svg class="icon"><use href="#i-home"/></svg><span data-i18n="nav.home">Главная</span></a>
+  <a href="/catalog" data-bottom-nav="catalog"><svg class="icon"><use href="#i-catalog"/></svg><span data-i18n="nav.catalog">Каталог</span></a>
+  <button type="button" data-search-open><svg class="icon"><use href="#i-search"/></svg><span data-i18n="header.search">Поиск</span></button>
+  <a href="/wishlist" data-bottom-nav="wishlist" data-requires-auth><svg class="icon"><use href="#i-heart"/></svg><span data-i18n="header.wishlist">Избранное</span><span class="badge" data-count="wishlist" hidden>0</span></a>
+  <a href="/account" data-bottom-nav="account" data-account-link><svg class="icon"><use href="#i-user"/></svg><span data-i18n="header.account">Профиль</span></a>
+</nav>
+
+<!-- Плавающая панель сравнения -->
+<div class="compare-bar" data-compare-bar hidden>
+  <div class="compare-bar__items" data-compare-bar-items></div>
+  <span class="compare-bar__count t-mono"><span data-compare-bar-count>0</span>/4</span>
+  <a class="btn btn--sm" href="/compare" data-i18n="compare.open">Сравнить</a>
+  <button class="icon-btn" type="button" data-compare-bar-clear data-i18n-attr="aria-label:compare.clear" aria-label="Очистить сравнение"><svg class="icon"><use href="#i-close"/></svg></button>
+</div>
+
+<!-- Кнопка «наверх» с индикатором прогресса прокрутки -->
+<button class="to-top" type="button" data-to-top data-i18n-attr="aria-label:common.toTop" aria-label="Наверх">
+  <svg class="to-top__ring" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" class="to-top__track"/><circle cx="24" cy="24" r="22" class="to-top__progress" data-to-top-progress/></svg>
+  <svg class="icon"><use href="#i-arrow-up"/></svg>
+</button>
+
+<!-- Тосты -->
+<div class="toasts" data-toasts aria-live="polite" aria-atomic="false"></div>
+
+<!-- Корень модальных окон -->
+<div id="modal-root"></div>

@@ -1,0 +1,288 @@
+/* =====================================================================
+   AMFIBIA — микростилистика брендов (раздел 10.5 ТЗ)
+   Атрибут data-brand="<slug>" на <body> (страница бренда и его истории) или на отдельном блоке.
+   Только типографика, цвет и орнамент — без логотипов, монограмм и фирменных принтов.
+   Переменные:
+     --b-accent       декоративный цвет (заливки, линии)
+     --b-accent-text  акцент для текста — подобран под тему, чтобы контраст был ≥ 4.5:1
+     --b-font / --b-weight / --b-style / --b-case / --b-tracking — «голос» заголовков
+     --b-texture      фактура фона
+   ===================================================================== */
+
+[data-brand] {
+  --b-accent: var(--accent);
+  --b-accent-text: var(--accent-text);
+  --b-font: var(--font-display);
+  --b-weight: 400;
+  --b-style: normal;
+  --b-case: none;
+  --b-tracking: -0.01em;
+  --b-texture: none;
+  --b-texture-size: auto;
+}
+
+/* Общие классы, которые используют переменные бренда */
+.b-title {
+  font-family: var(--b-font);
+  font-weight: var(--b-weight);
+  font-style: var(--b-style);
+  text-transform: var(--b-case);
+  letter-spacing: var(--b-tracking);
+}
+.b-accent {
+  color: var(--b-accent-text);
+}
+.b-texture {
+  background-image: var(--b-texture);
+  background-size: var(--b-texture-size);
+}
+.b-rule {
+  height: 1px;
+  background: var(--b-accent);
+  opacity: 0.6;
+}
+
+/* ---------- Balenciaga: брутальный гротеск капсом, холодный серый, жёсткая сетка ---------- */
+[data-brand='balenciaga'] {
+  --b-accent: #8e9196;
+  --b-accent-text: #b9bcc0;
+  --b-font: 'Unbounded', 'Inter', sans-serif;
+  --b-weight: 900;
+  --b-case: uppercase;
+  --b-tracking: -0.03em;
+  --b-texture: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  --b-texture-size: 64px 64px;
+}
+[data-theme='light'] [data-brand='balenciaga'],
+[data-theme='light'][data-brand='balenciaga'] {
+  --b-accent-text: #4a4d52;
+}
+
+/* ---------- Vetements: оверсайз-типографика, белые и жёлтые «бирки», ирония ---------- */
+[data-brand='vetements'] {
+  --b-accent: #f2d21b;
+  --b-accent-text: #f2d21b;
+  --b-font: 'Inter', sans-serif;
+  --b-weight: 900;
+  --b-case: uppercase;
+  --b-tracking: -0.05em;
+}
+[data-theme='light'] [data-brand='vetements'] {
+  --b-accent-text: #7a6500;
+}
+[data-brand='vetements'] .b-tag,
+.b-tag {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #f2d21b;
+  color: #111;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transform: rotate(-2deg);
+}
+
+/* ---------- Gucci: тёплые зелёный и красный, винтажный максимализм, ботаника ---------- */
+[data-brand='gucci'] {
+  --b-accent: #1f5e43;
+  --b-accent-2: #b5242c;
+  --b-accent-text: #79c7a0;
+  --b-font: 'Playfair Display', 'Cormorant Garamond', serif;
+  --b-weight: 400;
+  --b-style: italic;
+  --b-tracking: -0.01em;
+  --b-texture: linear-gradient(90deg, transparent 0 46%, rgba(31, 94, 67, 0.22) 46% 48%, rgba(181, 36, 44, 0.22) 48% 52%, rgba(31, 94, 67, 0.22) 52% 54%, transparent 54%);
+  --b-texture-size: 100% 100%;
+}
+[data-theme='light'] [data-brand='gucci'] {
+  --b-accent-text: #1f5e43;
+}
+
+/* ---------- Prada: интеллектуальный минимализм, чёрный и серо-голубой, много воздуха ---------- */
+[data-brand='prada'] {
+  --b-accent: #7d8ca3;
+  --b-accent-text: #aebbcf;
+  --b-font: 'Inter', sans-serif;
+  --b-weight: 300;
+  --b-case: uppercase;
+  --b-tracking: 0.32em;
+}
+[data-theme='light'] [data-brand='prada'] {
+  --b-accent-text: #44516a;
+}
+
+/* ---------- Enfants Riches Déprimés: панк и декаданс, «нацарапанные» надписи, состаренная бумага ---------- */
+[data-brand='enfants-riches-deprimes'] {
+  --b-accent: #7a1e1e;
+  --b-accent-text: #db8f80;
+  --b-font: 'Caveat', 'Cormorant Garamond', cursive;
+  --b-weight: 700;
+  --b-tracking: 0;
+  --b-texture: radial-gradient(ellipse at 20% 10%, rgba(210, 196, 162, 0.08), transparent 60%), repeating-linear-gradient(-23deg, transparent 0 22px, rgba(122, 30, 30, 0.07) 22px 23px);
+  --b-texture-size: auto;
+}
+[data-theme='light'] [data-brand='enfants-riches-deprimes'] {
+  --b-accent-text: #7a1e1e;
+  --b-texture: radial-gradient(ellipse at 20% 10%, rgba(160, 130, 80, 0.16), transparent 60%), repeating-linear-gradient(-23deg, transparent 0 22px, rgba(122, 30, 30, 0.08) 22px 23px);
+}
+
+/* ---------- AVAVAV: абсурдистский авангард, кислотные цвета, «ломаные» формы ---------- */
+[data-brand='avavav'] {
+  --b-accent: #c6ff1a;
+  --b-accent-2: #ff3ea5;
+  --b-accent-text: #c6ff1a;
+  --b-font: 'Rubik Glitch', 'Unbounded', sans-serif;
+  --b-weight: 400;
+  --b-case: uppercase;
+  --b-tracking: 0;
+  --b-texture: radial-gradient(circle at 85% 18%, rgba(255, 62, 165, 0.22) 0 70px, transparent 71px), radial-gradient(circle at 12% 80%, rgba(198, 255, 26, 0.16) 0 110px, transparent 111px);
+}
+[data-theme='light'] [data-brand='avavav'] {
+  --b-accent-text: #8a1050;
+}
+
+/* ---------- Supreme: красная плашка с белым жирным текстом, скейт-культура ---------- */
+[data-brand='supreme'] {
+  --b-accent: #da291c;
+  --b-accent-text: #ff7468;
+  --b-font: 'Inter', sans-serif;
+  --b-weight: 900;
+  --b-style: italic;
+  --b-tracking: -0.04em;
+}
+[data-theme='light'] [data-brand='supreme'] {
+  --b-accent-text: #b81f14;
+}
+.b-box {
+  display: inline-block;
+  padding: 0.02em 0.22em 0.08em;
+  background: #da291c;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+/* ---------- Chrome Hearts: готика, серебро на чёрном, кожа, кресты, blackletter ---------- */
+[data-brand='chrome-hearts'] {
+  --b-accent: #c0c0c0;
+  --b-accent-text: #d6d6d6;
+  --b-font: 'UnifrakturMaguntia', 'Cormorant Garamond', serif;
+  --b-weight: 400;
+  --b-tracking: 0;
+  --b-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cpath d='M60 44 L62.6 47 L62 56 L71 55.4 L76 58 L71 60.6 L62 60 L62.6 69 L60 72 L57.4 69 L58 60 L49 60.6 L44 58 L49 55.4 L58 56 L57.4 47 Z' fill='%23c0c0c0' fill-opacity='0.07'/%3E%3C/svg%3E");
+  --b-texture-size: 120px 120px;
+}
+[data-theme='light'] [data-brand='chrome-hearts'] {
+  --b-accent-text: #4a4a4a;
+  --b-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cpath d='M60 44 L62.6 47 L62 56 L71 55.4 L76 58 L71 60.6 L62 60 L62.6 69 L60 72 L57.4 69 L58 60 L49 60.6 L44 58 L49 55.4 L58 56 L57.4 47 Z' fill='%23000' fill-opacity='0.06'/%3E%3C/svg%3E");
+}
+
+/* ---------- Louis Vuitton: тёплый коричневый и золото, путешествия, дорожные сундуки ---------- */
+[data-brand='louis-vuitton'] {
+  --b-accent: #c8a165;
+  --b-accent-text: #dcbd85;
+  --b-font: 'Cormorant Garamond', serif;
+  --b-weight: 500;
+  --b-case: uppercase;
+  --b-tracking: 0.16em;
+  --b-texture: repeating-linear-gradient(0deg, transparent 0 140px, rgba(200, 161, 101, 0.12) 140px 141px);
+}
+[data-theme='light'] [data-brand='louis-vuitton'] {
+  --b-accent-text: #7a5a22;
+}
+
+/* ---------- Chanel: чёрно-белая классика, жемчуг, твид, элегантная антиква ---------- */
+[data-brand='chanel'] {
+  --b-accent: #d8d2c6;
+  --b-accent-text: #ebe5d9;
+  --b-font: 'Playfair Display', 'Cormorant Garamond', serif;
+  --b-weight: 400;
+  --b-case: uppercase;
+  --b-tracking: 0.24em;
+  --b-texture: repeating-linear-gradient(45deg, rgba(216, 210, 198, 0.045) 0 2px, transparent 2px 6px), repeating-linear-gradient(-45deg, rgba(216, 210, 198, 0.035) 0 2px, transparent 2px 7px);
+}
+[data-theme='light'] [data-brand='chanel'] {
+  --b-accent-text: #111111;
+  --b-texture: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.035) 0 2px, transparent 2px 6px), repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.025) 0 2px, transparent 2px 7px);
+}
+
+/* ---------- Maison Margiela: белые бирки с цифрами, деконструкция, «незаконченные» края ---------- */
+[data-brand='maison-margiela'] {
+  --b-accent: #f2f0eb;
+  --b-accent-text: #f2f0eb;
+  --b-font: 'JetBrains Mono', monospace;
+  --b-weight: 400;
+  --b-tracking: -0.02em;
+  --b-texture: linear-gradient(100deg, transparent 0 62%, rgba(242, 240, 235, 0.05) 62% 70%, transparent 70%);
+}
+[data-theme='light'] [data-brand='maison-margiela'] {
+  --b-accent-text: #2a2a2a;
+  --b-texture: linear-gradient(100deg, transparent 0 62%, rgba(255, 255, 255, 0.85) 62% 70%, transparent 70%);
+}
+
+/* ---------- Givenchy: тёмная аристократическая элегантность, строгая готика, контраст ---------- */
+[data-brand='givenchy'] {
+  --b-accent: #ececec;
+  --b-accent-text: #f3f3f3;
+  --b-font: 'Forum', 'Cormorant Garamond', serif;
+  --b-weight: 400;
+  --b-case: uppercase;
+  --b-tracking: 0.2em;
+}
+[data-theme='light'] [data-brand='givenchy'] {
+  --b-accent-text: #0c0c0c;
+}
+
+/* ---------- Versace: золото и барокко, греческие меандры, чувственная роскошь ---------- */
+[data-brand='versace'] {
+  --b-accent: #c9a227;
+  --b-accent-text: #e2c04f;
+  --b-font: 'Forum', 'Playfair Display', serif;
+  --b-weight: 400;
+  --b-case: uppercase;
+  --b-tracking: 0.12em;
+  --b-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='24'%3E%3Cpath d='M0 20 V4 H18 V14 H8 V9 H13' fill='none' stroke='%23c9a227' stroke-opacity='0.16' stroke-width='1.5'/%3E%3Cpath d='M24 20 V4 H42 V14 H32 V9 H37' fill='none' stroke='%23c9a227' stroke-opacity='0.16' stroke-width='1.5'/%3E%3C/svg%3E");
+  --b-texture-size: 48px 24px;
+}
+[data-theme='light'] [data-brand='versace'] {
+  --b-accent-text: #7d6210;
+}
+
+/* ---------- Alexander McQueen: мрачный романтизм, тёмные цветы, викторианские мотивы ---------- */
+[data-brand='alexander-mcqueen'] {
+  --b-accent: #9b1b2a;
+  --b-accent-text: #e3808b;
+  --b-font: 'Cormorant Garamond', serif;
+  --b-weight: 600;
+  --b-style: italic;
+  --b-tracking: -0.01em;
+  --b-texture: radial-gradient(ellipse at 90% 0%, rgba(155, 27, 42, 0.18), transparent 55%), radial-gradient(ellipse at 0% 100%, rgba(80, 20, 40, 0.25), transparent 50%);
+}
+[data-theme='light'] [data-brand='alexander-mcqueen'] {
+  --b-accent-text: #7a0e1a;
+}
+
+/* ---------- Loro Piana: тихая роскошь, беж и крем, мягкие фактуры кашемира ---------- */
+[data-brand='loro-piana'] {
+  --b-accent: #b9a483;
+  --b-accent-text: #dccbaa;
+  --b-font: 'Cormorant Garamond', serif;
+  --b-weight: 300;
+  --b-case: uppercase;
+  --b-tracking: 0.3em;
+  --b-texture: radial-gradient(ellipse at 50% 0%, rgba(185, 164, 131, 0.12), transparent 70%);
+}
+[data-theme='light'] [data-brand='loro-piana'] {
+  --b-accent-text: #6b5a40;
+}
+
+/* Тёмная тема без бордового: акценты брендов приглушаются до нейтральных там, где это бордо */
+[data-theme='dark'] [data-brand='enfants-riches-deprimes'],
+[data-theme='dark'] [data-brand='alexander-mcqueen'] {
+  --b-accent-text: #d9b3b8;
+}

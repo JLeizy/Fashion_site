@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title data-i18n="meta.e404">Страница не найдена — AMFIBIA</title>
+  <link rel="stylesheet" href="/css/pages/error.css">
+</head>
+<body data-page="{{page}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="error-page error-page--404" tabindex="-1">
+    <div class="error-page__code" aria-hidden="true">404</div>
+    <div class="error-page__body">
+      <svg class="error-page__orn icon--fill" aria-hidden="true"><use href="#orn-cross-filigree"/></svg>
+      <p class="error-page__num">ERROR · 404</p>
+      <h1 class="error-page__title" data-i18n="errorPage.e404Title">Страница растворилась во тьме</h1>
+      <p class="error-page__text" data-i18n="errorPage.e404Text">Возможно, она была перемещена, удалена или никогда не существовала.</p>
+      <div class="error-page__actions">
+        <a class="btn" href="/" data-magnetic data-i18n="errorPage.toHome">На главную</a>
+        <a class="btn btn--ghost" href="/catalog" data-i18n="errorPage.toCatalog">В каталог</a>
+      </div>
+    </div>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/static.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<div class="catalog" data-catalog>
+  <aside class="filters" data-filters aria-labelledby="filters-title">
+    <div class="filters__head">
+      <h2 class="filters__title" id="filters-title"><span data-i18n="filters.title">Фильтры</span> <span class="t-mono t-muted" data-filters-count></span></h2>
+      <button type="button" class="icon-btn only-mobile" data-filters-close data-i18n-attr="aria-label:common.close" aria-label="Закрыть"><svg class="icon"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="filters__body" data-filters-body data-lenis-prevent></div>
+    <div class="filters__foot only-mobile">
+      <button type="button" class="btn btn--block" data-filters-close><span data-sheet-total>Показать</span></button>
+    </div>
+  </aside>
+
+  <section class="catalog__main" aria-live="polite">
+    <div class="catalog__toolbar">
+      <button type="button" class="btn btn--sm btn--ghost catalog__filters-btn" data-filters-open>
+        <svg class="icon"><use href="#i-filter"/></svg><span data-i18n="filters.title">Фильтры</span><span class="t-mono" data-filters-count></span>
+      </button>
+      <div class="chips catalog__chips" data-active-chips></div>
+      <div class="catalog__tools">
+        <label class="catalog__sort">
+          <span class="sr-only" data-i18n="catalog.sortLabel">Сортировка</span>
+          <select class="select select--sm" data-sort>
+            <option value="popular" data-i18n="catalog.sort.popular">Популярные</option>
+            <option value="new" data-i18n="catalog.sort.new">Новые</option>
+            <option value="price_asc" data-i18n="catalog.sort.price_asc">Сначала дешёвые</option>
+            <option value="price_desc" data-i18n="catalog.sort.price_desc">Сначала дорогие</option>
+            <option value="rating" data-i18n="catalog.sort.rating">По рейтингу</option>
+            <option value="discount" data-i18n="catalog.sort.discount">По размеру скидки</option>
+            <option value="name" data-i18n="catalog.sort.name">А–Я</option>
+            <option value="relevance" data-i18n="catalog.sort.relevance">По релевантности</option>
+          </select>
+        </label>
+        <div class="seg catalog__view" role="group" data-i18n-attr="aria-label:catalog.viewLabel" aria-label="Вид">
+          <button type="button" data-view="2" aria-pressed="false" data-i18n-attr="aria-label:catalog.view2;title:catalog.view2" aria-label="2 колонки"><svg class="icon icon--sm"><use href="#i-grid2"/></svg></button>
+          <button type="button" data-view="3" aria-pressed="true" data-i18n-attr="aria-label:catalog.view3;title:catalog.view3" aria-label="3 колонки"><svg class="icon icon--sm"><use href="#i-grid3"/></svg></button>
+          <button type="button" data-view="4" aria-pressed="false" data-i18n-attr="aria-label:catalog.view4;title:catalog.view4" aria-label="4 колонки"><svg class="icon icon--sm"><use href="#i-grid4"/></svg></button>
+          <button type="button" data-view="list" aria-pressed="false" data-i18n-attr="aria-label:catalog.viewList;title:catalog.viewList" aria-label="Список"><svg class="icon icon--sm"><use href="#i-list"/></svg></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="catalog__grid" data-grid data-cols="3"></div>
+
+    <div class="catalog__foot">
+      <button type="button" class="btn btn--ghost" data-load-more hidden><span data-i18n="common.showMore">Показать ещё</span></button>
+      <nav class="pagination" data-pagination data-i18n-attr="aria-label:catalog.pagination" aria-label="Страницы"></nav>
+    </div>
+  </section>
+</div>

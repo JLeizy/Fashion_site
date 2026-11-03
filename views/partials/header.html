@@ -1,0 +1,147 @@
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Перейти к содержимому</a>
+
+<div class="topbar" data-topbar aria-hidden="true">
+  <div class="topbar__track">
+    <div class="topbar__group">
+      <span data-i18n="topbar.authenticity">Проверка подлинности каждой вещи</span><svg class="topbar__orn"><use href="#orn-cross"/></svg>
+      <span data-i18n="topbar.delivery">Доставка по всему СНГ</span><svg class="topbar__orn"><use href="#orn-cross"/></svg>
+      <span data-i18n="topbar.returns">Возврат в течение 14 дней</span><svg class="topbar__orn"><use href="#orn-cross"/></svg>
+      <span data-i18n="topbar.free">Бесплатная доставка от 3 000 Br</span><svg class="topbar__orn"><use href="#orn-cross"/></svg>
+      <span data-i18n="topbar.showroom">Шоурум в Минске: ул. Октябрьская, 16</span><svg class="topbar__orn"><use href="#orn-cross"/></svg>
+    </div>
+    <div class="topbar__group" aria-hidden="true">
+      <span data-i18n="topbar.authenticity">Проверка подлинности каждой вещи</span><svg class="topbar__orn"><use href="#orn-cross"/></svg>
+      <span data-i18n="topbar.delivery">Доставка по всему СНГ</span><svg class="topbar__orn"><use href="#orn-cross"/></svg>
+      <span data-i18n="topbar.returns">Возврат в течение 14 дней</span><svg class="topbar__orn"><use href="#orn-cross"/></svg>
+      <span data-i18n="topbar.free">Бесплатная доставка от 3 000 Br</span><svg class="topbar__orn"><use href="#orn-cross"/></svg>
+      <span data-i18n="topbar.showroom">Шоурум в Минске: ул. Октябрьская, 16</span><svg class="topbar__orn"><use href="#orn-cross"/></svg>
+    </div>
+  </div>
+</div>
+
+<header class="header" data-header>
+  <div class="header__inner">
+    <div class="header__left">
+      <button class="icon-btn header__burger" type="button" data-burger aria-expanded="false" aria-controls="mobile-menu" data-i18n-attr="aria-label:header.menu" aria-label="Меню">
+        <svg class="icon"><use href="#i-menu"/></svg>
+      </button>
+      <nav class="header__nav" data-i18n-attr="aria-label:a11y.mainNav" aria-label="Основная навигация">
+        <button class="nav-link" type="button" data-mega-toggle="brands" aria-expanded="false" aria-controls="mega-brands">
+          <span data-i18n="nav.brands">Бренды</span><svg class="icon icon--xs"><use href="#i-chevron-down"/></svg>
+        </button>
+        <button class="nav-link" type="button" data-mega-toggle="catalog" aria-expanded="false" aria-controls="mega-catalog">
+          <span data-i18n="nav.catalog">Каталог</span><svg class="icon icon--xs"><use href="#i-chevron-down"/></svg>
+        </button>
+        <a class="nav-link link-u" href="/catalog?new=1" data-i18n="nav.new">Новинки</a>
+        <a class="nav-link link-u" href="/histories" data-i18n="nav.histories">Истории</a>
+      </nav>
+    </div>
+
+    <a class="logo" href="/" data-logo data-i18n-attr="aria-label:a11y.home" aria-label="AMFIBIA — на главную">
+      <svg class="logo__orn logo__orn--l" aria-hidden="true"><use href="#orn-cross"/></svg>
+      <span class="logo__text" data-logo-text>Amfibia</span>
+      <svg class="logo__orn logo__orn--r" aria-hidden="true"><use href="#orn-cross"/></svg>
+    </a>
+
+    <div class="header__actions">
+      <button class="icon-btn" type="button" data-search-open data-i18n-attr="aria-label:header.search" aria-label="Поиск">
+        <svg class="icon"><use href="#i-search"/></svg>
+      </button>
+
+      <div class="header__prefs">
+        <div class="lang-switch" role="group" data-i18n-attr="aria-label:header.lang" aria-label="Язык">
+          <button type="button" data-lang-set="ru" aria-pressed="true">RU</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-lang-set="en" aria-pressed="false">EN</button>
+        </div>
+
+        <div class="dropdown" data-dropdown>
+          <button class="dropdown__toggle t-mono" type="button" aria-haspopup="true" aria-expanded="false" data-i18n-attr="aria-label:header.currency" aria-label="Валюта">
+            <span data-currency-label>BYN</span><svg class="icon icon--xs"><use href="#i-chevron-down"/></svg>
+          </button>
+          <div class="dropdown__menu" role="menu">
+            <button type="button" role="menuitemradio" data-currency-set="BYN"><span class="t-mono">BYN</span><span>Br</span></button>
+            <button type="button" role="menuitemradio" data-currency-set="USD"><span class="t-mono">USD</span><span>$</span></button>
+            <button type="button" role="menuitemradio" data-currency-set="EUR"><span class="t-mono">EUR</span><span>€</span></button>
+          </div>
+        </div>
+
+        <div class="dropdown" data-dropdown>
+          <button class="icon-btn" type="button" aria-haspopup="true" aria-expanded="false" data-theme-toggle data-i18n-attr="aria-label:header.theme" aria-label="Тема">
+            <svg class="icon"><use href="#i-palette"/></svg>
+          </button>
+          <div class="dropdown__menu dropdown__menu--themes" role="menu">
+            <button type="button" role="menuitemradio" data-theme-set="amfibia"><span class="swatch swatch--amfibia"></span><span data-i18n="header.themes.amfibia">Amfibia</span></button>
+            <button type="button" role="menuitemradio" data-theme-set="light"><span class="swatch swatch--light"></span><span data-i18n="header.themes.light">Светлая</span></button>
+            <button type="button" role="menuitemradio" data-theme-set="dark"><span class="swatch swatch--dark"></span><span data-i18n="header.themes.dark">Тёмная</span></button>
+          </div>
+        </div>
+      </div>
+
+      <a class="icon-btn hide-mobile" href="/wishlist" data-requires-auth data-i18n-attr="aria-label:header.wishlist" aria-label="Избранное">
+        <svg class="icon"><use href="#i-heart"/></svg><span class="badge" data-count="wishlist" hidden>0</span>
+      </a>
+      <a class="icon-btn hide-mobile" href="/compare" data-i18n-attr="aria-label:header.compare" aria-label="Сравнение">
+        <svg class="icon"><use href="#i-compare"/></svg><span class="badge" data-count="compare" hidden>0</span>
+      </a>
+      <button class="icon-btn" type="button" data-cart-open data-i18n-attr="aria-label:header.cart" aria-label="Корзина">
+        <svg class="icon"><use href="#i-bag"/></svg><span class="badge" data-count="cart" hidden>0</span>
+      </button>
+
+      <div class="notif" data-notifications hidden>
+        <button class="icon-btn" type="button" data-notif-toggle aria-haspopup="true" aria-expanded="false" data-i18n-attr="aria-label:header.notifications" aria-label="Уведомления">
+          <svg class="icon"><use href="#i-bell"/></svg><span class="badge badge--accent" data-count="notifications" hidden>0</span>
+        </button>
+        <div class="notif__panel" data-notif-panel data-lenis-prevent hidden>
+          <div class="notif__head">
+            <span class="t-eyebrow" data-i18n="notifications.title">Уведомления</span>
+            <button type="button" class="link-u t-mono" data-notif-read-all data-i18n="notifications.readAll">Прочитать все</button>
+          </div>
+          <ul class="notif__list" data-notif-list></ul>
+          <a class="notif__all link-u" href="/account/notifications" data-i18n="notifications.all">Все уведомления</a>
+        </div>
+      </div>
+
+      <a class="icon-btn header__account" href="/auth" data-account-link data-i18n-attr="aria-label:header.account" aria-label="Профиль">
+        <svg class="icon" data-account-icon><use href="#i-user"/></svg>
+        <span class="avatar avatar--sm" data-account-avatar hidden></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Мега-меню «Бренды»: список 15 брендов + превью (заполняется из /api/brands) -->
+  <div class="mega" id="mega-brands" data-mega-panel="brands" hidden>
+    <div class="mega__inner">
+      <div class="mega__col mega__col--brands">
+        <p class="t-eyebrow" data-i18n="nav.brandsHead">15 домов</p>
+        <ul class="mega__brands" data-mega-brands></ul>
+        <a class="mega__all link-u" href="/brands"><span data-i18n="nav.allBrands">Все бренды</span> <svg class="icon icon--xs"><use href="#i-arrow-right"/></svg></a>
+      </div>
+      <div class="mega__preview" data-mega-preview>
+        <div class="mega__preview-media"><img alt="" data-mega-preview-img src="/images/brands/balenciaga/hero.svg"></div>
+        <div class="mega__preview-body">
+          <p class="t-eyebrow" data-mega-preview-meta>EST. 1917</p>
+          <p class="mega__preview-name" data-mega-preview-name>Balenciaga</p>
+          <p class="mega__preview-desc" data-mega-preview-desc></p>
+          <div class="row">
+            <a class="btn btn--sm" data-mega-preview-catalog href="/brand/balenciaga" data-i18n="nav.brandCatalog">Каталог бренда</a>
+            <a class="btn btn--sm btn--ghost" data-mega-preview-history href="/history/balenciaga" data-i18n="nav.brandHistory">История</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Мега-меню «Каталог»: дерево категорий (из /api/categories) + подборки -->
+  <div class="mega" id="mega-catalog" data-mega-panel="catalog" hidden>
+    <div class="mega__inner mega__inner--catalog">
+      <div class="mega__cats" data-mega-categories></div>
+      <div class="mega__promo">
+        <a class="promo-tile" href="/catalog?new=1"><span class="t-eyebrow">01</span><span class="promo-tile__title" data-i18n="nav.promoNew">Новинки сезона</span></a>
+        <a class="promo-tile" href="/catalog?sale=1"><span class="t-eyebrow">02</span><span class="promo-tile__title" data-i18n="nav.promoSale">Со скидкой</span></a>
+        <a class="promo-tile" href="/catalog?limited=1"><span class="t-eyebrow">03</span><span class="promo-tile__title" data-i18n="nav.promoLimited">Лимитированные</span></a>
+        <a class="promo-tile" href="/catalog?iconic=1"><span class="t-eyebrow">04</span><span class="promo-tile__title" data-i18n="nav.promoIconic">Культовые вещи</span></a>
+      </div>
+    </div>
+  </div>
+</header>

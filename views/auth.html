@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title data-i18n="auth.metaTitle">Вход и регистрация — AMFIBIA</title>
+  <link rel="stylesheet" href="/css/pages/auth.css">
+</head>
+<body data-page="{{page}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="auth" tabindex="-1">
+    <canvas class="auth__canvas" data-gothic-canvas aria-hidden="true"></canvas>
+
+    <section class="auth__art" aria-hidden="true">
+      <p class="t-eyebrow">Maison de la mode gothique — MMXXVI</p>
+      <p class="auth__title">Amfibia</p>
+      <p class="auth__lead" data-i18n="auth.lead">Пятнадцать модных домов, одна закрытая дверь. Войдите, чтобы сохранять находки, оформлять заказы и следить за доставкой.</p>
+      <ul class="auth__perks">
+        <li><svg class="icon"><use href="#i-shield"/></svg><span data-i18n="auth.perkAuth">Каждая вещь проверена на подлинность</span></li>
+        <li><svg class="icon"><use href="#i-heart"/></svg><span data-i18n="auth.perkWish">Избранное и сравнение на всех устройствах</span></li>
+        <li><svg class="icon"><use href="#i-truck"/></svg><span data-i18n="auth.perkTrack">Отслеживание заказа от склада до двери</span></li>
+      </ul>
+      <span class="auth__vertical t-mono">ENTER · ENTRER · ВХОД</span>
+    </section>
+
+    <section class="auth__panel">
+      <div class="auth__stage" data-auth-stage>
+
+        <!-- Вход / Регистрация — карточка-перевёртыш -->
+        <div class="auth-view" data-view="main">
+          <div class="auth__tabs" role="tablist" data-i18n-attr="aria-label:auth.tabsLabel" aria-label="Вход или регистрация">
+            <button class="auth__tab" type="button" role="tab" id="tab-login" aria-selected="true" aria-controls="face-login" data-auth-tab="login" data-i18n="auth.loginTab">Вход</button>
+            <button class="auth__tab" type="button" role="tab" id="tab-register" aria-selected="false" aria-controls="face-register" data-auth-tab="register" data-i18n="auth.registerTab">Регистрация</button>
+            <span class="auth__tabs-line" data-tabs-line></span>
+          </div>
+
+          <div class="flip" data-flip>
+            <div class="flip__inner" data-flip-inner>
+              <!-- Лицевая сторона: вход -->
+              <div class="flip__face flip__face--front" id="face-login" role="tabpanel" aria-labelledby="tab-login" data-face="login">
+                <svg class="flip__corner flip__corner--tl" aria-hidden="true"><use href="#orn-corner"/></svg>
+                <svg class="flip__corner flip__corner--br" aria-hidden="true"><use href="#orn-corner"/></svg>
+                <h1 class="auth__heading" data-i18n="auth.loginTitle">С возвращением</h1>
+                <p class="auth__sub" data-i18n="auth.loginSub">Введите email и пароль от аккаунта AMFIBIA.</p>
+                <form class="auth__form" data-form="login" novalidate>
+                  <div class="field">
+                    <label class="field__label" for="login-email" data-i18n="auth.email">Email</label>
+                    <input class="input" id="login-email" name="email" type="email" autocomplete="username" required data-rule="email">
+                    <p class="field__error" data-error-for="email"></p>
+                  </div>
+                  <div class="field">
+                    <label class="field__label" for="login-password" data-i18n="auth.password">Пароль</label>
+                    <input class="input" id="login-password" name="password" type="password" autocomplete="current-password" required data-rule="required">
+                    <button class="icon-btn field__addon" type="button" data-toggle-password data-i18n-attr="aria-label:auth.showPassword" aria-label="Показать пароль"><svg class="icon icon--sm"><use href="#i-eye"/></svg></button>
+                    <p class="field__error" data-error-for="password"></p>
+                  </div>
+                  <div class="row row--between row--wrap">
+                    <label class="check"><input type="checkbox" name="remember" checked><span class="check__box"></span><span data-i18n="auth.remember">Запомнить меня</span></label>
+                    <button class="link-u t-mono auth__small" type="button" data-go="forgot" data-i18n="auth.forgot">Забыли пароль?</button>
+                  </div>
+                  <p class="notice notice--danger" data-form-error hidden></p>
+                  <button class="btn btn--block" type="submit" data-magnetic="0.15"><span class="btn__label" data-i18n="auth.loginBtn">Войти</span></button>
+                </form>
+                <p class="auth__switch"><span data-i18n="auth.noAccount">Ещё нет аккаунта?</span> <button class="link-u" type="button" data-auth-tab="register" data-i18n="auth.createAccount">Создать</button></p>
+              </div>
+
+              <!-- Оборотная сторона: регистрация -->
+              <div class="flip__face flip__face--back" id="face-register" role="tabpanel" aria-labelledby="tab-register" data-face="register">
+                <svg class="flip__corner flip__corner--tl" aria-hidden="true"><use href="#orn-corner"/></svg>
+                <svg class="flip__corner flip__corner--br" aria-hidden="true"><use href="#orn-corner"/></svg>
+                <h2 class="auth__heading" data-i18n="auth.registerTitle">Новый аккаунт</h2>
+                <p class="auth__sub" data-i18n="auth.registerSub">Регистрация займёт минуту. Код подтверждения придёт на email.</p>
+                <form class="auth__form" data-form="register" novalidate>
+                  <div class="form-grid">
+                    <div class="field">
+                      <label class="field__label" for="reg-first" data-i18n="auth.firstName">Имя</label>
+                      <input class="input" id="reg-first" name="firstName" autocomplete="given-name" required data-rule="name">
+                      <p class="field__error" data-error-for="firstName"></p>
+                    </div>
+                    <div class="field">
+                      <label class="field__label" for="reg-last" data-i18n="auth.lastName">Фамилия</label>
+                      <input class="input" id="reg-last" name="lastName" autocomplete="family-name" required data-rule="name">
+                      <p class="field__error" data-error-for="lastName"></p>
+                    </div>
+                    <div class="field span-2">
+                      <label class="field__label" for="reg-email" data-i18n="auth.email">Email</label>
+                      <input class="input" id="reg-email" name="email" type="email" autocomplete="email" required data-rule="email">
+                      <p class="field__error" data-error-for="email"></p>
+                    </div>
+                    <div class="field span-2">
+                      <label class="field__label" for="reg-phone" data-i18n="auth.phone">Телефон</label>
+                      <div class="phone" data-phone>
+                        <select class="select phone__country" data-phone-country data-i18n-attr="aria-label:auth.country" aria-label="Страна"></select>
+                        <input class="input phone__input" id="reg-phone" type="tel" inputmode="tel" autocomplete="tel-national" data-phone-input required>
+                      </div>
+                      <input type="hidden" name="phone" data-phone-value>
+                      <p class="field__error" data-error-for="phone"></p>
+                    </div>
+                    <div class="field span-2">
+                      <label class="field__label" for="reg-password" data-i18n="auth.password">Пароль</label>
+                      <input class="input" id="reg-password" name="password" type="password" autocomplete="new-password" required data-rule="password" data-strength-source>
+                      <button class="icon-btn field__addon field__addon--top" type="button" data-toggle-password data-i18n-attr="aria-label:auth.showPassword" aria-label="Показать пароль"><svg class="icon icon--sm"><use href="#i-eye"/></svg></button>
+                      <div class="strength" data-strength aria-live="polite">
+                        <div class="strength__bars"><i></i><i></i><i></i><i></i></div>
+                        <span class="strength__label t-mono" data-strength-label></span>
+                      </div>
+                      <ul class="strength__rules" data-strength-rules>
+                        <li data-rule-check="length" data-i18n="auth.ruleLength">Не менее 8 символов</li>
+                        <li data-rule-check="letters" data-i18n="auth.ruleLetters">Буквы</li>
+                        <li data-rule-check="digits" data-i18n="auth.ruleDigits">Цифры</li>
+                        <li data-rule-check="mixed" data-i18n="auth.ruleMixed">Заглавные или символы — бонус</li>
+                      </ul>
+                      <p class="field__error" data-error-for="password"></p>
+                    </div>
+                    <div class="field span-2">
+                      <label class="field__label" for="reg-password2" data-i18n="auth.passwordConfirm">Повторите пароль</label>
+                      <input class="input" id="reg-password2" name="passwordConfirm" type="password" autocomplete="new-password" required data-rule="match:password">
+                      <p class="field__error" data-error-for="passwordConfirm"></p>
+                    </div>
+                  </div>
+                  <label class="check auth__terms"><input type="checkbox" name="terms" data-rule="terms"><span class="check__box"></span><span data-i18n-html="auth.terms">Я принимаю <a class="link-u" href="/privacy" target="_blank">правила и политику конфиденциальности</a></span></label>
+                  <p class="field__error" data-error-for="terms"></p>
+                  <p class="notice notice--danger" data-form-error hidden></p>
+                  <button class="btn btn--block" type="submit" data-magnetic="0.15"><span class="btn__label" data-i18n="auth.registerBtn">Создать аккаунт</span></button>
+                </form>
+                <p class="auth__switch"><span data-i18n="auth.haveAccount">Уже есть аккаунт?</span> <button class="link-u" type="button" data-auth-tab="login" data-i18n="auth.signInLink">Войти</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Подтверждение email / 2FA: 6 полей с автопереходом -->
+        <div class="auth-view auth-card" data-view="code" hidden>
+          <svg class="auth-card__orn ornament icon--fill" aria-hidden="true"><use href="#orn-cross-filigree"/></svg>
+          <h2 class="auth__heading" data-code-title></h2>
+          <p class="auth__sub" data-code-sub></p>
+          <form class="auth__form" data-form="code" novalidate>
+            <div class="code" data-code-inputs></div>
+            <p class="notice notice--danger" data-form-error hidden></p>
+            <p class="auth__hint t-muted" data-i18n="auth.codeHint">Письма не отправляются: код выводится в консоль сервера.</p>
+            <button class="btn btn--block" type="submit"><span class="btn__label" data-i18n="auth.confirm">Подтвердить</span></button>
+          </form>
+          <div class="row row--between auth__code-foot">
+            <button class="link-u t-mono auth__small" type="button" data-go="main" data-i18n="auth.back">← Назад</button>
+            <button class="link-u t-mono auth__small" type="button" data-resend disabled><span data-i18n="auth.resend">Отправить снова</span> <span data-resend-timer></span></button>
+          </div>
+        </div>
+
+        <!-- Восстановление пароля: шаг 1 — email -->
+        <div class="auth-view auth-card" data-view="forgot" hidden>
+          <svg class="auth-card__orn ornament icon--fill" aria-hidden="true"><use href="#orn-dagger"/></svg>
+          <h2 class="auth__heading" data-i18n="auth.forgotTitle">Восстановление пароля</h2>
+          <p class="auth__sub" data-i18n="auth.forgotSub">Укажите email — мы отправим код для сброса пароля.</p>
+          <form class="auth__form" data-form="forgot" novalidate>
+            <div class="field">
+              <label class="field__label" for="forgot-email" data-i18n="auth.email">Email</label>
+              <input class="input" id="forgot-email" name="email" type="email" autocomplete="email" required data-rule="email">
+              <p class="field__error" data-error-for="email"></p>
+            </div>
+            <p class="notice notice--danger" data-form-error hidden></p>
+            <button class="btn btn--block" type="submit"><span class="btn__label" data-i18n="auth.sendCode">Получить код</span></button>
+          </form>
+          <button class="link-u t-mono auth__small" type="button" data-go="main" data-i18n="auth.back">← Назад</button>
+        </div>
+
+        <!-- Восстановление пароля: шаг 2 — код и новый пароль -->
+        <div class="auth-view auth-card" data-view="reset" hidden>
+          <svg class="auth-card__orn ornament icon--fill" aria-hidden="true"><use href="#orn-fleur"/></svg>
+          <h2 class="auth__heading" data-i18n="auth.resetTitle">Новый пароль</h2>
+          <p class="auth__sub" data-reset-sub></p>
+          <form class="auth__form" data-form="reset" novalidate>
+            <div class="code" data-reset-code></div>
+            <div class="field">
+              <label class="field__label" for="reset-password" data-i18n="auth.newPassword">Новый пароль</label>
+              <input class="input" id="reset-password" name="password" type="password" autocomplete="new-password" required data-rule="password">
+              <p class="field__error" data-error-for="password"></p>
+            </div>
+            <div class="field">
+              <label class="field__label" for="reset-password2" data-i18n="auth.passwordConfirm">Повторите пароль</label>
+              <input class="input" id="reset-password2" name="passwordConfirm" type="password" autocomplete="new-password" required data-rule="match:password">
+              <p class="field__error" data-error-for="passwordConfirm"></p>
+            </div>
+            <p class="notice notice--danger" data-form-error hidden></p>
+            <button class="btn btn--block" type="submit"><span class="btn__label" data-i18n="auth.saveNewPassword">Сохранить пароль</span></button>
+          </form>
+          <div class="row row--between auth__code-foot">
+            <button class="link-u t-mono auth__small" type="button" data-go="forgot" data-i18n="auth.back">← Назад</button>
+            <button class="link-u t-mono auth__small" type="button" data-resend-reset disabled><span data-i18n="auth.resend">Отправить снова</span> <span data-resend-reset-timer></span></button>
+          </div>
+        </div>
+      </div>
+      {{{demoAccounts}}}
+    </section>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/auth.js"></script>
+</body>
+</html>

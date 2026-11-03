@@ -1,0 +1,308 @@
+// Серверные тексты на двух языках: ошибки API, сообщения валидации, подписи статусов.
+// Язык запроса определяется в server/middleware/i18n.js (заголовок X-Lang, cookie, Accept-Language).
+const messages = {
+  ru: {
+    // --- общие ошибки ---
+    'errors.badRequest': 'Некорректный запрос',
+    'errors.notFound': 'Страница не найдена',
+    'errors.apiNotFound': 'Метод API не найден',
+    'errors.unauthorized': 'Войдите в аккаунт, чтобы продолжить',
+    'errors.forbidden': 'Недостаточно прав для этого действия',
+    'errors.csrf': 'Сессия устарела. Обновите страницу и повторите действие',
+    'errors.validation': 'Проверьте правильность заполнения полей',
+    'errors.internal': 'Внутренняя ошибка сервера. Попробуйте позже',
+    'errors.tooManyRequests': 'Слишком много запросов. Подождите несколько минут',
+    'errors.fileType': 'Можно загружать только изображения JPG, PNG, WEBP или GIF',
+    'errors.fileTooLarge': 'Файл слишком большой: максимум {mb} МБ',
+    'errors.fileCount': 'Слишком много файлов за один раз',
+    'errors.conflict': 'Такая запись уже существует',
+    'errors.fkViolation': 'Запись связана с другими данными и не может быть изменена',
+    'errors.checkViolation': 'Значение не прошло проверку базы данных',
+    'errors.dbUnavailable': 'База данных недоступна',
+
+    // --- валидация полей ---
+    'validation.required': 'Обязательное поле',
+    'validation.email': 'Введите корректный email',
+    'validation.password': 'Пароль: минимум 8 символов, буквы и цифры',
+    'validation.passwordMatch': 'Пароли не совпадают',
+    'validation.phone': 'Введите телефон в международном формате',
+    'validation.name': 'От 1 до 60 символов: буквы, пробел, дефис',
+    'validation.code': 'Код состоит из 6 цифр',
+    'validation.terms': 'Необходимо согласие с правилами',
+    'validation.int': 'Введите целое число',
+    'validation.positive': 'Значение должно быть больше нуля',
+    'validation.nonNegative': 'Значение не может быть отрицательным',
+    'validation.price': 'Введите цену больше нуля',
+    'validation.oldPrice': 'Старая цена должна быть больше текущей',
+    'validation.rating': 'Оценка — от 1 до 5',
+    'validation.length': 'Длина: от {min} до {max} символов',
+    'validation.lang': 'Неизвестный язык',
+    'validation.theme': 'Неизвестная тема',
+    'validation.currency': 'Неизвестная валюта',
+    'validation.country': 'Выберите страну из списка',
+    'validation.date': 'Введите корректную дату',
+    'validation.slug': 'Только латиница, цифры и дефис',
+    'validation.color': 'Цвет в формате #RRGGBB',
+    'validation.enum': 'Недопустимое значение',
+    'validation.percent': 'Скидка — от 1 до 90 %',
+    'validation.year': 'Введите корректный год',
+    'validation.dateRange': 'Дата окончания раньше даты начала',
+
+    // --- авторизация ---
+    'auth.emailTaken': 'Пользователь с таким email уже зарегистрирован',
+    'auth.invalidCredentials': 'Неверный email или пароль',
+    'auth.locked': 'Вход временно заблокирован из-за неудачных попыток. Повторите через {minutes} мин.',
+    'auth.attemptsLeft': 'Неверный email или пароль. Осталось попыток: {left}',
+    'auth.blocked': 'Аккаунт заблокирован. Обратитесь в поддержку',
+    'auth.deleted': 'Аккаунт удалён',
+    'auth.emailNotVerified': 'Подтвердите email — мы отправили код',
+    'auth.codeInvalid': 'Неверный код',
+    'auth.codeExpired': 'Срок действия кода истёк. Запросите новый',
+    'auth.codeAttempts': 'Слишком много попыток ввода. Запросите новый код',
+    'auth.codeSent': 'Код отправлен',
+    'auth.resendWait': 'Повторная отправка будет доступна через {seconds} с',
+    'auth.verified': 'Email подтверждён',
+    'auth.alreadyVerified': 'Email уже подтверждён',
+    'auth.loggedOut': 'Вы вышли из аккаунта',
+    'auth.twoFactorRequired': 'Введите код двухфакторной аутентификации',
+    'auth.twoFactorNoPending': 'Сначала введите email и пароль',
+    'auth.resetSent': 'Если аккаунт существует, мы отправили код для сброса пароля',
+    'auth.resetDone': 'Пароль изменён. Войдите с новым паролем',
+    'auth.passwordChanged': 'Пароль изменён',
+    'auth.wrongPassword': 'Текущий пароль указан неверно',
+    'auth.samePassword': 'Новый пароль совпадает с текущим',
+
+    // --- каталог ---
+    'catalog.brandNotFound': 'Бренд не найден',
+    'catalog.productNotFound': 'Товар не найден',
+    'catalog.categoryNotFound': 'Категория не найдена',
+    'catalog.collectionNotFound': 'Коллекция не найдена',
+
+    // --- корзина, избранное, сравнение ---
+    'cart.variantNotFound': 'Размер не найден или товар снят с продажи',
+    'cart.notEnoughStock': 'Недостаточно товара: доступно {available} шт.',
+    'cart.outOfStock': 'Этого размера нет в наличии',
+    'cart.itemNotFound': 'Позиция корзины не найдена',
+    'cart.empty': 'Корзина пуста',
+    'cart.promoInvalid': 'Промокод не найден',
+    'cart.promoExpired': 'Срок действия промокода истёк или ещё не начался',
+    'cart.promoLimit': 'Лимит использований промокода исчерпан',
+    'cart.promoApplied': 'Промокод применён: скидка {percent} %',
+    'compare.limit': 'В сравнении может быть не больше {max} товаров',
+    'wishlist.notFound': 'Товар не найден в избранном',
+
+    // --- заказы ---
+    'orders.notFound': 'Заказ не найден',
+    'orders.cannotCancel': 'Этот заказ уже нельзя отменить',
+    'orders.addressRequired': 'Укажите адрес доставки',
+    'orders.addressNotFound': 'Адрес не найден',
+    'orders.deliveryInvalid': 'Выберите способ доставки',
+    'orders.paymentInvalid': 'Выберите способ оплаты',
+    'orders.stockChanged': 'Пока вы оформляли заказ, часть товаров закончилась',
+    'orders.invalidTransition': 'Нельзя перевести заказ из статуса «{from}» в «{to}»',
+    'orders.noCourier': 'Сначала назначьте курьера',
+    'orders.notCourier': 'Пользователь не является курьером',
+    'orders.notAssigned': 'Заказ назначен другому курьеру',
+    'orders.finalStatus': 'Заказ уже в финальном статусе',
+    'orders.trackingNotFound': 'Заказ с таким трек-номером не найден',
+    'orders.demoRunning': 'Демонстрация для этого заказа уже идёт',
+
+    // --- возвраты ---
+    'returns.notAllowed': 'Возврат возможен только для полученного заказа',
+    'returns.expired': 'Срок возврата ({days} дней с момента получения) истёк',
+    'returns.exists': 'Заявка на возврат этого товара уже подана',
+    'returns.notFound': 'Заявка на возврат не найдена',
+    'returns.alreadyResolved': 'Заявка уже рассмотрена',
+    'returns.notApproved': 'Принять на склад можно только одобренный возврат',
+    'returns.alreadyReceived': 'Возврат уже принят на склад',
+
+    // --- отзывы ---
+    'reviews.notAllowed': 'Отзыв можно оставить только на купленный и полученный товар',
+    'reviews.exists': 'Вы уже оставили отзыв на этот товар',
+
+    // --- поддержка ---
+    'tickets.notFound': 'Обращение не найдено',
+    'tickets.closed': 'Обращение закрыто',
+
+    // --- продавец ---
+    'seller.applicationExists': 'Заявка уже подана и ожидает рассмотрения',
+    'seller.alreadySeller': 'Вы уже продавец',
+    'seller.notOwner': 'Это товар другого продавца',
+    'seller.imagesLimit': 'У товара может быть не больше 8 фото',
+
+    // --- склад ---
+    'warehouse.insufficient': 'Недостаточно товара на складе: доступно {available} шт.',
+    'warehouse.stockNotFound': 'Позиция склада не найдена',
+    'warehouse.notFound': 'Склад не найден',
+
+    // --- администрирование ---
+    'admin.cannotChangeOwnRole': 'Нельзя менять собственную роль',
+    'admin.cannotBlockSelf': 'Нельзя заблокировать или удалить самого себя',
+    'admin.ownerOnly': 'Это действие доступно только создателю магазина',
+    'admin.cannotTouchOwner': 'Модератор не может изменять аккаунт создателя магазина',
+    'admin.inUse': 'Запись используется и не может быть удалена',
+    'admin.passwordReset': 'Временный пароль выведен в консоль сервера',
+    'admin.categoryCycle': 'Категория не может быть вложена сама в себя',
+  },
+
+  en: {
+    'errors.badRequest': 'Bad request',
+    'errors.notFound': 'Page not found',
+    'errors.apiNotFound': 'API method not found',
+    'errors.unauthorized': 'Please sign in to continue',
+    'errors.forbidden': 'You do not have permission for this action',
+    'errors.csrf': 'Your session has expired. Refresh the page and try again',
+    'errors.validation': 'Please check the highlighted fields',
+    'errors.internal': 'Internal server error. Please try again later',
+    'errors.tooManyRequests': 'Too many requests. Please wait a few minutes',
+    'errors.fileType': 'Only JPG, PNG, WEBP or GIF images can be uploaded',
+    'errors.fileTooLarge': 'File is too large: {mb} MB maximum',
+    'errors.fileCount': 'Too many files at once',
+    'errors.conflict': 'This record already exists',
+    'errors.fkViolation': 'The record is linked to other data and cannot be changed',
+    'errors.checkViolation': 'The value failed a database check',
+    'errors.dbUnavailable': 'Database is unavailable',
+
+    'validation.required': 'This field is required',
+    'validation.email': 'Enter a valid email',
+    'validation.password': 'Password: at least 8 characters, letters and digits',
+    'validation.passwordMatch': 'Passwords do not match',
+    'validation.phone': 'Enter the phone number in international format',
+    'validation.name': '1 to 60 characters: letters, spaces, hyphens',
+    'validation.code': 'The code consists of 6 digits',
+    'validation.terms': 'You must accept the terms',
+    'validation.int': 'Enter a whole number',
+    'validation.positive': 'The value must be greater than zero',
+    'validation.nonNegative': 'The value cannot be negative',
+    'validation.price': 'Enter a price greater than zero',
+    'validation.oldPrice': 'The old price must be higher than the current one',
+    'validation.rating': 'Rating must be from 1 to 5',
+    'validation.length': 'Length: {min} to {max} characters',
+    'validation.lang': 'Unknown language',
+    'validation.theme': 'Unknown theme',
+    'validation.currency': 'Unknown currency',
+    'validation.country': 'Choose a country from the list',
+    'validation.date': 'Enter a valid date',
+    'validation.slug': 'Latin letters, digits and hyphens only',
+    'validation.color': 'Color in #RRGGBB format',
+    'validation.enum': 'Invalid value',
+    'validation.percent': 'Discount must be from 1 to 90 %',
+    'validation.year': 'Enter a valid year',
+    'validation.dateRange': 'End date is earlier than start date',
+
+    'auth.emailTaken': 'A user with this email is already registered',
+    'auth.invalidCredentials': 'Invalid email or password',
+    'auth.locked': 'Sign-in is temporarily locked after failed attempts. Try again in {minutes} min.',
+    'auth.attemptsLeft': 'Invalid email or password. Attempts left: {left}',
+    'auth.blocked': 'This account is blocked. Please contact support',
+    'auth.deleted': 'This account has been deleted',
+    'auth.emailNotVerified': 'Please verify your email — we have sent you a code',
+    'auth.codeInvalid': 'Invalid code',
+    'auth.codeExpired': 'The code has expired. Request a new one',
+    'auth.codeAttempts': 'Too many attempts. Request a new code',
+    'auth.codeSent': 'Code sent',
+    'auth.resendWait': 'You can request a new code in {seconds} s',
+    'auth.verified': 'Email verified',
+    'auth.alreadyVerified': 'Email is already verified',
+    'auth.loggedOut': 'You have signed out',
+    'auth.twoFactorRequired': 'Enter your two-factor authentication code',
+    'auth.twoFactorNoPending': 'Enter your email and password first',
+    'auth.resetSent': 'If the account exists, we have sent a password reset code',
+    'auth.resetDone': 'Password changed. Sign in with your new password',
+    'auth.passwordChanged': 'Password changed',
+    'auth.wrongPassword': 'Current password is incorrect',
+    'auth.samePassword': 'The new password matches the current one',
+
+    'catalog.brandNotFound': 'Brand not found',
+    'catalog.productNotFound': 'Product not found',
+    'catalog.categoryNotFound': 'Category not found',
+    'catalog.collectionNotFound': 'Collection not found',
+
+    'cart.variantNotFound': 'Size not found or the product is no longer available',
+    'cart.notEnoughStock': 'Not enough stock: {available} available',
+    'cart.outOfStock': 'This size is out of stock',
+    'cart.itemNotFound': 'Cart item not found',
+    'cart.empty': 'Your bag is empty',
+    'cart.promoInvalid': 'Promo code not found',
+    'cart.promoExpired': 'The promo code has expired or is not active yet',
+    'cart.promoLimit': 'The promo code usage limit has been reached',
+    'cart.promoApplied': 'Promo code applied: {percent} % off',
+    'compare.limit': 'You can compare up to {max} products',
+    'wishlist.notFound': 'Product not found in your wishlist',
+
+    'orders.notFound': 'Order not found',
+    'orders.cannotCancel': 'This order can no longer be cancelled',
+    'orders.addressRequired': 'Please provide a delivery address',
+    'orders.addressNotFound': 'Address not found',
+    'orders.deliveryInvalid': 'Choose a delivery method',
+    'orders.paymentInvalid': 'Choose a payment method',
+    'orders.stockChanged': 'Some items sold out while you were checking out',
+    'orders.invalidTransition': 'Cannot move the order from “{from}” to “{to}”',
+    'orders.noCourier': 'Assign a courier first',
+    'orders.notCourier': 'This user is not a courier',
+    'orders.notAssigned': 'The order is assigned to another courier',
+    'orders.finalStatus': 'The order is already in a final status',
+    'orders.trackingNotFound': 'No order found with this tracking number',
+    'orders.demoRunning': 'A demo is already running for this order',
+
+    'returns.notAllowed': 'Returns are only possible for received orders',
+    'returns.expired': 'The return period ({days} days after delivery) has expired',
+    'returns.exists': 'A return request for this item already exists',
+    'returns.notFound': 'Return request not found',
+    'returns.alreadyResolved': 'The request has already been reviewed',
+    'returns.notApproved': 'Only approved returns can be received',
+    'returns.alreadyReceived': 'The return has already been received',
+
+    'reviews.notAllowed': 'You can only review products you bought and received',
+    'reviews.exists': 'You have already reviewed this product',
+
+    'tickets.notFound': 'Support request not found',
+    'tickets.closed': 'This support request is closed',
+
+    'seller.applicationExists': 'Your application is already pending review',
+    'seller.alreadySeller': 'You are already a seller',
+    'seller.notOwner': 'This product belongs to another seller',
+    'seller.imagesLimit': 'A product can have up to 8 photos',
+
+    'warehouse.insufficient': 'Not enough stock in the warehouse: {available} available',
+    'warehouse.stockNotFound': 'Stock record not found',
+    'warehouse.notFound': 'Warehouse not found',
+
+    'admin.cannotChangeOwnRole': 'You cannot change your own role',
+    'admin.cannotBlockSelf': 'You cannot block or delete yourself',
+    'admin.ownerOnly': 'Only the store owner can do this',
+    'admin.cannotTouchOwner': 'Moderators cannot modify the store owner account',
+    'admin.inUse': 'The record is in use and cannot be deleted',
+    'admin.passwordReset': 'A temporary password has been printed to the server console',
+    'admin.categoryCycle': 'A category cannot be nested inside itself',
+  },
+};
+
+// Названия статусов заказа (используются в уведомлениях и истории статусов)
+export const ORDER_STATUS_LABELS = {
+  created: { ru: 'Оформлен', en: 'Placed' },
+  confirmed: { ru: 'Подтверждён', en: 'Confirmed' },
+  assembling: { ru: 'Собирается на складе', en: 'Being assembled' },
+  assembled: { ru: 'Собран', en: 'Assembled' },
+  handed_to_delivery: { ru: 'Передан в доставку', en: 'Handed to delivery' },
+  in_transit: { ru: 'В пути', en: 'In transit' },
+  arrived: { ru: 'Прибыл в пункт выдачи', en: 'Arrived at pickup point' },
+  delivered: { ru: 'Доставлен', en: 'Delivered' },
+  cancelled: { ru: 'Отменён', en: 'Cancelled' },
+  returned: { ru: 'Возврат оформлен', en: 'Returned' },
+};
+
+export const SUPPORTED_LANGS = ['ru', 'en'];
+
+// Перевод ключа на язык lang с подстановкой параметров {name}
+export function translate(lang, key, params = {}) {
+  const dict = messages[lang] || messages.ru;
+  const template = dict[key] ?? messages.ru[key] ?? key;
+  return template.replace(/\{(\w+)\}/g, (_, name) => (params[name] !== undefined ? String(params[name]) : `{${name}}`));
+}
+
+export function statusLabel(status, lang = 'ru') {
+  return ORDER_STATUS_LABELS[status]?.[lang] || status;
+}
+
+export default { translate, statusLabel, ORDER_STATUS_LABELS, SUPPORTED_LANGS };

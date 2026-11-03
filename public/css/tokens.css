@@ -1,0 +1,207 @@
+/* =====================================================================
+   AMFIBIA — дизайн-токены и три темы (раздел 11 ТЗ)
+   Тема задаётся атрибутом data-theme на <html>: amfibia | light | dark.
+   Контраст текста проверен по WCAG AA (≥ 4.5:1 для обычного текста):
+     amfibia: #EDE6DA на #0B0B0C — 16.5:1; вторичный #8A857D — 5.4:1; акцент #D9707F — 6.2:1
+     light:   #0B0B0C на #F7F5F2 — 18.2:1; вторичный #5E5A55 — 6.4:1
+     dark:    #FFFFFF на #151517 — 17.4:1; вторичный #9A9AA0 — 6.5:1
+   ===================================================================== */
+
+:root {
+  /* Шрифты */
+  --font-gothic: 'UnifrakturMaguntia', 'Pirata One', 'Cormorant Garamond', serif;
+  --font-display: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+
+  /* Типографическая шкала (fluid) */
+  --fs-xs: 0.6875rem;
+  --fs-sm: 0.8125rem;
+  --fs-md: 0.9375rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: clamp(1.375rem, 1.1rem + 0.9vw, 1.75rem);
+  --fs-2xl: clamp(1.75rem, 1.3rem + 1.6vw, 2.75rem);
+  --fs-3xl: clamp(2.25rem, 1.5rem + 3vw, 4.5rem);
+  --fs-4xl: clamp(3rem, 1.6rem + 6vw, 8rem);
+  --fs-mega: clamp(4rem, 1rem + 13vw, 15rem);
+
+  /* Кривые и длительности анимаций (модалки и панели — не линейные) */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-1: 160ms;
+  --dur-2: 320ms;
+  --dur-3: 640ms;
+  --dur-4: 1100ms;
+
+  /* Сетка и отступы */
+  --gutter: clamp(16px, 3.6vw, 56px);
+  --container: 1720px;
+  --radius: 2px;
+  --radius-lg: 6px;
+  --header-h: 84px;
+  --header-h-compact: 62px;
+  --topbar-h: 32px;
+  --bottom-nav-h: 0px;
+
+  /* Слои */
+  --z-base: 1;
+  --z-sticky: 40;
+  --z-header: 60;
+  --z-overlay: 70;
+  --z-drawer: 80;
+  --z-modal: 90;
+  --z-toast: 95;
+  --z-cursor: 100;
+  --z-curtain: 110;
+  --z-preloader: 120;
+  --z-grain: 130;
+
+  /* Цвета товаров (кружки-образцы фильтра «Цвет») */
+  --c-black: #161616;
+  --c-white: #f4f2ee;
+  --c-ivory: #efe8d8;
+  --c-beige: #d9c7a7;
+  --c-camel: #b8915c;
+  --c-brown: #6b4630;
+  --c-grey: #8c8c8c;
+  --c-silver: linear-gradient(135deg, #8d9095, #e9ebee 45%, #a8abb0);
+  --c-gold: linear-gradient(135deg, #a07a17, #f1d77a 45%, #b8901d);
+  --c-red: #b3122e;
+  --c-burgundy: #6e1a2b;
+  --c-pink: #e8a0b6;
+  --c-green: #2f5d46;
+  --c-khaki: #8a8456;
+  --c-navy: #1f2a44;
+  --c-blue: #3557a0;
+  --c-lightblue: #9ec1e3;
+  --c-yellow: #f2d21b;
+  --c-purple: #6b3fa0;
+  --c-orange: #e07b2a;
+  --c-multicolor: conic-gradient(#b3122e, #c9a227, #2f5d46, #3557a0, #6b3fa0, #b3122e);
+}
+
+/* ---------- 1. «Amfibia» — основная: почти чёрный, слоновая кость, бордо, серебро ---------- */
+:root,
+[data-theme='amfibia'] {
+  color-scheme: dark;
+  --bg: #0b0b0c;
+  --bg-2: #111113;
+  --bg-3: #18181b;
+  --surface: #131315;
+  --surface-2: #1b1b1f;
+  --surface-3: #24242a;
+  --text: #ede6da;
+  --text-2: #bdb6aa;
+  --text-3: #8a857d;
+  --line: rgba(237, 230, 218, 0.11);
+  --line-2: rgba(237, 230, 218, 0.22);
+  --line-3: rgba(237, 230, 218, 0.4);
+  --accent: #5a0f1c;
+  --accent-2: #74172a;
+  --accent-text: #d9707f;
+  --on-accent: #ede6da;
+  --silver: #b8b8b8;
+  --focus: #d9707f;
+  --success: #86b694;
+  --danger: #e2727d;
+  --warning: #d8b46e;
+  --overlay: rgba(5, 5, 6, 0.72);
+  --header-bg: rgba(11, 11, 12, 0.72);
+  --shadow-1: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --shadow-2: 0 30px 80px rgba(0, 0, 0, 0.6);
+  --ornament: #b8b8b8;
+  --ornament-opacity: 0.9;
+  --grain-opacity: 0.075;
+  --vignette: rgba(0, 0, 0, 0.6);
+  --skeleton-a: #141416;
+  --skeleton-b: #202024;
+  --selection-bg: #5a0f1c;
+  --selection-text: #ede6da;
+}
+
+/* ---------- 2. Светлая — молочный фон, чёрный текст, минимализм Balenciaga / Margiela ---------- */
+[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f7f5f2;
+  --bg-2: #efece7;
+  --bg-3: #e6e2db;
+  --surface: #ffffff;
+  --surface-2: #f2efea;
+  --surface-3: #e8e4dd;
+  --text: #0b0b0c;
+  --text-2: #3b3834;
+  --text-3: #5e5a55;
+  --line: rgba(11, 11, 12, 0.1);
+  --line-2: rgba(11, 11, 12, 0.2);
+  --line-3: rgba(11, 11, 12, 0.42);
+  --accent: #0b0b0c;
+  --accent-2: #2a2a2c;
+  --accent-text: #0b0b0c;
+  --on-accent: #f7f5f2;
+  --silver: #6a6a6a;
+  --focus: #0b0b0c;
+  --success: #2f6b43;
+  --danger: #a3182c;
+  --warning: #8a5a00;
+  --overlay: rgba(247, 245, 242, 0.8);
+  --header-bg: rgba(247, 245, 242, 0.78);
+  --shadow-1: 0 10px 30px rgba(11, 11, 12, 0.08);
+  --shadow-2: 0 30px 80px rgba(11, 11, 12, 0.16);
+  --ornament: #0b0b0c;
+  --ornament-opacity: 0.28;
+  --grain-opacity: 0.045;
+  --vignette: rgba(0, 0, 0, 0.05);
+  --skeleton-a: #ece8e2;
+  --skeleton-b: #f6f3ef;
+  --selection-bg: #0b0b0c;
+  --selection-text: #f7f5f2;
+}
+
+/* ---------- 3. Тёмная — графит, белый текст, нейтральный серый акцент, без бордового ---------- */
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #151517;
+  --bg-2: #1a1a1d;
+  --bg-3: #212125;
+  --surface: #1c1c1f;
+  --surface-2: #242428;
+  --surface-3: #2e2e33;
+  --text: #ffffff;
+  --text-2: #cfcfd4;
+  --text-3: #9a9aa0;
+  --line: rgba(255, 255, 255, 0.1);
+  --line-2: rgba(255, 255, 255, 0.2);
+  --line-3: rgba(255, 255, 255, 0.4);
+  --accent: #9a9aa0;
+  --accent-2: #b6b6bc;
+  --accent-text: #d4d4d9;
+  --on-accent: #151517;
+  --silver: #b8b8b8;
+  --focus: #ffffff;
+  --success: #8fc49d;
+  --danger: #ef8a8a;
+  --warning: #e0c07a;
+  --overlay: rgba(10, 10, 11, 0.7);
+  --header-bg: rgba(21, 21, 23, 0.74);
+  --shadow-1: 0 10px 30px rgba(0, 0, 0, 0.3);
+  --shadow-2: 0 30px 80px rgba(0, 0, 0, 0.55);
+  --ornament: #cfcfd4;
+  --ornament-opacity: 0.55;
+  --grain-opacity: 0.05;
+  --vignette: rgba(0, 0, 0, 0.42);
+  --skeleton-a: #1e1e21;
+  --skeleton-b: #2a2a2f;
+  --selection-bg: #ffffff;
+  --selection-text: #151517;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --header-h: 64px;
+    --header-h-compact: 56px;
+    --topbar-h: 0px;
+    --bottom-nav-h: 64px;
+  }
+}
