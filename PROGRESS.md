@@ -27,7 +27,7 @@
 | 10 | Избранное, сравнение (до 4, «только различия»), корзина (смена размера, отмена удаления, промокод) | ✅ `/cart`: смена размера, количество с проверкой остатка, удаление с анимацией и «Отменить» 5 с, промокод (`GET/POST/DELETE /api/cart/promo`, хранится в сессии), шкала бесплатной доставки (порог из config через /api/auth/me), итог в валюте, рекомендации, гость → окно входа при оформлении. `/compare`: таблица до 4 товаров, «только различия», лучшая цена/рейтинг, удаление, «В корзину» с выбором размера. `/wishlist` (только вошедшим): сетка, сортировка, снятие сердца убирает карточку |
 | 11 | Оформление заказа (5 шагов, имитация оплаты с алгоритмом Луна), страница успеха, отслеживание с таймлайном и автообновлением | ✅ `services/orderService.js` — единая логика заказов: `createOrder` (одна транзакция: адрес, SELECT … FOR UPDATE остатков, распределение по складам, резерв + stock_movements, промокод FOR UPDATE, фиксация валюты и курса, история created→confirmed, уведомление, очистка корзины) и `changeStatus` (проверка перехода, outcome/unreserve, refunded/paid, история, уведомление, audit_log). API: `/api/checkout/options`, `/api/checkout/quote`, `POST /api/orders`, `GET /api/orders`, `GET /api/orders/:id`, `POST /api/orders/:id/cancel`, `POST /api/orders/:id/repeat`, `GET /api/tracking/:number`, CRUD `/api/addresses`. Страницы: `/checkout` (5 шагов, 3D-карта, Луна, ЕРИП, оверлей обработки), `/checkout/success/:number`, `/tracking` (таймлайн, опрос раз в 30 с). Проверено end-to-end в браузере и через SQL |
 | 12 | Профиль покупателя: заказы (отмена, повтор, возврат), адреса, уведомления, настройки, 2FA, поддержка, заявка продавца | ✅ `/account/*` — один шаблон, клиентский роутер (`js/pages/account.js`), разделы-модули `js/account/*.js`, меню зависит от роли. Обзор (статистика, последние заказы), заказы (фильтр, детали с таймлайном и автообновлением, отмена, повтор, отзыв, возврат с фото), возвраты, адресная книга (CRUD), уведомления, вы смотрели, мои отзывы, поддержка (тикеты, переписка с фото, закрытие), заявка «Стать продавцом», настройки (данные, аватар multer, пароль, 2FA, язык/тема/валюта в профиле). API: `routes/api/account.js` (`/api/account`, `/profile`, `/avatar`, `/viewed`, `/reviews`, `/api/returns`, `/api/tickets`, `/api/seller-application`) |
-| 13 | Кабинеты ролей: продавец, кладовщик, курьер, поддержка | ⬜ |
+| 13 | Кабинеты ролей: продавец, кладовщик, курьер, поддержка | 🟡 начат: план ниже («Следующий шаг»); `scripts/generate-placeholders.js` экспортирует `writeProductPlaceholders()` для новых товаров продавца |
 | 14 | Админ-панель: дашборд с Chart.js, CRUD справочников, модерация, заказы с демо-кнопками, журнал действий, CSV | ⬜ |
 | 15 | Шаблон страницы истории бренда + служебные страницы (доставка, возврат, размеры, о нас, контакты, политика) | ⬜ |
 | 16–30 | Полные истории брендов (~15 000 слов RU + 3 000–5 000 слов EN), по одному бренду за этап | ⬜ |
@@ -52,6 +52,31 @@
 | Alexander McQueen | ⬜ | ⬜ |
 | Loro Piana | ⬜ | ⬜ |
 
+## Следующий шаг: этап 13 (план уже продуман — делать по нему)
+Кабинеты подключаются в `public/js/pages/account.js` через массив `ROLE_SECTIONS` (сейчас пустой), модули — `public/js/account/staff-*.js`
+(функция `render(view, ctx, params)`, подвкладки через params: `/account/shop/products`, `/account/shop/orders/...`).
+Права — только на сервере: `checkRole('seller')` и т.д. (owner проходит всегда). Смена статусов — ТОЛЬКО через `services/orderService.js → changeStatus`.
+Рекомендуется сначала сделать общий компонент таблицы `public/js/account/table.js` (поиск, сортировка, пагинация, CSV) — он же нужен админке (этап 14).
+
+1. **Продавец** — `server/routes/api/seller.js` (`/api/seller/*`, только свои товары `seller_id = req.user.id`):
+   `GET /refs` (бренды, листовые категории с size_type, коллекции, sizes по типу, цвета/материалы/страны — distinct из products);
+   `GET/POST /products`, `GET/PUT/DELETE /products/:id` (новый или изменённый товар → `moderation_status = 'pending'`; SKU = префикс бренда + код категории + номер, как `BAL-SNK-0001`;
+   варианты `product_variants` по выбранным `sizes`; без фото — `product_images` `/images/brands/<slug>/products/<sku>-1.svg|-2.svg` + `writeProductPlaceholders()`;
+   удаление — если товар не заказывали, иначе снятие с публикации `draft`);
+   `POST /products/:id/images` (multer `uploadProductImages`, до 8), `DELETE /products/:id/images/:imageId`;
+   `GET /orders` (заказы с его позициями, только просмотр), `GET /stats?days=30` (выручка, продажи по дням — Chart.js, топ товаров, просмотры), `GET /reviews`.
+2. **Кладовщик** — `server/routes/api/warehouse.js`: `GET /warehouses`, `GET /stock` (фильтры склад/поиск/только низкие, доступно = quantity − reserved, подсветка < 3),
+   `POST /income` и `POST /writeoff` (транзакция + `stock_movements`), `GET /queue` (confirmed/assembling/assembled), `POST /orders/:id/advance`
+   (assembling → assembled → handed_to_delivery; при handed_to_delivery — автоназначение курьера, см. решение 9), `GET /returns` + `POST /returns/:id/receive`
+   (одобренный возврат: quantity += N, движение `return`, `received_by/at`; если возвращены все позиции — заказ `returned`, оплата `refunded`), `GET /movements` (фильтры).
+3. **Курьер** — `server/routes/api/courier.js`: `GET /orders?scope=active|done` (courier_id = я), `POST /orders/:id/advance` (in_transit → arrived (только is_pickup) → delivered).
+4. **Поддержка** — `server/routes/api/support.js`: все заказы (только чтение, `loadOrder` из `routes/api/orders.js`), отмена по просьбе клиента (`changeStatus(..., 'cancelled')`),
+   тикеты (список, переписка, ответ → status `answered` + уведомление `ticketReplyNotification`, закрытие), возвраты (одобрить / отклонить с комментарием + уведомление).
+5. Тест: `scratchpad`-скрипты не сохраняются — проверять через Playwright (`require('playwright')`, Chromium предустановлен) и curl с cookie-jar + `X-CSRF-Token` из `/api/auth/me`.
+
+Порядок дальше: 14 — админ-панель (`/admin`, Chart.js, CRUD, модерация, демо-кнопки «продвинуть заказ» — для них уже есть `nextStatus()` и `changeStatus()`),
+15 — шаблон истории бренда + служебные страницы, 16–30 — тексты историй, 31 — README с матрицей прав и финальная проверка.
+
 ## Решения и отступления от ТЗ (правило 0.4)
 1. **PostgreSQL не установлен** → встроенный PostgreSQL из npm-пакета (см. «Окружение»). Код работает с любым PostgreSQL 15+.
 2. **Шрифты Google Fonts** подключены локально через npm-пакеты `@fontsource/*` (это те же шрифты Google Fonts, но сайт работает и без интернета). У UnifrakturMaguntia нет кириллицы, поэтому готика — только для латиницы (логотип, названия брендов), русские заголовки — Cormorant Garamond.
@@ -60,12 +85,14 @@
 5. **Выбор цвета на странице товара**: в ТЗ у товара один цвет, варианты — только размеры. Добавлен столбец `products.model_code`: товары одной модели в разных цветах связаны и переключаются кружками-образцами.
 6. **SVG-заглушки** открываются через `<img>`, а в таком режиме браузер не грузит веб-шрифты внутрь SVG, поэтому текст в заглушках набран системными шрифтами.
 7. **Оплата картой — имитация**: номер карты проверяется алгоритмом Луна на клиенте и **не отправляется на сервер** (сохраняются только последние 4 цифры в комментарии к оплате).
+9. **Курьер назначается автоматически** при передаче в доставку (`handed_to_delivery`), если его не назначил владелец: выбирается курьер с наименьшим числом активных заказов; владелец может переназначить в админке (этап 14). Иначе цепочка склад → курьер не работала бы без админки.
 8. Объём историй (15 × ~15 000 слов ≈ 225 000 слов) — пишутся отдельными этапами, по одному бренду; английская версия сокращённая (3–5 тыс. слов), как разрешено в ТЗ.
 
 ## Тестовые аккаунты
 Пароль у всех: `Amfibia2026`. owner@amfibia.by · moderator@amfibia.by · support@amfibia.by · warehouse@amfibia.by · courier@amfibia.by · courier2@amfibia.by · official@amfibia.by (продавец Amfibia Official) · seller1/2/3@amfibia.by · buyer@amfibia.by (заказы во всех статусах) · anna.kovaleva@example.com (включена 2FA) · blocked.user@example.com (заблокирован) · ещё 19 покупателей *@example.com. Коды email/2FA/сброса печатаются в консоль сервера. В режиме разработки на `/auth` есть блок быстрого входа под ролями.
 
 ## Известные проблемы и заметки
+- Если в облачной/новой среде PostgreSQL остановлен: `service postgresql start` (или свой PostgreSQL / `USE_EMBEDDED_PG=true`).
 - Репозиторий проекта: `Fashion_site` (импорт из JLeizy/Test, история этапов ведётся коммитами по блокам).
 - Страница `/account` ещё не создана (этап 12) — ссылка профиля в шапке пока ведёт на 404; выйти можно через `POST /api/auth/logout`.
 - По просьбе заказчика убрана верхняя бегущая строка над шапкой (строгий стиль магазина).

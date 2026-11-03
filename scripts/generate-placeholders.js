@@ -185,6 +185,14 @@ ${frameFor(p.frame, W, H, p, rng)}
 
 const FAVICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#0B0B0C"/><rect x="5" y="5" width="54" height="54" rx="9" fill="none" stroke="#5A0F1C" stroke-width="2"/><path d="M32 10 L35 22 L47 20 L37 28 L44 40 L32 33 L20 40 L27 28 L17 20 L29 22 Z" fill="#EDE6DA"/><path d="M22 54 L32 30 L42 54 M26 46 L38 46" fill="none" stroke="#B8B8B8" stroke-width="3" stroke-linejoin="round"/></svg>`;
 
+// Заглушки для одного товара (используется API продавца при создании товара без фото).
+// row: { sku, color, name_en, brand_slug, brand_name, accent_color, category_slug }; urls — пути из product_images
+export function writeProductPlaceholders(row, urls) {
+  const stats = { written: 0, skipped: 0 };
+  urls.forEach((url) => write(url, productSvg(row, /-2\.svg$/.test(url) ? 2 : 1), stats));
+  return stats;
+}
+
 function write(publicUrl, content, stats) {
   if (!publicUrl || !publicUrl.startsWith('/images/') || !publicUrl.endsWith('.svg')) {
     stats.skipped += 1;
