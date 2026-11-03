@@ -3,49 +3,6 @@
    прелоадер, шторка переходов, курсор
    ===================================================================== */
 
-/* ---------- Бегущая строка над шапкой ---------- */
-.topbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: calc(var(--z-header) + 1);
-  height: var(--topbar-h);
-  overflow: hidden;
-  background: var(--accent);
-  color: var(--on-accent);
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  transition: transform var(--dur-3) var(--ease-out);
-}
-.topbar__track {
-  display: flex;
-  width: max-content;
-  height: 100%;
-  animation: marquee 48s linear infinite;
-}
-.topbar__group {
-  display: flex;
-  align-items: center;
-  gap: 28px;
-  padding-right: 28px;
-  white-space: nowrap;
-}
-.topbar__orn {
-  width: 10px;
-  height: 10px;
-  fill: currentColor;
-  opacity: 0.7;
-}
-@keyframes marquee {
-  to { transform: translateX(-50%); }
-}
-html.is-scrolled .topbar {
-  transform: translateY(-100%);
-}
-
 /* ---------- Шапка ---------- */
 .header {
   position: fixed;

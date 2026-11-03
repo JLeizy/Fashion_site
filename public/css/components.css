@@ -1651,3 +1651,29 @@ input:checked + .color-dot::after {
 .qv__desc { font-size: var(--fs-sm); color: var(--text-2); }
 .qv__loading { padding: 60px; text-align: center; color: var(--text-3); }
 @media (max-width: 1023px) { .qv { grid-template-columns: 1fr; } }
+
+/* ---------- Ленты карточек (страница товара, главная, бренд) ---------- */
+.pp-rail__head { align-items: center; }
+.pp-rail__nav { display: flex; gap: 8px; margin-left: auto; }
+.pp-rail__nav .icon-btn { border: 1px solid var(--line-2); }
+.pp-rail__nav .icon-btn:disabled { opacity: 0.3; pointer-events: none; }
+.pp-rail:not(.is-scrollable) .pp-rail__nav { visibility: hidden; }
+.rail {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 3 * clamp(14px, 1.6vw, 28px)) / 4);
+  gap: clamp(14px, 1.6vw, 28px);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-bottom: 6px;
+  cursor: grab;
+}
+.rail::-webkit-scrollbar { display: none; }
+.rail.is-dragging { cursor: grabbing; scroll-snap-type: none; }
+.rail.is-dragging .p-card { pointer-events: none; }
+.rail__item { scroll-snap-align: start; min-width: 0; }
+@media (max-width: 1439px) { .rail { grid-auto-columns: calc((100% - 2 * clamp(14px, 1.6vw, 28px)) / 3); } }
+@media (max-width: 1023px) { .rail { grid-auto-columns: calc((100% - clamp(14px, 1.6vw, 28px)) / 2.3); } }
+@media (max-width: 767px) { .rail { grid-auto-columns: 62%; } }
