@@ -167,13 +167,13 @@ export function createCatalog(root, { fixed = {}, onResult = null, scrollOffset 
     }
     const pages = new Set([1, data.pages, state.page, state.page - 1, state.page + 1, state.page + 2]);
     const sorted = [...pages].filter((n) => n >= 1 && n <= data.pages).sort((a, b) => a - b);
-    let html = `<button type="button" data-page="${state.page - 1}" ${state.page <= 1 ? 'disabled' : ''} aria-label="${esc(t('catalog.prev'))}">${icon('i-chevron-left', 'icon icon--sm')}</button>`;
+    let html = `<button type="button" data-page-num="${state.page - 1}" ${state.page <= 1 ? 'disabled' : ''} aria-label="${esc(t('catalog.prev'))}">${icon('i-chevron-left', 'icon icon--sm')}</button>`;
     sorted.forEach((n, i) => {
       if (i > 0 && n - sorted[i - 1] > 1) html += '<span class="t-muted">…</span>';
       const inRange = n >= state.page && n <= current;
-      html += `<button type="button" data-page="${n}" ${inRange ? 'aria-current="page"' : ''}>${n}</button>`;
+      html += `<button type="button" data-page-num="${n}" ${inRange ? 'aria-current="page"' : ''}>${n}</button>`;
     });
-    html += `<button type="button" data-page="${current + 1}" ${current >= data.pages ? 'disabled' : ''} aria-label="${esc(t('catalog.next'))}">${icon('i-chevron-right', 'icon icon--sm')}</button>`;
+    html += `<button type="button" data-page-num="${current + 1}" ${current >= data.pages ? 'disabled' : ''} aria-label="${esc(t('catalog.next'))}">${icon('i-chevron-right', 'icon icon--sm')}</button>`;
     els.pagination.innerHTML = html;
   }
 
@@ -507,9 +507,9 @@ export function createCatalog(root, { fixed = {}, onResult = null, scrollOffset 
       apply({ scroll: true });
       return;
     }
-    const page = e.target.closest('[data-page]');
+    const page = e.target.closest('[data-page-num]');
     if (page && !page.disabled) {
-      state.page = Number(page.dataset.page);
+      state.page = Number(page.dataset.pageNum);
       pushUrl();
       load({ scroll: true });
       return;

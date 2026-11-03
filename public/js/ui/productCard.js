@@ -33,7 +33,7 @@ export function labelsHtml(p) {
   if (p.isLimited) labels.push(`<span class="label label--limited">${esc(t('labels.limited'))}</span>`);
   if (p.discount > 0) labels.push(`<span class="label label--sale">−${p.discount}%</span>`);
   if (p.lastSize && p.inStock) labels.push(`<span class="label label--last">${esc(t(p.sizes?.length > 1 ? 'labels.lastSize' : 'labels.lastItem'))}</span>`);
-  if (p.isAuthenticated) labels.push(`<span class="label label--verified">${icon('i-shield', 'icon')}${esc(t('labels.verified'))}</span>`);
+  if (p.isAuthenticated) labels.push(`<span class="label label--verified" title="${esc(t('labels.verified'))}">${icon('i-shield', 'icon')}<span class="label__text">${esc(t('labels.verified'))}</span></span>`);
   return labels.join('');
 }
 
