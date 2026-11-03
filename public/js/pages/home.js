@@ -6,6 +6,7 @@ import { initApp } from '../app.js';
 import { $, $$, esc, icon, isTouch, reducedMotion } from '../core/dom.js';
 import { t, loc, onLangChange, countryName } from '../core/i18n.js';
 import api from '../core/api.js';
+import { formatPrice } from '../core/currency.js';
 import { renderCard, bindCardActions } from '../ui/productCard.js';
 import { openQuickView } from '../ui/quickView.js';
 import { getBrands } from '../ui/catalogCache.js';
@@ -148,7 +149,7 @@ function initCollectionsScroll() {
 function renderBrands() {
   $('[data-brands-grid]').innerHTML = brands
     .map(
-      (b, i) => `<a class="brand-tile brand-tile--${(i % 7) + 1}" href="/brand/${esc(b.slug)}" data-brand="${esc(b.slug)}" data-reveal data-cursor-view>
+      (b, i) => `<a class="brand-tile brand-tile" href="/brand/${esc(b.slug)}" data-brand="${esc(b.slug)}" data-reveal data-cursor-view>
         <span class="brand-tile__media"><img src="${esc(b.heroImage)}" alt="" loading="lazy" decoding="async"></span>
         <span class="brand-tile__veil" aria-hidden="true"></span>
         <span class="brand-tile__num t-mono">${pad(i + 1)}</span>
@@ -181,7 +182,7 @@ function renderIconic() {
           <p class="iconic__brand b-title">${esc(p.brand.name)}</p>
           <h3 class="iconic__name">${esc(loc(p.name))}</h3>
           <p class="iconic__desc">${esc(loc(p.description))}</p>
-          <p class="iconic__meta t-mono">${esc(t('home.iconicHouse', { year: p.foundedYear }))} · <span data-price="${p.price}"></span></p>
+          <p class="iconic__meta t-mono">${esc(t('home.iconicHouse', { year: p.foundedYear }))} · <span data-price="${p.price}">${formatPrice(p.price)}</span></p>
           <a class="btn btn--ghost btn--sm" href="/product/${p.id}">${esc(t('home.iconicView'))} ${icon('i-arrow-right', 'icon icon--sm')}</a>
         </div>
       </li>`

@@ -169,13 +169,18 @@
 /* ---------- 04 · Сетка брендов (асимметричная мозаика) ---------- */
 .brands-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); grid-auto-rows: clamp(150px, 14vw, 260px); gap: clamp(10px, 1vw, 18px); }
 .brand-tile { position: relative; overflow: hidden; grid-column: span 4; background: var(--surface); isolation: isolate; color: #f2ece2; }
-.brand-tile--1 { grid-column: span 5; grid-row: span 2; }
-.brand-tile--2 { grid-column: span 7; }
-.brand-tile--3 { grid-column: span 3; }
-.brand-tile--4 { grid-column: span 4; }
-.brand-tile--5 { grid-column: span 4; grid-row: span 2; }
-.brand-tile--6 { grid-column: span 4; }
-.brand-tile--7 { grid-column: span 4; }
+/* Точная раскладка 15 плиток в 12 колонках (без дыр):
+   ряды 1–2: [1: 6×2][2: 6] / [1][3: 3][4: 3] · ряд 3: [5][6][7] по 4
+   ряды 4–5: [8: 3×2][9: 6][10: 3×2] / [8][11: 6][10] · ряд 6: [12][13][14] по 4 · ряд 7: [15: 12] */
+.brand-tile:nth-child(1) { grid-column: 1 / span 6; grid-row: span 2; }
+.brand-tile:nth-child(2) { grid-column: 7 / span 6; }
+.brand-tile:nth-child(3) { grid-column: 7 / span 3; }
+.brand-tile:nth-child(4) { grid-column: 10 / span 3; }
+.brand-tile:nth-child(8) { grid-column: 1 / span 3; grid-row: span 2; }
+.brand-tile:nth-child(9) { grid-column: 4 / span 6; }
+.brand-tile:nth-child(10) { grid-column: 10 / span 3; grid-row: span 2; }
+.brand-tile:nth-child(11) { grid-column: 4 / span 6; }
+.brand-tile:nth-child(15) { grid-column: 1 / -1; }
 .brand-tile__media { position: absolute; inset: 0; z-index: -2; }
 .brand-tile__media img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.02); transition: transform 1.4s var(--ease-out), filter 0.8s var(--ease-out); filter: saturate(0.85); }
 .brand-tile__veil { position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(8, 8, 9, 0.15), rgba(8, 8, 9, 0.7)); transition: background-color 0.6s var(--ease-out), opacity 0.6s; }
@@ -183,8 +188,8 @@
 .brand-tile:hover .brand-tile__veil { background-color: rgba(8, 8, 9, 0.45); }
 .brand-tile__num { position: absolute; top: 14px; left: 16px; font-size: var(--fs-xs); letter-spacing: 0.2em; opacity: 0.7; }
 .brand-tile__name { position: absolute; left: 16px; right: 16px; bottom: 44px; font-size: clamp(1.4rem, 0.9rem + 1.8vw, 3rem); line-height: 0.95; transition: transform 0.7s var(--ease-out); }
-.brand-tile--1 .brand-tile__name,
-.brand-tile--5 .brand-tile__name { font-size: clamp(2rem, 1rem + 3vw, 4.6rem); }
+.brand-tile:nth-child(1) .brand-tile__name,
+.brand-tile:nth-child(15) .brand-tile__name { font-size: clamp(2rem, 1rem + 3vw, 4.6rem); }
 .brand-tile__meta { position: absolute; left: 16px; right: 16px; bottom: 16px; display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.6875rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0; transform: translateY(12px); transition: opacity 0.5s var(--ease-out), transform 0.6s var(--ease-out); }
 .brand-tile:hover .brand-tile__name,
 .brand-tile:focus-visible .brand-tile__name { transform: translateY(-8px); }
@@ -297,15 +302,9 @@ body[data-page='home'] .footer__newsletter-title { font-size: clamp(2.6rem, 1.2r
 @media (max-width: 1199px) {
   .hero__index { display: none; }
   .brands-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); grid-auto-rows: clamp(160px, 24vw, 260px); }
-  .brand-tile,
-  .brand-tile--1,
-  .brand-tile--2,
-  .brand-tile--3,
-  .brand-tile--4,
-  .brand-tile--5,
-  .brand-tile--6,
-  .brand-tile--7 { grid-column: span 3; grid-row: span 1; }
-  .brand-tile--1 { grid-column: span 6; grid-row: span 2; }
+  .brands-grid .brand-tile { grid-column: span 3; grid-row: span 1; }
+  .brands-grid .brand-tile:nth-child(1),
+  .brands-grid .brand-tile:nth-child(15) { grid-column: 1 / -1; grid-row: span 2; }
   .perks__list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .perk:nth-child(3) { padding-left: 0; border-left: 0; }
   .perk:nth-child(n + 3) { border-top: 1px solid var(--line); }
@@ -335,16 +334,14 @@ body[data-page='home'] .footer__newsletter-title { font-size: clamp(2.6rem, 1.2r
   .home-head__link { margin-left: 0; width: 100%; padding-bottom: 0; }
   .home-head .pp-rail__nav .link-u { display: none; }
   .brands-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 180px; }
-  .brand-tile,
-  .brand-tile--2,
-  .brand-tile--3,
-  .brand-tile--4,
-  .brand-tile--5,
-  .brand-tile--6,
-  .brand-tile--7 { grid-column: span 1; }
-  .brand-tile--1 { grid-column: span 2; grid-row: span 1; }
-  .brand-tile__meta { opacity: 1; transform: none; }
-  .brand-tile__name { bottom: 40px; }
+  .brands-grid .brand-tile { grid-column: span 1; grid-row: span 1; }
+  .brands-grid .brand-tile:nth-child(1),
+  .brands-grid .brand-tile:nth-child(15) { grid-column: 1 / -1; grid-row: span 1; }
+  .brand-tile__meta { opacity: 1; transform: none; flex-wrap: nowrap; }
+  .brand-tile__meta span:not(:first-child) { display: none; }
+  .brands-grid .brand-tile:nth-child(1) .brand-tile__meta span,
+  .brands-grid .brand-tile:nth-child(15) .brand-tile__meta span { display: inline; }
+  .brand-tile__name { bottom: 38px; font-size: clamp(1.25rem, 5.4vw, 1.8rem); }
   .selections__grid { grid-template-columns: 1fr; grid-auto-rows: 240px; }
   .sel--gothic,
   .sel--streetwear,
