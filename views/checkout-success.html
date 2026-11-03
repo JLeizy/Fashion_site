@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title data-i18n="meta.success">Заказ оформлен — AMFIBIA</title>
+  <link rel="stylesheet" href="/css/pages/shop.css">
+  <link rel="stylesheet" href="/css/pages/checkout.css">
+</head>
+<body data-page="{{page}}" data-order-id="{{orderId}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="page shop-page success-page" tabindex="-1">
+    <section class="success">
+      <svg class="success__orn icon--fill" aria-hidden="true"><use href="#orn-cross-filigree"/></svg>
+      <svg class="success__check" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24"/><path d="M14 27 l8 8 l16 -18"/></svg>
+      <p class="t-eyebrow" data-i18n="success.eyebrow">Merci</p>
+      <h1 class="success__title" data-split="chars" data-i18n="success.title">Заказ оформлен</h1>
+      <p class="success__text" data-success-text></p>
+      <dl class="success__codes">
+        <div><dt class="t-mono" data-i18n="success.orderNumber">Номер заказа</dt><dd class="t-mono" data-success-number></dd></div>
+        <div><dt class="t-mono" data-i18n="success.tracking">Трек-номер</dt><dd class="t-mono"><span data-success-track></span> <button type="button" class="link-u success__copy" data-copy data-i18n="success.copy">Скопировать</button></dd></div>
+        <div><dt class="t-mono" data-success-total-label data-i18n="success.total">Итого</dt><dd class="t-mono" data-success-total></dd></div>
+      </dl>
+      <div class="success__actions">
+        <a class="btn" href="/tracking" data-success-trackbtn data-magnetic><svg class="icon icon--sm"><use href="#i-truck"/></svg><span data-i18n="success.track">Отследить заказ</span></a>
+        <a class="btn btn--ghost" href="/account/orders" data-i18n="success.toOrders">Мои заказы</a>
+        <a class="link-u t-mono" href="/catalog" data-i18n="success.continue">Продолжить покупки</a>
+      </div>
+      <div class="success__timeline" data-success-timeline></div>
+    </section>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/checkout-success.js"></script>
+</body>
+</html>

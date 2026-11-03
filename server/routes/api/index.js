@@ -10,6 +10,8 @@ import compareRouter from './compare.js';
 import notificationsRouter from './notifications.js';
 import miscRouter from './misc.js';
 import homeRouter from './home.js';
+import ordersRouter from './orders.js';
+import addressesRouter from './addresses.js';
 
 const api = express.Router();
 
@@ -29,5 +31,7 @@ api.use('/compare', compareRouter);
 api.use('/notifications', notificationsRouter);
 api.use('/', miscRouter);
 api.use('/', homeRouter);
+api.use('/', ordersRouter);
+api.use('/addresses', addressesRouter);
 
 export default api;

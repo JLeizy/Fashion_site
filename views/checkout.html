@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title data-i18n="meta.checkout">Оформление заказа — AMFIBIA</title>
+  <link rel="stylesheet" href="/css/pages/shop.css">
+  <link rel="stylesheet" href="/css/pages/checkout.css">
+</head>
+<body data-page="{{page}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="page shop-page checkout-page" tabindex="-1">
+    <section class="shop-hero">
+      <div class="shop-hero__bg" aria-hidden="true" data-parallax="0.15">Commande</div>
+      <nav class="breadcrumbs" data-breadcrumbs data-i18n-attr="aria-label:a11y.breadcrumbs" aria-label="Навигационная цепочка"></nav>
+      <div class="shop-hero__row">
+        <div>
+          <p class="t-eyebrow" data-i18n="checkout.eyebrow">Пять шагов до вашей вещи</p>
+          <h1 class="shop-hero__title" data-i18n="checkout.title">Оформление</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- Индикатор шагов -->
+    <ol class="steps" data-steps>
+      <li class="steps__item is-current" data-step-tab="1"><button type="button" data-goto="1"><span class="steps__n t-mono">01</span><span data-i18n="checkout.step1">Контакты</span></button></li>
+      <li class="steps__item" data-step-tab="2"><button type="button" data-goto="2" disabled><span class="steps__n t-mono">02</span><span data-i18n="checkout.step2">Адрес</span></button></li>
+      <li class="steps__item" data-step-tab="3"><button type="button" data-goto="3" disabled><span class="steps__n t-mono">03</span><span data-i18n="checkout.step3">Доставка</span></button></li>
+      <li class="steps__item" data-step-tab="4"><button type="button" data-goto="4" disabled><span class="steps__n t-mono">04</span><span data-i18n="checkout.step4">Оплата</span></button></li>
+      <li class="steps__item" data-step-tab="5"><button type="button" data-goto="5" disabled><span class="steps__n t-mono">05</span><span data-i18n="checkout.step5">Подтверждение</span></button></li>
+      <li class="steps__line" aria-hidden="true"><span data-steps-line></span></li>
+    </ol>
+
+    <div class="co">
+      <div class="co__steps">
+        <!-- 1 · Контакты -->
+        <form class="co-step is-active" data-step="1" novalidate>
+          <h2 class="co-step__title"><span class="t-mono">01</span> <span data-i18n="checkout.contactsTitle">Контактные данные</span></h2>
+          <p class="co-step__lead t-muted" data-i18n="checkout.contactsLead">Подставлены из профиля — на эти контакты придут уведомления о заказе.</p>
+          <div class="form-grid">
+            <div class="field">
+              <label class="field__label" for="co-name" data-i18n="checkout.name">Имя и фамилия</label>
+              <input class="input" id="co-name" name="name" autocomplete="name" data-rule="required" required>
+              <p class="field__error" data-error-for="name"></p>
+            </div>
+            <div class="field">
+              <label class="field__label" for="co-email" data-i18n="auth.email">Email</label>
+              <input class="input" id="co-email" name="email" type="email" autocomplete="email" data-rule="email" required>
+              <p class="field__error" data-error-for="email"></p>
+            </div>
+            <div class="field">
+              <label class="field__label" for="co-phone" data-i18n="auth.phone">Телефон</label>
+              <div class="phone" data-phone>
+                <select class="select phone__country" data-phone-country data-i18n-attr="aria-label:auth.country" aria-label="Страна"></select>
+                <input class="input phone__input" id="co-phone" type="tel" inputmode="tel" autocomplete="tel-national" data-phone-input required>
+              </div>
+              <input type="hidden" name="phone" data-phone-value data-rule="phone">
+              <p class="field__error" data-error-for="phone"></p>
+            </div>
+          </div>
+          <div class="co-step__nav"><a class="link-u t-mono" href="/cart" data-i18n="checkout.backToCart">← Вернуться в корзину</a><button type="submit" class="btn" data-magnetic><span data-i18n="common.next">Далее</span></button></div>
+        </form>
+
+        <!-- 2 · Адрес -->
+        <form class="co-step" data-step="2" novalidate>
+          <h2 class="co-step__title"><span class="t-mono">02</span> <span data-i18n="checkout.addressTitle">Адрес доставки</span></h2>
+          <div class="addr-list" data-addr-list role="radiogroup" data-i18n-attr="aria-label:checkout.addressTitle" aria-label="Адрес доставки"></div>
+          <fieldset class="addr-new" data-addr-new>
+            <legend class="t-eyebrow" data-i18n="checkout.newAddress">Новый адрес</legend>
+            <div class="form-grid form-grid--2">
+              <div class="field">
+                <label class="field__label" for="ad-country" data-i18n="checkout.country">Страна</label>
+                <select class="select" id="ad-country" name="country" data-rule="required" data-countries></select>
+                <p class="field__error" data-error-for="country"></p>
+              </div>
+              <div class="field">
+                <label class="field__label" for="ad-city" data-i18n="checkout.city">Город</label>
+                <input class="input" id="ad-city" name="city" autocomplete="address-level2" data-rule="required">
+                <p class="field__error" data-error-for="city"></p>
+              </div>
+              <div class="field field--wide">
+                <label class="field__label" for="ad-street" data-i18n="checkout.street">Улица</label>
+                <input class="input" id="ad-street" name="street" autocomplete="address-line1" data-rule="required">
+                <p class="field__error" data-error-for="street"></p>
+              </div>
+              <div class="field">
+                <label class="field__label" for="ad-house" data-i18n="checkout.house">Дом</label>
+                <input class="input" id="ad-house" name="house" data-rule="required">
+                <p class="field__error" data-error-for="house"></p>
+              </div>
+              <div class="field">
+                <label class="field__label" for="ad-apt" data-i18n="checkout.apartment">Квартира / офис</label>
+                <input class="input" id="ad-apt" name="apartment">
+              </div>
+              <div class="field">
+                <label class="field__label" for="ad-postal" data-i18n="checkout.postal">Индекс</label>
+                <input class="input t-mono" id="ad-postal" name="postalCode" autocomplete="postal-code" inputmode="numeric" maxlength="12">
+              </div>
+              <div class="field">
+                <label class="field__label" for="ad-recipient" data-i18n="checkout.recipient">Получатель</label>
+                <input class="input" id="ad-recipient" name="recipient" autocomplete="name" data-rule="required">
+                <p class="field__error" data-error-for="recipient"></p>
+              </div>
+              <div class="field field--wide">
+                <label class="field__label" for="ad-phone" data-i18n="checkout.recipientPhone">Телефон получателя</label>
+                <div class="phone" data-phone>
+                  <select class="select phone__country" data-phone-country data-i18n-attr="aria-label:auth.country" aria-label="Страна"></select>
+                  <input class="input phone__input" id="ad-phone" type="tel" inputmode="tel" data-phone-input>
+                </div>
+                <input type="hidden" name="phone" data-phone-value data-rule="phone">
+                <p class="field__error" data-error-for="phone"></p>
+              </div>
+            </div>
+            <label class="check"><input type="checkbox" name="save" checked><span class="check__box"></span><span data-i18n="checkout.saveAddress">Сохранить в адресную книгу</span></label>
+          </fieldset>
+          <div class="co-step__nav"><button type="button" class="link-u t-mono" data-back data-i18n="common.back">Назад</button><button type="submit" class="btn" data-magnetic><span data-i18n="common.next">Далее</span></button></div>
+        </form>
+
+        <!-- 3 · Доставка -->
+        <form class="co-step" data-step="3" novalidate>
+          <h2 class="co-step__title"><span class="t-mono">03</span> <span data-i18n="checkout.deliveryTitle">Способ доставки</span></h2>
+          <div class="opts" data-delivery-list role="radiogroup" data-i18n-attr="aria-label:checkout.deliveryTitle" aria-label="Способ доставки"></div>
+          <p class="field__error" data-error-for="delivery"></p>
+          <div class="co-step__nav"><button type="button" class="link-u t-mono" data-back data-i18n="common.back">Назад</button><button type="submit" class="btn" data-magnetic><span data-i18n="common.next">Далее</span></button></div>
+        </form>
+
+        <!-- 4 · Оплата -->
+        <form class="co-step" data-step="4" novalidate>
+          <h2 class="co-step__title"><span class="t-mono">04</span> <span data-i18n="checkout.paymentTitle">Способ оплаты</span></h2>
+          <div class="opts opts--pay" data-payment-list role="radiogroup" data-i18n-attr="aria-label:checkout.paymentTitle" aria-label="Способ оплаты"></div>
+          <p class="field__error" data-error-for="payment"></p>
+
+          <!-- Имитация оплаты картой: номер проверяется алгоритмом Луна и НЕ отправляется на сервер -->
+          <div class="card-pay" data-card-pay hidden>
+            <div class="pcard" data-pcard aria-hidden="true">
+              <div class="pcard__face pcard__front">
+                <span class="pcard__chip"></span>
+                <span class="pcard__brand t-mono" data-pcard-brand>CARD</span>
+                <span class="pcard__number t-mono" data-pcard-number>•••• •••• •••• ••••</span>
+                <span class="pcard__holder t-mono" data-pcard-holder>CARDHOLDER</span>
+                <span class="pcard__exp t-mono" data-pcard-exp>MM/YY</span>
+                <span class="pcard__logo">Amfibia</span>
+              </div>
+              <div class="pcard__face pcard__back"><span class="pcard__stripe"></span><span class="pcard__cvc t-mono" data-pcard-cvc>•••</span></div>
+            </div>
+            <div class="form-grid form-grid--2 card-pay__fields">
+              <div class="field field--wide">
+                <label class="field__label" for="cc-number" data-i18n="checkout.cardNumber">Номер карты</label>
+                <input class="input t-mono" id="cc-number" name="ccnumber" inputmode="numeric" autocomplete="cc-number" placeholder="0000 0000 0000 0000" maxlength="23">
+                <p class="field__error" data-error-for="ccnumber"></p>
+              </div>
+              <div class="field">
+                <label class="field__label" for="cc-exp" data-i18n="checkout.cardExp">Срок действия</label>
+                <input class="input t-mono" id="cc-exp" name="ccexp" inputmode="numeric" autocomplete="cc-exp" placeholder="MM/YY" maxlength="5">
+                <p class="field__error" data-error-for="ccexp"></p>
+              </div>
+              <div class="field">
+                <label class="field__label" for="cc-cvc">CVC</label>
+                <input class="input t-mono" id="cc-cvc" name="cccvc" inputmode="numeric" autocomplete="cc-csc" placeholder="000" maxlength="4" type="password">
+                <p class="field__error" data-error-for="cccvc"></p>
+              </div>
+              <div class="field field--wide">
+                <label class="field__label" for="cc-name" data-i18n="checkout.cardHolder">Имя на карте</label>
+                <input class="input t-mono" id="cc-name" name="ccname" autocomplete="cc-name" placeholder="IVAN IVANOV" style="text-transform:uppercase">
+                <p class="field__error" data-error-for="ccname"></p>
+              </div>
+            </div>
+            <p class="card-pay__note t-mono"><svg class="icon icon--xs"><use href="#i-lock"/></svg> <span data-i18n="checkout.cardNote">Демонстрационная оплата: номер карты проверяется алгоритмом Луна и не передаётся на сервер. Тестовая карта: 4242 4242 4242 4242.</span></p>
+          </div>
+
+          <div class="erip" data-erip hidden>
+            <p class="t-eyebrow" data-i18n="checkout.eripTitle">Оплата через ЕРИП (имитация)</p>
+            <ol class="erip__steps">
+              <li data-i18n="checkout.erip1">Интернет-банк → «Платежи» → «Система «Расчёт» (ЕРИП)»</li>
+              <li data-i18n="checkout.erip2">Интернет-магазины → AMFIBIA → «Оплата заказа»</li>
+              <li><span data-i18n="checkout.erip3">Номер заказа появится после оформления; оплата подтверждается автоматически.</span></li>
+            </ol>
+          </div>
+          <div class="co-step__nav"><button type="button" class="link-u t-mono" data-back data-i18n="common.back">Назад</button><button type="submit" class="btn" data-magnetic><span data-i18n="common.next">Далее</span></button></div>
+        </form>
+
+        <!-- 5 · Подтверждение -->
+        <form class="co-step" data-step="5" novalidate>
+          <h2 class="co-step__title"><span class="t-mono">05</span> <span data-i18n="checkout.confirmTitle">Проверьте заказ</span></h2>
+          <dl class="review-list" data-review></dl>
+          <div class="field">
+            <label class="field__label" for="co-comment" data-i18n="checkout.comment">Комментарий к заказу</label>
+            <textarea class="textarea" id="co-comment" name="comment" rows="3" maxlength="500" data-i18n-attr="placeholder:checkout.commentPlaceholder" placeholder="Например, позвонить за час до доставки"></textarea>
+          </div>
+          <label class="check"><input type="checkbox" name="agree" data-rule="terms"><span class="check__box"></span><span data-i18n-html="checkout.agree">Я согласен с условиями доставки и возврата</span></label>
+          <p class="field__error" data-error-for="agree"></p>
+          <p class="notice notice--danger" data-form-error hidden></p>
+          <div class="co-step__nav"><button type="button" class="link-u t-mono" data-back data-i18n="common.back">Назад</button><button type="submit" class="btn co-place" data-place data-magnetic><span data-i18n="checkout.place">Оформить заказ</span></button></div>
+        </form>
+      </div>
+
+      <aside class="summary co__summary" data-co-summary>
+        <h2 class="summary__title" data-i18n="checkout.yourOrder">Ваш заказ</h2>
+        <ul class="co-items" data-co-items></ul>
+        <dl class="summary__rows">
+          <div><dt data-i18n="cart.subtotal">Товары</dt><dd data-co-subtotal></dd></div>
+          <div data-co-discount-row hidden><dt data-co-discount-label></dt><dd class="summary__discount" data-co-discount></dd></div>
+          <div><dt data-i18n="cartPage.delivery">Доставка</dt><dd data-co-delivery></dd></div>
+          <div class="summary__total"><dt data-i18n="cartPage.total">Всего</dt><dd data-co-total></dd></div>
+        </dl>
+        <p class="summary__note t-muted" data-co-note></p>
+      </aside>
+    </div>
+
+    <!-- Оверлей «обработки» оплаты -->
+    <div class="processing" data-processing hidden role="status" aria-live="assertive">
+      <div class="processing__inner">
+        <svg class="processing__ring" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54"/><circle cx="60" cy="60" r="54" class="processing__arc"/></svg>
+        <svg class="processing__check" viewBox="0 0 52 52" aria-hidden="true"><path d="M14 27 l8 8 l16 -18"/></svg>
+        <p class="processing__text" data-processing-text></p>
+      </div>
+    </div>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/checkout.js"></script>
+</body>
+</html>

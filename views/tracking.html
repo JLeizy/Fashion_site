@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title data-i18n="meta.tracking">Отслеживание заказа — AMFIBIA</title>
+  <link rel="stylesheet" href="/css/pages/shop.css">
+  <link rel="stylesheet" href="/css/pages/checkout.css">
+</head>
+<body data-page="{{page}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <main id="main" class="page shop-page tracking-page" tabindex="-1">
+    <section class="shop-hero">
+      <div class="shop-hero__bg" aria-hidden="true" data-parallax="0.15">Suivi</div>
+      <nav class="breadcrumbs" data-breadcrumbs data-i18n-attr="aria-label:a11y.breadcrumbs" aria-label="Навигационная цепочка"></nav>
+      <div class="shop-hero__row">
+        <div>
+          <p class="t-eyebrow" data-i18n="tracking.eyebrow">Где мой заказ</p>
+          <h1 class="shop-hero__title" data-i18n="tracking.title">Отслеживание</h1>
+        </div>
+      </div>
+    </section>
+    <section class="shop-body trk">
+      <form class="trk__form" data-trk-form novalidate role="search">
+        <p class="trk__lead" data-i18n="tracking.lead">Введите трек-номер из письма или профиля — формат AF000000000BY.</p>
+        <div class="trk__row">
+          <label class="sr-only" for="trk-number" data-i18n="success.tracking">Трек-номер</label>
+          <input class="input trk__input t-mono" id="trk-number" name="number" autocomplete="off" spellcheck="false" maxlength="13" data-i18n-attr="placeholder:tracking.placeholder" placeholder="AF123456785BY">
+          <button type="submit" class="btn" data-magnetic><svg class="icon icon--sm"><use href="#i-search"/></svg><span data-i18n="tracking.find">Найти</span></button>
+        </div>
+        <p class="field__error" data-trk-error hidden></p>
+      </form>
+      <div class="trk__result" data-trk-result aria-live="polite"></div>
+    </section>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/tracking.js"></script>
+</body>
+</html>

@@ -93,6 +93,20 @@ router.get('/compare', (req, res) => renderPage(req, res, 'compare.html', { page
 // GET /wishlist — избранное (роль: любой авторизованный; гость перенаправляется на вход)
 router.get('/wishlist', pageRequireAuth, (req, res) => renderPage(req, res, 'wishlist.html', { page: 'wishlist' }));
 
+// GET /checkout — пошаговое оформление заказа (роль: любой авторизованный; гость → вход с возвратом сюда)
+router.get('/checkout', pageRequireAuth, (req, res) => renderPage(req, res, 'checkout.html', { page: 'checkout' }));
+
+// GET /checkout/success/:number — страница успеха после оформления (роль: владелец заказа).
+// Таблица: orders (SELECT по номеру и user_id — чужой номер даст 404)
+router.get('/checkout/success/:number', pageRequireAuth, async (req, res, next) => {
+  const { rows } = await query('SELECT id FROM orders WHERE order_number = $1 AND user_id = $2', [String(req.params.number).slice(0, 20), req.user.id]);
+  if (!rows[0]) return next(ApiError.notFound());
+  renderPage(req, res, 'checkout-success.html', { page: 'checkout-success', orderId: rows[0].id });
+});
+
+// GET /tracking — публичное отслеживание заказа по трек-номеру (роль: любая)
+router.get('/tracking', (req, res) => renderPage(req, res, 'tracking.html', { page: 'tracking' }));
+
 // Просмотр оформленных страниц ошибок напрямую (роль: любая)
 router.get('/403', (req, res) => renderPage(req, res, '403.html', { page: 'error-403' }, 403));
 router.get('/404', (req, res) => renderPage(req, res, '404.html', { page: 'error-404' }, 404));
