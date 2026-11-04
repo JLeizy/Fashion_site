@@ -17,6 +17,8 @@ import sellerRouter from './seller.js';
 import warehouseRouter from './warehouse.js';
 import courierRouter from './courier.js';
 import supportRouter from './support.js';
+import adminRouter from './admin.js';
+import adminRefsRouter from './adminRefs.js';
 
 const api = express.Router();
 
@@ -44,5 +46,8 @@ api.use('/seller', sellerRouter);
 api.use('/warehouse', warehouseRouter);
 api.use('/courier', courierRouter);
 api.use('/support', supportRouter);
+// Админ-панель (этап 14): модерация и заказы — admin.js, справочники — adminRefs.js (только owner)
+api.use('/admin', adminRouter);
+api.use('/admin', adminRefsRouter);
 
 export default api;
