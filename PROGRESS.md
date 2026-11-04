@@ -36,7 +36,7 @@
 ## Истории брендов (этапы 16–30)
 | Бренд | RU (~15 000 слов) | EN (3–5 тыс.) |
 |---|---|---|
-| Balenciaga | ✅ 18 разделов, ≈7091 слов (сокращено относительно 15 000 из-за лимитов) | ✅ ≈2587 слов |
+| Balenciaga | ✅ 35 разделов, ≈12995 слов | ✅ ≈4513 слов |
 | Vetements | ⬜ | ⬜ |
 | Gucci | ⬜ | ⬜ |
 | Prada | ⬜ | ⬜ |
@@ -53,7 +53,7 @@
 | Loro Piana | ⬜ | ⬜ |
 
 ## Следующий шаг: этап 17 — история Vetements
-Balenciaga готова: `db/content/histories/balenciaga.js` + `balenciaga/part1–5.js` (18 разделов, RU ≈7091, EN ≈2587 слов) — все 12 обязательных тем ТЗ 7.1 покрыты; объём сокращён ради экономии лимитов.
+Balenciaga готова: `db/content/histories/balenciaga.js` + `balenciaga/part1–10.js` (35 разделов, RU ≈12995, EN ≈4513 слов) — все 12 обязательных тем ТЗ 7.1; разделы собраны в хронологическом и тематическом порядке.
 Дальше тем же способом: `db/content/histories/<slug>.js` (+ части), порядок Vetements → Gucci → Prada → ERD → AVAVAV → Supreme → Chrome Hearts → Louis Vuitton → Chanel → Maison Margiela → Givenchy → Versace → Alexander McQueen → Loro Piana. После каждой: `npm run db:seed && npm run placeholders`, проверить `/history/<slug>`, отметить в таблице. Затем этап 31 (README с матрицей прав, финальная проверка).
 Если в контейнере PostgreSQL остановлен: `service postgresql start`.
 
