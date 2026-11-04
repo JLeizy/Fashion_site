@@ -233,4 +233,14 @@ router.get('/search/suggest', async (req, res) => {
   });
 });
 
+// GET /api/sizes — справочник размеров EU / IT / US / INT по сеткам (страница «Таблица размеров») (роль: любая)
+// Таблица: sizes (SELECT)
+router.get('/sizes', async (req, res) => {
+  // SQL: все размеры по типу сетки и порядку
+  const { rows } = await query('SELECT type, value_int, value_eu, value_it, value_us FROM sizes ORDER BY type, sort_order, id');
+  const groups = {};
+  rows.forEach((r) => (groups[r.type] ||= []).push({ int: r.value_int, eu: r.value_eu, it: r.value_it, us: r.value_us }));
+  res.json({ sizes: groups });
+});
+
 export default router;

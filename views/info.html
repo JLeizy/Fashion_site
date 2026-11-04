@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title>AMFIBIA</title>
+  <link rel="stylesheet" href="/css/pages/info.css">
+</head>
+<body data-page="{{page}}" data-info="{{infoKey}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <!-- Служебная страница (раздел 6.15 ТЗ): доставка и оплата, возврат, таблица размеров, о нас, контакты, политика.
+       Тексты — в public/i18n/ru.json и en.json (ключ info.<страница>), живые данные (способы доставки, размеры) — из API. -->
+  <main id="main" class="page info-page" tabindex="-1">
+    <header class="ip-head">
+      <nav class="breadcrumbs" data-breadcrumbs data-i18n-attr="aria-label:a11y.breadcrumbs" aria-label="Навигационная цепочка"></nav>
+      <p class="t-eyebrow" data-ip-eyebrow></p>
+      <h1 class="ip-head__title" data-ip-title></h1>
+      <p class="ip-head__lead" data-ip-lead></p>
+      <svg class="ip-head__orn" aria-hidden="true"><use href="#orn-divider"/></svg>
+    </header>
+    <div class="ip-body" data-ip-body><div class="skeleton" style="height:40vh"></div></div>
+    <nav class="ip-more" data-ip-more data-i18n-attr="aria-label:info.more" aria-label="Другие страницы"></nav>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/info.js"></script>
+</body>
+</html>

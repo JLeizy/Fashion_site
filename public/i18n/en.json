@@ -1572,5 +1572,235 @@
       "photo": "Portrait",
       "products": "products"
     }
+  },
+  "history": {
+    "eyebrow": "House history · Amfibia archive",
+    "scroll": "Read",
+    "contents": "Contents",
+    "readTime": "≈ {n} min read · {words} words",
+    "timeline": "Timeline",
+    "directors": "Creative directors",
+    "iconic": "Iconic pieces",
+    "present": "present",
+    "keyCollections": "Key collections",
+    "toCatalogEyebrow": "Catalogue",
+    "toCatalog": "Shop {brand}",
+    "next": "Next story",
+    "soonToc": "Story in progress",
+    "soonTitle": "The full story is in progress",
+    "soonText": "The Amfibia editors are writing a detailed chronicle of the house: the founder, early years, every creative director, landmark shows, collaborations, crises and the present day. For now — key dates and directors.",
+    "noTranslation": "English version is in progress — showing the Russian text.",
+    "checkMark": "Fact to be verified"
+  },
+  "histories": {
+    "eyebrow": "Amfibia archive · XV houses",
+    "title": "Stories of the fashion houses",
+    "lead": "From an atelier on Avenue George V to shows in former Paris slaughterhouses — complete chronicles of fifteen houses: founders, creative directors, landmark collections, scandals and turning points.",
+    "stats": "{sections} sections · ≈ {minutes} min · {words} words",
+    "soon": "Story in progress",
+    "events": "timeline events: {n}"
+  },
+  "info": {
+    "more": "Other pages",
+    "delivery": {
+      "eyebrow": "Customer care · 01",
+      "title": "Delivery & payment",
+      "lead": "We deliver across the CIS: Belarus, Russia, Kazakhstan, Armenia, Uzbekistan, Kyrgyzstan and more. Every piece is authenticated and ships in Amfibia packaging.",
+      "methods": "Delivery methods",
+      "payments": "Payment methods",
+      "days": "{from}–{to} days",
+      "pickupNote": "Your order waits at a pickup point; tracking shows an “Arrived at pickup point” step.",
+      "doorNote": "A courier or carrier brings the order to your address.",
+      "free": "Free delivery on orders from {sum} (after promo discount).",
+      "onlineNote": "Pay at checkout — the order is confirmed instantly.",
+      "cashNote": "Pay on delivery — the order is confirmed; payment is marked on handover.",
+      "blocks": [
+        {
+          "h": "Lead time",
+          "p": [
+            "Lead time is assembly at the nearest warehouse (Minsk, Moscow or Almaty — usually 1 business day) plus transit with the chosen carrier. The expected date is saved with the order and shown on the tracking page."
+          ]
+        },
+        {
+          "h": "Tracking",
+          "p": [
+            "After checkout you get an order number AMF-YYYY-NNNNNN and a tracking number. The status updates automatically in your account or on the “Track order” page without signing in."
+          ],
+          "list": [
+            "Placed → Confirmed → Being assembled → Assembled",
+            "Handed to delivery → In transit → (At pickup point) → Delivered"
+          ]
+        },
+        {
+          "h": "Currency & rate",
+          "p": [
+            "Prices are stored in Belarusian roubles and converted to USD and EUR at the Amfibia rate. The rate and total are fixed at checkout — later rate changes do not affect your order."
+          ]
+        },
+        {
+          "h": "Customs & documents",
+          "p": [
+            "No customs duties within EAEU duty-free limits. A receipt and an Amfibia authenticity certificate come with every parcel."
+          ]
+        }
+      ]
+    },
+    "returns": {
+      "eyebrow": "Customer care · 02",
+      "title": "Returns",
+      "lead": "If a piece doesn't work out, return it within 14 days of delivery. Filing a request in your account takes a couple of minutes.",
+      "steps": [
+        "Open the order in your account and click “Return item”.",
+        "Choose a reason and quantity, and attach a photo if you like.",
+        "Support reviews the request within 1–2 business days and notifies you.",
+        "Hand the item to a courier or pickup point — after inspection the refund arrives in 3–5 business days."
+      ],
+      "cta": "Go to my orders",
+      "blocks": [
+        {
+          "h": "Conditions",
+          "list": [
+            "No more than 14 days after delivery.",
+            "Unworn, with tags, seals and original packaging.",
+            "Complete: dust bags, boxes, cards and the Amfibia certificate."
+          ]
+        },
+        {
+          "h": "Non-returnable",
+          "list": [
+            "Fragrance with opened packaging.",
+            "Jewellery with personal engraving or resizing.",
+            "Underwear and swimwear without the hygiene seal."
+          ]
+        },
+        {
+          "h": "Refunds",
+          "p": [
+            "Refunds go to the original payment method, in the order currency at the checkout rate. If the whole order is returned, its status becomes “Returned” and payment “Refunded”."
+          ]
+        }
+      ]
+    },
+    "sizes": {
+      "eyebrow": "Customer care · 03",
+      "title": "Size guide",
+      "lead": "European (EU), Italian (IT), American (US) and international (INT) size systems. Each product page has a chart for its own category.",
+      "types": {
+        "clothing": "Clothing",
+        "shoes": "Shoes",
+        "ring": "Rings (diameter, mm)",
+        "volume_ml": "Fragrance (volume)",
+        "one_size": "One size"
+      },
+      "blocks": [
+        {
+          "h": "How to measure",
+          "list": [
+            "Chest — at the fullest point, tape parallel to the floor.",
+            "Waist — at the narrowest point, without pulling the tape.",
+            "Hips — at the fullest point.",
+            "Foot length — heel to big toe, standing, in the evening."
+          ]
+        },
+        {
+          "h": "Brand notes",
+          "p": [
+            "Balenciaga and Vetements often cut oversized — if in doubt, take your usual size. Maison Margiela Tabi and Italian shoes follow EU sizing. Chrome Hearts rings use US sizes — check the diameter in the chart."
+          ]
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "Company · 04",
+      "title": "About us",
+      "lead": "Amfibia is a luxury fashion marketplace with the feel of a private boutique and a fashion magazine. Fifteen houses — from Loro Piana's quiet luxury to the punk decadence of Enfants Riches Déprimés.",
+      "blocks": [
+        {
+          "h": "Why “Amphibian”",
+          "p": [
+            "An amphibian lives in two worlds. So do we: between haute couture and the street, the archive and the new season, Minsk and the whole CIS."
+          ]
+        },
+        {
+          "h": "Authenticity",
+          "p": [
+            "Every piece is checked: a moderator verifies the description, photos of tags and seams, and supplier documents. The “Verified by Amfibia” mark is given only after the check."
+          ],
+          "list": [
+            "Amfibia Official store and vetted sellers",
+            "Three warehouses: Minsk, Moscow, Almaty",
+            "14-day returns and seven-day support"
+          ]
+        },
+        {
+          "h": "House stories",
+          "p": [
+            "A piece means more when you know its story. That's why we write a detailed chronicle for every brand — from the founder to the present day."
+          ]
+        }
+      ]
+    },
+    "contacts": {
+      "eyebrow": "Company · 05",
+      "title": "Contacts",
+      "lead": "A showroom in central Minsk: fittings, stylist advice and order pickup. Write to us — we reply within a business day.",
+      "showroom": "Showroom",
+      "phone": "Phone",
+      "support": "Support",
+      "writeUs": "Contact support",
+      "street": "16 Oktyabrskaya St",
+      "blocks": [
+        {
+          "h": "For sellers",
+          "p": [
+            "Want to sell on Amfibia? Apply in your account (“Become a seller”) — a moderator will review it and open your seller dashboard."
+          ]
+        },
+        {
+          "h": "Press & partnerships",
+          "p": [
+            "For partnerships and publications — hello@amfibia.by with the subject “Press”."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "Company · 06",
+      "title": "Privacy policy",
+      "lead": "How Amfibia collects, stores and protects the personal data of customers and sellers.",
+      "updated": "Version of 1 November 2026. A study project — this document is not a public offer.",
+      "blocks": [
+        {
+          "h": "What we store",
+          "list": [
+            "Name, email and phone — for sign-in and order communication.",
+            "Delivery addresses from the address book and a copy in each order.",
+            "Order, review, request and notification history.",
+            "Technical data: the sign-in session and IP of sign-in attempts (brute-force protection)."
+          ]
+        },
+        {
+          "h": "How we protect it",
+          "list": [
+            "Passwords are stored only as bcrypt hashes — nobody knows the password itself.",
+            "Sessions use secure cookies (httpOnly, SameSite); forms are protected with a CSRF token.",
+            "Sign-in locks for 15 minutes after 5 failed attempts; two-factor authentication is available.",
+            "Card numbers are never sent to the server."
+          ]
+        },
+        {
+          "h": "Who sees your data",
+          "p": [
+            "A seller sees only the customer's first name and city; the warehouse — order contents; a courier — the address and phone for orders assigned to them; support — order and request data. All staff actions are recorded in the audit log."
+          ]
+        },
+        {
+          "h": "Your rights",
+          "p": [
+            "You can change your data in profile settings, delete addresses and unsubscribe at any time. To delete your account, contact support."
+          ]
+        }
+      ]
+    }
   }
 }

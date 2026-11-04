@@ -1,0 +1,165 @@
+/* =====================================================================
+   Истории брендов (раздел 7.2 ТЗ): /history/:slug и оглавление /histories.
+   «Книжная» вёрстка: широкие поля, антиква, буквицы, орнаменты, номера разделов; микростилистика —
+   переменные --b-* из brands.css (атрибут data-brand на <body>). Анимации — только transform / opacity.
+   ===================================================================== */
+
+/* ---------- Прогресс чтения ---------- */
+.hs-progress { position: fixed; left: 0; right: 0; top: 0; height: 2px; z-index: calc(var(--z-header) + 1); pointer-events: none; }
+.hs-progress span { display: block; height: 100%; background: var(--b-accent-text); transform: scaleX(0); transform-origin: left; }
+
+/* ---------- Hero ---------- */
+.hs-hero { position: relative; min-height: 100svh; display: grid; align-items: end; overflow: hidden; isolation: isolate; }
+.hs-hero__media { position: absolute; inset: 0; z-index: -3; }
+.hs-hero__media img { width: 100%; height: 100%; object-fit: cover; animation: hs-zoom 26s var(--ease-in-out) infinite alternate; opacity: 0.6; }
+@keyframes hs-zoom { from { transform: scale(1.04); } to { transform: scale(1.2) translate(-1.5%, -1%); } }
+.hs-hero__texture { position: absolute; inset: 0; z-index: -2; opacity: 0.6; }
+.hs-hero__shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, color-mix(in srgb, var(--bg) 60%, transparent) 0%, color-mix(in srgb, var(--bg) 50%, transparent) 35%, color-mix(in srgb, var(--bg) 82%, transparent) 70%, var(--bg) 100%); }
+.hs-hero__inner { display: grid; gap: 18px; padding: calc(var(--header-h) + 40px) var(--gutter) clamp(60px, 9vh, 110px); max-width: var(--container); margin: 0 auto; width: 100%; }
+.hs-hero__eyebrow { color: var(--b-accent-text); }
+.hs-hero__name { --len: 10; font-size: min(13rem, calc((100vw - 2 * var(--gutter)) / (var(--len) * 0.78))); line-height: 0.88; }
+[data-brand='balenciaga'] .hs-hero__name, [data-brand='vetements'] .hs-hero__name, [data-brand='supreme'] .hs-hero__name { font-size: min(12rem, calc((100vw - 2 * var(--gutter)) / (var(--len) * 0.95))); }
+[data-brand='prada'] .hs-hero__name, [data-brand='loro-piana'] .hs-hero__name { font-size: min(11rem, calc((100vw - 2 * var(--gutter)) / (var(--len) * 1.25))); }
+.hs-hero__meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px 28px; }
+.hs-hero__year { font-family: var(--font-display); font-size: clamp(2rem, 1.2rem + 3vw, 4.2rem); line-height: 1; color: var(--b-accent-text); font-style: italic; }
+.hs-hero__facts { font-size: var(--fs-xs); letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-2); }
+.hs-hero__lead { max-width: 62ch; font-size: var(--fs-lg); line-height: 1.6; color: var(--text-2); }
+.hs-hero__down { position: absolute; right: var(--gutter); bottom: clamp(30px, 6vh, 60px); display: grid; justify-items: center; gap: 10px; font-size: 0.625rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--text-2); writing-mode: vertical-rl; }
+.hs-hero__down .icon { transform: rotate(180deg); writing-mode: horizontal-tb; animation: hs-bob 2.2s var(--ease-in-out) infinite; }
+@keyframes hs-bob { 50% { transform: rotate(180deg) translateY(-6px); } }
+
+/* ---------- Тело: оглавление + статья ---------- */
+.hs-body { display: grid; grid-template-columns: minmax(220px, 300px) minmax(0, 1fr); gap: clamp(30px, 6vw, 120px); max-width: var(--container); margin: 0 auto; padding: clamp(50px, 8vw, 120px) var(--gutter) 60px; }
+.hs-toc { position: sticky; top: calc(var(--header-h-compact) + 30px); align-self: start; display: grid; gap: 10px; max-height: calc(100vh - var(--header-h-compact) - 60px); overflow: auto; scrollbar-width: none; }
+.hs-toc::-webkit-scrollbar { display: none; }
+.hs-toc__time { font-size: 0.6875rem; letter-spacing: 0.08em; color: var(--b-accent-text); }
+.hs-toc__list { display: grid; border-top: 1px solid var(--line-2); margin-top: 6px; }
+.hs-toc__list a { position: relative; display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 8px; padding: 10px 0 10px 4px; border-bottom: 1px solid var(--line); font-size: var(--fs-sm); color: var(--text-3); line-height: 1.35; transition: color var(--dur-2), padding var(--dur-2) var(--ease-out); }
+.hs-toc__list a .t-mono { font-size: 0.625rem; padding-top: 3px; }
+.hs-toc__list a:hover { color: var(--text); }
+.hs-toc__list a.is-active { color: var(--text); padding-left: 14px; }
+.hs-toc__list a.is-active::before { content: ''; position: absolute; left: 0; top: 50%; width: 6px; height: 6px; border-radius: 50%; background: var(--b-accent-text); transform: translateY(-50%); }
+.hs-toc__list a.is-active .t-mono { color: var(--b-accent-text); }
+
+.hs-article { display: grid; gap: clamp(70px, 9vw, 140px); min-width: 0; }
+.hs-sec { display: grid; gap: 28px; scroll-margin-top: 100px; }
+.hs-sec__head { position: relative; display: grid; grid-template-columns: auto 1fr; gap: 8px 18px; align-items: baseline; padding-bottom: 22px; }
+.hs-sec__n { font-size: 0.75rem; letter-spacing: 0.2em; color: var(--b-accent-text); }
+.hs-sec__period { justify-self: end; font-size: 0.6875rem; letter-spacing: 0.16em; color: var(--text-3); }
+.hs-sec__title { grid-column: 1 / -1; font-size: clamp(2rem, 1.1rem + 2.6vw, 3.8rem); line-height: 1; max-width: 22ch; }
+.hs-sec__orn { position: absolute; left: 0; bottom: 0; width: min(100%, 520px); height: 14px; fill: var(--ornament); opacity: var(--ornament-opacity); }
+.hs-sec__img { margin: 0; overflow: hidden; }
+.hs-sec__img img { width: 100%; max-height: 70vh; object-fit: cover; }
+
+.hs-text { display: grid; gap: 1.15em; max-width: 68ch; font-size: clamp(1.02rem, 0.95rem + 0.25vw, 1.15rem); line-height: 1.78; color: var(--text-2); }
+.hs-text p { hyphens: auto; }
+.hs-drop::first-letter { float: left; margin: 0.08em 0.12em 0 0; font-family: var(--font-display); font-size: 4.4em; line-height: 0.82; color: var(--b-accent-text); }
+[data-brand='chrome-hearts'] .hs-drop::first-letter, [data-brand='givenchy'] .hs-drop::first-letter, [data-brand='enfants-riches-deprimes'] .hs-drop::first-letter { font-family: var(--font-gothic); }
+.hs-sub { font-size: clamp(1.3rem, 1rem + 0.8vw, 1.8rem); line-height: 1.15; color: var(--text); margin-top: 0.6em; }
+.hs-aside { padding: 14px 18px; border-left: 2px solid var(--b-accent-text); background: var(--surface); font-size: 0.92em; }
+.hs-check { background: color-mix(in srgb, var(--warning) 22%, transparent); color: var(--warning); padding: 0 3px; font-family: var(--font-mono); font-size: 0.75em; }
+.hs-fallback { font-size: 0.6875rem; letter-spacing: 0.06em; color: var(--warning); }
+
+.hs-quote { position: relative; margin: 10px 0; padding: 30px 0 30px clamp(30px, 6vw, 90px); max-width: 32ch; }
+.hs-quote__orn { position: absolute; left: 0; top: 30px; width: clamp(22px, 3vw, 46px); height: clamp(22px, 3vw, 46px); fill: var(--b-accent-text); opacity: 0.85; }
+.hs-quote p { font-family: var(--font-display); font-style: italic; font-size: clamp(1.6rem, 1rem + 1.9vw, 2.8rem); line-height: 1.12; color: var(--text); }
+.hs-quote p::before { content: '«'; }
+.hs-quote p::after { content: '»'; }
+:lang(en) .hs-quote p::before { content: '“'; }
+:lang(en) .hs-quote p::after { content: '”'; }
+.hs-quote cite { display: block; margin-top: 16px; font-style: normal; font-size: 0.6875rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-3); }
+
+/* «История готовится» */
+.hs-soon { justify-items: start; padding: clamp(28px, 4vw, 56px); border: 1px solid var(--line-2); background: var(--surface); }
+.hs-soon__orn { width: 70px; height: 70px; fill: var(--b-accent-text); opacity: 0.7; }
+
+/* ---------- Интерактивная хронология ---------- */
+.tl2 { position: relative; display: grid; gap: 0; padding-left: clamp(26px, 4vw, 60px); }
+.tl2__line { position: absolute; left: 6px; top: 0; bottom: 0; width: 1px; background: var(--line-2); }
+.tl2__line span { position: absolute; inset: 0; background: var(--b-accent-text); transform: scaleY(0); transform-origin: top; }
+.tl2__decade { position: relative; height: clamp(90px, 12vw, 170px); overflow: visible; pointer-events: none; }
+.tl2__decade span { position: absolute; right: 0; top: 50%; opacity: 0.7; font-family: var(--font-display); font-size: clamp(4.5rem, 2rem + 8vw, 10rem); line-height: 1; color: transparent; -webkit-text-stroke: 1px var(--line-3); letter-spacing: -0.03em; transform: translateY(-50%); white-space: nowrap; }
+.tl2__event { position: relative; display: grid; grid-template-columns: clamp(80px, 9vw, 130px) minmax(0, 1fr); gap: 20px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.tl2__dot { position: absolute; left: calc(-1 * clamp(26px, 4vw, 60px) + 1px); top: 30px; width: 11px; height: 11px; border-radius: 50%; border: 1px solid var(--b-accent-text); background: var(--bg); }
+.tl2__event:hover .tl2__dot { background: var(--b-accent-text); }
+.tl2__year { font-size: clamp(1.5rem, 1rem + 1.2vw, 2.2rem); line-height: 1; color: var(--b-accent-text); }
+.tl2__title { font-family: var(--font-display); font-size: var(--fs-xl); font-weight: 400; line-height: 1.15; }
+.tl2__body p { margin-top: 6px; font-size: var(--fs-sm); color: var(--text-2); line-height: 1.65; max-width: 62ch; }
+
+/* ---------- Креативные директора ---------- */
+.hs-dirs { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 22px; }
+.hs-dir { display: grid; gap: 10px; align-content: start; }
+.hs-dir__photo { position: relative; aspect-ratio: 3 / 4; display: grid; place-items: center; overflow: hidden; background: radial-gradient(circle at 50% 35%, color-mix(in srgb, var(--b-accent) 30%, var(--surface-2)), var(--surface) 70%); border: 1px solid var(--line-2); }
+.hs-dir__photo img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(0.4); transition: transform 1.2s var(--ease-out), filter 0.6s; }
+.hs-dir:hover .hs-dir__photo img { transform: scale(1.05); filter: none; }
+.hs-dir__initials { font-family: var(--font-display); font-size: clamp(3rem, 2rem + 3vw, 5rem); color: var(--text-3); letter-spacing: 0.04em; }
+.hs-dir__n { position: absolute; left: 12px; top: 12px; font-size: 0.625rem; letter-spacing: 0.2em; color: var(--b-accent-text); }
+.hs-dir__years { font-size: 0.6875rem; letter-spacing: 0.16em; color: var(--b-accent-text); }
+.hs-dir__name { font-size: var(--fs-xl); line-height: 1.1; }
+.hs-dir__text { font-size: var(--fs-sm); color: var(--text-2); line-height: 1.6; }
+.hs-dir__cols { display: grid; gap: 4px; font-size: var(--fs-xs); color: var(--text-2); }
+.hs-dir__cols .t-mono { font-size: 0.5625rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-3); }
+
+/* Культовые вещи */
+.hs-iconic { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 22px; }
+
+/* ---------- Финал: каталог и следующая история ---------- */
+.hs-end { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line-2); }
+.hs-end > a { position: relative; display: grid; gap: 14px; padding: clamp(28px, 4vw, 56px) clamp(20px, 3vw, 40px); align-content: start; overflow: hidden; isolation: isolate; transition: background-color var(--dur-3); }
+.hs-end > a + a { border-left: 1px solid var(--line-2); }
+.hs-end__title { font-size: clamp(1.8rem, 1rem + 2.4vw, 3.4rem); line-height: 1; }
+.hs-end > a > .icon { width: 28px; height: 28px; transition: transform var(--dur-3) var(--ease-out); }
+.hs-end > a:hover > .icon { transform: translateX(10px); }
+.hs-end__cat:hover { background: var(--surface); }
+.hs-end__next::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(135deg, color-mix(in srgb, var(--next) 40%, transparent), transparent 70%); opacity: 0.4; transition: opacity var(--dur-3); }
+.hs-end__next:hover::before { opacity: 1; }
+
+/* =====================================================================
+   Оглавление историй /histories
+   ===================================================================== */
+.hl-head { display: grid; gap: 18px; max-width: var(--container); margin: 0 auto; padding: 40px var(--gutter) clamp(40px, 6vw, 80px); }
+.hl-head__title { font-size: clamp(3rem, 1.2rem + 7vw, 9rem); line-height: 0.9; max-width: 12ch; }
+.hl-head__lead { max-width: 64ch; font-size: var(--fs-lg); color: var(--text-2); line-height: 1.6; }
+.hl-list { max-width: var(--container); margin: 0 auto; padding: 0 var(--gutter) 100px; border-top: 1px solid var(--line-2); }
+.hl-item { border-bottom: 1px solid var(--line-2); }
+.hl-link { position: relative; display: grid; grid-template-columns: 50px 110px minmax(0, 1.1fr) minmax(0, 1fr) 40px; gap: 24px; align-items: center; padding: clamp(22px, 3vw, 38px) 0; isolation: isolate; }
+.hl-link::before { content: ''; position: absolute; inset: 0 calc(-1 * var(--gutter)); z-index: -1; background: linear-gradient(90deg, color-mix(in srgb, var(--b-accent) 20%, transparent), transparent 70%); opacity: 0; transition: opacity var(--dur-3) var(--ease-out); }
+.hl-link:hover::before { opacity: 1; }
+.hl-link__n { font-size: 0.6875rem; letter-spacing: 0.2em; color: var(--text-3); }
+.hl-link__year { font-family: var(--font-display); font-style: italic; font-size: clamp(1.4rem, 1rem + 1vw, 2rem); }
+.hl-link__name { font-size: clamp(2rem, 1rem + 3vw, 4.4rem); line-height: 0.95; transition: transform var(--dur-3) var(--ease-out); }
+.hl-link:hover .hl-link__name { transform: translateX(12px); }
+.hl-link__meta { display: grid; gap: 8px; font-size: var(--fs-sm); color: var(--text-2); }
+.hl-link__meta > .t-mono { font-size: 0.625rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-3); }
+.hl-link__desc { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.5; }
+.hl-link__stats { font-size: 0.625rem; letter-spacing: 0.08em; color: var(--b-accent-text); }
+.hl-link__img { position: absolute; right: 80px; top: 50%; width: 200px; aspect-ratio: 4 / 5; z-index: 2; overflow: hidden; pointer-events: none; opacity: 0; transform: translateY(-50%) rotate(-4deg) scale(0.9); transition: opacity 0.5s var(--ease-out), transform 0.7s var(--ease-out); box-shadow: var(--shadow-2); }
+.hl-link__img img { width: 100%; height: 100%; object-fit: cover; }
+.hl-link:hover .hl-link__img { opacity: 1; transform: translateY(-50%) rotate(-2deg) scale(1); }
+.hl-link__go { justify-self: end; color: var(--text-3); transition: transform var(--dur-3) var(--ease-out), color var(--dur-2); }
+.hl-link:hover .hl-link__go { transform: translateX(6px); color: var(--b-accent-text); }
+
+/* ---------- Адаптивность ---------- */
+@media (max-width: 1023px) {
+  .hs-body { grid-template-columns: minmax(0, 1fr); }
+  .hs-toc { position: relative; top: 0; max-height: none; padding: 18px; border: 1px solid var(--line-2); }
+  .hs-end { grid-template-columns: 1fr; }
+  .hs-end > a + a { border-left: 0; border-top: 1px solid var(--line-2); }
+  .hl-link { grid-template-columns: 36px 80px minmax(0, 1fr) 30px; }
+  .hl-link__meta { grid-column: 2 / -1; }
+  .hl-link__img { display: none; }
+}
+@media (max-width: 767px) {
+  .hs-hero__down { display: none; }
+  .tl2__event { grid-template-columns: 1fr; gap: 6px; }
+  .tl2__decade { height: 80px; }
+  .hs-quote { padding-left: 40px; }
+  .hl-link { grid-template-columns: 30px minmax(0, 1fr) 24px; gap: 10px 14px; }
+  .hl-link__year { grid-column: 2; grid-row: 1; font-size: 1.1rem; }
+  .hl-link__name { grid-column: 1 / -1; grid-row: 2; }
+  .hl-link__meta { grid-column: 1 / -1; }
+  .hl-link__go { grid-column: 3; grid-row: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hs-hero__media img, .hs-hero__down .icon { animation: none; }
+}

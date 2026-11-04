@@ -111,6 +111,32 @@ router.get('/tracking', (req, res) => renderPage(req, res, 'tracking.html', { pa
 // Разделы рисуются на клиенте (js/pages/account.js), данные — через /api; права проверяются на сервере в каждом API.
 router.get(['/account', '/account/*path'], pageRequireAuth, (req, res) => renderPage(req, res, 'account.html', { page: 'account' }));
 
+// GET /histories — оглавление историй 15 брендов (роль: любая)
+router.get('/histories', (req, res) => renderPage(req, res, 'histories.html', { page: 'histories' }));
+
+// GET /history/:slug — полная история бренда в его микростилистике (роль: любая).
+// Сервер подставляет title, описание и data-brand; тексты страница грузит через /api/history/:slug. Таблица: brands (SELECT)
+router.get('/history/:slug', async (req, res, next) => {
+  // SQL: бренд по slug для заголовка страницы
+  const { rows } = await query('SELECT name, slug, short_desc_ru, short_desc_en FROM brands WHERE slug = $1', [String(req.params.slug).slice(0, 80)]);
+  const b = rows[0];
+  if (!b) return next(ApiError.notFound());
+  const en = req.lang === 'en';
+  renderPage(req, res, 'history.html', {
+    page: 'history',
+    brandSlug: b.slug,
+    brandName: b.name,
+    title: en ? `${b.name}: the full story — AMFIBIA` : `${b.name}: полная история — AMFIBIA`,
+    description: String(en ? b.short_desc_en : b.short_desc_ru).slice(0, 200),
+  });
+});
+
+// Служебные страницы (раздел 6.15 ТЗ): один шаблон info.html, тексты — в i18n (info.<ключ>), роль: любая
+const INFO_PAGES = { '/delivery': 'delivery', '/returns': 'returns', '/size-guide': 'sizes', '/about': 'about', '/contacts': 'contacts', '/privacy': 'privacy' };
+for (const [path, key] of Object.entries(INFO_PAGES)) {
+  router.get(path, (req, res) => renderPage(req, res, 'info.html', { page: 'info', infoKey: key }));
+}
+
 // GET /admin, /admin/* — админ-панель со своим макетом (роль: moderator, owner; остальным — страница 403).
 // Разделы рисуются на клиенте (js/pages/admin.js), данные — /api/admin/*; права проверяются на сервере в каждом API.
 router.get(['/admin', '/admin/*path'], pageCheckRole('moderator'), (req, res) => renderPage(req, res, 'admin.html', { page: 'admin', title: 'Admin — AMFIBIA' }));

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<head>
+  <!-- @include partials/head.html -->
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/css/pages/history.css">
+</head>
+<body data-page="{{page}}" data-brand="{{brandSlug}}" data-history="{{brandSlug}}">
+  <!-- @include partials/sprite.html -->
+  <!-- @include partials/overlays.html -->
+  <!-- @include partials/header.html -->
+  <!-- Индикатор прогресса чтения (раздел 7.2 ТЗ) -->
+  <div class="hs-progress" aria-hidden="true"><span data-hs-progress></span></div>
+  <main id="main" class="page page--flush history-page" tabindex="-1">
+    <!-- Hero: огромное название, год основания, фон с медленным зумом -->
+    <section class="hs-hero">
+      <div class="hs-hero__media" aria-hidden="true"><img data-hs-hero alt="" fetchpriority="high"></div>
+      <div class="hs-hero__texture b-texture" aria-hidden="true"></div>
+      <div class="hs-hero__shade" aria-hidden="true"></div>
+      <div class="hs-hero__inner">
+        <nav class="breadcrumbs" data-breadcrumbs data-i18n-attr="aria-label:a11y.breadcrumbs" aria-label="Навигационная цепочка"></nav>
+        <p class="t-eyebrow hs-hero__eyebrow" data-hs-eyebrow></p>
+        <h1 class="hs-hero__name b-title" data-hs-name>{{brandName}}</h1>
+        <div class="hs-hero__meta">
+          <span class="hs-hero__year" data-hs-year></span>
+          <span class="hs-hero__facts t-mono" data-hs-facts></span>
+        </div>
+        <p class="hs-hero__lead" data-hs-lead></p>
+      </div>
+      <a class="hs-hero__down t-mono" href="#hs-start"><span data-i18n="history.scroll">Читать</span><svg class="icon icon--sm"><use href="#i-arrow-up"/></svg></a>
+    </section>
+
+    <div class="hs-body" id="hs-start">
+      <!-- Боковое оглавление с подсветкой текущего раздела -->
+      <aside class="hs-toc" data-hs-toc-wrap>
+        <p class="t-eyebrow" data-i18n="history.contents">Содержание</p>
+        <p class="hs-toc__time t-mono" data-hs-time></p>
+        <ol class="hs-toc__list" data-hs-toc></ol>
+      </aside>
+      <article class="hs-article" data-hs-article>
+        <div class="skeleton" style="height:60vh"></div>
+      </article>
+    </div>
+  </main>
+  <!-- @include partials/footer.html -->
+  <script type="module" src="/js/pages/history.js"></script>
+</body>
+</html>

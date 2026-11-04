@@ -28,6 +28,9 @@ export function t(key, params = {}) {
   return value.replace(/\{(\w+)\}/g, (_, name) => (params[name] !== undefined ? params[name] : `{${name}}`));
 }
 
+// Значение словаря «как есть» (массивы и объекты — для длинных структурированных текстов служебных страниц)
+export const tRaw = (key) => key.split('.').reduce((obj, part) => (obj && obj[part] !== undefined ? obj[part] : undefined), dict);
+
 // Поле из БД вида { ru, en } → строка на текущем языке
 export const loc = (field) => (field && typeof field === 'object' ? field[lang] || field.ru || field.en || '' : field || '');
 

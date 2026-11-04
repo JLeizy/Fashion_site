@@ -19,6 +19,7 @@ import courierRouter from './courier.js';
 import supportRouter from './support.js';
 import adminRouter from './admin.js';
 import adminRefsRouter from './adminRefs.js';
+import historyRouter from './history.js';
 
 const api = express.Router();
 
@@ -41,6 +42,7 @@ api.use('/', homeRouter);
 api.use('/', ordersRouter);
 api.use('/addresses', addressesRouter);
 api.use('/', accountRouter);
+api.use('/', historyRouter);
 // Кабинеты сотрудников (этап 13): права проверяются внутри каждого роутера через checkRole
 api.use('/seller', sellerRouter);
 api.use('/warehouse', warehouseRouter);
