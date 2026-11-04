@@ -4,7 +4,7 @@ import { config } from '../../config/index.js';
 import { renderPage } from '../lib/render.js';
 import { query } from '../../db/pool.js';
 import { ApiError } from '../lib/errors.js';
-import { pageRequireAuth } from '../middleware/auth.js';
+import { pageRequireAuth, pageCheckRole } from '../middleware/auth.js';
 
 const router = express.Router();
 
@@ -110,6 +110,10 @@ router.get('/tracking', (req, res) => renderPage(req, res, 'tracking.html', { pa
 // GET /account, /account/* — личный кабинет; набор вкладок зависит от роли (роль: любой авторизованный).
 // Разделы рисуются на клиенте (js/pages/account.js), данные — через /api; права проверяются на сервере в каждом API.
 router.get(['/account', '/account/*path'], pageRequireAuth, (req, res) => renderPage(req, res, 'account.html', { page: 'account' }));
+
+// GET /admin, /admin/* — админ-панель со своим макетом (роль: moderator, owner; остальным — страница 403).
+// Разделы рисуются на клиенте (js/pages/admin.js), данные — /api/admin/*; права проверяются на сервере в каждом API.
+router.get(['/admin', '/admin/*path'], pageCheckRole('moderator'), (req, res) => renderPage(req, res, 'admin.html', { page: 'admin', title: 'Admin — AMFIBIA' }));
 
 // Просмотр оформленных страниц ошибок напрямую (роль: любая)
 router.get('/403', (req, res) => renderPage(req, res, '403.html', { page: 'error-403' }, 403));

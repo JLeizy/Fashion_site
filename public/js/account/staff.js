@@ -5,12 +5,15 @@ import { esc, icon } from '../core/dom.js';
 import { t, loc, fmtNumber, fmtRelative } from '../core/i18n.js';
 import { formatPrice } from '../core/currency.js';
 
-// Подвкладки раздела: /account/<base>/<id>. tabs: [{ id, label, count, icon }]
+// Подвкладки раздела: /account/<base>/<id> (или полный путь base, начинающийся с «/», например /admin/products).
+// tabs: [{ id, label, count, icon }]
 export function subtabs(base, tabs, active) {
+  const prefix = base.startsWith('/') ? base : `/account/${base}`;
+  const linkAttr = prefix.startsWith('/admin') ? 'data-adm-link' : 'data-acc-link';
   return `<nav class="stabs" aria-label="${esc(t('staff.sections'))}">
     ${tabs
       .map(
-        (tab, i) => `<a class="stabs__tab ${tab.id === active ? 'is-active' : ''}" href="/account/${base}${tab.id ? `/${tab.id}` : ''}" data-acc-link ${tab.id === active ? 'aria-current="page"' : ''}>
+        (tab, i) => `<a class="stabs__tab ${tab.id === active ? 'is-active' : ''}" href="${prefix}${tab.id ? `/${tab.id}` : ''}" ${linkAttr} ${tab.id === active ? 'aria-current="page"' : ''}>
           <span class="stabs__n t-mono">${String(i + 1).padStart(2, '0')}</span>
           <span class="stabs__label">${tab.icon ? icon(tab.icon, 'icon icon--sm') : ''}${esc(tab.label)}</span>
           ${tab.count ? `<sup class="stabs__count t-mono">${fmtNumber(tab.count)}</sup>` : ''}

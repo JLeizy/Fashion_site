@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="{{lang}}" data-theme="dark" data-currency="{{currency}}" data-no-preloader>
+<head>
+  <!-- @include partials/head.html -->
+  <script src="/js/admin-boot.js"></script>
+  <title data-i18n="admin.meta">Админ-панель — AMFIBIA</title>
+  <link rel="stylesheet" href="/css/pages/account.css">
+  <link rel="stylesheet" href="/css/pages/shop.css">
+  <link rel="stylesheet" href="/css/pages/checkout.css">
+  <link rel="stylesheet" href="/css/pages/staff.css">
+  <link rel="stylesheet" href="/css/pages/admin.css">
+</head>
+<body data-page="{{page}}" data-role="{{role}}" class="adm-body">
+  <!-- @include partials/sprite.html -->
+  <a class="skip-link" href="#adm-view" data-i18n="a11y.skip">Перейти к содержимому</a>
+  <div class="adm" data-adm>
+    <!-- Боковое меню админ-панели: разделы зависят от роли (owner — все, moderator — пользователи и модерация) -->
+    <aside class="adm-side" data-adm-side>
+      <a class="adm-logo" href="/admin" data-adm-link>
+        <span class="adm-logo__word">Amfibia</span>
+        <span class="adm-logo__sub t-mono">Atelier · Admin</span>
+      </a>
+      <nav class="adm-nav" data-adm-nav data-i18n-attr="aria-label:admin.menu" aria-label="Меню админ-панели"></nav>
+      <div class="adm-me" data-adm-me></div>
+    </aside>
+    <div class="adm-main">
+      <header class="adm-top">
+        <button type="button" class="icon-btn adm-burger" data-adm-burger data-i18n-attr="aria-label:admin.menu" aria-label="Меню"><svg class="icon"><use href="#i-menu"/></svg></button>
+        <div class="adm-top__title">
+          <p class="t-eyebrow" data-adm-eyebrow></p>
+          <h1 class="adm-top__h" data-adm-title></h1>
+        </div>
+        <div class="adm-top__tools">
+          <div class="lang-switch" role="group" data-i18n-attr="aria-label:header.lang" aria-label="Язык">
+            <button type="button" data-adm-lang="ru">RU</button><span aria-hidden="true">/</span><button type="button" data-adm-lang="en">EN</button>
+          </div>
+          <div class="seg adm-cur" role="group" data-i18n-attr="aria-label:header.currency" aria-label="Валюта">
+            <button type="button" data-adm-cur="BYN">BYN</button><button type="button" data-adm-cur="USD">USD</button><button type="button" data-adm-cur="EUR">EUR</button>
+          </div>
+          <div class="adm-themes" role="group" data-i18n-attr="aria-label:header.theme" aria-label="Тема">
+            <button type="button" class="swatch swatch--amfibia" data-adm-theme="amfibia" data-i18n-attr="title:header.themes.amfibia;aria-label:header.themes.amfibia"></button>
+            <button type="button" class="swatch swatch--light" data-adm-theme="light" data-i18n-attr="title:header.themes.light;aria-label:header.themes.light"></button>
+            <button type="button" class="swatch swatch--dark" data-adm-theme="dark" data-i18n-attr="title:header.themes.dark;aria-label:header.themes.dark"></button>
+          </div>
+          <a class="btn btn--ghost btn--sm" href="/"><svg class="icon icon--sm"><use href="#i-arrow-ne"/></svg><span data-i18n="admin.toSite">На сайт</span></a>
+        </div>
+      </header>
+      <main id="adm-view" class="adm-view" data-adm-view tabindex="-1" aria-live="polite">
+        <div class="skeleton" style="height:320px"></div>
+      </main>
+    </div>
+    <div class="adm-scrim" data-adm-scrim hidden></div>
+  </div>
+  <div class="toasts" data-toasts aria-live="polite" aria-atomic="false"></div>
+  <div id="modal-root"></div>
+  <script type="module" src="/js/pages/admin.js"></script>
+</body>
+</html>

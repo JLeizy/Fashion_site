@@ -34,6 +34,7 @@ const ROLE_SECTIONS = [
   { id: 'stock', path: 'stock', icon: 'i-box', module: 'stock', roles: ['warehouse'], staff: true },
   { id: 'deliveries', path: 'deliveries', icon: 'i-truck', module: 'deliveries', roles: ['courier'], staff: true },
   { id: 'desk', path: 'desk', icon: 'i-chat', module: 'desk', roles: ['support'], staff: true },
+  { id: 'admin', href: '/admin', icon: 'i-shield', roles: ['moderator'], staff: true },
 ];
 
 const visible = (s) => !s.roles || s.roles.includes(user.role) || (user.role === 'owner' && !s.roles.includes('buyer'));
