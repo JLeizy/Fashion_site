@@ -338,4 +338,52 @@ export async function changeStatus(orderId, to, actor, { comment = null, ip = nu
   return client ? work(client) : withTransaction(work);
 }
 
-export default { createOrder, changeStatus, quote, nextStatus, flowFor, FLOW, FINAL, CANCELLABLE, addressToText, notify, audit };
+// ---------------------------------------------------------------------------------------------
+// Автоназначение курьера при передаче в доставку (решение 9 в PROGRESS.md): если владелец не назначил
+// курьера, выбирается активный курьер с наименьшим числом заказов в доставке. Вызывается внутри транзакции склада.
+// Таблицы: orders (SELECT FOR UPDATE, UPDATE courier_id), users, roles (SELECT), audit_log (INSERT)
+// ---------------------------------------------------------------------------------------------
+export async function assignCourierIfMissing(client, orderId, actor, ip = null) {
+  // SQL: текущий курьер заказа (строка блокируется до конца транзакции)
+  const { rows } = await client.query('SELECT courier_id FROM orders WHERE id = $1 FOR UPDATE', [orderId]);
+  if (!rows[0]) throw new ApiError(404, 'orders.notFound');
+  if (rows[0].courier_id) return rows[0].courier_id;
+  // SQL: активный курьер с наименьшей нагрузкой (заказы в статусах доставки)
+  const c = await client.query(
+    `SELECT u.id
+       FROM users u
+       JOIN roles r ON r.id = u.role_id AND r.code = 'courier'
+      WHERE u.status = 'active'
+      ORDER BY (SELECT COUNT(*) FROM orders o WHERE o.courier_id = u.id AND o.status IN ('handed_to_delivery', 'in_transit', 'arrived')), u.id
+      LIMIT 1`
+  );
+  const courierId = c.rows[0]?.id;
+  if (!courierId) throw new ApiError(409, 'warehouse.noCourierAvailable');
+  // SQL: назначение курьера
+  await client.query('UPDATE orders SET courier_id = $2 WHERE id = $1', [orderId, courierId]);
+  await audit(client, { userId: actor?.id || null, action: 'order.courier.auto', entity: 'orders', entityId: orderId, oldData: { courier_id: null }, newData: { courier_id: courierId }, ip });
+  return courierId;
+}
+
+// ---------------------------------------------------------------------------------------------
+// Заказ полностью возвращён (все позиции приняты складом по одобренным возвратам): delivered → returned,
+// оплата → refunded. Вызывается из маршрута приёмки возврата внутри его транзакции.
+// Таблицы: orders (SELECT FOR UPDATE, UPDATE), order_status_history (INSERT), notifications (INSERT), audit_log (INSERT)
+// ---------------------------------------------------------------------------------------------
+export async function markReturned(client, orderId, actor, { comment = null, ip = null } = {}) {
+  // SQL: заказ блокируется на время смены статуса
+  const { rows } = await client.query('SELECT id, status, payment_status, user_id, order_number FROM orders WHERE id = $1 FOR UPDATE', [orderId]);
+  const order = rows[0];
+  if (!order) throw new ApiError(404, 'orders.notFound');
+  if (order.status !== 'delivered') return null;
+  const paymentStatus = order.payment_status === 'paid' ? 'refunded' : order.payment_status;
+  // SQL: статус «возврат оформлен» и возврат денег
+  await client.query("UPDATE orders SET status = 'returned', payment_status = $2 WHERE id = $1", [orderId, paymentStatus]);
+  // SQL: запись в историю статусов
+  await client.query("INSERT INTO order_status_history (order_id, status, changed_by, comment) VALUES ($1, 'returned', $2, $3)", [orderId, actor?.id || null, comment]);
+  await notify(client, order.user_id, orderStatusNotification('returned', order.order_number, order.id));
+  await audit(client, { userId: actor?.id || null, action: 'order.status.returned', entity: 'orders', entityId: orderId, oldData: { status: order.status, payment_status: order.payment_status }, newData: { status: 'returned', payment_status: paymentStatus }, ip });
+  return { id: orderId, orderNumber: order.order_number };
+}
+
+export default { createOrder, changeStatus, quote, nextStatus, flowFor, FLOW, FINAL, CANCELLABLE, addressToText, notify, audit, assignCourierIfMissing, markReturned };

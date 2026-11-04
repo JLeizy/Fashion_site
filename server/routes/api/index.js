@@ -13,6 +13,10 @@ import homeRouter from './home.js';
 import ordersRouter from './orders.js';
 import addressesRouter from './addresses.js';
 import accountRouter from './account.js';
+import sellerRouter from './seller.js';
+import warehouseRouter from './warehouse.js';
+import courierRouter from './courier.js';
+import supportRouter from './support.js';
 
 const api = express.Router();
 
@@ -35,5 +39,10 @@ api.use('/', homeRouter);
 api.use('/', ordersRouter);
 api.use('/addresses', addressesRouter);
 api.use('/', accountRouter);
+// Кабинеты сотрудников (этап 13): права проверяются внутри каждого роутера через checkRole
+api.use('/seller', sellerRouter);
+api.use('/warehouse', warehouseRouter);
+api.use('/courier', courierRouter);
+api.use('/support', supportRouter);
 
 export default api;

@@ -46,7 +46,7 @@ export function productModerationNotification(productId, productName, approved, 
     title_en: approved ? 'Product published' : 'Product rejected',
     text_ru: approved ? `«${productName}» прошёл модерацию и опубликован.` : `«${productName}» отклонён. Причина: ${reason}`,
     text_en: approved ? `“${productName}” passed moderation and is now live.` : `“${productName}” was rejected. Reason: ${reason}`,
-    link: `/account/seller-products/${productId}`,
+    link: `/account/shop/products/${productId}`,
   };
 }
 
@@ -57,7 +57,7 @@ export function sellerApplicationNotification(approved, shopName, comment = '') 
     title_en: approved ? 'Seller application approved' : 'Seller application rejected',
     text_ru: approved ? `Магазин «${shopName}» открыт. Добавляйте товары в кабинете продавца.` : `Заявка магазина «${shopName}» отклонена. ${comment}`.trim(),
     text_en: approved ? `Your shop “${shopName}” is open. Add products in the seller dashboard.` : `The application for “${shopName}” was rejected. ${comment}`.trim(),
-    link: approved ? '/account/seller-products' : '/account/seller-application',
+    link: approved ? '/account/shop' : '/account/seller',
   };
 }
 
@@ -68,6 +68,6 @@ export function returnDecisionNotification(returnId, orderNumber, approved, comm
     title_en: approved ? `Return for order ${orderNumber} approved` : `Return for order ${orderNumber} rejected`,
     text_ru: approved ? 'Передайте товар курьеру или в пункт выдачи — деньги вернутся после проверки.' : `Причина: ${comment}`,
     text_en: approved ? 'Hand the item to a courier or pickup point — the refund follows inspection.' : `Reason: ${comment}`,
-    link: `/account/returns/${returnId}`,
+    link: '/account/returns',
   };
 }
