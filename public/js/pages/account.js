@@ -28,7 +28,13 @@ export const SECTIONS = [
   { id: 'seller', path: 'seller', icon: 'i-sparkle', module: 'seller', roles: ['buyer'] },
   { id: 'settings', path: 'settings', icon: 'i-settings', module: 'settings' },
 ];
-const ROLE_SECTIONS = []; // заполняется на этапе 13 (ROLE_SECTIONS.push(...))
+// Кабинеты сотрудников (этап 13). Сервер дополнительно проверяет роль в каждом API (checkRole) — здесь только меню.
+const ROLE_SECTIONS = [
+  { id: 'shop', path: 'shop', icon: 'i-catalog', module: 'shop', roles: ['seller'], staff: true },
+  { id: 'stock', path: 'stock', icon: 'i-box', module: 'stock', roles: ['warehouse'], staff: true },
+  { id: 'deliveries', path: 'deliveries', icon: 'i-truck', module: 'deliveries', roles: ['courier'], staff: true },
+  { id: 'desk', path: 'desk', icon: 'i-chat', module: 'desk', roles: ['support'], staff: true },
+];
 
 const visible = (s) => !s.roles || s.roles.includes(user.role) || (user.role === 'owner' && !s.roles.includes('buyer'));
 const allSections = () => [...SECTIONS.slice(0, 1), ...ROLE_SECTIONS.filter(visible), ...SECTIONS.slice(1)].filter(visible);
@@ -83,7 +89,7 @@ function renderNav(activeId) {
     .map((s) => {
       const href = s.href || `/account${s.path ? `/${s.path}` : ''}`;
       const count = s.badge ? store.counts[s.badge] : 0;
-      return `<li><a class="acc-nav__link ${s.id === activeId ? 'is-active' : ''}" href="${href}" ${s.href ? '' : 'data-acc-link'} ${s.id === activeId ? 'aria-current="page"' : ''}>
+      return `<li class="${s.staff ? 'acc-nav__staff' : ''}"><a class="acc-nav__link ${s.id === activeId ? 'is-active' : ''}" href="${href}" ${s.href ? '' : 'data-acc-link'} ${s.id === activeId ? 'aria-current="page"' : ''}>
         ${icon(s.icon, 'icon icon--sm')}<span>${esc(t(`account.nav.${s.id}`))}</span>${count ? `<b class="acc-nav__badge t-mono">${count}</b>` : ''}</a></li>`;
     })
     .join('')}</ul>`;

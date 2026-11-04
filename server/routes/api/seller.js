@@ -4,6 +4,8 @@
 // Продавец видит и меняет ТОЛЬКО свои товары: во всех запросах условие products.seller_id = req.user.id
 // (owner работает с товарами официального магазина и любыми товарами по ?seller=… не нужен — для owner есть админка).
 // Новый или изменённый товар уходит на модерацию: moderation_status = 'pending' (или 'draft' — черновик).
+import fs from 'node:fs';
+import path from 'node:path';
 import express from 'express';
 import { body, param, query as q } from 'express-validator';
 import { query, withTransaction } from '../../../db/pool.js';
@@ -13,6 +15,7 @@ import { ApiError } from '../../lib/errors.js';
 import { listValidators, listParams, pageResult, likePattern } from '../../lib/listing.js';
 import { uploadProductImages, removeUploadedFile } from '../../middleware/upload.js';
 import { audit } from '../../services/orderService.js';
+import { config } from '../../../config/index.js';
 import { writeProductPlaceholders } from '../../../scripts/generate-placeholders.js';
 
 const router = express.Router();
@@ -24,6 +27,14 @@ const COUNTRIES = ['IT', 'FR', 'ES', 'PT', 'US', 'JP', 'GB', 'DE', 'CH', 'RO', '
 
 // Заглушка или загруженное фото: заглушки лежат в /images/brands/<бренд>/products/
 const isPlaceholder = (url) => typeof url === 'string' && url.startsWith('/images/brands/');
+
+// Удаление SVG-заглушки удалённого товара (только файлы внутри public/images/brands)
+function removePlaceholderFile(url) {
+  if (!isPlaceholder(url) || !url.endsWith('.svg')) return;
+  const base = path.join(config.root, 'public', 'images', 'brands');
+  const file = path.join(config.root, 'public', url);
+  if (file.startsWith(base)) fs.rm(file, { force: true }, () => {});
+}
 
 // ---------------------------------------------------------------------------------------------
 // GET /api/seller/refs — справочники для редактора товара (роль: seller)
@@ -435,7 +446,7 @@ router.delete('/products/:id', validate([param('id').isInt({ min: 1 }).toInt()])
     await audit(client, { userId: req.user.id, action: 'product.delete', entity: 'products', entityId: p.id, oldData: { sku: p.sku, status: p.moderation_status }, ip: req.ip });
     return { deleted: true, files: imgs.rows.map((r) => r.url) };
   });
-  (result.files || []).forEach(removeUploadedFile);
+  (result.files || []).forEach((url) => (isPlaceholder(url) ? removePlaceholderFile(url) : removeUploadedFile(url)));
   res.json(result.deleted ? { deleted: true } : { deleted: false, status: result.status, message: req.t('seller.unpublished') });
 });
 

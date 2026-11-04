@@ -193,7 +193,8 @@
   .settings { grid-template-columns: 1fr; }
 }
 @media (max-width: 1023px) {
-  .acc { grid-template-columns: 1fr; }
+  .acc { grid-template-columns: minmax(0, 1fr); }
+  .acc__side, .acc-nav { min-width: 0; }
   .acc__side { position: relative; top: 0; }
   .acc-nav ul { display: flex; overflow-x: auto; gap: 4px; border: 0; scrollbar-width: none; }
   .acc-nav ul::-webkit-scrollbar { display: none; }
