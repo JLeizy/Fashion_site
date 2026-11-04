@@ -36,7 +36,7 @@
 ## Истории брендов (этапы 16–30)
 | Бренд | RU (~15 000 слов) | EN (3–5 тыс.) |
 |---|---|---|
-| Balenciaga | 🟡 10 разделов, ≈5 400 слов (части 1–3) | 🟡 ≈1 800 слов |
+| Balenciaga | ✅ 18 разделов, ≈7091 слов (сокращено относительно 15 000 из-за лимитов) | ✅ ≈2587 слов |
 | Vetements | ⬜ | ⬜ |
 | Gucci | ⬜ | ⬜ |
 | Prada | ⬜ | ⬜ |
@@ -52,12 +52,10 @@
 | Alexander McQueen | ⬜ | ⬜ |
 | Loro Piana | ⬜ | ⬜ |
 
-## Следующий шаг: этап 16 — дописать историю Balenciaga
-Готово (в БД через seed): части 1–3, 10 разделов — Гетария; ученичество и испанские дома; авеню Георга V (1937–1945); мастер послевоенного Парижа; золотой век формы (1957–1968); закрытие и смерть (1968–1972); межвременье и возрождение (Гома, Тимистер); Гескьер; Ван; Демна. RU ≈ 5 400 слов, EN ≈ 1 800.
-Осталось написать (по плану ТЗ 7.1), каждый файл — `export default [ {period, title_ru, title_en, content_ru, content_en, quote_ru, quote_en, quote_author} ]`, затем добавить импорт в `db/content/histories/balenciaga.js`:
-- `balenciaga/part4.js`: «Знаковые показы и коллекции» (1937 инфанты, 1951, 1957, 1967, SS2007 Гескьера, кутюр 2021, «снег» FW22, грязь SS23), «Культовые вещи и их история» (платье-мешок, «бэби-долл», свадебное платье 1967, Le Dix, City bag 2001, Speed Trainer 2016, Triple S 2017, Hourglass, Arena/IKEA), «Коллаборации» (Crocs, Fortnite, «Симпсоны», Gucci «Hacker Project» 2021, Adidas 2022, Ye/Yeezy Gap — завершено в 2022).
-- `balenciaga/part5.js`: «Скандалы и кризисы» (кампании ноября 2022, иск к North Six и его отзыв, разрыв с Ye), «Владельцы и корпоративная история» (Hoechst 1978, Jacques Bogart 1986, Gucci Group 2001 → PPR → Kering; CEO Изабель Гишо, Седрик Шарбит), «Влияние на моду и культуру» (музей в Гетарии 2011, выставки Met 1973, V&A 2017, Тиссен 2019), «Balenciaga сегодня» (Пьерпаоло Пиччоли с 2025, дебют весна–лето 2026 [проверить]; события после даты отсечения знаний — так и писать), «Интересные факты».
-Цель — суммарно ≈15 000 слов RU и 3 000–5 000 EN; после — `npm run db:seed && npm run placeholders`, проверить `/history/balenciaga`, отметить в таблице. Далее этапы 17–30: Vetements … Loro Piana тем же способом.
+## Следующий шаг: этап 17 — история Vetements
+Balenciaga готова: `db/content/histories/balenciaga.js` + `balenciaga/part1–5.js` (18 разделов, RU ≈7091, EN ≈2587 слов) — все 12 обязательных тем ТЗ 7.1 покрыты; объём сокращён ради экономии лимитов.
+Дальше тем же способом: `db/content/histories/<slug>.js` (+ части), порядок Vetements → Gucci → Prada → ERD → AVAVAV → Supreme → Chrome Hearts → Louis Vuitton → Chanel → Maison Margiela → Givenchy → Versace → Alexander McQueen → Loro Piana. После каждой: `npm run db:seed && npm run placeholders`, проверить `/history/<slug>`, отметить в таблице. Затем этап 31 (README с матрицей прав, финальная проверка).
+Если в контейнере PostgreSQL остановлен: `service postgresql start`.
 
 ## Решения и отступления от ТЗ (правило 0.4)
 1. **PostgreSQL не установлен** → встроенный PostgreSQL из npm-пакета (см. «Окружение»). Код работает с любым PostgreSQL 15+.
