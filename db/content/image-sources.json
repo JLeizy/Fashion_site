@@ -3050,5 +3050,1244 @@
     "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
     "url": "https://assets.vogue.com/photos/6ab6b0aa05cb49bf2749f9a1/master/w_900,c_limit/00020-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
     "note": "Vogue Runway, spring-2027-ready-to-wear, образ 20"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-BPK-0001-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1d7cdaebce4876b6cc0/master/w_900,c_limit/00001-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-BPK-0001-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1d79e9881c7f786a66f/master/w_900,c_limit/00002-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-BPK-0002-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1d7a52190af06d5a230/master/w_900,c_limit/00003-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-BPK-0002-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1db2f624faf8dfea08e/master/w_900,c_limit/00004-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-CRB-0003-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1db2e9f9e80fea9f3b1/master/w_900,c_limit/00005-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-CRB-0003-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1db470e67174cf5741a/master/w_900,c_limit/00006-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-CRB-0004-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1df3366810b70f67c1d/master/w_900,c_limit/00007-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-CRB-0004-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1df2ab1a5522d6daee6/master/w_900,c_limit/00008-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-CRB-0005-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1df3366810b70f67c23/master/w_900,c_limit/00009-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-CRB-0005-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1e2a81e1ea899b212d9/master/w_900,c_limit/00010-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TOT-0006-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1e37f5ac035f96e392d/master/w_900,c_limit/00011-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TOT-0006-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1e33252ed0954001f29/master/w_900,c_limit/00012-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TOT-0007-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1e4aa3666e810e2293a/master/w_900,c_limit/00013-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TOT-0007-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1e70d3a08c75d144a52/master/w_900,c_limit/00014-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TOT-0008-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1e7b3f885941cf2153c/master/w_900,c_limit/00015-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TOT-0008-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1e75f216e0b7b0d2739/master/w_900,c_limit/00016-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-CRB-0009-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1eb9bafc82c8bdcec6d/master/w_900,c_limit/00017-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-CRB-0009-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1eb56219c94dbbdbf25/master/w_900,c_limit/00018-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-CRB-0010-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1eb5b28d444c71c1d6c/master/w_900,c_limit/00019-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-CRB-0010-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1efc3a90cb9fa2a655c/master/w_900,c_limit/00020-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-BOT-0011-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1efd5a7e278bc3a734b/master/w_900,c_limit/00021-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-BOT-0011-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1ef9bafc82c8bdcec74/master/w_900,c_limit/00022-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-LOF-0012-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1f3e138a384cae3c814/master/w_900,c_limit/00023-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-LOF-0012-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1f39f2a840c2ca74e49/master/w_900,c_limit/00024-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-LOF-0013-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1f33252ed0954001f30/master/w_900,c_limit/00025-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-LOF-0013-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1f72752db4c76ba2163/master/w_900,c_limit/00026-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SNK-0014-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1f7012f42ecefd7d3fa/master/w_900,c_limit/00027-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SNK-0014-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1f70d3a08c75d144a59/master/w_900,c_limit/00028-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SNK-0015-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1fba81e1ea899b212e8/master/w_900,c_limit/00029-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SNK-0015-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1fbfd79e4f77a8e7351/master/w_900,c_limit/00030-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SNK-0016-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1fb973cfa3e265119fc/master/w_900,c_limit/00031-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SNK-0016-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b1ff268de95daa8d255f/master/w_900,c_limit/00032-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SNK-0017-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b200f562eae9e68cfb54/master/w_900,c_limit/00033-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SNK-0017-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b2000b7e076dc7a0c848/master/w_900,c_limit/00034-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SNK-0018-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b2019786e6c152ab4f46/master/w_900,c_limit/00035-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SNK-0018-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b203c3a90cb9fa2a6563/master/w_900,c_limit/00036-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-JKT-0019-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293e4ab5eb8189c46dd56/master/w_900,c_limit/00001-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-JKT-0019-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293e3f93727a44ae72ee2/master/w_900,c_limit/00002-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-JKT-0020-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293e3c0fcd3f8070952f2/master/w_900,c_limit/00003-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-JKT-0020-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293e5d4439b01adb1c1de/master/w_900,c_limit/00004-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SHT-0021-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293e615a363a4f9922848/master/w_900,c_limit/00005-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SHT-0021-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293e6d8bf10b349d06e0c/master/w_900,c_limit/00006-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SHT-0022-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293e77f5ac035f96e384c/master/w_900,c_limit/00007-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SHT-0022-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293e88639480f32fb40c0/master/w_900,c_limit/00008-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SWT-0023-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293e8ec5f4cfa18dea047/master/w_900,c_limit/00009-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SWT-0023-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293e9d2ec4563ae4b4862/master/w_900,c_limit/00010-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SWT-0024-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293e98639480f32fb40c7/master/w_900,c_limit/00011-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SWT-0024-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293ea5b1cd174f1727bac/master/w_900,c_limit/00012-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SHR-0025-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293eb307c101a216b0691/master/w_900,c_limit/00013-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SHR-0025-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293eb2e9f9e80fea9f32e/master/w_900,c_limit/00014-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SHR-0026-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293eca52190af06d5a080/master/w_900,c_limit/00015-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SHR-0026-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293ede374beeeafec5fd2/master/w_900,c_limit/00016-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TSH-0027-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293edcdca9880a4d5a339/master/w_900,c_limit/00017-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TSH-0027-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293eed2ec4563ae4b486f/master/w_900,c_limit/00018-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TSH-0028-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293efd8bf10b349d06e13/master/w_900,c_limit/00019-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TSH-0028-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f02f378f2cffdad464/master/w_900,c_limit/00020-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TSH-0029-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f0cb7ec6d5f192d3d4/master/w_900,c_limit/00021-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TSH-0029-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f19c27ab31efb152db/master/w_900,c_limit/00022-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HOD-0030-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f25d33302939a61964/master/w_900,c_limit/00023-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HOD-0030-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f29bafc82c8bdceb5f/master/w_900,c_limit/00024-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HOD-0031-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f30b7e076dc7a0c77a/master/w_900,c_limit/00025-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HOD-0031-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f49786e6c152ab4e84/master/w_900,c_limit/00026-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-COT-0032-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f4f93727a44ae72eef/master/w_900,c_limit/00027-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-COT-0032-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f69bafc82c8bdceb66/master/w_900,c_limit/00028-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-COT-0033-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f615a363a4f992284f/master/w_900,c_limit/00029-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-COT-0033-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f6ba20395987382220/master/w_900,c_limit/00030-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TRS-0034-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f72f624faf8dfe9ff4/master/w_900,c_limit/00031-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TRS-0034-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f8b3f885941cf2148a/master/w_900,c_limit/00032-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TRS-0035-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293f840321ec838a555ed/master/w_900,c_limit/00033-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-TRS-0035-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293fae41f212026489d7b/master/w_900,c_limit/00034-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-JNS-0036-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293fad4439b01adb1c1e8/master/w_900,c_limit/00035-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-JNS-0036-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293faa2ea25585be3fe3e/master/w_900,c_limit/00036-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-JNS-0037-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293fc4b65c2e6d3acc945/master/w_900,c_limit/00037-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-JNS-0037-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293fc2ab1a5522d6dae9e/master/w_900,c_limit/00038-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SKT-0038-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293fd145864edfc1daa9c/master/w_900,c_limit/00039-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SKT-0038-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293fedbaa21e9eb063262/master/w_900,c_limit/00040-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-DRS-0039-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293fe20d467e24d47b9a9/master/w_900,c_limit/00041-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-DRS-0039-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab293fe33ff9718f0586c66/master/w_900,c_limit/00042-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-DRS-0040-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab294004fbee594c2479cb3/master/w_900,c_limit/00043-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-DRS-0040-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab2940056219c94dbbdbb7f/master/w_900,c_limit/00044-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SUI-0041-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab294019a379466e4155653/master/w_900,c_limit/00045-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SUI-0041-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab294028a381d67d6a4e329/master/w_900,c_limit/00046-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SUI-0042-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab294029c27ab31efb152e2/master/w_900,c_limit/00047-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SUI-0042-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab294033fc245b9ea45630a/master/w_900,c_limit/00048-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-BLT-0043-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b2033366810b70f67c2b/master/w_900,c_limit/00037-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-BLT-0043-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b204a52190af06d5a237/master/w_900,c_limit/00038-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SUN-0044-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b205ab5eb8189c46ddeb/master/w_900,c_limit/00039-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SUN-0044-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b206a52190af06d5a23e/master/w_900,c_limit/00040-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SUN-0045-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b207e61132e6cb2fcefa/master/w_900,c_limit/00041-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SUN-0045-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b208c5d259fd37c61a70/master/w_900,c_limit/00042-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HAT-0046-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b209470e67174cf57421/master/w_900,c_limit/00043-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HAT-0046-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b20ac5cdea54f62aba0f/master/w_900,c_limit/00044-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HAT-0047-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b20b7b46a6671760c0f4/master/w_900,c_limit/00045-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HAT-0047-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b20b9c27ab31efb15335/master/w_900,c_limit/00046-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-WAL-0048-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b20d2752db4c76ba216a/master/w_900,c_limit/00047-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-WAL-0048-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b20fcb7ec6d5f192d502/master/w_900,c_limit/00048-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-WAL-0049-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b20f8e1ad3c053e8fcca/master/w_900,c_limit/00049-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-WAL-0049-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b2125f216e0b7b0d2740/master/w_900,c_limit/00050-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-GLV-0050-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b212e138a384cae3c81b/master/w_900,c_limit/00051-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-GLV-0050-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b21256219c94dbbdbf2c/master/w_900,c_limit/00052-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SCF-0051-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b216e41f212026489e5e/master/w_900,c_limit/00053-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SCF-0051-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b216d5a7e278bc3a7352/master/w_900,c_limit/00054-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SCF-0052-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b21603ab96cc1a766415/master/w_900,c_limit/00055-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SCF-0052-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b219b9c77cc985f7becc/master/w_900,c_limit/00056-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HEL-0053-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b21aab5eb8189c46ddf7/master/w_900,c_limit/00057-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HEL-0053-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b21a56219c94dbbdbf33/master/w_900,c_limit/00058-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HEL-0054-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b21bc71b3a9166ecf11e/master/w_900,c_limit/00059-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-HEL-0054-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b21ff562eae9e68cfb5b/master/w_900,c_limit/00060-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SND-0055-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b21f54ff55b655e0cb8c/master/w_900,c_limit/00061-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SND-0055-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b220aa9c3b45d78618b6/master/w_900,c_limit/00062-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SND-0056-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b2232752db4c76ba2171/master/w_900,c_limit/00063-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-SND-0056-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b225c71b3a9166ecf125/master/w_900,c_limit/00064-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-EAR-0057-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b2253366810b70f67c32/master/w_900,c_limit/00065-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-EAR-0057-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b226dbaa21e9eb0634ad/master/w_900,c_limit/00066-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-RNG-0058-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b227c3a90cb9fa2a656a/master/w_900,c_limit/00067-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-RNG-0058-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b22954ff55b655e0cb93/master/w_900,c_limit/00068-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-PFW-0059-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b22a88411e832eca1d5f/master/w_900,c_limit/00069-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-PFW-0059-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b22a5b1cd174f1727ce2/master/w_900,c_limit/00070-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-PFM-0060-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b22b0d3a08c75d144a66/master/w_900,c_limit/00071-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/products/PRA-PFM-0060-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
+    "url": "https://assets.vogue.com/photos/6ab2b22d7f5ac035f96e3934/master/w_900,c_limit/00072-prada-spring-2027-ready-to-wear-details-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, деталь показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/prada/collections/fall-winter-2025.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/67c08d7f944bd42e601168ef/master/w_900,c_limit/00001-prada-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/prada/collections/spring-summer-2025.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/66ec3f52706776f69921e5e5/master/w_900,c_limit/00001-prada-spring-2025-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/prada/collections/fall-winter-2026.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076d6d6decb045fcaca01/master/w_900,c_limit/00001-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/prada/collections/spring-summer-2026.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/68d555215cb667ed3ac6d2b0/master/w_900,c_limit/00001-prada-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/prada/hero.webp",
+    "kind": "hero",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/68d555215cb667ed3ac6d2b0/master/w_1600,c_limit/00001-prada-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/prada/directors/3.webp",
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Miuccia_Prada",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Miuccia_Prada_%28cropped%29.jpg/960px-Miuccia_Prada_%28cropped%29.jpg",
+    "note": "Википедия: Miuccia Prada"
+  },
+  {
+    "target": "/images/brands/prada/history/1.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab294046708849b508adebe/master/w_900,c_limit/00049-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 49"
+  },
+  {
+    "target": "/images/brands/prada/history/2.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab29404d4439b01adb1c1ef/master/w_900,c_limit/00050-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 50"
+  },
+  {
+    "target": "/images/brands/prada/history/3.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab29405aa3666e810e2289b/master/w_900,c_limit/00051-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 51"
+  },
+  {
+    "target": "/images/brands/prada/history/4.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab294063485b178b73d13e5/master/w_900,c_limit/00052-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 52"
+  },
+  {
+    "target": "/images/brands/prada/history/5.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab29406a08edad548caf30a/master/w_900,c_limit/00053-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 53"
+  },
+  {
+    "target": "/images/brands/prada/history/6.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab2940703ab96cc1a7662c6/master/w_900,c_limit/00054-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 54"
+  },
+  {
+    "target": "/images/brands/prada/history/7.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab294082f378f2cffdad471/master/w_900,c_limit/00055-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 55"
+  },
+  {
+    "target": "/images/brands/prada/history/8.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab294099c27ab31efb152ef/master/w_900,c_limit/00056-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 56"
+  },
+  {
+    "target": "/images/brands/prada/history/9.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab29409ba20395987382227/master/w_900,c_limit/00057-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 57"
+  },
+  {
+    "target": "/images/brands/prada/history/10.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab2940a33ff9718f0586c6d/master/w_900,c_limit/00058-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 58"
+  },
+  {
+    "target": "/images/brands/prada/history/11.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab2940b2093ef06529bb4f6/master/w_900,c_limit/00059-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 59"
+  },
+  {
+    "target": "/images/brands/prada/history/12.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab2940b9bafc82c8bdceb6d/master/w_900,c_limit/00060-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 60"
+  },
+  {
+    "target": "/images/brands/prada/history/13.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab2940c3fc245b9ea456311/master/w_900,c_limit/00061-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 61"
+  },
+  {
+    "target": "/images/brands/prada/history/14.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab2940d5b1cd174f1727bbc/master/w_900,c_limit/00062-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 62"
+  },
+  {
+    "target": "/images/brands/prada/history/15.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab2940dc3a90cb9fa2a64fd/master/w_900,c_limit/00063-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 63"
+  },
+  {
+    "target": "/images/brands/prada/history/16.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/6ab2940ed8bf10b349d06e1d/master/w_900,c_limit/00064-prada-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 64"
+  },
+  {
+    "target": "/images/brands/prada/history/17.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076d60a9bacd0843e9471/master/w_900,c_limit/00002-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 2"
+  },
+  {
+    "target": "/images/brands/prada/history/18.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076d605857e4111c5f19f/master/w_900,c_limit/00003-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 3"
+  },
+  {
+    "target": "/images/brands/prada/history/19.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076da0ed7609d52aa34b1/master/w_900,c_limit/00004-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 4"
+  },
+  {
+    "target": "/images/brands/prada/history/20.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076db0f08a195f3d76a2e/master/w_900,c_limit/00005-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 5"
+  },
+  {
+    "target": "/images/brands/prada/history/21.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076db59dc90ed42f38263/master/w_900,c_limit/00006-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 6"
+  },
+  {
+    "target": "/images/brands/prada/history/22.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076dd2500749324cf6141/master/w_900,c_limit/00007-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 7"
+  },
+  {
+    "target": "/images/brands/prada/history/23.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076dfb8d4374e1dfbc31a/master/w_900,c_limit/00008-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 8"
+  },
+  {
+    "target": "/images/brands/prada/history/24.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076df59dc90ed42f3826a/master/w_900,c_limit/00009-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 9"
+  },
+  {
+    "target": "/images/brands/prada/history/25.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076e1ddd1b24a3f9340cf/master/w_900,c_limit/00010-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 10"
+  },
+  {
+    "target": "/images/brands/prada/history/26.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076e422b0604cc255ed81/master/w_900,c_limit/00011-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 11"
+  },
+  {
+    "target": "/images/brands/prada/history/27.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076e436ebc1ba533d0a4d/master/w_900,c_limit/00012-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 12"
+  },
+  {
+    "target": "/images/brands/prada/history/28.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076e514fbbaef7fd51d5c/master/w_900,c_limit/00013-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 13"
+  },
+  {
+    "target": "/images/brands/prada/history/29.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076e89edd068725663594/master/w_900,c_limit/00014-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 14"
+  },
+  {
+    "target": "/images/brands/prada/history/30.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076eab9d69a1fbfbc086f/master/w_900,c_limit/00015-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 15"
+  },
+  {
+    "target": "/images/brands/prada/history/31.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076e936ebc1ba533d0a54/master/w_900,c_limit/00016-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 16"
+  },
+  {
+    "target": "/images/brands/prada/history/32.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076eceef74476d5f306fc/master/w_900,c_limit/00017-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 17"
+  },
+  {
+    "target": "/images/brands/prada/history/33.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076ed05857e4111c5f1ac/master/w_900,c_limit/00018-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 18"
+  },
+  {
+    "target": "/images/brands/prada/history/34.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076ee0ed7609d52aa34b8/master/w_900,c_limit/00019-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 19"
+  },
+  {
+    "target": "/images/brands/prada/history/35.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076f014fbbaef7fd51d63/master/w_900,c_limit/00020-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 20"
+  },
+  {
+    "target": "/images/brands/prada/history/36.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076f19353ccc561c381cd/master/w_900,c_limit/00021-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 21"
+  },
+  {
+    "target": "/images/brands/prada/history/37.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076f2449a2f51854ed214/master/w_900,c_limit/00022-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 22"
+  },
+  {
+    "target": "/images/brands/prada/history/38.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076f3391f6428ff56c161/master/w_900,c_limit/00023-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 23"
+  },
+  {
+    "target": "/images/brands/prada/history/39.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076f62ca060d2c858f851/master/w_900,c_limit/00024-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 24"
+  },
+  {
+    "target": "/images/brands/prada/history/40.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076f71a0e8156f983eb15/master/w_900,c_limit/00025-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 25"
+  },
+  {
+    "target": "/images/brands/prada/history/41.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076f81a0e8156f983eb1c/master/w_900,c_limit/00026-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 26"
+  },
+  {
+    "target": "/images/brands/prada/history/42.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076fa9edd06872566359e/master/w_900,c_limit/00027-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 27"
+  },
+  {
+    "target": "/images/brands/prada/history/43.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076fbd28bb7fb543ac389/master/w_900,c_limit/00028-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 28"
+  },
+  {
+    "target": "/images/brands/prada/history/44.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076fc27c91c9eae6f3343/master/w_900,c_limit/00029-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 29"
+  },
+  {
+    "target": "/images/brands/prada/history/45.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076fe14fbbaef7fd51d6a/master/w_900,c_limit/00030-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 30"
+  },
+  {
+    "target": "/images/brands/prada/history/46.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a076ff2486cead523c364a/master/w_900,c_limit/00031-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 31"
+  },
+  {
+    "target": "/images/brands/prada/history/47.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a07700d79e681c76407601/master/w_900,c_limit/00032-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 32"
+  },
+  {
+    "target": "/images/brands/prada/history/48.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a07702c1d40c993eff282e/master/w_900,c_limit/00033-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 33"
+  },
+  {
+    "target": "/images/brands/prada/history/49.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a07703a0a657ef695f027f/master/w_900,c_limit/00034-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 34"
+  },
+  {
+    "target": "/images/brands/prada/history/50.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a077043361de0258f823be/master/w_900,c_limit/00035-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 35"
+  },
+  {
+    "target": "/images/brands/prada/history/51.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a0770659dc90ed42f38274/master/w_900,c_limit/00036-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 36"
   }
 ]
