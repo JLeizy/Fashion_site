@@ -194,9 +194,16 @@ export function writeProductPlaceholders(row, urls) {
 }
 
 function write(publicUrl, content, stats) {
-  if (!publicUrl || !publicUrl.startsWith('/images/') || !publicUrl.endsWith('.svg')) {
+  if (!publicUrl || !publicUrl.startsWith('/images/')) {
     stats.skipped += 1;
     return;
+  }
+  // В БД путь к реальному фото (.webp и т. п.): само фото не трогаем, а заглушку пишем рядом с тем же именем
+  // в .svg — на неё страница переключится, если фото не загрузится (правка П4)
+  if (!publicUrl.endsWith('.svg')) {
+    stats.skipped += 1;
+    publicUrl = publicUrl.replace(/\.(webp|jpe?g|png)$/i, '.svg');
+    if (!publicUrl.endsWith('.svg')) return;
   }
   const file = path.join(PUBLIC, publicUrl);
   fs.mkdirSync(path.dirname(file), { recursive: true });

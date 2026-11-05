@@ -29,7 +29,26 @@ function initToTop() {
   });
 }
 
+// Фолбэк изображений (правка П4): реальное фото (.webp/.jpg/.png) из /images/ не загрузилось —
+// подставляем SVG-заглушку с тем же именем (её генерирует scripts/generate-placeholders.js)
+function initImageFallback() {
+  document.addEventListener(
+    'error',
+    (e) => {
+      const img = e.target;
+      if (!(img instanceof HTMLImageElement) || img.dataset.fallback) return;
+      const src = img.getAttribute('src') || '';
+      if (!/^\/images\/.+\.(webp|jpe?g|png)$/i.test(src)) return;
+      img.dataset.fallback = '1';
+      img.removeAttribute('srcset');
+      img.src = src.replace(/\.(webp|jpe?g|png)$/i, '.svg');
+    },
+    true
+  );
+}
+
 export async function initApp() {
+  initImageFallback();
   initTransitions();
   const [, session] = await Promise.all([initI18n(), api.get('/auth/me').catch((err) => (console.error(err), null))]);
   me = session;

@@ -16,6 +16,7 @@ import { MODELS } from './seed-data/models.js';
 import { BRAND_VOICE, CATEGORY_SENTENCE, MATERIAL_SENTENCE, composition, care, COLLECTION_TEXT, REVIEW_TEXTS, REVIEW_DETAIL } from './seed-data/texts.js';
 import { STAFF, BUYERS, ROLES, TEST_PASSWORD } from './seed-data/users.js';
 import { loadHistories } from './content/index.js';
+import { preferPhoto } from './imagePath.js';
 import { makeTrackingNumber } from '../server/lib/tracking.js';
 import { orderStatusNotification, ticketReplyNotification, sellerApplicationNotification, returnDecisionNotification, productModerationNotification } from '../server/services/notificationTexts.js';
 
@@ -196,7 +197,7 @@ async function main() {
     const brandRows = await insertMany(
       client, 'brands',
       ['name', 'slug', 'country', 'founded_year', 'founder', 'short_desc_ru', 'short_desc_en', 'hero_image', 'accent_color', 'sort_order'],
-      BRANDS.map((b, i) => [b.name, b.slug, b.country, b.founded_year, b.founder, b.short_desc_ru, b.short_desc_en, `/images/brands/${b.slug}/hero.svg`, b.accent_color, i + 1]),
+      BRANDS.map((b, i) => [b.name, b.slug, b.country, b.founded_year, b.founder, b.short_desc_ru, b.short_desc_en, preferPhoto(`/images/brands/${b.slug}/hero.svg`), b.accent_color, i + 1]),
       'id, slug'
     );
     const brandId = Object.fromEntries(brandRows.map((b) => [b.slug, b.id]));
@@ -221,7 +222,7 @@ async function main() {
       const rows = await insertMany(
         client, 'collections', ['brand_id', 'name', 'season', 'year', 'is_new', 'cover_image', 'description_ru', 'description_en', 'created_at'],
         b.collections.map(([name, season, year, isNew], i) => [
-          brandId[b.slug], name, season, year, isNew, `/images/brands/${b.slug}/collections/${slugify(name)}.svg`,
+          brandId[b.slug], name, season, year, isNew, preferPhoto(`/images/brands/${b.slug}/collections/${slugify(name)}.svg`),
           `${b.name}: ${COLLECTION_TEXT[season][0]}`, `${b.name}: ${COLLECTION_TEXT[season][1]}`, ts(NOW - (b.collections.length - i) * 120 * DAY),
         ]),
         'id, is_new, name'
@@ -237,7 +238,7 @@ async function main() {
       await insertMany(
         client, 'creative_directors',
         ['brand_id', 'name', 'years_from', 'years_to', 'description_ru', 'description_en', 'key_collections_ru', 'key_collections_en', 'photo'],
-        directors.map((d, i) => [brandId[b.slug], d[0], d[1], d[2], d[3], d[4], d[5], d[6], `/images/brands/${b.slug}/directors/${i + 1}.svg`])
+        directors.map((d, i) => [brandId[b.slug], d[0], d[1], d[2], d[3], d[4], d[5], d[6], preferPhoto(`/images/brands/${b.slug}/directors/${i + 1}.svg`)])
       );
       await insertMany(
         client, 'brand_timeline_events', ['brand_id', 'year', 'title_ru', 'title_en', 'description_ru', 'description_en'],
@@ -247,7 +248,7 @@ async function main() {
         await insertMany(
           client, 'brand_history_sections',
           ['brand_id', 'sort_order', 'period', 'title_ru', 'title_en', 'content_ru', 'content_en', 'quote_ru', 'quote_en', 'quote_author', 'image'],
-          history.sections.map((s, i) => [brandId[b.slug], i + 1, s.period || null, s.title_ru, s.title_en, s.content_ru, s.content_en || '', s.quote_ru || null, s.quote_en || null, s.quote_author || null, s.image || `/images/brands/${b.slug}/history/${i + 1}.svg`]),
+          history.sections.map((s, i) => [brandId[b.slug], i + 1, s.period || null, s.title_ru, s.title_en, s.content_ru, s.content_en || '', s.quote_ru || null, s.quote_en || null, s.quote_author || null, s.image || preferPhoto(`/images/brands/${b.slug}/history/${i + 1}.svg`)]),
           null, 50
         );
       }
@@ -348,8 +349,8 @@ async function main() {
 
     await insertMany(client, 'product_images', ['product_id', 'url', 'sort_order', 'is_main'],
       productDrafts.flatMap((p) => [
-        [p.id, `/images/brands/${p.brand.slug}/products/${p.sku}-1.svg`, 1, true],
-        [p.id, `/images/brands/${p.brand.slug}/products/${p.sku}-2.svg`, 2, false],
+        [p.id, preferPhoto(`/images/brands/${p.brand.slug}/products/${p.sku}-1.svg`), 1, true],
+        [p.id, preferPhoto(`/images/brands/${p.brand.slug}/products/${p.sku}-2.svg`), 2, false],
       ]));
 
     const variantDrafts = [];
@@ -441,7 +442,7 @@ async function main() {
       ['loro-piana', 'Тихая роскошь', 'Quiet luxury', 'Кашемир, викунья и мокасины Summer Walk', 'Cashmere, vicuña and Summer Walk loafers'],
     ];
     await insertMany(client, 'banners', ['title_ru', 'title_en', 'subtitle_ru', 'subtitle_en', 'image', 'link', 'brand_id', 'collection_id', 'sort_order', 'is_active'],
-      bannerPlan.map(([slug, tRu, tEn, sRu, sEn], i) => [tRu, tEn, sRu, sEn, `/images/banners/${slug}.svg`, `/brand/${slug}`, brandId[slug], collectionsByBrand[slug].find((c) => c.is_new)?.id || null, i + 1, true]));
+      bannerPlan.map(([slug, tRu, tEn, sRu, sEn], i) => [tRu, tEn, sRu, sEn, preferPhoto(`/images/banners/${slug}.svg`), `/brand/${slug}`, brandId[slug], collectionsByBrand[slug].find((c) => c.is_new)?.id || null, i + 1, true]));
 
     // -----------------------------------------------------------------
     // 7. Заказы с историей статусов, движениями остатков и уведомлениями
@@ -588,7 +589,7 @@ async function main() {
 
       const itemRows = await insertMany(client, 'order_items',
         ['order_id', 'variant_id', 'product_id', 'seller_id', 'warehouse_id', 'product_name', 'product_name_en', 'size_label', 'sku', 'image_url', 'price_byn', 'quantity'],
-        order.items.map((it) => [orderId, it.variant.id, it.product.id, it.product.seller, it.warehouse, `${it.product.brand.name} — ${it.product.name_ru}`, `${it.product.brand.name} — ${it.product.name_en}`, it.variant.label, it.variant.sku_variant, `/images/brands/${it.product.brand.slug}/products/${it.product.sku}-1.svg`, it.price, it.qty]),
+        order.items.map((it) => [orderId, it.variant.id, it.product.id, it.product.seller, it.warehouse, `${it.product.brand.name} — ${it.product.name_ru}`, `${it.product.brand.name} — ${it.product.name_en}`, it.variant.label, it.variant.sku_variant, preferPhoto(`/images/brands/${it.product.brand.slug}/products/${it.product.sku}-1.svg`), it.price, it.qty]),
         'id');
       order.items.forEach((it, i) => { it.id = itemRows[i].id; });
 
@@ -799,8 +800,8 @@ async function main() {
           compRu, compEn, careRu, careEn, d.price, d.color, d.material, b.origin, d.status, d.reason || null, ts(NOW - randInt(1, 6) * DAY)]
       );
       await insertMany(client, 'product_images', ['product_id', 'url', 'sort_order', 'is_main'], [
-        [prod.id, `/images/brands/${d.brand}/products/${d.sku}-1.svg`, 1, true],
-        [prod.id, `/images/brands/${d.brand}/products/${d.sku}-2.svg`, 2, false],
+        [prod.id, preferPhoto(`/images/brands/${d.brand}/products/${d.sku}-1.svg`), 1, true],
+        [prod.id, preferPhoto(`/images/brands/${d.brand}/products/${d.sku}-2.svg`), 2, false],
       ]);
       const sizeType = SUBCATEGORY_INFO[d.cat].size_type;
       const labels = sizeLabelsFor(sizeType, 'unisex', rand).slice(0, 3);

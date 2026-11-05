@@ -61,6 +61,27 @@ PostgreSQL из npm-пакета `embedded-postgres` (данные в папке
 - `server/routes/api/*.js` — REST API; над каждым маршрутом комментарий: что делает, какие таблицы читает/меняет, какая роль.
 - `server/services/orderService.js` — оформление заказа и смена статусов (транзакции, резерв и списание остатков).
 - `views/*.html` — страницы, `public/css`, `public/js` — стили и клиентская логика, `public/i18n/ru.json`, `en.json` — тексты интерфейса.
-- `public/images/brands/<бренд>/products/<sku>-1.svg` — заглушки фото; можно заменить своими файлами (и расширение в `product_images.url`).
+- `public/images/brands/<бренд>/products/<sku>-1.svg` — SVG-заглушки фото (генерирует `npm run placeholders`).
+
+## Фотографии
+
+> Фотографии принадлежат их правообладателям; проект предназначен только для локальной демонстрации и не публикуется.
+
+- Реальное фото лежит рядом с заглушкой под тем же именем, но в формате `.webp`: `/images/brands/<бренд>/products/<sku>-1.webp`,
+  `-2.webp` (второй ракурс для смены при наведении), `directors/<n>.webp`, `history/<n>.webp`, `collections/<имя>.webp`, `hero.webp`,
+  `/images/banners/<бренд>.webp`. При `npm run db:seed` в БД пишется путь к `.webp`, если файл есть (`db/imagePath.js`), иначе к `.svg`.
+  Если фото не загрузится, страница сама подставит SVG-заглушку.
+- **Скачать / перекачать фото:** заполнить `db/content/image-sources.json` (массив
+  `{ "target": "/images/brands/gucci/products/GUC-LOF-0001-1.webp", "kind": "product", "page": "страница-источник", "url": "прямая ссылка на картинку", "note": "примечание" }`;
+  `kind` — `product | collection | history | director | hero | banner`; без `url` страница откроется в Chromium и возьмётся `og:image`), затем:
+  ```bash
+  npm run images
+  ```
+  (`-- --brand gucci` — только один бренд, `-- --force` — перекачать, `-- --from-manifest` — перекачать всё по `db/content/images-manifest.json`),
+  после чего `npm run db:seed && npm run placeholders`. Скрипт `scripts/fetch-images.js` идемпотентен, делает паузы и повторы, через `sharp`
+  переводит в webp (≈80 %; hero/баннеры до 1600 px, товары/коллекции/история до 900 px, портреты до 600 px, товары ≤ 100 КБ)
+  и записывает в манифест страницу-источник, URL, дату и примечание.
+- **Заменить своими:** положить свой файл `.webp` с тем же именем (или `.jpg` и сконвертировать любым редактором в `.webp`)
+  и выполнить `npm run db:seed && npm run placeholders`.
 
 Матрица прав по ролям будет добавлена сюда на финальном этапе (см. PROGRESS.md).
