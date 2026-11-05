@@ -53,7 +53,7 @@
 | Balenciaga | ✅ 35 разделов, ≈12926 слов, факты проверены (П3) | ✅ ≈4574 слов |
 | Vetements | ✅ 16 разделов, ≈3460 слов (молодая марка, 2014: объём меньше по правилу для молодых марок — только проверенные факты) | ✅ ≈1309 слов |
 | Gucci | ✅ 52 раздела, ≈12 650 слов (`gucci.js` + `gucci/part1–7.js`, все 12 тем ТЗ, повторно проверено) | ✅ ≈5400 слов |
-| Prada | ⬜ | ⬜ |
+| Prada | ✅ 51 раздел, ≈12 670 слов (`prada.js` + `prada/part1–9.js`, все 12 тем ТЗ, хронология 29 событий, каждый факт — через поиск, оценки помечены) | ✅ ≈5600 слов |
 | Enfants Riches Déprimés | ⬜ | ⬜ |
 | AVAVAV | ⬜ | ⬜ |
 | Supreme | ⬜ | ⬜ |
@@ -70,11 +70,10 @@
 Перепроверено через WebSearch: Родольфо Гуччи — актёр Маурицио Д'Анкора, в кино 1929–1946 (Wikipedia, IMDb); тройка после Форда — Факкинетти (женская линия), Джон Рэй (мужская), Джаннини (аксессуары, единственный креативный директор с 2006) (Telegraph, nss magazine, Business of Fashion); «Ancora», сентябрь 2023, лоферы на платформе, цвет Rosso Ancora (AnOther, Buro 24/7, Wikipedia); Дон Мелло пригласила Форда (Wikipedia; год 1989/1990 — источники расходятся); уход Форда и Де Соле объявлен в ноябре 2003 после разногласий с PPR по контрактам (The Daily Record, Apparel News). Не подтвердилось и убрано: «Де Соле — юрист, работавший с Gucci до назначения», «Бицарри до Gucci руководил другими марками группы». Оценочные формулировки («самый изученный пример», «ни один дом не…», «трижды менял моду», «первая вещь Gucci для многих») переписаны как явные оценки редакции или удалены.
 Правило для следующих историй: ни одного факта без поиска; оценки — только явно как оценки.
 
-## Следующий шаг: этап 19 — история Prada
-Правки ревью П1–П3, П5–П10 выполнены; П4 — инфраструктура готова, фото не скачаны (сеть окружения закрыта, см. «Известные проблемы»).
-Части 2: готовы Balenciaga (проверена, П3) и Vetements (`db/content/histories/vetements.js`). Gucci (`db/content/histories/gucci.js` + `gucci/part1–5.js`) — ≈9910 слов RU, ≈4291 EN: дописать ≈3000 слов RU (часть 6: коллаборации The North Face/adidas/Balenciaga, ароматы и Gucci Beauty, показы Микеле по сезонам), каждый факт — через WebSearch.
-Дальше тем же способом: `db/content/histories/<slug>.js` (для больших домов — с частями `<slug>/partN.js`, как у Balenciaga), порядок Gucci → Prada → ERD → AVAVAV → Supreme → Chrome Hearts → Louis Vuitton → Chanel → Maison Margiela → Givenchy → Versace → Alexander McQueen → Loro Piana. Каждый факт — через WebSearch до записи (WebFetch в этом окружении недоступен), без пометок. После каждой: `npm run db:seed && npm run placeholders`, `/history/<slug>` → 200, подсчёт слов (`/api/history/<slug>` → `words`), отметка в таблице, коммит.
-Когда откроют сеть: П4 — заполнить `db/content/image-sources.json` (начать с Balenciaga), `npm run images -- --brand balenciaga`, `npm run db:seed && npm run placeholders`, скриншоты, затем остальные бренды.
+## Следующий шаг: этап 20 — история Enfants Riches Déprimés
+Правки ревью П1–П3, П5–П10 выполнены; П4 — фото качаются фоновым скриптом по брендам (balenciaga, vetements готовы; каждый бренд — отдельный коммит «П4: реальные фото <slug>»). После всех брендов: повторить `npm run images:collect -- --brand gucci` и `--brand prada` (у историй стало 52 и 51 раздел), `npm run db:seed && npm run placeholders`, скриншоты, обновить П4.
+Части 2: готовы Balenciaga, Vetements, Gucci, Prada.
+Дальше тем же способом: `db/content/histories/<slug>.js` (для больших домов — с частями `<slug>/partN.js`, как у Balenciaga), порядок ERD → AVAVAV → Supreme → Chrome Hearts → Louis Vuitton → Chanel → Maison Margiela → Givenchy → Versace → Alexander McQueen → Loro Piana. Каждый факт — через WebSearch до записи (WebFetch в этом окружении недоступен), без пометок. После каждой: `npm run db:seed && npm run placeholders`, `/history/<slug>` → 200, подсчёт слов (`/api/history/<slug>` → `words`), отметка в таблице, коммит.
 Затем этап 31 (README с матрицей прав, запуск на Windows, финальная проверка).
 Если в контейнере PostgreSQL остановлен: `service postgresql start`.
 
