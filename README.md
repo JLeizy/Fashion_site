@@ -71,6 +71,7 @@ PostgreSQL из npm-пакета `embedded-postgres` (данные в папке
   `-2.webp` (второй ракурс для смены при наведении), `directors/<n>.webp`, `history/<n>.webp`, `collections/<имя>.webp`, `hero.webp`,
   `/images/banners/<бренд>.webp`. При `npm run db:seed` в БД пишется путь к `.webp`, если файл есть (`db/imagePath.js`), иначе к `.svg`.
   Если фото не загрузится, страница сама подставит SVG-заглушку.
+- **Подобрать источники автоматически:** `npm run images:collect -- --brand balenciaga` — товары сопоставляются с вещами бренда на SSENSE (категория, модель, цвет; нужен Playwright), обложки коллекций, hero, баннер и иллюстрации истории — образы показов Vogue Runway, портреты — Википедия; план по брендам — `db/content/image-plan.js`. Результат дописывается в `db/content/image-sources.json`.
 - **Скачать / перекачать фото:** заполнить `db/content/image-sources.json` (массив
   `{ "target": "/images/brands/gucci/products/GUC-LOF-0001-1.webp", "kind": "product", "page": "страница-источник", "url": "прямая ссылка на картинку", "note": "примечание" }`;
   `kind` — `product | collection | history | director | hero | banner`; без `url` страница откроется в Chromium и возьмётся `og:image`), затем:

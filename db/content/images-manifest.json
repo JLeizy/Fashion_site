@@ -1,1 +1,1642 @@
-{}
+{
+  "/images/brands/balenciaga/products/BAL-SNK-0001-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/white-triple-s-sneakers/19788181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F128010_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-triple-s-sneakers",
+    "bytes": 21966,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0001-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/white-triple-s-sneakers/19788181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F128010_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-triple-s-sneakers",
+    "bytes": 26004,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0002-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-triple-s-sneakers/19788271",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F128011_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-triple-s-sneakers",
+    "bytes": 33616,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0002-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-triple-s-sneakers/19788271",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F128011_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-triple-s-sneakers",
+    "bytes": 44774,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0003-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/silver-and-beige-3xl-nylon-sneakers/19789161",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237019_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: silver-and-beige-3xl-nylon-sneakers (ближайшая вещь той же категории)",
+    "bytes": 49240,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0003-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/silver-and-beige-3xl-nylon-sneakers/19789161",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237019_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: silver-and-beige-3xl-nylon-sneakers (ближайшая вещь той же категории)",
+    "bytes": 50182,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0004-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-anatomic-runner-sneakers/19789011",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237010_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-anatomic-runner-sneakers (ближайшая вещь той же категории)",
+    "bytes": 45742,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0004-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-anatomic-runner-sneakers/19789011",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237010_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-anatomic-runner-sneakers (ближайшая вещь той же категории)",
+    "bytes": 42754,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0005-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-runner-2-sneakers/18797461",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M237004_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-runner-2-sneakers (ближайшая вещь той же категории)",
+    "bytes": 50696,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0005-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-runner-2-sneakers/18797461",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M237004_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-runner-2-sneakers (ближайшая вещь той же категории)",
+    "bytes": 58818,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0006-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/white-anatomic-runner-sneakers/19789031",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237012_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-anatomic-runner-sneakers (ближайшая вещь той же категории)",
+    "bytes": 13284,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0006-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/white-anatomic-runner-sneakers/19789031",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237012_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-anatomic-runner-sneakers (ближайшая вещь той же категории)",
+    "bytes": 18906,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0007-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nike/white-and-red-total-90-sneakers/19372381",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M237047_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-and-red-total-90-sneakers (ближайшая вещь той же категории)",
+    "bytes": 21120,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0007-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nike/white-and-red-total-90-sneakers/19372381",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M237047_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-and-red-total-90-sneakers (ближайшая вещь той же категории)",
+    "bytes": 61480,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0008-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/gray-track-trail-laces-sneakers/18778181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342F128006_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-track-trail-laces-sneakers",
+    "bytes": 45426,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0008-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/gray-track-trail-laces-sneakers/18778181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342F128006_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-track-trail-laces-sneakers",
+    "bytes": 51420,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0009-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-track-signature-sneakers/19789051",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237014_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-track-signature-sneakers",
+    "bytes": 45104,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0009-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-track-signature-sneakers/19789051",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237014_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-track-signature-sneakers",
+    "bytes": 47536,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0010-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-and-silver-runner-sneakers/19789091",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237017_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-and-silver-runner-sneakers (ближайшая вещь той же категории)",
+    "bytes": 48198,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0010-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-and-silver-runner-sneakers/19789091",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237017_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-and-silver-runner-sneakers (ближайшая вещь той же категории)",
+    "bytes": 68972,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0011-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nike/white-and-beige-baltoro-sneakers/19372901",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236009_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-and-beige-baltoro-sneakers (ближайшая вещь той же категории)",
+    "bytes": 24922,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0011-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nike/white-and-beige-baltoro-sneakers/19372901",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236009_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-and-beige-baltoro-sneakers (ближайшая вещь той же категории)",
+    "bytes": 44892,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0012-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-3xl-split-logo-sneakers/18797471",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M237005_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-3xl-split-logo-sneakers",
+    "bytes": 50244,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0012-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-3xl-split-logo-sneakers/18797471",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M237005_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-3xl-split-logo-sneakers",
+    "bytes": 37584,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0013-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/white-and-black-3xl-extreme-laces-sneakers/19789001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237009_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-and-black-3xl-extreme-laces-sneakers",
+    "bytes": 60352,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-0013-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/white-and-black-3xl-extreme-laces-sneakers/19789001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M237009_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-and-black-3xl-extreme-laces-sneakers",
+    "bytes": 52904,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0014-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-bel-air-s-shoulder-bag/19787471",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F048009_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-bel-air-s-shoulder-bag (ближайшая вещь той же категории)",
+    "bytes": 52892,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0014-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-bel-air-s-shoulder-bag/19787471",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F048009_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-bel-air-s-shoulder-bag (ближайшая вещь той же категории)",
+    "bytes": 41730,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0015-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-rodeo-shoulder-bag/17196311",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/251342F048013_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-rodeo-shoulder-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «white»",
+    "bytes": 20332,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0015-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-rodeo-shoulder-bag/17196311",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/251342F048013_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-rodeo-shoulder-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «white»",
+    "bytes": 19808,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0016-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-superbusy-small-sling-bag/18807781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M170008_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-superbusy-small-sling-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «pink»",
+    "bytes": 55678,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0016-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-superbusy-small-sling-bag/18807781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M170008_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-superbusy-small-sling-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «pink»",
+    "bytes": 59582,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0017-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-hourglass-pochette-chain-bag/19787401",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F048008_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-hourglass-pochette-chain-bag (ближайшая вещь той же категории)",
+    "bytes": 18628,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0017-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-hourglass-pochette-chain-bag/19787401",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F048008_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-hourglass-pochette-chain-bag (ближайшая вещь той же категории)",
+    "bytes": 21914,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0018-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-xs-hourglass-bag/13351941",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/232342F046027_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-xs-hourglass-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «beige»",
+    "bytes": 39626,
+    "width": 864,
+    "height": 1080
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0018-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-xs-hourglass-bag/13351941",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/232342F046027_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-xs-hourglass-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «beige»",
+    "bytes": 47302,
+    "width": 856,
+    "height": 1070
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0019-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-xs-hourglass-bag/13351981",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/232342F046031_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-xs-hourglass-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 36292,
+    "width": 872,
+    "height": 1090
+  },
+  "/images/brands/balenciaga/products/BAL-CRB-0019-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-xs-hourglass-bag/13351981",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/232342F046031_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-xs-hourglass-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 30282,
+    "width": 856,
+    "height": 1070
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0020-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-le-city-moto-bag/19787101",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F048005_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-le-city-moto-bag",
+    "bytes": 51424,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0020-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-le-city-moto-bag/19787101",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F048005_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-le-city-moto-bag",
+    "bytes": 45226,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0021-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/silver-le-city-mini-metallic-lamb-leather-bag/18783611",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342F048015_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: silver-le-city-mini-metallic-lamb-leather-bag; цвет на фото не совпадает с «brown»",
+    "bytes": 97550,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0021-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/silver-le-city-mini-metallic-lamb-leather-bag/18783611",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342F048015_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: silver-le-city-mini-metallic-lamb-leather-bag; цвет на фото не совпадает с «brown»",
+    "bytes": 93684,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0022-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-superbusy-messenger-bag/19788121",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M170001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-superbusy-messenger-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»",
+    "bytes": 56650,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0022-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-superbusy-messenger-bag/19788121",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M170001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-superbusy-messenger-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»",
+    "bytes": 47928,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0023-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-rodeo-medium-messenger-bag/18797851",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M170000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-rodeo-medium-messenger-bag (ближайшая вещь той же категории)",
+    "bytes": 15764,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0023-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-rodeo-medium-messenger-bag/18797851",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M170000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-rodeo-medium-messenger-bag (ближайшая вещь той же категории)",
+    "bytes": 18082,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0024-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/brown-rodeo-sling-pochette-bag/19787561",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F048010_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-rodeo-sling-pochette-bag (ближайшая вещь той же категории)",
+    "bytes": 25572,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0024-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/brown-rodeo-sling-pochette-bag/19787561",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F048010_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-rodeo-sling-pochette-bag (ближайшая вещь той же категории)",
+    "bytes": 24136,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0025-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-superbusy-camera-bag/18807771",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M170007_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-superbusy-camera-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «blue»",
+    "bytes": 63160,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0025-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-superbusy-camera-bag/18807771",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M170007_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-superbusy-camera-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «blue»",
+    "bytes": 69346,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0026-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-nylon-twill-monaco-bag/19788091",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M170000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-nylon-twill-monaco-bag (ближайшая вещь той же категории)",
+    "bytes": 16910,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TOT-0026-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-nylon-twill-monaco-bag/19788091",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M170000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-nylon-twill-monaco-bag (ближайшая вещь той же категории)",
+    "bytes": 18262,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-BPK-0027-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-explorer-backpack/19788051",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M166001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-explorer-backpack",
+    "bytes": 67468,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-BPK-0027-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-explorer-backpack/19788051",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M166001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-explorer-backpack",
+    "bytes": 58186,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HOD-0028-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-faded-3b-liquified-molleton-arch-hoodie/17214441",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/251342M202019_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-faded-3b-liquified-molleton-arch-hoodie (ближайшая вещь той же категории)",
+    "bytes": 28796,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HOD-0028-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-faded-3b-liquified-molleton-arch-hoodie/17214441",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/251342M202019_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-faded-3b-liquified-molleton-arch-hoodie (ближайшая вещь той же категории)",
+    "bytes": 22862,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HOD-0029-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/navy-oversized-5-star-hoodie/18798191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M202003_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-oversized-5-star-hoodie (ближайшая вещь той же категории)",
+    "bytes": 44848,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HOD-0029-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/navy-oversized-5-star-hoodie/18798191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M202003_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-oversized-5-star-hoodie (ближайшая вещь той же категории)",
+    "bytes": 42050,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HOD-0030-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/white-raglan-zip-up-hoodie/391361936",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M202020_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-raglan-zip-up-hoodie (ближайшая вещь той же категории)",
+    "bytes": 46942,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HOD-0030-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/white-raglan-zip-up-hoodie/391361936",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M202020_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-raglan-zip-up-hoodie (ближайшая вещь той же категории)",
+    "bytes": 38838,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TSH-0031-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-oversized-t-shirt/18799651",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M213014_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-oversized-t-shirt",
+    "bytes": 26470,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TSH-0031-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-oversized-t-shirt/18799651",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M213014_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-oversized-t-shirt",
+    "bytes": 27310,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TSH-0032-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/off-white-oversized-t-shirt/18807521",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M213016_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: off-white-oversized-t-shirt",
+    "bytes": 28324,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TSH-0032-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/off-white-oversized-t-shirt/18807521",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M213016_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: off-white-oversized-t-shirt",
+    "bytes": 26874,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HOD-0033-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-cursive-zip-up-regular-fit-hoodie/18805971",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M202017_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-cursive-zip-up-regular-fit-hoodie (ближайшая вещь той же категории)",
+    "bytes": 37814,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HOD-0033-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-cursive-zip-up-regular-fit-hoodie/18805971",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M202017_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-cursive-zip-up-regular-fit-hoodie (ближайшая вещь той же категории)",
+    "bytes": 34594,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HOD-0034-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-denim-logo-hoodie/19787911",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M177001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-denim-logo-hoodie (ближайшая вещь той же категории)",
+    "bytes": 58812,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HOD-0034-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-denim-logo-hoodie/19787911",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M177001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-denim-logo-hoodie (ближайшая вещь той же категории)",
+    "bytes": 52918,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0035-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-oversized-denim-jacket/18798631",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M177000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-oversized-denim-jacket (ближайшая вещь той же категории)",
+    "bytes": 49352,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0035-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-oversized-denim-jacket/18798631",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M177000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-oversized-denim-jacket (ближайшая вещь той же категории)",
+    "bytes": 42714,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0036-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/navy-tracksuit-jacket/16646431",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/242342M180005_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-tracksuit-jacket (ближайшая вещь той же категории)",
+    "bytes": 54114,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0036-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/navy-tracksuit-jacket/16646431",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/242342M180005_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-tracksuit-jacket (ближайшая вещь той же категории)",
+    "bytes": 41808,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0037-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-puffer-down-jacket/18799401",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M178000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-puffer-down-jacket (ближайшая вещь той же категории)",
+    "bytes": 33998,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0037-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-puffer-down-jacket/18799401",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M178000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-puffer-down-jacket (ближайшая вещь той же категории)",
+    "bytes": 31496,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0038-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/beige-hooded-zip-up-jacket/18798341",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M180000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: beige-hooded-zip-up-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 30860,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0038-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/beige-hooded-zip-up-jacket/18798341",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M180000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: beige-hooded-zip-up-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 28256,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JNS-0039-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/blue-minimal-baggy-jeans/18798701",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M186003_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: blue-minimal-baggy-jeans",
+    "bytes": 64396,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JNS-0039-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/blue-minimal-baggy-jeans/18798701",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M186003_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: blue-minimal-baggy-jeans",
+    "bytes": 51246,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JNS-0040-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-grunge-ripped-off-baggy-jeans/19787931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M186003_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-grunge-ripped-off-baggy-jeans",
+    "bytes": 25590,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JNS-0040-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-grunge-ripped-off-baggy-jeans/19787931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M186003_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-grunge-ripped-off-baggy-jeans",
+    "bytes": 21016,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TRS-0041-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-fleece-oversized-sweatpants/19788781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M190001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-fleece-oversized-sweatpants (ближайшая вещь той же категории)",
+    "bytes": 41554,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TRS-0041-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-fleece-oversized-sweatpants/19788781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M190001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-fleece-oversized-sweatpants (ближайшая вещь той же категории)",
+    "bytes": 36780,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TRS-0042-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-masking-tape-baggy-sweatpants/18798101",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M190000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-masking-tape-baggy-sweatpants (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»",
+    "bytes": 19030,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-TRS-0042-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-masking-tape-baggy-sweatpants/18798101",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M190000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-masking-tape-baggy-sweatpants (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»",
+    "bytes": 16654,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0043-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-belted-hourglass-short-puffer-down-jacket/19787391",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F061001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-belted-hourglass-short-puffer-down-jacket",
+    "bytes": 41260,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0043-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-belted-hourglass-short-puffer-down-jacket/19787391",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F061001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-belted-hourglass-short-puffer-down-jacket",
+    "bytes": 36320,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0044-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/mm6-maison-margiela/gray-wool-felt-sports-jacket/19724861",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262188F063005_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-wool-felt-sports-jacket (ближайшая вещь той же категории)",
+    "bytes": 31188,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-JKT-0044-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/mm6-maison-margiela/gray-wool-felt-sports-jacket/19724861",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262188F063005_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-wool-felt-sports-jacket (ближайшая вещь той же категории)",
+    "bytes": 28154,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-COT-0045-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/beige-hourglass-parka/19787501",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F063001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: beige-hourglass-parka (ближайшая вещь той же категории)",
+    "bytes": 28056,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-COT-0045-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/beige-hourglass-parka/19787501",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F063001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: beige-hourglass-parka (ближайшая вещь той же категории)",
+    "bytes": 27574,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-COT-0046-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/sunflower/black-db-over-coat/19553661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M176002_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-db-over-coat (ближайшая вещь той же категории)",
+    "bytes": 21778,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-COT-0046-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/sunflower/black-db-over-coat/19553661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M176002_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-db-over-coat (ближайшая вещь той же категории)",
+    "bytes": 21504,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SWT-0047-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-cotton-logo-sleeve-knit-stripe-sweater/19788841",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M201000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-cotton-logo-sleeve-knit-stripe-sweater (ближайшая вещь той же категории)",
+    "bytes": 26648,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SWT-0047-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-cotton-logo-sleeve-knit-stripe-sweater/19788841",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M201000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-cotton-logo-sleeve-knit-stripe-sweater (ближайшая вещь той же категории)",
+    "bytes": 23970,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SWT-0048-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/sire/gray-v-neck-cashmere-and-wool-sweater/19545301",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262439M206000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-v-neck-cashmere-and-wool-sweater (ближайшая вещь той же категории)",
+    "bytes": 54500,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SWT-0048-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/sire/gray-v-neck-cashmere-and-wool-sweater/19545301",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262439M206000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-v-neck-cashmere-and-wool-sweater (ближайшая вещь той же категории)",
+    "bytes": 50710,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-EAR-0049-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/nano-hoop-earrings/18800151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M144002_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: nano-hoop-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»",
+    "bytes": 52434,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-EAR-0049-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/nano-hoop-earrings/18800151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M144002_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: nano-hoop-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»",
+    "bytes": 24768,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-EAR-0050-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/saint-germain-tag-earrings/18800191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M144003_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: saint-germain-tag-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «gold»",
+    "bytes": 19966,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-EAR-0050-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/saint-germain-tag-earrings/18800191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M144003_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: saint-germain-tag-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «gold»",
+    "bytes": 25682,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-RNG-0051-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/saint-germain-ring-necklace/18800131",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M145003_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: saint-germain-ring-necklace (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»",
+    "bytes": 20008,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-RNG-0051-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/saint-germain-ring-necklace/18800131",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M145003_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: saint-germain-ring-necklace (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»",
+    "bytes": 99446,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SUN-0052-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-swift-oval-sunglasses/929715502",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M134019_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-swift-oval-sunglasses",
+    "bytes": 12286,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SUN-0052-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/black-swift-oval-sunglasses/929715502",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M134019_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-swift-oval-sunglasses",
+    "bytes": 14442,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SUN-0053-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/brown-neo-oval-20-sunglasses/357016004",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M134032_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-neo-oval-20-sunglasses (ближайшая вещь той же категории); цвет на фото не совпадает с «white»",
+    "bytes": 9008,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SUN-0053-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/brown-neo-oval-20-sunglasses/357016004",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M134032_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-neo-oval-20-sunglasses (ближайшая вещь той же категории); цвет на фото не совпадает с «white»",
+    "bytes": 10594,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HAT-0054-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-cursive-logo-cap/18777571",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342F016000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-cursive-logo-cap (ближайшая вещь той же категории)",
+    "bytes": 87544,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HAT-0054-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-cursive-logo-cap/18777571",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342F016000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-cursive-logo-cap (ближайшая вещь той же категории)",
+    "bytes": 85582,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HAT-0055-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-patch-beanie/19789371",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M138000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-patch-beanie (ближайшая вещь той же категории); цвет на фото не совпадает с «white»",
+    "bytes": 85908,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-HAT-0055-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-patch-beanie/19789371",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M138000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-patch-beanie (ближайшая вещь той же категории); цвет на фото не совпадает с «white»",
+    "bytes": 89726,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-WAL-0056-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-cash-large-long-card-holder/19787131",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F037001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-cash-large-long-card-holder",
+    "bytes": 99268,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-WAL-0056-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/black-cash-large-long-card-holder/19787131",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342F037001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-cash-large-long-card-holder",
+    "bytes": 97956,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-WAL-0057-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/red-cash-long-coin-card-holder/18777681",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342F037000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: red-cash-long-coin-card-holder; цвет на фото не совпадает с «white»",
+    "bytes": 100270,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-WAL-0057-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/balenciaga/red-cash-long-coin-card-holder/18777681",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342F037000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: red-cash-long-coin-card-holder; цвет на фото не совпадает с «white»",
+    "bytes": 102300,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-GLV-0058-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/black-felt-fingerless-gloves/19693271",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F012002_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-felt-fingerless-gloves (ближайшая вещь той же категории)",
+    "bytes": 35220,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-GLV-0058-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/black-felt-fingerless-gloves/19693271",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F012002_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-felt-fingerless-gloves (ближайшая вещь той же категории)",
+    "bytes": 36696,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-BLT-0059-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-prong-belt/18797841",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M131001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-prong-belt (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 33096,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-BLT-0059-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-prong-belt/18797841",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M131001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-prong-belt (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 35944,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-9001-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-runner-sneakers/18797451",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M237003_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-runner-sneakers (ближайшая вещь той же категории)",
+    "bytes": 52246,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-SNK-9001-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/gray-runner-sneakers/18797451",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261342M237003_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-runner-sneakers (ближайшая вещь той же категории)",
+    "bytes": 58268,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/collections/winter-25.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/67ce14a01f33371d6e388d21/master/w_900,c_limit/00001-balenciaga-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 1",
+    "bytes": 37246,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/collections/summer-25.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/66faf3bcc045716347454b0a/master/w_900,c_limit/00001-balenciaga-spring-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 1",
+    "bytes": 46572,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/collections/winter-26.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/69ac9fc5e56980c1be4deed2/master/w_900,c_limit/00001-balenciaga-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 1",
+    "bytes": 36696,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/collections/summer-26.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/68e19904989311c210463605/master/w_900,c_limit/00001-balenciaga-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1",
+    "bytes": 46814,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/hero.webp": {
+    "kind": "hero",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/68e19904989311c210463605/master/w_1600,c_limit/00001-balenciaga-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1",
+    "bytes": 118290,
+    "width": 1600,
+    "height": 2400
+  },
+  "/images/banners/balenciaga.webp": {
+    "kind": "banner",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/68e185dd39a01419ae037971/master/w_1600,c_limit/00002-balenciaga-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 2",
+    "bytes": 146698,
+    "width": 1600,
+    "height": 2400
+  },
+  "/images/brands/balenciaga/directors/1.webp": {
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Crist%C3%B3bal_Balenciaga",
+    "url": "https://upload.wikimedia.org/wikipedia/en/2/29/Cristobal_Balenciaga.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Cristóbal Balenciaga",
+    "bytes": 4828,
+    "width": 163,
+    "height": 200
+  },
+  "/images/brands/balenciaga/directors/6.webp": {
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Demna_(designer)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Demna (designer)",
+    "bytes": 5912,
+    "width": 319,
+    "height": 294
+  },
+  "/images/brands/balenciaga/history/3.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2022-couture/balenciaga",
+    "url": "https://assets.vogue.com/photos/62c5a0c58dd95b20e3c05a1c/master/w_900,c_limit/00003-balenciaga-fall-2022-couture-credit-brand.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2022-couture, образ 3",
+    "bytes": 23942,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/4.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Las_Meninas",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/3840px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Las Meninas",
+    "bytes": 61972,
+    "width": 900,
+    "height": 1036
+  },
+  "/images/brands/balenciaga/history/6.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2021-couture/balenciaga",
+    "url": "https://assets.vogue.com/photos/6abe7994090fd8150d0e5218/master/w_900,c_limit/00001-balenciaga-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2021-couture, образ 1",
+    "bytes": 39288,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/7.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2021-couture/balenciaga",
+    "url": "https://assets.vogue.com/photos/674849004956966b08d2392d/master/w_900,c_limit/00010-balenciaga-spring-2001-ready-to-wear-kate-moss.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2021-couture, образ 10",
+    "bytes": 39716,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/8.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2022-couture/balenciaga",
+    "url": "https://assets.vogue.com/photos/62c5a0c62a20f7d328a7e127/master/w_900,c_limit/00001-balenciaga-fall-2022-couture-credit-brand.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2022-couture, образ 1",
+    "bytes": 24592,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/9.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2022-couture/balenciaga",
+    "url": "https://assets.vogue.com/photos/62c5a0d044e8eb9be88c2480/master/w_900,c_limit/00012-balenciaga-fall-2022-couture-credit-brand.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2022-couture, образ 12",
+    "bytes": 76236,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/10.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2023-couture/balenciaga",
+    "url": "https://assets.vogue.com/photos/64a591cda65df0c846c4b4f0/master/w_900,c_limit/00001-balenciaga-fall-2023-couture-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2023-couture, образ 1",
+    "bytes": 12614,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/11.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Carmel_Snow",
+    "url": "https://upload.wikimedia.org/wikipedia/en/d/df/Carmel_Snow.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Carmel Snow",
+    "bytes": 6872,
+    "width": 290,
+    "height": 267
+  },
+  "/images/brands/balenciaga/history/12.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Mona_von_Bismarck",
+    "url": "https://upload.wikimedia.org/wikipedia/en/3/34/Screen_shot_ky_countess.png",
+    "date": "2026-11-05",
+    "note": "Википедия: Mona von Bismarck",
+    "bytes": 9516,
+    "width": 268,
+    "height": 237
+  },
+  "/images/brands/balenciaga/history/13.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2023-couture/balenciaga",
+    "url": "https://assets.vogue.com/photos/64a591d9f496fd5039bb3238/master/w_900,c_limit/00015-balenciaga-fall-2023-couture-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2023-couture, образ 15",
+    "bytes": 42572,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/14.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2024-couture/balenciaga",
+    "url": "https://assets.vogue.com/photos/668bfa609849b17854652edf/master/w_900,c_limit/00001-balenciaga-fall-2024-couture-credit-brand.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2024-couture, образ 1",
+    "bytes": 65756,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/15.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Fabiola_of_Belgium",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Fabiola%2C_queen_of_Belgium.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Fabiola of Belgium",
+    "bytes": 67398,
+    "width": 886,
+    "height": 1280
+  },
+  "/images/brands/balenciaga/history/16.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Hubert_de_Givenchy",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Hubert_de_Givenchy_in_Beverly_Hills%2C_1978.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Hubert de Givenchy",
+    "bytes": 20188,
+    "width": 466,
+    "height": 558
+  },
+  "/images/brands/balenciaga/history/18.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2002-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/6abe7994090fd8150d0e5218/master/w_900,c_limit/00001-balenciaga-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2002-ready-to-wear, образ 1",
+    "bytes": 39288,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/19.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2024-couture/balenciaga",
+    "url": "https://assets.vogue.com/photos/668bfa921f89a84de6a39a52/master/w_900,c_limit/00020-balenciaga-fall-2024-couture-credit-brand.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2024-couture, образ 20",
+    "bytes": 66556,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/20.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2007-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/6abe7994090fd8150d0e5218/master/w_900,c_limit/00001-balenciaga-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2007-ready-to-wear, образ 1",
+    "bytes": 39288,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/21.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2006-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/6abe7994090fd8150d0e5218/master/w_900,c_limit/00001-balenciaga-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2006-ready-to-wear, образ 1",
+    "bytes": 39288,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/22.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2013-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/6abe7994090fd8150d0e5218/master/w_900,c_limit/00001-balenciaga-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2013-ready-to-wear, образ 1",
+    "bytes": 39288,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/23.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2016-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/6ae89f7a231c8c7d998f3794/master/w_900,c_limit/00001-balenciaga-fall-2016-ready-to-wear-credit-indigital-model-eliza-douglas.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2016-ready-to-wear, образ 1",
+    "bytes": 121848,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/24.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2018-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/687e239519844738a581acd2/master/w_900,c_limit/00001-balenciaga-spring-2018-ready-to-wear-credit-indigital-model-stella-tennant.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2018-ready-to-wear, образ 1",
+    "bytes": 70918,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/25.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2022-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/6224f85e562415ab5a00cf88/master/w_900,c_limit/00001-balenciaga-fall-2022-ready-to-wear-paris-credit-brand.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2022-ready-to-wear, образ 1",
+    "bytes": 86028,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/26.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2017-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/6ae22110664e139eef764096/master/w_900,c_limit/00001-balenciaga-fall-2017-ready-to-wear-credit-indigital-model-eliza-douglas.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2017-ready-to-wear, образ 1",
+    "bytes": 87870,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/27.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/66faf3c20791eb54fd5355bd/master/w_900,c_limit/00005-balenciaga-spring-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 5",
+    "bytes": 51680,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/28.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2023-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/64049322a22768c99d2dd4fa/master/w_900,c_limit/00001-balenciaga-fall-2023-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2023-ready-to-wear, образ 1",
+    "bytes": 25604,
+    "width": 900,
+    "height": 1353
+  },
+  "/images/brands/balenciaga/history/29.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2020-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/6899ced2dbd85e9535ed8ce4/master/w_900,c_limit/00001-balenciaga-spring-2020-ready-to-wear-credit-gorunway-model-.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2020-ready-to-wear, образ 1",
+    "bytes": 31230,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/30.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2019-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/689c53e70a0adbe2fde41aec/master/w_900,c_limit/00001-balenciaga-fall-2019-ready-to-wear-credit-gorunway-model-lina-zhang.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2019-ready-to-wear, образ 1",
+    "bytes": 24510,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/31.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-couture/balenciaga",
+    "url": "https://assets.vogue.com/photos/686e573f30d5354112a2e34f/master/w_900,c_limit/00001-balenciaga-fall-2025-couture-credit-brand.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2025-couture, образ 1",
+    "bytes": 141652,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/32.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-couture/balenciaga",
+    "url": "https://assets.vogue.com/photos/686e574c5860b78c37bb0c80/master/w_900,c_limit/00012-balenciaga-fall-2025-couture-credit-brand.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2025-couture, образ 12",
+    "bytes": 121934,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/33.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Crist%C3%B3bal_Balenciaga_(TV_series)",
+    "url": "https://upload.wikimedia.org/wikipedia/en/0/03/Crist%C3%B3bal_Balenciaga_%28TV_series%29_poster.png",
+    "date": "2026-11-05",
+    "note": "Википедия: Cristóbal Balenciaga (TV series)",
+    "bytes": 4984,
+    "width": 250,
+    "height": 313
+  },
+  "/images/brands/balenciaga/history/34.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/6abe78c938d33e11434e0d5f/master/w_900,c_limit/00001-balenciaga-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 1",
+    "bytes": 39288,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/35.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/68e185e0a3cb008f25328633/master/w_900,c_limit/00005-balenciaga-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 5",
+    "bytes": 76418,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/balenciaga/history/2.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/San_Sebasti%C3%A1n",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/San_Sebasti%C3%A1n_-_Ayuntamiento_10.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: San Sebastián",
+    "bytes": 108862,
+    "width": 900,
+    "height": 632
+  },
+  "/images/brands/balenciaga/directors/3.webp": {
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Josephus_Thimister",
+    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Josephusportrait.jpg/960px-Josephusportrait.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Josephus Thimister",
+    "bytes": 16764,
+    "width": 600,
+    "height": 923
+  },
+  "/images/brands/balenciaga/directors/4.webp": {
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Nicolas_Ghesqui%C3%A8re",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Nicholas_Ghesquiere_Paris_Fashion_Week_Spring_Summer_2019.jpg/960px-Nicholas_Ghesquiere_Paris_Fashion_Week_Spring_Summer_2019.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Nicolas Ghesquière",
+    "bytes": 57364,
+    "width": 600,
+    "height": 900
+  },
+  "/images/brands/balenciaga/history/5.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Avenue_George_V",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/P1020142_Paris_VIII_Avenue_George-V_reductwk.JPG/960px-P1020142_Paris_VIII_Avenue_George-V_reductwk.JPG",
+    "date": "2026-11-05",
+    "note": "Википедия: Avenue George V",
+    "bytes": 289796,
+    "width": 900,
+    "height": 1492
+  },
+  "/images/brands/balenciaga/history/17.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/X%C3%A0bia",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/J%C3%A1vea_desde_el_Montg%C3%B3.jpg/960px-J%C3%A1vea_desde_el_Montg%C3%B3.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Jávea",
+    "bytes": 125790,
+    "width": 900,
+    "height": 658
+  }
+}

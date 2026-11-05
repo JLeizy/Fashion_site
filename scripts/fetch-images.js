@@ -19,12 +19,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
+import { ensureProxyAwareFetch, loadPlaywright, uaFor, BROWSER_UA, sleep } from './lib/net.js';
+
+ensureProxyAwareFetch();
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLIC = path.join(ROOT, 'public');
 const SOURCES = path.join(ROOT, 'db', 'content', 'image-sources.json');
 const MANIFEST = path.join(ROOT, 'db', 'content', 'images-manifest.json');
-const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 const MAX_WIDTH = { hero: 1600, banner: 1600, product: 900, collection: 900, history: 900, director: 600 };
 const PRODUCT_MAX_BYTES = 100 * 1024;
 const PAUSE_MS = 1200;
@@ -35,22 +37,16 @@ const opt = (name) => {
   const i = args.indexOf(`--${name}`);
   return i >= 0 ? args[i + 1] : null;
 };
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const readJson = (file, fallback) => (fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : fallback);
 
 let browser = null;
 async function imageUrlFromPage(page) {
   // Страница с защитой от ботов или JS-рендерингом: открываем в Chromium и ищем og:image / самую крупную картинку
   if (!browser) {
-    let chromium;
-    try {
-      ({ chromium } = await import('playwright'));
-    } catch {
-      throw new Error('для страниц без прямой ссылки нужен Playwright: npm i -D playwright && npx playwright install chromium');
-    }
+    const { chromium } = await loadPlaywright();
     browser = await chromium.launch();
   }
-  const ctx = await browser.newContext({ userAgent: UA, viewport: { width: 1440, height: 1000 } });
+  const ctx = await browser.newContext({ userAgent: BROWSER_UA, viewport: { width: 1440, height: 1000 } });
   const tab = await ctx.newPage();
   try {
     await tab.goto(page, { waitUntil: 'domcontentloaded', timeout: 45000 });
@@ -70,7 +66,13 @@ async function download(url, referer) {
   let lastError = null;
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'image/avif,image/webp,image/*,*/*;q=0.8', ...(referer ? { Referer: referer } : {}) }, redirect: 'follow' });
+      const res = await fetch(url, { headers: { 'User-Agent': uaFor(url), Accept: 'image/avif,image/webp,image/*,*/*;q=0.8', ...(referer ? { Referer: referer } : {}) }, redirect: 'follow' });
+      if (res.status === 429) {
+        // Лимит частоты (Wikimedia и др.): ждём дольше и повторяем
+        lastError = new Error('HTTP 429');
+        await sleep(15000 * attempt);
+        continue;
+      }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const type = res.headers.get('content-type') || '';
       if (!type.startsWith('image/')) throw new Error(`не изображение (${type || 'без content-type'})`);
