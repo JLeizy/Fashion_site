@@ -137,8 +137,9 @@
     "title": "Sign in required",
     "default": "Sign in to continue.",
     "wishlist": "Sign in to save pieces to your wishlist.",
-    "checkout": "Sign in or create an account to check out — your bag will be kept.",
-    "review": "Sign in to leave a review."
+    "checkout": "To place an order, sign in or create an account",
+    "review": "Sign in to leave a review.",
+    "register": "Create an account"
   },
   "auth": {
     "metaTitle": "Sign in & register — AMFIBIA",

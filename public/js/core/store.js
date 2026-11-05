@@ -31,8 +31,11 @@ export function setCount(name, value) {
 }
 
 // Требуется вход: app.js показывает модальное окно входа
-export function requireAuth(reason = 'default') {
-  store.emit('auth:required', { reason, next: location.pathname + location.search });
+// Гость пытается выполнить действие для вошедших: показываем окно входа/регистрации.
+// После входа при покупке возвращаем сразу на оформление (/checkout), в остальных случаях — на текущую страницу.
+export function requireAuth(reason = 'default', next) {
+  const target = next || (reason === 'checkout' ? '/checkout' : location.pathname + location.search);
+  store.emit('auth:required', { reason, next: target });
 }
 
 // ---------- Гостевое хранилище ----------

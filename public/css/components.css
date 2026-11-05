@@ -1483,9 +1483,17 @@ input:checked + .color-dot::after {
   gap: 16px;
   text-align: left;
 }
+.auth-prompt__register {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  padding-top: 18px;
+  border-top: 1px solid var(--line-2);
+  text-align: center;
+}
 .auth-prompt__links {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
   font-size: var(--fs-sm);
   color: var(--text-2);

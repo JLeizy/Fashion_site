@@ -94,6 +94,12 @@
   }
 }
 
+.auth__reason {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 18px;
+}
 .auth__tabs {
   position: relative;
   display: grid;

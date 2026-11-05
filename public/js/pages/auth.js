@@ -310,6 +310,7 @@ resetForm.addEventListener('submit', async (e) => {
 });
 
 // ---------- Начальное состояние из URL ----------
+if (next.startsWith('/checkout')) $('[data-auth-reason]').hidden = false;
 const initialTab = params().get('tab');
 if (initialTab === 'register') setTab('register');
 if (params().get('step') === 'forgot') showView('forgot');

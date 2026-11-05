@@ -29,6 +29,8 @@
 
         <!-- Вход / Регистрация — карточка-перевёртыш -->
         <div class="auth-view" data-view="main">
+          <!-- Пояснение, если на вход отправили со страницы оформления заказа (?next=/checkout) -->
+          <p class="notice notice--accent auth__reason" data-auth-reason hidden><svg class="icon icon--sm"><use href="#i-bag"/></svg> <span data-i18n="authPrompt.checkout">Чтобы оформить заказ, войдите или зарегистрируйтесь</span></p>
           <div class="auth__tabs" role="tablist" data-i18n-attr="aria-label:auth.tabsLabel" aria-label="Вход или регистрация">
             <button class="auth__tab" type="button" role="tab" id="tab-login" aria-selected="true" aria-controls="face-login" data-auth-tab="login" data-i18n="auth.loginTab">Вход</button>
             <button class="auth__tab" type="button" role="tab" id="tab-register" aria-selected="false" aria-controls="face-register" data-auth-tab="register" data-i18n="auth.registerTab">Регистрация</button>

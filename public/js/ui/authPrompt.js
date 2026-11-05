@@ -44,9 +44,12 @@ export function showAuthPrompt({ reason = 'default', next = location.pathname + 
       <p class="t-muted auth-prompt__hint dev-only">${esc(t('auth.codeHint'))}</p>
     </form>
     <p class="auth-prompt__links">
-      <a class="link-u" href="/auth?tab=register&next=${nextParam}">${esc(t('auth.createAccount'))}</a>
       <a class="link-u" href="/auth?step=forgot&next=${nextParam}">${esc(t('auth.forgot'))}</a>
-    </p>`;
+    </p>
+    <div class="auth-prompt__register">
+      <span class="t-eyebrow">${esc(t('auth.noAccount'))}</span>
+      <a class="btn btn--ghost btn--block" href="/auth?tab=register&next=${nextParam}" data-prompt-register>${esc(t('authPrompt.register'))}</a>
+    </div>`;
 
   const modal = openModal({ title: t('authPrompt.title'), content: body });
   if (!togglesBound) {
@@ -71,8 +74,10 @@ export function showAuthPrompt({ reason = 'default', next = location.pathname + 
     if (u.currency) setCurrency(u.currency);
     toast.success(t('auth.welcome', { name: u.firstName }));
     modal.close();
-    // Перезагружаем страницу, чтобы все блоки (избранное, корзина, роль) отрисовались для пользователя
-    setTimeout(() => location.reload(), 500);
+    // Переходим туда, ради чего просили вход (например, на /checkout после «Оформить заказ»),
+    // иначе перезагружаем страницу, чтобы все блоки (избранное, корзина, роль) отрисовались для пользователя
+    const here = location.pathname + location.search;
+    setTimeout(() => (next && next !== here ? location.assign(next) : location.reload()), 500);
   };
 
   loginForm.addEventListener('submit', async (e) => {
