@@ -2,7 +2,11 @@
 // W Magazine, Grazia, nss magazine, fibre2fashion, The Fashion DB, Treccani, The Fashion Law). Спорные детали (точные даты
 // отдельных назначений, легенды о юности основателя) изложены без утверждений, которые не удалось подтвердить.
 // Формат: абзацы через пустую строку, «### » — подзаголовок, «> » — врезка.
-export default {
+import part1 from './gucci/part1.js';
+import part2 from './gucci/part2.js';
+import part3 from './gucci/part3.js';
+
+const base = {
   slug: 'gucci',
   timeline: [
     [1921, 'Лавка во Флоренции', 'A shop in Florence', 'Гуччо Гуччи открывает во Флоренции небольшую лавку дорожных сумок и кожаных изделий.', 'Guccio Gucci opens a small luggage and leather goods shop in Florence.'],
@@ -339,5 +343,26 @@ Gucci трижды менял моду: в 1950–1960-е — как симво�
       quote_en: null,
       quote_author: null,
     },
+  ],
+};
+
+// Порядок разделов: базовые разделы (gucci.js) + подробные части gucci/part1–3.js — в хронологическом и тематическом порядке
+const [prehistory, founding, rise, familyEra, murder, ford, afterFord, michele, deSarno, demna, iconic, owners, influence] = base.sections;
+const [workshop, sons, jackie, codes, empire] = part1;
+const [fordBefore, fordMethod, deSole, battle, group, fordLeaves] = part2;
+
+export default {
+  slug: base.slug,
+  timeline: base.timeline,
+  sections: [
+    // 1–3. Предыстория, основание, становление
+    prehistory, founding, workshop, rise, sons, jackie, codes,
+    // 8–9. Семейные конфликты, владельцы
+    familyEra, empire,
+    // 4. Креативные директора и их эпохи
+    fordBefore, ford, fordMethod, deSole, murder, battle, group, fordLeaves, afterFord,
+    michele, ...part3, deSarno, demna,
+    // 5–12. Культовые вещи, владельцы, влияние, сегодня, факты
+    iconic, owners, influence,
   ],
 };
