@@ -2,7 +2,9 @@
 // объём меньше 15 000 слов допускается правилом для молодых марок (см. PROGRESS.md). Все факты сверены с источниками
 // (Wikipedia, WWD, Business of Fashion, FashionUnited, FashionNetwork, Highsnobiety, Hypebeast, W Magazine, Fantastic Man).
 // Формат: абзацы через пустую строку, «### » — подзаголовок, «> » — врезка.
-export default {
+import * as p2 from './vetements/part2.js';
+
+const base = {
   slug: 'vetements',
   timeline: [
     [2014, 'Основание', 'Founded', 'Демна и Гурам Гвасалия основывают Vetements; первая коллекция (осень–зима 2014/15) показана в парижской галерее.', 'Demna and Guram Gvasalia found Vetements; the first collection (Autumn–Winter 2014/15) is shown in a Paris gallery.'],
@@ -13,6 +15,7 @@ export default {
     [2019, 'Уход Демны', 'Demna leaves', 'Демна покидает Vetements, чтобы сосредоточиться на Balenciaga.', 'Demna leaves Vetements to focus on Balenciaga.'],
     [2021, 'VTMNTS и новый креативный директор', 'VTMNTS and a new creative director', 'В июле запущена марка VTMNTS; в декабре Гурам Гвасалия официально становится креативным директором.', 'VTMNTS launches in July; in December Guram Gvasalia is officially named creative director.'],
     [2022, 'Первый показ Гурама', 'Guram’s first show', 'Весна–лето 2023 — первый показ Vetements под руководством Гурама Гвасалии.', 'Spring–Summer 2023 is the first Vetements runway show under Guram Gvasalia.'],
+    [2024, 'Десять лет', 'Ten years', 'Март — юбилейный показ осень–зима 2024; сентябрь — «Time To Clean Up The Mess» в заброшенном торговом центре.', 'March — the anniversary Autumn–Winter 2024 show; September — “Time To Clean Up The Mess” in an abandoned mall.'],
     [2025, 'Весна–лето 2026', 'Spring–Summer 2026', 'Показ в Париже открывается антифашистским заявлением; среди моделей — Кара Делевинь и Анок Яи.', 'The Paris show opens with an anti-fascist statement; Cara Delevingne and Anok Yai are among the models.'],
   ],
   sections: [
@@ -438,5 +441,16 @@ Vetements по-французски значит просто «одежда». 
       quote_en: null,
       quote_author: null,
     },
+  ],
+};
+
+// Порядок разделов: исходные 16 разделов + дополнение из vetements/part2.js в хронологическом и тематическом порядке.
+const S = base.sections;
+export default {
+  ...base,
+  sections: [
+    S[0], S[1], S[2], S[3], p2.fw16, S[4], S[5], p2.collabsDetail, S[6], p2.fw17, p2.windows, S[7], p2.fw18,
+    p2.highsnobiety, p2.ss19, p2.ss20, S[8], S[9], p2.vtmnts, p2.anniversary, S[10], S[11], p2.business,
+    S[12], S[13], S[14], S[15],
   ],
 };
