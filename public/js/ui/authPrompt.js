@@ -41,7 +41,7 @@ export function showAuthPrompt({ reason = 'default', next = location.pathname + 
       <p class="t-muted" data-prompt-code-sub></p>
       <div class="code" data-prompt-code-inputs></div>
       <p class="notice notice--danger" data-form-error hidden></p>
-      <p class="t-muted auth-prompt__hint">${esc(t('auth.codeHint'))}</p>
+      <p class="t-muted auth-prompt__hint dev-only">${esc(t('auth.codeHint'))}</p>
     </form>
     <p class="auth-prompt__links">
       <a class="link-u" href="/auth?tab=register&next=${nextParam}">${esc(t('auth.createAccount'))}</a>

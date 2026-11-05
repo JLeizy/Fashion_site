@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}" data-env="{{env}}">
 <head>
   <!-- @include partials/head.html -->
   <title data-i18n="auth.metaTitle">Вход и регистрация — AMFIBIA</title>
@@ -109,7 +109,7 @@
                         <li data-rule-check="length" data-i18n="auth.ruleLength">Не менее 8 символов</li>
                         <li data-rule-check="letters" data-i18n="auth.ruleLetters">Буквы</li>
                         <li data-rule-check="digits" data-i18n="auth.ruleDigits">Цифры</li>
-                        <li data-rule-check="mixed" data-i18n="auth.ruleMixed">Заглавные или символы — бонус</li>
+                        <li data-rule-check="mixed" data-i18n="auth.ruleMixed">Заглавные буквы или символы повышают надёжность</li>
                       </ul>
                       <p class="field__error" data-error-for="password"></p>
                     </div>
@@ -138,7 +138,7 @@
           <form class="auth__form" data-form="code" novalidate>
             <div class="code" data-code-inputs></div>
             <p class="notice notice--danger" data-form-error hidden></p>
-            <p class="auth__hint t-muted" data-i18n="auth.codeHint">Письма не отправляются: код выводится в консоль сервера.</p>
+            <p class="auth__hint t-muted dev-only" data-i18n="auth.codeHint">Режим разработки: письма не отправляются, код выводится в консоль сервера.</p>
             <button class="btn btn--block" type="submit"><span class="btn__label" data-i18n="auth.confirm">Подтвердить</span></button>
           </form>
           <div class="row row--between auth__code-foot">

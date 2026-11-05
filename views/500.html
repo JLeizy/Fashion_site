@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}" data-env="{{env}}">
 <head>
   <!-- @include partials/head.html -->
   <title data-i18n="meta.e500">Ошибка сервера — AMFIBIA</title>
@@ -14,8 +14,8 @@
     <div class="error-page__body">
       <svg class="error-page__orn icon--fill" aria-hidden="true"><use href="#orn-dagger"/></svg>
       <p class="error-page__num">ERROR · 500</p>
-      <h1 class="error-page__title" data-i18n="errorPage.e500Title">Что-то сломалось в ателье</h1>
-      <p class="error-page__text" data-i18n="errorPage.e500Text">На сервере произошла ошибка. Мы уже чиним — попробуйте обновить страницу через минуту.</p>
+      <h1 class="error-page__title" data-i18n="errorPage.e500Title">Ошибка сервера</h1>
+      <p class="error-page__text" data-i18n="errorPage.e500Text">Не удалось обработать запрос. Обновите страницу через несколько минут.</p>
       <div class="error-page__actions">
         <a class="btn" href="/" data-magnetic data-i18n="errorPage.toHome">На главную</a>
       </div>

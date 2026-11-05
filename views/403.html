@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}" data-env="{{env}}">
 <head>
   <!-- @include partials/head.html -->
   <title data-i18n="meta.e403">Нет доступа — AMFIBIA</title>
@@ -14,8 +14,8 @@
     <div class="error-page__body">
       <svg class="error-page__orn icon" aria-hidden="true"><use href="#i-lock"/></svg>
       <p class="error-page__num">ERROR · 403</p>
-      <h1 class="error-page__title" data-i18n="errorPage.e403Title">Двери этого зала закрыты</h1>
-      <p class="error-page__text" data-i18n="errorPage.e403Text">У вашей роли нет доступа к этой странице. Войдите под другим аккаунтом или вернитесь на главную.</p>
+      <h1 class="error-page__title" data-i18n="errorPage.e403Title">Доступ ограничен</h1>
+      <p class="error-page__text" data-i18n="errorPage.e403Text">Эта страница недоступна для вашей учётной записи. Войдите под другим аккаунтом или вернитесь на главную.</p>
       <div class="error-page__actions">
         <a class="btn" href="/" data-magnetic data-i18n="errorPage.toHome">На главную</a>
         <a class="btn btn--ghost" href="/auth" data-i18n="errorPage.signIn">Войти</a>

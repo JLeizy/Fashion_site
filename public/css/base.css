@@ -127,6 +127,10 @@ fieldset {
 [hidden] {
   display: none !important;
 }
+/* Служебные подсказки для разработки (код в консоли сервера, тестовая карта) — только при NODE_ENV=development */
+html:not([data-env='development']) .dev-only {
+  display: none !important;
+}
 
 ::selection {
   background: var(--selection-bg);

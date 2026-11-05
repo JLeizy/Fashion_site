@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}">
+<html lang="{{lang}}" data-theme="{{theme}}" data-currency="{{currency}}" data-env="{{env}}">
 <head>
   <!-- @include partials/head.html -->
   <title data-i18n="meta.checkout">Оформление заказа — AMFIBIA</title>
@@ -166,11 +166,12 @@
                 <p class="field__error" data-error-for="ccname"></p>
               </div>
             </div>
-            <p class="card-pay__note t-mono"><svg class="icon icon--xs"><use href="#i-lock"/></svg> <span data-i18n="checkout.cardNote">Демонстрационная оплата: номер карты проверяется алгоритмом Луна и не передаётся на сервер. Тестовая карта: 4242 4242 4242 4242.</span></p>
+            <p class="card-pay__note t-mono"><svg class="icon icon--xs"><use href="#i-lock"/></svg> <span data-i18n="checkout.cardNote">Номер карты проверяется на вашем устройстве и не передаётся на сервер.</span></p>
+            <p class="card-pay__note t-mono dev-only" data-i18n="checkout.cardTest">Тестовая карта: 4242 4242 4242 4242</p>
           </div>
 
           <div class="erip" data-erip hidden>
-            <p class="t-eyebrow" data-i18n="checkout.eripTitle">Оплата через ЕРИП (имитация)</p>
+            <p class="t-eyebrow" data-i18n="checkout.eripTitle">Оплата через ЕРИП</p>
             <ol class="erip__steps">
               <li data-i18n="checkout.erip1">Интернет-банк → «Платежи» → «Система «Расчёт» (ЕРИП)»</li>
               <li data-i18n="checkout.erip2">Интернет-магазины → AMFIBIA → «Оплата заказа»</li>

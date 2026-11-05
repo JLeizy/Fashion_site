@@ -48,6 +48,8 @@ export function pageContext(req, extra = {}) {
     currency,
     csrf: ensureCsrfToken(req),
     role: req.user?.role || 'guest',
+    // Режим окружения: служебные подсказки (.dev-only) видны только при NODE_ENV=development
+    env: config.isDev ? 'development' : 'production',
     page: '',
     brand: '',
     title: 'AMFIBIA',

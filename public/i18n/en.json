@@ -132,8 +132,7 @@
     "privacy": "Privacy policy",
     "contactsTitle": "Contacts",
     "address": "Minsk, 16 Oktyabrskaya St. — showroom, daily 11:00–21:00",
-    "legal": "All trademarks belong to their owners. Educational project.",
-    "made": "Made in Minsk"
+    "legal": "All trademarks belong to their respective owners."
   },
   "authPrompt": {
     "title": "Sign in required",
@@ -176,7 +175,7 @@
     "ruleLength": "At least 8 characters",
     "ruleLetters": "Letters",
     "ruleDigits": "Digits",
-    "ruleMixed": "Capitals or symbols — bonus",
+    "ruleMixed": "Capital letters or symbols make it stronger",
     "strength1": "Weak",
     "strength2": "Fair",
     "strength3": "Good",
@@ -186,7 +185,7 @@
     "twoFactorTitle": "Two-factor authentication",
     "twoFactorSub": "Enter the code sent to {email}.",
     "codeDigit": "Code digit",
-    "codeHint": "No emails are sent: the code is printed in the server console.",
+    "codeHint": "Development mode: emails are not sent, the code is printed to the server console.",
     "confirm": "Confirm",
     "back": "← Back",
     "resend": "Send again",
@@ -236,12 +235,12 @@
     "pcs": "pcs"
   },
   "errorPage": {
-    "e404Title": "This page dissolved into darkness",
-    "e404Text": "It may have been moved, deleted, or never existed.",
-    "e403Title": "The doors of this hall are closed",
-    "e403Text": "Your role has no access to this page. Sign in with another account or return home.",
-    "e500Title": "Something broke in the atelier",
-    "e500Text": "A server error occurred. We are fixing it — try refreshing in a minute.",
+    "e404Title": "Page not found",
+    "e404Text": "The page has been moved or removed. Check the address or return to the home page.",
+    "e403Title": "Access restricted",
+    "e403Text": "This page is not available for your account. Sign in with a different account or return to the home page.",
+    "e500Title": "Server error",
+    "e500Text": "The request could not be processed. Please refresh the page in a few minutes.",
     "toHome": "Home",
     "toCatalog": "Catalogue",
     "signIn": "Sign in"
@@ -574,7 +573,7 @@
     "iconicView": "View the piece",
     "manifestEyebrow": "Maison de la mode gothique",
     "manifestText": "We bring together <em>fifteen houses</em> — from Parisian haute couture to street irony — and verify every piece before it is sent to you.",
-    "manifestHint": "Move your cursor — the pieces come alive",
+    "manifestHint": "Move the cursor across the block",
     "storiesEyebrow": "Chronicles of fashion houses",
     "storiesTitle": "Brand stories",
     "allStories": "All stories →",
@@ -751,12 +750,12 @@
     "cardNumber": "Card number",
     "cardExp": "Expiry date",
     "cardHolder": "Name on card",
-    "cardNote": "Demo payment: the card number is checked with the Luhn algorithm and is never sent to the server. Test card: 4242 4242 4242 4242.",
+    "cardNote": "The card number is verified on your device and is never sent to the server.",
     "cardInvalid": "Card number failed the check (Luhn algorithm)",
     "expInvalid": "Expiry: MM/YY, card not expired",
     "cvcInvalid": "3–4 digits",
     "holderInvalid": "Latin letters, as on the card",
-    "eripTitle": "Pay via ERIP (simulation)",
+    "eripTitle": "Payment via ERIP",
     "erip1": "Online banking → “Payments” → “Raschet system (ERIP)”",
     "erip2": "Online stores → AMFIBIA → “Order payment”",
     "erip3": "The order number appears after checkout; payment is confirmed automatically.",
@@ -782,7 +781,8 @@
     "emptyCart": "Your bag is empty — nothing to check out",
     "stockChanged": "Some items sold out while you were checking out. Please review your bag.",
     "deliveryOnStep": "at step 3",
-    "courierCity": "Minsk only"
+    "courierCity": "Minsk only",
+    "cardTest": "Test card: 4242 4242 4242 4242"
   },
   "success": {
     "eyebrow": "Merci",
@@ -987,7 +987,7 @@
     "passwordChanged": "Password changed",
     "settingsSecurity": "Security",
     "twoFactor": "Two-factor authentication",
-    "twoFactorText": "After your password you'll need a code — it is printed to the server console (demo).",
+    "twoFactorText": "After your password you will be asked for a one-time code sent to your email.",
     "twoFactorOn": "2FA enabled",
     "twoFactorOff": "2FA disabled",
     "settingsInterface": "Interface",
@@ -1768,7 +1768,7 @@
       "eyebrow": "Company · 06",
       "title": "Privacy policy",
       "lead": "How Amfibia collects, stores and protects the personal data of customers and sellers.",
-      "updated": "Version of 1 November 2026. A study project — this document is not a public offer.",
+      "updated": "Version of 1 November 2026.",
       "blocks": [
         {
           "h": "What we store",
