@@ -26,7 +26,7 @@ export default [
 
 ### Испанские дома после войны
 
-После войны испанские дома EISA в Мадриде, Барселоне и Сан-Себастьяне продолжали работать параллельно с парижским. Они адаптировали парижские модели для испанских клиенток, выпускали собственные коллекции и служили школой для местных мастеров. Испанская высокая мода второй половины XX века — от Педро Родригеса до Мануэля Перте́гаса [проверить написание] — формировалась в тени Баленсиаги и во многом благодаря ему.`,
+После войны испанские дома EISA в Мадриде, Барселоне и Сан-Себастьяне продолжали работать параллельно с парижским. Они адаптировали парижские модели для испанских клиенток, выпускали собственные коллекции и служили школой для местных мастеров. Испанская высокая мода второй половины XX века — от Педро Родригеса до Мануэля Пертегаса — формировалась в тени Баленсиаги и во многом благодаря ему.`,
     content_en: `Balenciaga lived in Paris for thirty years but never became Parisian; he remained a Spanish citizen and spent every summer in Spain. Beneath his Parisian rigour lay Spanish culture: Velázquez's infantas, Zurbarán's monastic habits, El Greco's elongated proportions, Goya's majas in lace mantillas. The 2019 exhibition "Balenciaga and Spanish Painting" at the Thyssen-Bornemisza placed his dresses next to the canvases that inspired them.
 
 Bolero jackets echoed the matador's suit of lights; flounces recalled flamenco, stripped of folklore. A devout Catholic, he drew on church vestments — the hood of the 1967 wedding dress resembles a nun's wimple — and on the practical clothes of Basque peasants and fishermen. His Spanish EISA houses kept working after the war and trained a generation of Spanish couturiers.`,
@@ -38,13 +38,13 @@ Bolero jackets echoed the matador's suit of lights; flounces recalled flamenco, 
     period: '1937–1968',
     title_ru: 'Мастерская и метод',
     title_en: 'The atelier and the method',
-    content_ru: `За легендарными коллекциями стояла одна из самых организованных мастерских в истории высокой моды. Дом на авеню Георга V в лучшие годы насчитывал, по разным оценкам, несколько сотен сотрудников [проверить], распределённых по специализированным ателье: «плоскостным» (flou) — для платьев из лёгких, струящихся тканей, и «портновским» (tailleur) — для костюмов и пальто, требующих жёсткой конструкции. Во главе каждого ателье стояла «премьер» — первая мастерица, которая переводила замысел Баленсиаги в выкройку и отвечала за качество.
+    content_ru: `За легендарными коллекциями стояла одна из самых организованных мастерских в истории высокой моды. Работа дома на авеню Георга V была распределена по специализированным ателье: «плоскостным» (flou) — для платьев из лёгких, струящихся тканей, и «портновским» (tailleur) — для костюмов и пальто, требующих жёсткой конструкции. Во главе каждого ателье стояла «премьер» — первая мастерица, которая переводила замысел Баленсиаги в выкройку и отвечала за качество.
 
 ### От идеи к модели
 
 Баленсиага почти не рисовал эскизов в привычном смысле: он предпочитал работать с тканью на манекене или прямо на живой модели. Сначала из небелёного хлопка — туаля — создавался макет. Мастер изучал его, распарывал, перекалывал, снова распарывал. Только когда силуэт его устраивал, макет переводили в настоящую ткань. Многие модели проходили через десятки примерок.
 
-Для своих моделей дом держал постоянных манекенщиц — «кабинетных моделей», на которых шились вещи. Баленсиага выбирал не классических красавиц, а женщин с характерной фигурой: говорили, что он предпочитал моделей с некоторыми «недостатками» — немного сутулых, с широкой талией, — потому что одежда, хорошо сидящая на такой фигуре, будет хорошо сидеть на любой клиентке [проверить].
+Для своих моделей дом держал постоянных манекенщиц — «кабинетных моделей», на которых шились вещи.
 
 ### Одержимость рукавом
 
@@ -61,7 +61,7 @@ Bolero jackets echoed the matador's suit of lights; flounces recalled flamenco, 
 ### Возрождённое ателье
 
 Когда в 2021 году Демна возродил кутюрное ателье дома, специалисты изучали оригинальные выкройки и технику Баленсиаги; часть мастеров приглашали из других кутюрных домов, а реставрированные салоны на авеню Георга V воспроизвели обстановку 1960-х годов. Метод основателя — работа с тканью на теле, бесконечные примерки, внимание к изнанке — снова стал частью повседневной жизни дома.`,
-    content_en: `Behind the legendary collections stood one of the best-organised workrooms in couture, divided into flou (soft dresses) and tailleur (suits and coats) ateliers, each run by a première. Balenciaga rarely sketched; he worked with fabric on the form or the living model, building toiles in calico and taking them apart again and again, often through dozens of fittings. He reportedly chose house models with imperfect figures, reasoning that what fitted them would fit any client [verify].
+    content_en: `Behind the legendary collections stood one of the best-organised workrooms in couture, divided into flou (soft dresses) and tailleur (suits and coats) ateliers, each run by a première. Balenciaga rarely sketched; he worked with fabric on the form or the living model, building toiles in calico and taking them apart again and again, often through dozens of fittings.
 
 His obsession was the sleeve — the meeting point of a still torso and a moving arm. He developed his own kimono sleeve with an integral gusset and set-in sleeves that allowed the arm to rise without dragging the jacket. Apparent simplicity hid complex inner construction: hand-laid interfacings, weighted hems, inner waist stays. Staff worked in near-monastic silence and stayed for decades. When Demna revived the couture atelier in 2021, the original patterns and methods were studied again.`,
     quote_ru: null,
@@ -76,7 +76,7 @@ His obsession was the sleeve — the meeting point of a still torso and a moving
 
 ### Abraham и газар
 
-Главным партнёром дома был швейцарский текстильный дом Abraham из Цюриха, которым руководил Густав Цумштег. Вместе они разработали газар — шёлковую ткань с очень плотным переплетением и жёстким грифом, которая держит объём без подкладок и каркаса. Позже появилась его разновидность — «газар-завор» с ещё более скульптурными свойствами [проверить название]. Газар стал подписью позднего Баленсиаги: свадебное платье 1967 года, вечерние платья-«облака», накидки, которые как будто вырезаны из бумаги.
+Главным партнёром дома был швейцарский текстильный дом Abraham из Цюриха, которым руководил Густав Цумштег. Вместе они разработали газар — шёлковую ткань с очень плотным переплетением и жёстким грифом, которая держит объём без подкладок и каркаса. Газар стал подписью позднего Баленсиаги: свадебное платье 1967 года, вечерние платья-«облака», накидки, которые как будто вырезаны из бумаги.
 
 ### Испанские и французские материалы
 

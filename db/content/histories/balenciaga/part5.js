@@ -6,7 +6,7 @@ export default [
     title_en: 'Scandals, crises and turning points',
     content_ru: `### Эмбарго для прессы (1956)
 
-Решение показывать коллекции журналистам на месяц позже закупщиков вызвало ярость прессы. Часть изданий в ответ перестала писать о доме [проверить]. Но Баленсиага настоял на своём — и копирование его моделей действительно стало сложнее.
+Решение показывать коллекции журналистам на месяц позже закупщиков вызвало ярость прессы. Но Баленсиага настоял на своём — и копирование его моделей действительно стало сложнее.
 
 ### Закрытие (1968)
 
@@ -18,7 +18,7 @@ export default [
 
 ### Кампании ноября 2022 года
 
-Самый тяжёлый кризис в истории дома. В праздничной кампании подарков дети позировали с плюшевыми мишками-сумками в «садо-мазо» аксессуарах; в другой кампании среди реквизита заметили распечатку решения Верховного суда США по делу о детской порнографии. Волна возмущения в соцсетях была огромной. Balenciaga отозвал кампании, извинился, подал иск к продакшн-компании North Six и сценографу на 25 миллионов долларов, но вскоре отозвал его, признав ответственность за собственный креатив. Демна публично извинился; дом объявил о новых процедурах проверки контента и сотрудничестве с организациями по защите детей. Продажи и репутация пострадали, ряд знаменитостей дистанцировался от марки [проверить масштаб последствий].
+Самый тяжёлый кризис в истории дома. В праздничной кампании подарков дети позировали с плюшевыми мишками-сумками в «садо-мазо» аксессуарах; в другой кампании среди реквизита заметили распечатку решения Верховного суда США по делу о детской порнографии. Волна возмущения в соцсетях была огромной. Balenciaga отозвал кампании, извинился, подал иск к продакшн-компании North Six и сценографу на 25 миллионов долларов, но вскоре отозвал его, признав ответственность за собственный креатив. Демна публично извинился; дом объявил о новых процедурах проверки контента и сотрудничестве с организациями по защите детей. Репутация дома пострадала; Ким Кардашьян, многолетнее лицо марки, публично заявила, что пересматривает отношения с ней.
 
 ### Разрыв с Ye (2022)
 
@@ -36,12 +36,12 @@ export default [
     title_en: 'Owners and corporate history',
     content_ru: `До 1968 года дом принадлежал Кристобалю Баленсиаге и его партнёрам: в Испании — сначала совладельцам первых фирм, затем самому мастеру; в Париже — компании, созданной с Владзио д'Аттенвилем и Николасом Бискаррондо.
 
-После смерти основателя права перешли наследникам, а в 1978 году — немецкому концерну Hoechst [проверить], который развивал прежде всего парфюмерию. В 1986 году марку купила французская компания Jacques Bogart S.A., вернувшая её в прет-а-порте.
+После смерти основателя права перешли наследникам, а в 1978 году — немецкому концерну Hoechst, который развивал прежде всего парфюмерию. В 1986 году марку купила французская компания Jacques Bogart S.A., вернувшая её в прет-а-порте.
 
 В 2001 году Balenciaga вошёл в Gucci Group. В 2004 году Gucci Group стала частью французского холдинга PPR, который в 2013 году был переименован в Kering. Сегодня Balenciaga — один из ключевых домов Kering наряду с Gucci, Saint Laurent и Bottega Veneta.
 
-Генеральными директорами дома в эпоху Kering были, в частности, Изабель Гишо (около 2007–2016) и Седрик Шарбит (с 2016 года) [проверить даты]. В 2025 году, вслед за переходом Демны в Gucci, креативным директором стал Пьерпаоло Пиччоли.`,
-    content_en: `Until 1968 the house belonged to Cristóbal Balenciaga and his partners, including Wladzio d'Attainville and Nicolás Bizcarrondo in Paris. After his death the rights passed to his heirs and in 1978 to Hoechst [verify]; in 1986 Jacques Bogart S.A. relaunched ready-to-wear. In 2001 Balenciaga joined Gucci Group, which became part of PPR in 2004, renamed Kering in 2013. CEOs under Kering have included Isabelle Guichot and, from 2016, Cédric Charbit [verify dates]. In 2025 Pierpaolo Piccioli became creative director.`,
+Генеральными директорами дома в эпоху Kering были, в частности, Изабель Гишо (2007–2016), Седрик Шарбит (2016–2024) и Джанфранко Джанангели (с ноября 2024 года). В 2025 году, вслед за переходом Демны в Gucci, креативным директором стал Пьерпаоло Пиччоли.`,
+    content_en: `Until 1968 the house belonged to Cristóbal Balenciaga and his partners, including Wladzio d'Attainville and Nicolás Bizcarrondo in Paris. After his death the rights passed to his heirs and in 1978 to Hoechst; in 1986 Jacques Bogart S.A. relaunched ready-to-wear. In 2001 Balenciaga joined Gucci Group, which became part of PPR in 2004, renamed Kering in 2013. CEOs under Kering have included Isabelle Guichot (2007–2016), Cédric Charbit (2016–2024) and, from November 2024, Gianfranco Gianangeli. In 2025 Pierpaolo Piccioli became creative director.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -66,10 +66,18 @@ export default [
     title_en: 'Balenciaga today',
     content_ru: `В мае 2025 года Kering назначил креативным директором Balenciaga Пьерпаоло Пиччоли — итальянского дизайнера, который почти четверть века проработал в Valentino, а с 2016 по 2024 год единолично возглавлял его творческое направление. Пиччоли известен работой с цветом, ремеслом и романтической элегантностью — интонацией, очень далёкой от иронии Демны и, возможно, более близкой к духу основателя.
 
-Дебютная коллекция Пиччоли для Balenciaga (весна–лето 2026) была показана в Париже в октябре 2025 года [проверить детали]. Подробная оценка его работы и событий 2026 года выходит за пределы надёжных знаний редакции на момент написания текста; этот раздел будет дополняться.
+Пиччоли приступил к работе в июле 2025 года. Свою первую коллекцию для дома — женскую, весна–лето 2026 — он показал в Париже 4 октября 2025 года; среди гостей были Энн Хэтэуэй и Меган Маркл. Критика отметила, что дизайнер опирается на архив Кристобаля, сохраняя и отдельные приметы эпохи Демны. В июле 2026 года Пиччоли представил свою первую кутюрную коллекцию для Balenciaga — с накидками, объёмными платьями и перьями, а 1 октября 2026 года в Париже прошёл показ весна–лето 2027.
+
+### Управление и бизнес
+
+Генеральный директор дома с ноября 2024 года — Джанфранко Джанангели. В сентябре 2025 года группу Kering возглавил Лука де Мео, объявивший программу перестройки группы. Kering не раскрывает выручку Balenciaga отдельно: дом входит в сегмент «Другие дома», и оценки отраслевых изданий заметно расходятся.
+
+### Парфюмерия и наследие
+
+В сентябре 2025 года Kering Beauté перезапустила парфюмерию дома: на авеню Георга V, 10, была представлена коллекция из десяти ароматов по мотивам первых духов Le Dix (1947). В музее Cristóbal Balenciaga Museoa в Гетарии до 22 февраля 2027 года — к столетию Юбера де Живанши — открыта выставка «The Givenchiaga Family» о дружбе и творческом диалоге двух кутюрье.
 
 Сегодня дом работает в трёх измерениях: кутюрное ателье на авеню Георга V, прет-а-порте и аксессуары, которые обеспечивают основную выручку, и сеть бутиков по всему миру. Главный вопрос новой эпохи — сумеет ли Balenciaga соединить культурную смелость последнего десятилетия с ремесленной строгостью Кристобаля.`,
-    content_en: `In May 2025 Kering appointed Pierpaolo Piccioli, who spent nearly a quarter of a century at Valentino and led it alone from 2016 to 2024. Known for colour, craft and romantic elegance, he showed his debut Spring–Summer 2026 collection in Paris in October 2025 [verify details]. Events beyond that lie outside the editors' reliable knowledge at the time of writing. Today the house runs a couture atelier on avenue George V, ready-to-wear and accessories, and a global boutique network.`,
+    content_en: `In May 2025 Kering appointed Pierpaolo Piccioli, who spent nearly a quarter of a century at Valentino and led it alone from 2016 to 2024. Known for colour, craft and romantic elegance, he joined in July 2025 and showed his debut womenswear collection, Spring–Summer 2026, in Paris on 4 October 2025. His first couture collection for the house followed in July 2026, and Spring–Summer 2027 was shown on 1 October 2026. Gianfranco Gianangeli has been CEO since November 2024; Luca de Meo became Kering's chief executive in September 2025. In September 2025 Kering Beauté relaunched the house's perfumery with ten scents inspired by Le Dix, and the Getaria museum is showing “The Givenchiaga Family” until 22 February 2027. Today the house runs a couture atelier on avenue George V, ready-to-wear and accessories, and a global boutique network.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -104,7 +112,7 @@ export default [
 
 ### Сумки IKEA
 
-После выхода сумки Arena продажи синей сумки IKEA за доллар, по сообщениям прессы, заметно выросли [проверить].`,
+IKEA ответила остроумной рекламой агентства ACNE — инструкцией, как отличить оригинальную сумку FRAKTA: если её встряхнуть, она зашуршит.`,
     content_en: `Balenciaga never took a bow after a show; he watched from behind a curtain. He gave essentially one major interview, in 1971. Unlike many couturiers, he could cut and sew a garment himself. The couture atelier revived in 2021 works at 10 avenue George V, where the Paris house opened in 1937. Getaria is also the birthplace of Juan Sebastián Elcano. In the late 1960s he designed uniforms for Air France stewardesses.`,
     quote_ru: null,
     quote_en: null,

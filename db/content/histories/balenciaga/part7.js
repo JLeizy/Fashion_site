@@ -8,7 +8,7 @@ export default [
 
 ### Мона фон Бисмарк
 
-Американка из Кентукки, пять раз выходившая замуж, графиня Мона фон Бисмарк в 1933 году была названа «самой элегантной женщиной мира» [проверить год]. Она заказывала у Баленсиаги почти весь гардероб — от вечерних платьев до шорт и брюк для садовых работ на своей вилле на Капри. Известная история: узнав о закрытии дома в 1968 году, она на три дня заперлась в своей комнате. Сесил Битон фотографировал её в платьях Баленсиаги; часть её гардероба сегодня хранится в музеях.
+Американка из Кентукки, пять раз выходившая замуж, графиня Мона фон Бисмарк в 1933 году была названа «самой элегантной женщиной мира». Она заказывала у Баленсиаги почти весь гардероб — от вечерних платьев до шорт и брюк для садовых работ на своей вилле на Капри. Известная история: узнав о закрытии дома в 1968 году, она на три дня заперлась в своей комнате. Сесил Битон фотографировал её в платьях Баленсиаги; часть её гардероба сегодня хранится в музеях.
 
 ### Банни Меллон
 
@@ -20,14 +20,14 @@ export default [
 
 ### Актрисы и королевы
 
-Марлен Дитрих, Ава Гарднер, Грейс Келли, Ингрид Бергман [проверить], Одри Хепбёрн, чаще ассоциирующаяся с Живанши, — голливудские звёзды тоже носили Баленсиагу, хотя сам мастер почти не работал для кино. Жаклин Кеннеди до переезда в Белый дом одевалась в том числе у Баленсиаги; в президентские годы, по политическим соображениям, она предпочитала американских дизайнеров, прежде всего Олега Кассини [проверить].
+Марлен Дитрих, Ава Гарднер, Грейс Келли, Одри Хепбёрн, чаще ассоциирующаяся с Живанши, — голливудские звёзды тоже носили Баленсиагу, хотя сам мастер почти не работал для кино. Жаклин Кеннеди до переезда в Белый дом одевалась в том числе у Баленсиаги; в президентские годы, по политическим соображениям, она предпочитала американских дизайнеров, прежде всего Олега Кассини.
 
 Королевская линия клиенток тянется из Испании: королева Виктория Евгения, затем семья Франко, наконец, королева Фабиола Бельгийская, чьё свадебное платье 1960 года стало одной из самых известных работ мастера.
 
 ### Как работал дом с клиентками
 
 Баленсиага почти не встречался с заказчицами лично — этим занимались вендёзы (продавщицы-консультантки), каждая из которых вела «своих» клиенток годами. Мастер мог отказаться сделать модель для женщины, если считал, что она ей не подходит, и не прощал попыток переделать вещь «по-своему». Говорили, что его клиентки не одевались у Баленсиаги — они ему доверялись.`,
-    content_en: `The client book of avenue George V is a portrait of mid-century high society. Countess Mona von Bismarck ordered almost her entire wardrobe there, down to gardening shorts for her villa on Capri, and famously locked herself away for three days when the house closed. Bunny Mellon ordered garden clothes; Gloria Guinness, Pauline de Rothschild and Marella Agnelli set the standard of 1950s–60s elegance. Marlene Dietrich, Ava Gardner and Grace Kelly wore him; Jacqueline Kennedy wore Balenciaga before the White House years [verify]. Royal clients ran from Queen Victoria Eugenie to Queen Fabiola of Belgium. Balenciaga rarely met clients himself — vendeuses handled them — and would refuse a model he thought unsuitable.`,
+    content_en: `The client book of avenue George V is a portrait of mid-century high society. Countess Mona von Bismarck ordered almost her entire wardrobe there, down to gardening shorts for her villa on Capri, and famously locked herself away for three days when the house closed. Bunny Mellon ordered garden clothes; Gloria Guinness, Pauline de Rothschild and Marella Agnelli set the standard of 1950s–60s elegance. Marlene Dietrich, Ava Gardner and Grace Kelly wore him; Jacqueline Kennedy wore Balenciaga before the White House years. Royal clients ran from Queen Victoria Eugenie to Queen Fabiola of Belgium. Balenciaga rarely met clients himself — vendeuses handled them — and would refuse a model he thought unsuitable.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -40,7 +40,7 @@ export default [
 
 ### Юбер де Живанши
 
-Самая трогательная история дружбы в истории моды. Живанши, на тридцать два года моложе, мечтал работать у Баленсиаги с юности. Они познакомились в 1953 году [проверить], и с тех пор мастер стал для него учителем, советчиком и почти отцом. Их дома стояли напротив друг друга на авеню Георга V; они обсуждали силуэты, вместе ввели эмбарго для прессы, а клиентки переходили от одного к другому. Когда Баленсиага закрыл дом, именно Живанши он рекомендовал своим клиенткам. Живанши до конца жизни хранил память о мастере и в 2017 году консультировал выставку о нём [проверить].
+Самая трогательная история дружбы в истории моды. Живанши, на тридцать два года моложе, мечтал работать у Баленсиаги с юности. Они познакомились в 1953 году, и с тех пор мастер стал для него учителем, советчиком и почти отцом. Их дома стояли напротив друг друга на авеню Георга V; они обсуждали силуэты, вместе ввели эмбарго для прессы, а клиентки переходили от одного к другому. Когда Баленсиага закрыл дом, именно Живанши он рекомендовал своим клиенткам. Живанши до конца жизни хранил память о мастере: он поддерживал создание музея в Гетарии и присутствовал на его открытии в 2011 году.
 
 ### Андре Курреж
 
@@ -57,7 +57,7 @@ export default [
 ### Наследники идей
 
 Влияние Баленсиаги ощущается и у тех, кто никогда у него не работал. Японские дизайнеры 1980-х — Иссэй Мияке, Рэй Кавакубо, Ёдзи Ямамото — продолжили его работу с пространством между телом и одеждой. Азедин Алайя, обожавший мастера, собрал одну из крупнейших частных коллекций его вещей. Николя Гескьер и Демна, каждый по-своему, превращали его архив в высказывание о своём времени. Даже минимализм 1990-х — Хельмут Ланг, Джил Сандер — обязан ему идеей, что элегантность начинается с отказа от лишнего.`,
-    content_en: `"The Balenciaga school" is united by method rather than style: construction, respect for fabric, refusal of excess. Hubert de Givenchy, thirty-two years younger, became his friend and disciple from about 1953 [verify]; their houses faced each other on avenue George V, and Balenciaga sent his clients to Givenchy when he closed. André Courrèges, a cutter there from 1949, turned the master's clean line into 1960s space-age minimalism; Emanuel Ungaro worked there from 1958 to 1964; Oscar de la Renta started at EISA in Madrid; Paco Rabanne made buttons and jewellery. Japanese designers of the 1980s, Azzedine Alaïa (a great collector of his work), Ghesquière, Demna and 1990s minimalists all carry his ideas forward.`,
+    content_en: `"The Balenciaga school" is united by method rather than style: construction, respect for fabric, refusal of excess. Hubert de Givenchy, thirty-two years younger, became his friend and disciple from about 1953; their houses faced each other on avenue George V, and Balenciaga sent his clients to Givenchy when he closed. André Courrèges, a cutter there from 1949, turned the master's clean line into 1960s space-age minimalism; Emanuel Ungaro worked there from 1958 to 1964; Oscar de la Renta started at EISA in Madrid; Paco Rabanne made buttons and jewellery. Japanese designers of the 1980s, Azzedine Alaïa (a great collector of his work), Ghesquière, Demna and 1990s minimalists all carry his ideas forward.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -68,15 +68,15 @@ export default [
     title_en: 'Fragrances and accessories',
     content_ru: `### Ароматы основателя
 
-Парфюмерия появилась в доме сразу после войны и стала его финансовой опорой. Le Dix (1947), названный по номеру дома на авеню Георга V, — пудровый цветочный аромат с фиалкой и ирисом, который многие считают одним из самых элегантных ароматов эпохи [проверить ноты]. Затем последовали La Fuite des Heures (1949) — «бег времени» — и Quadrille (1955), названный по старинному танцу. Флаконы были строгими, как и сама мода дома.
+Парфюмерия появилась в доме сразу после войны и стала его финансовой опорой. Le Dix (1947), названный по номеру дома на авеню Георга V, — альдегидно-цветочный аромат с пудровыми нотами фиалки и ириса. Затем последовали La Fuite des Heures (1949) — «бег времени» — и Quadrille (1955), названный по старинному танцу. Флаконы были строгими, как и сама мода дома.
 
 ### Ароматы без дома
 
-После смерти основателя именно парфюмерия поддерживала имя Balenciaga: в 1970–1990-х выходили новые ароматы — в том числе Cialenga (1973) и мужские композиции [проверить список]. Для владельцев марки в эти годы Balenciaga была прежде всего лицензией на духи, а модные коллекции — приложением к ней.
+После смерти основателя именно парфюмерия поддерживала имя Balenciaga: выходили новые ароматы, а среди классических духов дома остались Le Dix, La Fuite des Heures, Quadrille, Prélude и Cialenga. Для владельцев марки в эти годы Balenciaga была прежде всего лицензией на духи, а модные коллекции — приложением к ней.
 
 ### Новая парфюмерия
 
-В эпоху Kering ароматы Balenciaga выпускались по лицензии крупных косметических групп [проверить: Coty]. В 2010 году вышел аромат Balenciaga Paris с фиалкой, созданный при участии Николя Гескьера; позже — Florabotanica (2012) и B. Balenciaga (2014) [проверить даты]. В конце 2010-х парфюмерное направление было приостановлено и затем перезапущено в новом формате — коллекцией нишевых ароматов, продаваемых в бутиках дома [проверить].
+В эпоху Kering ароматы Balenciaga выпускались по лицензии Coty (2008–2021). При Николя Гескьере вышли ароматы Balenciaga Paris и Florabotanica, при Александре Ванге — B. Balenciaga. После окончания лицензии Coty в 2021 году Kering Beauté вернула парфюмерию в дом: в сентябре 2025 года в Париже, на авеню Георга V, 10, была представлена коллекция из десяти ароматов, вдохновлённая Le Dix и задуманная ещё при Демне.
 
 ### Сумки
 
@@ -85,7 +85,7 @@ export default [
 ### Обувь
 
 Обувь стала второй опорой. Чулок-кроссовок Speed (2016), Triple S (2017), Track (2018) с переплетением ремней и вставок, ботинки-«сапоги-чулки» Knife с острым мысом, кроксы на платформе, «уничтоженные» Paris — Balenciaga задавал моду на кроссовки в течение почти всего десятилетия. Многие модели вызывали волну копий в масс-маркете уже через несколько месяцев после выхода.`,
-    content_en: `Fragrance arrived right after the war and became the house's financial backbone: Le Dix (1947), La Fuite des Heures (1949) and Quadrille (1955). After the founder's death perfume kept the name alive, with new scents such as Cialenga (1973) [verify]. Under Kering, licensed fragrances included Balenciaga Paris (2010), Florabotanica (2012) and B. Balenciaga (2014) [verify], before a later relaunch in a niche format [verify].
+    content_en: `Fragrance arrived right after the war and became the house's financial backbone: Le Dix (1947), La Fuite des Heures (1949) and Quadrille (1955). After the founder's death perfume kept the name alive, with classic scents such as La Fuite des Heures, Quadrille and Cialenga. Under Kering, licensed fragrances included Balenciaga Paris and Florabotanica under Ghesquière and B. Balenciaga under Wang, before Kering Beauté relaunched the house’s perfumery in September 2025 with ten scents inspired by Le Dix.
 
 Accessories became the engine of the modern business: the City bag (2001) and its siblings, then under Demna the Hourglass (2019), Le Cagole (2021), ironic objects such as a Lay's crisp-packet clutch (2022). Footwear — Speed, Triple S, Track, the pointed Knife boot, platform Crocs — set sneaker trends for most of a decade.`,
     quote_ru: null,

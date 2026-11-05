@@ -8,7 +8,7 @@ export default [
 
 ### Приглашения и зал
 
-Попасть на показ было непросто. Дом строго ограничивал число гостей: закупщики крупнейших универмагов — Bergdorf Goodman, Saks Fifth Avenue, I. Magnin, Harrods, — частные клиентки и после 1956 года, через месяц, пресса. Закупщики платили «гарантийный взнос» (caution) за право присутствовать, который засчитывался в стоимость покупки моделей [проверить механизм]. Салон на втором этаже вмещал относительно немного зрителей; позолоченные стулья стояли вдоль стен, оставляя узкий проход для манекенщиц.
+Попасть на показ было непросто. Дом строго ограничивал число гостей: закупщики крупнейших универмагов — Bergdorf Goodman, Saks Fifth Avenue, I. Magnin, Harrods, — частные клиентки и после 1956 года, через месяц, пресса. Салон на втором этаже вмещал относительно немного зрителей; позолоченные стулья стояли вдоль стен, оставляя узкий проход для манекенщиц.
 
 ### Тишина
 
@@ -46,7 +46,7 @@ export default [
 
 ### Диана Вриланд
 
-Диана Вриланд, сначала редактор моды Harper's Bazaar, затем главный редактор Vogue (1963–1971) и консультант Института костюма Метрополитен-музея, называла Баленсиагу «верховным жрецом» моды и вспоминала, что выйти в его платье — всё равно что войти в комнату в броне [проверить формулировку]. В 1973 году, уже после смерти мастера, она курировала выставку «The World of Balenciaga» в Метрополитен-музее — одну из первых больших музейных выставок, посвящённых модельеру.
+Диана Вриланд, сначала редактор моды Harper's Bazaar, затем главный редактор Vogue (1963–1971) и консультант Института костюма Метрополитен-музея, была одной из самых преданных поклонниц мастера. В 1973 году, уже после смерти мастера, она курировала выставку «The World of Balenciaga» в Метрополитен-музее — одну из первых больших музейных выставок, посвящённых модельеру.
 
 ### Беттина Баллард и другие
 
@@ -58,8 +58,8 @@ export default [
 
 ### Интервью 1971 года
 
-Последнее и самое известное интервью мастер дал в 1971 году Прюденс Глинн, модному редактору The Times. В нём он говорил о ремесле, о том, как изменилась жизнь, ради которой создавалась высокая мода, и о том, почему он закрыл дом. Текст десятилетиями цитируют как единственный «голос» самого Баленсиаги [проверить точные цитаты].`,
-    content_en: `Balenciaga needed the press and avoided it. His great ally was Carmel Snow, editor of Harper's Bazaar from 1934 to 1958, who called him the greatest couturier of his time and brought photographers such as Richard Avedon and Louise Dahl-Wolfe to shoot his work. Diana Vreeland revered him and in 1973 curated "The World of Balenciaga" at the Met. Bettina Ballard of Vogue left vivid descriptions of the house. The 1956 press embargo angered editors, some of whom stopped covering the house, but Balenciaga held firm, backed by Givenchy. His 1971 interview with Prudence Glynn of The Times remains the closest thing to his own voice [verify quotations].`,
+Последнее и самое известное интервью мастер дал в 1971 году Прюденс Глинн, модному редактору The Times. В нём он говорил о ремесле, о том, как изменилась жизнь, ради которой создавалась высокая мода, и о том, почему он закрыл дом. Материал вышел в августе 1971 года под заголовком «Balenciaga and the Life of a Dog» и стал последним интервью мастера.`,
+    content_en: `Balenciaga needed the press and avoided it. His great ally was Carmel Snow, editor of Harper's Bazaar from 1934 to 1958, who called him the greatest couturier of his time and brought photographers such as Richard Avedon and Louise Dahl-Wolfe to shoot his work. Diana Vreeland revered him and in 1973 curated "The World of Balenciaga" at the Met. Bettina Ballard of Vogue left vivid descriptions of the house. The 1956 press embargo angered editors, some of whom stopped covering the house, but Balenciaga held firm, backed by Givenchy. His 1971 interview with Prudence Glynn of The Times — published in August 1971 as “Balenciaga and the Life of a Dog” — was his last.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -80,7 +80,7 @@ export default [
 
 ### 1947: «бочка»
 
-Жакет-«бочка» (barrel line) с округлой спиной и свободной линией бёдер — ответ Баленсиаги на New Look Диора, показанный, по распространённой версии, в том же году [проверить]. Вместо подчёркнутой талии — округлый объём.
+Жакет-«бочка» (barrel line) с округлой спиной и свободной линией бёдер — ответ Баленсиаги на New Look Диора, показанный в феврале 1947 года — в том же месяце, что и New Look. Вместо подчёркнутой талии — округлый объём.
 
 ### 1950–1951: полуприлегающий силуэт
 
@@ -111,7 +111,7 @@ export default [
 Платья и пальто из газара, держащие форму без каркаса; вечерние «облака»; свадебное платье 1967 года с капюшоном. Последние коллекции — предельная простота, сведение формы к нескольким линиям и швам.
 
 Эта последовательность объясняет, почему Баленсиагу называют не модельером одного стиля, а исследователем формы: каждый следующий силуэт вырастал из предыдущего, как в серии работ художника.`,
-    content_en: `Almost every collection brought a new idea; dates of individual lines vary between sources. 1937–1939: Spain in Paris — infanta dresses, boleros, velvet and lace. War years: narrow skirts, economical coats, attention to sleeve and back. 1947: the barrel line, a rounded answer to Dior's New Look [verify]. 1950–1951: the semi-fitted silhouette. 1953: the balloon jacket. 1955: the tunic. 1957: the sack. 1958: baby-doll, Empire and the "peacock" line with long back trains. 1959–1962: kimono sleeves and Japanese influence. 1963–1968: gazar, abstraction and the hooded 1967 wedding dress — form reduced to a few lines and seams.`,
+    content_en: `Almost every collection brought a new idea; dates of individual lines vary between sources. 1937–1939: Spain in Paris — infanta dresses, boleros, velvet and lace. War years: narrow skirts, economical coats, attention to sleeve and back. 1947: the barrel line, a rounded answer to Dior's New Look. 1950–1951: the semi-fitted silhouette. 1953: the balloon jacket. 1955: the tunic. 1957: the sack. 1958: baby-doll, Empire and the "peacock" line with long back trains. 1959–1962: kimono sleeves and Japanese influence. 1963–1968: gazar, abstraction and the hooded 1967 wedding dress — form reduced to a few lines and seams.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -124,7 +124,7 @@ export default [
 
 ### Королева Фабиола (1960)
 
-15 декабря 1960 года в Брюсселе донья Фабиола де Мора-и-Арагон вышла замуж за короля Бельгии Бодуэна. Её платье создал Баленсиага — давний друг семьи и протеже её бабушки, маркизы де Каса-Торрес. Платье из белого шёлкового атласа со строгим силуэтом, высоким воротником и длинным шлейфом, отделанное горностаем [проверить материал отделки], было сдержанным и величественным одновременно. Его показывали по телевидению по всей Европе, и оно закрепило за Баленсиагой репутацию «кутюрье королей».
+15 декабря 1960 года в Брюсселе донья Фабиола де Мора-и-Арагон вышла замуж за короля Бельгии Бодуэна. Её платье создал Баленсиага — давний друг семьи и протеже её бабушки, маркизы де Каса-Торрес. Платье из белого шёлкового атласа со строгим силуэтом, высоким воротником и длинным шлейфом, отделанное белой норкой, было сдержанным и величественным одновременно. Его показывали по телевидению по всей Европе, и оно закрепило за Баленсиагой репутацию «кутюрье королей».
 
 ### Платье с капюшоном (1967)
 
@@ -132,12 +132,12 @@ export default [
 
 ### Последнее платье (1972)
 
-В марте 1972 года, за несколько недель до смерти, Баленсиага создал своё последнее известное произведение — свадебное платье для Кармен Мартинес-Бордиу, внучки генерала Франко, выходившей замуж за Альфонсо де Бурбона, герцога Кадисского. Мастер, уже отошедший от дел, согласился сделать исключение. Платье из белого атласа с длинным шлейфом [проверить детали] стало финальной точкой его карьеры.
+В марте 1972 года, за несколько недель до смерти, Баленсиага создал своё последнее известное произведение — свадебное платье для Кармен Мартинес-Бордиу, внучки генерала Франко, выходившей замуж за Альфонсо де Бурбона, герцога Кадисского. Мастер, уже отошедший от дел, согласился сделать исключение. Это свадебное платье стало финальной точкой его карьеры.
 
 ### Другие невесты
 
 На протяжении 1940–1960-х годов дом шил свадебные платья для европейских аристократок, американских наследниц и испанских семей. Многие из них сегодня хранятся в музеях — в Метрополитен-музее, в музее Виктории и Альберта, в музее Баленсиаги в Гетарии. Общая черта этих платьев — отказ от пышности ради безупречной линии: Баленсиага считал, что невеста должна выглядеть величественно, а не нарядно.`,
-    content_en: `Wedding dresses joined Balenciaga's purity of form to Catholic solemnity. On 15 December 1960 Fabiola de Mora y Aragón married King Baudouin of Belgium in a severe white satin gown with a high collar and long train [verify trimming], televised across Europe. The hooded gazar wedding dress of 1967, without lace, embroidery or flowers, is considered one of the most perfect garments of the century. His last known work, in March 1972, was the wedding dress of Carmen Martínez-Bordiú, Franco's granddaughter. Many other bridal gowns survive in the Met, the V&A and the Getaria museum — majestic rather than ornate.`,
+    content_en: `Wedding dresses joined Balenciaga's purity of form to Catholic solemnity. On 15 December 1960 Fabiola de Mora y Aragón married King Baudouin of Belgium in a severe white satin gown with a high collar and long train, trimmed with white mink, televised across Europe. The hooded gazar wedding dress of 1967, without lace, embroidery or flowers, is considered one of the most perfect garments of the century. His last known work, in March 1972, was the wedding dress of Carmen Martínez-Bordiú, Franco's granddaughter. Many other bridal gowns survive in the Met, the V&A and the Getaria museum — majestic rather than ornate.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,

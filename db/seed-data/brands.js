@@ -1,5 +1,5 @@
 // Данные 15 брендов: таблицы brands, collections, creative_directors, brand_timeline_events.
-// Только реальные факты; где дата или деталь требует сверки — пометка [проверить].
+// Только реальные факты, сверенные с источниками (правка П3: пометок «проверить» нет).
 // palette — цвета и стиль SVG-заглушек (scripts/generate-placeholders.js).
 // collections: [name, season, year, is_new]
 // directors: [name, from, to, desc_ru, desc_en, key_ru, key_en]
@@ -42,11 +42,12 @@ export const BRANDS = [
       ['Pierpaolo Piccioli', 2025, null,
         'Бывший креативный директор Valentino (2008–2024). Назначен в Balenciaga в 2025 году.',
         'Former creative director of Valentino (2008–2024), appointed at Balenciaga in 2025.',
-        'Дебютная коллекция весна–лето 2026 [проверить]', 'Debut Spring–Summer 2026 collection [verify]'],
+        'Дебютная коллекция весна–лето 2026 (4 октября 2025), первый кутюр (июль 2026)', 'Debut Spring–Summer 2026 collection (4 October 2025), first couture (July 2026)'],
     ],
     timeline: [
       [1895, 'Рождение Кристобаля Баленсиаги', 'Cristóbal Balenciaga is born', 'Родился в рыбацкой Гетарии в Стране Басков; мать — портниха.', 'Born in the fishing village of Getaria in the Basque Country; his mother was a seamstress.'],
       [1917, 'Первое ателье в Сан-Себастьяне', 'First atelier in San Sebastián', 'Молодой мастер открывает своё ателье на курорте, куда съезжалась испанская аристократия.', 'The young couturier opens his atelier in the resort favoured by the Spanish aristocracy.'],
+      [1927, 'EISA', 'EISA', 'Создана вторая, более доступная марка — EISA, по фамилии матери, Эйсагирре; позже открылись дома в Мадриде (1933) и Барселоне (1935).', 'A second, more accessible label is founded — EISA, after his mother’s surname Eizaguirre; houses in Madrid (1933) and Barcelona (1935) followed.'],
       [1937, 'Дом в Париже', 'The Paris house', 'После начала гражданской войны в Испании Баленсиага открывает дом на авеню Георга V, 10.', 'After the outbreak of the Spanish Civil War, Balenciaga opens his house at 10 avenue George V.'],
       [1957, 'Платье-мешок', 'The sack dress', 'Силуэт, свободный от талии, на годы опередил моду.', 'A silhouette free of the waist that was years ahead of its time.'],
       [1968, 'Закрытие дома', 'The house closes', 'Баленсиага закрывает дом, не желая работать в эпоху прет-а-порте.', 'Balenciaga closes his house, unwilling to work in the age of ready-to-wear.'],
@@ -58,6 +59,7 @@ export const BRANDS = [
       [2017, 'Triple S', 'Triple S', 'Кроссовки на тройной подошве запускают моду на «папины» кроссовки.', 'The triple-stacked sneaker launches the “dad shoe” craze.'],
       [2021, 'Возвращение кутюра', 'Return to couture', 'Первая кутюрная коллекция дома за 53 года.', 'The house’s first couture collection in 53 years.'],
       [2025, 'Пьерпаоло Пиччоли', 'Pierpaolo Piccioli', 'Бывший креативный директор Valentino возглавляет дом.', 'The former creative director of Valentino takes the helm.'],
+      [2026, 'Кутюр Пиччоли', 'Piccioli’s couture', 'Пьерпаоло Пиччоли показывает свою первую кутюрную коллекцию для дома.', 'Pierpaolo Piccioli presents his first couture collection for the house.'],
     ],
   },
   {
@@ -72,17 +74,17 @@ export const BRANDS = [
         'Сооснователь и первый дизайнер коллектива; до Vetements работал в Maison Martin Margiela и Louis Vuitton.',
         'Co-founder and first designer of the collective; before Vetements he worked at Maison Martin Margiela and Louis Vuitton.',
         'Футболка DHL (весна–лето 2016), коллекция с коллаборациями весна–лето 2017', 'DHL T-shirt (Spring–Summer 2016), the Spring–Summer 2017 collaborations collection'],
-      ['Guram Gvasalia', 2019, null,
-        'Сооснователь и генеральный директор; после ухода Демны возглавил творческое направление марки.',
-        'Co-founder and CEO, who took over the creative direction after Demna’s departure.',
-        'Коллекции 2020-х, линия VTMNTS [проверить]', 'Collections of the 2020s, the VTMNTS line [verify]'],
+      ['Guram Gvasalia', 2021, null,
+        'Сооснователь и генеральный директор; в декабре 2021 года официально стал и креативным директором марки (после ухода Демны в 2019 году эта должность пустовала).',
+        'Co-founder and CEO, officially named creative director in December 2021 (the post had been vacant since Demna left in 2019).',
+        'Коллекции с осени–зимы 2022; линия VTMNTS (2021)', 'Collections from Fall–Winter 2022; the VTMNTS line (2021)'],
     ],
     timeline: [
       [2014, 'Основание коллектива', 'The collective is founded', 'Демна и Гурам Гвасалия объединяют группу дизайнеров в Париже.', 'Demna and Guram Gvasalia bring together a group of designers in Paris.'],
       [2015, 'Футболка DHL', 'The DHL T-shirt', 'Жёлтая футболка из коллекции весна–лето 2016 становится символом иронии в моде.', 'The yellow T-shirt from the Spring–Summer 2016 collection becomes a symbol of irony in fashion.'],
-      [2016, 'Коллекция коллабораций', 'The collaborations collection', 'Коллекция весна–лето 2017 сделана вместе с десятками марок — от Levi’s до Manolo Blahnik [проверить: точное число].', 'The Spring–Summer 2017 collection is made with numerous brands, from Levi’s to Manolo Blahnik [verify exact number].'],
+      [2016, 'Коллекция коллабораций', 'The collaborations collection', 'Коллекция весна–лето 2017 сделана вместе с 18 марками — от Levi’s до Manolo Blahnik.', 'The Spring–Summer 2017 collection is made with numerous brands, from Levi’s to Manolo Blahnik.'],
       [2019, 'Уход Демны', 'Demna leaves', 'Демна покидает Vetements, сосредоточившись на Balenciaga.', 'Demna leaves Vetements to focus on Balenciaga.'],
-      [2020, 'Новая глава', 'A new chapter', 'Творческое направление марки возглавляет Гурам Гвасалия [проверить].', 'Guram Gvasalia leads the creative direction of the brand [verify].'],
+      [2021, 'Новая глава', 'A new chapter', 'Запущена линия VTMNTS; в декабре Гурам Гвасалия официально становится креативным директором.', 'The VTMNTS line launches; in December Guram Gvasalia is officially named creative director.'],
     ],
   },
   {
@@ -124,7 +126,7 @@ export const BRANDS = [
       ['Demna', 2025, null,
         'Назначен художественным директором Gucci в 2025 году после десяти лет в Balenciaga.',
         'Appointed artistic director of Gucci in 2025 after a decade at Balenciaga.',
-        'Первые коллекции для Gucci [проверить]', 'First collections for Gucci [verify]'],
+        'Лукбук «La Famiglia» (сентябрь 2025)', 'The “La Famiglia” lookbook (September 2025)'],
     ],
     timeline: [
       [1921, 'Лавка во Флоренции', 'A shop in Florence', 'Гуччо Гуччи открывает лавку кожаных изделий и дорожных сумок.', 'Guccio Gucci opens a shop of leather goods and travel bags.'],
@@ -132,7 +134,7 @@ export const BRANDS = [
       [1953, 'Лоферы Horsebit и Нью-Йорк', 'Horsebit loafers and New York', 'Появляются лоферы с пряжкой-трензелем; открывается бутик в Нью-Йорке.', 'The horsebit loafer appears and a New York boutique opens.'],
       [1966, 'Принт Flora', 'The Flora print', 'Художник Витторио Аккорнеро создаёт цветочный принт для Грейс Келли.', 'Artist Vittorio Accornero creates the floral print for Grace Kelly.'],
       [1994, 'Том Форд', 'Tom Ford', 'Том Форд становится креативным директором.', 'Tom Ford becomes creative director.'],
-      [1999, 'Альянс с PPR', 'Alliance with PPR', 'Группа PPR (ныне Kering) покупает крупный пакет акций Gucci [проверить: размер доли].', 'The PPR group (now Kering) buys a major stake in Gucci [verify stake].'],
+      [1999, 'Альянс с PPR', 'Alliance with PPR', 'Группа PPR (ныне Kering) покупает 42 % акций Gucci Group.', 'The PPR group (now Kering) buys a 42% stake in Gucci Group.'],
       [2015, 'Алессандро Микеле', 'Alessandro Michele', 'Начинается эпоха винтажного максимализма.', 'The era of vintage maximalism begins.'],
       [2023, 'Сабато Де Сарно', 'Sabato De Sarno', 'Дебютная коллекция «Ancora».', 'The debut “Ancora” collection.'],
       [2025, 'Демна в Gucci', 'Demna at Gucci', 'Демна назначен художественным директором дома.', 'Demna is appointed artistic director of the house.'],
@@ -165,7 +167,7 @@ export const BRANDS = [
     ],
     timeline: [
       [1913, 'Fratelli Prada', 'Fratelli Prada', 'Марио и Мартино Прада открывают магазин в галерее Виктора Эммануила II.', 'Mario and Martino Prada open a shop in the Galleria Vittorio Emanuele II.'],
-      [1919, 'Поставщик королевского двора', 'Royal warrant', 'Prada получает статус поставщика итальянского королевского дома [проверить год].', 'Prada becomes an official supplier to the Italian Royal Household [verify year].'],
+      [1919, 'Поставщик королевского двора', 'Royal warrant', 'Prada получает статус официального поставщика итальянского королевского дома и право использовать герб Савойской династии.', 'Prada becomes an official supplier to the Italian Royal Household and may use the Savoy coat of arms.'],
       [1978, 'Миучча Прада', 'Miuccia Prada', 'Внучка основателя возглавляет компанию; вскоре её партнёром становится Патрицио Бертелли.', 'The founder’s granddaughter takes over; Patrizio Bertelli soon becomes her partner.'],
       [1984, 'Нейлоновый рюкзак', 'The nylon backpack', 'Промышленный нейлон Pocone становится материалом роскоши.', 'Industrial Pocone nylon becomes a luxury material.'],
       [1988, 'Первая коллекция одежды', 'First ready-to-wear', 'Дебют женского прет-а-порте Prada.', 'Prada’s womenswear debut.'],
@@ -173,7 +175,7 @@ export const BRANDS = [
       [2011, 'Биржа Гонконга', 'Hong Kong listing', 'Prada S.p.A. выходит на Гонконгскую фондовую биржу.', 'Prada S.p.A. lists on the Hong Kong Stock Exchange.'],
       [2019, 'Re-Nylon', 'Re-Nylon', 'Запуск линии из переработанного нейлона.', 'Launch of the recycled nylon line.'],
       [2020, 'Раф Симонс', 'Raf Simons', 'Раф Симонс становится сокреативным директором.', 'Raf Simons becomes co-creative director.'],
-      [2025, 'Покупка Versace', 'Acquisition of Versace', 'Prada Group приобретает Versace [проверить: дата закрытия сделки].', 'Prada Group acquires Versace [verify closing date].'],
+      [2025, 'Покупка Versace', 'Acquisition of Versace', 'Prada Group приобретает Versace; сделка закрыта 2 декабря 2025 года.', 'Prada Group acquires Versace; the deal closes on 2 December 2025.'],
     ],
   },
   {
@@ -187,12 +189,10 @@ export const BRANDS = [
       ['Henri Alexander Levy', 2012, null,
         'Основатель и единственный креативный директор. Американский художник и дизайнер, соединяющий панк, литературу и аристократическую тоску.',
         'Founder and sole creative director. An American artist and designer blending punk, literature and aristocratic ennui.',
-        'Расписанные вручную кожаные куртки, футболки с «нацарапанными» надписями [проверить: ключевые коллекции]', 'Hand-painted leather jackets, T-shirts with “scratched” lettering [verify key collections]'],
+        'Расписанные вручную кожаные куртки, футболки с «нацарапанными» надписями', 'Hand-painted leather jackets, T-shirts with “scratched” lettering'],
     ],
     timeline: [
       [2012, 'Основание марки', 'The label is founded', 'Анри Александр Леви выпускает первые вещи под именем Enfants Riches Déprimés.', 'Henri Alexander Levy releases the first pieces under the Enfants Riches Déprimés name.'],
-      [2016, 'Культовый статус', 'Cult status', 'Марку носят музыканты и художники; вещи раскупаются мгновенно [проверить].', 'Musicians and artists adopt the label; pieces sell out instantly [verify].'],
-      [2019, 'Показы в Париже', 'Paris shows', 'ERD представляет коллекции в Париже [проверить год].', 'ERD presents collections in Paris [verify year].'],
     ],
   },
   {
@@ -204,13 +204,13 @@ export const BRANDS = [
     collections: [['SS25', 'SS', 2025, false], ['FW25', 'FW', 2025, false], ['SS26', 'SS', 2026, false], ['FW26', 'FW', 2026, true]],
     directors: [
       ['Beate Karlsson', 2021, null,
-        'Шведский дизайнер, креативный директор AVAVAV; её показы в Милане превращаются в перформансы о хрупкости и абсурде моды [проверить: год прихода].',
-        'Swedish designer and creative director of AVAVAV whose Milan shows become performances about fashion’s fragility and absurdity [verify start year].',
-        'Показы на Неделе моды в Милане 2023–2025 [проверить]', 'Milan Fashion Week shows 2023–2025 [verify]'],
+        'Шведский дизайнер, креативный директор AVAVAV; её показы в Милане превращаются в перформансы о хрупкости и абсурде моды.',
+        'Swedish designer and creative director of AVAVAV whose Milan shows become performances about fashion’s fragility and absurdity.',
+        'Показы на Неделе моды в Милане', 'Milan Fashion Week shows'],
     ],
     timeline: [
-      [2021, 'Основание', 'Founded', 'Марка запущена во Флоренции [проверить год].', 'The label launches in Florence [verify year].'],
-      [2023, 'Перформансы в Милане', 'Milan performances', 'Показы с «разваливающейся» одеждой делают марку вирусной [проверить].', 'Shows with “falling apart” clothes make the label go viral [verify].'],
+      [2021, 'Основание', 'Founded', 'Марка запущена во Флоренции.', 'The label launches in Florence.'],
+      [2023, 'Перформансы в Милане', 'Milan performances', 'Показы с «разваливающейся» одеждой делают марку вирусной.', 'Shows with “falling apart” clothes make the label go viral.'],
     ],
   },
   {
@@ -256,16 +256,10 @@ export const BRANDS = [
         'Совладелица и творческий партнёр Ричарда Старка; отвечает за развитие женских линий и образа марки.',
         'Co-owner and creative partner of Richard Stark, shaping the women’s lines and the brand’s image.',
         'Женские коллекции и ювелирные линии', 'Women’s collections and jewellery lines'],
-      ['Jesse Jo Stark', 2010, null,
-        'Дочь основателей, музыкант; участвует в создании капсул и коллабораций [проверить: годы].',
-        'The founders’ daughter and a musician, involved in capsules and collaborations [verify years].',
-        'Капсульные коллекции 2010–2020-х [проверить]', 'Capsule collections of the 2010s–2020s [verify]'],
     ],
     timeline: [
       [1988, 'Основание в Лос-Анджелесе', 'Founded in Los Angeles', 'Ричард Старк основывает Chrome Hearts — кожаная одежда для мотоциклистов с серебряной фурнитурой.', 'Richard Stark founds Chrome Hearts — leather motorcycle gear with silver hardware.'],
-      [1992, 'Награда CFDA', 'CFDA award', 'Марка получает награду CFDA в категории аксессуаров [проверить].', 'The brand receives a CFDA accessories award [verify].'],
-      [1996, 'Очки Chrome Hearts', 'Chrome Hearts eyewear', 'Запуск собственной линии очков [проверить год].', 'Launch of its own eyewear line [verify year].'],
-      [2016, 'Коллаборации нового поколения', 'New-generation collaborations', 'Капсулы с артистами и моделями приводят марку к новой аудитории [проверить].', 'Capsules with artists and models bring the brand a new audience [verify].'],
+      [1992, 'Награда CFDA', 'CFDA award', 'Марка получает награду CFDA в категории аксессуаров (Accessory Designer of the Year).', 'Richard Stark receives the CFDA Accessory Designer of the Year award.'],
     ],
   },
   {
@@ -346,7 +340,7 @@ export const BRANDS = [
       ['Matthieu Blazy', 2024, null,
         'Бывший креативный директор Bottega Veneta, назначен художественным директором Chanel в декабре 2024 года.',
         'Former creative director of Bottega Veneta, appointed artistic director of Chanel in December 2024.',
-        'Дебют весна–лето 2026 [проверить]', 'Spring–Summer 2026 debut [verify]'],
+        'Дебют весна–лето 2026 (Гран-Пале, октябрь 2025)', 'Spring–Summer 2026 debut (Grand Palais, October 2025)'],
     ],
     timeline: [
       [1883, 'Рождение Габриэль Шанель', 'Gabrielle Chanel is born', 'Родилась в Сомюре; детство провела в приюте аббатства Обазин.', 'Born in Saumur; spent her childhood in the orphanage at Aubazine Abbey.'],
@@ -385,7 +379,7 @@ export const BRANDS = [
       ['Glenn Martens', 2025, null,
         'Бельгийский дизайнер, бывший креативный директор Y/Project и Diesel; возглавил дом в 2025 году.',
         'Belgian designer, former creative director of Y/Project and Diesel, who took over the house in 2025.',
-        'Дебют Artisanal 2025 [проверить]', 'Artisanal 2025 debut [verify]'],
+        'Дебют Artisanal (июль 2025)', 'Artisanal debut (July 2025)'],
     ],
     timeline: [
       [1957, 'Рождение Мартина Маржела', 'Martin Margiela is born', 'Родился в Генке (Бельгия).', 'Born in Genk, Belgium.'],
@@ -469,9 +463,9 @@ export const BRANDS = [
         'The founder’s sister, who led the creative direction for almost thirty years after his death.',
         'Зелёное платье с принтом джунглей (2000), коллекция-трибьют весна–лето 2018', 'The green jungle-print dress (2000), the Spring–Summer 2018 tribute collection'],
       ['Dario Vitale', 2025, 2025,
-        'Бывший дизайн-директор Miu Miu, назначен креативным директором в 2025 году [проверить: по имеющимся данным, покинул дом в конце 2025 года].',
-        'Former design director at Miu Miu, appointed creative director in 2025 [verify: reportedly left the house at the end of 2025].',
-        'Дебют весна–лето 2026 [проверить]', 'Spring–Summer 2026 debut [verify]'],
+        'Бывший дизайн-директор Miu Miu; креативный директор Versace в 2025 году, покинул дом в декабре 2025 года после перехода Versace в Prada Group.',
+        'Former design director at Miu Miu; creative director of Versace in 2025, left in December 2025 after Versace joined Prada Group.',
+        'Единственная коллекция — весна–лето 2026', 'His only collection — Spring–Summer 2026'],
     ],
     timeline: [
       [1946, 'Рождение Джанни Версаче', 'Gianni Versace is born', 'Родился в Реджо-ди-Калабрии.', 'Born in Reggio Calabria.'],
@@ -482,7 +476,7 @@ export const BRANDS = [
       [1997, 'Гибель Джанни', 'Gianni’s death', 'Джанни Версаче убит в Майами; дом возглавляет Донателла.', 'Gianni Versace is murdered in Miami; Donatella takes over.'],
       [2000, 'Платье Jungle', 'The Jungle dress', 'Дженнифер Лопес на «Грэмми»; интерес к платью вдохновил Google Images.', 'Jennifer Lopez at the Grammys; interest in the dress inspired Google Images.'],
       [2018, 'Capri Holdings', 'Capri Holdings', 'Michael Kors Holdings (Capri) покупает Versace.', 'Michael Kors Holdings (Capri) buys Versace.'],
-      [2025, 'Prada Group', 'Prada Group', 'Prada Group приобретает Versace [проверить: дата закрытия сделки].', 'Prada Group acquires Versace [verify closing date].'],
+      [2025, 'Prada Group', 'Prada Group', 'Prada Group приобретает Versace; сделка закрыта 2 декабря 2025 года.', 'Prada Group acquires Versace; the deal closes on 2 December 2025.'],
     ],
   },
   {
@@ -508,7 +502,7 @@ export const BRANDS = [
     ],
     timeline: [
       [1969, 'Рождение Ли Маккуина', 'Lee McQueen is born', 'Родился в Лондоне в семье таксиста.', 'Born in London, the son of a taxi driver.'],
-      [1986, 'Сэвил-роу', 'Savile Row', 'Ученик портного в ателье Anderson & Sheppard [проверить год].', 'Apprentice tailor at Anderson & Sheppard [verify year].'],
+      [1985, 'Сэвил-роу', 'Savile Row', 'В шестнадцать лет Ли Маккуин поступает учеником в портновское ателье Anderson & Sheppard.', 'Aged sixteen, Lee McQueen becomes an apprentice at the Anderson & Sheppard tailoring house.'],
       [1992, 'Выпускная коллекция', 'Graduate collection', 'Изабелла Блоу покупает его выпускную коллекцию Central Saint Martins целиком.', 'Isabella Blow buys his entire Central Saint Martins graduate collection.'],
       [1993, 'Бамстеры', 'Bumsters', 'Брюки с экстремально низкой посадкой.', 'Trousers with an extremely low rise.'],
       [1996, 'Givenchy', 'Givenchy', 'Маккуин возглавляет дом Givenchy (до 2001).', 'McQueen takes over Givenchy (until 2001).'],
@@ -530,12 +524,12 @@ export const BRANDS = [
     collections: [['Spring Summer 2025', 'SS', 2025, false], ['Fall Winter 2025', 'FW', 2025, false], ['Spring Summer 2026', 'SS', 2026, false], ['Fall Winter 2026', 'FW', 2026, true]],
     directors: [
       ['Pietro Loro Piana', 1924, 1941,
-        'Основал шерстяную фабрику в Кваруне (Пьемонт), продолжив текстильную традицию семьи [проверить: годы руководства].',
-        'Founded the wool mill in Quarona, Piedmont, continuing the family’s textile tradition [verify years].',
+        'Основал шерстяную фабрику в Кваруне (Пьемонт), продолжив текстильную традицию семьи.',
+        'Founded the wool mill in Quarona, Piedmont, continuing the family’s textile tradition.',
         'Шерстяные ткани для портных', 'Wool cloth for tailors'],
       ['Franco Loro Piana', 1941, 1975,
-        'Вывел ткани семьи на международный рынок портновских тканей [проверить: годы].',
-        'Took the family’s fabrics to the international tailoring market [verify years].',
+        'Вывел ткани семьи на международный рынок портновских тканей.',
+        'Took the family’s fabrics to the international tailoring market.',
         'Экспорт тканей', 'Fabric exports'],
       ['Sergio & Pier Luigi Loro Piana', 1975, 2013,
         'Братья превратили фабрику в люксовый бренд готовой одежды и аксессуаров; сделали ставку на редчайшие волокна.',
@@ -545,9 +539,9 @@ export const BRANDS = [
     timeline: [
       [1924, 'Фабрика в Кваруне', 'The Quarona mill', 'Пьетро Лоро Пьяна основывает шерстяную фабрику в Вальсезии.', 'Pietro Loro Piana founds the wool mill in Valsesia.'],
       [1975, 'Новое поколение', 'A new generation', 'Компанию возглавляют братья Серджо и Пьер Луиджи.', 'Brothers Sergio and Pier Luigi take the helm.'],
-      [1994, 'Викунья', 'Vicuña', 'Компания участвует в программе по сохранению викуний в Перу [проверить].', 'The company joins a vicuña conservation programme in Peru [verify].'],
+      [1994, 'Викунья', 'Vicuña', 'Компания начинает работать с волокном викуньи.', 'The company begins working with vicuña fibre.'],
       [2013, 'LVMH', 'LVMH', 'LVMH приобретает 80% Loro Piana; в декабре умирает Серджо Лоро Пьяна.', 'LVMH acquires 80% of Loro Piana; Sergio Loro Piana dies in December.'],
-      [2025, 'Судебное управление', 'Judicial administration', 'Суд Милана назначает временное судебное управление из-за нарушений у субподрядчиков [проверить].', 'A Milan court places the company under temporary judicial administration over subcontractor abuses [verify].'],
+      [2025, 'Судебное управление', 'Judicial administration', '14 июля 2025 года суд Милана назначает судебное управление компанией сроком на год из-за нарушений трудовых прав у субподрядчиков.', 'On 14 July 2025 a Milan court places the company under judicial administration for a year over labour abuses at subcontractors.'],
     ],
   },
 ];

@@ -8,7 +8,7 @@ export default [
 
 ### Имя матери
 
-Название EISA происходит от фамилии матери мастера — Эйсагирре. Под этим именем работали дома в Сан-Себастьяне, Мадриде и Барселоне [проверить точные даты открытия: Мадрид — около 1933 года, Барселона — около 1935 года]. Изначально они задумывались как более доступная линия по отношению к кутюру под собственным именем, но со временем стали полноценными домами высокой моды для испанской клиентуры.
+Название EISA происходит от фамилии матери мастера — Эйсагирре. Под этим именем работали дома в Сан-Себастьяне, Мадриде (с 1933 года) и Барселоне (с 1935 года). Изначально они задумывались как более доступная линия по отношению к кутюру под собственным именем, но со временем стали полноценными домами высокой моды для испанской клиентуры.
 
 ### Работа во время и после войны
 
@@ -24,8 +24,8 @@ export default [
 
 ### Закрытие
 
-В 1968 году вместе с парижским домом закрылись и испанские. Для Испании это стало концом эпохи: страна теряла не только модный дом, но и символ того, что испанец может быть первым в Париже. Архивы и часть моделей EISA сегодня хранятся в музее в Гетарии и в Музее костюма в Мадриде [проверить].`,
-    content_en: `While Paris watched in silence on avenue George V, the Spanish half of the empire worked under the name EISA, from the master's mother's surname Eizaguirre, with houses in San Sebastián, Madrid (around 1933) and Barcelona (around 1935) [verify dates]. Disrupted by the Civil War, they reopened in the 1940s and, in isolated post-war Spain, offered Paris-level clothing adapted to local tastes, fabrics and religious customs. Balenciaga travelled regularly to oversee them. EISA trained hundreds of Spanish craftspeople — Oscar de la Renta started there — and closed together with Paris in 1968. Archives survive in Getaria and the Museo del Traje in Madrid [verify].`,
+В 1968 году вместе с парижским домом закрылись и испанские. Для Испании это стало концом эпохи: страна теряла не только модный дом, но и символ того, что испанец может быть первым в Париже.`,
+    content_en: `While Paris watched in silence on avenue George V, the Spanish half of the empire worked under the name EISA, from the master's mother's surname Eizaguirre, with houses in San Sebastián, Madrid (from 1933) and Barcelona (from 1935). Disrupted by the Civil War, they reopened in the 1940s and, in isolated post-war Spain, offered Paris-level clothing adapted to local tastes, fabrics and religious customs. Balenciaga travelled regularly to oversee them. EISA trained hundreds of Spanish craftspeople — Oscar de la Renta started there — and closed together with Paris in 1968.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -68,19 +68,19 @@ export default [
     period: '2011–2026',
     title_ru: 'Музей в Гетарии',
     title_en: 'The museum in Getaria',
-    content_ru: `Cristóbal Balenciaga Museoa — единственный в мире музей, целиком посвящённый одному кутюрье в его родном городе, — открылся в Гетарии в июне 2011 года [проверить дату], почти через сорок лет после смерти мастера.
+    content_ru: `Cristóbal Balenciaga Museoa — единственный в мире музей, целиком посвящённый одному кутюрье в его родном городе, — открылся в Гетарии 7 июня 2011 года, почти через сорок лет после смерти мастера.
 
 ### Долгий путь
 
-Идея музея возникла ещё в конце 1990-х. Проект поддерживали муниципалитет Гетарии, правительство Страны Басков и фонд, созданный для сохранения наследия мастера; почётным президентом фонда был Юбер де Живанши, который до конца жизни считал своим долгом сохранить память об учителе. Строительство затянулось на годы из-за финансовых и организационных трудностей [проверить], но в итоге музей открылся при участии королевы Испании Софии [проверить].
+Идея музея возникла ещё в конце 1990-х. Проект поддерживали муниципалитет Гетарии, правительство Страны Басков и фонд, созданный для сохранения наследия мастера; почётным президентом фонда был Юбер де Живанши, который до конца жизни считал своим долгом сохранить память об учителе. Работа над проектом растянулась почти на десятилетие; на открытии присутствовали королева Испании София и Юбер де Живанши — друг мастера и один из главных сторонников музея.
 
 ### Здание
 
-Музей объединяет историческое здание — дворец Альдамар, летнюю резиденцию семьи маркизы де Каса-Торрес, — и современный корпус из стекла и тёмного камня, спускающийся по склону к морю [проверить автора проекта]. Символика очевидна: именно в этом доме мальчик из рыбацкой семьи впервые увидел вблизи парижскую высокую моду. Теперь здесь хранятся его собственные произведения.
+Музей объединяет историческое здание — дворец Альдамар, летнюю резиденцию семьи маркизы де Каса-Торрес, — и современный корпус из стекла и тёмного камня, спускающийся по склону к морю (архитекторы Виктория Гаррига и Тоньо Форастер). Символика очевидна: именно в этом доме мальчик из рыбацкой семьи впервые увидел вблизи парижскую высокую моду. Теперь здесь хранятся его собственные произведения.
 
 ### Коллекция
 
-Фонды музея насчитывают более тысячи предметов [проверить] — платья, пальто, костюмы, шляпы, аксессуары, а также документы, фотографии, выкройки, ткани. Значительная часть поступила от бывших клиенток и их семей, от фондов и частных коллекционеров. Музей регулярно меняет экспозицию, чтобы сохранять хрупкие ткани, и проводит тематические выставки — о чёрном цвете, о шляпах, о свадебных платьях, о связях мастера с другими модельерами.
+Фонды музея насчитывают более полутора тысяч предметов — платья, пальто, костюмы, шляпы, аксессуары, а также документы, фотографии, выкройки, ткани. Значительная часть поступила от бывших клиенток и их семей, от фондов и частных коллекционеров. Музей регулярно меняет экспозицию, чтобы сохранять хрупкие ткани, и проводит тематические выставки — о чёрном цвете, о шляпах, о свадебных платьях, о связях мастера с другими модельерами.
 
 ### Образование и исследования
 
@@ -89,7 +89,7 @@ export default [
 ### Место паломничества
 
 Сегодня Гетария — маленький рыбацкий город с ресторанами, где жарят рыбу на углях, и с музеем, куда приезжают дизайнеры, студенты и поклонники моды со всего мира. Многие из них после музея поднимаются на кладбище над морем, где похоронен Кристобаль Баленсиага. Отсюда видно порт, остров Сан-Антон и бесконечный Бискайский залив — тот самый пейзаж, с которого началась одна из главных историй моды XX века.`,
-    content_en: `The Cristóbal Balenciaga Museoa — the only museum devoted to a single couturier in his hometown — opened in Getaria in June 2011 [verify date], almost forty years after his death. The project, supported by the town, the Basque government and a foundation with Hubert de Givenchy as honorary president, took years to complete [verify]. It combines the Aldamar palace, summer residence of the Casa Torres family where the boy first saw Paris couture, with a modern glass-and-stone building descending towards the sea. Its collection of more than a thousand objects [verify] rotates in thematic exhibitions, and it lends to museums worldwide. Many visitors then climb to the cemetery above the sea where Balenciaga is buried.`,
+    content_en: `The Cristóbal Balenciaga Museoa — the only museum devoted to a single couturier in his hometown — opened in Getaria on 7 June 2011, almost forty years after his death. The project, supported by the town, the Basque government and a foundation strongly backed by Hubert de Givenchy, took about a decade to complete; Queen Sofía of Spain attended the opening. It combines the Aldamar palace, summer residence of the Casa Torres family where the boy first saw Paris couture, with a modern glass-and-stone building descending towards the sea. Its collection of more than 1,500 objects rotates in thematic exhibitions, and it lends to museums worldwide. Many visitors then climb to the cemetery above the sea where Balenciaga is buried.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,

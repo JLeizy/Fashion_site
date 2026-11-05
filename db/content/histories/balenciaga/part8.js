@@ -20,7 +20,7 @@ export default [
 
 ### «Роботы» (весна–лето 2007)
 
-Самая цитируемая коллекция Гескьера. Золотые и серебряные металлизированные леггинсы, собранные из сочленённых пластин, жакеты со скульптурными плечами, яркие принты на техничных тканях. Сам дизайнер вспоминал, что вдохновлялся научной фантастикой и игрушечными роботами [проверить]. Леггинсы стали одним из самых узнаваемых предметов десятилетия — их выпустили ограниченным тиражом, и они быстро превратились в коллекционную вещь.
+Самая цитируемая коллекция Гескьера. Золотые и серебряные металлизированные леггинсы, собранные из сочленённых пластин, жакеты со скульптурными плечами, яркие принты на техничных тканях. Леггинсы стали одним из самых узнаваемых предметов десятилетия — их выпустили ограниченным тиражом, и они быстро превратились в коллекционную вещь.
 
 ### Цветочные принты и «космос» (2008–2010)
 
@@ -46,7 +46,7 @@ export default [
 
 ### Логотип и узнаваемость
 
-При Демне логотип дома, переработанный в 2017 году в стиле, отсылающем к рекламе и политическим кампаниям [проверить], стал частью одежды. Футболки и худи с крупными надписями, кепки, носки, предметы быта — Balenciaga превратился в знак, который узнают мгновенно. Критики говорили о «логомании», сторонники — о точном понимании того, как работает статус в эпоху соцсетей.
+При Демне логотип дома стал частью одежды: в мужской коллекции осень–зима 2017 года, показанной в январе 2017-го, он был стилизован под логотип предвыборной кампании Берни Сандерса 2016 года. Футболки и худи с крупными надписями, кепки, носки, предметы быта — Balenciaga превратился в знак, который узнают мгновенно. Критики говорили о «логомании», сторонники — о точном понимании того, как работает статус в эпоху соцсетей.
 
 ### Магазины-«склады»
 
@@ -54,16 +54,16 @@ export default [
 
 ### Цифровые эксперименты
 
-Balenciaga одним из первых среди люксовых домов всерьёз занялся видеоиграми и виртуальными мирами. Коллекция осень–зима 2021 года была показана в формате собственной видеоигры «Afterworld: The Age of Tomorrow»; затем последовало сотрудничество с Fortnite и выпуск цифровой одежды. Дом экспериментировал с NFT и метавселенными [проверить], а в 2021 году на время удалил все публикации из своего Instagram, чем вызвал волну обсуждений [проверить].
+Balenciaga одним из первых среди люксовых домов всерьёз занялся видеоиграми и виртуальными мирами. Коллекция осень–зима 2021 года была показана в формате собственной видеоигры «Afterworld: The Age of Tomorrow»; затем последовало сотрудничество с Fortnite и выпуск цифровой одежды. Для коллекции осень–зима 2021 дом выпустил собственную видеоигру Afterworld, в сентябре 2021 года стал первым модным домом, пришедшим в Fortnite, а в июле 2021-го на время удалил все публикации из своих соцсетей, вызвав волну обсуждений.
 
 ### Рост
 
-К концу 2010-х Balenciaga стал одним из главных источников роста для Kering. По отраслевым оценкам, выручка дома превысила миллиард евро и продолжала расти до кризиса конца 2022 года [проверить цифры]. Основу продаж составляли обувь, аксессуары и «логотипная» одежда; кутюрное ателье, возрождённое в 2021 году, было прежде всего инвестицией в репутацию.
+К концу 2010-х Balenciaga стал одним из главных источников роста для Kering. Kering не раскрывает выручку дома отдельно; по оценкам отраслевых изданий, она превысила миллиард евро. Основу продаж составляли обувь, аксессуары и «логотипная» одежда; кутюрное ателье, возрождённое в 2021 году, было прежде всего инвестицией в репутацию.
 
 ### Поворот после 2022 года
 
-После кризиса ноября 2022 года Демна заметно изменил интонацию: в коллекциях стало меньше провокационных объектов и больше портновской работы, классических пальто и костюмов. Показ осень–зима 2023 года он начал с упоминания о том, что мода для него — прежде всего ремесло [проверить]. Этот поворот к «серьёзности» стал фоном для перехода Демны в Gucci в 2025 году.`,
-    content_en: `Demna changed how the house works and sells, not just how it looks. His method began on the street — office workers, tourists, guards, teenagers in tracksuits — exaggerated to the grotesque, a deconstruction learned at Margiela but scaled to a global brand. The logo, redesigned in 2017 [verify], became part of the clothes; stores looked like raw warehouses of concrete and neon. Balenciaga pioneered digital fashion: the Fall 2021 collection was shown as a video game, "Afterworld: The Age of Tomorrow", followed by Fortnite. Revenue reportedly passed a billion euros before the late-2022 crisis [verify]. Afterwards Demna turned toward tailoring and craft — the backdrop to his 2025 move to Gucci.`,
+После кризиса ноября 2022 года Демна заметно изменил интонацию: в коллекциях стало меньше провокационных объектов и больше портновской работы, классических пальто и костюмов. Коллекция осень–зима 2023 года была построена вокруг кроя и портновской работы. Этот поворот к «серьёзности» стал фоном для перехода Демны в Gucci в 2025 году.`,
+    content_en: `Demna changed how the house works and sells, not just how it looks. His method began on the street — office workers, tourists, guards, teenagers in tracksuits — exaggerated to the grotesque, a deconstruction learned at Margiela but scaled to a global brand. The logo — restyled after Bernie Sanders’s 2016 campaign logo for the Fall 2017 menswear show — became part of the clothes; stores looked like raw warehouses of concrete and neon. Balenciaga pioneered digital fashion: the Fall 2021 collection was shown as a video game, "Afterworld: The Age of Tomorrow", followed by Fortnite. Kering does not report the house’s sales separately; industry estimates put them above a billion euros. Afterwards Demna turned toward tailoring and craft — the backdrop to his 2025 move to Gucci.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -76,11 +76,11 @@ Balenciaga одним из первых среди люксовых домов �
 
 ### Кино и фотография
 
-Платья Баленсиаги снимали главные фотографы века — Ирвинг Пенн, Ричард Аведон, Сесил Битон, Том Келли [проверить]. Знаменитые снимки Аведона и Пенна для Harper's Bazaar и Vogue 1950-х превращали его силуэты в графические знаки: чёрное пятно на белом фоне, скульптура вместо платья. Сам мастер не любил кино и почти не работал для него, но его вещи появлялись на экране на плечах звёзд, носивших их в жизни.
+Платья Баленсиаги снимали главные фотографы века — Ирвинг Пенн, Ричард Аведон, Сесил Битон; с 1952 года коллекции дома регулярно снимал Том Кублин. Знаменитые снимки Аведона и Пенна для Harper's Bazaar и Vogue 1950-х превращали его силуэты в графические знаки: чёрное пятно на белом фоне, скульптура вместо платья. Сам мастер не любил кино и почти не работал для него, но его вещи появлялись на экране на плечах звёзд, носивших их в жизни.
 
 ### Документальное и игровое кино
 
-В 2024 году на Disney+ вышел испанский сериал «Кристобаль Баленсиага» (Cristóbal Balenciaga) режиссёров Хосе Мари Гоэнаги, Йона Гараньо и Айтора Арреги с Альберто Сан-Хуаном в главной роли [проверить]. Сериал рассказывает о парижских годах мастера, его отношениях с прессой, клиентками и Владзио д'Аттенвилем и о решении закрыть дом.
+В 2024 году на Disney+ вышел испанский сериал «Кристобаль Баленсиага» (Cristóbal Balenciaga) с Альберто Сан-Хуаном в главной роли (премьера — 19 января 2024 года); сюжет построен вокруг интервью 1971 года журналистке The Times Прюденс Глинн, которую сыграла Джемма Уилан. Сериал рассказывает о парижских годах мастера, его отношениях с прессой, клиентками и Владзио д'Аттенвилем и о решении закрыть дом.
 
 ### Рэп и интернет
 
@@ -92,8 +92,8 @@ Balenciaga одним из первых среди люксовых домов �
 
 ### Музей в Гетарии
 
-Особое место в культурной жизни занимает Cristóbal Balenciaga Museoa в Гетарии, открытый в 2011 году при участии королевы Софии [проверить]. Почётным президентом проекта был Юбер де Живанши. Музей хранит около тысячи двухсот предметов [проверить], проводит выставки, образовательные программы и превращает родной город мастера в место паломничества для любителей моды со всего мира.`,
-    content_en: `Few couture houses have gone from museum cases to memes. Balenciaga's dresses were photographed by Irving Penn, Richard Avedon and Cecil Beaton, who turned his silhouettes into graphic signs. In 2024 Disney+ released the Spanish series "Cristóbal Balenciaga" about his Paris years [verify]. In the 21st century the name became a staple of rap — Cardi B's "I like those Balenciagas, the ones that look like socks" (2018) — and of memes, from the IKEA bag to the 2023 AI-generated "Harry Potter by Balenciaga" videos. The word itself now names an aesthetic: cold, ironic, slightly sinister. The Cristóbal Balenciaga Museoa in Getaria, opened in 2011 with Hubert de Givenchy as honorary president, has made the master's hometown a place of pilgrimage.`,
+Особое место в культурной жизни занимает Cristóbal Balenciaga Museoa в Гетарии, открытый в 2011 году при участии королевы Софии. Почётным президентом проекта был Юбер де Живанши. Музей хранит более полутора тысяч предметов, проводит выставки, образовательные программы и превращает родной город мастера в место паломничества для любителей моды со всего мира.`,
+    content_en: `Few couture houses have gone from museum cases to memes. Balenciaga's dresses were photographed by Irving Penn, Richard Avedon and Cecil Beaton, who turned his silhouettes into graphic signs. In 2024 Disney+ released the Spanish series "Cristóbal Balenciaga" about his Paris years. In the 21st century the name became a staple of rap — Cardi B's "I like those Balenciagas, the ones that look like socks" (2018) — and of memes, from the IKEA bag to the 2023 AI-generated "Harry Potter by Balenciaga" videos. The word itself now names an aesthetic: cold, ironic, slightly sinister. The Cristóbal Balenciaga Museoa in Getaria, opened in 2011 with Hubert de Givenchy as honorary president, has made the master's hometown a place of pilgrimage.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,

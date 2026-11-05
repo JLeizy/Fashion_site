@@ -4,17 +4,17 @@ export default [
     period: '1997–2012',
     title_ru: 'Николя Гескьер: лаборатория формы',
     title_en: 'Nicolas Ghesquière: a laboratory of form',
-    content_ru: `Николя Гескьер родился в 1971 году в Комине на севере Франции и вырос в Лудёне, в долине Луары. Профессионального модного образования он не получил: в пятнадцать лет начал стажироваться у agnès b. и Корин Кобсон, затем работал ассистентом Жан-Поля Готье, после чего пришёл в Balenciaga — сначала на лицензионные проекты [проверить]. Когда в 1997 году ему поручили основную линию, у него не было ни имени, ни громкого портфолио. Зато было то, что оказалось важнее: способность смотреть на наследие Кристобаля не как на музей, а как на набор нерешённых задач.
+    content_ru: `Николя Гескьер родился в 1971 году в Комине на севере Франции и вырос в Лудёне, в долине Луары. Профессионального модного образования он не получил: в пятнадцать лет начал стажироваться у agnès b., затем работал ассистентом Жан-Поля Готье, после чего пришёл в Balenciaga — сначала на лицензионные проекты. Когда в 1997 году ему поручили основную линию, у него не было ни имени, ни громкого портфолио. Зато было то, что оказалось важнее: способность смотреть на наследие Кристобаля не как на музей, а как на набор нерешённых задач.
 
 ### Архивы и будущее
 
 Гескьер много работал в архивах дома, изучал выкройки и фотографии моделей основателя — но почти никогда не копировал их. Он брал принцип: работу с объёмом, отход ткани от тела, неожиданные пропорции, — и переводил его в язык конца XX века. В его коллекциях появились футуристические силуэты, техничные материалы, неопрен и ламинированные ткани, контрастные сочетания спортивной и вечерней одежды. Критики быстро заговорили о том, что Balenciaga снова стал местом, где мода изобретается, а не повторяется.
 
-Признание пришло быстро. В 2000 году Гескьер получил премию Совета модельеров Америки (CFDA) как международный дизайнер года [проверить год]. Его показы стали обязательными для прессы, а сам он — одним из самых влиятельных дизайнеров своего поколения, за которым внимательно следили и коллеги, и масс-маркет.
+Признание пришло быстро. В 2001 году Гескьер получил премию Совета модельеров Америки (CFDA) как международный дизайнер года. Его показы стали обязательными для прессы, а сам он — одним из самых влиятельных дизайнеров своего поколения, за которым внимательно следили и коллеги, и масс-маркет.
 
 ### Сумка, которой не должно было быть
 
-В 2001 году в коллекциях дома появилась мягкая кожаная сумка с кисточками на молниях, металлическими заклёпками и пряжками. Легенда гласит, что руководство Balenciaga поначалу отнеслось к модели скептически — она казалась слишком мягкой, слишком «непарадной», совсем не в духе дома. Первая партия была небольшой; сумки раздали моделям, и Кейт Мосс была среди первых, кого с ней сфотографировали [проверить]. Через несколько сезонов сумка, известная как Lariat, City или Motorcycle bag, стала одной из главных «it-bag» десятилетия. Её носили Николь Ричи, Мэри-Кейт и Эшли Олсен, Сиенна Миллер; она появилась в «Сплетнице» и в бесчисленных папарацци-снимках середины 2000-х. Для дома это был коммерческий прорыв, позволивший финансировать экспериментальные коллекции.
+В 2001 году в коллекциях дома появилась мягкая кожаная сумка с кисточками на молниях, металлическими заклёпками и пряжками. Легенда гласит, что руководство Balenciaga поначалу отнеслось к модели скептически — она казалась слишком мягкой, слишком «непарадной», совсем не в духе дома. Прототип появился на показе 2001 года; модели сразу обратили на него внимание, а Кейт Мосс стала одной из первых и самых заметных владелиц сумки. Через несколько сезонов сумка, известная как Lariat, City или Motorcycle bag, стала одной из главных «it-bag» десятилетия. Её носили Николь Ричи, Мэри-Кейт и Эшли Олсен, Сиенна Миллер; она появилась в «Сплетнице» и в бесчисленных папарацци-снимках середины 2000-х. Для дома это был коммерческий прорыв, позволивший финансировать экспериментальные коллекции.
 
 ### Коллекции, о которых помнят
 
@@ -22,18 +22,18 @@ export default [
 
 ### Gucci Group
 
-В 2001 году Balenciaga приобрела Gucci Group (впоследствии PPR, затем Kering). Сделка, курировавшаяся Томом Фордом и Доменико Де Соле, дала дому инвестиции, производство и розничную сеть: открылись бутики в Нью-Йорке, Лондоне, Токио. Гескьер получил долю в компании [проверить] и стал одним из ключевых дизайнеров группы.
+В 2001 году Balenciaga приобрела Gucci Group (впоследствии PPR, затем Kering). Сделка, курировавшаяся Томом Фордом и Доменико Де Соле, дала дому инвестиции, производство и розничную сеть: открылись бутики в Нью-Йорке, Лондоне, Токио. Гескьер получил долю в компании (около 9 %, остальные 91 % принадлежали Gucci Group) и стал одним из ключевых дизайнеров группы.
 
 ### Уход
 
-В ноябре 2012 года Kering объявил о расставании с Гескьером. Обстоятельства остались не до конца прозрачными: сам дизайнер в интервью журналу System весной 2013 года говорил, что чувствовал себя «высосанным», что дом стремился к бренд-менеджменту в ущерб культуре и что у него было ощущение, будто его «хотят лишить индивидуальности» [проверить формулировки]. Kering подал на Гескьера в суд за нарушение соглашения о конфиденциальности; стороны позже урегулировали спор. В ноябре 2013 года Гескьер стал креативным директором женских коллекций Louis Vuitton.
+В ноябре 2012 года Kering объявил о расставании с Гескьером. Обстоятельства остались не до конца прозрачными: весной 2013 года в интервью журналу System дизайнер критически отозвался о годах работы в доме, и Balenciaga подала на него в суд, требуя возмещения ущерба за эти высказывания. Kering подал на Гескьера в суд за нарушение соглашения о конфиденциальности; стороны позже урегулировали спор. В ноябре 2013 года Гескьер стал креативным директором женских коллекций Louis Vuitton.
 
 Пятнадцать лет Гескьера — самый долгий период после смерти основателя. Он доказал, что Balenciaga может быть живым домом, а не только легендой из музейной витрины.`,
-    content_en: `Nicolas Ghesquière, born in 1971 in Comines and raised in Loudun, had no formal fashion training: he interned at agnès b. and with Corinne Cobson, assisted Jean Paul Gaultier and joined Balenciaga to work on licences [verify]. Promoted in 1997, he treated Cristóbal's legacy not as a museum but as a set of unsolved problems — studying the archives, rarely copying, translating the founder's work with volume into futuristic silhouettes and technical fabrics.
+    content_en: `Nicolas Ghesquière, born in 1971 in Comines and raised in Loudun, had no formal fashion training: he interned at agnès b., assisted Jean Paul Gaultier and joined Balenciaga to work on licences. Promoted in 1997, he treated Cristóbal's legacy not as a museum but as a set of unsolved problems — studying the archives, rarely copying, translating the founder's work with volume into futuristic silhouettes and technical fabrics.
 
 In 2001 a soft leather bag with tasselled zips and studs — the Lariat, City or Motorcycle bag — was produced in small numbers and given to models; within a few seasons it became one of the defining it-bags of the decade. The same year Gucci Group (later Kering) acquired the house, bringing investment and a global retail network. Collections such as Spring–Summer 2007 with its metallic "robot" leggings made Ghesquière one of the most copied designers in Paris.
 
-In November 2012 Kering and Ghesquière parted ways; in a 2013 interview with System magazine he spoke of feeling drained by brand management [verify wording]. In late 2013 he joined Louis Vuitton. His fifteen years proved that Balenciaga could be a living house again.`,
+In November 2012 Kering and Ghesquière parted ways; after critical remarks in a 2013 interview with System magazine, Balenciaga sued him for damages. In late 2013 he joined Louis Vuitton. His fifteen years proved that Balenciaga could be a living house again.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -50,16 +50,16 @@ In November 2012 Kering and Ghesquière parted ways; in a 2013 interview with Sy
 
 ### Техника и спорт
 
-В следующих коллекциях Ван всё смелее вводил в Balenciaga свою тему — техничные материалы, спортивные детали, работу с поверхностью ткани: лазерную резку, термосклейку, мерцающие покрытия. Он продолжал развивать аксессуары, на которых держалась коммерческая модель дома, и усиливал розничную сеть. Продажи при нём, по отраслевым оценкам, росли [проверить], но творческая репутация дома, завоёванная Гескьером, постепенно размывалась: Balenciaga перестал быть местом, где «рождается будущее», и стал одним из многих красивых и коммерчески успешных брендов.
+В следующих коллекциях Ван всё смелее вводил в Balenciaga свою тему — техничные материалы, спортивные детали, работу с поверхностью ткани: лазерную резку, термосклейку, мерцающие покрытия. Он продолжал развивать аксессуары, на которых держалась коммерческая модель дома, и усиливал розничную сеть. Творческая репутация дома, завоёванная Гескьером, постепенно размывалась: Balenciaga перестал быть местом, где «рождается будущее», и стал одним из многих красивых и коммерчески успешных брендов.
 
 ### Двойная нагрузка и уход
 
-Всё это время Ван продолжал руководить собственной маркой в Нью-Йорке, а в 2014 году выпустил громкую коллаборацию с H&M. Совмещать два дома и огромную коммерческую программу было тяжело; в июле 2015 года Kering и Ван объявили о завершении сотрудничества — по официальной версии, по взаимному согласию и с желанием дизайнера сосредоточиться на собственной марке. Его последней коллекцией для Balenciaga стала весна–лето 2016 года, показанная в октябре 2015 года [проверить].
+Всё это время Ван продолжал руководить собственной маркой в Нью-Йорке, а в 2014 году выпустил громкую коллаборацию с H&M. Совмещать два дома и огромную коммерческую программу было тяжело; в июле 2015 года Kering и Ван объявили о завершении сотрудничества — по официальной версии, по взаимному согласию и с желанием дизайнера сосредоточиться на собственной марке. Его последней коллекцией для Balenciaga стала весна–лето 2016 года, показанная в октябре 2015 года.
 
 Эпоха Вана оказалась короткой и сегодня вспоминается прежде всего как переходная. Но именно она подготовила почву для следующего поворота: Kering убедился, что «аккуратного» Balenciaga мало, и решился на гораздо более рискованный выбор.`,
     content_en: `In December 2012 Kering appointed Alexander Wang, the twenty-nine-year-old American designer behind a New York label synonymous with downtown cool. Many read the choice as a commercial signal. His debut, Fall–Winter 2013 in February 2013, was respectful and restrained — monochrome, cocoon volumes, a cracked-marble print — but cautious.
 
-Over the following seasons Wang introduced technical fabrics, sporty details and surface treatments such as laser cutting and bonding, and strengthened accessories and retail. Sales reportedly grew [verify], but the creative reputation won under Ghesquière faded. Running his own label at the same time (and an H&M collaboration in 2014), Wang left in July 2015; his last Balenciaga collection was Spring–Summer 2016 [verify]. His short tenure is remembered as transitional — and it convinced Kering to take a far riskier bet next.`,
+Over the following seasons Wang introduced technical fabrics, sporty details and surface treatments such as laser cutting and bonding, and strengthened accessories and retail. The creative reputation won under Ghesquière faded. Running his own label at the same time (and an H&M collaboration in 2014), Wang left in July 2015; his last Balenciaga collection was Spring–Summer 2016. His short tenure is remembered as transitional — and it convinced Kering to take a far riskier bet next.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -80,7 +80,7 @@ Over the following seasons Wang introduced technical fabrics, sporty details and
 
 Главным словом эпохи Демны стало «уродство» — точнее, переосмысление того, что считается красивым. Кроссовки Triple S (2017) с тройной массивной подошвой, напоминающие обувь «папы из пригорода», запустили моду на «уродливые» кроссовки во всём мире. Кожаная сумка Arena, повторявшая форму синей сумки IKEA, стоила около двух тысяч долларов и вызвала волну мемов — IKEA ответила остроумной рекламой о том, как отличить оригинал. Кроксы на платформе (2018), лоферы-сандалии, сумка в форме мусорного мешка (2022), «уничтоженные» кроссовки Paris (2022) — каждая такая вещь становилась вирусной новостью и предметом споров о том, где заканчивается мода и начинается троллинг.
 
-Критики разделились. Одни видели в этом циничную эксплуатацию интернета; другие — точный диагноз эпохи, в которой статус определяется не красотой, а узнаваемостью и иронией. Бизнес, во всяком случае, ответил однозначно: к концу 2010-х Balenciaga стал одним из самых быстрорастущих брендов Kering [проверить], а выручка дома, по отраслевым оценкам, превысила миллиард евро.
+Критики разделились. Одни видели в этом циничную эксплуатацию интернета; другие — точный диагноз эпохи, в которой статус определяется не красотой, а узнаваемостью и иронией. Бизнес, во всяком случае, ответил однозначно: Kering не раскрывает выручку дома отдельно, но, по оценкам отраслевых изданий, при Демне она выросла в несколько раз и превысила миллиард евро.
 
 ### Шоу как высказывание
 
@@ -92,14 +92,14 @@ Over the following seasons Wang introduced technical fabrics, sporty details and
 
 ### Уход в Gucci
 
-В марте 2025 года Kering объявил, что Демна становится художественным директором Gucci. Его последняя коллекция для Balenciaga — кутюрная, показанная в июле 2025 года [проверить]. Десять лет Демны стали самой коммерчески успешной и самой спорной главой в истории дома: он сделал Balenciaga мировым феноменом и одновременно провёл его через самый тяжёлый репутационный кризис (о нём — в разделе о скандалах).`,
+В марте 2025 года Kering объявил, что Демна становится художественным директором Gucci. Его последняя коллекция для Balenciaga — кутюрная, показанная в июле 2025 года. Десять лет Демны стали самой коммерчески успешной и самой спорной главой в истории дома: он сделал Balenciaga мировым феноменом и одновременно провёл его через самый тяжёлый репутационный кризис (о нём — в разделе о скандалах).`,
     content_en: `In October 2015 Kering named Demna Gvasalia — born in Sukhumi in 1981, raised in Georgia, a refugee of war, an Antwerp Academy graduate who had worked at Margiela and Louis Vuitton, and co-founder with his brother Guram of the collective Vetements — creative director of Balenciaga. It looked like a provocation, yet Demna and Cristóbal shared a preoccupation with silhouette and with moving clothes away from the body.
 
-His first show (Fall–Winter 2016) opened with jackets whose shoulders stood away from the body, a direct nod to the founder. Then came "ugliness" as strategy: the Triple S sneaker (2017) launched the global "ugly sneaker" craze; the Arena bag echoing IKEA's blue bag, platform Crocs, a trash-bag pouch and destroyed Paris sneakers became viral debates about where fashion ends and trolling begins. Business boomed, with revenue reportedly passing a billion euros [verify].
+His first show (Fall–Winter 2016) opened with jackets whose shoulders stood away from the body, a direct nod to the founder. Then came "ugliness" as strategy: the Triple S sneaker (2017) launched the global "ugly sneaker" craze; the Arena bag echoing IKEA's blue bag, platform Crocs, a trash-bag pouch and destroyed Paris sneakers became viral debates about where fashion ends and trolling begins. Kering does not disclose the house’s sales separately, but industry estimates put revenue above a billion euros.
 
-Shows became events: a flooded runway (Fall 2020), a Simpsons episode (Spring 2022), a Fortnite collaboration (2021), the March 2022 snowstorm show dedicated to Ukraine, and a mud-pit runway by Santiago Sierra. Most importantly, in July 2021 Balenciaga returned to haute couture for the first time in fifty-three years with its 50th couture collection, shown in silence in the restored salons of avenue George V. In March 2025 Kering named Demna artistic director of Gucci; his last Balenciaga collection was couture in July 2025 [verify].`,
-    quote_ru: 'Я не думаю о красоте. Я думаю о том, что люди действительно носят — и как сделать это интересным.',
-    quote_en: 'I don’t think about beauty. I think about what people actually wear — and how to make it interesting.',
-    quote_author: 'Демна (пересказ из интервью) [проверить]',
+Shows became events: a flooded runway (Fall 2020), a Simpsons episode (Spring 2022), a Fortnite collaboration (2021), the March 2022 snowstorm show dedicated to Ukraine, and a mud-pit runway by Santiago Sierra. Most importantly, in July 2021 Balenciaga returned to haute couture for the first time in fifty-three years with its 50th couture collection, shown in silence in the restored salons of avenue George V. In March 2025 Kering named Demna artistic director of Gucci; his last Balenciaga collection was couture in July 2025.`,
+    quote_ru: null,
+    quote_en: null,
+    quote_author: null,
   },
 ];

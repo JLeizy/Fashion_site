@@ -22,7 +22,7 @@ export default [
 
 ### Королевская свадьба
 
-В 1960 году Баленсиага шьёт свадебное платье для доньи Фабиолы де Мора-и-Арагон, внучки его давней покровительницы маркизы де Каса-Торрес, выходившей замуж за короля Бельгии Бодуэна. Белое платье из шёлка с отделкой норкой [проверить] и длинным шлейфом стало одним из самых известных свадебных нарядов десятилетия. Для мастера, начинавшего с копии костюма маркизы, это была почти мистическая петля судьбы: внучка той самой женщины выходила замуж в его платье.
+В 1960 году Баленсиага шьёт свадебное платье для доньи Фабиолы де Мора-и-Арагон, внучки его давней покровительницы маркизы де Каса-Торрес, выходившей замуж за короля Бельгии Бодуэна. Платье из атласа цвета слоновой кости с отделкой белой норкой и длинным шлейфом стало одним из самых известных свадебных нарядов десятилетия. Для мастера, начинавшего с копии костюма маркизы, это была почти мистическая петля судьбы: внучка той самой женщины выходила замуж в его платье.
 
 ### Школа Баленсиаги
 
@@ -34,7 +34,7 @@ export default [
 
 К середине 1960-х мир вокруг дома на авеню Георга V стремительно менялся. Ив Сен-Лоран открыл в 1966 году магазин прет-а-порте Rive Gauche; Пьер Карден продавал готовую одежду в универмагах; молодёжная культура Лондона диктовала моду быстрее, чем кутюрье успевали её создавать. Высокая мода, построенная на индивидуальном заказе и многочасовых примерках, теряла своих клиенток: молодые женщины хотели покупать одежду в магазине, сразу и недорого.
 
-Баленсиага продолжал работать так, как работал всегда. Его последние коллекции были, по мнению многих критиков, одними из лучших: чистые абстрактные формы, совершенная техника. В 1968 году он создал униформу для стюардесс Air France [проверить: униформа вошла в употребление в 1969 году] — едва ли не единственный его компромисс с массовым миром. Но сам он, по рассказам, говорил, что «жизнь, ради которой шилась эта одежда, закончилась».`,
+Баленсиага продолжал работать так, как работал всегда. Его последние коллекции были, по мнению многих критиков, одними из лучших: чистые абстрактные формы, совершенная техника. В последние годы работы дома он создал униформу для стюардесс Air France — едва ли не единственный его компромисс с массовым миром. Но сам он, по рассказам, говорил, что «жизнь, ради которой шилась эта одежда, закончилась».`,
     content_en: `In the late 1950s and the 1960s Balenciaga's search reached an almost abstract purity. The sack dress of 1957 — straight, waistless, narrowing towards the knee — caused a scandal, yet it was the logical end of the path begun in 1951; within a few years the loose straight silhouette became the language of 1960s fashion. In 1958 came the baby-doll dress, the Empire line and the balloon skirt: forms that existed around the body rather than on it, with air between garment and skin.
 
 With the Swiss firm Abraham he developed gazar, a stiff silk that holds its shape on its own. Its high point is the 1967 wedding dress with its so-called four-cornered silhouette and hood, one of the most recognisable garments in fashion history. In 1960 he made the wedding dress of Fabiola de Mora y Aragón, granddaughter of his early patron, for her marriage to King Baudouin of Belgium.
@@ -48,7 +48,7 @@ His house trained a generation: André Courrèges worked there from 1949 to 1961
     period: '1968–1972',
     title_ru: 'Закрытие дома и смерть мастера',
     title_en: 'The closing of the house and the death of the master',
-    content_ru: `В мае 1968 года, когда Париж охватили студенческие волнения и всеобщая забастовка, Кристобаль Баленсиага объявил о закрытии дома. Точная дата и обстоятельства в разных источниках расходятся [проверить]; известно, что решение было принято без широкого обсуждения, а многие сотрудники и клиентки узнали о нём внезапно. Мона фон Бисмарк, по известной истории, на три дня закрылась в своей комнате и отказывалась выходить — «мир, ради которого стоило одеваться, закончился».
+    content_ru: `В мае 1968 года, когда Париж охватили студенческие волнения и всеобщая забастовка, Кристобаль Баленсиага объявил о закрытии дома. Решение было принято весной 1968 года, а летом новость появилась в газетах; принято оно было без широкого обсуждения, а многие сотрудники и клиентки узнали о нём внезапно. Мона фон Бисмарк, по известной истории, на три дня закрылась в своей комнате и отказывалась выходить — «мир, ради которого стоило одеваться, закончился».
 
 Причины закрытия обсуждают до сих пор. Самое простое объяснение — экономическое: высокая мода переставала быть прибыльной, а Баленсиага не хотел превращать имя в марку прет-а-порте, лицензий и универмагов. Был и возраст: мастеру исполнилось семьдесят три года, а у него не было преемника, которому он доверил бы дом. Была и усталость человека, который полвека работал по двенадцать часов в день. И, наконец, было отношение к времени: Баленсиага, по-видимому, искренне считал, что мода, которую он создавал, не имеет смысла в мире мини-юбок, синтетики и массового производства.
 
@@ -58,25 +58,25 @@ His house trained a generation: André Courrèges worked there from 1949 to 1961
 
 После закрытия дома Баленсиага уезжает в Испанию. Он живёт попеременно в Мадриде, в Игельдо под Сан-Себастьяном и в Хавеа на средиземноморском побережье. В эти годы он почти не появляется на публике. Исключением стало интервью, которое в 1971 году он дал британской журналистке Прюденс Глинн для The Times, — едва ли не единственный случай, когда мастер подробно говорил о своей работе и о том, почему ушёл.
 
-В 1972 году Баленсиага в последний раз берётся за иглу: он создаёт свадебное платье для Кармен Мартинес-Бордиу, внучки генерала Франко, выходившей замуж за Альфонсо де Бурбона [проверить: свадьба состоялась в марте 1972 года]. Это платье стало последней известной работой мастера.
+В 1972 году Баленсиага в последний раз берётся за иглу: он создаёт свадебное платье для Кармен Мартинес-Бордиу, внучки генерала Франко, выходившей замуж за Альфонсо де Бурбона (свадьба состоялась 8 марта 1972 года). Это платье стало последней известной работой мастера.
 
 ### Смерть
 
-Кристобаль Баленсиага умер 23 марта 1972 года в Хавеа от сердечного приступа. Ему было семьдесят семь лет. Похороны прошли в Гетарии; он похоронен на городском кладбище, над морем, откуда видны порт и остров Сан-Антон. Women's Wear Daily вышла с заголовком «Король умер» [проверить точную формулировку]. Диана Вриланд, Юбер де Живанши, бывшие ученики и клиентки писали о нём как о последнем великом мастере старой высокой моды.
+Кристобаль Баленсиага умер 23 марта 1972 года в Хавеа от сердечного приступа. Ему было семьдесят семь лет. Похороны прошли в Гетарии; он похоронен на городском кладбище, над морем, откуда видны порт и остров Сан-Антон. Диана Вриланд, Юбер де Живанши, бывшие ученики и клиентки писали о нём как о последнем великом мастере старой высокой моды.
 
 С его смертью дом Balenciaga прекратил существование как ателье. Остались архивы, остались парфюмы, которые продолжали продаваться по лицензии, и осталось имя — одно из самых уважаемых в истории моды, но на долгие годы почти лишённое собственного голоса.`,
-    content_en: `In May 1968, as Paris was gripped by student protests and a general strike, Cristóbal Balenciaga announced the closing of his house [verify exact date]. Many staff and clients learned of it suddenly; Mona von Bismarck reportedly shut herself in her room for three days. The reasons were economic, personal and philosophical: couture was ceasing to pay, he refused to turn his name into ready-to-wear and licences, he was seventy-three and had no successor — and he seems to have believed his kind of fashion had lost its meaning. The Spanish EISA houses closed too, and he recommended Hubert de Givenchy to his clients.
+    content_en: `In the spring of 1968, as Paris was gripped by student protests and a general strike, Cristóbal Balenciaga decided to close his house; the news reached the newspapers that summer. Many staff and clients learned of it suddenly; Mona von Bismarck reportedly shut herself in her room for three days. The reasons were economic, personal and philosophical: couture was ceasing to pay, he refused to turn his name into ready-to-wear and licences, he was seventy-three and had no successor — and he seems to have believed his kind of fashion had lost its meaning. The Spanish EISA houses closed too, and he recommended Hubert de Givenchy to his clients.
 
 He withdrew to Spain, living in Madrid, Igueldo and Jávea, and gave a rare interview to Prudence Glynn of The Times in 1971. His last known work was the 1972 wedding dress of Carmen Martínez-Bordiú, Franco's granddaughter. Balenciaga died of a heart attack in Jávea on 23 March 1972 and was buried in Getaria, above the sea.`,
-    quote_ru: 'Жизнь, ради которой шилась эта одежда, закончилась.',
-    quote_en: 'The life that supported couture is finished.',
-    quote_author: 'Кристобаль Баленсиага (по пересказам) [проверить]',
+    quote_ru: null,
+    quote_en: null,
+    quote_author: null,
   },
   {
     period: '1972–1997',
     title_ru: 'Межвременье и возрождение',
     title_en: 'The interregnum and the revival',
-    content_ru: `Почти два десятилетия имя Balenciaga жило в основном на флаконах. После смерти основателя права на марку перешли к наследникам, а затем, в 1978 году, были проданы немецкому химико-фармацевтическому концерну Hoechst [проверить], для которого Balenciaga была прежде всего парфюмерной лицензией. Ароматы продавались, новые выпускались, но дома моды как такового не существовало. Ателье на авеню Георга V превратилось в бутик, где продавали духи и аксессуары.
+    content_ru: `Почти два десятилетия имя Balenciaga жило в основном на флаконах. После смерти основателя права на марку перешли к наследникам, а затем, в 1978 году, были проданы немецкому химико-фармацевтическому концерну Hoechst, для которого Balenciaga была прежде всего парфюмерной лицензией. Ароматы продавались, новые выпускались, но дома моды как такового не существовало. Ателье на авеню Георга V превратилось в бутик, где продавали духи и аксессуары.
 
 Тем временем репутация самого Кристобаля только росла. В 1973 году нью-йоркский Метрополитен-музей открыл выставку «The World of Balenciaga», которую курировала Диана Вриланд, — одну из первых крупных музейных выставок, посвящённых модельеру. Позже последовали ретроспективы в Лионе, Мадриде, Париже. Имя мастера стало символом «чистой» высокой моды, и чем дальше уходила эпоха, тем ценнее становилось наследие.
 
@@ -92,8 +92,8 @@ He withdrew to Spain, living in Madrid, Igueldo and Jávea, and gave a rare inte
 
 ### Неожиданный выбор
 
-Уход Тимистера застал дом врасплох. Руководство решило не искать громкое имя, а поставить во главе творческой команды одного из штатных дизайнеров — двадцатипятилетнего француза Николя Гескьера, который работал в Balenciaga над лицензионными линиями (в том числе над траурной одеждой для японского рынка) [проверить]. Выбор выглядел как временная мера. На деле он открыл самую важную главу в истории дома после смерти основателя.`,
-    content_en: `For almost two decades the Balenciaga name lived mainly on perfume bottles. In 1978 the rights passed to the German chemical group Hoechst [verify], for whom it was essentially a fragrance licence. Meanwhile the founder's reputation grew: in 1973 the Metropolitan Museum opened "The World of Balenciaga", curated by Diana Vreeland.
+Уход Тимистера застал дом врасплох. Руководство решило не искать громкое имя, а поставить во главе творческой команды одного из штатных дизайнеров — двадцатипятилетнего француза Николя Гескьера, который работал в Balenciaga над лицензионными линиями (в том числе над траурной одеждой для японского рынка). Выбор выглядел как временная мера. На деле он открыл самую важную главу в истории дома после смерти основателя.`,
+    content_en: `For almost two decades the Balenciaga name lived mainly on perfume bottles. In 1978 the rights passed to the German chemical group Hoechst, for whom it was essentially a fragrance licence. Meanwhile the founder's reputation grew: in 1973 the Metropolitan Museum opened "The World of Balenciaga", curated by Diana Vreeland.
 
 In 1986 the French fragrance company Jacques Bogart S.A. bought the brand and relaunched it in ready-to-wear. Michel Goma, formerly at Jean Patou, became designer in 1987 and brought the name back to the Paris calendar, but his cautious collections were overshadowed by both the founder's legend and the loud fashion of the 1980s. In 1992 the Dutch, Antwerp-trained Josephus Thimister succeeded him with severe, dark, almost ascetic collections — closer in spirit to the founder, but without commercial success. When he left in 1997, the house promoted a young in-house designer working on licences: twenty-five-year-old Nicolas Ghesquière.`,
     quote_ru: null,

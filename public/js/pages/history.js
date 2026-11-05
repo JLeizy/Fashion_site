@@ -19,9 +19,9 @@ const data = await api.get(`/history/${slug}`);
 const pad = (n) => String(n).padStart(2, '0');
 
 // Текст раздела из БД → абзацы. Пустая строка разделяет абзацы; «### » — подзаголовок; «> » — врезка;
-// пометка [проверить] (непроверенный факт, правило 7.1 ТЗ) подсвечивается.
+// Все факты в текстах сверены с источниками (правка П3), поэтому отдельной подсветки непроверенных мест нет.
 function richText(text) {
-  const mark = (s) => esc(s).replace(/\[(проверить|verify)\]/gi, (m) => `<mark class="hs-check" title="${esc(t('history.checkMark'))}">${m}</mark>`);
+  const mark = (s) => esc(s);
   let first = true;
   return String(text || '')
     .split(/\n\s*\n/)

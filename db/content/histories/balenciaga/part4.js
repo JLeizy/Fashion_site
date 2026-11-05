@@ -28,7 +28,7 @@ export default [
 
 ### Кутюр 2021
 
-50-я кутюрная коллекция, первая за 53 года. Показ в восстановленных салонах авеню Георга V, в тишине, как при основателе. Огромные пальто, платья из газара, маски-визоры из металла [проверить] — соединение ремесла XX века и языка Демны.
+50-я кутюрная коллекция, первая за 53 года. Показ в восстановленных салонах авеню Георга V, в тишине, как при основателе. Огромные пальто, платья из газара — соединение ремесла XX века и языка Демны.
 
 ### «Снежная буря» (осень–зима 2022)
 
@@ -80,7 +80,7 @@ Speed — кроссовок-носок из трикотажа на жёстк�
 
 ### «Уничтоженные» кроссовки Paris (2022)
 
-Кеды, состаренные до вида найденной на свалке обуви, в лимитированной серии стоили около 1 850 долларов [проверить]. Спор о том, насмешка это над покупателем или над культурой потребления, длился месяцами.`,
+Кеды, состаренные до вида найденной на свалке обуви, в лимитированной серии стоили около 1 850 долларов. Спор о том, насмешка это над покупателем или над культурой потребления, длился месяцами.`,
     content_en: `Balenciaga has two histories of icons: one in museums, one on the street. The sack dress (1957) and the baby-doll (1958) shaped the silhouettes of the 1960s. Le Dix (1947), named after 10 avenue George V, kept the name alive during the decades without clothes.
 
 The City bag (2001), with tasselled zips and studs, became the it-bag of the 2000s. The Speed trainer (2016) and the Triple S (2017) defined footwear at the end of the 2010s; the Hourglass bag (2019) nodded to the founder's obsession with the waist. The leather Arena bag echoing IKEA's blue bag (2017) prompted IKEA's witty "how to identify an original" ad, and the destroyed Paris sneakers (2022) sparked months of debate about irony and consumerism.`,
@@ -116,8 +116,8 @@ The City bag (2001), with tasselled zips and studs, became the it-bag of the 200
 
 ### Другие проекты
 
-Среди менее громких — работа с Under Armour (2023) [проверить], капсулы с музыкантами, кампании с неожиданными героями от Изабель Юппер до Кима Кардашьян. Принцип оставался одним: соединить несовместимое и заставить говорить о результате.`,
-    content_en: `Cristóbal collaborated only with craftsmen — textile makers like Abraham, the young Paco Rabanne on jewellery. Modern Balenciaga made collaborations part of its language: platform Crocs (Spring 2018); a special Simpsons episode screened instead of a show at the Théâtre du Châtelet and a Fortnite partnership (2021); The Hacker Project with fellow Kering house Gucci (2021); Adidas stripes across Fall 2022; and Yeezy Gap with Ye, which ended in October 2022 after Ye's antisemitic remarks. Other projects, such as with Under Armour [verify], followed the same principle: join the incompatible and make people talk.`,
+Среди менее громких — коллекция с Under Armour (2024), капсулы с музыкантами, кампании с неожиданными героями от Изабель Юппер до Кима Кардашьян. Принцип оставался одним: соединить несовместимое и заставить говорить о результате.`,
+    content_en: `Cristóbal collaborated only with craftsmen — textile makers like Abraham, the young Paco Rabanne on jewellery. Modern Balenciaga made collaborations part of its language: platform Crocs (Spring 2018); a special Simpsons episode screened instead of a show at the Théâtre du Châtelet and a Fortnite partnership (2021); The Hacker Project with fellow Kering house Gucci (2021); Adidas stripes across Fall 2022; and Yeezy Gap with Ye, which ended in October 2022 after Ye's antisemitic remarks. Other projects, such as with Under Armour (2024), followed the same principle: join the incompatible and make people talk.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
