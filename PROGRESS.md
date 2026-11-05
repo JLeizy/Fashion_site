@@ -52,7 +52,7 @@
 |---|---|---|
 | Balenciaga | ✅ 35 разделов, ≈12926 слов, факты проверены (П3) | ✅ ≈4574 слов |
 | Vetements | ✅ 16 разделов, ≈3460 слов (молодая марка, 2014: объём меньше по правилу для молодых марок — только проверенные факты) | ✅ ≈1309 слов |
-| Gucci | 🟡 13 разделов, ≈2200 слов — компактная версия (все 12 тем ТЗ, факты проверены, своя хронология из 14 событий); нужно расширить до ~15 000 | ✅ ≈910 слов |
+| Gucci | 🟡 42 раздела, ≈9910 слов (части `gucci/part1–5.js`, все 12 тем ТЗ, факты проверены); до уровня Balenciaga (≈12 900) не хватает ≈3000 | ✅ ≈4291 слов |
 | Prada | ⬜ | ⬜ |
 | Enfants Riches Déprimés | ⬜ | ⬜ |
 | AVAVAV | ⬜ | ⬜ |
@@ -68,7 +68,7 @@
 
 ## Следующий шаг: расширить историю Gucci (этап 18), затем этап 19 — Prada
 Правки ревью П1–П3, П5–П10 выполнены; П4 — инфраструктура готова, фото не скачаны (сеть окружения закрыта, см. «Известные проблемы»).
-Части 2: готовы Balenciaga (проверена, П3) и Vetements (`db/content/histories/vetements.js`). Gucci (`db/content/histories/gucci.js`) — компактная проверенная версия ≈2200 слов RU: расширить разделы (семья Гуччи 1950–1980-х, Альдо и Родольфо, эпоха Форда по сезонам, Микеле по коллекциям, коллаборации, скандалы, бизнес-показатели Kering), каждый факт — через WebSearch.
+Части 2: готовы Balenciaga (проверена, П3) и Vetements (`db/content/histories/vetements.js`). Gucci (`db/content/histories/gucci.js` + `gucci/part1–5.js`) — ≈9910 слов RU, ≈4291 EN: дописать ≈3000 слов RU (часть 6: коллаборации The North Face/adidas/Balenciaga, ароматы и Gucci Beauty, показы Микеле по сезонам), каждый факт — через WebSearch.
 Дальше тем же способом: `db/content/histories/<slug>.js` (для больших домов — с частями `<slug>/partN.js`, как у Balenciaga), порядок Gucci → Prada → ERD → AVAVAV → Supreme → Chrome Hearts → Louis Vuitton → Chanel → Maison Margiela → Givenchy → Versace → Alexander McQueen → Loro Piana. Каждый факт — через WebSearch до записи (WebFetch в этом окружении недоступен), без пометок. После каждой: `npm run db:seed && npm run placeholders`, `/history/<slug>` → 200, подсчёт слов (`/api/history/<slug>` → `words`), отметка в таблице, коммит.
 Когда откроют сеть: П4 — заполнить `db/content/image-sources.json` (начать с Balenciaga), `npm run images -- --brand balenciaga`, `npm run db:seed && npm run placeholders`, скриншоты, затем остальные бренды.
 Затем этап 31 (README с матрицей прав, запуск на Windows, финальная проверка).

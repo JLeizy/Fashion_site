@@ -6,6 +6,7 @@ import part1 from './gucci/part1.js';
 import part2 from './gucci/part2.js';
 import part3 from './gucci/part3.js';
 import part4 from './gucci/part4.js';
+import part5 from './gucci/part5.js';
 
 const base = {
   slug: 'gucci',
@@ -347,11 +348,12 @@ Gucci трижды менял моду: в 1950–1960-е — как симво�
   ],
 };
 
-// Порядок разделов: базовые разделы (gucci.js) + подробные части gucci/part1–4.js — в хронологическом и тематическом порядке
+// Порядок разделов: базовые разделы (gucci.js) + подробные части gucci/part1–5.js — в хронологическом и тематическом порядке
 const [prehistory, founding, rise, familyEra, murder, ford, afterFord, michele, deSarno, demna, iconic, owners, influence] = base.sections;
 const [workshop, sons, jackie, codes, empire] = part1;
 const [fordBefore, fordMethod, deSole, battle, group, fordLeaves] = part2;
 const [crisis, deSarnoDeep, demnaDeep, film, celebrity, relaunches] = part4;
+const [horsebit, bamboo, flora, monogram, florence, today, facts] = part5;
 
 export default {
   slug: base.slug,
@@ -365,6 +367,6 @@ export default {
     fordBefore, ford, fordMethod, deSole, murder, battle, group, fordLeaves, afterFord,
     michele, ...part3, crisis, deSarno, deSarnoDeep, demna, demnaDeep,
     // 5–12. Культовые вещи, владельцы, влияние, сегодня, факты
-    iconic, owners, film, celebrity, influence, relaunches,
+    iconic, horsebit, bamboo, flora, monogram, owners, film, celebrity, florence, influence, relaunches, today, facts,
   ],
 };
