@@ -14,7 +14,7 @@ export default [
 
 ### Новый генеральный директор
 
-В январе 2015 года генеральным директором Gucci стал Марко Бицарри — менеджер, до этого успешно руководивший другими марками группы. Перед ним стояла срочная задача: найти творческого руководителя, который вернёт Gucci актуальность. И первое важное решение он принял почти мгновенно.
+В январе 2015 года генеральным директором Gucci стал Марко Бицарри, менеджер группы Kering. Перед ним стояла срочная задача: найти творческого руководителя, который вернёт Gucci актуальность. И первое важное решение он принял почти мгновенно.
 
 ### Неделя на коллекцию
 
@@ -26,10 +26,10 @@ export default [
 
 ### Почему это сработало
 
-В истории Микеле совпало несколько условий. Он знал архив дома изнутри и любил его не как набор кодов, а как сокровищницу. Он был человеком широкой культуры — антиквариата, истории искусства, кино, литературы. И он получил полную поддержку руководства, готового рискнуть. Именно сочетание знания, эрудиции и доверия сделало возможным одно из самых быстрых преображений в истории моды.
+В истории Микеле совпало несколько условий. Он знал архив дома изнутри и любил его не как набор кодов, а как сокровищницу. Он был человеком широкой культуры — антиквариата, истории искусства, кино, литературы. И он получил полную поддержку руководства, готового рискнуть. Именно сочетание знания, эрудиции и доверия сделало возможным очень быстрое преображение дома.
 
 > Иногда новый голос дома находится не снаружи, а в соседнем кабинете дизайн-студии.`,
-    content_en: `By late 2014 Gucci felt tired: Frida Giannini's collections sold but no longer excited, and young audiences were drifting away. In January 2015 Marco Bizzarri became CEO and quickly turned to Alessandro Michele, a long-time member of the design team almost unknown to the public. According to press accounts Michele was asked to step in as interim designer for the January 2015 men's show with about a week to rework the existing collection. Instead of finishing someone else's work he transformed it — lace, bows, vintage glasses, soft blouses on long-haired young men. Two days after the show Kering officially named him creative director. It was a bold choice: an in-house designer with no label of his own instead of a famous name. It worked because Michele knew the archive from within and loved it as a treasure house, because his culture spanned antiques, art history, film and literature, and because management fully backed the risk. The new voice had been in the design studio all along.`,
+    content_en: `By late 2014 Gucci felt tired: Frida Giannini's collections sold but no longer excited, and young audiences were drifting away. In January 2015 Marco Bizzarri, a Kering executive, became CEO and quickly turned to Alessandro Michele, a long-time member of the design team almost unknown to the public. According to press accounts Michele was asked to step in as interim designer for the January 2015 men's show with about a week to rework the existing collection. Instead of finishing someone else's work he transformed it — lace, bows, vintage glasses, soft blouses on long-haired young men. Two days after the show Kering officially named him creative director. It was a bold choice: an in-house designer with no label of his own instead of a famous name. It worked because Michele knew the archive from within and loved it as a treasure house, because his culture spanned antiques, art history, film and literature, and because management fully backed the risk. The new voice had been in the design studio all along.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -82,7 +82,7 @@ export default [
 
 ### Рекорды
 
-Рост продаж Gucci в эти годы стал одним из самых впечатляющих в истории роскоши. Пиком стал 2022 год, когда выручка дома составила рекордные 10,487 миллиарда евро. Gucci превратился в главный источник доходов Kering — и одновременно в его главную зависимость.
+Продажи Gucci в эти годы росли очень быстро. Пиком стал 2022 год, когда выручка дома составила рекордные 10,487 миллиарда евро. Gucci превратился в главный источник доходов Kering — и одновременно в его главную зависимость.
 
 ### Конец союза
 

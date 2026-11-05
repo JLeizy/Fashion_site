@@ -167,10 +167,10 @@ const base = {
 
 ### Уход
 
-В 2004 году Том Форд и Доменико Де Соле покинули Gucci. Эпоха, начавшаяся с возрождения почти потерянной марки, завершилась на пике её успеха.
+В ноябре 2003 года было объявлено, что Том Форд и Доменико Де Соле покинут Gucci после разногласий с PPR по условиям контрактов; в 2004 году они ушли. Эпоха, начавшаяся с возрождения почти потерянной марки, завершилась, когда дом был на подъёме.
 
 > Форд доказал, что старый дом можно вернуть к жизни, если говорить его кодами на языке своего времени.`,
-      content_en: `Tom Ford became creative director in 1994 and in ten years turned Gucci into one of the world's most desirable brands: overt sensuality, gloss, 1970s glamour, velvet suits and shirts open to the waist. Alongside him CEO Domenico De Sole cut licences and regained control of production and stores. In 1999 LVMH and Pinault-Printemps-Redoute fought for control; PPR (later Kering) bought 42% of Gucci Group for about $3 billion, upheld by a Dutch court in May 1999. Ford and De Sole left in 2004.`,
+      content_en: `Tom Ford became creative director in 1994 and in ten years turned Gucci into one of the world's most desirable brands: overt sensuality, gloss, 1970s glamour, velvet suits and shirts open to the waist. Alongside him CEO Domenico De Sole cut licences and regained control of production and stores. In 1999 LVMH and Pinault-Printemps-Redoute fought for control; PPR (later Kering) bought 42% of Gucci Group for about $3 billion, upheld by a Dutch court in May 1999. Their departure, after disagreements with PPR over contract terms, was announced in November 2003; they left in 2004.`,
       quote_ru: null,
       quote_en: null,
       quote_author: null,
@@ -319,7 +319,7 @@ const base = {
       title_en: 'Influence, today and curious facts',
       content_ru: `### Влияние на моду
 
-Gucci трижды менял моду: в 1950–1960-е — как символ итальянской роскоши для звёзд и королевских семей, в 1990-е — как образец возрождения старого дома через чувственность и маркетинг Тома Форда, в 2010-е — как лаборатория максимализма Алессандро Микеле. Каждая из этих эпох стала примером для всей индустрии: как работать с архивом, как перезапускать бренд, как говорить с новым поколением.
+Если смотреть на историю дома целиком, можно выделить три эпохи, когда Gucci заметно влиял на всю индустрию: в 1950–1960-е — как символ итальянской роскоши для звёзд и королевских семей, в 1990-е — как образец возрождения старого дома через чувственность и маркетинг Тома Форда, в 2010-е — как лаборатория максимализма Алессандро Микеле. Эти эпохи часто приводят как примеры того, как работать с архивом, перезапускать бренд и говорить с новым поколением.
 
 ### Gucci сегодня
 

@@ -30,7 +30,7 @@ export default [
     period: '1994–2004',
     title_ru: 'Метод Форда: секс, глянец и контроль',
     title_en: 'Ford’s method: sex, gloss and control',
-    content_ru: `Возрождение Gucci при Томе Форде — один из самых изученных примеров перезапуска модного дома. Его успех держался на трёх опорах: ясном образе, жёстком контроле над всем, что несёт имя марки, и умении превращать каждую коллекцию в событие.
+    content_ru: `Возрождение Gucci при Томе Форде часто приводят как пример перезапуска модного дома. Если разобрать его, можно выделить три опоры: ясном образе, жёстком контроле над всем, что несёт имя марки, и умении превращать каждую коллекцию в событие.
 
 ### Ясный образ
 
@@ -58,11 +58,11 @@ export default [
     period: '1994–2004',
     title_ru: 'Доменико Де Соле: человек системы',
     title_en: 'Domenico De Sole: the man of the system',
-    content_ru: `Если Том Форд отвечал за образ, то Доменико Де Соле — за систему, которая этот образ превращала в бизнес. Их тандем стал одним из самых известных союзов творческого директора и менеджера в истории моды.
+    content_ru: `Если Том Форд отвечал за образ, то Доменико Де Соле — за систему, которая этот образ превращала в бизнес. Их тандем часто приводят как образец союза творческого директора и менеджера.
 
-### Юрист во главе модного дома
+### Генеральный директор
 
-Де Соле, юрист по образованию, работал с Gucci задолго до того, как стал его генеральным директором, и хорошо знал внутренние механизмы компании. В середине 1990-х он возглавил Gucci и сделал ставку на то же, что и Форд, — ясность и контроль, только в области цифр, производства и розницы.
+В середине 1990-х Де Соле возглавил Gucci и, по общему описанию этого периода, сделал ставку на то же, что и Форд, — ясность и контроль, только в области цифр, производства и розницы.
 
 ### Выход на биржу
 
@@ -70,10 +70,10 @@ export default [
 
 ### Союз двух
 
-Сила тандема Форд — Де Соле заключалась в доверии и разделении ролей. Форд мог позволить себе смелость, потому что знал: его идеи будут грамотно реализованы. Де Соле мог строить амбициозную стратегию, потому что у марки был сильный и узнаваемый голос. Вместе они создали модель, по которой позже строились многие люксовые группы.
+Сила тандема Форд — Де Соле заключалась в доверии и разделении ролей. Форд мог позволить себе смелость, потому что знал: его идеи будут грамотно реализованы. Де Соле мог строить амбициозную стратегию, потому что у марки был сильный и узнаваемый голос. Позже эту модель разделения ролей часто ставили в пример другим люксовым компаниям.
 
 > Форд придумывал желание, Де Соле — способ его удовлетворить.`,
-    content_en: `If Ford was in charge of the image, Domenico De Sole — a lawyer who had worked with Gucci long before becoming its chief executive — built the system that turned it into business. In 1995 Gucci Group went public, gaining capital and becoming one of luxury's great success stories. The Ford–De Sole tandem, built on trust and a clear division of roles, became a model for later luxury groups.`,
+    content_en: `If Ford was in charge of the image, Domenico De Sole, chief executive from the mid-1990s, built the system that turned it into business. In 1995 Gucci Group went public, gaining capital and becoming one of luxury's great success stories. The Ford–De Sole tandem, built on trust and a clear division of roles, became a model for later luxury groups.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -130,11 +130,11 @@ LVMH начала скупать акции Gucci, рассчитывая пол
     period: '2004–2013',
     title_ru: 'Уход Форда и рождение Kering',
     title_en: 'Ford’s departure and the birth of Kering',
-    content_ru: `В 2004 году Том Форд и Доменико Де Соле покинули Gucci. Их уход стал концом одной из самых ярких эпох в истории моды — и началом нового, корпоративного этапа.
+    content_ru: `В ноябре 2003 года было объявлено, что Том Форд и Доменико Де Соле покинут Gucci; в 2004 году они ушли из компании. Так закончилась одна из самых обсуждаемых эпох дома — и начался новый, корпоративный этап.
 
 ### Почему они ушли
 
-Отношения тандема с главным акционером, PPR, к середине 2000-х осложнились: вопросы контроля и независимости, которые в 1999 году решались в пользу Gucci, вновь стали предметом спора. Форд и Де Соле ушли на пике успеха, оставив дом в прекрасной форме — и с огромными ожиданиями к их преемникам.
+Причиной ухода стали разногласия с главным акционером, PPR, по условиям их контрактов. Форд и Де Соле ушли, когда дом был на подъёме, — и оставили преемникам очень высокие ожидания.
 
 ### Новая структура
 
@@ -145,7 +145,7 @@ LVMH начала скупать акции Gucci, рассчитывая пол
 Холдинг, выросший вокруг Gucci, постепенно превращался из розничной группы в чисто люксовую компанию. В 2013 году PPR сменила название на Kering. Gucci остался крупнейшим домом группы — тем, от результатов которого зависело состояние всего холдинга.
 
 > Эпоха Форда закончилась, но созданная им модель — сильный автор плюс жёсткий контроль образа — пережила его уход.`,
-    content_en: `In 2004 Tom Ford and Domenico De Sole left Gucci at the peak of success, as tensions with the main shareholder PPR over control and independence resurfaced. Creative leadership was split: Alessandra Facchinetti for womenswear, John Ray for menswear, Frida Giannini for accessories, who became sole creative director in 2006. PPR gradually became a pure luxury group and in 2013 changed its name to Kering, with Gucci its largest house.`,
+    content_en: `In November 2003 it was announced that Tom Ford and Domenico De Sole would leave Gucci after disagreements with the main shareholder PPR over contract terms; they left in 2004. Creative leadership was split: Alessandra Facchinetti for womenswear, John Ray for menswear, Frida Giannini for accessories, who became sole creative director in 2006. PPR gradually became a pure luxury group and in 2013 changed its name to Kering, with Gucci its largest house.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,

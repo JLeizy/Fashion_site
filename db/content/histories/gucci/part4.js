@@ -146,7 +146,7 @@ export default [
     period: '1921 — н. в.',
     title_ru: 'Пять перезапусков: уроки истории Gucci',
     title_en: 'Five relaunches: lessons of Gucci’s history',
-    content_ru: `История Gucci — это история постоянных перезапусков. Ни один другой большой дом не переживал столько радикальных смен курса — и не выходил из каждой из них с новым образом.
+    content_ru: `Историю Gucci можно прочитать как цепочку перезапусков. Ниже — авторская схема редакции Amfibia: пять моментов, когда дом заметно менял курс.
 
 ### Первый: послевоенное изобретение
 
@@ -158,7 +158,7 @@ export default [
 
 ### Третий: Форд
 
-Возрождение 1990-х после семейных войн стало, пожалуй, самым знаменитым перезапуском в истории моды. Том Форд и Доменико Де Соле доказали, что дом, потерявший блеск, можно за несколько лет сделать самым желанным в мире.
+Возрождение 1990-х после семейных войн — один из самых часто упоминаемых перезапусков в истории моды. Том Форд и Доменико Де Соле доказали, что дом, потерявший блеск, можно за несколько лет сделать самым желанным в мире.
 
 ### Четвёртый: Микеле
 
@@ -168,12 +168,12 @@ export default [
 
 С 2025 года дом переживает новый перезапуск — на фоне самого серьёзного спада продаж за десятилетия. «La Famiglia» и «Primavera» показали, что Демна ищет опору в наследии: в семье, Флоренции, телесности эпохи Форда. Удастся ли этот перезапуск, покажет время.
 
-### Общий урок
+### Общий вывод (оценка редакции)
 
-Каждый успешный перезапуск Gucci строился на одной формуле: глубокое знание кодов дома, сильный авторский голос и поддержка руководства, готового рискнуть. Когда хотя бы одно из этих условий исчезало, дом начинал терять направление.
+По нашему прочтению, каждый успешный перезапуск Gucci строился на одной формуле: глубокое знание кодов дома, сильный авторский голос и поддержка руководства, готового рискнуть. Когда хотя бы одно из этих условий исчезало, дом начинал терять направление.
 
 > Gucci не раз был на грани — и каждый раз находил себя заново в собственном прошлом.`,
-    content_en: `Gucci's history is one of repeated relaunches. First, post-war invention: the 1947 Bamboo bag and 1953 Horsebit loafer turned hardship into icons. Second, going global: New York in 1953, London and Palm Beach in the early 1960s, clients like Jacqueline Kennedy and Grace Kelly. Third, the 1990s revival by Tom Ford and Domenico De Sole, perhaps fashion's most famous turnaround. Fourth, Alessandro Michele and Marco Bizzarri from 2015, bringing in millennials and record sales. Fifth, Demna from 2025, against the steepest sales decline in decades, seeking footing in heritage — family, Florence, Ford-era sensuality. Each success combined deep knowledge of the codes, a strong authorial voice and management willing to take risks; when one was missing, the house lost its way.`,
+    content_en: `Gucci's history can be read as a chain of relaunches — the following is the editors' own scheme. First, post-war invention: the 1947 Bamboo bag and 1953 Horsebit loafer turned hardship into icons. Second, going global: New York in 1953, London and Palm Beach in the early 1960s, clients like Jacqueline Kennedy and Grace Kelly. Third, the 1990s revival by Tom Ford and Domenico De Sole, perhaps fashion's most famous turnaround. Fourth, Alessandro Michele and Marco Bizzarri from 2015, bringing in millennials and record sales. Fifth, Demna from 2025, against the steepest sales decline in decades, seeking footing in heritage — family, Florence, Ford-era sensuality. Each success combined deep knowledge of the codes, a strong authorial voice and management willing to take risks; when one was missing, the house lost its way.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,

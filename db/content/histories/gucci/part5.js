@@ -6,15 +6,11 @@ export default [
     period: '1953 — н. в.',
     title_ru: 'Лоферы Horsebit: биография одной модели',
     title_en: 'The Horsebit loafer: biography of a model',
-    content_ru: `Если бы нужно было выбрать одну вещь, рассказывающую всю историю Gucci, многие выбрали бы лоферы Horsebit. Эта модель живёт больше семидесяти лет и прошла через все эпохи дома, каждый раз меняясь — и оставаясь собой.
+    content_ru: `Лоферы Horsebit удобно использовать как сквозной сюжет истории Gucci. Эта модель живёт больше семидесяти лет и прошла через все эпохи дома, каждый раз меняясь — и оставаясь собой.
 
 ### Рождение в 1953 году
 
 Лоферы с металлической пряжкой в форме уменьшенных конских удил появились в 1953 году — в тот год, когда Gucci открыл магазин в Нью-Йорке и когда умер основатель. Сама идея была простой и гениальной: взять мягкий мокасин, удобную повседневную обувь, и добавить к нему деталь из мира седельного ремесла. Трензель напоминал о конном спорте и аристократическом досуге, с которых начиналась история дома, и одновременно превращал скромную туфлю в узнаваемый символ.
-
-### Обувь деловых людей
-
-В середине XX века лоферы Horsebit стали частью гардероба людей, которые хотели выглядеть элегантно, но без лишней строгости. Их носили с костюмом и без носков, в городе и на отдыхе. Для многих они стали первой вещью Gucci в жизни — входом в мир дома, не требующим смелости, но дающим ощущение принадлежности к определённому кругу.
 
 ### Эпоха Форда
 
@@ -30,10 +26,10 @@ export default [
 
 ### Почему модель живёт так долго
 
-Секрет долголетия лоферов Horsebit в том, что они соединяют три качества, ценные для любого дома: комфорт, узнаваемость и историю. Их можно носить каждый день, их невозможно спутать с другими, и в них заключена память о седельной мастерской, с которой начинался Gucci. Каждый новый дизайнер получает в руки не просто модель обуви, а целую главу истории дома.
+Долголетие лоферов Horsebit, на наш взгляд, объясняется тем, что они соединяют три качества: комфорт, узнаваемость и историю. Их можно носить каждый день, их невозможно спутать с другими, и в них заключена память о седельной мастерской, с которой начинался Gucci. Каждый новый дизайнер получает в руки не просто модель обуви, а целую главу истории дома.
 
 > Лоферы Horsebit доказывают: настоящая икона не боится меняться, потому что её нельзя потерять.`,
-    content_en: `If one object had to tell Gucci's whole story, many would choose the Horsebit loafer. Born in 1953 — the year of the New York store and the founder's death — it added a miniature horse-bit from the saddler's world to a soft moccasin, turning a modest shoe into a symbol. In the mid-century it became the elegant but relaxed shoe of business people, worn with suits and without socks, often the first Gucci object in someone's life. Tom Ford gave it fresh relevance in the 1990s; Alessandro Michele removed the back and lined it with fur, turning it into a mule that first looked like a provocation and soon became a hit of the 2010s; Sabato De Sarno set it on a chunky sole for his “Ancora” wardrobe. It endures because it unites comfort, recognisability and history — each designer inherits a chapter of the house.`,
+    content_en: `The Horsebit loafer is a useful thread through Gucci's history. Born in 1953 — the year of the New York store and the founder's death — it added a miniature horse-bit from the saddler's world to a soft moccasin, turning a modest shoe into a symbol. Tom Ford gave it fresh relevance in the 1990s; Alessandro Michele removed the back and lined it with fur, turning it into a mule that first looked like a provocation and soon became a hit of the 2010s; Sabato De Sarno set it on a chunky sole for his “Ancora” wardrobe. It endures because it unites comfort, recognisability and history — each designer inherits a chapter of the house.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
@@ -94,7 +90,7 @@ Flora — это россыпь цветов, растений, бабочек �
 
 ### Образ дома
 
-Сегодня Flora — один из самых узнаваемых рисунков в моде. Он соединяет историю Gucci с именем Грейс Келли, с эпохой 1960-х, когда дом стал спутником международной элиты, и с той способностью превращать выбор одной клиентки в часть общей мифологии, которая отличает Gucci на протяжении всего века.
+Сегодня Flora — один из самых узнаваемых рисунков дома. Он соединяет историю Gucci с именем Грейс Келли, с эпохой 1960-х, когда дом стал спутником международной элиты, и с той способностью превращать выбор одной клиентки в часть общей мифологии, которая отличает Gucci на протяжении всего века.
 
 > Flora — это сад, который однажды вырос на платке принцессы и с тех пор цветёт в каждом поколении дома.`,
     content_en: `Flora is Gucci's most painterly code, bringing colour, nature and romance to a house born of saddlery. In 1966 artist Vittorio Accornero created it for a scarf for Grace Kelly, Princess of Monaco — film star turned royal, the perfect heroine. Flowers, plants, butterflies and insects, botanically precise yet free, make it read like a garden rather than a pattern. It soon spread to clothing, bags, accessories and beyond; Frida Giannini made it a central motif, and Alessandro Michele folded it into his botanical, romantic world. Against the discipline of the horse-bit and stripe, Flora stands for the freedom of the garden — one reason Gucci's vocabulary proved so flexible.`,
@@ -106,7 +102,7 @@ Flora — это россыпь цветов, растений, бабочек �
     period: '1960-е — н. в.',
     title_ru: 'Монограмма: сила и проклятие логотипа',
     title_en: 'The monogram: the power and curse of the logo',
-    content_ru: `Двойная G — один из самых узнаваемых знаков в мире. Но история Gucci показывает, что сильный логотип может быть и благословением, и проклятием.
+    content_ru: `Двойная G — один из самых узнаваемых знаков дома. История Gucci, на наш взгляд, показывает, что сильный логотип может быть и преимуществом, и проблемой.
 
 ### Инициалы основателя
 
@@ -130,7 +126,7 @@ Flora — это россыпь цветов, растений, бабочек �
 
 ### Вечный баланс
 
-Каждый креативный директор Gucci решает одну и ту же задачу: найти баланс между силой логотипа и ценностью ремесла. Слишком много монограмм — и дом превращается в знак статуса. Слишком мало — и он теряет узнаваемость. В этом балансе — одна из главных тайн долговечности Gucci.
+Каждый креативный директор Gucci решает одну и ту же задачу: найти баланс между силой логотипа и ценностью ремесла. Слишком много монограмм — и дом превращается в знак статуса. Слишком мало — и он теряет узнаваемость. По нашему мнению, этот баланс — одна из причин долговечности Gucci.
 
 > Двойная G принадлежит дому, но живёт в культуре — и это делает её одновременно силой и испытанием.`,
     content_en: `The double G — the founder's initials — is one of the world's most recognisable signs, both blessing and curse. Sources differ on whether it took final form with Aldo Gucci around the New York opening or in the late 1960s. In the 1970s–80s demand for monogrammed goods drove expansion and licences until the logo risked eroding exclusivity. The 1990s revival restored control: fewer licences, a selective, deliberate use of the mark. Michele did the opposite and also succeeded, turning the monogram into ornament, embroidery and print for a logo-literate generation. The Dapper Dan story revealed another side: the Harlem tailor once pursued for using luxury logos became Gucci's partner, blurring appropriation and cultural dialogue. Every creative director must balance the power of the logo against the value of craft.`,
@@ -142,7 +138,7 @@ Flora — это россыпь цветов, растений, бабочек �
     period: '1921 — н. в.',
     title_ru: 'Флоренция: город как часть марки',
     title_en: 'Florence: the city as part of the brand',
-    content_ru: `Gucci — один из немногих глобальных домов, чья идентичность неразрывно связана с конкретным городом. Флоренция для Gucci — не просто место рождения, а постоянный источник смысла.
+    content_ru: `Идентичность Gucci тесно связана с конкретным городом. Флоренция для Gucci — не просто место рождения, а постоянный источник смысла.
 
 ### Город ремесла
 
@@ -158,7 +154,7 @@ Flora — это россыпь цветов, растений, бабочек �
 
 ### Корни как стратегия
 
-Каждый раз, когда Gucci переживал кризис, обращение к корням становилось частью ответа. Фрида Джаннини опиралась на архив, Микеле — на культурную память, Демна — на семью и Флоренцию. История дома показывает, что связь с конкретным местом и ремеслом может быть не ностальгией, а стратегией: она даёт марке то, что невозможно скопировать.
+Каждый раз, когда Gucci переживал кризис, обращение к корням становилось частью ответа. Фрида Джаннини опиралась на архив, Микеле — на культурную память, Демна — на семью и Флоренцию. По нашему прочтению, история дома показывает, что связь с местом и ремеслом может быть не ностальгией, а стратегией.
 
 > Глобальный Gucci каждый раз возвращается во Флоренцию — чтобы вспомнить, кем он был до логотипа.`,
     content_en: `Gucci is one of the few global houses whose identity is bound to a city. Florence was a city of guilds — tanners, shoemakers, goldsmiths, bookbinders — and Guccio Gucci's house continued that tradition; “Florentine craftsmanship” remained part of the image even after Gucci became a corporation. Florence is also the city of the Renaissance and Botticelli: Michele filled collections with Renaissance and mythological motifs, and Demna titled his first Gucci show “Primavera”, after Botticelli's painting in Florence. Though born in Florence, Gucci shows in Milan, where its first store opened in the 1950s: Florence gave craft and history, Milan the stage. In every crisis a return to roots has been part of the answer — not nostalgia but strategy.`,
