@@ -117,7 +117,11 @@
 /* =====================================================================
    Оглавление историй /histories
    ===================================================================== */
-.hl-head { display: grid; gap: 18px; max-width: var(--container); margin: 0 auto; padding: 40px var(--gutter) clamp(40px, 6vw, 80px); }
+/* Заголовок слева, вводный текст справа — на всю ширину рабочей области (правка П7) */
+.hl-head { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); column-gap: clamp(24px, 5vw, 110px); row-gap: 18px; align-items: end; max-width: var(--container); margin: 0 auto; padding: 40px var(--gutter) clamp(40px, 6vw, 80px); }
+.hl-head > .breadcrumbs, .hl-head > .t-eyebrow { grid-column: 1 / -1; }
+.hl-head__lead { padding-bottom: 0.8em; }
+@media (max-width: 1023px) { .hl-head { grid-template-columns: 1fr; } }
 .hl-head__title { font-size: clamp(3rem, 1.2rem + 7vw, 9rem); line-height: 0.9; max-width: 12ch; }
 .hl-head__lead { max-width: 64ch; font-size: var(--fs-lg); color: var(--text-2); line-height: 1.6; }
 .hl-list { max-width: var(--container); margin: 0 auto; padding: 0 var(--gutter) 100px; border-top: 1px solid var(--line-2); }

@@ -6,14 +6,15 @@
   place-items: center;
   overflow: hidden;
   text-align: center;
-  padding: calc(var(--header-h) + var(--topbar-h) + 40px) var(--gutter) 80px;
+  padding: calc(var(--header-h) + var(--topbar-h) + 40px) var(--gutter) 150px;
 }
 .error-page__code {
   position: absolute;
   inset: 50% auto auto 50%;
   transform: translate(-50%, -54%);
   font-family: var(--font-gothic);
-  font-size: clamp(14rem, 40vw, 42rem);
+  /* Цифра ошибки на всю ширину экрана (правка П7) */
+  font-size: clamp(12rem, 52vw, 64rem);
   line-height: 0.8;
   color: transparent;
   -webkit-text-stroke: 1px var(--line-2);
@@ -69,4 +70,26 @@
   justify-content: center;
   gap: 12px;
   margin-top: 8px;
+}
+
+/* Ряд ссылок по нижнему краю — на всю ширину рабочей области */
+.error-page__links {
+  position: absolute;
+  left: var(--gutter);
+  right: var(--gutter);
+  bottom: 28px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  border-top: 1px solid var(--line-2);
+  text-align: left;
+}
+.error-page__links a { display: grid; gap: 6px; padding: 18px 16px 6px; border-left: 1px solid var(--line); transition: background-color var(--dur-2); }
+.error-page__links a:first-child { border-left: 0; padding-left: 0; }
+.error-page__links a:hover { background: var(--surface); }
+.error-page__links .t-mono { font-size: 0.5625rem; letter-spacing: 0.2em; color: var(--accent-text); }
+.error-page__links b { font-family: var(--font-display); font-weight: 400; font-size: var(--fs-lg); }
+@media (max-width: 767px) {
+  .error-page { padding-bottom: 40px; align-content: center; gap: 48px; }
+  .error-page__links { position: static; grid-template-columns: 1fr 1fr; }
+  .error-page__links a:nth-child(odd) { border-left: 0; padding-left: 0; }
 }

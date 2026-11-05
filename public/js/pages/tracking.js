@@ -2,8 +2,8 @@
 // на сервере), таймлайн статусов, состав, куда, способ доставки, ожидаемая дата. Автообновление раз в 30 секунд.
 // Номер хранится в URL (?number=…) — ссылкой можно поделиться. Данные: GET /api/tracking/:number.
 import { initApp } from '../app.js';
-import { $, esc } from '../core/dom.js';
-import { t, loc, onLangChange, fmtDate, fmtDateTime } from '../core/i18n.js';
+import { $, esc, icon } from '../core/dom.js';
+import { t, tRaw, loc, onLangChange, fmtDate, fmtDateTime } from '../core/i18n.js';
 import api from '../core/api.js';
 import { renderBreadcrumbs } from '../ui/breadcrumbs.js';
 import { renderTimeline } from '../ui/timeline.js';
@@ -19,8 +19,43 @@ let order = null;
 let loadedAt = null;
 let timer = null;
 
+const guide = $('[data-trk-guide]');
+const DAY = 86_400_000;
+const FLOW = ['created', 'confirmed', 'assembling', 'assembled', 'handed_to_delivery', 'in_transit', 'arrived', 'delivered'];
+
+// Пример таймлайна (не реальный заказ — подпись «Пример»), расшифровка статусов и частые вопросы
+function renderGuide() {
+  const base = Date.now() - 3 * DAY;
+  const sample = {
+    status: 'in_transit',
+    flow: FLOW,
+    history: FLOW.slice(0, 6).map((status, i) => ({ status, at: new Date(base + i * 9 * 3_600_000).toISOString() })),
+  };
+  const faq = tRaw('tracking.faq') || [];
+  guide.innerHTML = `
+    <section class="trk-guide__example">
+      <p class="t-eyebrow">${esc(t('tracking.exampleEyebrow'))}</p>
+      <h2 class="trk-guide__h">${esc(t('tracking.exampleTitle'))}</h2>
+      <p class="t-muted">${esc(t('tracking.exampleText'))}</p>
+      <div class="trk-guide__tl" aria-hidden="true">${renderTimeline(sample)}</div>
+    </section>
+    <section class="trk-guide__statuses">
+      <p class="t-eyebrow">${esc(t('tracking.guideEyebrow'))}</p>
+      <h2 class="trk-guide__h">${esc(t('tracking.guideTitle'))}</h2>
+      <dl class="trk-guide__list">${[...FLOW, 'cancelled', 'returned']
+        .map((s, i) => `<div><dt><span class="t-mono">${String(i + 1).padStart(2, '0')}</span>${esc(t(`statuses.${s}`))}</dt><dd>${esc(t(`tracking.statusHelp.${s}`))}</dd></div>`)
+        .join('')}</dl>
+    </section>
+    <section class="trk-guide__faq">
+      <p class="t-eyebrow">${esc(t('tracking.faqEyebrow'))}</p>
+      <h2 class="trk-guide__h">${esc(t('tracking.faqTitle'))}</h2>
+      ${faq.map((f) => `<details class="trk-faq"><summary>${esc(f.q)}${icon('i-plus', 'icon icon--sm')}</summary><p>${esc(f.a)}</p></details>`).join('')}
+    </section>`;
+}
+
 function render() {
   renderBreadcrumbs($('[data-breadcrumbs]'), [{ href: '/', label: t('nav.home') }, { label: t('tracking.title') }]);
+  renderGuide();
   if (!order) {
     result.innerHTML = '';
     return;

@@ -243,7 +243,8 @@
     "e500Text": "The request could not be processed. Please refresh the page in a few minutes.",
     "toHome": "Home",
     "toCatalog": "Catalogue",
-    "signIn": "Sign in"
+    "signIn": "Sign in",
+    "linksAria": "Where to go next"
   },
   "statuses": {
     "created": "Placed",
@@ -827,7 +828,44 @@
     "autoRefresh": "Status refreshes automatically every 30 seconds",
     "cancelled": "Order cancelled",
     "returned": "Return processed",
-    "pending": "Pending"
+    "pending": "Pending",
+    "exampleEyebrow": "Example",
+    "exampleTitle": "What the timeline looks like",
+    "exampleText": "Completed steps are filled, the current one pulses; each shows a date and time. The “At pickup point” step appears only for pickup-point delivery.",
+    "guideEyebrow": "Statuses",
+    "guideTitle": "How to read the statuses",
+    "statusHelp": {
+      "created": "The order has been received and the items are reserved at the warehouse.",
+      "confirmed": "Paid online or cash on delivery chosen — the order is sent to the warehouse.",
+      "assembling": "Warehouse staff pick and check the items and prepare the packaging and certificate of authenticity.",
+      "assembled": "The parcel is packed and waiting for the carrier.",
+      "handed_to_delivery": "The order has been handed to the courier or carrier.",
+      "in_transit": "The parcel is on its way to you or to the pickup point.",
+      "arrived": "The order is waiting at the pickup point — bring an ID document.",
+      "delivered": "The order has been delivered. The 14-day return period starts now.",
+      "cancelled": "The order is cancelled: the reservation is released and any payment is refunded to the original method.",
+      "returned": "The items are back at the warehouse and have been checked; the money has been refunded."
+    },
+    "faqEyebrow": "Questions",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "q": "Where can I find the tracking number?",
+        "a": "In the order confirmation email, on the order success page and under “My orders” in your account. Format: AF, nine digits and BY."
+      },
+      {
+        "q": "How often is the status updated?",
+        "a": "The tracking page refreshes the status automatically every 30 seconds until the order is delivered, cancelled or returned."
+      },
+      {
+        "q": "Can I change the address after ordering?",
+        "a": "While the order is “Placed” or “Confirmed”, contact client care — the address can be changed before assembly starts."
+      },
+      {
+        "q": "The status has not changed for a while — what should I do?",
+        "a": "Delivery times depend on the carrier and destination. If the expected date has passed, contact us by phone or email and we will check with the carrier."
+      }
+    ]
   },
   "account": {
     "menu": "Account menu",
@@ -1690,7 +1728,8 @@
             "Refunds go to the original payment method, in the order currency at the checkout rate. If the whole order is returned, its status becomes “Returned” and payment “Refunded”."
           ]
         }
-      ]
+      ],
+      "stepsTitle": "How to return an item"
     },
     "sizes": {
       "eyebrow": "Customer care · 03",
@@ -1719,7 +1758,9 @@
             "Balenciaga and Vetements often cut oversized — if in doubt, take your usual size. Maison Margiela Tabi and Italian shoes follow EU sizing. Chrome Hearts rings use US sizes — check the diameter in the chart."
           ]
         }
-      ]
+      ],
+      "tablesTitle": "Size charts",
+      "figureAria": "How to measure: A — chest, B — waist, C — hips, D — foot length"
     },
     "about": {
       "eyebrow": "Company · 04",
@@ -1798,6 +1839,13 @@
           ]
         }
       ]
-    }
+    },
+    "helpTitle": "Need help?",
+    "helpText": "Client care will answer questions about your order, sizing, delivery and returns."
+  },
+  "empty": {
+    "linksAria": "Where to go next",
+    "recsEyebrow": "Just arrived",
+    "recsTitle": "New this season"
   }
 }

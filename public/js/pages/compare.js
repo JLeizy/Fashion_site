@@ -9,7 +9,9 @@ import api from '../core/api.js';
 import { formatPrice, onCurrencyChange } from '../core/currency.js';
 import { store, compare, cart, isAuth, MAX_COMPARE } from '../core/store.js';
 import { renderBreadcrumbs } from '../ui/breadcrumbs.js';
-import { labelsHtml, colorVar } from '../ui/productCard.js';
+import { labelsHtml, colorVar, bindCardActions } from '../ui/productCard.js';
+import { emptyStateHtml, renderEmptyRecs } from '../ui/emptyState.js';
+import { openQuickView } from '../ui/quickView.js';
 import { flyToCart } from '../ui/flyToCart.js';
 import { toast } from '../ui/toast.js';
 import { confirmModal } from '../ui/modal.js';
@@ -72,14 +74,14 @@ function rows() {
 function render() {
   renderBreadcrumbs($('[data-breadcrumbs]'), [{ href: '/', label: t('nav.home') }, { label: t('header.compare') }]);
   $('[data-cmp-tools]').hidden = !items.length;
+  const recs = $('[data-empty-recs]');
   if (!items.length) {
-    root.innerHTML = `<div class="empty">
-      <svg class="empty__orn icon--fill" aria-hidden="true"><use href="#orn-cross"/></svg>
-      <p class="empty__title">${esc(t('comparePage.emptyTitle'))}</p>
-      <p class="empty__text">${esc(t('comparePage.emptyText'))}</p>
-      <a class="btn" href="/catalog">${esc(t('nav.catalog'))}</a></div>`;
+    root.innerHTML = emptyStateHtml({ orn: 'orn-cross', title: t('comparePage.emptyTitle'), text: t('comparePage.emptyText'), cta: { href: '/catalog', label: t('nav.catalog') } });
+    bindCardActions({ onQuickView: (id) => openQuickView(id) });
+    renderEmptyRecs(recs);
     return;
   }
+  recs.innerHTML = '';
   const onlyDiff = diffToggle.checked && items.length > 1;
   const allRows = rows();
   const visible = onlyDiff ? allRows.filter((r) => new Set(items.map((p) => JSON.stringify(r.value(p)))).size > 1) : allRows;

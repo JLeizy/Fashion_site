@@ -24,7 +24,8 @@
 .cart__tools { display: flex; justify-content: space-between; gap: 16px; padding-top: 22px; font-size: var(--fs-xs); letter-spacing: 0.08em; }
 .cart__clear { color: var(--text-3); }
 .cart__clear:hover { color: var(--danger); }
-.cart__empty { border-bottom: 1px solid var(--line); }
+.cart__empty { list-style: none; }
+.cart.is-empty { grid-template-columns: minmax(0, 1fr); }
 
 .citem {
   display: grid;

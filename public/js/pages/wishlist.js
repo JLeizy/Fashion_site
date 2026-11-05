@@ -9,6 +9,7 @@ import { renderBreadcrumbs } from '../ui/breadcrumbs.js';
 import { renderCard, bindCardActions } from '../ui/productCard.js';
 import { openQuickView } from '../ui/quickView.js';
 import { initReveals, refreshScroll } from '../ui/motion.js';
+import { emptyStateHtml, renderEmptyRecs } from '../ui/emptyState.js';
 
 const app = await initApp();
 bindCardActions({ onQuickView: (id) => openQuickView(id) });
@@ -27,14 +28,14 @@ function render() {
   renderBreadcrumbs($('[data-breadcrumbs]'), [{ href: '/', label: t('nav.home') }, { label: t('header.wishlist') }]);
   $('[data-wish-count]').textContent = items.length ? t('wishlistPage.count', { n: items.length }) : '';
   sortSel.closest('label').hidden = items.length < 2;
+  const recs = $('[data-empty-recs]');
+  grid.classList.toggle('is-empty', !items.length);
   if (!items.length) {
-    grid.innerHTML = `<div class="empty">
-      <svg class="empty__orn icon--fill" aria-hidden="true"><use href="#orn-fleur"/></svg>
-      <p class="empty__title">${esc(t('wishlistPage.emptyTitle'))}</p>
-      <p class="empty__text">${esc(t('wishlistPage.emptyText'))}</p>
-      <a class="btn" href="/catalog">${esc(t('nav.catalog'))}</a></div>`;
+    grid.innerHTML = emptyStateHtml({ orn: 'orn-fleur', title: t('wishlistPage.emptyTitle'), text: t('wishlistPage.emptyText'), cta: { href: '/catalog', label: t('nav.catalog') } });
+    renderEmptyRecs(recs);
     return;
   }
+  recs.innerHTML = '';
   const sorted = [...items].sort(SORTS[sortSel.value] || SORTS.added);
   grid.innerHTML = sorted.map((p, i) => renderCard(p, { eager: i < 4 })).join('');
   initReveals(grid);

@@ -12,6 +12,7 @@ import { renderBreadcrumbs } from '../ui/breadcrumbs.js';
 import { renderCard, bindCardActions } from '../ui/productCard.js';
 import { openQuickView } from '../ui/quickView.js';
 import { initRail } from '../ui/rail.js';
+import { emptyStateHtml } from '../ui/emptyState.js';
 import { toast } from '../ui/toast.js';
 import { confirmModal } from '../ui/modal.js';
 import { withLoading } from '../ui/forms.js';
@@ -84,12 +85,9 @@ function render() {
   els.summary.hidden = !items.length;
   els.tools.hidden = !items.length;
   els.free.hidden = !items.length;
+  els.items.closest('.cart')?.classList.toggle('is-empty', !items.length);
   if (!items.length) {
-    els.items.innerHTML = `<li class="empty cart__empty">
-      <svg class="empty__orn icon--fill" aria-hidden="true"><use href="#orn-cross-filigree"/></svg>
-      <p class="empty__title">${esc(t('cart.emptyTitle'))}</p>
-      <p class="empty__text">${esc(t('cart.emptyText'))}</p>
-      <a class="btn" href="/catalog?new=1&sort=new">${esc(t('cart.emptyCta'))}</a></li>`;
+    els.items.innerHTML = `<li class="cart__empty">${emptyStateHtml({ title: t('cart.emptyTitle'), text: t('cart.emptyText'), cta: { href: '/catalog?new=1&sort=new', label: t('cart.emptyCta') } })}</li>`;
     loadRecommendations();
     return;
   }
