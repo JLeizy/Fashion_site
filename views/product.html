@@ -4,6 +4,7 @@
   <!-- @include partials/head.html -->
   <title>{{title}}</title>
   <link rel="stylesheet" href="/css/pages/product.css">
+  <link rel="stylesheet" href="/css/pages/product-tag.css">
 </head>
 <body data-page="{{page}}" data-brand="{{brandSlug}}" data-product-page="{{productId}}">
   <!-- @include partials/sprite.html -->
@@ -108,7 +109,7 @@
       </div>
     </section>
 
-    <!-- 02 · Характеристики (бирка в духе Margiela) -->
+    <!-- 02 · Характеристики + разворачивающаяся бирка в стиле дома (js/ui/brandTag.js, css/pages/product-tag.css) -->
     <section class="pp-section pp-specs-wrap">
       <header class="pp-section__head">
         <span class="pp-section__num t-mono">02</span>
@@ -116,7 +117,7 @@
       </header>
       <div class="pp-specs">
         <dl class="pp-specs__list" data-pp-specs></dl>
-        <aside class="pp-label-tag" data-pp-tag aria-hidden="true"></aside>
+        <div class="pp-tag" data-pp-tag></div>
       </div>
     </section>
 

@@ -222,37 +222,7 @@
 .pp-spec dt .t-mono { color: var(--b-accent-text, var(--accent-text)); }
 .pp-spec dd { font-family: var(--font-display); font-size: var(--fs-lg); }
 
-.pp-label-tag {
-  position: relative;
-  justify-self: center;
-  width: min(100%, 320px);
-  padding: 26px 24px 30px;
-  background: #f4f1ea;
-  color: #141414;
-  box-shadow: var(--shadow-2);
-  transform: rotate(-2.2deg);
-  display: grid;
-  gap: 14px;
-}
-/* Четыре «стежка» по углам, как у пришитой белой бирки */
-.pp-label-tag::before {
-  content: '';
-  position: absolute;
-  inset: 8px;
-  background:
-    radial-gradient(circle, #b9b4a8 1.4px, transparent 1.6px) 0 0 / 100% 100% no-repeat,
-    linear-gradient(#b9b4a8, #b9b4a8) left top / 8px 1px no-repeat,
-    linear-gradient(#b9b4a8, #b9b4a8) right top / 8px 1px no-repeat,
-    linear-gradient(#b9b4a8, #b9b4a8) left bottom / 8px 1px no-repeat,
-    linear-gradient(#b9b4a8, #b9b4a8) right bottom / 8px 1px no-repeat;
-  pointer-events: none;
-}
-.pp-label-tag__nums { display: grid; grid-template-columns: repeat(8, 1fr); gap: 6px 2px; font-size: 0.75rem; text-align: center; }
-.pp-label-tag__nums span { display: grid; place-items: center; aspect-ratio: 1; }
-.pp-label-tag__nums span.is-on { border: 1px solid #141414; border-radius: 50%; }
-.pp-label-tag__brand { font-size: 1.5rem; line-height: 1; color: #141414; }
-.pp-label-tag__comp { font-size: 0.8125rem; line-height: 1.5; color: #3a3833; }
-.pp-label-tag__sku { font-size: 0.6875rem; letter-spacing: 0.12em; color: #5b5850; }
+/* Бирка товара (разворачивающаяся, в стиле дома) — css/pages/product-tag.css */
 
 /* ---------- 03 · Отзывы ---------- */
 .pp-reviews__grid { display: grid; grid-template-columns: minmax(240px, 0.36fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 96px); align-items: start; }

@@ -9,7 +9,8 @@ import api from '../core/api.js';
 import { formatPrice, formatMoney, convert, getCurrency, CURRENCIES, onCurrencyChange, refreshPrices } from '../core/currency.js';
 import { store, cart, wishlist, compare, isAuth, requireAuth } from '../core/store.js';
 import { renderBreadcrumbs } from '../ui/breadcrumbs.js';
-import { renderCard, labelsHtml, colorVar, lineNumber, bindCardActions } from '../ui/productCard.js';
+import { renderCard, labelsHtml, colorVar, bindCardActions } from '../ui/productCard.js';
+import { brandTagHtml, initBrandTag } from '../ui/brandTag.js';
 import { openQuickView } from '../ui/quickView.js';
 import { createGallery } from '../ui/gallery.js';
 import { openSizeChart } from '../ui/sizeChart.js';
@@ -179,15 +180,16 @@ function renderSeller() {
     </div>`;
 }
 
+let destroyTag = () => {};
 function renderSpecs() {
+  // Если в названии коллекции уже есть год (например, «Fall/Winter 2026»), сезон не дублируем
+  const collectionLabel = product.collection
+    ? String(product.collection.name).includes(String(product.collection.year))
+      ? product.collection.name
+      : `${product.collection.name} · ${t(`seasons.${product.collection.season}`)} ${product.collection.year}`
+    : '';
   const rows = [
-    product.collection && [
-      t('product.specCollection'),
-      // Если в названии коллекции уже есть год (например, «Fall/Winter 2026»), сезон не дублируем
-      String(product.collection.name).includes(String(product.collection.year))
-        ? product.collection.name
-        : `${product.collection.name} · ${t(`seasons.${product.collection.season}`)} ${product.collection.year}`,
-    ],
+    product.collection && [t('product.specCollection'), collectionLabel],
     [t('product.specCategory'), [product.parentCategory && loc(product.parentCategory.name), loc(product.category.name)].filter(Boolean).join(' / ')],
     [t('product.specMaterial'), t(`materials.${product.material}`)],
     [t('product.specColor'), t(`colors.${product.color}`)],
@@ -199,14 +201,14 @@ function renderSpecs() {
   els.specs.innerHTML = rows
     .map(([k, v], i) => `<div class="pp-spec" data-reveal><dt><span class="t-mono">${String(i + 1).padStart(2, '0')}</span>${esc(k)}</dt><dd>${esc(v)}</dd></div>`)
     .join('');
-  // Бирка в духе Maison Margiela: ряд цифр 0–23, обведён «номер линии»
-  const line = lineNumber(product);
-  const nums = Array.from({ length: 24 }, (_, n) => `<span class="${n === line ? 'is-on' : ''}">${n}</span>`).join('');
-  els.tag.innerHTML = `
-    <div class="pp-label-tag__nums t-mono">${nums}</div>
-    <p class="pp-label-tag__brand b-title">${esc(product.brand.name)}</p>
-    <p class="pp-label-tag__comp">${esc(loc(product.composition))}</p>
-    <p class="pp-label-tag__sku t-mono">${esc(product.sku)} · ${esc(countryName(product.country))}</p>`;
+  // Разворачивающаяся бирка в стиле дома (правка П10) — свёрнутая/развёрнутая сохраняется при смене языка
+  const wasOpen = els.tag.classList.contains('is-open');
+  destroyTag();
+  els.tag.dataset.brand = product.brand.slug;
+  els.tag.classList.remove('is-open');
+  els.tag.innerHTML = brandTagHtml(product, collectionLabel);
+  destroyTag = initBrandTag(els.tag);
+  if (wasOpen) els.tag.querySelector('[data-pp-tag-toggle]').click();
 }
 
 function renderNotice() {

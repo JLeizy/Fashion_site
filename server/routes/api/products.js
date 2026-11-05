@@ -123,7 +123,7 @@ router.get('/by-ids', validate([q('ids').isString()]), async (req, res) => {
 // product_images, product_variants, sizes, v_variant_stock, reviews (SELECT)
 export async function loadProduct(id, viewer) {
   const { rows } = await query(
-    `SELECT p.*, b.name AS brand_name, b.slug AS brand_slug, b.accent_color, b.founded_year,
+    `SELECT p.*, b.name AS brand_name, b.slug AS brand_slug, b.accent_color, b.founded_year, b.short_desc_ru, b.short_desc_en,
             c.slug AS category_slug, c.name_ru AS category_ru, c.name_en AS category_en, c.size_type,
             parent.slug AS parent_slug, parent.name_ru AS parent_ru, parent.name_en AS parent_en,
             col.id AS col_id, col.name AS col_name, col.season AS col_season, col.year AS col_year,
@@ -182,7 +182,7 @@ export async function loadProduct(id, viewer) {
     description: { ru: p.description_ru, en: p.description_en },
     composition: { ru: p.composition_ru, en: p.composition_en },
     care: { ru: p.care_ru, en: p.care_en },
-    brand: { id: p.brand_id, name: p.brand_name, slug: p.brand_slug, accentColor: p.accent_color, foundedYear: p.founded_year },
+    brand: { id: p.brand_id, name: p.brand_name, slug: p.brand_slug, accentColor: p.accent_color, foundedYear: p.founded_year, about: { ru: p.short_desc_ru, en: p.short_desc_en } },
     category: { id: p.category_id, slug: p.category_slug, name: { ru: p.category_ru, en: p.category_en }, sizeType: p.size_type },
     parentCategory: p.parent_slug ? { slug: p.parent_slug, name: { ru: p.parent_ru, en: p.parent_en } } : null,
     collection: p.col_id ? { id: p.col_id, name: p.col_name, season: p.col_season, year: p.col_year } : null,

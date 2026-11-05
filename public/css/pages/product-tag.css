@@ -1,0 +1,416 @@
+/* =====================================================================
+   Бирка товара в блоке «02 · Характеристики» (правка П10) — js/ui/brandTag.js.
+   Свёрнутый вид: бирка с брендом, составом, артикулом и страной. По нажатию секции панели
+   разворачиваются по очереди (rotateX от верхнего края — как сложенная бирка).
+   Анимируются только transform и opacity; без анимации при prefers-reduced-motion и html.perf-low.
+
+   Бирка — «физический» предмет со своими цветами, поэтому выглядит одинаково во всех трёх темах
+   (контраст текста внутри бирки ≥ 4.5:1 обеспечен её собственной палитрой).
+   Шрифт названия дома берётся из переменных микростилистики --b-* (css/brands.css), палитра — из --tag-*:
+     --tag-bg / --tag-ink / --tag-muted / --tag-line — фон, текст, второстепенный текст, линии
+     --tag-panel-bg / --tag-panel-ink — фон и текст развёрнутой части (по умолчанию как у бирки)
+     --tag-tilt — наклон свёрнутой бирки, --tag-radius — скругление, --tag-texture — фактура
+   ===================================================================== */
+
+.pp-tag {
+  --tag-bg: #f4f1ea;
+  --tag-ink: #141414;
+  --tag-muted: #4a4740;
+  --tag-line: #b9b4a8;
+  --tag-panel-bg: var(--tag-bg);
+  --tag-panel-ink: var(--tag-ink);
+  --tag-tilt: -2.2deg;
+  --tag-radius: 0;
+  --tag-texture: none;
+  --tag-brand-size: 1.5rem;
+  --tag-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  position: relative;
+  justify-self: center;
+  width: min(100%, 380px);
+  display: grid;
+}
+
+/* ---------- Свёрнутый вид (кнопка) ---------- */
+.pp-tag__face {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 14px;
+  width: 100%;
+  padding: 26px 24px 18px;
+  border: 0;
+  border-radius: var(--tag-radius);
+  background-color: var(--tag-bg);
+  background-image: var(--tag-texture);
+  color: var(--tag-ink);
+  font-family: var(--font-body);
+  text-align: left;
+  box-shadow: var(--shadow-2);
+  transform: rotate(var(--tag-tilt));
+  transition: transform 0.6s var(--tag-ease);
+  cursor: pointer;
+}
+.pp-tag__face > span { display: block; }
+.pp-tag__face:hover { transform: rotate(0deg) translateY(-3px); }
+.pp-tag__face:focus-visible { outline: 2px solid var(--focus); outline-offset: 6px; }
+.pp-tag.is-open .pp-tag__face { transform: none; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+
+.pp-tag__deco { position: relative; }
+.pp-tag__brand {
+  font-family: var(--b-font, var(--font-display));
+  font-weight: var(--b-weight, 400);
+  font-style: var(--b-style, normal);
+  text-transform: var(--b-case, none);
+  letter-spacing: var(--b-tracking, 0);
+  font-size: var(--tag-brand-size);
+  line-height: 1.05;
+  color: var(--tag-brand, var(--tag-ink));
+  overflow-wrap: anywhere;
+}
+.pp-tag__comp { font-size: 0.8125rem; line-height: 1.5; color: var(--tag-muted); }
+.pp-tag__sku { font-size: 0.6875rem; letter-spacing: 0.12em; color: var(--tag-muted); }
+.pp-tag__hint {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--tag-line);
+  font-size: 0.625rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--tag-muted);
+}
+/* «Плюс», который превращается в «минус» */
+.pp-tag__plus { position: relative; width: 12px; height: 12px; flex: none; }
+.pp-tag__plus::before,
+.pp-tag__plus::after { content: ''; position: absolute; left: 0; right: 0; top: 50%; height: 1.5px; margin-top: -0.75px; background: currentColor; transition: transform 0.45s var(--tag-ease); }
+.pp-tag__plus::after { transform: rotate(90deg); }
+.pp-tag.is-open .pp-tag__plus::after { transform: rotate(0deg); }
+
+/* ---------- Развёрнутая часть: секции раскладываются по очереди ---------- */
+.pp-tag__panel {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  perspective: 1100px;
+}
+.pp-tag__fold {
+  display: grid;
+  gap: 10px;
+  padding: 18px 24px;
+  background-color: var(--tag-panel-bg);
+  background-image: var(--tag-texture);
+  color: var(--tag-panel-ink);
+  border-top: 1px dashed var(--tag-line);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+  transform-origin: top center;
+  transform: rotateX(-88deg);
+  opacity: 0;
+  backface-visibility: hidden;
+  transition:
+    transform 0.55s var(--tag-ease) calc((3 - var(--i)) * 55ms),
+    opacity 0.3s ease calc((3 - var(--i)) * 55ms);
+}
+.pp-tag__fold:last-child { border-bottom-left-radius: var(--tag-radius); border-bottom-right-radius: var(--tag-radius); }
+.pp-tag.is-open .pp-tag__fold {
+  transform: none;
+  opacity: 1;
+  transition:
+    transform 0.7s var(--tag-ease) calc(var(--i) * 110ms),
+    opacity 0.4s ease calc(var(--i) * 110ms);
+}
+.pp-tag__h { font-family: var(--font-mono); font-size: 0.625rem; font-weight: 400; letter-spacing: 0.2em; text-transform: uppercase; color: inherit; opacity: 0.75; }
+.pp-tag__text { font-size: 0.875rem; line-height: 1.65; }
+.pp-tag__facts { display: grid; gap: 10px; }
+.pp-tag__facts > div { display: grid; grid-template-columns: minmax(90px, 0.42fr) minmax(0, 1fr); gap: 12px; }
+.pp-tag__facts dt { font-family: var(--font-mono); font-size: 0.625rem; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.75; padding-top: 3px; }
+.pp-tag__facts dd { font-size: 0.8125rem; line-height: 1.5; }
+.pp-tag__verified { display: flex; gap: 8px; align-items: flex-start; font-size: 0.75rem; line-height: 1.5; padding-top: 4px; }
+.pp-tag__verified .icon { flex: none; margin-top: 3px; }
+.pp-tag__about { font-size: 0.8125rem; line-height: 1.6; }
+.pp-tag__about-name { font-family: var(--b-font, var(--font-display)); text-transform: var(--b-case, none); letter-spacing: var(--b-tracking, 0); font-weight: var(--b-weight, 400); }
+.pp-tag__link { display: inline-flex; gap: 8px; align-items: center; justify-self: start; font-family: var(--font-mono); font-size: 0.6875rem; letter-spacing: 0.14em; text-transform: uppercase; color: inherit; border-bottom: 1px solid currentColor; padding-bottom: 2px; }
+.pp-tag__link .icon { transition: transform 0.3s var(--tag-ease); }
+.pp-tag__link:hover .icon { transform: translateX(4px); }
+.pp-tag__link:focus-visible { outline: 2px solid var(--focus); outline-offset: 4px; }
+.pp-tag__orn { width: 18px; height: 18px; fill: currentColor; color: inherit; flex: none; }
+.pp-tag__line { display: block; font-size: 0.6875rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--tag-muted); }
+
+/* Без анимации: системная настройка «уменьшить движение» и слабое железо (html.perf-low, П6) */
+@media (prefers-reduced-motion: reduce) {
+  .pp-tag__face, .pp-tag__fold, .pp-tag.is-open .pp-tag__fold, .pp-tag__plus::before, .pp-tag__plus::after { transition: none; }
+}
+html.perf-low .pp-tag__face,
+html.perf-low .pp-tag__fold,
+html.perf-low .pp-tag.is-open .pp-tag__fold,
+html.perf-low .pp-tag__plus::after { transition: none; }
+
+/* =====================================================================
+   15 домов — своё оформление бирки (раздел 10.5 ТЗ)
+   ===================================================================== */
+
+/* Maison Margiela — белая бирка с цифрами 0–23 и четырьмя стежками */
+.pp-tag[data-brand='maison-margiela'] .pp-tag__face::before {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  background:
+    linear-gradient(#b9b4a8, #b9b4a8) left top / 8px 1px no-repeat,
+    linear-gradient(#b9b4a8, #b9b4a8) right top / 8px 1px no-repeat,
+    linear-gradient(#b9b4a8, #b9b4a8) left bottom / 8px 1px no-repeat,
+    linear-gradient(#b9b4a8, #b9b4a8) right bottom / 8px 1px no-repeat;
+  pointer-events: none;
+}
+.pp-tag__nums { display: grid !important; grid-template-columns: repeat(8, 1fr); gap: 6px 2px; font-size: 0.75rem; text-align: center; }
+.pp-tag__nums span { display: grid; place-items: center; aspect-ratio: 1; }
+.pp-tag__nums span.is-on { border: 1px solid currentColor; border-radius: 50%; }
+.pp-tag[data-brand='maison-margiela'] { --tag-muted: #4a4740; --tag-brand-size: 1.4rem; }
+
+/* Balenciaga — индустриальный ярлык: гротеск капсом, жёсткая сетка, холодный серый, штрихкод */
+.pp-tag[data-brand='balenciaga'] {
+  --tag-bg: #e4e5e7;
+  --tag-ink: #0d0d0e;
+  --tag-muted: #3c3e42;
+  --tag-line: #8d9095;
+  --tag-tilt: 0deg;
+  --tag-brand-size: 1.85rem;
+  --tag-texture: linear-gradient(rgba(13, 13, 14, 0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(13, 13, 14, 0.07) 1px, transparent 1px);
+}
+.pp-tag[data-brand='balenciaga'] .pp-tag__face,
+.pp-tag[data-brand='balenciaga'] .pp-tag__fold { background-size: 22px 22px; }
+.pp-tag[data-brand='balenciaga'] .pp-tag__face { border-top: 10px solid #0d0d0e; }
+.pp-tag__barcode {
+  display: block;
+  height: 34px;
+  background: repeating-linear-gradient(90deg, #0d0d0e 0 2px, transparent 2px 4px, #0d0d0e 4px 5px, transparent 5px 8px, #0d0d0e 8px 11px, transparent 11px 12px, #0d0d0e 12px 13px, transparent 13px 17px);
+}
+.pp-tag__ref { display: block; margin-top: 6px; font-size: 0.625rem; letter-spacing: 0.18em; }
+.pp-tag[data-brand='balenciaga'] .pp-tag__fold { border-top-style: solid; }
+
+/* Vetements — оверсайз-ярлык по уходу, белая и жёлтая бирки, ироничная типографика */
+.pp-tag[data-brand='vetements'] {
+  --tag-bg: #fbfbf7;
+  --tag-ink: #111111;
+  --tag-muted: #3a3a3a;
+  --tag-line: #b8b8b0;
+  --tag-tilt: 1.6deg;
+  --tag-brand-size: 2.3rem;
+}
+.pp-tag[data-brand='vetements'] .pp-tag__brand { font-weight: 900; text-transform: uppercase; letter-spacing: -0.05em; line-height: 0.9; }
+.pp-tag__sticker {
+  position: absolute;
+  top: -40px;
+  right: -14px;
+  padding: 8px 12px;
+  background: #f2d21b;
+  color: #111111;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  transform: rotate(5deg);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+.pp-tag__care { display: block; font-size: 1.1rem; letter-spacing: 0.3em; }
+.pp-tag[data-brand='vetements'] .pp-tag__fold:nth-child(2) { --tag-panel-bg: #f2d21b; }
+
+/* Gucci — винтажная этикетка: глубокий зелёный, золото и красный, ботанический орнамент */
+.pp-tag[data-brand='gucci'] {
+  --tag-bg: #133e2e;
+  --tag-ink: #f2e7c9;
+  --tag-muted: #d6c9a3;
+  --tag-line: rgba(196, 160, 82, 0.6);
+  --tag-brand: #e2c27a;
+  --tag-tilt: -1.4deg;
+  --tag-brand-size: 1.8rem;
+}
+.pp-tag[data-brand='gucci'] .pp-tag__face { box-shadow: inset 0 0 0 6px #133e2e, inset 0 0 0 7px #c4a052, inset 0 0 0 10px #133e2e, inset 0 0 0 11px #8e1b22, var(--shadow-2); padding: 30px 28px 20px; }
+.pp-tag__crest { display: flex !important; gap: 10px; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-style: italic; font-size: 0.8125rem; letter-spacing: 0.12em; color: #e2c27a; }
+.pp-tag[data-brand='gucci'] .pp-tag__orn { fill: #c4a052; }
+.pp-tag[data-brand='gucci'] .pp-tag__crest .pp-tag__orn:last-child { transform: scaleX(-1); }
+.pp-tag[data-brand='gucci'] .pp-tag__brand { text-align: center; }
+.pp-tag[data-brand='gucci'] .pp-tag__fold { box-shadow: inset 6px 0 0 #133e2e, inset 7px 0 0 #c4a052, inset -6px 0 0 #133e2e, inset -7px 0 0 #c4a052; }
+
+/* Prada — минималистичная карточка: чёрный и серо-голубой, сдержанная геометрия, много воздуха */
+.pp-tag[data-brand='prada'] {
+  --tag-bg: #0c0c0e;
+  --tag-ink: #eef2f5;
+  --tag-muted: #aebccb;
+  --tag-line: #3b4652;
+  --tag-tilt: 0deg;
+  --tag-brand-size: 1.15rem;
+}
+.pp-tag[data-brand='prada'] .pp-tag__face { padding: 40px 32px 22px; gap: 18px; outline: 1px solid #3b4652; outline-offset: -12px; }
+.pp-tag[data-brand='prada'] .pp-tag__brand { font-family: 'Inter', sans-serif; font-weight: 300; text-transform: uppercase; letter-spacing: 0.42em; }
+.pp-tag[data-brand='prada'] .pp-tag__line { color: #aebccb; letter-spacing: 0.36em; }
+.pp-tag[data-brand='prada'] .pp-tag__fold { padding: 22px 32px; border-top-style: solid; }
+
+/* Enfants Riches Déprimés — состаренная бумага, «нацарапанный» почерк, строка мрачной поэзии */
+.pp-tag[data-brand='enfants-riches-deprimes'] {
+  --tag-bg: #e6d9bb;
+  --tag-ink: #2a1c11;
+  --tag-muted: #4f3c27;
+  --tag-line: rgba(42, 28, 17, 0.4);
+  --tag-tilt: -3.6deg;
+  --tag-brand-size: 2.4rem;
+  --tag-texture:
+    radial-gradient(circle at 18% 22%, rgba(120, 82, 32, 0.22), transparent 38%),
+    radial-gradient(circle at 84% 78%, rgba(96, 60, 24, 0.2), transparent 34%),
+    repeating-linear-gradient(-28deg, rgba(42, 28, 17, 0.05) 0 1px, transparent 1px 9px);
+}
+.pp-tag[data-brand='enfants-riches-deprimes'] .pp-tag__face { clip-path: polygon(0 2%, 7% 0, 30% 1.5%, 58% 0, 83% 1.2%, 100% 0, 99% 34%, 100% 71%, 98.5% 100%, 66% 98.4%, 38% 100%, 12% 98.6%, 0 100%, 1.2% 60%); }
+.pp-tag[data-brand='enfants-riches-deprimes'] .pp-tag__brand { font-family: 'Caveat', cursive; text-transform: none; letter-spacing: 0; transform: rotate(-2deg); }
+.pp-tag__poem { display: block; font-family: 'Caveat', cursive; font-size: 1.25rem; line-height: 1.2; text-decoration: line-through; text-decoration-thickness: 1px; text-decoration-color: rgba(42, 28, 17, 0.55); }
+.pp-tag[data-brand='enfants-riches-deprimes'] .pp-tag__text,
+.pp-tag[data-brand='enfants-riches-deprimes'] .pp-tag__about { font-family: 'Caveat', cursive; font-size: 1.15rem; line-height: 1.35; }
+
+/* AVAVAV — кислотные цвета, деформированный «сломанный» ярлык */
+.pp-tag[data-brand='avavav'] {
+  --tag-bg: #c8ff1a;
+  --tag-ink: #141414;
+  --tag-muted: #262626;
+  --tag-line: #141414;
+  --tag-tilt: -4deg;
+  --tag-brand-size: 2rem;
+}
+.pp-tag[data-brand='avavav'] .pp-tag__face { clip-path: polygon(0 4%, 22% 0, 21% 3%, 64% 1%, 100% 6%, 97% 48%, 100% 52%, 98% 100%, 54% 97%, 52% 100%, 3% 98%, 0 55%, 2.5% 51%); transform: rotate(var(--tag-tilt)) skewX(-3deg); }
+.pp-tag[data-brand='avavav'] .pp-tag__face:hover { transform: rotate(-1deg) skewX(-1deg) translateY(-3px); }
+.pp-tag[data-brand='avavav'].is-open .pp-tag__face { transform: skewX(-1deg); }
+.pp-tag[data-brand='avavav'] .pp-tag__brand { font-family: 'Rubik Glitch', 'Unbounded', sans-serif; text-shadow: 2px 0 #ff2fa0, -2px 0 #2bd9ff; }
+.pp-tag__glitch { display: block; font-family: 'Unbounded', sans-serif; font-weight: 900; font-size: 0.8125rem; letter-spacing: 0.2em; color: #ff2fa0; transform: skewX(-12deg); }
+.pp-tag[data-brand='avavav'] .pp-tag__fold:nth-child(odd) { --tag-panel-bg: #ff2fa0; --tag-panel-ink: #141414; }
+.pp-tag[data-brand='avavav'] .pp-tag__fold { border-top: 2px solid #141414; }
+
+/* Supreme — красная плашка с белым жирным текстом */
+.pp-tag[data-brand='supreme'] {
+  --tag-bg: #c8101d;
+  --tag-ink: #ffffff;
+  --tag-muted: #ffffff;
+  --tag-line: rgba(255, 255, 255, 0.55);
+  --tag-panel-bg: #ffffff;
+  --tag-panel-ink: #141414;
+  --tag-tilt: 0deg;
+  --tag-brand-size: 2.2rem;
+}
+.pp-tag[data-brand='supreme'] .pp-tag__brand { font-family: 'Inter', sans-serif; font-weight: 900; font-style: italic; letter-spacing: -0.03em; text-transform: none; }
+.pp-tag__ny { display: block; font-size: 0.625rem; letter-spacing: 0.3em; }
+.pp-tag[data-brand='supreme'] .pp-tag__fold { border-top: 3px solid #c8101d; }
+.pp-tag[data-brand='supreme'] .pp-tag__fold .pp-tag__link { color: #c8101d; }
+
+/* Chrome Hearts — серебро на чёрной коже, blackletter, кресты */
+.pp-tag[data-brand='chrome-hearts'] {
+  --tag-bg: #0e0d0d;
+  --tag-ink: #e2e2e2;
+  --tag-muted: #bdbdbd;
+  --tag-line: #5d5d5d;
+  --tag-tilt: -1.8deg;
+  --tag-brand-size: 2.3rem;
+  --tag-radius: 6px;
+  --tag-texture:
+    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.07), transparent 45%),
+    repeating-radial-gradient(circle at 70% 60%, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 4px);
+}
+.pp-tag[data-brand='chrome-hearts'] .pp-tag__face { outline: 1px dashed #6d6d6d; outline-offset: -9px; }
+.pp-tag[data-brand='chrome-hearts'] .pp-tag__brand { font-family: 'UnifrakturMaguntia', serif; text-transform: none; letter-spacing: 0; background: linear-gradient(180deg, #ffffff, #9a9a9a 55%, #e6e6e6); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.pp-tag__crosses { display: flex !important; gap: 12px; color: #cfcfcf; }
+.pp-tag__crosses .pp-tag__orn { width: 20px; height: 20px; }
+
+/* Louis Vuitton — багажная бирка дорожного сундука: коричневая кожа, золото, отверстие для шнурка */
+.pp-tag[data-brand='louis-vuitton'] {
+  --tag-bg: #5b3920;
+  --tag-ink: #f0dca8;
+  --tag-muted: #e1c78c;
+  --tag-line: rgba(240, 220, 168, 0.45);
+  --tag-tilt: 2deg;
+  --tag-radius: 16px;
+  --tag-brand-size: 1.45rem;
+  --tag-texture: radial-gradient(circle at 20% 10%, rgba(255, 220, 160, 0.1), transparent 50%);
+}
+.pp-tag[data-brand='louis-vuitton'] .pp-tag__face { padding-top: 54px; outline: 1px dashed rgba(240, 220, 168, 0.6); outline-offset: -8px; }
+.pp-tag[data-brand='louis-vuitton'] .pp-tag__brand { text-transform: uppercase; letter-spacing: 0.24em; }
+.pp-tag__hole { position: absolute; top: -38px; left: 50%; width: 18px; height: 18px; margin-left: -9px; border-radius: 50%; background: var(--bg); box-shadow: 0 0 0 4px #c9a75a, 0 0 0 5px #3c2412; }
+.pp-tag__route { display: block; font-size: 0.625rem; letter-spacing: 0.2em; text-transform: uppercase; text-align: center; }
+
+/* Chanel — чёрно-белая твидовая карточка с жемчужной нитью, элегантная антиква */
+.pp-tag[data-brand='chanel'] {
+  --tag-bg: #faf8f3;
+  --tag-ink: #0b0b0b;
+  --tag-muted: #333333;
+  --tag-line: #9a958c;
+  --tag-tilt: -1deg;
+  --tag-brand-size: 1.35rem;
+  --tag-texture: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.05) 0 2px, transparent 2px 5px), repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.04) 0 1px, transparent 1px 4px);
+}
+.pp-tag[data-brand='chanel'] .pp-tag__face { border: 2px solid #0b0b0b; }
+.pp-tag[data-brand='chanel'] .pp-tag__brand { font-family: 'Forum', 'Playfair Display', serif; text-transform: uppercase; letter-spacing: 0.32em; text-align: center; }
+.pp-tag[data-brand='chanel'] .pp-tag__line { text-align: center; letter-spacing: 0.4em; }
+.pp-tag__pearls { display: block; height: 14px; margin-bottom: 8px; background: radial-gradient(circle at 45% 38%, #ffffff 0 22%, #ece6da 46%, #b8b0a1 70%, transparent 74%) 0 0 / 15px 14px repeat-x; }
+.pp-tag[data-brand='chanel'] .pp-tag__fold { border-left: 2px solid #0b0b0b; border-right: 2px solid #0b0b0b; }
+.pp-tag[data-brand='chanel'] .pp-tag__fold:last-child { border-bottom: 2px solid #0b0b0b; }
+
+/* Givenchy — строгая тёмная готика: контраст чёрного и белого, стрельчатая арка */
+.pp-tag[data-brand='givenchy'] {
+  --tag-bg: #050505;
+  --tag-ink: #f5f5f5;
+  --tag-muted: #c4c4c4;
+  --tag-line: #4a4a4a;
+  --tag-tilt: 0deg;
+  --tag-brand-size: 1.3rem;
+}
+.pp-tag[data-brand='givenchy'] .pp-tag__face { padding-top: 46px; clip-path: polygon(0 26px, 50% 0, 100% 26px, 100% 100%, 0 100%); box-shadow: inset 0 0 0 1px #f5f5f5, inset 0 0 0 5px #050505, inset 0 0 0 6px #6a6a6a; }
+.pp-tag[data-brand='givenchy'] .pp-tag__brand { font-family: 'Forum', serif; text-transform: uppercase; letter-spacing: 0.44em; text-align: center; }
+.pp-tag__arch { display: flex !important; justify-content: center; color: #f5f5f5; }
+.pp-tag__arch .pp-tag__orn { width: 26px; height: 26px; }
+.pp-tag[data-brand='givenchy'] .pp-tag__fold { border-top: 1px solid #4a4a4a; }
+
+/* Versace — золото, барочная рамка, греческий меандр */
+.pp-tag[data-brand='versace'] {
+  --tag-bg: #0f0d0a;
+  --tag-ink: #ead08a;
+  --tag-muted: #d8be7f;
+  --tag-line: rgba(234, 208, 138, 0.4);
+  --tag-tilt: -1.2deg;
+  --tag-brand-size: 1.5rem;
+}
+.pp-tag[data-brand='versace'] .pp-tag__face { box-shadow: inset 0 0 0 2px #c9a24a, inset 0 0 0 6px #0f0d0a, inset 0 0 0 7px #c9a24a, var(--shadow-2); padding: 28px 28px 20px; }
+.pp-tag[data-brand='versace'] .pp-tag__brand { font-family: 'Forum', 'Playfair Display', serif; text-transform: uppercase; letter-spacing: 0.26em; text-align: center; }
+.pp-tag[data-brand='versace'] .pp-tag__line { text-align: center; color: #d8be7f; }
+.pp-tag__meander {
+  display: block;
+  height: 14px;
+  margin-bottom: 8px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='14' viewBox='0 0 28 14'%3E%3Cpath d='M1 13V1h12v9H5V5h4' fill='none' stroke='%23c9a24a' stroke-width='1.6'/%3E%3Cpath d='M15 13V1h12v9h-8V5h4' fill='none' stroke='%23c9a24a' stroke-width='1.6'/%3E%3Cpath d='M0 13.2h28' stroke='%23c9a24a' stroke-width='1.2'/%3E%3C/svg%3E") 0 0 / 28px 14px repeat-x;
+}
+.pp-tag[data-brand='versace'] .pp-tag__fold { box-shadow: inset 2px 0 0 #c9a24a, inset -2px 0 0 #c9a24a; }
+
+/* Alexander McQueen — тёмный викторианский ярлык с цветочным орнаментом */
+.pp-tag[data-brand='alexander-mcqueen'] {
+  --tag-bg: #1b1014;
+  --tag-ink: #eddcdc;
+  --tag-muted: #cbb3b6;
+  --tag-line: rgba(237, 220, 220, 0.28);
+  --tag-tilt: -2.6deg;
+  --tag-brand-size: 1.6rem;
+  --tag-radius: 4px;
+  --tag-texture: radial-gradient(circle at 50% 0%, rgba(140, 47, 69, 0.35), transparent 60%);
+}
+.pp-tag[data-brand='alexander-mcqueen'] .pp-tag__face { outline: 1px solid rgba(237, 220, 220, 0.3); outline-offset: -10px; }
+.pp-tag[data-brand='alexander-mcqueen'] .pp-tag__brand { font-family: 'Playfair Display', serif; font-style: italic; text-transform: none; letter-spacing: 0; text-align: center; }
+.pp-tag__flowers { display: flex !important; justify-content: center; gap: 14px; color: #a8455d; }
+.pp-tag__flowers .pp-tag__orn:nth-child(2) { width: 12px; height: 12px; margin-top: 3px; color: #cbb3b6; }
+
+/* Loro Piana — кремовая кашемировая карточка, тихая роскошь, спокойная типографика */
+.pp-tag[data-brand='loro-piana'] {
+  --tag-bg: #efe5d2;
+  --tag-ink: #43352a;
+  --tag-muted: #5f4d3d;
+  --tag-line: rgba(67, 53, 42, 0.28);
+  --tag-tilt: -0.8deg;
+  --tag-radius: 18px;
+  --tag-brand-size: 1.5rem;
+  --tag-texture: repeating-linear-gradient(0deg, rgba(67, 53, 42, 0.035) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(67, 53, 42, 0.02) 0 1px, transparent 1px 4px);
+}
+.pp-tag[data-brand='loro-piana'] .pp-tag__face { box-shadow: 0 24px 60px rgba(67, 53, 42, 0.22); padding: 32px 28px 20px; }
+.pp-tag[data-brand='loro-piana'] .pp-tag__brand { font-family: 'Cormorant Garamond', serif; font-weight: 400; text-transform: uppercase; letter-spacing: 0.18em; }
+.pp-tag[data-brand='loro-piana'] .pp-tag__fold { border-top-style: solid; }

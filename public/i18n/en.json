@@ -478,7 +478,19 @@
     "together": "Frequently bought together",
     "viewed": "Recently viewed",
     "scrollPrev": "Scroll back",
-    "scrollNext": "Scroll forward"
+    "scrollNext": "Scroll forward",
+    "tag": {
+      "more": "Unfold the label",
+      "less": "Fold the label",
+      "panel": "Detailed description",
+      "description": "Description",
+      "composition": "Composition",
+      "care": "Care",
+      "verifiedText": "checked by the platform's experts",
+      "history": "History of the house",
+      "destination": "Your address",
+      "poem": "every beautiful thing will fade one day"
+    }
   },
   "labels": {
     "new": "New",
