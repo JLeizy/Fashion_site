@@ -171,11 +171,11 @@ function renderDelivery() {
       return `<label class="opt ${state.deliveryId === d.id ? 'is-selected' : ''}">
         <input type="radio" name="delivery" value="${d.id}" ${state.deliveryId === d.id ? 'checked' : ''}>
         <span class="opt__mark" aria-hidden="true"></span>
-        <span class="opt__icon">${icon(d.code === 'showroom' ? 'i-pin' : d.code === 'courier' ? 'i-truck' : 'i-box', 'icon')}</span>
+        <span class="opt__icon">${icon(d.code === 'courier' ? 'i-truck' : 'i-box', 'icon')}</span>
         <span class="opt__body">
           <span class="opt__title">${esc(loc(d.name))}</span>
-          <span class="opt__text">${esc(days)}${d.code === 'courier' ? ` · ${esc(t('checkout.courierCity'))}` : ''}</span>
-          ${d.isPickup && d.code !== 'showroom' ? `<span class="opt__meta">${esc(t('checkout.pickupNote'))}</span>` : ''}
+          <span class="opt__text">${esc(days)}</span>
+          ${d.isPickup ? `<span class="opt__meta">${esc(t('checkout.pickupNote'))}</span>` : ''}
         </span>
         <span class="opt__price t-mono">${free ? esc(t('checkout.free')) : `<span data-price="${d.price}">${formatPrice(d.price)}</span>`}${!free && d.price > 0 ? `<small>${esc(t('checkout.freeFrom', { sum: formatPrice(FREE_FROM) }))}</small>` : ''}</span>
       </label>`;

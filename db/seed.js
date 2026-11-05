@@ -82,7 +82,6 @@ async function insertMany(client, table, columns, rows, returning = null, chunk 
 }
 
 const COUNTRY_RU = { BY: 'Беларусь', RU: 'Россия', KZ: 'Казахстан', AM: 'Армения', UZ: 'Узбекистан', KG: 'Кыргызстан', AZ: 'Азербайджан', TJ: 'Таджикистан', MD: 'Молдова', GE: 'Грузия' };
-const SHOWROOM_ADDRESS = 'Самовывоз: шоурум AMFIBIA, Минск, ул. Октябрьская, 16 (ежедневно 11:00–21:00)';
 
 function formatAddress(a) {
   const flat = a.apartment ? `, кв. ${a.apartment}` : '';
@@ -404,12 +403,11 @@ async function main() {
     // 6. Справочники заказов: доставка, оплата, промокоды, курсы, баннеры
     // -----------------------------------------------------------------
     const deliveryRows = await insertMany(client, 'delivery_methods', ['code', 'name_ru', 'name_en', 'price_byn', 'days_min', 'days_max', 'is_pickup', 'is_active', 'sort_order'], [
-      ['courier', 'Курьер по городу', 'City courier', 15, 1, 2, false, true, 1],
+      ['courier', 'Курьер до двери', 'Courier to the door', 15, 1, 3, false, true, 1],
       ['belpost', 'Белпочта', 'Belpost', 8, 3, 7, true, true, 2],
       ['europost', 'Европочта', 'Europost', 6, 2, 4, true, true, 3],
       ['cdek', 'СДЭК', 'CDEK', 20, 3, 10, true, true, 4],
       ['boxberry', 'Boxberry', 'Boxberry', 18, 4, 12, true, true, 5],
-      ['showroom', 'Самовывоз из шоурума (Минск)', 'Showroom pickup (Minsk)', 0, 1, 2, true, true, 6],
     ], 'id, code, price_byn, days_min, days_max, is_pickup, name_ru');
     const delivery = Object.fromEntries(deliveryRows.map((d) => [d.code, d]));
 
@@ -459,7 +457,7 @@ async function main() {
       { user: person['buyer@amfibia.by'], age: 1.3, status: 'assembled', delivery: 'courier', pay: 'erip' },
       { user: person['buyer@amfibia.by'], age: 2.2, status: 'handed_to_delivery', delivery: 'courier', pay: 'card' },
       { user: person['buyer@amfibia.by'], age: 3.4, status: 'in_transit', delivery: 'cdek', pay: 'card' },
-      { user: person['buyer@amfibia.by'], age: 5.5, status: 'arrived', delivery: 'showroom', pay: 'cash' },
+      { user: person['buyer@amfibia.by'], age: 5.5, status: 'arrived', delivery: 'europost', pay: 'cash' },
       { user: person['buyer@amfibia.by'], age: 7, status: 'delivered', delivery: 'courier', pay: 'card', returnPending: true },
       { user: person['buyer@amfibia.by'], age: 24, status: 'delivered', delivery: 'belpost', pay: 'erip' },
       { user: person['buyer@amfibia.by'], age: 46, status: 'delivered', delivery: 'courier', pay: 'card', promo: 'AMFIBIA10' },
@@ -478,7 +476,7 @@ async function main() {
       const user = pick(buyersList.slice(1));
       const age = Math.pow(rand(), 1.8) * 150; // больше свежих заказов — чтобы были очереди сборки и доставки
       const deliveryCode = user.country === 'BY'
-        ? weighted([['courier', 4], ['europost', 3], ['belpost', 2], ['showroom', 2], ['boxberry', 1]])
+        ? weighted([['courier', 4], ['europost', 4], ['belpost', 2], ['boxberry', 1]])
         : weighted([['cdek', 6], ['boxberry', 3], ['courier', 1]]);
       plans.push({ user, age, status: null, delivery: deliveryCode, pay: weighted([['card', 5], ['erip', 2], ['cash', 3]]), promo: chance(0.14) ? weighted([['AMFIBIA10', 5], ['GOTHIC15', 3], ['WELCOME20', 2]]) : null });
     }
@@ -554,7 +552,7 @@ async function main() {
       const subtotal = money(order.items.reduce((sum, it) => sum + it.price * it.qty, 0));
       const promoRow = plan.promo ? promo[plan.promo] : null;
       const discount = promoRow ? money((subtotal * promoRow.discount_percent) / 100) : 0;
-      const deliveryPrice = method.is_pickup && plan.delivery === 'showroom' ? 0 : subtotal - discount >= config.shop.freeDeliveryFromByn ? 0 : Number(method.price_byn);
+      const deliveryPrice = subtotal - discount >= config.shop.freeDeliveryFromByn ? 0 : Number(method.price_byn);
       const total = money(subtotal - discount + deliveryPrice);
       const rate = RATES[plan.currency];
       const address = defaultAddress[plan.user.id];
@@ -578,7 +576,7 @@ async function main() {
          RETURNING id, order_number`,
         [
           tracking, plan.user.id, `${plan.user.first_name} ${plan.user.last_name}`, plan.user.phone, plan.user.email,
-          plan.delivery === 'showroom' ? null : address.id, plan.delivery === 'showroom' ? SHOWROOM_ADDRESS : formatAddress(address),
+          address.id, formatAddress(address),
           method.id, pay.id, subtotal, deliveryPrice, discount, total, promoRow?.id || null,
           plan.currency, rate, money(total / rate), steps[steps.length - 1], paymentStatus, courier,
           chance(0.15) ? pick(['Позвоните за час до доставки', 'Упакуйте, пожалуйста, как подарок', 'Домофон не работает — звоните на телефон']) : null,

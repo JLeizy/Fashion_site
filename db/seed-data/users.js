@@ -10,7 +10,7 @@ export const STAFF = [
   { email: 'courier@amfibia.by', first_name: 'Денис', last_name: 'Быков', role: 'courier', phone: '+375291110005' },
   { email: 'courier2@amfibia.by', first_name: 'Сергей', last_name: 'Ляхов', role: 'courier', phone: '+375291110006' },
   { email: 'official@amfibia.by', first_name: 'Amfibia', last_name: 'Official', role: 'seller', phone: '+375291110010', shop: 'Amfibia Official', shopDesc: 'Официальный магазин площадки: товары напрямую от брендов и их дистрибьюторов, каждая вещь проходит проверку подлинности.' },
-  { email: 'seller1@amfibia.by', first_name: 'Илья', last_name: 'Шевчук', role: 'seller', phone: '+375291110011', shop: 'Archive Room Minsk', shopDesc: 'Архивные вещи Balenciaga, Vetements и Enfants Riches Déprimés из коллекций разных лет.' },
+  { email: 'seller1@amfibia.by', first_name: 'Илья', last_name: 'Шевчук', role: 'seller', phone: '+375291110011', shop: 'Archive Room', shopDesc: 'Архивные вещи Balenciaga, Vetements и Enfants Riches Déprimés из коллекций разных лет.' },
   { email: 'seller2@amfibia.by', first_name: 'Кира', last_name: 'Белова', role: 'seller', phone: '+375291110012', shop: 'Silver Cross Atelier', shopDesc: 'Серебро и аксессуары: Chrome Hearts, Alexander McQueen, Givenchy.' },
   { email: 'seller3@amfibia.by', first_name: 'Андрей', last_name: 'Ремизов', role: 'seller', phone: '+375291110013', shop: 'Maison Noire Vintage', shopDesc: 'Винтаж и классика: Chanel, Louis Vuitton, Maison Margiela.' },
   { email: 'buyer@amfibia.by', first_name: 'Ева', last_name: 'Лисовская', role: 'buyer', phone: '+375291234567', country: 'BY', city: 'Минск', street: 'пр. Независимости', house: '58', apartment: '12', postal: '220005' },

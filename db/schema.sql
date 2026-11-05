@@ -381,7 +381,7 @@ CREATE TABLE warehouses (
   address    VARCHAR(200) NOT NULL,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
-COMMENT ON TABLE warehouses IS 'Склады площадки (Минск, Москва, Алматы)';
+COMMENT ON TABLE warehouses IS 'Склады площадки — внутренняя логистика (Минск, Москва, Алматы); на публичных страницах города и адреса складов не показываются';
 
 CREATE TABLE stock (
   id           SERIAL PRIMARY KEY,

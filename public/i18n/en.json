@@ -131,7 +131,6 @@
     "becomeSeller": "Become a seller",
     "privacy": "Privacy policy",
     "contactsTitle": "Contacts",
-    "address": "Minsk, 16 Oktyabrskaya St. — showroom, daily 11:00–21:00",
     "legal": "All trademarks belong to their respective owners."
   },
   "authPrompt": {
@@ -451,7 +450,7 @@
     "accComposition": "Composition",
     "accCare": "Care",
     "accDelivery": "Delivery & returns",
-    "deliveryText": "Courier in Minsk — 1–2 days. Belpost and Europost — 2–5 days. CDEK and Boxberry to Russia, Kazakhstan, Armenia, Uzbekistan and Kyrgyzstan — 3–10 days. Pickup from the Minsk showroom is free. You can return an item within 14 days of delivery if tags and packaging are intact: submit a request in your account and the money will be refunded to the original payment method.",
+    "deliveryText": "Courier to the door — 1–3 days. Belpost and Europost — 2–7 days to a pickup point. CDEK and Boxberry to Russia, Kazakhstan, Armenia, Uzbekistan and Kyrgyzstan — 3–12 days. You can return an item within 14 days of delivery if tags and packaging are intact: submit a request in your account and the money will be refunded to the original payment method.",
     "seller": "Seller",
     "sellerSince": "On Amfibia since {date}",
     "sellerProducts": "Products: {n}",
@@ -781,7 +780,6 @@
     "emptyCart": "Your bag is empty — nothing to check out",
     "stockChanged": "Some items sold out while you were checking out. Please review your bag.",
     "deliveryOnStep": "at step 3",
-    "courierCity": "Minsk only",
     "cardTest": "Test card: 4242 4242 4242 4242"
   },
   "success": {
@@ -1618,7 +1616,7 @@
         {
           "h": "Lead time",
           "p": [
-            "Lead time is assembly at the nearest warehouse (Minsk, Moscow or Almaty — usually 1 business day) plus transit with the chosen carrier. The expected date is saved with the order and shown on the tracking page."
+            "Lead time is order assembly (usually 1 business day) plus transit with the chosen carrier. The expected date is saved with the order and shown on the tracking page."
           ]
         },
         {
@@ -1718,7 +1716,7 @@
         {
           "h": "Why “Amphibian”",
           "p": [
-            "An amphibian lives in two worlds. So do we: between haute couture and the street, the archive and the new season, Minsk and the whole CIS."
+            "An amphibian lives in two worlds. So do we: between haute couture and the street, the archive and the new season."
           ]
         },
         {
@@ -1728,7 +1726,7 @@
           ],
           "list": [
             "Amfibia Official store and vetted sellers",
-            "Three warehouses: Minsk, Moscow, Almaty",
+            "Online only: ordering, payment and delivery across the CIS",
             "14-day returns and seven-day support"
           ]
         },
