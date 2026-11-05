@@ -985,15 +985,6 @@ body.has-compare-bar .to-top {
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
 }
-.footer__social {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px 20px;
-  margin-top: 22px;
-  font-size: var(--fs-xs);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
 .footer__bottom {
   display: flex;
   justify-content: space-between;

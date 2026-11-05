@@ -65,14 +65,23 @@ function extraHtml() {
       .join('')}</section>`;
   }
   if (key === 'contacts') {
+    // Только телефон и почта (правка П9): крупная типографика на всю ширину рабочей области
+    const c = tRaw('info.contacts') || {};
     return `<section class="ip-contacts" data-reveal>
-        <div class="ip-map" aria-hidden="true"><span class="ip-map__pin">${icon('i-pin')}</span><span class="ip-map__label t-mono">${esc(t('info.contacts.street'))}</span></div>
-        <dl class="ip-cards">
-          <div><dt class="t-mono">${icon('i-pin', 'icon icon--xs')} ${esc(t('info.contacts.showroom'))}</dt><dd>${esc(t('footer.address'))}</dd></div>
-          <div><dt class="t-mono">${icon('i-phone', 'icon icon--xs')} ${esc(t('info.contacts.phone'))}</dt><dd><a class="link-u" href="tel:+375291234567">+375 29 123-45-67</a></dd></div>
-          <div><dt class="t-mono">${icon('i-mail', 'icon icon--xs')} Email</dt><dd><a class="link-u" href="mailto:hello@amfibia.by">hello@amfibia.by</a></dd></div>
-          <div><dt class="t-mono">${icon('i-chat', 'icon icon--xs')} ${esc(t('info.contacts.support'))}</dt><dd><a class="link-u" href="/account/support">${esc(t('info.contacts.writeUs'))}</a></dd></div>
-        </dl>
+        <a class="ip-contact" href="tel:+375291234567">
+          <span class="ip-contact__label t-mono">${icon('i-phone', 'icon icon--xs')} ${esc(c.phone)}</span>
+          <span class="ip-contact__value">+375 29 123-45-67</span>
+          ${icon('i-arrow-right', 'icon ip-contact__arrow')}
+        </a>
+        <a class="ip-contact" href="mailto:hello@amfibia.by">
+          <span class="ip-contact__label t-mono">${icon('i-mail', 'icon icon--xs')} ${esc(c.email)}</span>
+          <span class="ip-contact__value">hello@amfibia.by</span>
+          ${icon('i-arrow-right', 'icon ip-contact__arrow')}
+        </a>
+        <div class="ip-contact ip-contact--static">
+          <span class="ip-contact__label t-mono">${icon('i-clock', 'icon icon--xs')} ${esc(c.hours)}</span>
+          <span class="ip-contact__value ip-contact__value--sm">${esc(c.hoursValue)}<small class="t-muted">${esc(c.hoursNote)}</small></span>
+        </div>
       </section>`;
   }
   if (key === 'returns') {

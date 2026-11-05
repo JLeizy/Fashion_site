@@ -1741,26 +1741,12 @@
     "contacts": {
       "eyebrow": "Company · 05",
       "title": "Contacts",
-      "lead": "A showroom in central Minsk: fittings, stylist advice and order pickup. Write to us — we reply within a business day.",
-      "showroom": "Showroom",
+      "lead": "Amfibia client care answers questions about orders, sizing, delivery and returns.",
       "phone": "Phone",
-      "support": "Support",
-      "writeUs": "Contact support",
-      "street": "16 Oktyabrskaya St",
-      "blocks": [
-        {
-          "h": "For sellers",
-          "p": [
-            "Want to sell on Amfibia? Apply in your account (“Become a seller”) — a moderator will review it and open your seller dashboard."
-          ]
-        },
-        {
-          "h": "Press & partnerships",
-          "p": [
-            "For partnerships and publications — hello@amfibia.by with the subject “Press”."
-          ]
-        }
-      ]
+      "email": "Email",
+      "hours": "Client care",
+      "hoursValue": "Daily, 10:00–22:00 (GMT+3)",
+      "hoursNote": "We reply to emails within one business day."
     },
     "privacy": {
       "eyebrow": "Company · 06",
