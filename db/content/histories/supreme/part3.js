@@ -290,16 +290,38 @@ Louis Vuitton × Supreme: сезон называют осенью-зимой и
 
 Доски Джеффа Кунса: год сотрудничества в источниках различается.
 
+Vans Old Skool: первая совместная модель — 1996 или 1997 год.
+
+Air Force 1 High: 2014 или 2015 год.
+
+Supreme Italia: решения судов разных стран расходились — от проигрыша Supreme в Италии в 2018 году до признания Supreme Italia виновной в недобросовестной конкуренции в Милане.
+
+Tiffany & Co.: шесть или семь предметов в коллекции.
+
+Книга «30 Years»: цена 168 или 200 долларов.
+
 ### Факты
 
 Первый магазин открылся на Лафайет-стрит, 274, и, по данным источников, обошёлся меньше чем в 15 тысяч долларов.
 
 Проездной MetroCard Supreme 2017 года хранится в собрании Музея Виктории и Альберта в Лондоне.
 
-Полный комплект из 248 досок Supreme Sotheby's оценивал в сумму до 1,2 миллиона долларов.
+Полный комплект из 248 досок Supreme был продан на Sotheby's в 2019 году за 800 тысяч долларов.
+
+Первым художником Supreme был Раммеллзи (1994), и в 2023 году его работы появились на кроссовках Supreme × Nike SB Dunk.
+
+В лос-анджелесском магазине Supreme 19 лет работала настоящая скейт-чаша.
+
+На 20-летие, 24 апреля 2014 года, Supreme повторил две футболки дня открытия — с бокс-лого и «Taxi Driver»; белая стоила 32 доллара.
+
+На 25-летие, в апреле 2019 года, бокс-лого на футболке и худи выложили более чем тысячей кристаллов Swarovski вручную в Нью-Йорке.
+
+В 2018 году Samsung объявил о партнёрстве с Supreme, но выяснилось, что речь шла о «легальной подделке» Supreme Italia, — и Samsung от сотрудничества отказался.
+
+Первый магазин Supreme в Китае открылся в Шанхае 23 марта 2024 года.
 
 > Supreme доказал, что красная плашка с белыми буквами может стоить дороже вещи, на которой она напечатана.`,
-      content_en: `Our reading of Supreme's influence (marked as such): the weekly drop model, widely adopted; the alliance with old luxury, from Louis Vuitton to Tiffany, blurring luxury and streetwear; and the logo as value in itself — brick, crowbar and cookies proved the mark can outweigh the object. Sources disagree on: Jebbia's childhood (moved to England at one per Wikipedia; in Crawley until 19 per IMDb); the Married to the Mob suit (2013, or May 2012); The North Face debut (spring or autumn–winter 2007); the Nike SB Dunk (September or October 2002); Carlyle's stake (about 50% or majority); the LV season label; the 2012 Kate Moss photographer; and the Koons deck year. Facts: the first store, at 274 Lafayette, reportedly cost under $15,000; the 2017 MetroCard is in the V&A; Sotheby's estimated 248 decks at up to $1.2 million.`,
+      content_en: `Our reading of Supreme's influence (marked as such): the weekly drop model, widely adopted; the alliance with old luxury, from Louis Vuitton to Tiffany, blurring luxury and streetwear; and the logo as value in itself — brick, crowbar and cookies proved the mark can outweigh the object. Sources disagree on: Jebbia's childhood (moved to England at one per Wikipedia; in Crawley until 19 per IMDb); the Married to the Mob suit (2013, or May 2012); The North Face debut (spring or autumn–winter 2007); the Nike SB Dunk (September or October 2002); Carlyle's stake (about 50% or majority); the LV season label; the 2012 Kate Moss photographer; and the Koons deck year; Vans (1996 or 1997); the Air Force 1 High (2014 or 2015); Supreme Italia court outcomes; Tiffany (six or seven pieces); the 30 Years book price. Facts: the first store, at 274 Lafayette, reportedly cost under $15,000; the 2017 MetroCard is in the V&A; 248 decks sold at Sotheby's in 2019 for $800,000; Rammellzee, Supreme's first artist, returned on 2023 SB Dunks; the LA store had a skate bowl for 19 years.`,
     quote_ru: null,
     quote_en: null,
     quote_author: null,
