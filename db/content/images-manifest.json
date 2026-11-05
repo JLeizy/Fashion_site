@@ -1638,5 +1638,1385 @@
     "bytes": 125790,
     "width": 900,
     "height": 658
+  },
+  "/images/brands/vetements/products/VTM-TSH-0001-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-longsleeve-t-shirt/19661041",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213021_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-biker-cross-logo-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»",
+    "bytes": 35158,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0001-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-longsleeve-t-shirt/19661041",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213021_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-biker-cross-logo-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»",
+    "bytes": 32756,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0002-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-antihate-oversized-hoodie/19661001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202011_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: blue-antihate-oversized-hoodie (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 53588,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0002-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-antihate-oversized-hoodie/19661001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202011_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: blue-antihate-oversized-hoodie (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 47308,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0003-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-l-esbian-oversized-sweatshirt/19661511",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M204001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-l-esbian-oversized-sweatshirt (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»",
+    "bytes": 34962,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0003-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-l-esbian-oversized-sweatshirt/19661511",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M204001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-l-esbian-oversized-sweatshirt (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»",
+    "bytes": 32640,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0004-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-oversized-hoodie/19661181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202015_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-biker-cross-logo-oversized-hoodie",
+    "bytes": 21608,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0004-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-oversized-hoodie/19661181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202015_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-biker-cross-logo-oversized-hoodie",
+    "bytes": 22314,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0005-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/white-scribbled-logo-zip-up-hoodie/19661941",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202032_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-scribbled-logo-zip-up-hoodie (ближайшая вещь той же категории)",
+    "bytes": 22068,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0005-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/white-scribbled-logo-zip-up-hoodie/19661941",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202032_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-scribbled-logo-zip-up-hoodie (ближайшая вещь той же категории)",
+    "bytes": 22882,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0006-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/red-oversized-lifeguard-hoodie/19660691",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: red-oversized-lifeguard-hoodie (ближайшая вещь той же категории)",
+    "bytes": 29692,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0006-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/red-oversized-lifeguard-hoodie/19660691",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: red-oversized-lifeguard-hoodie (ближайшая вещь той же категории)",
+    "bytes": 27836,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-COT-0007-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/sunflower/black-db-over-coat/19553661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M176002_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-db-over-coat (ближайшая вещь той же категории)",
+    "bytes": 21778,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-COT-0007-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/sunflower/black-db-over-coat/19553661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M176002_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-db-over-coat (ближайшая вещь той же категории)",
+    "bytes": 21504,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-COT-0008-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/sunflower/brown-winter-coat/19552801",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M176001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-winter-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»",
+    "bytes": 32750,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-COT-0008-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/sunflower/brown-winter-coat/19552801",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M176001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-winter-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»",
+    "bytes": 28140,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JNS-0009-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-o-leg-jeans/19662371",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186004_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: blue-graffiti-o-leg-jeans (ближайшая вещь той же категории)",
+    "bytes": 65796,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JNS-0009-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-o-leg-jeans/19662371",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186004_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: blue-graffiti-o-leg-jeans (ближайшая вещь той же категории)",
+    "bytes": 58420,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JNS-0010-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-o-leg-jeans/19662411",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186008_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «lightblue»",
+    "bytes": 25096,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JNS-0010-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-o-leg-jeans/19662411",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186008_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «lightblue»",
+    "bytes": 21384,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-BOT-0011-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-new-rock-edition-platform-tower-boots/19009431",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M228001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-new-rock-edition-platform-tower-boots (ближайшая вещь той же категории)",
+    "bytes": 36072,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-BOT-0011-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-new-rock-edition-platform-tower-boots/19009431",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M228001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-new-rock-edition-platform-tower-boots (ближайшая вещь той же категории)",
+    "bytes": 34944,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-BOT-0012-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-new-rock-edition-flame-combat-boots/19009481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M255001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-new-rock-edition-flame-combat-boots (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»",
+    "bytes": 52586,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-BOT-0012-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-new-rock-edition-flame-combat-boots/19009481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M255001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-new-rock-edition-flame-combat-boots (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»",
+    "bytes": 79184,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0013-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/yves-salomon/black-technical-fabric-reversible-down-jacket/868784777",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262594F062017_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-technical-fabric-reversible-down-jacket",
+    "bytes": 50626,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0013-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/yves-salomon/black-technical-fabric-reversible-down-jacket/868784777",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262594F062017_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-technical-fabric-reversible-down-jacket",
+    "bytes": 44864,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0014-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/yves-salomon/off-white-technical-fabric-reversible-down-jacket/354049050",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262594F062018_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: off-white-technical-fabric-reversible-down-jacket; цвет на фото не совпадает с «khaki»",
+    "bytes": 25968,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0014-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/yves-salomon/off-white-technical-fabric-reversible-down-jacket/354049050",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262594F062018_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: off-white-technical-fabric-reversible-down-jacket; цвет на фото не совпадает с «khaki»",
+    "bytes": 25030,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0015-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-boxy-moto-leather-jacket/19662801",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181002_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-boxy-moto-leather-jacket (ближайшая вещь той же категории)",
+    "bytes": 45872,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0015-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-boxy-moto-leather-jacket/19662801",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181002_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-boxy-moto-leather-jacket (ближайшая вещь той же категории)",
+    "bytes": 41140,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0016-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/totme/brown-grained-leather-jacket/19444361",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262771F064002_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-grained-leather-jacket (ближайшая вещь той же категории)",
+    "bytes": 52490,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0016-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/totme/brown-grained-leather-jacket/19444361",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262771F064002_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-grained-leather-jacket (ближайшая вещь той же категории)",
+    "bytes": 58130,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TRS-0017-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-tape-track-pants/19662171",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190010_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-tape-track-pants (ближайшая вещь той же категории)",
+    "bytes": 18722,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TRS-0017-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-tape-track-pants/19662171",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190010_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-tape-track-pants (ближайшая вещь той же категории)",
+    "bytes": 18754,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TRS-0018-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-tape-track-pants/19662191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190011_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-tape-track-pants (ближайшая вещь той же категории)",
+    "bytes": 20746,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TRS-0018-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-tape-track-pants/19662191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190011_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-tape-track-pants (ближайшая вещь той же категории)",
+    "bytes": 23130,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TRS-0019-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-graffiti-sweatpants/19661851",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190009_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-graffiti-sweatpants (ближайшая вещь той же категории)",
+    "bytes": 42560,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TRS-0019-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-graffiti-sweatpants/19661851",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190009_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-graffiti-sweatpants (ближайшая вещь той же категории)",
+    "bytes": 40550,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TRS-0020-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-graffiti-sweatpants/19661811",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190008_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-graffiti-sweatpants (ближайшая вещь той же категории)",
+    "bytes": 25676,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TRS-0020-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-graffiti-sweatpants/19661811",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190008_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-graffiti-sweatpants (ближайшая вещь той же категории)",
+    "bytes": 23102,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0021-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cut-up-baby-t-shirt/19026001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F110005_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-cut-up-baby-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 18536,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0021-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cut-up-baby-t-shirt/19026001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F110005_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-cut-up-baby-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 18984,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0022-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/marine-serre/pink-faded-moon-short-sleeves-baby-fit-t-shirt/19453481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020F110045_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: pink-faded-moon-short-sleeves-baby-fit-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 48382,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0022-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/marine-serre/pink-faded-moon-short-sleeves-baby-fit-t-shirt/19453481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020F110045_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: pink-faded-moon-short-sleeves-baby-fit-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 42978,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0023-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-boxy-t-shirt/19662021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213031_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-classic-logo-boxy-t-shirt",
+    "bytes": 21784,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0023-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-boxy-t-shirt/19662021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213031_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-classic-logo-boxy-t-shirt",
+    "bytes": 23178,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0024-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/off-white-scribbled-logo-oversized-t-shirt/19661931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213029_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: off-white-scribbled-logo-oversized-t-shirt",
+    "bytes": 23160,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0024-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/off-white-scribbled-logo-oversized-t-shirt/19661931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213029_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: off-white-scribbled-logo-oversized-t-shirt",
+    "bytes": 21632,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0025-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-biker-cross-logo-longsleeve-t-shirt/19661021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213019_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-biker-cross-logo-longsleeve-t-shirt",
+    "bytes": 60424,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0025-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-biker-cross-logo-longsleeve-t-shirt/19661021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213019_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-biker-cross-logo-longsleeve-t-shirt",
+    "bytes": 53354,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0026-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-motorhead-edition-flag-longsleeve-t-shirt/19660661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213003_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-motorhead-edition-flag-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «white»",
+    "bytes": 37864,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0026-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-motorhead-edition-flag-longsleeve-t-shirt/19660661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213003_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-motorhead-edition-flag-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «white»",
+    "bytes": 37646,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0027-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt/19660931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213014_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 41206,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TSH-0027-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt/19660931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213014_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 40168,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SHR-0028-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-definition-oversized-t-shirt/19660821",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213012_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-definition-oversized-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»",
+    "bytes": 19312,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SHR-0028-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-definition-oversized-t-shirt/19660821",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213012_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-definition-oversized-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»",
+    "bytes": 19576,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SHR-0029-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-oversized-l-esbian-t-shirt/19661481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213025_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-oversized-l-esbian-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 23842,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SHR-0029-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-oversized-l-esbian-t-shirt/19661481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213025_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-oversized-l-esbian-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 24546,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SWT-0030-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/lauren-manoogian/black-double-face-cardigan/19704911",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874M200002_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-double-face-cardigan (ближайшая вещь той же категории)",
+    "bytes": 25938,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SWT-0030-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/lauren-manoogian/black-double-face-cardigan/19704911",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874M200002_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-double-face-cardigan (ближайшая вещь той же категории)",
+    "bytes": 23954,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SWT-0031-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/sire/gray-v-neck-cashmere-and-wool-sweater/19545301",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262439M206000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-v-neck-cashmere-and-wool-sweater (ближайшая вещь той же категории)",
+    "bytes": 54500,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SWT-0031-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/sire/gray-v-neck-cashmere-and-wool-sweater/19545301",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262439M206000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-v-neck-cashmere-and-wool-sweater (ближайшая вещь той же категории)",
+    "bytes": 50710,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HAT-0034-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-iconic-logo-cap/19660501",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139006_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-iconic-logo-cap",
+    "bytes": 30556,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HAT-0034-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-iconic-logo-cap/19660501",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139006_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-iconic-logo-cap",
+    "bytes": 34312,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HAT-0035-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-nano-logo-cap/19660611",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139017_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-nano-logo-cap; цвет на фото не совпадает с «white»",
+    "bytes": 54978,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HAT-0035-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-nano-logo-cap/19660611",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139017_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-nano-logo-cap; цвет на фото не совпадает с «white»",
+    "bytes": 54036,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HAT-0036-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-flame-logo-cap/19660441",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-flame-logo-cap",
+    "bytes": 46456,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HAT-0036-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-flame-logo-cap/19660441",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-flame-logo-cap",
+    "bytes": 45616,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HAT-0037-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-metal-logo-cap/19660491",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139005_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-metal-logo-cap; цвет на фото не совпадает с «yellow»",
+    "bytes": 34306,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HAT-0037-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-metal-logo-cap/19660491",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139005_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-metal-logo-cap; цвет на фото не совпадает с «yellow»",
+    "bytes": 29652,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SNK-0038-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nike/black-air-zoom-flight-the-glove-sneakers/19372341",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236004_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-air-zoom-flight-the-glove-sneakers (ближайшая вещь той же категории)",
+    "bytes": 29400,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SNK-0038-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nike/black-air-zoom-flight-the-glove-sneakers/19372341",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236004_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-air-zoom-flight-the-glove-sneakers (ближайшая вещь той же категории)",
+    "bytes": 59006,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SNK-0039-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nike/white-and-beige-baltoro-sneakers/19372901",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236009_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-and-beige-baltoro-sneakers (ближайшая вещь той же категории)",
+    "bytes": 24922,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SNK-0039-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nike/white-and-beige-baltoro-sneakers/19372901",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236009_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-and-beige-baltoro-sneakers (ближайшая вещь той же категории)",
+    "bytes": 44892,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-BOT-0040-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/moon-boot/black-nylon-combat-boots/19679121",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271970M255026_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-nylon-combat-boots (ближайшая вещь той же категории)",
+    "bytes": 29894,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-BOT-0040-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/moon-boot/black-nylon-combat-boots/19679121",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271970M255026_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-nylon-combat-boots (ближайшая вещь той же категории)",
+    "bytes": 64814,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SHT-0041-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-applique-biker-cross-hip-hop-denim-shorts/19013181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M193003_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-applique-biker-cross-hip-hop-denim-shorts (ближайшая вещь той же категории)",
+    "bytes": 28588,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SHT-0041-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-applique-biker-cross-hip-hop-denim-shorts/19013181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M193003_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-applique-biker-cross-hip-hop-denim-shorts (ближайшая вещь той же категории)",
+    "bytes": 26536,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SHT-0042-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/gray-lace-mini-shorts/19026781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F088002_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-lace-mini-shorts (ближайшая вещь той же категории)",
+    "bytes": 27116,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SHT-0042-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/gray-lace-mini-shorts/19026781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F088002_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-lace-mini-shorts (ближайшая вещь той же категории)",
+    "bytes": 27970,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-DRS-0043-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cross-logo-tank-top-midi-dress/19046141",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F054000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-cross-logo-tank-top-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 13382,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-DRS-0043-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cross-logo-tank-top-midi-dress/19046141",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F054000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-cross-logo-tank-top-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 14008,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TOT-0045-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/apc/brown-ninon-tote/19417761",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252M172054_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-ninon-tote (ближайшая вещь той же категории); цвет на фото не совпадает с «blue»",
+    "bytes": 95372,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TOT-0045-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/apc/brown-ninon-tote/19417761",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252M172054_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-ninon-tote (ближайшая вещь той же категории); цвет на фото не совпадает с «blue»",
+    "bytes": 101344,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TOT-0046-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/osoi/off-white-folder-brot-bag/871685076",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262811F048037_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: off-white-folder-brot-bag (ближайшая вещь той же категории)",
+    "bytes": 14676,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-TOT-0046-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/osoi/off-white-folder-brot-bag/871685076",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262811F048037_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: off-white-folder-brot-bag (ближайшая вещь той же категории)",
+    "bytes": 15320,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-CRB-0047-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/hodakova/black-buckle-baguette-bag/19727281",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262756M170001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-buckle-baguette-bag (ближайшая вещь той же категории)",
+    "bytes": 35156,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-CRB-0047-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/hodakova/black-buckle-baguette-bag/19727281",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262756M170001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-buckle-baguette-bag (ближайшая вещь той же категории)",
+    "bytes": 40268,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SUN-0048-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/super/black-parola-sunglasses/772261262",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262191M134072_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-parola-sunglasses (ближайшая вещь той же категории)",
+    "bytes": 10330,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SUN-0048-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/super/black-parola-sunglasses/772261262",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262191M134072_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-parola-sunglasses (ближайшая вещь той же категории)",
+    "bytes": 12058,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SUN-0049-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/cartier/silver-and-gold-exception-sunglasses/116040567",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262346M134067_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: silver-and-gold-exception-sunglasses (ближайшая вещь той же категории)",
+    "bytes": 12336,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SUN-0049-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/cartier/silver-and-gold-exception-sunglasses/116040567",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262346M134067_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: silver-and-gold-exception-sunglasses (ближайшая вещь той же категории)",
+    "bytes": 9444,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0050-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-antihate-hoodie/19660981",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202010_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-antihate-hoodie (ближайшая вещь той же категории)",
+    "bytes": 38630,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0050-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-antihate-hoodie/19660981",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202010_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-antihate-hoodie (ближайшая вещь той же категории)",
+    "bytes": 33052,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0051-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/white-taped-logo-hoodie/19033151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M202033_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-taped-logo-hoodie (ближайшая вещь той же категории)",
+    "bytes": 32374,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-0051-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/white-taped-logo-hoodie/19033151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M202033_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: white-taped-logo-hoodie (ближайшая вещь той же категории)",
+    "bytes": 31000,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0052-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-denim-jacket/19662431",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: blue-graffiti-denim-jacket (ближайшая вещь той же категории)",
+    "bytes": 95556,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0052-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-denim-jacket/19662431",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: blue-graffiti-denim-jacket (ближайшая вещь той же категории)",
+    "bytes": 85334,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0053-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-detachable-hood-denim-jacket/19662461",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177002_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-detachable-hood-denim-jacket (ближайшая вещь той же категории)",
+    "bytes": 45894,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0053-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-detachable-hood-denim-jacket/19662461",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177002_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-detachable-hood-denim-jacket (ближайшая вещь той же категории)",
+    "bytes": 41954,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0054-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-embroidered-metal-logo-fleece-jacket/19662151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M180001_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-embroidered-metal-logo-fleece-jacket; цвет на фото не совпадает с «black»",
+    "bytes": 38768,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0054-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-embroidered-metal-logo-fleece-jacket/19662151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M180001_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: navy-embroidered-metal-logo-fleece-jacket; цвет на фото не совпадает с «black»",
+    "bytes": 35400,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0055-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-fringed-boxy-moto-leather-jacket/19662771",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-fringed-boxy-moto-leather-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 31376,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JKT-0055-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-fringed-boxy-moto-leather-jacket/19662771",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-fringed-boxy-moto-leather-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 29726,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SND-0056-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-level-cut-out-mule-heels/19739591",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F122019_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-level-cut-out-mule-heels (ближайшая вещь той же категории)",
+    "bytes": 28652,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SND-0056-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-level-cut-out-mule-heels/19739591",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F122019_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-level-cut-out-mule-heels (ближайшая вещь той же категории)",
+    "bytes": 37960,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JNS-0057-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/mm6-maison-margiela/black-wide-leg-denim-jeans/19724041",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262188F069014_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-wide-leg-denim-jeans",
+    "bytes": 30716,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JNS-0057-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/mm6-maison-margiela/black-wide-leg-denim-jeans/19724041",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262188F069014_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-wide-leg-denim-jeans",
+    "bytes": 29308,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JNS-0058-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-o-leg-jeans/19662381",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186005_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: blue-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»",
+    "bytes": 64818,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-JNS-0058-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-o-leg-jeans/19662381",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186005_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: blue-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»",
+    "bytes": 58394,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-COT-0059-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/tonywack/brown-wool-tailored-double-breasted-maxi-coat/19732211",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251F059007_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-wool-tailored-double-breasted-maxi-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 15776,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-COT-0059-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/tonywack/brown-wool-tailored-double-breasted-maxi-coat/19732211",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251F059007_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: brown-wool-tailored-double-breasted-maxi-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 17008,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-COT-0060-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/lauren-manoogian/gray-suede-big-car-coat/19704441",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874M181000_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-suede-big-car-coat (ближайшая вещь той же категории)",
+    "bytes": 22862,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-COT-0060-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/lauren-manoogian/gray-suede-big-car-coat/19704441",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874M181000_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: gray-suede-big-car-coat (ближайшая вещь той же категории)",
+    "bytes": 22268,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-9003-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-zip-up-hoodie/19662091",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202035_1.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-classic-logo-zip-up-hoodie (ближайшая вещь той же категории)",
+    "bytes": 22534,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-HOD-9003-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-zip-up-hoodie/19662091",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202035_2.jpg",
+    "date": "2026-11-05",
+    "note": "SSENSE: black-classic-logo-zip-up-hoodie (ближайшая вещь той же категории)",
+    "bytes": 20880,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/collections/fall-winter-25.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ecaabe601ddb9cbbda/master/w_900,c_limit/00001-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1",
+    "bytes": 31976,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/collections/spring-summer-25.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/66f7c0064c79e8cac78efe7d/master/w_900,c_limit/00001-vetements-spring-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 1",
+    "bytes": 89108,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/collections/fall-winter-26.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ebba57d6f6027800ff/master/w_900,c_limit/00002-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 2",
+    "bytes": 36016,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/collections/spring-summer-26.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ecaabe601ddb9cbbda/master/w_900,c_limit/00001-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1",
+    "bytes": 31976,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/hero.webp": {
+    "kind": "hero",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ecaabe601ddb9cbbda/master/w_1600,c_limit/00001-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1",
+    "bytes": 76908,
+    "width": 1600,
+    "height": 2400
+  },
+  "/images/brands/vetements/directors/1.webp": {
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Demna_(designer)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg/960px-Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Demna (designer)",
+    "bytes": 11952,
+    "width": 600,
+    "height": 553
+  },
+  "/images/brands/vetements/history/1.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Demna_(designer)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg/960px-Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Demna (designer)",
+    "bytes": 20120,
+    "width": 900,
+    "height": 830
+  },
+  "/images/brands/vetements/history/2.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2015-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/6a3ee9d74a680d32c1716328/master/w_900,c_limit/00001-vetements-spring-2027-menswear-credit-brand.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2015-ready-to-wear, образ 1",
+    "bytes": 57002,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/3.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006eb7c71a6b48bc0590b/master/w_900,c_limit/00003-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 3",
+    "bytes": 35382,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/4.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ed4c1e836ef07081b0/master/w_900,c_limit/00004-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 4",
+    "bytes": 40002,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/5.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ee29243e677a9b1c1f/master/w_900,c_limit/00005-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 5",
+    "bytes": 47584,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/6.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f05305c4f6d9f9db88/master/w_900,c_limit/00006-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 6",
+    "bytes": 42726,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/7.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f1664beaa50ba06768/master/w_900,c_limit/00007-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 7",
+    "bytes": 27310,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/8.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Zurich",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Altstadt_Z%C3%BCrich_2015.jpg/3840px-Altstadt_Z%C3%BCrich_2015.jpg",
+    "date": "2026-11-05",
+    "note": "Википедия: Zürich",
+    "bytes": 90918,
+    "width": 900,
+    "height": 491
+  },
+  "/images/brands/vetements/history/9.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f1664beaa50ba06769/master/w_900,c_limit/00008-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 8",
+    "bytes": 47848,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/10.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2023-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/62c6f5562a20f7d328a7e205/master/w_900,c_limit/00001-vetements-spring-2023-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2023-ready-to-wear, образ 1",
+    "bytes": 84312,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/11.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f2ba57d6f602780101/master/w_900,c_limit/00009-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 9",
+    "bytes": 47104,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/12.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f4d404fcbd9b73c658/master/w_900,c_limit/00010-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 10",
+    "bytes": 48534,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/13.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f44c1e836ef07081b2/master/w_900,c_limit/00011-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 11",
+    "bytes": 41674,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/14.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f54c1e836ef07081b4/master/w_900,c_limit/00012-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 12",
+    "bytes": 74998,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/15.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f6b66dc917107309ee/master/w_900,c_limit/00013-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 13",
+    "bytes": 32544,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/16.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2024-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/65e24eb098178b21bb917fcb/master/w_900,c_limit/00001-vetements-fall-2024-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-05",
+    "note": "Vogue Runway, fall-2024-ready-to-wear, образ 1",
+    "bytes": 32830,
+    "width": 900,
+    "height": 1350
   }
 }
