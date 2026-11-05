@@ -41,7 +41,6 @@ export function initTransitions() {
 async function runPreloader() {
   const pre = $('[data-preloader]');
   const bar = $('[data-preloader-bar]');
-  const counter = $('[data-preloader-count]');
   if (!pre) return;
   const started = performance.now();
   const MIN = 2700;
@@ -63,10 +62,8 @@ async function runPreloader() {
       const time = Math.min(1, elapsed / MIN);
       const progress = Math.min(assets, time);
       if (bar) bar.style.transform = `scaleX(${progress})`;
-      if (counter) counter.textContent = String(Math.round(progress * 100)).padStart(3, '0');
       if ((progress >= 1 && elapsed >= MIN) || elapsed > MAX) {
         if (bar) bar.style.transform = 'scaleX(1)';
-        if (counter) counter.textContent = '100';
         resolve();
       } else setTimeout(tick, 30); // setTimeout, а не rAF: в фоновой вкладке rAF замирает
     };

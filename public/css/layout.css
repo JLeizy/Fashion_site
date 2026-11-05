@@ -890,28 +890,6 @@ body.has-compare-bar .to-top {
   transform: translateY(-50%) rotate(180deg);
   writing-mode: vertical-rl;
 }
-.edge--right {
-  right: 10px;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 14px;
-}
-.edge__line {
-  position: relative;
-  width: 1px;
-  height: 90px;
-  background: var(--line-2);
-  overflow: hidden;
-}
-.edge__line i {
-  position: absolute;
-  inset: 0;
-  background: var(--text);
-  transform: scaleY(0);
-  transform-origin: top;
-}
 @media (max-width: 1279px) {
   .edge {
     display: none;
@@ -1090,13 +1068,9 @@ html.is-preloading .preloader {
 }
 .preloader__meta {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: min(78vw, 820px);
   color: #8a857d;
-}
-.preloader__meta .t-mono {
-  color: #ede6da;
-  font-size: var(--fs-sm);
 }
 .preloader__line {
   width: min(78vw, 820px);

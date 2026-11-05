@@ -21,15 +21,11 @@ let me = null;
 function initToTop() {
   const btn = $('[data-to-top]');
   const ring = $('[data-to-top-progress]');
-  const edge = $('[data-edge-progress]');
-  const edgeLine = $('[data-edge-line]');
   const circumference = 2 * Math.PI * 22;
   btn?.addEventListener('click', () => scrollTo(0, { offset: 0 }));
   initScrollState((progress, y) => {
     if (btn) btn.classList.toggle('is-visible', y > window.innerHeight * 0.8);
     if (ring) ring.style.strokeDashoffset = String(circumference * (1 - progress));
-    if (edge) edge.textContent = `${String(Math.round(progress * 100)).padStart(2, '0')}%`;
-    if (edgeLine) edgeLine.style.transform = `scaleY(${progress})`;
   });
 }
 
