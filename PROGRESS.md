@@ -55,7 +55,7 @@
 | Gucci | ✅ 52 раздела, ≈12 650 слов (`gucci.js` + `gucci/part1–7.js`, все 12 тем ТЗ, повторно проверено) | ✅ ≈5400 слов |
 | Prada | ✅ 51 раздел, ≈12 670 слов (`prada.js` + `prada/part1–9.js`, все 12 тем ТЗ, хронология 29 событий, каждый факт — через поиск, оценки помечены) | ✅ ≈5600 слов |
 | Enfants Riches Déprimés | ✅ 14 разделов, ≈3240 слов (молодая марка, конец 2012: объём по правилу для молодых марок; хронология 7 событий, каждый факт — через поиск, раздел «Как читать ERD» — явно редакционная оценка) | ✅ ≈1600 слов |
-| AVAVAV | ⬜ | ⬜ |
+| AVAVAV | ✅ 12 разделов, ≈2600 слов (молодая марка — 2017 или 2021 по разным источникам; все показы SS23–SS27, adidas, Oatly; расхождения источников вынесены в отдельный раздел) | ✅ ≈1290 слов |
 | Supreme | ⬜ | ⬜ |
 | Chrome Hearts | ⬜ | ⬜ |
 | Louis Vuitton | ⬜ | ⬜ |
@@ -70,10 +70,10 @@
 Перепроверено через WebSearch: Родольфо Гуччи — актёр Маурицио Д'Анкора, в кино 1929–1946 (Wikipedia, IMDb); тройка после Форда — Факкинетти (женская линия), Джон Рэй (мужская), Джаннини (аксессуары, единственный креативный директор с 2006) (Telegraph, nss magazine, Business of Fashion); «Ancora», сентябрь 2023, лоферы на платформе, цвет Rosso Ancora (AnOther, Buro 24/7, Wikipedia); Дон Мелло пригласила Форда (Wikipedia; год 1989/1990 — источники расходятся); уход Форда и Де Соле объявлен в ноябре 2003 после разногласий с PPR по контрактам (The Daily Record, Apparel News). Не подтвердилось и убрано: «Де Соле — юрист, работавший с Gucci до назначения», «Бицарри до Gucci руководил другими марками группы». Оценочные формулировки («самый изученный пример», «ни один дом не…», «трижды менял моду», «первая вещь Gucci для многих») переписаны как явные оценки редакции или удалены.
 Правило для следующих историй: ни одного факта без поиска; оценки — только явно как оценки.
 
-## Следующий шаг: этап 21 — история AVAVAV (проверить основателя: в seed-data указана Linda Friberg, директор — Beate Karlsson)
+## Следующий шаг: этап 22 — история Supreme
 Правки ревью П1–П3, П5–П10 выполнены; П4 — фото качаются фоновым скриптом по брендам (balenciaga, vetements готовы; каждый бренд — отдельный коммит «П4: реальные фото <slug>»). После всех брендов: повторить `npm run images:collect -- --brand gucci` и `--brand prada` (у историй стало 52 и 51 раздел), `npm run db:seed && npm run placeholders`, скриншоты, обновить П4.
-Части 2: готовы Balenciaga, Vetements, Gucci, Prada, Enfants Riches Déprimés.
-Дальше тем же способом: `db/content/histories/<slug>.js` (для больших домов — с частями `<slug>/partN.js`, как у Balenciaga), порядок AVAVAV → Supreme → Chrome Hearts → Louis Vuitton → Chanel → Maison Margiela → Givenchy → Versace → Alexander McQueen → Loro Piana. Каждый факт — через WebSearch до записи (WebFetch в этом окружении недоступен), без пометок. После каждой: `npm run db:seed && npm run placeholders`, `/history/<slug>` → 200, подсчёт слов (`/api/history/<slug>` → `words`), отметка в таблице, коммит.
+Части 2: готовы Balenciaga, Vetements, Gucci, Prada, Enfants Riches Déprimés, AVAVAV. В seed-data у AVAVAV основатель — Linda Friberg, год 2021: источники расходятся (Фриберги, 2017 — или Карлссон и Блом, 2021), это сказано в истории; карточку бренда не меняли.
+Дальше тем же способом: `db/content/histories/<slug>.js` (для больших домов — с частями `<slug>/partN.js`, как у Balenciaga), порядок Supreme → Chrome Hearts → Louis Vuitton → Chanel → Maison Margiela → Givenchy → Versace → Alexander McQueen → Loro Piana. Каждый факт — через WebSearch до записи (WebFetch в этом окружении недоступен), без пометок. После каждой: `npm run db:seed && npm run placeholders`, `/history/<slug>` → 200, подсчёт слов (`/api/history/<slug>` → `words`), отметка в таблице, коммит.
 Затем этап 31 (README с матрицей прав, запуск на Windows, финальная проверка).
 Если в контейнере PostgreSQL остановлен: `service postgresql start`.
 
