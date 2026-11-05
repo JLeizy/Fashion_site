@@ -6053,5 +6053,12 @@
     "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/avavav",
     "url": "https://assets.vogue.com/photos/6ab393cfc5e98824fcb64063/master/w_900,c_limit/00012-avavav-spring-2027-ready-to-wear-credit-brand.jpg",
     "note": "Vogue Runway, spring-2027-ready-to-wear, образ 12"
+  },
+  {
+    "target": "/images/brands/supreme/directors/1.webp",
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/James_Jebbia",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/James_Jebbia.jpg/960px-James_Jebbia.jpg",
+    "note": "Википедия: James Jebbia"
   }
 ]
