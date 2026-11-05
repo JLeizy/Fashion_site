@@ -22,7 +22,7 @@ function emptyHtml() {
 function itemHtml(item) {
   const maxQty = Math.min(item.available, 20);
   return `<article class="mini-item" data-variant="${item.variantId}">
-    <a href="/product/${item.productId}"><img src="${esc(item.image)}" alt="${esc(loc(item.name))}" loading="lazy"></a>
+    <a href="/product/${item.productId}"><img src="${esc(item.image)}" alt="${esc(loc(item.name))}" width="800" height="1000" loading="lazy"></a>
     <div>
       <p class="mini-item__brand">${esc(item.brand.name)}</p>
       <a class="mini-item__name" href="/product/${item.productId}">${esc(loc(item.name))}</a>

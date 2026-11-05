@@ -22,7 +22,7 @@ export function createGallery(root, { images = [], alt = '' } = {}) {
   thumbs.innerHTML = images
     .map(
       (src, i) => `<button type="button" class="pp-thumb ${i === 0 ? 'is-active' : ''}" role="tab" aria-selected="${i === 0}" data-thumb="${i}" aria-label="${esc(t('product.imageOf', { i: i + 1, n: images.length }))}">
-        <img src="${esc(src)}" alt="" loading="lazy" decoding="async"></button>`
+        <img src="${esc(src)}" alt="" width="800" height="1000" loading="lazy" decoding="async"></button>`
     )
     .join('');
   if (dots) dots.innerHTML = images.map((_, i) => `<span class="${i === 0 ? 'is-active' : ''}"></span>`).join('');

@@ -3,7 +3,7 @@
 // Блоки: hero-слайдер (WebGL), бегущая строка, горизонтальная лента коллекций (GSAP pin), сетка брендов,
 // новинки, культовые вещи, манифест со следом изображений, истории брендов, подборки, преимущества, рассылка (подвал).
 import { initApp } from '../app.js';
-import { $, $$, esc, icon, isTouch, reducedMotion } from '../core/dom.js';
+import { $, $$, esc, icon, isTouch, reducedMotion, perfLow, onPerfLow } from '../core/dom.js';
 import { t, loc, onLangChange, countryName } from '../core/i18n.js';
 import api from '../core/api.js';
 import { formatPrice } from '../core/currency.js';
@@ -112,7 +112,7 @@ function initCollectionsScroll() {
   hcolTrigger?.kill();
   hcolTrigger = null;
   // На телефонах, планшетах и при reduced-motion — обычная горизонтальная прокрутка пальцем
-  if (!hasGsap() || reducedMotion() || window.innerWidth < 1024) {
+  if (!hasGsap() || reducedMotion() || perfLow() || window.innerWidth < 1024) {
     section.classList.add('is-native');
     track.style.transform = '';
     $('[data-hcol-viewport]').addEventListener(
@@ -291,6 +291,8 @@ async function main() {
   initStoriesFloat();
   await app.reveal();
   initCollectionsScroll();
+  // Замер FPS показал слабое железо — снимаем GSAP pin, лента коллекций становится обычной прокруткой
+  if (!perfLow()) onPerfLow(() => initCollectionsScroll());
   initIconicParallax();
   refreshScroll();
 

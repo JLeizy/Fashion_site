@@ -2,10 +2,10 @@
 // появляется фото товара, которое увеличивается, а затем «проваливается» и гаснет. Пул из 14 элементов
 // переиспользуется (без постоянного создания узлов), анимируются только transform и opacity.
 // На сенсорных экранах и при prefers-reduced-motion отключён.
-import { isTouch, reducedMotion } from '../core/dom.js';
+import { isTouch, reducedMotion, perfLow, onPerfLow } from '../core/dom.js';
 
 export function initImageTrail(area, images, { step = 90, pool = 14 } = {}) {
-  if (!area || !images.length || isTouch() || reducedMotion()) return null;
+  if (!area || !images.length || isTouch() || reducedMotion() || perfLow()) return null;
   const layer = document.createElement('div');
   layer.className = 'trail';
   layer.setAttribute('aria-hidden', 'true');
@@ -18,6 +18,8 @@ export function initImageTrail(area, images, { step = 90, pool = 14 } = {}) {
     return img;
   });
   area.appendChild(layer);
+  // Переход в perf-low во время работы страницы — убираем след
+  onPerfLow(() => layer.remove());
   // Предзагрузка, чтобы первое появление не мигало
   images.slice(0, 24).forEach((src) => {
     const preload = new Image();

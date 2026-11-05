@@ -2,7 +2,7 @@
 // решётка крестов, мерцающих «волной свечи» по шуму; бордовое свечение за курсором; поднимающиеся искры.
 // Крест рисуется в спрайт один раз, кадры — не чаще 30 fps; анимация останавливается вне экрана
 // и в скрытой вкладке. При prefers-reduced-motion рисуется один статичный кадр.
-import { reducedMotion } from '../core/dom.js';
+import { reducedMotion, perfLow } from '../core/dom.js';
 
 // Гладкий шум (value noise) для «волны» мерцания
 function hash(x, y) {
@@ -42,7 +42,8 @@ function crossSprite(size, color) {
 export function initGothicCanvas(canvas) {
   if (!canvas) return () => {};
   const ctx = canvas.getContext('2d');
-  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  const light = perfLow(); // perf-low (правка П6): DPR 1, втрое меньше «искр», ~15 кадров/с
+  const dpr = light ? 1 : Math.min(window.devicePixelRatio || 1, 2);
   let W = 0;
   let H = 0;
   let sprite = null;
@@ -71,7 +72,7 @@ export function initGothicCanvas(canvas) {
     H = r.height;
     canvas.width = Math.round(W * dpr);
     canvas.height = Math.round(H * dpr);
-    embers = Array.from({ length: Math.round((W * H) / 26000) }, () => spawn(true));
+    embers = Array.from({ length: Math.round((W * H) / (light ? 80000 : 26000)) }, () => spawn(true));
   };
 
   function spawn(anywhere = false) {
@@ -137,7 +138,7 @@ export function initGothicCanvas(canvas) {
 
   const loop = (time) => {
     if (!running) return;
-    if (visible && !document.hidden && time - last > 33) {
+    if (visible && !document.hidden && time - last > (light ? 66 : 33)) {
       last = time;
       draw(time);
     }

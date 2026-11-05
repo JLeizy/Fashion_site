@@ -1,7 +1,7 @@
 // Анимации и прокрутка (раздел 10.4 ТЗ): Lenis (инерционная прокрутка), GSAP + ScrollTrigger
 // (появление при прокрутке, параллакс, раскрытие clip-path), SplitType (разбивка текста),
 // магнитные кнопки, ripple, лёгкий 3D-наклон карточек. При prefers-reduced-motion всё тяжёлое отключено.
-import { $$, reducedMotion, isTouch } from '../core/dom.js';
+import { $$, reducedMotion, isTouch, perfLow, onPerfLow } from '../core/dom.js';
 
 let lenis = null;
 const html = document.documentElement;
@@ -10,7 +10,8 @@ export const hasGsap = () => Boolean(window.gsap && window.ScrollTrigger);
 
 export function initSmoothScroll() {
   if (window.gsap && window.ScrollTrigger) window.gsap.registerPlugin(window.ScrollTrigger);
-  if (reducedMotion() || !window.Lenis) return null;
+  // Без инерционной прокрутки: reduced-motion и слабое железо (perf-low, правка П6)
+  if (reducedMotion() || perfLow() || !window.Lenis) return null;
   lenis = new window.Lenis({
     duration: 1.15,
     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
@@ -23,11 +24,18 @@ export function initSmoothScroll() {
     window.gsap.ticker.lagSmoothing(0);
   } else {
     const raf = (time) => {
-      lenis.raf(time);
+      if (!lenis) return;
+      if (!document.hidden) lenis.raf(time);
       requestAnimationFrame(raf);
     };
     requestAnimationFrame(raf);
   }
+  // Если замер FPS показал слабое железо — отключаем Lenis на лету, страница переходит на нативную прокрутку
+  onPerfLow(() => {
+    lenis?.destroy();
+    lenis = null;
+    window.ScrollTrigger?.refresh();
+  });
   // Якорные ссылки — плавно через Lenis
   document.addEventListener('click', (e) => {
     const a = e.target.closest('a[href^="#"]');

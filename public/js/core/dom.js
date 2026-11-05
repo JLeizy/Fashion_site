@@ -71,6 +71,13 @@ export function hideAnimated(el, delay = 700, cls = 'is-open') {
   }, delay);
 }
 export const reducedMotion = () => document.documentElement.classList.contains('reduced-motion');
+// Облегчённый режим для слабого железа (html.perf-low выставляет boot.js — правка П6)
+export const perfLow = () => document.documentElement.classList.contains('perf-low');
+// Подписка на переход в perf-low во время работы страницы (замер FPS в boot.js); если режим уже включён — сразу
+export function onPerfLow(cb) {
+  if (perfLow()) return cb();
+  document.addEventListener('amf:perf-low', () => cb(), { once: true });
+}
 export const isTouch = () => window.matchMedia('(hover: none), (pointer: coarse)').matches;
 
 export function storage(key, value) {

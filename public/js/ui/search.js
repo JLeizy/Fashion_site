@@ -77,7 +77,7 @@ export function initSearch() {
         <div class="search__products">${data.products
           .map(
             (p) => `<a class="search-item" role="option" href="/product/${p.id}" data-search-option>
-              <img src="${esc(p.image)}" alt="" loading="lazy">
+              <img src="${esc(p.image)}" alt="" width="800" height="1000" loading="lazy">
               <span><span class="search-item__brand">${highlight(p.brand.name, q)}</span>
               <span class="search-item__name">${highlight(loc(p.name), q)}</span>
               <span class="search-item__price" data-price="${p.price}">${formatPrice(p.price)}</span></span></a>`

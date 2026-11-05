@@ -467,3 +467,34 @@ body::after {
     animation: none;
   }
 }
+
+/* =====================================================================
+   Облегчённый режим для слабого железа — html.perf-low (выставляет js/boot.js, правка П6)
+   ===================================================================== */
+/* Статичное зерно: без анимации смещения на каждом кадре */
+html.perf-low body::after {
+  animation: none;
+  will-change: auto;
+}
+/* Вместо размытия фона (backdrop-filter) — сплошной полупрозрачный фон: размытие дорого на слабых видеокартах */
+html.perf-low *,
+html.perf-low *::before,
+html.perf-low *::after {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+html.perf-low {
+  --header-bg: color-mix(in srgb, var(--bg) 96%, transparent);
+}
+html.perf-low .p-card__action,
+html.perf-low .pp-sticky,
+html.perf-low .pp-gallery__expand,
+html.perf-low .flip__face,
+html.perf-low .auth-card {
+  background: color-mix(in srgb, var(--bg) 97%, transparent);
+}
+/* Кастомный курсор не используется — системный курсор остаётся видимым */
+html.perf-low .cursor,
+html.perf-low .cursor-dot {
+  display: none;
+}

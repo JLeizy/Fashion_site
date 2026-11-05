@@ -28,8 +28,8 @@ export async function openQuickView(productId) {
 
   holder.innerHTML = `
     <div class="qv__gallery">
-      <div class="qv__main"><img src="${esc(p.images[0])}" alt="${esc(`${p.brand.name} — ${loc(p.name)}`)}" data-qv-main></div>
-      <div class="qv__thumbs">${p.images.map((src, i) => `<button type="button" class="qv__thumb ${i === 0 ? 'is-active' : ''}" data-qv-thumb="${esc(src)}"><img src="${esc(src)}" alt=""></button>`).join('')}</div>
+      <div class="qv__main"><img src="${esc(p.images[0])}" alt="${esc(`${p.brand.name} — ${loc(p.name)}`)}" width="800" height="1000" data-qv-main></div>
+      <div class="qv__thumbs">${p.images.map((src, i) => `<button type="button" class="qv__thumb ${i === 0 ? 'is-active' : ''}" data-qv-thumb="${esc(src)}"><img src="${esc(src)}" alt="" width="800" height="1000" loading="lazy"></button>`).join('')}</div>
     </div>
     <div class="qv__info">
       <div class="qv__labels">${labelsHtml(p)}</div>

@@ -1,7 +1,7 @@
 // Слайдер hero на главной (раздел 6.3, 10.4 ТЗ): «жидкий» WebGL-переход между слайдами (OGL, фрагментный шейдер
 // с шумовым смещением и RGB-сдвигом), лёгкое искажение под курсором, автопрокрутка с индикатором,
 // свайп, стрелки клавиатуры. Без WebGL или при prefers-reduced-motion — переход раскрытием clip-path на DOM-картинках.
-import { $, $$, reducedMotion, isTouch } from '../core/dom.js';
+import { $, $$, reducedMotion, isTouch, perfLow, onPerfLow } from '../core/dom.js';
 
 const VERTEX = /* glsl */ `
 attribute vec2 uv;
@@ -119,7 +119,7 @@ export async function createHeroSlider(root, { slides, interval = 7000, onChange
 
   // ---------- WebGL ----------
   async function initWebGL() {
-    if (reducedMotion()) return null;
+    if (reducedMotion() || perfLow()) return null; // слабое железо — сразу переход clip-path (правка П6)
     let OGL;
     try {
       OGL = await import('/vendor/ogl/index.js');
@@ -183,7 +183,23 @@ export async function createHeroSlider(root, { slides, interval = 7000, onChange
 
     let visible = true;
     new IntersectionObserver(([entry]) => (visible = entry.isIntersecting)).observe(root);
+    // Потеря WebGL-контекста (драйвер, нехватка памяти) или переход в perf-low → DOM-слои с переходом clip-path
+    let dead = false;
+    const teardown = () => {
+      if (dead) return;
+      dead = true;
+      gl = null;
+      root.classList.remove('is-webgl');
+      ctx.canvas.remove();
+      window.removeEventListener('resize', resize);
+    };
+    ctx.canvas.addEventListener('webglcontextlost', (e) => {
+      e.preventDefault();
+      teardown();
+    });
+    onPerfLow(teardown);
     const loop = (t) => {
+      if (dead) return;
       requestAnimationFrame(loop);
       if (!visible || document.hidden) return;
       mouse.x += (mouse.tx - mouse.x) * 0.08;
@@ -198,6 +214,7 @@ export async function createHeroSlider(root, { slides, interval = 7000, onChange
     root.classList.add('is-webgl');
 
     return {
+      isDead: () => dead,
       transition(from, to, dir) {
         return new Promise((resolve) => {
           const u = program.uniforms;
@@ -244,7 +261,7 @@ export async function createHeroSlider(root, { slides, interval = 7000, onChange
     index = (next + slides.length) % slides.length;
     onChange?.(index, from, dir);
     restartProgress();
-    if (gl) {
+    if (gl && !gl.isDead()) {
       $$('[data-hero-img]', stage).forEach((el, i) => el.classList.toggle('is-active', i === index));
       await gl.transition(from, index, dir);
     } else {
