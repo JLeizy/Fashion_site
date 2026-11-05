@@ -5,6 +5,7 @@
 import part1 from './gucci/part1.js';
 import part2 from './gucci/part2.js';
 import part3 from './gucci/part3.js';
+import part4 from './gucci/part4.js';
 
 const base = {
   slug: 'gucci',
@@ -346,10 +347,11 @@ Gucci трижды менял моду: в 1950–1960-е — как симво�
   ],
 };
 
-// Порядок разделов: базовые разделы (gucci.js) + подробные части gucci/part1–3.js — в хронологическом и тематическом порядке
+// Порядок разделов: базовые разделы (gucci.js) + подробные части gucci/part1–4.js — в хронологическом и тематическом порядке
 const [prehistory, founding, rise, familyEra, murder, ford, afterFord, michele, deSarno, demna, iconic, owners, influence] = base.sections;
 const [workshop, sons, jackie, codes, empire] = part1;
 const [fordBefore, fordMethod, deSole, battle, group, fordLeaves] = part2;
+const [crisis, deSarnoDeep, demnaDeep, film, celebrity, relaunches] = part4;
 
 export default {
   slug: base.slug,
@@ -361,8 +363,8 @@ export default {
     familyEra, empire,
     // 4. Креативные директора и их эпохи
     fordBefore, ford, fordMethod, deSole, murder, battle, group, fordLeaves, afterFord,
-    michele, ...part3, deSarno, demna,
+    michele, ...part3, crisis, deSarno, deSarnoDeep, demna, demnaDeep,
     // 5–12. Культовые вещи, владельцы, влияние, сегодня, факты
-    iconic, owners, influence,
+    iconic, owners, film, celebrity, influence, relaunches,
   ],
 };
