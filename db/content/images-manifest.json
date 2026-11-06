@@ -17728,5 +17728,105 @@
     "bytes": 129112,
     "width": 900,
     "height": 1350
+  },
+  "/images/brands/gucci/products/GUC-SCF-0029-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/brown-and-black-block-scarf/19693241",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F028010_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: brown-and-black-block-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»",
+    "bytes": 34920,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-SCF-0029-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/brown-and-black-block-scarf/19693241",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F028010_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: brown-and-black-block-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»",
+    "bytes": 31640,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-SCF-0030-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/apc/brown-alix-brodee-scarf/19508221",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252F028003_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: brown-alix-brodee-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»",
+    "bytes": 99024,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-SCF-0030-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/apc/brown-alix-brodee-scarf/19508221",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252F028003_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: brown-alix-brodee-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»",
+    "bytes": 31330,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-SCF-0031-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/beige-ballerina-scarf-blouse/19449411",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107010_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: beige-ballerina-scarf-blouse (ближайшая вещь той же категории)",
+    "bytes": 41426,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-SCF-0031-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/beige-ballerina-scarf-blouse/19449411",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107010_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: beige-ballerina-scarf-blouse (ближайшая вещь той же категории)",
+    "bytes": 33278,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/directors/1.webp": {
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Guccio_Gucci",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Guccio_Gucci_c.1940.JPG/960px-Guccio_Gucci_c.1940.JPG",
+    "date": "2026-11-06",
+    "note": "Википедия: Guccio Gucci",
+    "bytes": 44944,
+    "width": 600,
+    "height": 721
+  },
+  "/images/brands/gucci/directors/3.webp": {
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Tom_Ford",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Ford_cropped_2009.jpg/960px-Tom_Ford_cropped_2009.jpg",
+    "date": "2026-11-06",
+    "note": "Википедия: Tom Ford",
+    "bytes": 31020,
+    "width": 600,
+    "height": 785
+  },
+  "/images/brands/gucci/history/9.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09c2a609d8eb36cf5a7/master/w_900,c_limit/00002-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 2",
+    "bytes": 40682,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/gucci/history/14.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09e867c872295c7320a/master/w_900,c_limit/00006-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 6",
+    "bytes": 56808,
+    "width": 900,
+    "height": 1350
   }
 }
