@@ -281,7 +281,7 @@ export const BRANDS = [
       ['Gaston-Louis Vuitton', 1936, 1970,
         'Внук основателя, коллекционер и эстет; при нём появились мягкие сумки Keepall, Speedy и Noé.',
         'The founder’s grandson, a collector and aesthete, under whom the soft Keepall, Speedy and Noé bags appeared.',
-        'Keepall и Speedy (1930), Noé (1932)', 'Keepall and Speedy (1930), Noé (1932)'],
+        'Keepall и Speedy (1930); Noé принято датировать 1932 годом', 'Keepall and Speedy (1930); the Noé is usually dated 1932'],
       ['Marc Jacobs', 1997, 2013,
         'Первый креативный директор и создатель линии прет-а-порте; превратил дом в площадку для коллабораций с художниками.',
         'The first creative director and creator of ready-to-wear, who turned the house into a stage for artist collaborations.',
@@ -304,7 +304,7 @@ export const BRANDS = [
         'Дебют весна–лето 2024 на мосту Пон-Нёф', 'Spring–Summer 2024 debut on the Pont Neuf'],
     ],
     timeline: [
-      [1821, 'Рождение Луи Виттона', 'Louis Vuitton is born', 'Родился в Аншее, в горах Юры.', 'Born in Anchay in the Jura mountains.'],
+      [1821, 'Рождение Луи Виттона', 'Louis Vuitton is born', 'Родился в Анше, в горах Юры.', 'Born in Anchay in the Jura mountains.'],
       [1837, 'Ученик в Париже', 'Apprentice in Paris', 'Поступает в ученики к мастеру упаковки багажа Марешалю.', 'Apprenticed to luggage packer Monsieur Maréchal.'],
       [1854, 'Свой дом', 'His own house', 'Открывает мастерскую на улице Нёв-де-Капюсин в Париже.', 'Opens his workshop on rue Neuve-des-Capucines in Paris.'],
       [1858, 'Плоский сундук', 'The flat trunk', 'Сундук с плоской крышкой из серой канвы Trianon можно ставить друг на друга.', 'The flat-topped trunk in grey Trianon canvas can be stacked.'],
