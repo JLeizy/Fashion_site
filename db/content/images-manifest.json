@@ -16738,5 +16738,15 @@
     "bytes": 131352,
     "width": 1600,
     "height": 2400
+  },
+  "/images/brands/supreme/directors/1.webp": {
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/James_Jebbia",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/James_Jebbia.jpg/960px-James_Jebbia.jpg",
+    "date": "2026-11-06",
+    "note": "Википедия: James Jebbia",
+    "bytes": 23000,
+    "width": 600,
+    "height": 800
   }
 }
