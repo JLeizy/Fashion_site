@@ -14568,5 +14568,915 @@
     "bytes": 60078,
     "width": 600,
     "height": 776
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SNK-0001-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/white-oversized-sneakers/244520343",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259M237004_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: white-oversized-sneakers",
+    "bytes": 13498,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SNK-0001-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/white-oversized-sneakers/244520343",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259M237004_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: white-oversized-sneakers",
+    "bytes": 24456,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SNK-0002-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/black-and-white-oversized-sneakers/242549972",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259M237002_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-and-white-oversized-sneakers",
+    "bytes": 15558,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SNK-0002-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/black-and-white-oversized-sneakers/242549972",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259M237002_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-and-white-oversized-sneakers",
+    "bytes": 18040,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SNK-0003-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/white-and-red-oversized-sneakers/17732451",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/251259M237022_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: white-and-red-oversized-sneakers",
+    "bytes": 13310,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SNK-0003-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/white-and-red-oversized-sneakers/17732451",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/251259M237022_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: white-and-red-oversized-sneakers",
+    "bytes": 22370,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-BOT-0004-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/black-camden-tall-boots/19752881",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F115000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-camden-tall-boots (ближайшая вещь той же категории)",
+    "bytes": 14354,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-BOT-0004-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/black-camden-tall-boots/19752881",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F115000_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-camden-tall-boots (ближайшая вещь той же категории)",
+    "bytes": 23238,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-BOT-0005-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/toga-pulla/black-stretch-pleather-boots/19747001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262492F115002_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-stretch-pleather-boots (ближайшая вещь той же категории)",
+    "bytes": 16906,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-BOT-0005-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/toga-pulla/black-stretch-pleather-boots/19747001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262492F115002_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-stretch-pleather-boots (ближайшая вещь той же категории)",
+    "bytes": 31462,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-HEL-0007-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/black-niko-mary-jane-heels/19757361",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F122000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-niko-mary-jane-heels (ближайшая вещь той же категории)",
+    "bytes": 17706,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-HEL-0007-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/black-niko-mary-jane-heels/19757361",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F122000_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-niko-mary-jane-heels (ближайшая вещь той же категории)",
+    "bytes": 28232,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SCF-0008-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/purple-and-green-skull-scarf/19757461",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F028000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: purple-and-green-skull-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 64274,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SCF-0009-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/green-skull-pleated-scarf/19757431",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F029001_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: green-skull-pleated-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»",
+    "bytes": 15310,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SCF-0010-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/beige-ballerina-scarf-blouse/19449411",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107010_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: beige-ballerina-scarf-blouse (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 41426,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SCF-0010-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/beige-ballerina-scarf-blouse/19449411",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107010_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: beige-ballerina-scarf-blouse (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 33278,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-CRB-0013-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/red-and-black-locke-bag/19752901",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F046000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: red-and-black-locke-bag (ближайшая вещь той же категории)",
+    "bytes": 29058,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-CRB-0013-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/red-and-black-locke-bag/19752901",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F046000_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: red-and-black-locke-bag (ближайшая вещь той же категории)",
+    "bytes": 29916,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-CRB-0015-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/black-locke-bag/19752911",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F046001_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-locke-bag (ближайшая вещь той же категории)",
+    "bytes": 21594,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-CRB-0015-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/black-locke-bag/19752911",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F046001_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-locke-bag (ближайшая вещь той же категории)",
+    "bytes": 24916,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-TOT-0017-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/apc/brown-ninon-tote/19417761",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252M172054_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: brown-ninon-tote (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 95372,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-TOT-0017-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/apc/brown-ninon-tote/19417761",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252M172054_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: brown-ninon-tote (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 101344,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-TRS-0018-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/stone-island/black-3100003-stretch-organic-cotton-twill-cargo-pants/19370531",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262828F087003_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-3100003-stretch-organic-cotton-twill-cargo-pants (ближайшая вещь той же категории)",
+    "bytes": 21310,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-TRS-0018-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/stone-island/black-3100003-stretch-organic-cotton-twill-cargo-pants/19370531",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262828F087003_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-3100003-stretch-organic-cotton-twill-cargo-pants (ближайшая вещь той же категории)",
+    "bytes": 23728,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JKT-0019-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/post-archive-faction/black-flare-down-jacket/19555201",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262351M178000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-flare-down-jacket (ближайшая вещь той же категории)",
+    "bytes": 23916,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JKT-0019-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/post-archive-faction/black-flare-down-jacket/19555201",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262351M178000_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-flare-down-jacket (ближайшая вещь той же категории)",
+    "bytes": 22352,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JKT-0020-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/mm6-maison-margiela/navy-corduroy-trucker-jacket/19730271",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262188M177003_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: navy-corduroy-trucker-jacket (ближайшая вещь той же категории)",
+    "bytes": 35716,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JKT-0020-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/mm6-maison-margiela/navy-corduroy-trucker-jacket/19730271",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262188M177003_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: navy-corduroy-trucker-jacket (ближайшая вещь той же категории)",
+    "bytes": 30626,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-COT-0022-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/lemaire/gray-printed-military-parka/19441961",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646M176001_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: gray-printed-military-parka (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 43852,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-COT-0022-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/lemaire/gray-printed-military-parka/19441961",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646M176001_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: gray-printed-military-parka (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 39870,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-COT-0023-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/tonywack/brown-wool-asymmetrical-short-coat/19732191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251F059005_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: brown-wool-asymmetrical-short-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «green»",
+    "bytes": 60412,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-COT-0023-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/tonywack/brown-wool-asymmetrical-short-coat/19732191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251F059005_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: brown-wool-asymmetrical-short-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «green»",
+    "bytes": 53864,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JKT-0024-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/black-classic-biker-leather-jacket/417649899",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259M181000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-classic-biker-leather-jacket",
+    "bytes": 47616,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JKT-0024-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/black-classic-biker-leather-jacket/417649899",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259M181000_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-classic-biker-leather-jacket",
+    "bytes": 44094,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-DRS-0025-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/black-bottle-maxi-dress/19692531",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F055001_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-bottle-maxi-dress (ближайшая вещь той же категории)",
+    "bytes": 15314,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-DRS-0025-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/black-bottle-maxi-dress/19692531",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F055001_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-bottle-maxi-dress (ближайшая вещь той же категории)",
+    "bytes": 16452,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-DRS-0026-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/pleats-please-issey-miyake/yellow-leap-midi-dress/19574101",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271941F054012_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: yellow-leap-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 27920,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-DRS-0026-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/pleats-please-issey-miyake/yellow-leap-midi-dress/19574101",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271941F054012_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: yellow-leap-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 26134,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-DRS-0027-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/blue-floral-lace-midi-dress/19756471",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F054000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: blue-floral-lace-midi-dress; цвет на фото не совпадает с «black»",
+    "bytes": 19218,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-DRS-0027-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/blue-floral-lace-midi-dress/19756471",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F054000_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: blue-floral-lace-midi-dress; цвет на фото не совпадает с «black»",
+    "bytes": 19596,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-DRS-0028-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/fruity-booty/white-broderie-midi-dress/16874583",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271151F054000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: white-broderie-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»",
+    "bytes": 15674,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-DRS-0028-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/fruity-booty/white-broderie-midi-dress/16874583",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271151F054000_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: white-broderie-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»",
+    "bytes": 15492,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SKT-0029-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/black-balloon-midi-skirt/19436661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F092001_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-balloon-midi-skirt (ближайшая вещь той же категории)",
+    "bytes": 18734,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SKT-0029-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/black-balloon-midi-skirt/19436661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F092001_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-balloon-midi-skirt (ближайшая вещь той же категории)",
+    "bytes": 19850,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SKT-0030-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/willy-chavarria/black-bad-girl-denim-skirt/19532461",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262232F092007_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-bad-girl-denim-skirt (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»",
+    "bytes": 19414,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SKT-0030-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/willy-chavarria/black-bad-girl-denim-skirt/19532461",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262232F092007_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-bad-girl-denim-skirt (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»",
+    "bytes": 20494,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SHR-0031-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/rivington-roi-rebis/off-white-roi-archived-thermal-t-shirt/19648371",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262268M201008_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: off-white-roi-archived-thermal-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 40594,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SHR-0031-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/rivington-roi-rebis/off-white-roi-archived-thermal-t-shirt/19648371",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262268M201008_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: off-white-roi-archived-thermal-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 36082,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SHR-0032-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/helmut-lang/black-crowd-t-shirt/752319315",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271154M213002_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-crowd-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 25096,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SHR-0032-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/helmut-lang/black-crowd-t-shirt/752319315",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271154M213002_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-crowd-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 23390,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SWT-0033-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/marni/black-inside-out-jacquard-wool-sweater/19692861",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262379F096001_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-inside-out-jacquard-wool-sweater",
+    "bytes": 91110,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SWT-0033-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/marni/black-inside-out-jacquard-wool-sweater/19692861",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262379F096001_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-inside-out-jacquard-wool-sweater",
+    "bytes": 93432,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SWT-0034-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/tonywack/gray-and-red-wool-cashmere-layered-cardigan/19732071",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251F095009_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: gray-and-red-wool-cashmere-layered-cardigan; цвет на фото не совпадает с «burgundy»",
+    "bytes": 53806,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SWT-0034-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/tonywack/gray-and-red-wool-cashmere-layered-cardigan/19732071",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251F095009_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: gray-and-red-wool-cashmere-layered-cardigan; цвет на фото не совпадает с «burgundy»",
+    "bytes": 41148,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-TSH-0035-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/ernest-w-baker/black-military-pocket-shirt/19595321",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262600M192011_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-military-pocket-shirt (ближайшая вещь той же категории)",
+    "bytes": 42200,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-TSH-0035-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/ernest-w-baker/black-military-pocket-shirt/19595321",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262600M192011_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-military-pocket-shirt (ближайшая вещь той же категории)",
+    "bytes": 42720,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-TSH-0036-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/off-white-cape-crewneck-t-shirt/19692671",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F110000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: off-white-cape-crewneck-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 31364,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-TSH-0036-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/off-white-cape-crewneck-t-shirt/19692671",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F110000_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: off-white-cape-crewneck-t-shirt (ближайшая вещь той же категории)",
+    "bytes": 28090,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-HOD-0037-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/matieres-feacales/black-cult-knit-hoodie/19703721",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262412M202002_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-cult-knit-hoodie (ближайшая вещь той же категории)",
+    "bytes": 27592,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-HOD-0037-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/matieres-feacales/black-cult-knit-hoodie/19703721",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262412M202002_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-cult-knit-hoodie (ближайшая вещь той же категории)",
+    "bytes": 25596,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-HOD-0038-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/casablanca/white-tennis-club-icon-classic-hoodie/921703337",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262195M202016_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: white-tennis-club-icon-classic-hoodie (ближайшая вещь той же категории)",
+    "bytes": 23546,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-HOD-0038-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/casablanca/white-tennis-club-icon-classic-hoodie/921703337",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262195M202016_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: white-tennis-club-icon-classic-hoodie (ближайшая вещь той же категории)",
+    "bytes": 21696,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JNS-0039-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/mm6-maison-margiela/blue-raw-edge-waist-denim-jeans/19724051",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262188F069015_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: blue-raw-edge-waist-denim-jeans",
+    "bytes": 57774,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JNS-0039-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/mm6-maison-margiela/blue-raw-edge-waist-denim-jeans/19724051",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262188F069015_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: blue-raw-edge-waist-denim-jeans",
+    "bytes": 51738,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JNS-0040-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/tonywack/black-loose-tapered-denim-jeans/19654451",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251M186013_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-loose-tapered-denim-jeans (ближайшая вещь той же категории)",
+    "bytes": 65490,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JNS-0040-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/tonywack/black-loose-tapered-denim-jeans/19654451",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251M186013_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-loose-tapered-denim-jeans (ближайшая вещь той же категории)",
+    "bytes": 60410,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SUN-0042-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/super/black-parola-sunglasses/772261262",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262191M134072_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-parola-sunglasses (ближайшая вещь той же категории)",
+    "bytes": 10330,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SUN-0042-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/super/black-parola-sunglasses/772261262",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262191M134072_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-parola-sunglasses (ближайшая вещь той же категории)",
+    "bytes": 12058,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-HAT-0044-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nullus-studios/black-cap-toe-ballet-derbys/19538921",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262272M225003_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-cap-toe-ballet-derbys (ближайшая вещь той же категории)",
+    "bytes": 14344,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-HAT-0044-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nullus-studios/black-cap-toe-ballet-derbys/19538921",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262272M225003_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-cap-toe-ballet-derbys (ближайшая вещь той же категории)",
+    "bytes": 17688,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-GLV-0046-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nike/black-air-zoom-flight-the-glove-sneakers/19372341",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236004_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-air-zoom-flight-the-glove-sneakers (ближайшая вещь той же категории)",
+    "bytes": 29400,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-GLV-0046-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/nike/black-air-zoom-flight-the-glove-sneakers/19372341",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236004_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-air-zoom-flight-the-glove-sneakers (ближайшая вещь той же категории)",
+    "bytes": 59006,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-BRC-0049-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/skull-bracelet/350172166",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259M142001_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: skull-bracelet; цвет на фото не совпадает с «silver»",
+    "bytes": 25294,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-BRC-0049-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/skull-bracelet/350172166",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259M142001_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: skull-bracelet; цвет на фото не совпадает с «silver»",
+    "bytes": 21680,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SND-0055-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/gray-hybrid-slides/268002015",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259M234000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: gray-hybrid-slides (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 17302,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SND-0055-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/alexander-mcqueen/gray-hybrid-slides/268002015",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259M234000_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: gray-hybrid-slides (ближайшая вещь той же категории); цвет на фото не совпадает с «black»",
+    "bytes": 28850,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-LOF-0056-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/lauren-manoogian/black-square-loafers/19704651",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874M231000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-square-loafers (ближайшая вещь той же категории)",
+    "bytes": 28890,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-LOF-0056-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/lauren-manoogian/black-square-loafers/19704651",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874M231000_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-square-loafers (ближайшая вещь той же категории)",
+    "bytes": 31138,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JKT-0057-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/black-draped-collar-leather-jacket/19756761",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F064000_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-draped-collar-leather-jacket (ближайшая вещь той же категории)",
+    "bytes": 42238,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JKT-0057-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/black-draped-collar-leather-jacket/19756761",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F064000_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: black-draped-collar-leather-jacket (ближайшая вещь той же категории)",
+    "bytes": 37732,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JKT-0058-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/lemaire/gray-double-face-wool-zipped-blouson-jacket/19441911",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646M180002_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: gray-double-face-wool-zipped-blouson-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 24016,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-JKT-0058-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/lemaire/gray-double-face-wool-zipped-blouson-jacket/19441911",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646M180002_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: gray-double-face-wool-zipped-blouson-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 22802,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SCF-0060-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/brown-and-black-block-scarf/19693241",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F028010_1.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: brown-and-black-block-scarf (ближайшая вещь той же категории)",
+    "bytes": 34920,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SCF-0060-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/brown-and-black-block-scarf/19693241",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F028010_2.jpg",
+    "date": "2026-11-06",
+    "note": "SSENSE: brown-and-black-block-scarf (ближайшая вещь той же категории)",
+    "bytes": 31640,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/collections/autumn-winter-2025.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafcb3920c4ee80ea2aed/master/w_900,c_limit/00001-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 1",
+    "bytes": 44474,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/collections/spring-summer-2025.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/66f870bf2c912b6f8a3865e2/master/w_900,c_limit/00001-alexander-mcqueen-spring-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 1",
+    "bytes": 22958,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/collections/autumn-winter-2026.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccb0a380e8bc60a5045103/master/w_900,c_limit/00001-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 1",
+    "bytes": 44474,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/collections/spring-summer-2026.webp": {
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccb0a380e8bc60a5045103/master/w_900,c_limit/00001-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1",
+    "bytes": 44474,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/hero.webp": {
+    "kind": "hero",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccb0a380e8bc60a5045103/master/w_1600,c_limit/00001-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1",
+    "bytes": 120404,
+    "width": 1600,
+    "height": 2400
+  },
+  "/images/banners/alexander-mcqueen.webp": {
+    "kind": "banner",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/69e768d29c5ac140b38d5417/master/w_1600,c_limit/00024-alexander-mcqueen-spring-2016-ready-to-wear-credit-indigital-model-ine-neefs.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 24",
+    "bytes": 291214,
+    "width": 1600,
+    "height": 2400
+  },
+  "/images/brands/alexander-mcqueen/directors/1.webp": {
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Alexander_McQueen",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Alexander_McQueen_by_FashionWirePress_%28cropped_2%29.jpg/960px-Alexander_McQueen_by_FashionWirePress_%28cropped_2%29.jpg",
+    "date": "2026-11-06",
+    "note": "Википедия: Alexander McQueen (designer)",
+    "bytes": 31616,
+    "width": 600,
+    "height": 800
   }
 }
