@@ -3,6 +3,9 @@
 // (Wikipedia, WWD, Business of Fashion, FashionUnited, FashionNetwork, Highsnobiety, Hypebeast, W Magazine, Fantastic Man).
 // Формат: абзацы через пустую строку, «### » — подзаголовок, «> » — врезка.
 import * as p2 from './vetements/part2.js';
+import * as p3 from './vetements/part3.js';
+import * as p4 from './vetements/part4.js';
+import * as p5 from './vetements/part5.js';
 
 const base = {
   slug: 'vetements',
@@ -13,6 +16,7 @@ const base = {
     [2017, 'Цюрих', 'Zurich', 'Штаб-квартира и дизайн-студия переезжают из Парижа в Цюрих; выходят коллаборации с Reebok и DHL.', 'The headquarters and design studio move from Paris to Zurich; collaborations with Reebok and DHL are released.'],
     [2018, 'NO SHOW и блошиный рынок', 'NO SHOW and the flea market', 'Весна–лето 2018 — «NO SHOW» на крыше парковки в Париже с фотографиями жителей Цюриха; осень–зима 2018 — показ вне официального календаря на антикварном рынке.', 'Spring–Summer 2018 is a “NO SHOW” on a Paris car-park roof with photographs of Zurich residents; Autumn–Winter 2018 is shown off-calendar at an antiques market.'],
     [2019, 'Уход Демны', 'Demna leaves', 'Демна покидает Vetements, чтобы сосредоточиться на Balenciaga.', 'Demna leaves Vetements to focus on Balenciaga.'],
+    [2020, 'Двойники звёзд', 'Celebrity look-alikes', '17 января — первый показ без Демны: двойники знаменитостей в тёмном гараже Амело.', '17 January — the first show without Demna: celebrity look-alikes in the dark Garage Amelot.'],
     [2021, 'VTMNTS и новый креативный директор', 'VTMNTS and a new creative director', 'В июле запущена марка VTMNTS; в декабре Гурам Гвасалия официально становится креативным директором.', 'VTMNTS launches in July; in December Guram Gvasalia is officially named creative director.'],
     [2022, 'Первый показ Гурама', 'Guram’s first show', 'Весна–лето 2023 — первый показ Vetements под руководством Гурама Гвасалии.', 'Spring–Summer 2023 is the first Vetements runway show under Guram Gvasalia.'],
     [2024, 'Десять лет', 'Ten years', 'Март — юбилейный показ осень–зима 2024; сентябрь — «Time To Clean Up The Mess» в заброшенном торговом центре.', 'March — the anniversary Autumn–Winter 2024 show; September — “Time To Clean Up The Mess” in an abandoned mall.'],
@@ -444,13 +448,16 @@ Vetements по-французски значит просто «одежда». 
   ],
 };
 
-// Порядок разделов: исходные 16 разделов + дополнение из vetements/part2.js в хронологическом и тематическом порядке.
+// Порядок разделов: исходные 16 разделов + дополнение из vetements/part2–5.js в хронологическом и тематическом порядке.
 const S = base.sections;
+const facts = { ...S[15], content_ru: S[15].content_ru + p5.factsExtraRu, content_en: S[15].content_en + p5.factsExtraEn };
 export default {
   ...base,
   sections: [
-    S[0], S[1], S[2], S[3], p2.fw16, S[4], S[5], p2.collabsDetail, S[6], p2.fw17, p2.windows, S[7], p2.fw18,
-    p2.highsnobiety, p2.ss19, p2.ss20, S[8], S[9], p2.vtmnts, p2.anniversary, S[10], S[11], p2.business,
-    S[12], S[13], S[14], S[15],
+    S[0], S[1], S[2], p4.volkova, S[3], p4.dhl, p2.fw16, S[4], p4.couture, S[5], p2.collabsDetail, p5.outerwear, S[6], p3.hoodies,
+    p2.fw17, p3.zurich, S[7], p2.windows, p4.popups, p5.comfort, p3.copycats, p4.tommyAlpha, p2.fw18, p5.shoes, p2.highsnobiety, p2.ss19,
+    p3.georgiaApp, p3.slogans, p2.ss20, p5.wolford, p3.demnaExit, S[8], p4.starWars, p3.fw20, p3.pandemic, p5.foundation, p3.vtmntsLaunch, S[9],
+    p2.vtmnts, p3.brothers, p2.anniversary, p3.ss26, p4.guram, S[10], S[11], p2.business, p4.reading, S[12], S[13],
+    S[14], p4.disputes, facts,
   ],
 };
