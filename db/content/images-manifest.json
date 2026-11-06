@@ -16748,5 +16748,545 @@
     "bytes": 23000,
     "width": 600,
     "height": 800
+  },
+  "/images/brands/louis-vuitton/directors/8.webp": {
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Pharrell_Williams",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Pharrell_Williams_2024_%2854133384149%29.jpg/960px-Pharrell_Williams_2024_%2854133384149%29.jpg",
+    "date": "2026-11-06",
+    "note": "Википедия: Pharrell Williams",
+    "bytes": 37772,
+    "width": 600,
+    "height": 823
+  },
+  "/images/brands/louis-vuitton/history/1.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f24f0f6a8636f1b303b4/master/w_900,c_limit/00031-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 31",
+    "bytes": 122114,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/2.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f251d1b8c7b02b02b9cb/master/w_900,c_limit/00032-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 32",
+    "bytes": 123140,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/3.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f251cbd75722522338ac/master/w_900,c_limit/00033-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 33",
+    "bytes": 67268,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/4.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f252527d0a6c8d098ba0/master/w_900,c_limit/00034-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 34",
+    "bytes": 97652,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/5.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f255c7eb69657bd3bab7/master/w_900,c_limit/00035-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 35",
+    "bytes": 133138,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/6.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f2555ebaa8664e1222f6/master/w_900,c_limit/00036-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 36",
+    "bytes": 136826,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/7.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f256de38c4f72a3119e1/master/w_900,c_limit/00037-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 37",
+    "bytes": 96310,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/8.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f25943c3a24f00003363/master/w_900,c_limit/00038-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 38",
+    "bytes": 95098,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/9.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f25a4a00059cee2ef3cc/master/w_900,c_limit/00039-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 39",
+    "bytes": 93292,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/10.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f25a3f00ddddfe39fdf2/master/w_900,c_limit/00040-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 40",
+    "bytes": 75392,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/11.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f25c32e1a67095bc1a03/master/w_900,c_limit/00041-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 41",
+    "bytes": 75784,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/12.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f25eca2f86b43ccff663/master/w_900,c_limit/00042-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 42",
+    "bytes": 77844,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/13.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f25e1d7d0f4f012f8cb9/master/w_900,c_limit/00043-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 43",
+    "bytes": 61434,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/14.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f25f76e41b4d5cf0e0b9/master/w_900,c_limit/00044-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 44",
+    "bytes": 65264,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/15.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f261cee1681142994b79/master/w_900,c_limit/00045-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 45",
+    "bytes": 64044,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/16.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f262c7160be05709feb3/master/w_900,c_limit/00046-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 46",
+    "bytes": 82592,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/17.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f263fec2cdfb41ec2aa2/master/w_900,c_limit/00047-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 47",
+    "bytes": 100214,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/18.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f26340c3e2b87f17943c/master/w_900,c_limit/00048-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 48",
+    "bytes": 66198,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/19.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/6ac5f26584c389ea98eba89e/master/w_900,c_limit/00049-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 49",
+    "bytes": 54480,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/20.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b056350aeb0205b2de4e21/master/w_900,c_limit/00002-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 2",
+    "bytes": 90108,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/21.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05635708d0a0439c9e0ff/master/w_900,c_limit/00003-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 3",
+    "bytes": 76682,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/22.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05637a1b82dc0db33aa10/master/w_900,c_limit/00004-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 4",
+    "bytes": 86134,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/23.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05638456f61f49f73ef85/master/w_900,c_limit/00005-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 5",
+    "bytes": 65718,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/24.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05639abcfd6fc2bdfa5ea/master/w_900,c_limit/00006-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 6",
+    "bytes": 76370,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/25.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0563b708d0a0439c9e106/master/w_900,c_limit/00007-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 7",
+    "bytes": 65732,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/26.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0563c16ec73a054c3ceec/master/w_900,c_limit/00008-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 8",
+    "bytes": 64872,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/27.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0563c708d0a0439c9e10d/master/w_900,c_limit/00009-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 9",
+    "bytes": 63682,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/28.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0563e10afb97b28f6c6bc/master/w_900,c_limit/00010-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 10",
+    "bytes": 67920,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/29.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0564067a033f1bf2259e9/master/w_900,c_limit/00011-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 11",
+    "bytes": 92652,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/30.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05640c80d405defdf2ed2/master/w_900,c_limit/00012-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 12",
+    "bytes": 74170,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/31.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05641303ffad907a008ca/master/w_900,c_limit/00013-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 13",
+    "bytes": 105112,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/32.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0564315149c4d4c76952c/master/w_900,c_limit/00014-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 14",
+    "bytes": 60648,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/33.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05643456f61f49f73ef92/master/w_900,c_limit/00015-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 15",
+    "bytes": 57418,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/34.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b056450aeb0205b2de4e28/master/w_900,c_limit/00016-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 16",
+    "bytes": 45988,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/35.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05646f8041b67f963837d/master/w_900,c_limit/00017-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 17",
+    "bytes": 73602,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/36.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05646faa06ce459f4adf1/master/w_900,c_limit/00018-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 18",
+    "bytes": 81998,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/37.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b056487c8218b47634141a/master/w_900,c_limit/00019-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 19",
+    "bytes": 66980,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/38.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0564989c2f96b2b901c50/master/w_900,c_limit/00020-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 20",
+    "bytes": 74362,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/39.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0564a67a033f1bf2259f0/master/w_900,c_limit/00021-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 21",
+    "bytes": 110702,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/40.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0564b15149c4d4c769533/master/w_900,c_limit/00022-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 22",
+    "bytes": 73126,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/41.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0564d303ffad907a008d4/master/w_900,c_limit/00023-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 23",
+    "bytes": 59132,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/42.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0564d1c45bde7c06b2441/master/w_900,c_limit/00024-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 24",
+    "bytes": 48994,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/43.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0564eac0c35736e152bdb/master/w_900,c_limit/00025-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 25",
+    "bytes": 59192,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/44.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0565030c4539a7c4e5cac/master/w_900,c_limit/00026-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 26",
+    "bytes": 59074,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/45.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0565112ea888efe5c97d6/master/w_900,c_limit/00027-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 27",
+    "bytes": 45198,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/46.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05652ad2e16927bd54406/master/w_900,c_limit/00028-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 28",
+    "bytes": 42846,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/47.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b056547b1d00c8257357c7/master/w_900,c_limit/00029-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 29",
+    "bytes": 51596,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/48.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b056558ce34935e18bf74f/master/w_900,c_limit/00030-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 30",
+    "bytes": 60964,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/49.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b056550aeb0205b2de4e2f/master/w_900,c_limit/00031-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 31",
+    "bytes": 73692,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/50.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05658db0d5fc64eae9222/master/w_900,c_limit/00032-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 32",
+    "bytes": 75580,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/51.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05659551d89408e148df4/master/w_900,c_limit/00033-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 33",
+    "bytes": 90398,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/52.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b05659303ffad907a008db/master/w_900,c_limit/00034-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 34",
+    "bytes": 83866,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/louis-vuitton/history/53.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0565ba1b82dc0db33aa17/master/w_900,c_limit/00035-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-06",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 35",
+    "bytes": 80548,
+    "width": 900,
+    "height": 1350
   }
 }
