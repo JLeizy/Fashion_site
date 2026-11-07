@@ -45,14 +45,14 @@ export default [
 
 ### Доля растёт
 
-По данным источников, через год LVMH купила ещё 5 процентов. По данным Википедии, в конце 2025 года группа выкупила у семьи акции примерно на 1 миллиард евро, увеличив долю с 85 до 94 процентов; эти данные мы не смогли проверить по первоисточнику.
+По данным источников, через год LVMH купила ещё 5 процентов. По данным Modaes и La Conceria, в конце 2025 года группа выкупила у семьи ещё 9 процентов примерно за 1 миллиард евро, увеличив долю с 85 до 94 процентов.
 
 ### Наше прочтение
 
 По нашему прочтению, продажа LVMH дала Loro Piana ресурсы для роста, сохранив семейное руководство. По нашей оценке, смерть Серджо в том же году стала концом эпохи двух братьев — с этого момента марка всё больше развивается как часть большой группы.
 
 > По данным LVMH, 8 июля 2013 года группа объявила о покупке 80 процентов Loro Piana.`,
-    content_en: `Per LVMH, on 8 July 2013 it announced the purchase of 80% of Loro Piana, the family keeping 20%, for about €2 billion (an enterprise value of €2.7 billion per the AMF filing); Sergio and Pier Luigi stayed on. Per Wikipedia, citing WWD, Sergio died on 19 December 2013, aged 65. LVMH bought another 5% the next year; per Wikipedia, at the end of 2025 it bought about €1 billion more from the family, rising from 85% to 94% — unverified against a primary source. In our reading, resources for growth with family leadership kept — and the end of the two brothers' era.`,
+    content_en: `Per LVMH, on 8 July 2013 it announced the purchase of 80% of Loro Piana, the family keeping 20%, for about €2 billion (an enterprise value of €2.7 billion per the AMF filing); Sergio and Pier Luigi stayed on. Per Wikipedia, citing WWD, Sergio died on 19 December 2013, aged 65. LVMH bought another 5% the next year; per Modaes and La Conceria, at the end of 2025 it bought another 9% for about €1 billion, rising from 85% to 94%. In our reading, resources for growth with family leadership kept — and the end of the two brothers' era.`,
     quote_ru: null, quote_en: null, quote_author: null,
   },
   {
@@ -183,14 +183,14 @@ export default [
 
 ### Собственность
 
-Данные о выкупе LVMH ещё 9 процентов в конце 2025 года известны из Википедии и не подтверждены нами по первоисточнику.
+Выручку марки LVMH отдельно не раскрывает: Fashionbi приводит 1,6 миллиарда евро за 2024 год, а рыночные оценки 2025 года говорят примерно о 2,5 миллиарда евро.
 
 ### Наше прочтение
 
 По нашей оценке, многие расхождения связаны с тем, что ранняя история Loro Piana — семейная и рассказывается в основном из вторых рук. Там, где у нас был выбор, мы указывали все версии.
 
 > Источники расходятся даже в имени предка семьи: Джакомо или Джованни.`,
-    content_en: `The 19th-century ancestor is Giacomo or Giovanni; the founding 4 or 2 April 1924; Franco's leadership from 1941 or the 1960s, the export drive post-war or 1960s. Ready-to-wear dates to the 1980s or 1970s; the first store to Milan (1999) or New York's East 61st Street. The Record Bale dates to 1997 (WWD) or 2000 (Wikipedia); Pier Luigi's first China trip to 1986 or the late 1980s–early 1990s; the 1994 vicuña consortium's members vary; Kendall Roy's cap cost $525 or $500. LVMH's late-2025 purchase taking it to 94% comes from Wikipedia, unverified by us. We give all versions.`,
+    content_en: `The 19th-century ancestor is Giacomo or Giovanni; the founding 4 or 2 April 1924; Franco's leadership from 1941 or the 1960s, the export drive post-war or 1960s. Ready-to-wear dates to the 1980s or 1970s; the first store to Milan (1999) or New York's East 61st Street. The Record Bale dates to 1997 (WWD) or 2000 (Wikipedia); Pier Luigi's first China trip to 1986 or the late 1980s–early 1990s; the 1994 vicuña consortium's members vary; Kendall Roy's cap cost $525 or $500. LVMH does not disclose brand revenue: Fashionbi gives €1.6 billion for 2024, market estimates about €2.5 billion for 2025. We give all versions.`,
     quote_ru: null, quote_en: null, quote_author: null,
   },
   {

@@ -8,6 +8,7 @@ import part4 from './loro-piana/part4.js';
 import part5 from './loro-piana/part5.js';
 import part6 from './loro-piana/part6.js';
 import part7 from './loro-piana/part7.js';
+import part8 from './loro-piana/part8.js';
 
 export default {
   slug: 'loro-piana',
@@ -27,5 +28,5 @@ export default {
     [2026, 'Решение суда', 'The court’s decision', '17 апреля судебное управление снято досрочно.', 'Judicial administration lifted early on 17 April.'],
   ],
   // Дополнительные главы встраиваются после основных глав части 3, перед тремя итоговыми разделами.
-  sections: [...part1, ...part2, ...part4, ...part5, ...part6, ...part7, ...part3.slice(0, -3), ...part3.slice(-3)],
+  sections: [...part1, ...part2, ...part4, ...part5, ...part6, ...part7, ...part8, ...part3.slice(0, -3), ...part3.slice(-3)],
 };
