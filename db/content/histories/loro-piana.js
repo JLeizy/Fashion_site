@@ -1,9 +1,10 @@
-// История Loro Piana (этап 30): разделы собираются из частей loro-piana/part1–3.js; хронология своя (заменяет стартовую
+// История Loro Piana (этап 30): разделы собираются из частей loro-piana/part1–N.js; хронология своя (заменяет стартовую
 // из seed-data/brands.js). Все факты сверены через поиск (заметки — docs/research/loro-piana-notes.md); где источники
 // расходятся — это сказано в тексте; оценки помечены как оценки.
 import part1 from './loro-piana/part1.js';
 import part2 from './loro-piana/part2.js';
 import part3 from './loro-piana/part3.js';
+import part4 from './loro-piana/part4.js';
 
 export default {
   slug: 'loro-piana',
@@ -22,5 +23,6 @@ export default {
     [2025, 'Суд и Фредерик Арно', 'Court and Frédéric Arnault', 'Выставка в Шанхае; новый генеральный директор; судебное управление.', 'The Shanghai show; a new CEO; judicial administration.'],
     [2026, 'Решение суда', 'The court’s decision', '17 апреля судебное управление снято досрочно.', 'Judicial administration lifted early on 17 April.'],
   ],
-  sections: [...part1, ...part2, ...part3],
+  // Дополнительные главы встраиваются после основных глав части 3, перед тремя итоговыми разделами.
+  sections: [...part1, ...part2, ...part4, ...part3.slice(0, -3), ...part3.slice(-3)],
 };
