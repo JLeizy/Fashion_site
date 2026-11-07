@@ -466,6 +466,10 @@ export const BRANDS = [
         'Бывший дизайн-директор Miu Miu; креативный директор Versace в 2025 году, покинул дом в декабре 2025 года после перехода Versace в Prada Group.',
         'Former design director at Miu Miu; creative director of Versace in 2025, left in December 2025 after Versace joined Prada Group.',
         'Единственная коллекция — весна–лето 2026', 'His only collection — Spring–Summer 2026'],
+      ['Pieter Mulier', 2026, null,
+        'Бельгийский дизайнер, пять лет руководивший Alaïa, прежде — правая рука Рафа Симонса в Jil Sander и Dior; главный креативный директор Versace с 1 июля 2026 года.',
+        'Belgian designer who led Alaïa for five years and was earlier Raf Simons’s right hand at Jil Sander and Dior; Versace chief creative officer from 1 July 2026.',
+        'Дебют Atelier Versace — Неделя высокой моды в Париже, январь 2027', 'Atelier Versace debut — Paris Couture Week, January 2027'],
     ],
     timeline: [
       [1946, 'Рождение Джанни Версаче', 'Gianni Versace is born', 'Родился в Реджо-ди-Калабрии.', 'Born in Reggio Calabria.'],
