@@ -432,7 +432,7 @@ export const BRANDS = [
       ['Sarah Burton', 2024, null,
         'Многолетний креативный директор Alexander McQueen; возглавила Givenchy в 2024 году.',
         'Long-time creative director of Alexander McQueen; took over Givenchy in 2024.',
-        'Дебют осень–зима 2025', 'Fall–Winter 2025 debut'],
+        'Дебют осень–зима 2025 на выкройках 1952 года', 'Fall–Winter 2025 debut built on the 1952 patterns'],
     ],
     timeline: [
       [1927, 'Рождение Юбера де Живанши', 'Hubert de Givenchy is born', 'Родился в Бове в аристократической семье.', 'Born in Beauvais to an aristocratic family.'],
