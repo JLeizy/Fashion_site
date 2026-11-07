@@ -140,7 +140,7 @@ export default [
 
 ### Париж, 2026
 
-По данным The Impression и Domus, в 2026 году в парижском Музее Майоля открылась ретроспектива Джанни Версаче. По данным Domus, архив Джанни сегодня — не просто часть истории, а будущее дома.
+По данным источников, с 5 июня по 6 сентября 2026 года (по данным одного источника — до 31 октября) в парижском Музее Майоля проходила ретроспектива Джанни Версаче — первая крупная выставка о нём во Франции с 1986 года. По данным источников, её кураторами были Саския Лубнов и Карл фон дер Аэ, а подготовила её компания Dreamrealizer, не связанная ни с домом Versace, ни с семьёй. По данным Domus, архив Джанни сегодня — не просто часть истории, а будущее дома.
 
 ### Признание
 
@@ -151,7 +151,7 @@ export default [
 По нашему прочтению, музейная жизнь Версаче началась сразу после его смерти и продолжается до сих пор. По нашей оценке, каждая новая выставка меняет восприятие дома: от «кричащей роскоши» к ремеслу, инженерии ткани и диалогу с античностью.
 
 > По данным Метрополитен-музея, выставка «Джанни Версаче» в Институте костюма проходила с 11 декабря 1997 года по 22 марта 1998 года.`,
-    content_en: `Per the Met, the Costume Institute showed “Gianni Versace” from 11 December 1997 to 22 March 1998, sponsored by Condé Nast and Vogue, with catalogue text by curator Richard Martin placing him “for the first time in the realm of the museum and of history”. The V&A's “The Art and Craft of Gianni Versace”, curated by Claire Wilcox, ran from 17 October 2002 to 12 January 2003 — its largest show for a single designer to that date. In 2026 the Musée Maillol in Paris opened a Gianni Versace retrospective; per Domus, his archive is the house's future. In our view, it took just five years to go from “Miss S&M” to the Met. In our reading, each exhibition shifts perception — from loud luxury to craft, textile engineering and dialogue with antiquity.`,
+    content_en: `Per the Met, the Costume Institute showed “Gianni Versace” from 11 December 1997 to 22 March 1998, sponsored by Condé Nast and Vogue, with catalogue text by curator Richard Martin placing him “for the first time in the realm of the museum and of history”. The V&A's “The Art and Craft of Gianni Versace”, curated by Claire Wilcox, ran from 17 October 2002 to 12 January 2003 — its largest show for a single designer to that date. From 5 June to 6 September 2026 (31 October per one source) the Musée Maillol in Paris held a Gianni Versace retrospective, the first major one in France since 1986, curated by Saskia Lubnow and Karl von der Ahé and produced by Dreamrealizer, unaffiliated with the house or family; per Domus, his archive is the house's future. In our view, it took just five years to go from “Miss S&M” to the Met. In our reading, each exhibition shifts perception — from loud luxury to craft, textile engineering and dialogue with antiquity.`,
     quote_ru: null, quote_en: null, quote_author: null,
   },
   {
