@@ -1,8 +1,8 @@
 // История Alexander McQueen, часть 6: «Эшу» (2000), «Ирере» и «Сканеры» (2003), «Сарабанда» и «Памяти Элизабет Хау»
-// (2007), прощание в соборе Святого Павла (2010). Разделы встраиваются по хронологии (см. alexander-mcqueen.js).
+// (2007), «Избавление» и «Это всего лишь игра» (2004), «Естественное различие» (2008), прощание в соборе Святого Павла (2010). Разделы встраиваются по хронологии (см. alexander-mcqueen.js).
 // Факты сверены через поиск (Википедия и её зеркала: Eshu, Irere, Scanners, Sarabande, In Memory of Elizabeth Howe;
 // V&A, Метрополитен-музей, LACMA, Palais Galliera; Daily Beast, Time, AP по Washington Times, Irish Times, FashionNetwork,
-// Haute Living, Fashion Magazine). Где источники расходятся — это сказано; оценки помечены.
+// Haute Living, Fashion Magazine; LACMA, Википедия: Michael Clark; блог Метрополитен-музея, V&A). Где источники расходятся — это сказано; оценки помечены.
 export default [
   {
     period: '2000',
@@ -118,6 +118,88 @@ export default [
 
 > По данным источников, на поминальной службе по Маккуину в соборе Святого Павла Бьорк спела «Gloomy Sunday».`,
     content_en: `Per sources, a memorial service for Lee Alexander McQueen was held at St Paul's Cathedral on Monday 20 September 2010 — 1,200 mourners in black, per one report. Kate Moss, Naomi Campbell, Sarah Jessica Parker, Stella McCartney and his muse Daphne Guinness attended (guest lists and outfits vary by source). Björk, in wings framing her gold-capped head, sang “Gloomy Sunday” after Billie Holiday — unsettling words given his death. Anna Wintour gave a eulogy; Shaun Leane, model Annabelle Neilson, nephew Gary Hulyer and Philip Treacy also spoke. As guests left, a lone Scottish piper marched out and was joined on the steps by twenty more. In our reading, all his worlds together — fashion, music, his makers and his Scottish roots — the pipes a last “tartan” in his story.`,
+    quote_ru: null, quote_en: null, quote_author: null,
+  },
+  {
+    period: '2003–2004',
+    title_ru: '«Избавление» и «Это всего лишь игра»',
+    title_en: '“Deliverance” and “It’s Only a Game”',
+    content_ru: `В середине 2000-х годов Маккуин дважды превращал показ в танец — один раз в танец до изнеможения, другой — в шахматную партию.
+
+### «Избавление»
+
+По данным LACMA, показ весна-лето 2004 года «Избавление» был живым воссозданием танцевального марафона эпохи Великой депрессии из фильма 1969 года «Загнанных лошадей пристреливают, не так ли?»; хореографом выступил Майкл Кларк. По данным LACMA, «танец до смерти» читается как метафора работы в моде. По данным одного модного блога, вместо обычного подиума Маккуин выпустил супермоделей и профессиональных танцоров, и по мере марафона измождённых моделей в изорванной одежде волокли по полу.
+
+### Майкл Кларк
+
+По данным источников, Майкл Кларк — шотландский танцовщик и хореограф, учившийся в Школе Королевского балета и работавший, среди прочих, с Маккуином, Ли Бауэри и группой The Fall.
+
+### «Это всего лишь игра»
+
+По данным Метрополитен-музея, коллекция весна-лето 2005 года «Это всего лишь игра» была задумана как шахматная партия между Америкой и Японией, и каждый образ соответствовал определённой шахматной фигуре. По данным Википедии, показ прошёл 8 октября 2004 года в Palais Omnisports de Paris-Bercy, а шахматную партию поставил танцовщик Лес Чайлд. По данным источников, после того как были показаны все тридцать шесть образов, сцена засветилась, как шахматная доска, и модели разыграли партию, изображавшую столкновение культур.
+
+### Наше прочтение
+
+По нашему прочтению, «Избавление» и «Это всего лишь игра» продолжают театральную линию Маккуина, начатую ещё у театральных костюмеров Berman's and Nathan's. По нашей оценке, в «Избавлении» звучит горькая самоирония: марафон, в котором танцуют до изнеможения, — точный образ индустрии, выпускающей коллекцию за коллекцией.
+
+> По данным LACMA, «танец до смерти» в показе «Избавление» читается как метафора работы в моде.`,
+    content_en: `Per LACMA, Spring-Summer 2004 “Deliverance” was a live rendition, choreographed by Michael Clark, of the Depression-era dance marathon in the 1969 film They Shoot Horses, Don't They? — the dance to the death read as a metaphor for working in fashion; per one blog, supermodels and professional dancers replaced the runway, exhausted models dragged across the floor in tattered clothes. Clark is a Scottish dancer trained at the Royal Ballet School who worked with McQueen, Leigh Bowery and The Fall. Per the Met, Spring-Summer 2005 “It's Only a Game” imagined a chess match between America and Japan, each look a chess piece; per Wikipedia it was shown on 8 October 2004 at the Palais Omnisports de Paris-Bercy, choreographed by dancer Les Child; after all thirty-six looks the stage lit up as a chessboard and the models played out a clash of cultures. In our reading, theatre again — and in “Deliverance” bitter self-irony about an industry dancing to exhaustion.`,
+    quote_ru: null, quote_en: null, quote_author: null,
+  },
+  {
+    period: '2008',
+    title_ru: '«Естественное различие, неестественный отбор»',
+    title_en: '“Natural Dis-tinction Un-Natural Selection”',
+    content_ru: `За год до «Атлантиды Платона» Маккуин уже говорил на подиуме о природе и её разрушении.
+
+### Дарвин
+
+По данным источников, коллекция весна-лето 2009 года «Естественное различие, неестественный отбор» по программе показа была вдохновлена теорией естественного отбора, изложенной Чарльзом Дарвином в книге «Происхождение видов» 1859 года. По данным источников, по одной версии показ прошёл 3 октября 2008 года в парижском пространстве Le Centquatre; данные о месте в источниках расходятся.
+
+### Экология
+
+По данным источников, программа объясняла, что Маккуина тревожило, как индустриализация и потребление разрушают природный мир.
+
+### Цифровые принты
+
+По данным источников, коллекция известна новаторским использованием цифровых принтов, рассчитанных так, чтобы рисунок точно совпадал с кроем вещей. По нашей оценке, это был важный технический шаг: принт перестал быть просто тканью, из которой кроят, и стал частью конструкции одежды.
+
+### Наше прочтение
+
+По нашему прочтению, «Естественное различие» открывает последнюю трилогию Маккуина — вместе с «Рогом изобилия» и «Атлантидой Платона», — в которой он говорил о природе, потреблении и будущем. По нашей оценке, эти темы, тогда казавшиеся мрачной фантазией, сегодня стали главными вопросами всей индустрии.
+
+> По данным источников, коллекция «Естественное различие, неестественный отбор» была вдохновлена книгой Чарльза Дарвина «Происхождение видов».`,
+    content_en: `Per sources, Spring-Summer 2009 “Natural Dis-tinction Un-Natural Selection” was inspired, per its programme notes, by Darwin's theory of natural selection in On the Origin of Species (1859); one source places the show at Le Centquatre, Paris, on 3 October 2008, though venue data differ. The notes explained McQueen's concern at how industrialisation and consumerism damaged the natural world. It is known for pioneering engineered digital prints matched to the garments' patterns — in our view, print became part of the construction. In our reading, the opening of a last trilogy with “The Horn of Plenty” and “Plato's Atlantis” about nature, consumption and the future — themes then seen as dark fantasy, now the industry's central questions.`,
+    quote_ru: null, quote_en: null, quote_author: null,
+  },
+  {
+    period: '2004–2010',
+    title_ru: 'Мать и сын',
+    title_en: 'Mother and son',
+    content_ru: `Среди всех людей, сыгравших роль в жизни Маккуина, особое место занимала его мать Джойс.
+
+### Поддержка
+
+По данным одного источника, именно мать поддерживала Маккуина и помогла ему войти в индустрию моды. По данным Википедии и Biography.com, Джойс Маккуин преподавала общественные науки; по данным одного источника, она была домохозяйкой.
+
+### Интервью
+
+По данным источников, 20 апреля 2004 года газета The Guardian в рубрике приглашённых редакторов опубликовала интервью, в котором вопросы Ли задавала сама Джойс. По данным блога, перепечатавшего отрывки, разговор начинался с вопроса о том, в какую эпоху он больше всего хотел бы создавать одежду. По нашей оценке, сам жанр этого интервью говорит о многом: самый закрытый модельер Лондона позволил расспрашивать себя только матери.
+
+### Шотландия
+
+По нашей оценке, интерес Маккуина к семейной истории — к шотландским корням и к салемской родственнице Элизабет Хау — во многом связан с семьёй и с тем, как в ней хранили память о предках. Это наше предположение, а не установленный факт.
+
+### Утрата
+
+По данным Biography.com, Джойс Маккуин умерла 2 февраля 2010 года, а через девять дней, накануне её похорон, умер и сам Ли.
+
+### Наше прочтение
+
+По нашему прочтению, связь матери и сына — один из ключей к пониманию Маккуина: за образом скандалиста стоял человек, глубоко привязанный к семье и её истории. По нашей оценке, его самые личные коллекции — от тартана до Салема — были в каком-то смысле семейными хрониками.
+
+> По данным источников, в 2004 году мать Маккуина Джойс взяла у сына интервью для газеты The Guardian.`,
+    content_en: `Per one source, his mother Joyce encouraged McQueen and helped him into fashion; per Wikipedia and Biography.com she taught social science (a homemaker, per one source). On 20 April 2004 The Guardian's guest-editors feature published an interview in which Joyce questioned Lee; per a blog reprinting extracts, it opened with which era he would most like to design in — in our view, London's most guarded designer let only his mother interview him. In our view (a supposition, not an established fact), his interest in family history — Scottish roots, the Salem ancestor — owed much to his family's memory of its forebears. Per Biography.com, Joyce died on 2 February 2010; nine days later, on the eve of her funeral, Lee died. In our reading, behind the scandal stood a man deeply attached to family, and his most personal collections were family chronicles.`,
     quote_ru: null, quote_en: null, quote_author: null,
   },
 ];
