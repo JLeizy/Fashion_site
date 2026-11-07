@@ -14,7 +14,7 @@ export default [
 
 ### Семья
 
-По данным Encyclopedia.com, Джанни Версаче родился 2 декабря 1946 года в Реджо-ди-Калабрии. Его отец Антонио торговал бытовой техникой, а мать Франческа была портнихой и владелицей магазина одежды; в семье было трое детей. По данным источников, старший брат Джанни, Санто, родился в 1944 году, а младшей была сестра Донателла.
+По данным Encyclopedia.com, Джанни Версаче родился 2 декабря 1946 года в Реджо-ди-Калабрии. Его отец Антонио торговал бытовой техникой, а мать Франческа была портнихой и владелицей магазина одежды. Источники расходятся в числе детей: Encyclopedia.com называет троих, другие источники — четверых. По данным источников, старший брат Джанни, Санто, родился в 1944 году, а младшая сестра Донателла, по данным Britannica, — 2 мая 1955 года.
 
 ### Мать
 
@@ -37,7 +37,7 @@ export default [
 По нашему прочтению, в этой главе уже есть всё, из чего вырастет дом: мать-портниха, семейное дело, южное солнце и античность. По нашей оценке, Versace — один из немногих великих домов XX века, основатель которого научился шить раньше, чем мечтать о славе.
 
 > По данным UPI, ещё ребёнком Джанни Версаче помогал матери подбирать драгоценные камни и золотую тесьму для вышивки платьев.`,
-    content_en: `Per Encyclopedia.com, Gianni Versace was born on 2 December 1946 in Reggio di Calabria; his father Antonio sold appliances and his mother Francesca was a dressmaker and clothing-store owner, with three children — Santo (born 1944), Gianni and Donatella. Per Romper, citing Deborah Ball's House of Versace, Franca was born in 1920 and had her own shop by twenty; her workroom was Gianni's playground, and per UPI he helped her choose precious stones and gold braid for embroidery. He worked in the family store before leaving for Milan; per UPI and some others he studied architecture, which not all sources confirm. A Versace boutique still stands near Reggio's cathedral. In our view, his love of gold and rich trim began in that Calabrian workroom, and the ancient past of Magna Graecia would become a key source. In our reading, a founder who learned to sew before dreaming of fame.`,
+    content_en: `Per Encyclopedia.com, Gianni Versace was born on 2 December 1946 in Reggio di Calabria; his father Antonio sold appliances and his mother Francesca was a dressmaker and clothing-store owner, three children per Encyclopedia.com (four per others) — among them Santo (born 1944) and Donatella (2 May 1955, per Britannica). Per Romper, citing Deborah Ball's House of Versace, Franca was born in 1920 and had her own shop by twenty; her workroom was Gianni's playground, and per UPI he helped her choose precious stones and gold braid for embroidery. He worked in the family store before leaving for Milan; per UPI and some others he studied architecture, which not all sources confirm. A Versace boutique still stands near Reggio's cathedral. In our view, his love of gold and rich trim began in that Calabrian workroom, and the ancient past of Magna Graecia would become a key source. In our reading, a founder who learned to sew before dreaming of fame.`,
     quote_ru: null, quote_en: null, quote_author: null,
   },
   {
