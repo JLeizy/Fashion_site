@@ -71,14 +71,14 @@ export default [
 
 ### Сдерживать рост
 
-По данным источников, Бернар Арно говорил, что главная задача — сдерживать рост марки, чтобы защитить качество продукции. По данным аналитиков, состоятельные и избирательные клиенты всё чаще выбирают нишевые марки высшего уровня, такие как Loro Piana.
+По данным источников, в LVMH называли главной задачей сдерживание роста марки ради защиты качества продукции. По данным аналитиков, состоятельные и избирательные клиенты всё чаще выбирают нишевые марки высшего уровня, такие как Loro Piana.
 
 ### Наше прочтение
 
 По нашему прочтению, слова о необходимости сдерживать рост — редкое для индустрии признание: для марки, построенной на редких волокнах, слишком быстрый рост опасен, потому что викуний и козлят не станет больше. По нашей оценке, это главное противоречие Loro Piana в эпоху LVMH.
 
-> По данным источников, главной задачей для Loro Piana Бернар Арно называл сдерживание роста ради защиты качества.`,
-    content_en: `Per Il Sole 24 Ore, LVMH's 2025 revenue was about €80.8 billion, down 5% reported and 1% organic; per WWD Japan, Fashion & Leather Goods fell 8% to about €37.8 billion. Loro Piana performed well and is likely the group's third-largest fashion brand after Louis Vuitton and Dior (WWD Japan); per FashionUnited its resilience limited the damage. LVMH does not disclose brand revenue; market estimates put it near €2.5 billion. Bernard Arnault reportedly said the main challenge is restraining growth to protect quality, and analysts see wealthy, selective clients favouring niche top-tier labels. In our reading, a rare admission — vicuñas and kid goats do not multiply with demand.`,
+> По данным источников, главной задачей для Loro Piana в LVMH называли сдерживание роста ради защиты качества.`,
+    content_en: `Per Il Sole 24 Ore, LVMH's 2025 revenue was about €80.8 billion, down 5% reported and 1% organic; per WWD Japan, Fashion & Leather Goods fell 8% to about €37.8 billion. Loro Piana performed well and is likely the group's third-largest fashion brand after Louis Vuitton and Dior (WWD Japan); per FashionUnited its resilience limited the damage. LVMH does not disclose brand revenue; market estimates put it near €2.5 billion. LVMH reportedly said the main challenge is restraining growth to protect quality, and analysts see wealthy, selective clients favouring niche top-tier labels. In our reading, a rare admission — vicuñas and kid goats do not multiply with demand.`,
     quote_ru: null, quote_en: null, quote_author: null,
   },
 ];
