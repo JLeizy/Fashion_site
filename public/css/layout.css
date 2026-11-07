@@ -33,9 +33,11 @@ html.is-scrolled .header::before,
 body[data-header='solid'] .header::before {
   opacity: 1;
 }
-/* Светлая тема: пока шапка прозрачна над тёмной обложкой (главная, бренд, история), текст и иконки — светлые,
-   иначе тёмный логотип и иконки теряются на фото. После прокрутки или при открытом мега-меню — обычные цвета темы. */
-html[data-theme='light']:not(.is-scrolled) body:is([data-page='home'], [data-page='brand'], [data-page='history']):not([data-header='solid']) .header:not(.is-mega-open) {
+/* Светлая тема: пока шапка прозрачна над тёмной обложкой главной и страницы бренда (там фото затемнено сверху),
+   текст и иконки — светлые, иначе тёмный логотип и иконки теряются на фото. На страницах истории обложка в светлой
+   теме высветлена, поэтому там остаются обычные тёмные цвета темы. После прокрутки или при открытом мега-меню —
+   обычные цвета темы. */
+html[data-theme='light']:not(.is-scrolled) body:is([data-page='home'], [data-page='brand']):not([data-header='solid']) .header:not(.is-mega-open) {
   --text: #f2ece2;
   --text-2: rgba(242, 236, 226, 0.86);
   --text-3: rgba(242, 236, 226, 0.78);
