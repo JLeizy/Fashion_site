@@ -17828,5 +17828,25 @@
     "bytes": 56808,
     "width": 900,
     "height": 1350
+  },
+  "/images/brands/maison-margiela/products/MMG-SUN-0045-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-geometric-frame-sunglasses/211821155",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134040_1.jpg",
+    "date": "2026-11-07",
+    "note": "SSENSE: brown-geometric-frame-sunglasses (ближайшая вещь той же категории); цвет на фото не совпадает с «white»",
+    "bytes": 9790,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/maison-margiela/products/MMG-SUN-0045-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-geometric-frame-sunglasses/211821155",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134040_2.jpg",
+    "date": "2026-11-07",
+    "note": "SSENSE: brown-geometric-frame-sunglasses (ближайшая вещь той же категории); цвет на фото не совпадает с «white»",
+    "bytes": 16236,
+    "width": 900,
+    "height": 1125
   }
 }
