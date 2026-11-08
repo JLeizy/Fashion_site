@@ -392,6 +392,7 @@ async function main() {
   let matched = 0;
   let exact = 0;
   let shopItems = [];
+  const noPhoto = []; // товары, для которых нет фото вещи той же категории
   if (plan.ssense || plan.shopify || plan.sfcc) {
     const items = plan.ssense ? await ssenseItems() : plan.sfcc ? await sfccItems() : await shopifyItems();
     shopItems = items;
@@ -411,17 +412,31 @@ async function main() {
     // из официального магазина той же группы (одежда / аксессуары); в источнике это честно помечено.
     if (plan.shopFallback && items.length) {
       const usedCodes = new Set([...matches.values()].map((m) => m.code));
-      const isAcc = (slug) => Object.entries(CATEGORY_WORDS).some(([cat, ws]) => ACCESSORY.has(cat) && ws.some((w) => slug.split('-').includes(w)));
       let i = 0;
       for (const p of products) {
         if (matches.get(p.sku)) continue;
-        const wantAcc = ACCESSORY.has(p.category);
         // Сначала вещь той же категории (ремень → ремень), даже если её фото уже стоит у другого товара;
         // если такой у бренда нет — вещь той же группы (одежда / аксессуары)
         const words = CATEGORY_WORDS[p.category] || [p.category.replace(/s$/, '')];
         const sameCat = items.filter((it) => words.some((w) => it.slug.split('-').includes(w) || it.slug.split('-').includes(`${w}s`)));
-        const pool = sameCat.length ? sameCat : items.filter((it) => isAcc(it.slug) === wantAcc);
-        const list = pool.length ? pool : items;
+        // Вещи другой категории не подставляем: товар без подходящего фото попадает в список исключённых
+        // (db/content/excluded-products.json) и не создаётся при заполнении базы
+        if (!sameCat.length) {
+          // Одежда без пары в магазине — образ с показа бренда (на нём настоящая одежда бренда); аксессуары по образу
+          // с показа не определить, поэтому их без подходящего фото исключаем
+          const look = !ACCESSORY.has(p.category) && plan.fallbackSeasons ? await nextFreeLook(plan.fallbackSeasons) : null;
+          if (look) {
+            matched += 1;
+            const note = `Vogue Runway, ${look.season}, образ показа (реальная вещь бренда, не точная модель)`;
+            const look2 = (await nextFreeLook(plan.fallbackSeasons)) || look;
+            add(`${baseOf(p)}-1.webp`, 'product', look.page, vogueUrl(look, 900), note);
+            add(`${baseOf(p)}-2.webp`, 'product', look2.page, vogueUrl(look2, 900), note);
+          } else {
+            noPhoto.push(p.sku);
+          }
+          continue;
+        }
+        const list = sameCat;
         const it = list.find((x) => !usedCodes.has(x.code)) || list[i++ % list.length];
         usedCodes.add(it.code);
         matched += 1;
@@ -558,6 +573,13 @@ async function main() {
       else out.push(o);
     }
   }
+  // Список товаров без подходящего фото — по бренду (seed их не создаёт)
+  const EXCLUDED = path.join(path.dirname(SOURCES), 'excluded-products.json');
+  const excluded = fs.existsSync(EXCLUDED) ? JSON.parse(fs.readFileSync(EXCLUDED, 'utf8')) : {};
+  if (noPhoto.length) excluded[BRAND] = noPhoto;
+  else delete excluded[BRAND];
+  fs.writeFileSync(EXCLUDED, `${JSON.stringify(excluded, null, 2)}\n`);
+  if (noPhoto.length) console.log(`[collect] Без подходящего фото (исключаются из каталога): ${noPhoto.length}`);
   const merged = [...existing.filter((s) => !mine(s.target)), ...out];
   fs.writeFileSync(SOURCES, `${JSON.stringify(merged, null, 2)}\n`);
   const count = (k) => out.filter((o) => o.kind === k).length;
