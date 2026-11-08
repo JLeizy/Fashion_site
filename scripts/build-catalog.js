@@ -483,7 +483,14 @@ function syncSources() {
     }
   }
   fs.writeFileSync(SOURCES, `${JSON.stringify(sources, null, 2)}\n`);
-  console.log(`[catalog] image-sources.json: записей товаров ${n}`);
+  // Манифест загруженных фото: записи товаров — только по текущему каталогу (старые артикулы удаляются)
+  const MANIFEST = path.join(ROOT, 'db', 'content', 'images-manifest.json');
+  const manifest = readJson(MANIFEST, {});
+  for (const t of Object.keys(manifest)) if (manifest[t].kind === 'product' || !fs.existsSync(path.join(PUBLIC, t))) delete manifest[t];
+  const date = new Date().toISOString().slice(0, 10);
+  for (const src of sources.filter((x) => x.kind === 'product')) manifest[src.target] = { kind: 'product', page: src.page, url: src.url, date, note: src.note };
+  fs.writeFileSync(MANIFEST, `${JSON.stringify(manifest, null, 2)}\n`);
+  console.log(`[catalog] image-sources.json: записей товаров ${n}; манифест: ${Object.keys(manifest).length}`);
 }
 
 async function main() {

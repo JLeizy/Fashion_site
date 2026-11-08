@@ -20,6 +20,7 @@
     "images:collect": "node scripts/collect-image-sources.js",
     "images:editorial": "node scripts/collect-editorial.js",
     "catalog": "node scripts/build-catalog.js",
+    "images:dedupe": "node scripts/dedupe-images.js",
     "test": "playwright test"
   },
   "dependencies": {
