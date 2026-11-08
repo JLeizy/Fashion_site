@@ -21038,5 +21038,345 @@
     "bytes": 52200,
     "width": 900,
     "height": 1350
+  },
+  "/images/brands/gucci/products/GUC-LOF-0002-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-runway-sunglasses/852198289",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134073_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: gold-runway-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 10500,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-LOF-0002-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-runway-sunglasses/852198289",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134073_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: gold-runway-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 11486,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-LOF-0003-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/taupe-runway-sunglasses/775300767",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134081_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: taupe-runway-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 12750,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-LOF-0003-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/taupe-runway-sunglasses/775300767",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134081_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: taupe-runway-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 16892,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-TOT-0012-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-sign-sunglasses/985337119",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134077_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-sign-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 8508,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-TOT-0012-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-sign-sunglasses/985337119",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134077_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-sign-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 19892,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-CRB-0014-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-institutional-logo-sunglasses/27128440",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134076_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 9882,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-CRB-0014-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-institutional-logo-sunglasses/27128440",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134076_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 13466,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-CRB-0016-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-institutional-logo-sunglasses/963355752",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134072_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: brown-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 13478,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-CRB-0016-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-institutional-logo-sunglasses/963355752",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134072_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: brown-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 17016,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-CRB-0017-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-lettering-sunglasses/577618916",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134087_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-lettering-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 10290,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-CRB-0017-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-lettering-sunglasses/577618916",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134087_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-lettering-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 13574,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-SUI-0033-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/levis-blue-tab/navy-denim-overshirt/19659281",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M192016_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: navy-denim-overshirt (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 25918,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-SUI-0033-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/levis-blue-tab/navy-denim-overshirt/19659281",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M192016_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: navy-denim-overshirt (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 24868,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-SUI-0034-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/levis-blue-tab/blue-relaxed-denim-button-down-shirt/19659301",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M192018_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: blue-relaxed-denim-button-down-shirt (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 50850,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-SUI-0034-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/levis-blue-tab/blue-relaxed-denim-button-down-shirt/19659301",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M192018_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: blue-relaxed-denim-button-down-shirt (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 46434,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-WAL-0044-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-hailey-sunglasses/105380994",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134066_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-hailey-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 9480,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-WAL-0044-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-hailey-sunglasses/105380994",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134066_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-hailey-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 16652,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-RNG-0045-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-geometric-frame-sunglasses/538744540",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134039_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-geometric-frame-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 9560,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-RNG-0045-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-geometric-frame-sunglasses/538744540",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134039_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-geometric-frame-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 15818,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-BRC-0046-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rectangular-frame-sunglasses/192006285",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134041_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 9098,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-BRC-0046-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rectangular-frame-sunglasses/192006285",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134041_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 15074,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-CHN-0047-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-rectangular-frame-sunglasses/878509171",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134042_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: brown-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 12240,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-CHN-0047-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-rectangular-frame-sunglasses/878509171",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134042_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: brown-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 17320,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-EAR-0048-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/447996867",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134071_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 10142,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-EAR-0048-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/447996867",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134071_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 14434,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-PFW-0049-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/707247744",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134070_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 9170,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-PFW-0049-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/707247744",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134070_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 12496,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-PFM-0050-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/158935160",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134069_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 11260,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-PFM-0050-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/158935160",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134069_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 13984,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-PFW-0051-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-minimal-sunglasses/514621690",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134065_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-minimal-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 9536,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-PFW-0051-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-minimal-sunglasses/514621690",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134065_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: black-minimal-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 13780,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-BPK-0054-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-emblem-directional-sunglasses/659053512",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134050_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: silver-emblem-directional-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 9792,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-BPK-0054-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-emblem-directional-sunglasses/659053512",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134050_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: silver-emblem-directional-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 10864,
+    "width": 900,
+    "height": 1125
   }
 }
