@@ -140,16 +140,15 @@ export const IMAGE_PLAN = {
     fallbackSeasons: ["spring-2027-ready-to-wear", "fall-2026-ready-to-wear", "spring-2026-ready-to-wear", "fall-2025-ready-to-wear", "spring-2025-ready-to-wear", "fall-2024-ready-to-wear", "spring-2024-ready-to-wear", "fall-2023-ready-to-wear", "spring-2023-ready-to-wear"],
   },
   supreme: {
+    shopFallback: true, // нет показов на Vogue: история, коллекции и обложка — фото вещей из официального магазина
     shopify: { base: 'https://us.supreme.com', listings: ['/collections/all', '/collections/all?page=2', '/collections/all?page=3'] },
     vogue: [],
     directors: { 'James Jebbia': 'James Jebbia', 'Tremaine Emory': 'Tremaine Emory' },
   },
   'chrome-hearts': {
-    shopify: {
-      base: 'https://shop-us.doverstreetmarket.com',
-      listings: ['/search?q=chrome+hearts', '/search?q=chrome+hearts&page=2', '/search?q=chrome+hearts&page=3', '/search?q=chrome+hearts&page=4'],
-      vendor: 'Chrome Hearts',
-    },
+    // Официальный магазин chromehearts.com (Salesforce Commerce) открывается в браузере; Dover Street Market закрыт для ботов.
+    sfcc: { base: 'https://www.chromehearts.com', listings: ['/scarf', '/slippers', '/socks', '/intimates', '/boxers-leggings', '/scents', '/baccarat'] },
+    shopFallback: true,
     vogue: [],
     directors: { 'Richard Stark': 'Richard Stark (designer)', 'Laurie Lynn Stark': 'Laurie Lynn Stark' },
   },

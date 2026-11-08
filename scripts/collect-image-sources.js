@@ -228,6 +228,46 @@ async function shopifyItems() {
     });
 }
 
+// ---------- Официальный магазин на Salesforce Commerce (Chrome Hearts): категории → страницы товаров → фото ----------
+async function sfccItems() {
+  const { base, listings } = plan.sfcc;
+  const pages = new Set();
+  for (const listing of listings) {
+    try {
+      const { page, close } = await openPage(base + listing);
+      // Категория с одним товаром сразу открывает его страницу — её тоже берём
+      if (/\.html$/.test(page.url())) pages.add(page.url().split('?')[0]);
+      const links = await page.$$eval('a[href$=".html"]', (as) => [...new Set(as.map((a) => a.href.split('?')[0]))]);
+      links.filter((l) => l.startsWith(base) && !/(locations|magazine|terms|privacy|disclosure|general)\.html$/.test(l)).forEach((l) => pages.add(l));
+      await close();
+    } catch (err) {
+      console.warn(`[collect] Магазин ${listing}: ${err.message}`);
+    }
+    await sleep(1200);
+  }
+  const items = [];
+  for (const url of [...pages].slice(0, 80)) {
+    try {
+      const { page, close } = await openPage(url);
+      const data = await page.evaluate(() => ({
+        title: (document.querySelector('h1') || {}).textContent || document.title,
+        imgs: [...new Set([...document.querySelectorAll('img')].map((i) => i.currentSrc || i.src).filter((s) => /img_products/.test(s)))],
+      }));
+      await close();
+      if (!data.imgs.length) continue;
+      const big = (u) => u.replace(/\?.*$/, '?sw=900&sh=1125');
+      const slugPart = url.replace(base, '').replace(/\.html$/, '').split('/').filter(Boolean).join('-');
+      const slug = `${data.title} ${slugPart}`.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      items.push({ code: slugPart, slug, gender: 'unisex', page: url, images: [big(data.imgs[0]), big(data.imgs[1] || data.imgs[0])] });
+    } catch (err) {
+      console.warn(`[collect] Товар ${url}: ${err.message}`);
+    }
+    await sleep(800);
+  }
+  console.log(`[collect] Официальный магазин: товаров с фото ${items.length} (страниц ${pages.size})`);
+  return items;
+}
+
 // ---------- Сопоставление товаров БД с найденными вещами ----------
 const CATEGORY_WORDS = {
   sneakers: ['sneaker', 'trainer', 'runner'], boots: ['boot'], loafers: ['loafer'], sandals: ['sandal', 'slide', 'mule', 'flip'],
@@ -306,8 +346,10 @@ async function main() {
   // ---------- Товары ----------
   let matched = 0;
   let exact = 0;
-  if (plan.ssense || plan.shopify) {
-    const items = plan.ssense ? await ssenseItems() : await shopifyItems();
+  let shopItems = [];
+  if (plan.ssense || plan.shopify || plan.sfcc) {
+    const items = plan.ssense ? await ssenseItems() : plan.sfcc ? await sfccItems() : await shopifyItems();
+    shopItems = items;
     console.log(`[collect] Найдено вещей в магазине: ${items.length}`);
     const matches = matchProducts(products, items);
     for (const p of products) {
@@ -319,6 +361,26 @@ async function main() {
       const note = `${shop}: ${m.slug}${m.exact ? '' : ' (ближайшая вещь той же категории)'}${m.colorOk ? '' : `; цвет на фото не совпадает с «${p.color}»`}`;
       add(`${baseOf(p)}-1.webp`, 'product', m.page, m.images[0], note);
       add(`${baseOf(p)}-2.webp`, 'product', m.page, m.images[1], note);
+    }
+    // Марки без показов и с узким онлайн-ассортиментом (plan.shopFallback): товарам без пары — фото другой вещи бренда
+    // из официального магазина той же группы (одежда / аксессуары); в источнике это честно помечено.
+    if (plan.shopFallback && items.length) {
+      const usedCodes = new Set([...matches.values()].map((m) => m.code));
+      const isAcc = (slug) => Object.entries(CATEGORY_WORDS).some(([cat, ws]) => ACCESSORY.has(cat) && ws.some((w) => slug.split('-').includes(w)));
+      let i = 0;
+      for (const p of products) {
+        if (matches.get(p.sku)) continue;
+        const wantAcc = ACCESSORY.has(p.category);
+        const pool = items.filter((it) => isAcc(it.slug) === wantAcc);
+        const list = pool.length ? pool : items;
+        const it = list.find((x) => !usedCodes.has(x.code)) || list[i++ % list.length];
+        usedCodes.add(it.code);
+        matched += 1;
+        const shop = new URL(it.page).hostname;
+        const note = `${shop}: ${it.slug} (вещь бренда из официального магазина, не эта модель)`;
+        add(`${baseOf(p)}-1.webp`, 'product', it.page, it.images[0], note);
+        add(`${baseOf(p)}-2.webp`, 'product', it.page, it.images[1], note);
+      }
     }
   } else if (plan.productSeasons) {
     // Марки без магазинов: кадры деталей (аксессуары) и образы (одежда) с показов Vogue Runway, без повторов
@@ -393,6 +455,28 @@ async function main() {
       const look = await nextFreeLook(plan.fallbackSeasons);
       if (look) add(s.image, 'history', look.page, vogueUrl(look, 900), `Vogue Runway, ${look.season}, образ ${look.num}`);
     }
+  }
+  // Марки без показов на Vogue (plan.shopFallback): коллекции, обложка и разделы истории без иллюстрации получают
+  // фото вещей бренда из официального магазина — по одному снимку, без повторов, пока они есть.
+  if (plan.shopFallback && shopItems.length) {
+    const taken = new Set(out.map((o) => o.target));
+    let k = 0;
+    const nextShop = () => {
+      const it = shopItems[k % shopItems.length];
+      const img = it.images[Math.floor(k / shopItems.length) % 2];
+      k += 1;
+      return { it, img };
+    };
+    const fill = (target, kind) => {
+      if (!target || taken.has(toWebp(target))) return;
+      const { it, img } = nextShop();
+      add(target, kind, it.page, img, `${new URL(it.page).hostname}: ${it.slug} (вещь бренда из официального магазина, иллюстрация)`);
+      taken.add(toWebp(target));
+    };
+    collections.forEach((c) => fill(c.cover_image, 'collection'));
+    fill(brand.hero_image, 'hero');
+    banners.forEach((b) => fill(b.image, 'banner'));
+    sections.forEach((s) => fill(s.image, 'history'));
   }
   if (browserPromise) await (await browserPromise).close();
 
