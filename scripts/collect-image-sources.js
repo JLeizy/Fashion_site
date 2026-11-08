@@ -478,9 +478,9 @@ async function main() {
       continue;
     }
     // Нет фото в статье — ищем снимок человека на Wikimedia Commons по имени (у «дизайн-студии» портрета нет)
-    img = title && !/studio/i.test(d.name) ? await commonsImage(d.name.replace(/&.*$/, '').trim()) : null;
-    if (img) add(d.photo, 'director', img.page, img.url, `Wikimedia Commons: ${d.name}`);
-    else missingDirectors.push(d);
+    // Поиск по Commons по имени отключён: он находил однофамильцев (политик Richard Stark, художник Pieter Mulier)
+    // и предметы (кроссовки, дорожный знак). Проверенные вручную снимки — в db/content/image-overrides.json.
+    missingDirectors.push(d);
   }
 
   // ---------- Иллюстрации истории ----------
@@ -545,6 +545,15 @@ async function main() {
   // Слияние со списком источников: записи этого бренда заменяются целиком
   const existing = fs.existsSync(SOURCES) ? JSON.parse(fs.readFileSync(SOURCES, 'utf8')) : [];
   const mine = (t) => t.includes(`/brands/${BRAND}/`) || t.includes(`/banners/${BRAND}.`);
+  // Ручные правки (проверенные снимки и честные подписи) — db/content/image-overrides.json, применяются последними
+  const OVERRIDES = path.join(path.dirname(SOURCES), 'image-overrides.json');
+  if (fs.existsSync(OVERRIDES)) {
+    for (const o of JSON.parse(fs.readFileSync(OVERRIDES, 'utf8')).filter((x) => mine(x.target))) {
+      const i = out.findIndex((x) => x.target === o.target);
+      if (i >= 0) out[i] = o;
+      else out.push(o);
+    }
+  }
   const merged = [...existing.filter((s) => !mine(s.target)), ...out];
   fs.writeFileSync(SOURCES, `${JSON.stringify(merged, null, 2)}\n`);
   const count = (k) => out.filter((o) => o.kind === k).length;

@@ -9863,7 +9863,7 @@
     "kind": "director",
     "page": "https://en.wikipedia.org/wiki/Louis_Vuitton_(designer)",
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Portrait-Louis-Vuitton.jpg/960px-Portrait-Louis-Vuitton.jpg",
-    "date": "2026-11-05",
+    "date": "2026-11-08",
     "note": "Википедия: Louis Vuitton (designer)",
     "bytes": 30350,
     "width": 600,
@@ -25771,13 +25771,13 @@
   },
   "/images/brands/versace/directors/4.webp": {
     "kind": "director",
-    "page": "https://commons.wikimedia.org/wiki/File:Pieter_Mulier_(I)_-_Dutch_Shipping_in_Heavy_Seas_-_WGA16310.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Pieter_Mulier_%28I%29_-_Dutch_Shipping_in_Heavy_Seas_-_WGA16310.jpg/960px-Pieter_Mulier_%28I%29_-_Dutch_Shipping_in_Heavy_Seas_-_WGA16310.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/67c2c4f92b04944ec6fd65cd/master/w_900,c_limit/00001-versace-fall-2025-ready-to-wear-credit-gorunway.jpg",
     "date": "2026-11-08",
-    "note": "Wikimedia Commons: Pieter Mulier",
-    "bytes": 26056,
+    "note": "Портрета в открытых источниках нет — Vogue Runway, fall-2025-ready-to-wear, образ 1",
+    "bytes": 37434,
     "width": 600,
-    "height": 366
+    "height": 900
   },
   "/images/brands/versace/directors/3.webp": {
     "kind": "director",
@@ -25891,13 +25891,13 @@
   },
   "/images/brands/chrome-hearts/directors/1.webp": {
     "kind": "director",
-    "page": "https://commons.wikimedia.org/wiki/File:Richard_Stark_on_the_House_floor_in_2017.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Richard_Stark_on_the_House_floor_in_2017.jpg/960px-Richard_Stark_on_the_House_floor_in_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://www.chromehearts.com/scarf/math-plus-scarf/222575AEGXXX059.html",
+    "url": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dwb91adadb/img_products/hi-res/315222575AEGXXX059_0131_1.png?sw=900&sh=1125",
     "date": "2026-11-08",
-    "note": "Wikimedia Commons: Richard Stark",
-    "bytes": 22274,
+    "note": "Портрета в открытых источниках нет — www.chromehearts.com: math-plus-scarf-scarf-math-plus-scarf-222575aegxxx059 (вещь бренда из официального магазина, иллюстрация)",
+    "bytes": 98712,
     "width": 600,
-    "height": 324
+    "height": 750
   },
   "/images/brands/chrome-hearts/directors/2.webp": {
     "kind": "director",
@@ -25951,13 +25951,13 @@
   },
   "/images/brands/louis-vuitton/directors/5.webp": {
     "kind": "director",
-    "page": "https://commons.wikimedia.org/wiki/File:Kim_Jones_8_31_09.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Kim_Jones_8_31_09.jpg/960px-Kim_Jones_8_31_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/67cf6c72b3f59b4c4a39543d/master/w_900,c_limit/00001-louis-vuitton-fall-2025-ready-to-wear-credit-gorunway.jpg",
     "date": "2026-11-08",
-    "note": "Wikimedia Commons: Kim Jones",
-    "bytes": 38426,
+    "note": "Портрета в открытых источниках нет — Vogue Runway, fall-2025-ready-to-wear, образ 1",
+    "bytes": 33624,
     "width": 600,
-    "height": 674
+    "height": 900
   },
   "/images/brands/louis-vuitton/directors/2.webp": {
     "kind": "director",
@@ -25981,13 +25981,13 @@
   },
   "/images/brands/prada/directors/1.webp": {
     "kind": "director",
-    "page": "https://commons.wikimedia.org/wiki/File:Street_sign_Via_Mario_Prada_(Faggeto_Lario).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Street_sign_Via_Mario_Prada_%28Faggeto_Lario%29.jpg/960px-Street_sign_Via_Mario_Prada_%28Faggeto_Lario%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/67c08d7f944bd42e601168ef/master/w_900,c_limit/00001-prada-fall-2025-ready-to-wear-credit-gorunway.jpg",
     "date": "2026-11-08",
-    "note": "Wikimedia Commons: Mario Prada",
-    "bytes": 51434,
+    "note": "Портрета в открытых источниках нет — Vogue Runway, fall-2025-ready-to-wear, образ 1",
+    "bytes": 50064,
     "width": 600,
-    "height": 326
+    "height": 900
   },
   "/images/brands/prada/directors/2.webp": {
     "kind": "director",
@@ -26008,5 +26008,25 @@
     "bytes": 11648,
     "width": 600,
     "height": 600
+  },
+  "/images/brands/prada/directors/4.webp": {
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/66ec3f52706776f69921e5e5/master/w_900,c_limit/00001-prada-spring-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Портрета в открытых источниках нет — Vogue Runway, spring-2025-ready-to-wear, образ 1",
+    "bytes": 56400,
+    "width": 600,
+    "height": 900
+  },
+  "/images/brands/givenchy/directors/7.webp": {
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/givenchy",
+    "url": "https://assets.vogue.com/photos/67caec3df0dd6821fcf1812b/master/w_900,c_limit/00001-givenchy-fall-2025-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Портрета в открытых источниках нет — Vogue Runway, fall-2025-ready-to-wear, образ 1",
+    "bytes": 45616,
+    "width": 600,
+    "height": 900
   }
 }
