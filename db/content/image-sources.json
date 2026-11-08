@@ -973,13 +973,6 @@
     "note": "Vogue Runway, spring-2026-ready-to-wear, образ 36"
   },
   {
-    "target": "/images/brands/supreme/directors/1.webp",
-    "kind": "director",
-    "page": "https://en.wikipedia.org/wiki/James_Jebbia",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/James_Jebbia.jpg/960px-James_Jebbia.jpg",
-    "note": "Википедия: James Jebbia"
-  },
-  {
     "target": "/images/brands/louis-vuitton/products/LVT-TOT-0001-1.webp",
     "kind": "product",
     "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/louis-vuitton/slideshow/details",
@@ -14411,5 +14404,12 @@
     "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
     "url": "https://assets.vogue.com/photos/68e2100f18168981adb8eb70/master/w_900,c_limit/00048-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
     "note": "Vogue Runway, spring-2026-ready-to-wear, образ 48"
+  },
+  {
+    "target": "/images/brands/supreme/directors/1.webp",
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/James_Jebbia",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/James_Jebbia.jpg/960px-James_Jebbia.jpg",
+    "note": "Википедия: James Jebbia"
   }
 ]
