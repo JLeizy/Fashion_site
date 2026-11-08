@@ -16,7 +16,11 @@ test.describe('Вход', () => {
     await page.locator('#login-email').fill(BUYER.email);
     await page.locator('#login-password').fill('wrong-password-123');
     await page.locator('[data-form="login"] [type="submit"]').click();
-    await expect(page.locator('[data-form="login"] .field__error, [data-form="login"] [role="alert"]').first()).toBeVisible();
+    // Общая ошибка формы («Неверный email или пароль») и по-прежнему страница входа
+    const error = page.locator('[data-form="login"] [data-form-error]');
+    await expect(error).toBeVisible();
+    await expect(error).not.toBeEmpty();
+    await expect(page).toHaveURL(/\/auth/);
     const me = await page.request.get('/api/auth/me');
     expect((await me.json()).user ?? null).toBeNull();
   });
