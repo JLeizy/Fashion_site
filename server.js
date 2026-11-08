@@ -23,7 +23,7 @@ try {
     console.warn('[db] Таблицы не найдены. Выполните: npm run setup  (схема + наполнение + SVG-заглушки)');
   }
 } catch (err) {
-  console.error(`[db] Нет подключения к PostgreSQL ${config.db.host}:${config.db.port} — ${err.message}`);
+  console.error(`[db] Нет подключения к PostgreSQL ${config.db.host}:${config.db.port} — ${err?.message || err?.code || err?.errors?.[0]?.code || err}`);
   console.error('     Проверьте настройки PG* в .env (или включите USE_EMBEDDED_PG=true).');
   await stopEmbeddedPostgres();
   process.exit(1);

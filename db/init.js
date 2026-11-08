@@ -52,7 +52,11 @@ if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(import.met
     await ensureDatabaseExists();
     await applySchema();
   } catch (err) {
-    console.error('[db] Ошибка применения схемы:', err.message);
+    // У ошибки подключения (ECONNREFUSED) текст бывает пустым — показываем код и подсказку
+    console.error('[db] Ошибка применения схемы:', err?.message || err?.code || err?.errors?.[0]?.code || String(err));
+    if ((err?.code || err?.errors?.[0]?.code) === 'ECONNREFUSED') {
+      console.error('     PostgreSQL не отвечает. Если он не установлен — в .env поставьте USE_EMBEDDED_PG=true и PGPORT=5433.');
+    }
     if (err.position) console.error('     позиция в SQL:', err.position);
     process.exitCode = 1;
   } finally {

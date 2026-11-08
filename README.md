@@ -106,7 +106,8 @@ PostgreSQL из npm-пакета `embedded-postgres` (данные в папке
    ```powershell
    Copy-Item .env.example .env
    ```
-   и в `.env` поставить `USE_EMBEDDED_PG=true` и `PGPORT=5433` (порт 5433 — чтобы не конфликтовать с установленным PostgreSQL, если он есть).
+   В примере уже стоят `USE_EMBEDDED_PG=true` и `PGPORT=5433` (порт 5433 — чтобы не конфликтовать с установленным PostgreSQL,
+   если он есть), менять ничего не нужно. Важно: повторный `Copy-Item` перезапишет ваши правки в `.env`.
 4. Схема, наполнение и заглушки (встроенный PostgreSQL поднимется сам, данные — в папке `.pgdata`):
    ```powershell
    npm run setup
@@ -116,7 +117,7 @@ PostgreSQL из npm-пакета `embedded-postgres` (данные в папке
    npm start
    ```
 
-**Вариант Б — свой PostgreSQL 15+ (установщик EnterpriseDB).** В `.env` оставить `USE_EMBEDDED_PG=false`, указать `PGPORT=5432`,
+**Вариант Б — свой PostgreSQL 15+ (установщик EnterpriseDB).** В `.env` поставить `USE_EMBEDDED_PG=false`, указать `PGPORT=5432`,
 `PGUSER=postgres` и пароль, заданный при установке; затем `npm run setup` и `npm start`. Расширение `pg_trgm` входит в стандартную
 поставку PostgreSQL для Windows.
 
