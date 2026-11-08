@@ -788,7 +788,8 @@ async function main() {
     // -----------------------------------------------------------------
     const moderationDemo = [
       { seller: U.seller1, brand: 'balenciaga', cat: 'sneakers', sku: 'BAL-SNK-9001', ru: 'Кроссовки Triple S — образец 2017 года', en: 'Triple S Sneaker — 2017 Sample', price: 4800, color: 'grey', material: 'leather', status: 'pending' },
-      { seller: U.seller2, brand: 'chrome-hearts', cat: 'rings', sku: 'CHH-RNG-9002', ru: 'Винтажное кольцо Floral Cross', en: 'Vintage Floral Cross Ring', price: 5200, color: 'silver', material: 'silver925', status: 'pending' },
+      // Фото колец Chrome Hearts в открытых источниках нет — демо-кольцо этого продавца теперь Givenchy (фото есть)
+      { seller: U.seller2, brand: 'givenchy', cat: 'rings', sku: 'GIV-RNG-9002', ru: 'Винтажное кольцо 4G', en: 'Vintage 4G Ring', price: 5200, color: 'silver', material: 'silver925', status: 'pending' },
       { seller: U.seller1, brand: 'vetements', cat: 'hoodies', sku: 'VTM-HOD-9003', ru: 'Худи Total Darkness (архив)', en: 'Total Darkness Hoodie (archive)', price: 2400, color: 'black', material: 'cotton', status: 'rejected', reason: 'Недостаточно фото для проверки подлинности: нужны крупные планы бирок и швов.' },
       { seller: U.seller3, brand: 'chanel', cat: 'crossbody', sku: 'CHA-CRB-9004', ru: 'Винтажная сумка Classic Flap 1990-х', en: 'Vintage 1990s Classic Flap Bag', price: 28000, color: 'black', material: 'leather', status: 'draft' },
       { seller: U.seller3, brand: 'louis-vuitton', cat: 'totes', sku: 'LVT-TOT-9005', ru: 'Винтажная сумка Speedy 30', en: 'Vintage Speedy 30 Bag', price: 5600, color: 'brown', material: 'canvas', status: 'pending' },

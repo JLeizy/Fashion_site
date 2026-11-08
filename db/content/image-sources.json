@@ -7682,8 +7682,8 @@
     "target": "/images/brands/alexander-mcqueen/products/AMQ-SCF-0010-2.webp",
     "kind": "product",
     "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/purple-and-green-skull-scarf/19757461",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F028000_2.jpg",
-    "note": "www.ssense.com: purple-and-green-skull-scarf (вещь бренда из официального магазина, не эта модель)"
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F028000_1.jpg",
+    "note": "www.ssense.com: purple-and-green-skull-scarf (вещь бренда из официального магазина, не эта модель) (второго ракурса нет — повторено первое фото)"
   },
   {
     "target": "/images/brands/alexander-mcqueen/products/AMQ-CRB-0014-1.webp",
@@ -8004,8 +8004,8 @@
     "target": "/images/brands/alexander-mcqueen/products/AMQ-SCF-0060-2.webp",
     "kind": "product",
     "page": "https://www.ssense.com/en-us/women/product/alexander-mcqueen/purple-and-green-skull-scarf/19757461",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F028000_2.jpg",
-    "note": "www.ssense.com: purple-and-green-skull-scarf (вещь бренда из официального магазина, не эта модель)"
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262259F028000_1.jpg",
+    "note": "www.ssense.com: purple-and-green-skull-scarf (вещь бренда из официального магазина, не эта модель) (второго ракурса нет — повторено первое фото)"
   },
   {
     "target": "/images/brands/alexander-mcqueen/collections/autumn-winter-2025.webp",
@@ -15552,5 +15552,19 @@
     "page": "https://www.chromehearts.com/socks/executive-socks/191716ADLXXX406.html",
     "url": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dw493470c8/img_products/hi-res/316191716ADLMED406_0060.png?sw=900&sh=1125",
     "note": "www.chromehearts.com: executive-socks-socks-executive-socks-191716adlxxx406 (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/givenchy/products/GIV-RNG-9002-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/givenchy/silver-4g-metal-and-crystal-ring/16966021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/251278F024000_1.jpg",
+    "note": "SSENSE: silver-4g-metal-and-crystal-ring"
+  },
+  {
+    "target": "/images/brands/givenchy/products/GIV-RNG-9002-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/givenchy/silver-4g-metal-and-crystal-ring/16966021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/251278F024000_2.jpg",
+    "note": "SSENSE: silver-4g-metal-and-crystal-ring"
   }
 ]

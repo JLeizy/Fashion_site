@@ -18,7 +18,8 @@
     "setup": "npm run db:schema && npm run db:seed && npm run placeholders",
     "images": "node scripts/fetch-images.js",
     "images:collect": "node scripts/collect-image-sources.js",
-    "images:fill": "node scripts/fill-missing-product-images.js"
+    "images:fill": "node scripts/fill-missing-product-images.js",
+    "images:check": "node scripts/check-product-photos.js"
   },
   "dependencies": {
     "@fontsource/caveat": "^5.3.0",
