@@ -6,6 +6,7 @@
 //   directors — статья Википедии для портрета (если имя в БД отличается от названия статьи)
 export const IMAGE_PLAN = {
   balenciaga: {
+    shopFallback: true, // товарам без пары в магазине — другая вещь бренда той же группы, с пометкой в источнике
     ssense: 'balenciaga',
     vogue: 'balenciaga',
     fallbackSeasons: ["spring-2027-ready-to-wear", "fall-2026-ready-to-wear", "spring-2026-ready-to-wear", "fall-2025-ready-to-wear", "spring-2025-ready-to-wear", "fall-2024-ready-to-wear", "spring-2024-ready-to-wear", "fall-2023-ready-to-wear", "spring-2023-ready-to-wear"],
@@ -50,6 +51,7 @@ export const IMAGE_PLAN = {
   },
 
   vetements: {
+    shopFallback: true, // товарам без пары в магазине — другая вещь бренда той же группы, с пометкой в источнике
     ssense: 'vetements',
     vogue: 'vetements',
     directors: { Demna: 'Demna (designer)' },
@@ -74,6 +76,7 @@ export const IMAGE_PLAN = {
     ],
   },
   gucci: {
+    shopFallback: true, // товарам без пары в магазине — другая вещь бренда той же группы, с пометкой в источнике
     ssense: 'gucci',
     vogue: 'gucci',
     directors: { Demna: 'Demna (designer)' },
@@ -135,6 +138,7 @@ export const IMAGE_PLAN = {
     fallbackSeasons: ["spring-2027-ready-to-wear", "fall-2026-ready-to-wear", "spring-2026-ready-to-wear", "fall-2025-ready-to-wear", "spring-2025-ready-to-wear", "fall-2024-ready-to-wear", "spring-2024-ready-to-wear", "fall-2023-ready-to-wear", "spring-2023-ready-to-wear"],
   },
   avavav: {
+    shopFallback: true, // товарам без пары в магазине — другая вещь бренда той же группы, с пометкой в источнике
     ssense: 'avavav',
     vogue: 'avavav',
     fallbackSeasons: ["spring-2027-ready-to-wear", "fall-2026-ready-to-wear", "spring-2026-ready-to-wear", "fall-2025-ready-to-wear", "spring-2025-ready-to-wear", "fall-2024-ready-to-wear", "spring-2024-ready-to-wear", "fall-2023-ready-to-wear", "spring-2023-ready-to-wear"],
@@ -165,6 +169,7 @@ export const IMAGE_PLAN = {
     directors: { 'Gabrielle Chanel': 'Coco Chanel' },
   },
   'maison-margiela': {
+    shopFallback: true, // товарам без пары в магазине — другая вещь бренда той же группы, с пометкой в источнике
     ssense: 'maison-margiela',
     vogue: ['maison-martin-margiela', 'maison-margiela'],
     vogueFileKey: 'margiela', // страницы Vogue — maison-martin-margiela, имена файлов — …-margiela-…
@@ -172,17 +177,20 @@ export const IMAGE_PLAN = {
     directors: { 'Design studio': null },
   },
   givenchy: {
+    shopFallback: true, // товарам без пары в магазине — другая вещь бренда той же группы, с пометкой в источнике
     ssense: 'givenchy',
     vogue: 'givenchy',
     fallbackSeasons: ["spring-2027-ready-to-wear", "fall-2026-ready-to-wear", "spring-2026-ready-to-wear", "fall-2025-ready-to-wear", "spring-2025-ready-to-wear", "fall-2024-ready-to-wear", "spring-2024-ready-to-wear", "fall-2023-ready-to-wear", "spring-2023-ready-to-wear"],
     directors: { 'Alexander McQueen': 'Alexander McQueen (designer)', 'Matthew M. Williams': 'Matthew M. Williams', 'Sarah Burton': 'Sarah Burton (designer)' },
   },
   versace: {
+    shopFallback: true, // товарам без пары в магазине — другая вещь бренда той же группы, с пометкой в источнике
     ssense: 'versace',
     vogue: 'versace',
     fallbackSeasons: ["spring-2027-ready-to-wear", "fall-2026-ready-to-wear", "spring-2026-ready-to-wear", "fall-2025-ready-to-wear", "spring-2025-ready-to-wear", "fall-2024-ready-to-wear", "spring-2024-ready-to-wear", "fall-2023-ready-to-wear", "spring-2023-ready-to-wear"],
   },
   'alexander-mcqueen': {
+    shopFallback: true, // товарам без пары в магазине — другая вещь бренда той же группы, с пометкой в источнике
     ssense: 'alexander-mcqueen',
     vogue: 'alexander-mcqueen',
     fallbackSeasons: ["spring-2027-ready-to-wear", "fall-2026-ready-to-wear", "spring-2026-ready-to-wear", "fall-2025-ready-to-wear", "spring-2025-ready-to-wear", "fall-2024-ready-to-wear", "spring-2024-ready-to-wear", "fall-2023-ready-to-wear", "spring-2023-ready-to-wear"],
