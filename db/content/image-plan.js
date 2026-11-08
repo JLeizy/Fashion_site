@@ -250,3 +250,5 @@ const CATALOG = {
 for (const [slug, sources] of Object.entries(CATALOG)) IMAGE_PLAN[slug].catalog = sources;
 // Вещи, которые на сайте не показываем (принт с перечёркнутой свастикой — коллекция Antihate)
 IMAGE_PLAN.vetements.catalogExclude = 'antihate|anti-hate|swastika';
+// Chanel: у этой пары на снимке марки вещь занимает малую часть кадра на серой подложке — в каталог не берём
+IMAGE_PLAN.chanel.catalogExclude = 'G47191B27342UG590';

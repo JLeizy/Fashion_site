@@ -109,7 +109,9 @@ async function chanelItems(cfg) {
     items.push({
       key: `ch-${ref}`, name, colorText: p.color || desc, desc, type: `${urls.get(u)} ${u}`, gender: /men\b/.test(desc) ? 'men' : 'women',
       priceUsd: Number(p.offers?.price || p.offers?.[0]?.price) || null, page: `https://www.chanel.com${u}`,
-      images: ids.slice(0, 2).map((id) => `https://www.chanel.com/images/as/f_auto,q_auto:good,dpr_1.1/w_1280/${id}.jpg`),
+      // Снимки Chanel — большой белый холст с вещью в центре: берём крупный размер и обрезаем поля (trim)
+      images: ids.slice(0, 2).map((id) => `https://www.chanel.com/images/as/f_auto,q_auto:good,dpr_1.1/w_2400/${id}.jpg`),
+      trim: true,
       detail: desc,
     });
   }
@@ -315,10 +317,35 @@ function shopPhotoItems(slug) {
   return items;
 }
 
-async function saveImage(url, target) {
+async function saveImage(url, target, { trim = false } = {}) {
   const res = await fetch(url, { headers: { 'User-Agent': BROWSER_UA, Accept: 'image/*' } });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const buf = Buffer.from(await res.arrayBuffer());
+  let buf = Buffer.from(await res.arrayBuffer());
+  if (trim) {
+    // Обрезаем однотонные поля и оставляем ~9 % воздуха вокруг вещи
+    // Рамка вещи — по пикселям темнее почти-белого (светло-серые подложки и тени считаются фоном)
+    const { data: px, info: meta } = await sharp(buf).flatten({ background: '#ffffff' }).raw().toBuffer({ resolveWithObject: true });
+    let x0 = meta.width, y0 = meta.height, x1 = -1, y1 = -1;
+    for (let y = 0; y < meta.height; y += 2) {
+      for (let x = 0; x < meta.width; x += 2) {
+        const i = (y * meta.width + x) * meta.channels;
+        if (Math.min(px[i], px[i + 1], px[i + 2]) < 200) {
+          if (x < x0) x0 = x;
+          if (x > x1) x1 = x;
+          if (y < y0) y0 = y;
+          if (y > y1) y1 = y;
+        }
+      }
+    }
+    if (x1 <= x0 || y1 <= y0) throw new Error('пустой кадр');
+    const data = await sharp(buf).flatten({ background: '#ffffff' }).extract({ left: x0, top: y0, width: x1 - x0 + 1, height: y1 - y0 + 1 }).toBuffer();
+    const info = { width: x1 - x0 + 1, height: y1 - y0 + 1 };
+    // Слишком вытянутая рамка — значит, обрезка зацепила подложку, а вещь осталась крошечной: кадр не годится
+    const ratio = info.width / info.height;
+    if (ratio > 3.2 || ratio < 0.42) throw new Error('кадр с подложкой — вещь занимает малую часть снимка');
+    const pad = Math.round(Math.max(info.width, info.height) * 0.09);
+    buf = await sharp(data).extend({ top: pad, bottom: pad, left: pad, right: pad, background: '#ffffff' }).toBuffer();
+  }
   const file = path.join(PUBLIC, target);
   fs.mkdirSync(path.dirname(file), { recursive: true });
   // Фото товара: до 900 px по ширине, белое поле до пропорции 4:5 (как у карточек), ≤ ~110 КБ
@@ -393,15 +420,25 @@ async function buildBrand(slug) {
         for (const [i, url] of p.images.entries()) {
           const target = `${productsDir}/${p.key}-${i + 1}.webp`;
           try {
-            if (!fs.existsSync(path.join(PUBLIC, target))) {
-              await saveImage(url, target);
+            if (!fs.existsSync(path.join(PUBLIC, target)) || args.includes('--refresh-images')) {
+              await saveImage(url, target, { trim: p.trim });
               await sleep(300);
             }
             images.push(target);
           } catch (err) {
-            if (i === 0) throw err; // без основного фото товар не берём; второй ракурс необязателен
+            fs.rmSync(path.join(PUBLIC, target), { force: true });
+            // Неудачный кадр пропускаем: главным станет следующий ракурс; без единого фото товар не берём
           }
         }
+        if (!images.length) throw new Error('нет пригодного фото');
+        // Файлы по порядку: -1 — главное фото, -2 — второй ракурс
+        images.forEach((img, n) => {
+          const want = `${productsDir}/${p.key}-${n + 1}.webp`;
+          if (img !== want) {
+            fs.renameSync(path.join(PUBLIC, img), path.join(PUBLIC, want));
+            images[n] = want;
+          }
+        });
       }
     } catch (err) {
       console.warn(`[catalog] ${p.key}: фото не скачано (${err.message}) — товар пропущен`);
