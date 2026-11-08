@@ -25948,5 +25948,35 @@
     "bytes": 15986,
     "width": 600,
     "height": 900
+  },
+  "/images/brands/louis-vuitton/directors/5.webp": {
+    "kind": "director",
+    "page": "https://commons.wikimedia.org/wiki/File:Kim_Jones_8_31_09.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Kim_Jones_8_31_09.jpg/960px-Kim_Jones_8_31_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "date": "2026-11-08",
+    "note": "Wikimedia Commons: Kim Jones",
+    "bytes": 38426,
+    "width": 600,
+    "height": 674
+  },
+  "/images/brands/louis-vuitton/directors/2.webp": {
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0565d4bf7d239c8ba3ebe/master/w_900,c_limit/00036-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, fall-2026-ready-to-wear, образ 36",
+    "bytes": 34462,
+    "width": 600,
+    "height": 900
+  },
+  "/images/brands/louis-vuitton/directors/3.webp": {
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/louis-vuitton",
+    "url": "https://assets.vogue.com/photos/69b0565d6fcfc32adedf5b63/master/w_900,c_limit/00037-louis-vuitton-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, fall-2026-ready-to-wear, образ 37",
+    "bytes": 33316,
+    "width": 600,
+    "height": 900
   }
 }
