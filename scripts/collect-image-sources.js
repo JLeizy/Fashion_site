@@ -64,7 +64,9 @@ async function vogueLooks(season, gallery = 'collection') {
       let m;
       while ((m = re.exec(html))) {
         const [, id, file, num] = m;
-        if (!file.includes(slug)) continue;
+        // В именах файлов Vogue слаг страницы встречается не всегда (у Margiela страница maison-martin-margiela,
+        // а файлы …-margiela-…), поэтому допускается ключ из плана: plan.vogueFileKey.
+        if (!file.includes(slug) && !(plan.vogueFileKey && file.includes(plan.vogueFileKey))) continue;
         const isDetail = file.includes('-details-');
         if ((gallery === 'details') !== isDetail) continue;
         if (!byNum.has(Number(num))) byNum.set(Number(num), { id, file });

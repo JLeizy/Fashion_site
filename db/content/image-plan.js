@@ -167,8 +167,9 @@ export const IMAGE_PLAN = {
   },
   'maison-margiela': {
     ssense: 'maison-margiela',
-    vogue: ['maison-margiela', 'maison-martin-margiela'],
-    fallbackSeasons: ['spring-2024-couture', 'spring-2024-ready-to-wear', 'fall-2023-ready-to-wear', 'fall-2023-couture', 'spring-2023-couture'],
+    vogue: ['maison-martin-margiela', 'maison-margiela'],
+    vogueFileKey: 'margiela', // страницы Vogue — maison-martin-margiela, имена файлов — …-margiela-…
+    fallbackSeasons: ['spring-2026-ready-to-wear', 'fall-2025-couture', 'spring-2024-ready-to-wear', 'fall-2023-ready-to-wear', 'spring-2024-couture', 'fall-2023-couture', 'spring-2023-couture'],
     directors: { 'Design studio': null },
   },
   givenchy: {
