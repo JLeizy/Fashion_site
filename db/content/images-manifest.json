@@ -25878,5 +25878,15 @@
     "bytes": 29788,
     "width": 600,
     "height": 900
+  },
+  "/images/brands/chanel/directors/4.webp": {
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/chanel",
+    "url": "https://assets.vogue.com/photos/6ac41245ea4e0378f20742d3/master/w_900,c_limit/00079-chanel-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2027-ready-to-wear, образ 79",
+    "bytes": 69146,
+    "width": 600,
+    "height": 900
   }
 }
