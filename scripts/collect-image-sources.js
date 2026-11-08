@@ -416,7 +416,11 @@ async function main() {
       for (const p of products) {
         if (matches.get(p.sku)) continue;
         const wantAcc = ACCESSORY.has(p.category);
-        const pool = items.filter((it) => isAcc(it.slug) === wantAcc);
+        // Сначала вещь той же категории (ремень → ремень), даже если её фото уже стоит у другого товара;
+        // если такой у бренда нет — вещь той же группы (одежда / аксессуары)
+        const words = CATEGORY_WORDS[p.category] || [p.category.replace(/s$/, '')];
+        const sameCat = items.filter((it) => words.some((w) => it.slug.split('-').includes(w) || it.slug.split('-').includes(`${w}s`)));
+        const pool = sameCat.length ? sameCat : items.filter((it) => isAcc(it.slug) === wantAcc);
         const list = pool.length ? pool : items;
         const it = list.find((x) => !usedCodes.has(x.code)) || list[i++ % list.length];
         usedCodes.add(it.code);
