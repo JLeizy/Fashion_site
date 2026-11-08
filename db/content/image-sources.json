@@ -5439,874 +5439,6 @@
     "note": "Vogue Runway, spring-2027-ready-to-wear, образ 78"
   },
   {
-    "target": "/images/brands/gucci/products/GUC-LOF-0001-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/lauren-manoogian/black-square-loafers/19704651",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874M231000_1.jpg",
-    "note": "SSENSE: black-square-loafers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-LOF-0001-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/lauren-manoogian/black-square-loafers/19704651",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874M231000_2.jpg",
-    "note": "SSENSE: black-square-loafers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0007-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/apc/khkai-and-black-jardin-shopper-tote/19417791",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252M170038_1.jpg",
-    "note": "SSENSE: khkai-and-black-jardin-shopper-tote (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0007-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/apc/khkai-and-black-jardin-shopper-tote/19417791",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252M170038_2.jpg",
-    "note": "SSENSE: khkai-and-black-jardin-shopper-tote (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0008-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/apc/khaki-and-navy-jardin-shopper-tote/19417801",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252M170039_1.jpg",
-    "note": "SSENSE: khaki-and-navy-jardin-shopper-tote (ближайшая вещь той же категории); цвет на фото не совпадает с «camel»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0008-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/apc/khaki-and-navy-jardin-shopper-tote/19417801",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252M170039_2.jpg",
-    "note": "SSENSE: khaki-and-navy-jardin-shopper-tote (ближайшая вещь той же категории); цвет на фото не совпадает с «camel»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0013-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/apc/brown-ninon-tote/19417761",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252M172054_1.jpg",
-    "note": "SSENSE: brown-ninon-tote (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0013-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/apc/brown-ninon-tote/19417761",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252M172054_2.jpg",
-    "note": "SSENSE: brown-ninon-tote (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0018-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nike/white-and-beige-baltoro-sneakers/19372901",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236009_1.jpg",
-    "note": "SSENSE: white-and-beige-baltoro-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0018-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nike/white-and-beige-baltoro-sneakers/19372901",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236009_2.jpg",
-    "note": "SSENSE: white-and-beige-baltoro-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0019-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nike/black-air-zoom-flight-the-glove-sneakers/19372341",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236004_1.jpg",
-    "note": "SSENSE: black-air-zoom-flight-the-glove-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0019-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nike/black-air-zoom-flight-the-glove-sneakers/19372341",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M236004_2.jpg",
-    "note": "SSENSE: black-air-zoom-flight-the-glove-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0020-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nike/white-and-gray-air-max-90-sneakers/19375651",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M237135_1.jpg",
-    "note": "SSENSE: white-and-gray-air-max-90-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0020-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nike/white-and-gray-air-max-90-sneakers/19375651",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M237135_2.jpg",
-    "note": "SSENSE: white-and-gray-air-max-90-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0021-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nike/off-white-moon-shoe-og-sneakers/19371921",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M237040_1.jpg",
-    "note": "SSENSE: off-white-moon-shoe-og-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0021-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nike/off-white-moon-shoe-og-sneakers/19371921",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M237040_2.jpg",
-    "note": "SSENSE: off-white-moon-shoe-og-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0022-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nike/brown-air-max-95-big-bubble-og-sneakers/19374781",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M237109_1.jpg",
-    "note": "SSENSE: brown-air-max-95-big-bubble-og-sneakers (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0022-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nike/brown-air-max-95-big-bubble-og-sneakers/19374781",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262011M237109_2.jpg",
-    "note": "SSENSE: brown-air-max-95-big-bubble-og-sneakers (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0023-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/rivington-roi-rebis/off-white-roi-archived-thermal-t-shirt/19648371",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262268M201008_1.jpg",
-    "note": "SSENSE: off-white-roi-archived-thermal-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0023-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/rivington-roi-rebis/off-white-roi-archived-thermal-t-shirt/19648371",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262268M201008_2.jpg",
-    "note": "SSENSE: off-white-roi-archived-thermal-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0024-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/lacoste/navy-archive-edition-regular-fit-pique-polo/19282071",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262268M212016_1.jpg",
-    "note": "SSENSE: navy-archive-edition-regular-fit-pique-polo (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0024-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/lacoste/navy-archive-edition-regular-fit-pique-polo/19282071",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262268M212016_2.jpg",
-    "note": "SSENSE: navy-archive-edition-regular-fit-pique-polo (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0025-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/casablanca/beige-desert-canvas-denim-jacket/835721603",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262195M177004_1.jpg",
-    "note": "SSENSE: beige-desert-canvas-denim-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0025-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/casablanca/beige-desert-canvas-denim-jacket/835721603",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262195M177004_2.jpg",
-    "note": "SSENSE: beige-desert-canvas-denim-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0026-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/mm6-maison-margiela/navy-corduroy-trucker-jacket/19730271",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262188M177003_1.jpg",
-    "note": "SSENSE: navy-corduroy-trucker-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0026-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/mm6-maison-margiela/navy-corduroy-trucker-jacket/19730271",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262188M177003_2.jpg",
-    "note": "SSENSE: navy-corduroy-trucker-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0027-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/fffpostalservice/black-technical-zip-jacket/19612141",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262081M180005_1.jpg",
-    "note": "SSENSE: black-technical-zip-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0027-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/fffpostalservice/black-technical-zip-jacket/19612141",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262081M180005_2.jpg",
-    "note": "SSENSE: black-technical-zip-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0028-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/dunst/navy-and-gray-harrington-wool-blouson-jacket/19641871",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262965F063008_1.jpg",
-    "note": "SSENSE: navy-and-gray-harrington-wool-blouson-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0028-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/dunst/navy-and-gray-harrington-wool-blouson-jacket/19641871",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262965F063008_2.jpg",
-    "note": "SSENSE: navy-and-gray-harrington-wool-blouson-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0029-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/brown-and-black-block-scarf/19693241",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F028010_1.jpg",
-    "note": "SSENSE: brown-and-black-block-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0029-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/lauren-manoogian/brown-and-black-block-scarf/19693241",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262874F028010_2.jpg",
-    "note": "SSENSE: brown-and-black-block-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0030-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/apc/brown-alix-brodee-scarf/19508221",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252F028003_1.jpg",
-    "note": "SSENSE: brown-alix-brodee-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0030-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/apc/brown-alix-brodee-scarf/19508221",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262252F028003_2.jpg",
-    "note": "SSENSE: brown-alix-brodee-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0031-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/lemaire/beige-ballerina-scarf-blouse/19449411",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107010_1.jpg",
-    "note": "SSENSE: beige-ballerina-scarf-blouse (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0031-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/lemaire/beige-ballerina-scarf-blouse/19449411",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107010_2.jpg",
-    "note": "SSENSE: beige-ballerina-scarf-blouse (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SWT-0035-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/tonywack/gray-and-red-wool-cashmere-layered-cardigan/19732071",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251F095009_1.jpg",
-    "note": "SSENSE: gray-and-red-wool-cashmere-layered-cardigan (ближайшая вещь той же категории); цвет на фото не совпадает с «beige»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SWT-0035-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/tonywack/gray-and-red-wool-cashmere-layered-cardigan/19732071",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251F095009_2.jpg",
-    "note": "SSENSE: gray-and-red-wool-cashmere-layered-cardigan (ближайшая вещь той же категории); цвет на фото не совпадает с «beige»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SWT-0036-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/marni/black-inside-out-jacquard-wool-sweater/19692861",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262379F096001_1.jpg",
-    "note": "SSENSE: black-inside-out-jacquard-wool-sweater (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SWT-0036-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/marni/black-inside-out-jacquard-wool-sweater/19692861",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262379F096001_2.jpg",
-    "note": "SSENSE: black-inside-out-jacquard-wool-sweater (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SHR-0037-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/helmut-lang/red-disco-t-shirt/447769712",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271154M213003_1.jpg",
-    "note": "SSENSE: red-disco-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SHR-0037-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/helmut-lang/red-disco-t-shirt/447769712",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271154M213003_2.jpg",
-    "note": "SSENSE: red-disco-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-DRS-0038-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/fruity-booty/white-broderie-midi-dress/16874583",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271151F054000_1.jpg",
-    "note": "SSENSE: white-broderie-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-DRS-0038-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/fruity-booty/white-broderie-midi-dress/16874583",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271151F054000_2.jpg",
-    "note": "SSENSE: white-broderie-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SKT-0039-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/lemaire/black-balloon-midi-skirt/19436661",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F092001_1.jpg",
-    "note": "SSENSE: black-balloon-midi-skirt (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SKT-0039-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/lemaire/black-balloon-midi-skirt/19436661",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F092001_2.jpg",
-    "note": "SSENSE: black-balloon-midi-skirt (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JNS-0040-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/lemaire/blue-maxi-workwear-jeans/19441491",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646M186011_1.jpg",
-    "note": "SSENSE: blue-maxi-workwear-jeans (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JNS-0040-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/lemaire/blue-maxi-workwear-jeans/19441491",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646M186011_2.jpg",
-    "note": "SSENSE: blue-maxi-workwear-jeans (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SUN-0042-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-frame-sunglasses/503097932",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134038_1.jpg",
-    "note": "SSENSE: black-square-frame-sunglasses"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SUN-0042-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-frame-sunglasses/503097932",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134038_2.jpg",
-    "note": "SSENSE: black-square-frame-sunglasses"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-HAT-0043-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nullus-studios/black-cap-toe-ballet-derbys/19538921",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262272M225003_1.jpg",
-    "note": "SSENSE: black-cap-toe-ballet-derbys (ближайшая вещь той же категории); цвет на фото не совпадает с «beige»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-HAT-0043-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/nullus-studios/black-cap-toe-ballet-derbys/19538921",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262272M225003_2.jpg",
-    "note": "SSENSE: black-cap-toe-ballet-derbys (ближайшая вещь той же категории); цвет на фото не совпадает с «beige»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-BOT-0052-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/toga-pulla/black-stretch-pleather-boots/19747001",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262492F115002_1.jpg",
-    "note": "SSENSE: black-stretch-pleather-boots (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-BOT-0052-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/toga-pulla/black-stretch-pleather-boots/19747001",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262492F115002_2.jpg",
-    "note": "SSENSE: black-stretch-pleather-boots (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-HOD-0055-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/matieres-feacales/black-cult-knit-hoodie/19703721",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262412M202002_1.jpg",
-    "note": "SSENSE: black-cult-knit-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-HOD-0055-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/matieres-feacales/black-cult-knit-hoodie/19703721",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262412M202002_2.jpg",
-    "note": "SSENSE: black-cult-knit-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0056-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/marine-serre/gray-faded-moon-jersey-long-sleeves-t-shirt/19540991",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020M213005_1.jpg",
-    "note": "SSENSE: gray-faded-moon-jersey-long-sleeves-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0056-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/marine-serre/gray-faded-moon-jersey-long-sleeves-t-shirt/19540991",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020M213005_2.jpg",
-    "note": "SSENSE: gray-faded-moon-jersey-long-sleeves-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-COT-0057-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/lemaire/gray-printed-military-parka/19441961",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646M176001_1.jpg",
-    "note": "SSENSE: gray-printed-military-parka (ближайшая вещь той же категории); цвет на фото не совпадает с «camel»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-COT-0057-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/lemaire/gray-printed-military-parka/19441961",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646M176001_2.jpg",
-    "note": "SSENSE: gray-printed-military-parka (ближайшая вещь той же категории); цвет на фото не совпадает с «camel»"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TRS-0058-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/marine-serre/black-and-navy-regenerated-graphic-jersey-sweatpants/19540941",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020M190002_1.jpg",
-    "note": "SSENSE: black-and-navy-regenerated-graphic-jersey-sweatpants (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TRS-0058-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/marine-serre/black-and-navy-regenerated-graphic-jersey-sweatpants/19540941",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020M190002_2.jpg",
-    "note": "SSENSE: black-and-navy-regenerated-graphic-jersey-sweatpants (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/gucci/collections/fall-winter-2025.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/67befe820f305c8b6eb54fc0/master/w_900,c_limit/00001-gucci-fall-2025-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/collections/spring-summer-2025.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/66eda92e035186e00b5a32b9/master/w_900,c_limit/00001-gucci-spring-2025-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/collections/fall-winter-2026.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69a6e8d36ae530252d0b9b77/master/w_900,c_limit/00001-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/collections/pre-fall-2026.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/pre-fall-2026/gucci",
-    "url": "https://assets.vogue.com/photos/69305b4adc46c427d039bde2/master/w_900,c_limit/00001-gucci-pre-fall-2026-credit-brand.jpg",
-    "note": "Vogue Runway, pre-fall-2026, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/collections/spring-summer-2026.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/68d0eb474a4ee5f94bd2271a/master/w_900,c_limit/00001-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/hero.webp",
-    "kind": "hero",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/68d0eb474a4ee5f94bd2271a/master/w_1600,c_limit/00001-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/banners/gucci.webp",
-    "kind": "banner",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/68d0eb4788b582cdf7c3aff3/master/w_1600,c_limit/00002-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 2"
-  },
-  {
-    "target": "/images/brands/gucci/directors/1.webp",
-    "kind": "director",
-    "page": "https://en.wikipedia.org/wiki/Guccio_Gucci",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Guccio_Gucci_c.1940.JPG/960px-Guccio_Gucci_c.1940.JPG",
-    "note": "Википедия: Guccio Gucci"
-  },
-  {
-    "target": "/images/brands/gucci/directors/3.webp",
-    "kind": "director",
-    "page": "https://en.wikipedia.org/wiki/Tom_Ford",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Ford_cropped_2009.jpg/960px-Tom_Ford_cropped_2009.jpg",
-    "note": "Википедия: Tom Ford"
-  },
-  {
-    "target": "/images/brands/gucci/directors/8.webp",
-    "kind": "director",
-    "page": "https://en.wikipedia.org/wiki/Demna_(designer)",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg/960px-Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg",
-    "note": "Википедия: Demna (designer)"
-  },
-  {
-    "target": "/images/brands/gucci/history/1.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Guccio_Gucci",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Guccio_Gucci_c.1940.JPG/960px-Guccio_Gucci_c.1940.JPG",
-    "note": "Википедия: Guccio Gucci"
-  },
-  {
-    "target": "/images/brands/gucci/history/2.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Ponte_Vecchio",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ponte_Vecchio_from_Ponte_alle_Grazie.jpg/3840px-Ponte_Vecchio_from_Ponte_alle_Grazie.jpg",
-    "note": "Википедия: Ponte Vecchio"
-  },
-  {
-    "target": "/images/brands/gucci/history/3.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Arno",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/FirenzeDec092023_01.jpg/3840px-FirenzeDec092023_01.jpg",
-    "note": "Википедия: Arno"
-  },
-  {
-    "target": "/images/brands/gucci/history/4.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/650dc95f56d4d6232ee14ec4/master/w_900,c_limit/00001-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/5.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09c6e73ee112f59b41f/master/w_900,c_limit/00001-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/6.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Jackie_Kennedy_Color_Portrait_%283x4_cropped%29.jpg/960px-Jackie_Kennedy_Color_Portrait_%283x4_cropped%29.jpg",
-    "note": "Википедия: Jacqueline Kennedy Onassis"
-  },
-  {
-    "target": "/images/brands/gucci/history/7.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2016-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0dac84f33560347e4b5/master/w_900,c_limit/00001-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2016-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/8.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Aldo_Gucci",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Aldo_Gucci.png/960px-Aldo_Gucci.png",
-    "note": "Википедия: Aldo Gucci"
-  },
-  {
-    "target": "/images/brands/gucci/history/9.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09c2a609d8eb36cf5a7/master/w_900,c_limit/00002-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 2"
-  },
-  {
-    "target": "/images/brands/gucci/history/10.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09c5fbf7dfb82c0712c/master/w_900,c_limit/00003-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 3"
-  },
-  {
-    "target": "/images/brands/gucci/history/11.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Tom_Ford",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Ford_cropped_2009.jpg/960px-Tom_Ford_cropped_2009.jpg",
-    "note": "Википедия: Tom Ford"
-  },
-  {
-    "target": "/images/brands/gucci/history/12.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09e21483a3e0e3ad2fe/master/w_900,c_limit/00004-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 4"
-  },
-  {
-    "target": "/images/brands/gucci/history/13.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09eb2f2cdb566d4b4f0/master/w_900,c_limit/00005-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 5"
-  },
-  {
-    "target": "/images/brands/gucci/history/14.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09e867c872295c7320a/master/w_900,c_limit/00006-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 6"
-  },
-  {
-    "target": "/images/brands/gucci/history/15.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Pinault",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Fran%C3%A7ois_Pinault_Stade_rennais_-_Le_Havre_AC_20150708_44.jpg/960px-Fran%C3%A7ois_Pinault_Stade_rennais_-_Le_Havre_AC_20150708_44.jpg",
-    "note": "Википедия: François Pinault"
-  },
-  {
-    "target": "/images/brands/gucci/history/16.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a03b71f1f036777eb3/master/w_900,c_limit/00007-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 7"
-  },
-  {
-    "target": "/images/brands/gucci/history/17.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a0babdf35ba65f60dc/master/w_900,c_limit/00008-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 8"
-  },
-  {
-    "target": "/images/brands/gucci/history/18.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a01f95c827276f8905/master/w_900,c_limit/00009-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 9"
-  },
-  {
-    "target": "/images/brands/gucci/history/19.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a391820000b8e35266/master/w_900,c_limit/00010-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 10"
-  },
-  {
-    "target": "/images/brands/gucci/history/20.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a26e73ee112f59b426/master/w_900,c_limit/00011-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 11"
-  },
-  {
-    "target": "/images/brands/gucci/history/21.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2017-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69ea3e3f13c90a1412590293/master/w_900,c_limit/00001-gucci-fall-2017-ready-to-wear-credit-indigital-model-alex-kasperowicz.jpg",
-    "note": "Vogue Runway, fall-2017-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/22.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2019-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6888b8f10b105644ee4c9cfe/master/w_900,c_limit/00001-gucci-spring-2019-ready-to-wear-credit-indigital-model-freya-lawrence.jpg",
-    "note": "Vogue Runway, spring-2019-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/23.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Dapper_Dan_(designer)",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Dapper_Dan_Interview_Dec_2019.png/960px-Dapper_Dan_Interview_Dec_2019.png",
-    "note": "Википедия: Dapper Dan (designer)"
-  },
-  {
-    "target": "/images/brands/gucci/history/24.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2019-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/68823c1198be69f20aa783a4/master/w_900,c_limit/00005-gucci-fall-2019-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, fall-2019-ready-to-wear, образ 5"
-  },
-  {
-    "target": "/images/brands/gucci/history/25.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2023-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/632dee9d42296b5636d31015/master/w_900,c_limit/00001-gucci-spring-2023-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2023-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/26.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/650dc960b1e840d912c4b873/master/w_900,c_limit/00002-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 2"
-  },
-  {
-    "target": "/images/brands/gucci/history/27.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2024-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/65d8d717dfdc058ef2e38339/master/w_900,c_limit/00001-gucci-fall-2024-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, fall-2024-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/28.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a3384c0f0c1111c804/master/w_900,c_limit/00012-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 12"
-  },
-  {
-    "target": "/images/brands/gucci/history/29.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a54c6cb78a5595e0f5/master/w_900,c_limit/00013-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 13"
-  },
-  {
-    "target": "/images/brands/gucci/history/30.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/66eda838632c17511b644937/master/w_900,c_limit/00003-gucci-spring-2025-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 3"
-  },
-  {
-    "target": "/images/brands/gucci/history/31.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/67befe8863b2a46f2677d5a1/master/w_900,c_limit/00005-gucci-fall-2025-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 5"
-  },
-  {
-    "target": "/images/brands/gucci/history/32.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/650dc969634464cc7d6e0d1b/master/w_900,c_limit/00010-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 10"
-  },
-  {
-    "target": "/images/brands/gucci/history/33.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Grace_Kelly",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Grace_Kelly_1956_%28cropped%29.jpg/960px-Grace_Kelly_1956_%28cropped%29.jpg",
-    "note": "Википедия: Grace Kelly"
-  },
-  {
-    "target": "/images/brands/gucci/history/34.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2017-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69ef31da517df6c5446e7bf6/master/w_900,c_limit/00001-gucci-spring-2017-ready-to-wear-credit-indigital-model-maria-zakrzewska.jpg",
-    "note": "Vogue Runway, spring-2017-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/35.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2016-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69f086688b90da29e75166bb/master/w_900,c_limit/00001-gucci-fall-2016-ready-to-wear-credit-indigital.jpg",
-    "note": "Vogue Runway, fall-2016-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/36.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/House_of_Gucci",
-    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/House.of.Gucci.film.jpeg/960px-House.of.Gucci.film.jpeg",
-    "note": "Википедия: House of Gucci"
-  },
-  {
-    "target": "/images/brands/gucci/history/37.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Kate_Moss",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Kate_Moss_-_Decort%C3%A9_advertisement_%28cropped2%29.jpg/960px-Kate_Moss_-_Decort%C3%A9_advertisement_%28cropped2%29.jpg",
-    "note": "Википедия: Kate Moss"
-  },
-  {
-    "target": "/images/brands/gucci/history/38.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Primavera_(Botticelli)",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Botticelli-primavera.jpg/3840px-Botticelli-primavera.jpg",
-    "note": "Википедия: Primavera (Botticelli)"
-  },
-  {
-    "target": "/images/brands/gucci/history/39.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2018-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6887675f6099b76b3b00e7c8/master/w_900,c_limit/00001-gucci-fall-2018-ready-to-wear-credit-indigital-model-unia-pakhomova.jpg",
-    "note": "Vogue Runway, fall-2018-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/40.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2020-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/687f70d254d6f2f9785c7f4a/master/w_900,c_limit/00001-gucci-spring-2020-ready-to-wear-credit-gorunway-model-varya-b.jpg",
-    "note": "Vogue Runway, spring-2020-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/41.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69a6e8d842e63b8b62766929/master/w_900,c_limit/00005-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 5"
-  },
-  {
-    "target": "/images/brands/gucci/history/42.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69a6e8df162e29636a2cb982/master/w_900,c_limit/00010-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 10"
-  },
-  {
-    "target": "/images/brands/gucci/history/43.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a5e70928d204bb8b72/master/w_900,c_limit/00014-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 14"
-  },
-  {
-    "target": "/images/brands/gucci/history/44.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a5907dfdfaaebeaa05/master/w_900,c_limit/00015-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 15"
-  },
-  {
-    "target": "/images/brands/gucci/history/45.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a76a03a5525c7c8214/master/w_900,c_limit/00016-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 16"
-  },
-  {
-    "target": "/images/brands/gucci/history/46.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a73b71f1f036777ebd/master/w_900,c_limit/00017-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 17"
-  },
-  {
-    "target": "/images/brands/gucci/history/47.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a73e7d2167222a92a1/master/w_900,c_limit/00018-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 18"
-  },
-  {
-    "target": "/images/brands/gucci/history/48.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0aa21483a3e0e3ad308/master/w_900,c_limit/00019-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 19"
-  },
-  {
-    "target": "/images/brands/gucci/history/49.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0aa05cb49bf2749f9a1/master/w_900,c_limit/00020-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 20"
-  },
-  {
-    "target": "/images/brands/gucci/history/50.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0aa0914bb0197abd74a/master/w_900,c_limit/00021-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 21"
-  },
-  {
-    "target": "/images/brands/gucci/history/51.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0ac0914bb0197abd751/master/w_900,c_limit/00022-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 22"
-  },
-  {
-    "target": "/images/brands/gucci/history/52.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0ac5ac10a45bed20cc1/master/w_900,c_limit/00023-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 23"
-  },
-  {
     "target": "/images/brands/prada/products/PRA-BPK-0001-1.webp",
     "kind": "product",
     "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/prada/slideshow/details",
@@ -14054,5 +13186,852 @@
     "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
     "url": "https://assets.vogue.com/photos/68e00717a2ce3f047d9871f8/master/w_900,c_limit/00049-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
     "note": "Vogue Runway, spring-2026-ready-to-wear, образ 49"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-CRB-0004-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/commission/black-moto-sling-bag/947821376",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262400F048000_1.jpg",
+    "note": "SSENSE: black-moto-sling-bag (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-CRB-0004-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/commission/black-moto-sling-bag/947821376",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262400F048000_2.jpg",
+    "note": "SSENSE: black-moto-sling-bag (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-CRB-0005-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/brown-small-soft-game-bag/19435371",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F048032_1.jpg",
+    "note": "SSENSE: brown-small-soft-game-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-CRB-0005-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/brown-small-soft-game-bag/19435371",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F048032_2.jpg",
+    "note": "SSENSE: brown-small-soft-game-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-CRB-0006-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/commission/brown-moto-sling-bag/292136806",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262400F048002_1.jpg",
+    "note": "SSENSE: brown-moto-sling-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-CRB-0006-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/commission/brown-moto-sling-bag/292136806",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262400F048002_2.jpg",
+    "note": "SSENSE: brown-moto-sling-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TOT-0013-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/brown-quiver-clip-bag/19435541",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F048043_1.jpg",
+    "note": "SSENSE: brown-quiver-clip-bag (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TOT-0013-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/brown-quiver-clip-bag/19435541",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F048043_2.jpg",
+    "note": "SSENSE: brown-quiver-clip-bag (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-CRB-0015-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/commission/burgundy-moto-sling-bag/592885867",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262400F048001_1.jpg",
+    "note": "SSENSE: burgundy-moto-sling-bag (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-CRB-0015-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/commission/burgundy-moto-sling-bag/592885867",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262400F048001_2.jpg",
+    "note": "SSENSE: burgundy-moto-sling-bag (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0023-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/marine-serre/white-moon-logo-bicolor-ribbed-ls-t-shirt/19542761",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020M213009_1.jpg",
+    "note": "SSENSE: white-moon-logo-bicolor-ribbed-ls-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0023-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/marine-serre/white-moon-logo-bicolor-ribbed-ls-t-shirt/19542761",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020M213009_2.jpg",
+    "note": "SSENSE: white-moon-logo-bicolor-ribbed-ls-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0024-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/silas/navy-easy-t-shirt/19550911",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262399M213004_1.jpg",
+    "note": "SSENSE: navy-easy-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0024-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/silas/navy-easy-t-shirt/19550911",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262399M213004_2.jpg",
+    "note": "SSENSE: navy-easy-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0025-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/silas/taupe-racer-jacket/19551001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262399M180002_1.jpg",
+    "note": "SSENSE: taupe-racer-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0025-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/silas/taupe-racer-jacket/19551001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262399M180002_2.jpg",
+    "note": "SSENSE: taupe-racer-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0026-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/levis-blue-tab/navy-type-i-selvedge-denim-trucker-jacket/19659341",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M180003_1.jpg",
+    "note": "SSENSE: navy-type-i-selvedge-denim-trucker-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0026-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/levis-blue-tab/navy-type-i-selvedge-denim-trucker-jacket/19659341",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M180003_2.jpg",
+    "note": "SSENSE: navy-type-i-selvedge-denim-trucker-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0027-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/silas/black-perceval-jacket/19551011",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262399M180003_1.jpg",
+    "note": "SSENSE: black-perceval-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0027-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/silas/black-perceval-jacket/19551011",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262399M180003_2.jpg",
+    "note": "SSENSE: black-perceval-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0028-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/magliano/navy-belted-gerry-jacket/19615041",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262516M180000_1.jpg",
+    "note": "SSENSE: navy-belted-gerry-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0028-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/magliano/navy-belted-gerry-jacket/19615041",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262516M180000_2.jpg",
+    "note": "SSENSE: navy-belted-gerry-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SCF-0029-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/brown-ballerina-scarf-blouse/19437201",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107001_1.jpg",
+    "note": "SSENSE: brown-ballerina-scarf-blouse (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SCF-0029-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/brown-ballerina-scarf-blouse/19437201",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107001_2.jpg",
+    "note": "SSENSE: brown-ballerina-scarf-blouse (ближайшая вещь той же категории); цвет на фото не совпадает с «ivory»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SCF-0030-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/helmut-lang/black-asymmetric-scarf-top/393446189",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271154F111003_1.jpg",
+    "note": "SSENSE: black-asymmetric-scarf-top (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SCF-0030-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/helmut-lang/black-asymmetric-scarf-top/393446189",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271154F111003_2.jpg",
+    "note": "SSENSE: black-asymmetric-scarf-top (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SCF-0031-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-kitsune/taupe-hooded-scarf/19566731",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262389M138000_1.jpg",
+    "note": "SSENSE: taupe-hooded-scarf (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SCF-0031-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-kitsune/taupe-hooded-scarf/19566731",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262389M138000_2.jpg",
+    "note": "SSENSE: taupe-hooded-scarf (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SCF-0032-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/gray-ballerina-scarf-blouse/19437191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107000_1.jpg",
+    "note": "SSENSE: gray-ballerina-scarf-blouse (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SCF-0032-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/gray-ballerina-scarf-blouse/19437191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107000_2.jpg",
+    "note": "SSENSE: gray-ballerina-scarf-blouse (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SWT-0035-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/rrl/off-white-waffle-knit-crewneck-t-shirt/159284568",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262435M213025_1.jpg",
+    "note": "SSENSE: off-white-waffle-knit-crewneck-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SWT-0035-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/rrl/off-white-waffle-knit-crewneck-t-shirt/159284568",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262435M213025_2.jpg",
+    "note": "SSENSE: off-white-waffle-knit-crewneck-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SWT-0036-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-kitsune/navy-fox-head-merino-comfort-sweater/19568191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262389M201013_1.jpg",
+    "note": "SSENSE: navy-fox-head-merino-comfort-sweater (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SWT-0036-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-kitsune/navy-fox-head-merino-comfort-sweater/19568191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262389M201013_2.jpg",
+    "note": "SSENSE: navy-fox-head-merino-comfort-sweater (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SHR-0037-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/helmut-lang/black-silk-voile-shirt/696649233",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271154F109001_1.jpg",
+    "note": "SSENSE: black-silk-voile-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SHR-0037-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/helmut-lang/black-silk-voile-shirt/696649233",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271154F109001_2.jpg",
+    "note": "SSENSE: black-silk-voile-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-DRS-0038-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/beige-printed-paneled-midi-dress/19437631",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F054000_1.jpg",
+    "note": "SSENSE: beige-printed-paneled-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-DRS-0038-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/beige-printed-paneled-midi-dress/19437631",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F054000_2.jpg",
+    "note": "SSENSE: beige-printed-paneled-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SKT-0039-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/proenza-schouler/navy-anais-maxi-skirt/19737931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262288F093002_1.jpg",
+    "note": "SSENSE: navy-anais-maxi-skirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SKT-0039-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/proenza-schouler/navy-anais-maxi-skirt/19737931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262288F093002_2.jpg",
+    "note": "SSENSE: navy-anais-maxi-skirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JNS-0040-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/levis-blue-tab/blue-1980s-501-original-selvedge-jeans/19659791",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M186055_1.jpg",
+    "note": "SSENSE: blue-1980s-501-original-selvedge-jeans (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JNS-0040-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/levis-blue-tab/blue-1980s-501-original-selvedge-jeans/19659791",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M186055_2.jpg",
+    "note": "SSENSE: blue-1980s-501-original-selvedge-jeans (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-BLT-0041-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/the-frankie-shop/black-toni-leather-belt/19746241",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262115F001003_1.jpg",
+    "note": "SSENSE: black-toni-leather-belt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-BLT-0041-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/the-frankie-shop/black-toni-leather-belt/19746241",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262115F001003_2.jpg",
+    "note": "SSENSE: black-toni-leather-belt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SUN-0042-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-frame-sunglasses/503097932",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134038_1.jpg",
+    "note": "SSENSE: black-square-frame-sunglasses"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SUN-0042-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-frame-sunglasses/503097932",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134038_2.jpg",
+    "note": "SSENSE: black-square-frame-sunglasses"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-HAT-0043-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/marine-serre/beige-cat-ears-knit-fluffy-beanie/19456101",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020F014001_1.jpg",
+    "note": "SSENSE: beige-cat-ears-knit-fluffy-beanie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-HAT-0043-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/marine-serre/beige-cat-ears-knit-fluffy-beanie/19456101",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020F014001_2.jpg",
+    "note": "SSENSE: beige-cat-ears-knit-fluffy-beanie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SND-0053-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/amina-muaddi/brown-felicia-100-heeled-sandals/19774701",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262415F125040_1.jpg",
+    "note": "SSENSE: brown-felicia-100-heeled-sandals (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SND-0053-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/amina-muaddi/brown-felicia-100-heeled-sandals/19774701",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262415F125040_2.jpg",
+    "note": "SSENSE: brown-felicia-100-heeled-sandals (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-HOD-0055-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/silas/black-sketch-sweatshirt/19550931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262399M204000_1.jpg",
+    "note": "SSENSE: black-sketch-sweatshirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-HOD-0055-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/silas/black-sketch-sweatshirt/19550931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262399M204000_2.jpg",
+    "note": "SSENSE: black-sketch-sweatshirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0056-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/marine-serre/black-and-white-layered-jersey-short-sleeves-t-shirt/19543091",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020M213021_1.jpg",
+    "note": "SSENSE: black-and-white-layered-jersey-short-sleeves-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0056-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/marine-serre/black-and-white-layered-jersey-short-sleeves-t-shirt/19543091",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262020M213021_2.jpg",
+    "note": "SSENSE: black-and-white-layered-jersey-short-sleeves-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-COT-0057-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/tonywack/black-wool-and-cashmere-tailored-coat/19654461",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251M176004_1.jpg",
+    "note": "SSENSE: black-wool-and-cashmere-tailored-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «camel»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-COT-0057-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/tonywack/black-wool-and-cashmere-tailored-coat/19654461",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262251M176004_2.jpg",
+    "note": "SSENSE: black-wool-and-cashmere-tailored-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «camel»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TRS-0058-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/levis-blue-tab/blue-denim-cargo-pants/19659871",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M188000_1.jpg",
+    "note": "SSENSE: blue-denim-cargo-pants (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TRS-0058-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/levis-blue-tab/blue-denim-cargo-pants/19659871",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262468M188000_2.jpg",
+    "note": "SSENSE: blue-denim-cargo-pants (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-HEL-0060-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/amina-muaddi/black-carolyn-pump-100-heels/19774181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262415F122007_1.jpg",
+    "note": "SSENSE: black-carolyn-pump-100-heels (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-HEL-0060-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/amina-muaddi/black-carolyn-pump-100-heels/19774181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262415F122007_2.jpg",
+    "note": "SSENSE: black-carolyn-pump-100-heels (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/gucci/collections/fall-winter-2025.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/67befe820f305c8b6eb54fc0/master/w_900,c_limit/00001-gucci-fall-2025-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/collections/spring-summer-2025.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/66eda92e035186e00b5a32b9/master/w_900,c_limit/00001-gucci-spring-2025-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/collections/fall-winter-2026.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8d36ae530252d0b9b77/master/w_900,c_limit/00001-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/collections/pre-fall-2026.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/pre-fall-2026/gucci",
+    "url": "https://assets.vogue.com/photos/69305b4adc46c427d039bde2/master/w_900,c_limit/00001-gucci-pre-fall-2026-credit-brand.jpg",
+    "note": "Vogue Runway, pre-fall-2026, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/collections/spring-summer-2026.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/68d0eb474a4ee5f94bd2271a/master/w_900,c_limit/00001-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/hero.webp",
+    "kind": "hero",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/68d0eb474a4ee5f94bd2271a/master/w_1600,c_limit/00001-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/banners/gucci.webp",
+    "kind": "banner",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/68d0eb4788b582cdf7c3aff3/master/w_1600,c_limit/00002-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 2"
+  },
+  {
+    "target": "/images/brands/gucci/directors/3.webp",
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Tom_Ford",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Ford_cropped_2009.jpg/960px-Tom_Ford_cropped_2009.jpg",
+    "note": "Википедия: Tom Ford"
+  },
+  {
+    "target": "/images/brands/gucci/directors/8.webp",
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Demna_(designer)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg/960px-Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg",
+    "note": "Википедия: Demna (designer)"
+  },
+  {
+    "target": "/images/brands/gucci/history/1.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Guccio_Gucci",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Guccio_Gucci_c.1940.JPG/960px-Guccio_Gucci_c.1940.JPG",
+    "note": "Википедия: Guccio Gucci"
+  },
+  {
+    "target": "/images/brands/gucci/history/2.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Ponte_Vecchio",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ponte_Vecchio_from_Ponte_alle_Grazie.jpg/3840px-Ponte_Vecchio_from_Ponte_alle_Grazie.jpg",
+    "note": "Википедия: Ponte Vecchio"
+  },
+  {
+    "target": "/images/brands/gucci/history/3.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Arno",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/FirenzeDec092023_01.jpg/3840px-FirenzeDec092023_01.jpg",
+    "note": "Википедия: Arno"
+  },
+  {
+    "target": "/images/brands/gucci/history/4.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/650dc95f56d4d6232ee14ec4/master/w_900,c_limit/00001-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/5.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Via_Condotti",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Dolce_%26_Gabbana%2C_Via_dei_Condotti_%2846129645824%29.jpg/960px-Dolce_%26_Gabbana%2C_Via_dei_Condotti_%2846129645824%29.jpg",
+    "note": "Википедия: Via dei Condotti"
+  },
+  {
+    "target": "/images/brands/gucci/history/6.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Jackie_Kennedy_Color_Portrait_%283x4_cropped%29.jpg/960px-Jackie_Kennedy_Color_Portrait_%283x4_cropped%29.jpg",
+    "note": "Википедия: Jacqueline Kennedy Onassis"
+  },
+  {
+    "target": "/images/brands/gucci/history/7.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2016-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0dac84f33560347e4b5/master/w_900,c_limit/00001-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2016-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/8.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Aldo_Gucci",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Aldo_Gucci.png/960px-Aldo_Gucci.png",
+    "note": "Википедия: Aldo Gucci"
+  },
+  {
+    "target": "/images/brands/gucci/history/9.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Maurizio_Gucci",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Maurizio_Gucci_matrimonio.jpg/960px-Maurizio_Gucci_matrimonio.jpg",
+    "note": "Википедия: Maurizio Gucci"
+  },
+  {
+    "target": "/images/brands/gucci/history/10.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09c6e73ee112f59b41f/master/w_900,c_limit/00001-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/11.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Tom_Ford",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Ford_cropped_2009.jpg/960px-Tom_Ford_cropped_2009.jpg",
+    "note": "Википедия: Tom Ford"
+  },
+  {
+    "target": "/images/brands/gucci/history/12.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09c2a609d8eb36cf5a7/master/w_900,c_limit/00002-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 2"
+  },
+  {
+    "target": "/images/brands/gucci/history/13.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09c5fbf7dfb82c0712c/master/w_900,c_limit/00003-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 3"
+  },
+  {
+    "target": "/images/brands/gucci/history/14.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Patrizia_Reggiani",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Patrizia_Reggiani_matrimonio.jpg/960px-Patrizia_Reggiani_matrimonio.jpg",
+    "note": "Википедия: Patrizia Reggiani"
+  },
+  {
+    "target": "/images/brands/gucci/history/15.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Pinault",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Fran%C3%A7ois_Pinault_Stade_rennais_-_Le_Havre_AC_20150708_44.jpg/960px-Fran%C3%A7ois_Pinault_Stade_rennais_-_Le_Havre_AC_20150708_44.jpg",
+    "note": "Википедия: François Pinault"
+  },
+  {
+    "target": "/images/brands/gucci/history/16.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09e21483a3e0e3ad2fe/master/w_900,c_limit/00004-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 4"
+  },
+  {
+    "target": "/images/brands/gucci/history/17.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09eb2f2cdb566d4b4f0/master/w_900,c_limit/00005-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 5"
+  },
+  {
+    "target": "/images/brands/gucci/history/18.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09e867c872295c7320a/master/w_900,c_limit/00006-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 6"
+  },
+  {
+    "target": "/images/brands/gucci/history/19.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a03b71f1f036777eb3/master/w_900,c_limit/00007-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 7"
+  },
+  {
+    "target": "/images/brands/gucci/history/20.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a0babdf35ba65f60dc/master/w_900,c_limit/00008-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 8"
+  },
+  {
+    "target": "/images/brands/gucci/history/21.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2017-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69ea3e3f13c90a1412590293/master/w_900,c_limit/00001-gucci-fall-2017-ready-to-wear-credit-indigital-model-alex-kasperowicz.jpg",
+    "note": "Vogue Runway, fall-2017-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/22.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2019-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6888b8f10b105644ee4c9cfe/master/w_900,c_limit/00001-gucci-spring-2019-ready-to-wear-credit-indigital-model-freya-lawrence.jpg",
+    "note": "Vogue Runway, spring-2019-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/23.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Dapper_Dan_(designer)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Dapper_Dan_Interview_Dec_2019.png/960px-Dapper_Dan_Interview_Dec_2019.png",
+    "note": "Википедия: Dapper Dan (designer)"
+  },
+  {
+    "target": "/images/brands/gucci/history/24.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2019-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/68823c1198be69f20aa783a4/master/w_900,c_limit/00005-gucci-fall-2019-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2019-ready-to-wear, образ 5"
+  },
+  {
+    "target": "/images/brands/gucci/history/25.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2023-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/632dee9d42296b5636d31015/master/w_900,c_limit/00001-gucci-spring-2023-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2023-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/26.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/650dc960b1e840d912c4b873/master/w_900,c_limit/00002-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 2"
+  },
+  {
+    "target": "/images/brands/gucci/history/27.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2024-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/65d8d717dfdc058ef2e38339/master/w_900,c_limit/00001-gucci-fall-2024-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2024-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/28.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a01f95c827276f8905/master/w_900,c_limit/00009-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 9"
+  },
+  {
+    "target": "/images/brands/gucci/history/29.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a391820000b8e35266/master/w_900,c_limit/00010-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 10"
+  },
+  {
+    "target": "/images/brands/gucci/history/30.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/66eda838632c17511b644937/master/w_900,c_limit/00003-gucci-spring-2025-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 3"
+  },
+  {
+    "target": "/images/brands/gucci/history/31.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/67befe8863b2a46f2677d5a1/master/w_900,c_limit/00005-gucci-fall-2025-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 5"
+  },
+  {
+    "target": "/images/brands/gucci/history/32.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/650dc969634464cc7d6e0d1b/master/w_900,c_limit/00010-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 10"
+  },
+  {
+    "target": "/images/brands/gucci/history/33.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Grace_Kelly",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Grace_Kelly_1956_%28cropped%29.jpg/960px-Grace_Kelly_1956_%28cropped%29.jpg",
+    "note": "Википедия: Grace Kelly"
+  },
+  {
+    "target": "/images/brands/gucci/history/34.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2017-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69ef31da517df6c5446e7bf6/master/w_900,c_limit/00001-gucci-spring-2017-ready-to-wear-credit-indigital-model-maria-zakrzewska.jpg",
+    "note": "Vogue Runway, spring-2017-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/35.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2016-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69f086688b90da29e75166bb/master/w_900,c_limit/00001-gucci-fall-2016-ready-to-wear-credit-indigital.jpg",
+    "note": "Vogue Runway, fall-2016-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/36.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/House_of_Gucci",
+    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/House.of.Gucci.film.jpeg/960px-House.of.Gucci.film.jpeg",
+    "note": "Википедия: House of Gucci"
+  },
+  {
+    "target": "/images/brands/gucci/history/37.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Kate_Moss",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Kate_Moss_-_Decort%C3%A9_advertisement_%28cropped2%29.jpg/960px-Kate_Moss_-_Decort%C3%A9_advertisement_%28cropped2%29.jpg",
+    "note": "Википедия: Kate Moss"
+  },
+  {
+    "target": "/images/brands/gucci/history/38.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Primavera_(Botticelli)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Botticelli-primavera.jpg/3840px-Botticelli-primavera.jpg",
+    "note": "Википедия: Primavera (Botticelli)"
+  },
+  {
+    "target": "/images/brands/gucci/history/39.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2018-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6887675f6099b76b3b00e7c8/master/w_900,c_limit/00001-gucci-fall-2018-ready-to-wear-credit-indigital-model-unia-pakhomova.jpg",
+    "note": "Vogue Runway, fall-2018-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/40.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2020-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/687f70d254d6f2f9785c7f4a/master/w_900,c_limit/00001-gucci-spring-2020-ready-to-wear-credit-gorunway-model-varya-b.jpg",
+    "note": "Vogue Runway, spring-2020-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/41.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8d842e63b8b62766929/master/w_900,c_limit/00005-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 5"
+  },
+  {
+    "target": "/images/brands/gucci/history/42.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8df162e29636a2cb982/master/w_900,c_limit/00010-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 10"
+  },
+  {
+    "target": "/images/brands/gucci/history/43.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a26e73ee112f59b426/master/w_900,c_limit/00011-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 11"
+  },
+  {
+    "target": "/images/brands/gucci/history/44.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a3384c0f0c1111c804/master/w_900,c_limit/00012-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 12"
+  },
+  {
+    "target": "/images/brands/gucci/history/45.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a54c6cb78a5595e0f5/master/w_900,c_limit/00013-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 13"
+  },
+  {
+    "target": "/images/brands/gucci/history/46.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a5e70928d204bb8b72/master/w_900,c_limit/00014-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 14"
+  },
+  {
+    "target": "/images/brands/gucci/history/47.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a5907dfdfaaebeaa05/master/w_900,c_limit/00015-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 15"
+  },
+  {
+    "target": "/images/brands/gucci/history/48.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a76a03a5525c7c8214/master/w_900,c_limit/00016-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 16"
+  },
+  {
+    "target": "/images/brands/gucci/history/49.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a73b71f1f036777ebd/master/w_900,c_limit/00017-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 17"
+  },
+  {
+    "target": "/images/brands/gucci/history/50.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a73e7d2167222a92a1/master/w_900,c_limit/00018-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 18"
+  },
+  {
+    "target": "/images/brands/gucci/history/51.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0aa21483a3e0e3ad308/master/w_900,c_limit/00019-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 19"
+  },
+  {
+    "target": "/images/brands/gucci/history/52.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0aa05cb49bf2749f9a1/master/w_900,c_limit/00020-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 20"
   }
 ]

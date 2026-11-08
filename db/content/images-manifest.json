@@ -20228,5 +20228,105 @@
     "bytes": 39096,
     "width": 900,
     "height": 1350
+  },
+  "/images/brands/gucci/products/GUC-CRB-0015-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/commission/burgundy-moto-sling-bag/592885867",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262400F048001_1.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: burgundy-moto-sling-bag (ближайшая вещь той же категории)",
+    "bytes": 20780,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-CRB-0015-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/commission/burgundy-moto-sling-bag/592885867",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262400F048001_2.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: burgundy-moto-sling-bag (ближайшая вещь той же категории)",
+    "bytes": 20794,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-SCF-0032-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/gray-ballerina-scarf-blouse/19437191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107000_1.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: gray-ballerina-scarf-blouse (ближайшая вещь той же категории)",
+    "bytes": 31014,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-SCF-0032-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/lemaire/gray-ballerina-scarf-blouse/19437191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262646F107000_2.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: gray-ballerina-scarf-blouse (ближайшая вещь той же категории)",
+    "bytes": 27000,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-BLT-0041-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/the-frankie-shop/black-toni-leather-belt/19746241",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262115F001003_1.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: black-toni-leather-belt (ближайшая вещь той же категории)",
+    "bytes": 24258,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-HEL-0060-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/amina-muaddi/black-carolyn-pump-100-heels/19774181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262415F122007_1.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: black-carolyn-pump-100-heels (ближайшая вещь той же категории)",
+    "bytes": 12410,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/products/GUC-HEL-0060-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/amina-muaddi/black-carolyn-pump-100-heels/19774181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262415F122007_2.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: black-carolyn-pump-100-heels (ближайшая вещь той же категории)",
+    "bytes": 31310,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/gucci/history/11.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Tom_Ford",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Ford_cropped_2009.jpg/960px-Tom_Ford_cropped_2009.jpg",
+    "date": "2026-11-08",
+    "note": "Википедия: Tom Ford",
+    "bytes": 52288,
+    "width": 900,
+    "height": 1178
+  },
+  "/images/brands/gucci/history/23.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Dapper_Dan_(designer)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Dapper_Dan_Interview_Dec_2019.png/960px-Dapper_Dan_Interview_Dec_2019.png",
+    "date": "2026-11-08",
+    "note": "Википедия: Dapper Dan (designer)",
+    "bytes": 31424,
+    "width": 900,
+    "height": 1148
+  },
+  "/images/brands/gucci/history/36.webp": {
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/House_of_Gucci",
+    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/House.of.Gucci.film.jpeg/960px-House.of.Gucci.film.jpeg",
+    "date": "2026-11-08",
+    "note": "Википедия: House of Gucci",
+    "bytes": 108218,
+    "width": 900,
+    "height": 1334
   }
 }
