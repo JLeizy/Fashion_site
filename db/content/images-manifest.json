@@ -19818,5 +19818,415 @@
     "bytes": 37276,
     "width": 900,
     "height": 1350
+  },
+  "/images/brands/vetements/products/VTM-SCF-0032-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/helmut-lang/black-asymmetric-scarf-top/393446189",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271154F111003_1.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: black-asymmetric-scarf-top (ближайшая вещь той же категории)",
+    "bytes": 22458,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SCF-0032-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/helmut-lang/black-asymmetric-scarf-top/393446189",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/271154F111003_2.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: black-asymmetric-scarf-top (ближайшая вещь той же категории)",
+    "bytes": 19956,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SCF-0033-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-kitsune/taupe-hooded-scarf/19566731",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262389M138000_1.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: taupe-hooded-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 85082,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-SCF-0033-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-kitsune/taupe-hooded-scarf/19566731",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262389M138000_2.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: taupe-hooded-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «red»",
+    "bytes": 86518,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/products/VTM-BLT-0044-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/the-frankie-shop/black-toni-leather-belt/19746241",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262115F001003_1.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: black-toni-leather-belt (ближайшая вещь той же категории)",
+    "bytes": 24258,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/vetements/history/17.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f7062dd0a247507aa3/master/w_900,c_limit/00014-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 14",
+    "bytes": 38914,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/18.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f7af6d1ceb0a1e8430/master/w_900,c_limit/00015-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 15",
+    "bytes": 42126,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/19.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f8a3479dc87749e690/master/w_900,c_limit/00016-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 16",
+    "bytes": 38672,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/20.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f927ee769ad960309d/master/w_900,c_limit/00017-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 17",
+    "bytes": 64258,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/21.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f9edaea224be38b914/master/w_900,c_limit/00018-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 18",
+    "bytes": 32140,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/22.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006fbff2349caa6a11f8a/master/w_900,c_limit/00019-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 19",
+    "bytes": 50914,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/23.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006fcb66dc917107309f0/master/w_900,c_limit/00020-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 20",
+    "bytes": 47120,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/24.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006fc6c4da41d21e1658f/master/w_900,c_limit/00021-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 21",
+    "bytes": 40212,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/25.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006fdedaea224be38b916/master/w_900,c_limit/00022-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 22",
+    "bytes": 58332,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/26.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006fe29243e677a9b1c21/master/w_900,c_limit/00023-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 23",
+    "bytes": 51944,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/27.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ff4c1e836ef07081b6/master/w_900,c_limit/00024-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 24",
+    "bytes": 72308,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/28.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070074a2dfcb4308a569/master/w_900,c_limit/00025-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 25",
+    "bytes": 58706,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/29.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00701af6d1ceb0a1e8433/master/w_900,c_limit/00026-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 26",
+    "bytes": 77060,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/30.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00702ff2349caa6a11f8d/master/w_900,c_limit/00027-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 27",
+    "bytes": 80940,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/31.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00702b66dc917107309f2/master/w_900,c_limit/00028-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 28",
+    "bytes": 78814,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/32.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00704694730553cda3232/master/w_900,c_limit/00029-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 29",
+    "bytes": 66850,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/33.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070529243e677a9b1c23/master/w_900,c_limit/00030-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 30",
+    "bytes": 56362,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/34.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00704664beaa50ba0676c/master/w_900,c_limit/00031-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 31",
+    "bytes": 39592,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/35.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00708b66dc917107309f4/master/w_900,c_limit/00032-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 32",
+    "bytes": 38652,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/36.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e007074c1e836ef07081b8/master/w_900,c_limit/00033-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 33",
+    "bytes": 54762,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/37.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00707b750f04e80fe7068/master/w_900,c_limit/00034-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 34",
+    "bytes": 38808,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/38.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00709ff2349caa6a11f8f/master/w_900,c_limit/00035-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 35",
+    "bytes": 69292,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/39.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070adf95c6a1e4962160/master/w_900,c_limit/00036-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 36",
+    "bytes": 113434,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/40.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070b29243e677a9b1c25/master/w_900,c_limit/00037-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 37",
+    "bytes": 56288,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/41.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070ceee6c85df18be4ed/master/w_900,c_limit/00038-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 38",
+    "bytes": 41392,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/42.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070d062dd0a247507aa5/master/w_900,c_limit/00039-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 39",
+    "bytes": 63086,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/43.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070eb750f04e80fe706a/master/w_900,c_limit/00040-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 40",
+    "bytes": 56166,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/44.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070f06d8f8fec1879da4/master/w_900,c_limit/00041-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 41",
+    "bytes": 42970,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/45.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070f0f112dd4f77f7874/master/w_900,c_limit/00042-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 42",
+    "bytes": 38984,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/46.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00710b66dc917107309f7/master/w_900,c_limit/00043-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 43",
+    "bytes": 38878,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/47.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e007124c1e836ef07081ba/master/w_900,c_limit/00044-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 44",
+    "bytes": 42306,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/48.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00712694730553cda3236/master/w_900,c_limit/00045-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 45",
+    "bytes": 35644,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/49.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e007147b27e756ae6dcc1e/master/w_900,c_limit/00046-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 46",
+    "bytes": 24314,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/50.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0071429243e677a9b1c28/master/w_900,c_limit/00047-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 47",
+    "bytes": 28562,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/51.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00715a2ce3f047d9871f6/master/w_900,c_limit/00048-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 48",
+    "bytes": 42502,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/vetements/history/52.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00717a2ce3f047d9871f8/master/w_900,c_limit/00049-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 49",
+    "bytes": 39096,
+    "width": 900,
+    "height": 1350
   }
 }
