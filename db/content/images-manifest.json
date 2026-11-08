@@ -25978,5 +25978,25 @@
     "bytes": 33316,
     "width": 600,
     "height": 900
+  },
+  "/images/brands/prada/directors/1.webp": {
+    "kind": "director",
+    "page": "https://commons.wikimedia.org/wiki/File:Street_sign_Via_Mario_Prada_(Faggeto_Lario).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Street_sign_Via_Mario_Prada_%28Faggeto_Lario%29.jpg/960px-Street_sign_Via_Mario_Prada_%28Faggeto_Lario%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "date": "2026-11-08",
+    "note": "Wikimedia Commons: Mario Prada",
+    "bytes": 51434,
+    "width": 600,
+    "height": 326
+  },
+  "/images/brands/prada/directors/2.webp": {
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/prada",
+    "url": "https://assets.vogue.com/photos/69a07708f287e3479ed9e937/master/w_900,c_limit/00037-prada-fall-2026-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, fall-2026-ready-to-wear, образ 37",
+    "bytes": 28988,
+    "width": 600,
+    "height": 900
   }
 }
