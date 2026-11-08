@@ -207,15 +207,13 @@
     "SUP-WAL-0058"
   ],
   "versace": [
+    "VER-BPK-0022",
     "VER-BLT-0040",
     "VER-BLT-0041",
-    "VER-BPK-0022",
-    "VER-GLV-0056",
     "VER-HAT-0044",
     "VER-PFM-0053",
-    "VER-PFM-0055",
     "VER-PFW-0054",
-    "VER-SUI-0031",
-    "VER-SUI-0032"
+    "VER-PFM-0055",
+    "VER-GLV-0056"
   ]
 }
