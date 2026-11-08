@@ -25918,5 +25918,35 @@
     "bytes": 39294,
     "width": 600,
     "height": 900
+  },
+  "/images/brands/loro-piana/directors/1.webp": {
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-menswear/loro-piana",
+    "url": "https://assets.vogue.com/photos/66ed52bd31663c133d70e9bb/master/w_900,c_limit/00002-loro-piana-spring-2025-menswear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2025-menswear, образ 2",
+    "bytes": 22508,
+    "width": 600,
+    "height": 900
+  },
+  "/images/brands/loro-piana/directors/2.webp": {
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-menswear/loro-piana",
+    "url": "https://assets.vogue.com/photos/66ed52cad9f83a9a66b1d9f9/master/w_900,c_limit/00003-loro-piana-spring-2025-menswear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2025-menswear, образ 3",
+    "bytes": 23474,
+    "width": 600,
+    "height": 900
+  },
+  "/images/brands/loro-piana/directors/3.webp": {
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-menswear/loro-piana",
+    "url": "https://assets.vogue.com/photos/66ed52c5074c6f48c6566c50/master/w_900,c_limit/00004-loro-piana-spring-2025-menswear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2025-menswear, образ 4",
+    "bytes": 15986,
+    "width": 600,
+    "height": 900
   }
 }
