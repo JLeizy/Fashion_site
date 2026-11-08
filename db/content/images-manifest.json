@@ -22048,5 +22048,25 @@
     "bytes": 17720,
     "width": 600,
     "height": 736
+  },
+  "/images/brands/balenciaga/products/BAL-PFU-0060-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/silver-everyday-bb-sunglasses/16572816",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M134005_1.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: silver-everyday-bb-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 7910,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/balenciaga/products/BAL-PFU-0060-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/silver-everyday-bb-sunglasses/16572816",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M134005_2.jpg",
+    "date": "2026-11-08",
+    "note": "www.ssense.com: silver-everyday-bb-sunglasses (вещь бренда из официального магазина, не эта модель)",
+    "bytes": 9120,
+    "width": 900,
+    "height": 1125
   }
 }
