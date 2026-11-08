@@ -1,1272 +1,5 @@
 [
   {
-    "target": "/images/brands/vetements/products/VTM-TSH-0001-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-longsleeve-t-shirt/19661041",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213021_1.jpg",
-    "note": "SSENSE: black-biker-cross-logo-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0001-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-longsleeve-t-shirt/19661041",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213021_2.jpg",
-    "note": "SSENSE: black-biker-cross-logo-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0002-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-antihate-oversized-hoodie/19661001",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202011_1.jpg",
-    "note": "SSENSE: blue-antihate-oversized-hoodie (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0002-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-antihate-oversized-hoodie/19661001",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202011_2.jpg",
-    "note": "SSENSE: blue-antihate-oversized-hoodie (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0003-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-l-esbian-oversized-sweatshirt/19661511",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M204001_1.jpg",
-    "note": "SSENSE: navy-l-esbian-oversized-sweatshirt (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0003-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-l-esbian-oversized-sweatshirt/19661511",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M204001_2.jpg",
-    "note": "SSENSE: navy-l-esbian-oversized-sweatshirt (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0004-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-oversized-hoodie/19661181",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202015_1.jpg",
-    "note": "SSENSE: black-biker-cross-logo-oversized-hoodie"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0004-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-oversized-hoodie/19661181",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202015_2.jpg",
-    "note": "SSENSE: black-biker-cross-logo-oversized-hoodie"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0005-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/white-scribbled-logo-zip-up-hoodie/19661941",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202032_1.jpg",
-    "note": "SSENSE: white-scribbled-logo-zip-up-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0005-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/white-scribbled-logo-zip-up-hoodie/19661941",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202032_2.jpg",
-    "note": "SSENSE: white-scribbled-logo-zip-up-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0006-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/red-oversized-lifeguard-hoodie/19660691",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202001_1.jpg",
-    "note": "SSENSE: red-oversized-lifeguard-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0006-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/red-oversized-lifeguard-hoodie/19660691",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202001_2.jpg",
-    "note": "SSENSE: red-oversized-lifeguard-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-COT-0007-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-round-shoulder-open-back-trench-coat/19673671",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F067000_1.jpg",
-    "note": "SSENSE: beige-round-shoulder-open-back-trench-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-COT-0007-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-round-shoulder-open-back-trench-coat/19673671",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F067000_2.jpg",
-    "note": "SSENSE: beige-round-shoulder-open-back-trench-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-COT-0008-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-open-back-trench-midi-skirt/19673791",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F092002_1.jpg",
-    "note": "SSENSE: beige-open-back-trench-midi-skirt (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-COT-0008-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-open-back-trench-midi-skirt/19673791",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F092002_2.jpg",
-    "note": "SSENSE: beige-open-back-trench-midi-skirt (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JNS-0009-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-o-leg-jeans/19662371",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186004_1.jpg",
-    "note": "SSENSE: blue-graffiti-o-leg-jeans (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JNS-0009-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-o-leg-jeans/19662371",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186004_2.jpg",
-    "note": "SSENSE: blue-graffiti-o-leg-jeans (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JNS-0010-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-ripped-o-leg-jeans/19662361",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186003_1.jpg",
-    "note": "SSENSE: blue-ripped-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «lightblue»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JNS-0010-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-ripped-o-leg-jeans/19662361",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186003_2.jpg",
-    "note": "SSENSE: blue-ripped-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «lightblue»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-BOT-0011-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-new-rock-edition-platform-tower-boots/19009431",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M228001_1.jpg",
-    "note": "SSENSE: black-new-rock-edition-platform-tower-boots (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-BOT-0011-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-new-rock-edition-platform-tower-boots/19009431",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M228001_2.jpg",
-    "note": "SSENSE: black-new-rock-edition-platform-tower-boots (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-BOT-0012-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/black-new-rock-edition-platform-tower-boots/19043221",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F114001_1.jpg",
-    "note": "SSENSE: black-new-rock-edition-platform-tower-boots (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-BOT-0012-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/black-new-rock-edition-platform-tower-boots/19043221",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F114001_2.jpg",
-    "note": "SSENSE: black-new-rock-edition-platform-tower-boots (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0013-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cut-up-track-jacket/19662121",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202037_1.jpg",
-    "note": "SSENSE: black-cut-up-track-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0013-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cut-up-track-jacket/19662121",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202037_2.jpg",
-    "note": "SSENSE: black-cut-up-track-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0014-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-cut-up-tailored-blazer/19662681",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M195000_1.jpg",
-    "note": "SSENSE: gray-cut-up-tailored-blazer (ближайшая вещь той же категории); цвет на фото не совпадает с «khaki»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0014-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-cut-up-tailored-blazer/19662681",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M195000_2.jpg",
-    "note": "SSENSE: gray-cut-up-tailored-blazer (ближайшая вещь той же категории); цвет на фото не совпадает с «khaki»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0015-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-boxy-moto-leather-jacket/19662801",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181002_1.jpg",
-    "note": "SSENSE: black-boxy-moto-leather-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0015-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-boxy-moto-leather-jacket/19662801",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181002_2.jpg",
-    "note": "SSENSE: black-boxy-moto-leather-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0016-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-fringed-boxy-moto-leather-jacket/19662771",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181000_1.jpg",
-    "note": "SSENSE: black-fringed-boxy-moto-leather-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «brown»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0016-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-fringed-boxy-moto-leather-jacket/19662771",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181000_2.jpg",
-    "note": "SSENSE: black-fringed-boxy-moto-leather-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «brown»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TRS-0017-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-tape-track-pants/19662171",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190010_1.jpg",
-    "note": "SSENSE: black-tape-track-pants (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TRS-0017-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-tape-track-pants/19662171",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190010_2.jpg",
-    "note": "SSENSE: black-tape-track-pants (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TRS-0018-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-tape-track-pants/19662191",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190011_1.jpg",
-    "note": "SSENSE: navy-tape-track-pants (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TRS-0018-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-tape-track-pants/19662191",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190011_2.jpg",
-    "note": "SSENSE: navy-tape-track-pants (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TRS-0019-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-graffiti-sweatpants/19661851",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190009_1.jpg",
-    "note": "SSENSE: gray-graffiti-sweatpants (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TRS-0019-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-graffiti-sweatpants/19661851",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190009_2.jpg",
-    "note": "SSENSE: gray-graffiti-sweatpants (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TRS-0020-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-graffiti-sweatpants/19661811",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190008_1.jpg",
-    "note": "SSENSE: black-graffiti-sweatpants (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TRS-0020-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-graffiti-sweatpants/19661811",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190008_2.jpg",
-    "note": "SSENSE: black-graffiti-sweatpants (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0021-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cut-up-baby-t-shirt/19026001",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F110005_1.jpg",
-    "note": "SSENSE: white-cut-up-baby-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0021-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cut-up-baby-t-shirt/19026001",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F110005_2.jpg",
-    "note": "SSENSE: white-cut-up-baby-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0022-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/gray-faux-fur-collar-baby-polo/19686771",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F108001_1.jpg",
-    "note": "SSENSE: gray-faux-fur-collar-baby-polo (ближайшая вещь той же категории); цвет на фото не совпадает с «pink»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0022-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/gray-faux-fur-collar-baby-polo/19686771",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F108001_2.jpg",
-    "note": "SSENSE: gray-faux-fur-collar-baby-polo (ближайшая вещь той же категории); цвет на фото не совпадает с «pink»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0023-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-boxy-t-shirt/19662021",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213031_1.jpg",
-    "note": "SSENSE: black-classic-logo-boxy-t-shirt"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0023-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-boxy-t-shirt/19662021",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213031_2.jpg",
-    "note": "SSENSE: black-classic-logo-boxy-t-shirt"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0024-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/off-white-scribbled-logo-oversized-t-shirt/19661931",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213029_1.jpg",
-    "note": "SSENSE: off-white-scribbled-logo-oversized-t-shirt"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0024-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/off-white-scribbled-logo-oversized-t-shirt/19661931",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213029_2.jpg",
-    "note": "SSENSE: off-white-scribbled-logo-oversized-t-shirt"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0025-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-biker-cross-logo-longsleeve-t-shirt/19661021",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213019_1.jpg",
-    "note": "SSENSE: gray-biker-cross-logo-longsleeve-t-shirt"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0025-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-biker-cross-logo-longsleeve-t-shirt/19661021",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213019_2.jpg",
-    "note": "SSENSE: gray-biker-cross-logo-longsleeve-t-shirt"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0026-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-motorhead-edition-flag-longsleeve-t-shirt/19660661",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213003_1.jpg",
-    "note": "SSENSE: black-motorhead-edition-flag-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0026-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-motorhead-edition-flag-longsleeve-t-shirt/19660661",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213003_2.jpg",
-    "note": "SSENSE: black-motorhead-edition-flag-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0027-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt/19660931",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213014_1.jpg",
-    "note": "SSENSE: black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TSH-0027-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt/19660931",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213014_2.jpg",
-    "note": "SSENSE: black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SHR-0028-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-definition-oversized-t-shirt/19660821",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213012_1.jpg",
-    "note": "SSENSE: black-definition-oversized-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SHR-0028-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-definition-oversized-t-shirt/19660821",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213012_2.jpg",
-    "note": "SSENSE: black-definition-oversized-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SHR-0029-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-oversized-l-esbian-t-shirt/19661481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213025_1.jpg",
-    "note": "SSENSE: navy-oversized-l-esbian-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SHR-0029-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-oversized-l-esbian-t-shirt/19661481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213025_2.jpg",
-    "note": "SSENSE: navy-oversized-l-esbian-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HAT-0034-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-iconic-logo-cap/19660501",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139006_1.jpg",
-    "note": "SSENSE: black-iconic-logo-cap"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HAT-0034-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-iconic-logo-cap/19660501",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139006_2.jpg",
-    "note": "SSENSE: black-iconic-logo-cap"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HAT-0035-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-nano-logo-cap/19660611",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139017_1.jpg",
-    "note": "SSENSE: black-nano-logo-cap; цвет на фото не совпадает с «white»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HAT-0035-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-nano-logo-cap/19660611",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139017_2.jpg",
-    "note": "SSENSE: black-nano-logo-cap; цвет на фото не совпадает с «white»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HAT-0036-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-flame-logo-cap/19660441",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139000_1.jpg",
-    "note": "SSENSE: black-flame-logo-cap"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HAT-0036-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-flame-logo-cap/19660441",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139000_2.jpg",
-    "note": "SSENSE: black-flame-logo-cap"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HAT-0037-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-metal-logo-cap/19660491",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139005_1.jpg",
-    "note": "SSENSE: black-metal-logo-cap; цвет на фото не совпадает с «yellow»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HAT-0037-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-metal-logo-cap/19660491",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139005_2.jpg",
-    "note": "SSENSE: black-metal-logo-cap; цвет на фото не совпадает с «yellow»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SNK-0038-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/taupe-new-rock-edition-fire-platform-sneakers/19009411",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M237000_1.jpg",
-    "note": "SSENSE: taupe-new-rock-edition-fire-platform-sneakers (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SNK-0038-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/taupe-new-rock-edition-fire-platform-sneakers/19009411",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M237000_2.jpg",
-    "note": "SSENSE: taupe-new-rock-edition-fire-platform-sneakers (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SNK-0039-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/taupe-new-rock-edition-fire-platform-sneakers/19043201",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F128001_1.jpg",
-    "note": "SSENSE: taupe-new-rock-edition-fire-platform-sneakers (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SNK-0039-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/taupe-new-rock-edition-fire-platform-sneakers/19043201",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F128001_2.jpg",
-    "note": "SSENSE: taupe-new-rock-edition-fire-platform-sneakers (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-BOT-0040-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/black-stomp-compact-boots/18263641",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252669F113001_1.jpg",
-    "note": "SSENSE: black-stomp-compact-boots (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-BOT-0040-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/black-stomp-compact-boots/18263641",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252669F113001_2.jpg",
-    "note": "SSENSE: black-stomp-compact-boots (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SHT-0041-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-applique-biker-cross-hip-hop-denim-shorts/19013181",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M193003_1.jpg",
-    "note": "SSENSE: black-applique-biker-cross-hip-hop-denim-shorts (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SHT-0041-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-applique-biker-cross-hip-hop-denim-shorts/19013181",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M193003_2.jpg",
-    "note": "SSENSE: black-applique-biker-cross-hip-hop-denim-shorts (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SHT-0042-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/gray-lace-mini-shorts/19026781",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F088002_1.jpg",
-    "note": "SSENSE: gray-lace-mini-shorts (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SHT-0042-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/gray-lace-mini-shorts/19026781",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F088002_2.jpg",
-    "note": "SSENSE: gray-lace-mini-shorts (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-DRS-0043-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cross-logo-tank-top-midi-dress/19046141",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F054000_1.jpg",
-    "note": "SSENSE: white-cross-logo-tank-top-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-DRS-0043-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cross-logo-tank-top-midi-dress/19046141",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F054000_2.jpg",
-    "note": "SSENSE: white-cross-logo-tank-top-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0050-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-antihate-hoodie/19660981",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202010_1.jpg",
-    "note": "SSENSE: black-antihate-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0050-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-antihate-hoodie/19660981",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202010_2.jpg",
-    "note": "SSENSE: black-antihate-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0051-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/white-taped-logo-hoodie/19033151",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M202033_1.jpg",
-    "note": "SSENSE: white-taped-logo-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-0051-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/white-taped-logo-hoodie/19033151",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M202033_2.jpg",
-    "note": "SSENSE: white-taped-logo-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0052-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-denim-jacket/19662431",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177000_1.jpg",
-    "note": "SSENSE: blue-graffiti-denim-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0052-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-denim-jacket/19662431",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177000_2.jpg",
-    "note": "SSENSE: blue-graffiti-denim-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0053-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-detachable-hood-denim-jacket/19662461",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177002_1.jpg",
-    "note": "SSENSE: black-detachable-hood-denim-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0053-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-detachable-hood-denim-jacket/19662461",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177002_2.jpg",
-    "note": "SSENSE: black-detachable-hood-denim-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0054-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-embroidered-metal-logo-fleece-jacket/19662151",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M180001_1.jpg",
-    "note": "SSENSE: navy-embroidered-metal-logo-fleece-jacket; цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0054-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-embroidered-metal-logo-fleece-jacket/19662151",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M180001_2.jpg",
-    "note": "SSENSE: navy-embroidered-metal-logo-fleece-jacket; цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0055-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-fireman-hooks-caban-jacket/19662701",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M195001_1.jpg",
-    "note": "SSENSE: navy-fireman-hooks-caban-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JKT-0055-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-fireman-hooks-caban-jacket/19662701",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M195001_2.jpg",
-    "note": "SSENSE: navy-fireman-hooks-caban-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JNS-0057-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-o-leg-jeans/19662411",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186008_1.jpg",
-    "note": "SSENSE: black-o-leg-jeans (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JNS-0057-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-o-leg-jeans/19662411",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186008_2.jpg",
-    "note": "SSENSE: black-o-leg-jeans (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JNS-0058-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-o-leg-jeans/19662381",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186005_1.jpg",
-    "note": "SSENSE: blue-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-JNS-0058-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-o-leg-jeans/19662381",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186005_2.jpg",
-    "note": "SSENSE: blue-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-9003-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-zip-up-hoodie/19662091",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202035_1.jpg",
-    "note": "SSENSE: black-classic-logo-zip-up-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-HOD-9003-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-zip-up-hoodie/19662091",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202035_2.jpg",
-    "note": "SSENSE: black-classic-logo-zip-up-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SWT-0030-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/white-graffiti-shirt/19662651",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M192010_1.jpg",
-    "note": "www.ssense.com: white-graffiti-shirt (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SWT-0030-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/white-graffiti-shirt/19662651",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M192010_2.jpg",
-    "note": "www.ssense.com: white-graffiti-shirt (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SWT-0031-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-pinched-cut-up-tailored-trousers/19662671",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M191000_1.jpg",
-    "note": "www.ssense.com: black-pinched-cut-up-tailored-trousers (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SWT-0031-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-pinched-cut-up-tailored-trousers/19662671",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M191000_2.jpg",
-    "note": "www.ssense.com: black-pinched-cut-up-tailored-trousers (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SCF-0032-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/key-single-earring/19660361",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M144001_1.jpg",
-    "note": "www.ssense.com: key-single-earring (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SCF-0032-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/key-single-earring/19660361",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M144001_2.jpg",
-    "note": "www.ssense.com: key-single-earring (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SCF-0033-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/logo-chain-necklace/19660371",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M145000_1.jpg",
-    "note": "www.ssense.com: logo-chain-necklace (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SCF-0033-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/logo-chain-necklace/19660371",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M145000_2.jpg",
-    "note": "www.ssense.com: logo-chain-necklace (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-BLT-0044-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-my-name-sticker-cap/19660481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139004_1.jpg",
-    "note": "www.ssense.com: black-my-name-sticker-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-BLT-0044-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-my-name-sticker-cap/19660481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139004_2.jpg",
-    "note": "www.ssense.com: black-my-name-sticker-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TOT-0045-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-friday-distressed-cap/19660591",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139015_1.jpg",
-    "note": "www.ssense.com: black-friday-distressed-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TOT-0045-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-friday-distressed-cap/19660591",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139015_2.jpg",
-    "note": "www.ssense.com: black-friday-distressed-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TOT-0046-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-global-mind-fuck-cap/19660571",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139013_1.jpg",
-    "note": "www.ssense.com: black-global-mind-fuck-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-TOT-0046-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-global-mind-fuck-cap/19660571",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139013_2.jpg",
-    "note": "www.ssense.com: black-global-mind-fuck-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-CRB-0047-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cradle-of-filth-edition-cap/19660561",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139012_1.jpg",
-    "note": "www.ssense.com: black-cradle-of-filth-edition-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-CRB-0047-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cradle-of-filth-edition-cap/19660561",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139012_2.jpg",
-    "note": "www.ssense.com: black-cradle-of-filth-edition-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SUN-0048-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-monday-pristine-cap/19660581",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139014_1.jpg",
-    "note": "www.ssense.com: black-monday-pristine-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SUN-0048-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-monday-pristine-cap/19660581",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139014_2.jpg",
-    "note": "www.ssense.com: black-monday-pristine-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SUN-0049-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-bottle-opener-cap/19660551",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139011_1.jpg",
-    "note": "www.ssense.com: black-bottle-opener-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SUN-0049-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-bottle-opener-cap/19660551",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139011_2.jpg",
-    "note": "www.ssense.com: black-bottle-opener-cap (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SND-0056-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/biker-cross-pattern-ring/19046241",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M147002_1.jpg",
-    "note": "www.ssense.com: biker-cross-pattern-ring (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-SND-0056-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/biker-cross-pattern-ring/19046241",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M147002_2.jpg",
-    "note": "www.ssense.com: biker-cross-pattern-ring (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-COT-0059-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/white-logo-boxer-briefs/19687371",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M216004_1.jpg",
-    "note": "www.ssense.com: white-logo-boxer-briefs (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-COT-0059-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/white-logo-boxer-briefs/19687371",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M216004_2.jpg",
-    "note": "www.ssense.com: white-logo-boxer-briefs (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-COT-0060-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-logo-boxer-briefs/19687421",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M216005_1.jpg",
-    "note": "www.ssense.com: black-logo-boxer-briefs (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/products/VTM-COT-0060-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/vetements/black-logo-boxer-briefs/19687421",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M216005_2.jpg",
-    "note": "www.ssense.com: black-logo-boxer-briefs (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/vetements/collections/fall-winter-25.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006ecaabe601ddb9cbbda/master/w_900,c_limit/00001-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/vetements/collections/spring-summer-25.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/66f7c0064c79e8cac78efe7d/master/w_900,c_limit/00001-vetements-spring-2025-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/vetements/collections/fall-winter-26.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006ebba57d6f6027800ff/master/w_900,c_limit/00002-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 2"
-  },
-  {
-    "target": "/images/brands/vetements/collections/spring-summer-26.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006ecaabe601ddb9cbbda/master/w_900,c_limit/00001-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/vetements/hero.webp",
-    "kind": "hero",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006ecaabe601ddb9cbbda/master/w_1600,c_limit/00001-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/vetements/directors/1.webp",
-    "kind": "director",
-    "page": "https://commons.wikimedia.org/wiki/File:Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "note": "Wikimedia Commons: Demna"
-  },
-  {
-    "target": "/images/brands/vetements/history/1.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Demna_(designer)",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg/960px-Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg",
-    "note": "Википедия: Demna (designer)"
-  },
-  {
-    "target": "/images/brands/vetements/history/2.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2015-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/6a3ee9d74a680d32c1716328/master/w_900,c_limit/00001-vetements-spring-2027-menswear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2015-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/vetements/history/3.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006eb7c71a6b48bc0590b/master/w_900,c_limit/00003-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 3"
-  },
-  {
-    "target": "/images/brands/vetements/history/4.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006ed4c1e836ef07081b0/master/w_900,c_limit/00004-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 4"
-  },
-  {
-    "target": "/images/brands/vetements/history/5.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006ee29243e677a9b1c1f/master/w_900,c_limit/00005-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 5"
-  },
-  {
-    "target": "/images/brands/vetements/history/6.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f05305c4f6d9f9db88/master/w_900,c_limit/00006-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 6"
-  },
-  {
-    "target": "/images/brands/vetements/history/7.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f1664beaa50ba06768/master/w_900,c_limit/00007-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 7"
-  },
-  {
-    "target": "/images/brands/vetements/history/8.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Zurich",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Altstadt_Z%C3%BCrich_2015.jpg/3840px-Altstadt_Z%C3%BCrich_2015.jpg",
-    "note": "Википедия: Zürich"
-  },
-  {
-    "target": "/images/brands/vetements/history/9.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f1664beaa50ba06769/master/w_900,c_limit/00008-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 8"
-  },
-  {
-    "target": "/images/brands/vetements/history/10.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2023-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/62c6f5562a20f7d328a7e205/master/w_900,c_limit/00001-vetements-spring-2023-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2023-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/vetements/history/11.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f2ba57d6f602780101/master/w_900,c_limit/00009-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 9"
-  },
-  {
-    "target": "/images/brands/vetements/history/12.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f4d404fcbd9b73c658/master/w_900,c_limit/00010-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 10"
-  },
-  {
-    "target": "/images/brands/vetements/history/13.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f44c1e836ef07081b2/master/w_900,c_limit/00011-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 11"
-  },
-  {
-    "target": "/images/brands/vetements/history/14.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f54c1e836ef07081b4/master/w_900,c_limit/00012-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 12"
-  },
-  {
-    "target": "/images/brands/vetements/history/15.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f6b66dc917107309ee/master/w_900,c_limit/00013-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 13"
-  },
-  {
-    "target": "/images/brands/vetements/history/16.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2024-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/65e24eb098178b21bb917fcb/master/w_900,c_limit/00001-vetements-fall-2024-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, fall-2024-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/vetements/history/17.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f7062dd0a247507aa3/master/w_900,c_limit/00014-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 14"
-  },
-  {
-    "target": "/images/brands/vetements/history/18.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f7af6d1ceb0a1e8430/master/w_900,c_limit/00015-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 15"
-  },
-  {
-    "target": "/images/brands/vetements/history/19.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f8a3479dc87749e690/master/w_900,c_limit/00016-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 16"
-  },
-  {
-    "target": "/images/brands/vetements/history/20.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f927ee769ad960309d/master/w_900,c_limit/00017-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 17"
-  },
-  {
-    "target": "/images/brands/vetements/history/21.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006f9edaea224be38b914/master/w_900,c_limit/00018-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 18"
-  },
-  {
-    "target": "/images/brands/vetements/history/22.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006fbff2349caa6a11f8a/master/w_900,c_limit/00019-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 19"
-  },
-  {
-    "target": "/images/brands/vetements/history/23.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006fcb66dc917107309f0/master/w_900,c_limit/00020-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 20"
-  },
-  {
-    "target": "/images/brands/vetements/history/24.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006fc6c4da41d21e1658f/master/w_900,c_limit/00021-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 21"
-  },
-  {
-    "target": "/images/brands/vetements/history/25.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006fdedaea224be38b916/master/w_900,c_limit/00022-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 22"
-  },
-  {
-    "target": "/images/brands/vetements/history/26.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006fe29243e677a9b1c21/master/w_900,c_limit/00023-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 23"
-  },
-  {
-    "target": "/images/brands/vetements/history/27.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e006ff4c1e836ef07081b6/master/w_900,c_limit/00024-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 24"
-  },
-  {
-    "target": "/images/brands/vetements/history/28.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e0070074a2dfcb4308a569/master/w_900,c_limit/00025-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 25"
-  },
-  {
-    "target": "/images/brands/vetements/history/29.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00701af6d1ceb0a1e8433/master/w_900,c_limit/00026-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 26"
-  },
-  {
-    "target": "/images/brands/vetements/history/30.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00702ff2349caa6a11f8d/master/w_900,c_limit/00027-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 27"
-  },
-  {
-    "target": "/images/brands/vetements/history/31.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00702b66dc917107309f2/master/w_900,c_limit/00028-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 28"
-  },
-  {
-    "target": "/images/brands/vetements/history/32.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00704694730553cda3232/master/w_900,c_limit/00029-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 29"
-  },
-  {
-    "target": "/images/brands/vetements/history/33.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e0070529243e677a9b1c23/master/w_900,c_limit/00030-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 30"
-  },
-  {
-    "target": "/images/brands/vetements/history/34.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00704664beaa50ba0676c/master/w_900,c_limit/00031-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 31"
-  },
-  {
-    "target": "/images/brands/vetements/history/35.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00708b66dc917107309f4/master/w_900,c_limit/00032-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 32"
-  },
-  {
-    "target": "/images/brands/vetements/history/36.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e007074c1e836ef07081b8/master/w_900,c_limit/00033-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 33"
-  },
-  {
-    "target": "/images/brands/vetements/history/37.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00707b750f04e80fe7068/master/w_900,c_limit/00034-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 34"
-  },
-  {
-    "target": "/images/brands/vetements/history/38.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00709ff2349caa6a11f8f/master/w_900,c_limit/00035-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 35"
-  },
-  {
-    "target": "/images/brands/vetements/history/39.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e0070adf95c6a1e4962160/master/w_900,c_limit/00036-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 36"
-  },
-  {
-    "target": "/images/brands/vetements/history/40.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e0070b29243e677a9b1c25/master/w_900,c_limit/00037-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 37"
-  },
-  {
-    "target": "/images/brands/vetements/history/41.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e0070ceee6c85df18be4ed/master/w_900,c_limit/00038-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 38"
-  },
-  {
-    "target": "/images/brands/vetements/history/42.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e0070d062dd0a247507aa5/master/w_900,c_limit/00039-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 39"
-  },
-  {
-    "target": "/images/brands/vetements/history/43.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e0070eb750f04e80fe706a/master/w_900,c_limit/00040-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 40"
-  },
-  {
-    "target": "/images/brands/vetements/history/44.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e0070f06d8f8fec1879da4/master/w_900,c_limit/00041-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 41"
-  },
-  {
-    "target": "/images/brands/vetements/history/45.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e0070f0f112dd4f77f7874/master/w_900,c_limit/00042-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 42"
-  },
-  {
-    "target": "/images/brands/vetements/history/46.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00710b66dc917107309f7/master/w_900,c_limit/00043-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 43"
-  },
-  {
-    "target": "/images/brands/vetements/history/47.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e007124c1e836ef07081ba/master/w_900,c_limit/00044-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 44"
-  },
-  {
-    "target": "/images/brands/vetements/history/48.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00712694730553cda3236/master/w_900,c_limit/00045-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 45"
-  },
-  {
-    "target": "/images/brands/vetements/history/49.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e007147b27e756ae6dcc1e/master/w_900,c_limit/00046-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 46"
-  },
-  {
-    "target": "/images/brands/vetements/history/50.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e0071429243e677a9b1c28/master/w_900,c_limit/00047-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 47"
-  },
-  {
-    "target": "/images/brands/vetements/history/51.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00715a2ce3f047d9871f6/master/w_900,c_limit/00048-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 48"
-  },
-  {
-    "target": "/images/brands/vetements/history/52.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e00717a2ce3f047d9871f8/master/w_900,c_limit/00049-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 49"
-  },
-  {
-    "target": "/images/brands/vetements/directors/2.webp",
-    "kind": "director",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
-    "url": "https://assets.vogue.com/photos/68e007178cd3619306be3566/master/w_900,c_limit/00050-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 50"
-  },
-  {
     "target": "/images/brands/chanel/products/CHA-CRB-0001-1.webp",
     "kind": "product",
     "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/chanel/slideshow/details",
@@ -18254,5 +16987,1118 @@
     "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/versace",
     "url": "https://assets.vogue.com/photos/67c2c4f92b04944ec6fd65cd/master/w_900,c_limit/00001-versace-fall-2025-ready-to-wear-credit-gorunway.jpg",
     "note": "Портрета в открытых источниках нет — Vogue Runway, fall-2025-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0001-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-longsleeve-t-shirt/19661041",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213021_1.jpg",
+    "note": "SSENSE: black-biker-cross-logo-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0001-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-longsleeve-t-shirt/19661041",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213021_2.jpg",
+    "note": "SSENSE: black-biker-cross-logo-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0002-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-antihate-oversized-hoodie/19661001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202011_1.jpg",
+    "note": "SSENSE: blue-antihate-oversized-hoodie (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0002-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-antihate-oversized-hoodie/19661001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202011_2.jpg",
+    "note": "SSENSE: blue-antihate-oversized-hoodie (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0003-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-l-esbian-oversized-sweatshirt/19661511",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M204001_1.jpg",
+    "note": "SSENSE: navy-l-esbian-oversized-sweatshirt (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0003-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-l-esbian-oversized-sweatshirt/19661511",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M204001_2.jpg",
+    "note": "SSENSE: navy-l-esbian-oversized-sweatshirt (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0004-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-oversized-hoodie/19661181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202015_1.jpg",
+    "note": "SSENSE: black-biker-cross-logo-oversized-hoodie"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0004-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-oversized-hoodie/19661181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202015_2.jpg",
+    "note": "SSENSE: black-biker-cross-logo-oversized-hoodie"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0005-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/white-scribbled-logo-zip-up-hoodie/19661941",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202032_1.jpg",
+    "note": "SSENSE: white-scribbled-logo-zip-up-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0005-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/white-scribbled-logo-zip-up-hoodie/19661941",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202032_2.jpg",
+    "note": "SSENSE: white-scribbled-logo-zip-up-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0006-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/red-oversized-lifeguard-hoodie/19660691",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202001_1.jpg",
+    "note": "SSENSE: red-oversized-lifeguard-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0006-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/red-oversized-lifeguard-hoodie/19660691",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202001_2.jpg",
+    "note": "SSENSE: red-oversized-lifeguard-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-COT-0007-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-round-shoulder-open-back-trench-coat/19673671",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F067000_1.jpg",
+    "note": "SSENSE: beige-round-shoulder-open-back-trench-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-COT-0007-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-round-shoulder-open-back-trench-coat/19673671",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F067000_2.jpg",
+    "note": "SSENSE: beige-round-shoulder-open-back-trench-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-COT-0008-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-open-back-trench-midi-skirt/19673791",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F092002_1.jpg",
+    "note": "SSENSE: beige-open-back-trench-midi-skirt (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-COT-0008-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-open-back-trench-midi-skirt/19673791",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F092002_2.jpg",
+    "note": "SSENSE: beige-open-back-trench-midi-skirt (ближайшая вещь той же категории); цвет на фото не совпадает с «yellow»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JNS-0009-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-o-leg-jeans/19662371",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186004_1.jpg",
+    "note": "SSENSE: blue-graffiti-o-leg-jeans (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JNS-0009-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-o-leg-jeans/19662371",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186004_2.jpg",
+    "note": "SSENSE: blue-graffiti-o-leg-jeans (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JNS-0010-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-ripped-o-leg-jeans/19662361",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186003_1.jpg",
+    "note": "SSENSE: blue-ripped-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «lightblue»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JNS-0010-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-ripped-o-leg-jeans/19662361",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186003_2.jpg",
+    "note": "SSENSE: blue-ripped-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «lightblue»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-BOT-0011-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-new-rock-edition-platform-tower-boots/19009431",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M228001_1.jpg",
+    "note": "SSENSE: black-new-rock-edition-platform-tower-boots (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-BOT-0011-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-new-rock-edition-platform-tower-boots/19009431",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M228001_2.jpg",
+    "note": "SSENSE: black-new-rock-edition-platform-tower-boots (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-BOT-0012-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/black-new-rock-edition-platform-tower-boots/19043221",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F114001_1.jpg",
+    "note": "SSENSE: black-new-rock-edition-platform-tower-boots (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-BOT-0012-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/black-new-rock-edition-platform-tower-boots/19043221",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F114001_2.jpg",
+    "note": "SSENSE: black-new-rock-edition-platform-tower-boots (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0013-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cut-up-track-jacket/19662121",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202037_1.jpg",
+    "note": "SSENSE: black-cut-up-track-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0013-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cut-up-track-jacket/19662121",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202037_2.jpg",
+    "note": "SSENSE: black-cut-up-track-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0014-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-cut-up-tailored-blazer/19662681",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M195000_1.jpg",
+    "note": "SSENSE: gray-cut-up-tailored-blazer (ближайшая вещь той же категории); цвет на фото не совпадает с «khaki»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0014-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-cut-up-tailored-blazer/19662681",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M195000_2.jpg",
+    "note": "SSENSE: gray-cut-up-tailored-blazer (ближайшая вещь той же категории); цвет на фото не совпадает с «khaki»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0015-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-boxy-moto-leather-jacket/19662801",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181002_1.jpg",
+    "note": "SSENSE: black-boxy-moto-leather-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0015-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-boxy-moto-leather-jacket/19662801",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181002_2.jpg",
+    "note": "SSENSE: black-boxy-moto-leather-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0016-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-fringed-boxy-moto-leather-jacket/19662771",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181000_1.jpg",
+    "note": "SSENSE: black-fringed-boxy-moto-leather-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «brown»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0016-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-fringed-boxy-moto-leather-jacket/19662771",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M181000_2.jpg",
+    "note": "SSENSE: black-fringed-boxy-moto-leather-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «brown»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TRS-0017-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-tape-track-pants/19662171",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190010_1.jpg",
+    "note": "SSENSE: black-tape-track-pants (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TRS-0017-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-tape-track-pants/19662171",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190010_2.jpg",
+    "note": "SSENSE: black-tape-track-pants (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TRS-0018-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-tape-track-pants/19662191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190011_1.jpg",
+    "note": "SSENSE: navy-tape-track-pants (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TRS-0018-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-tape-track-pants/19662191",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190011_2.jpg",
+    "note": "SSENSE: navy-tape-track-pants (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TRS-0019-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-graffiti-sweatpants/19661851",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190009_1.jpg",
+    "note": "SSENSE: gray-graffiti-sweatpants (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TRS-0019-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-graffiti-sweatpants/19661851",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190009_2.jpg",
+    "note": "SSENSE: gray-graffiti-sweatpants (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TRS-0020-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-graffiti-sweatpants/19661811",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190008_1.jpg",
+    "note": "SSENSE: black-graffiti-sweatpants (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TRS-0020-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-graffiti-sweatpants/19661811",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M190008_2.jpg",
+    "note": "SSENSE: black-graffiti-sweatpants (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0021-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cut-up-baby-t-shirt/19026001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F110005_1.jpg",
+    "note": "SSENSE: white-cut-up-baby-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0021-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cut-up-baby-t-shirt/19026001",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F110005_2.jpg",
+    "note": "SSENSE: white-cut-up-baby-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0022-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/gray-faux-fur-collar-baby-polo/19686771",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F108001_1.jpg",
+    "note": "SSENSE: gray-faux-fur-collar-baby-polo (ближайшая вещь той же категории); цвет на фото не совпадает с «pink»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0022-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/gray-faux-fur-collar-baby-polo/19686771",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F108001_2.jpg",
+    "note": "SSENSE: gray-faux-fur-collar-baby-polo (ближайшая вещь той же категории); цвет на фото не совпадает с «pink»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0023-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-boxy-t-shirt/19662021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213031_1.jpg",
+    "note": "SSENSE: black-classic-logo-boxy-t-shirt"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0023-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-boxy-t-shirt/19662021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213031_2.jpg",
+    "note": "SSENSE: black-classic-logo-boxy-t-shirt"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0024-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/off-white-scribbled-logo-oversized-t-shirt/19661931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213029_1.jpg",
+    "note": "SSENSE: off-white-scribbled-logo-oversized-t-shirt"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0024-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/off-white-scribbled-logo-oversized-t-shirt/19661931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213029_2.jpg",
+    "note": "SSENSE: off-white-scribbled-logo-oversized-t-shirt"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0025-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-biker-cross-logo-longsleeve-t-shirt/19661021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213019_1.jpg",
+    "note": "SSENSE: gray-biker-cross-logo-longsleeve-t-shirt"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0025-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/gray-biker-cross-logo-longsleeve-t-shirt/19661021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213019_2.jpg",
+    "note": "SSENSE: gray-biker-cross-logo-longsleeve-t-shirt"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0026-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-motorhead-edition-flag-longsleeve-t-shirt/19660661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213003_1.jpg",
+    "note": "SSENSE: black-motorhead-edition-flag-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0026-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-motorhead-edition-flag-longsleeve-t-shirt/19660661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213003_2.jpg",
+    "note": "SSENSE: black-motorhead-edition-flag-longsleeve-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0027-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt/19660931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213014_1.jpg",
+    "note": "SSENSE: black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-TSH-0027-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt/19660931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213014_2.jpg",
+    "note": "SSENSE: black-cradle-of-filth-edition-sacrifice-longsleeve-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SHR-0028-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-definition-oversized-t-shirt/19660821",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213012_1.jpg",
+    "note": "SSENSE: black-definition-oversized-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SHR-0028-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-definition-oversized-t-shirt/19660821",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213012_2.jpg",
+    "note": "SSENSE: black-definition-oversized-t-shirt (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SHR-0029-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-oversized-l-esbian-t-shirt/19661481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213025_1.jpg",
+    "note": "SSENSE: navy-oversized-l-esbian-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SHR-0029-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-oversized-l-esbian-t-shirt/19661481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M213025_2.jpg",
+    "note": "SSENSE: navy-oversized-l-esbian-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HAT-0034-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-iconic-logo-cap/19660501",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139006_1.jpg",
+    "note": "SSENSE: black-iconic-logo-cap"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HAT-0034-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-iconic-logo-cap/19660501",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139006_2.jpg",
+    "note": "SSENSE: black-iconic-logo-cap"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HAT-0035-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-nano-logo-cap/19660611",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139017_1.jpg",
+    "note": "SSENSE: black-nano-logo-cap; цвет на фото не совпадает с «white»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HAT-0035-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-nano-logo-cap/19660611",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139017_2.jpg",
+    "note": "SSENSE: black-nano-logo-cap; цвет на фото не совпадает с «white»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HAT-0036-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-flame-logo-cap/19660441",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139000_1.jpg",
+    "note": "SSENSE: black-flame-logo-cap"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HAT-0036-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-flame-logo-cap/19660441",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139000_2.jpg",
+    "note": "SSENSE: black-flame-logo-cap"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HAT-0037-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-metal-logo-cap/19660491",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139005_1.jpg",
+    "note": "SSENSE: black-metal-logo-cap; цвет на фото не совпадает с «yellow»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HAT-0037-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-metal-logo-cap/19660491",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M139005_2.jpg",
+    "note": "SSENSE: black-metal-logo-cap; цвет на фото не совпадает с «yellow»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SNK-0038-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/taupe-new-rock-edition-fire-platform-sneakers/19009411",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M237000_1.jpg",
+    "note": "SSENSE: taupe-new-rock-edition-fire-platform-sneakers (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SNK-0038-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/taupe-new-rock-edition-fire-platform-sneakers/19009411",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M237000_2.jpg",
+    "note": "SSENSE: taupe-new-rock-edition-fire-platform-sneakers (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SNK-0039-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/taupe-new-rock-edition-fire-platform-sneakers/19043201",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F128001_1.jpg",
+    "note": "SSENSE: taupe-new-rock-edition-fire-platform-sneakers (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SNK-0039-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/taupe-new-rock-edition-fire-platform-sneakers/19043201",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F128001_2.jpg",
+    "note": "SSENSE: taupe-new-rock-edition-fire-platform-sneakers (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-BOT-0040-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/black-stomp-compact-boots/18263641",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252669F113001_1.jpg",
+    "note": "SSENSE: black-stomp-compact-boots (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-BOT-0040-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/black-stomp-compact-boots/18263641",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252669F113001_2.jpg",
+    "note": "SSENSE: black-stomp-compact-boots (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SHT-0041-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-applique-biker-cross-hip-hop-denim-shorts/19013181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M193003_1.jpg",
+    "note": "SSENSE: black-applique-biker-cross-hip-hop-denim-shorts (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SHT-0041-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-applique-biker-cross-hip-hop-denim-shorts/19013181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M193003_2.jpg",
+    "note": "SSENSE: black-applique-biker-cross-hip-hop-denim-shorts (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SHT-0042-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/gray-lace-mini-shorts/19026781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F088002_1.jpg",
+    "note": "SSENSE: gray-lace-mini-shorts (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-SHT-0042-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/gray-lace-mini-shorts/19026781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F088002_2.jpg",
+    "note": "SSENSE: gray-lace-mini-shorts (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-DRS-0043-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cross-logo-tank-top-midi-dress/19046141",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F054000_1.jpg",
+    "note": "SSENSE: white-cross-logo-tank-top-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-DRS-0043-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/white-cross-logo-tank-top-midi-dress/19046141",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669F054000_2.jpg",
+    "note": "SSENSE: white-cross-logo-tank-top-midi-dress (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0050-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-antihate-hoodie/19660981",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202010_1.jpg",
+    "note": "SSENSE: black-antihate-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0050-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-antihate-hoodie/19660981",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202010_2.jpg",
+    "note": "SSENSE: black-antihate-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0051-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/white-taped-logo-hoodie/19033151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M202033_1.jpg",
+    "note": "SSENSE: white-taped-logo-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-0051-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/white-taped-logo-hoodie/19033151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261669M202033_2.jpg",
+    "note": "SSENSE: white-taped-logo-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0052-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-denim-jacket/19662431",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177000_1.jpg",
+    "note": "SSENSE: blue-graffiti-denim-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0052-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-graffiti-denim-jacket/19662431",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177000_2.jpg",
+    "note": "SSENSE: blue-graffiti-denim-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0053-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-detachable-hood-denim-jacket/19662461",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177002_1.jpg",
+    "note": "SSENSE: black-detachable-hood-denim-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0053-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-detachable-hood-denim-jacket/19662461",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M177002_2.jpg",
+    "note": "SSENSE: black-detachable-hood-denim-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0054-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-embroidered-metal-logo-fleece-jacket/19662151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M180001_1.jpg",
+    "note": "SSENSE: navy-embroidered-metal-logo-fleece-jacket; цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0054-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-embroidered-metal-logo-fleece-jacket/19662151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M180001_2.jpg",
+    "note": "SSENSE: navy-embroidered-metal-logo-fleece-jacket; цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0055-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-fireman-hooks-caban-jacket/19662701",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M195001_1.jpg",
+    "note": "SSENSE: navy-fireman-hooks-caban-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JKT-0055-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/navy-fireman-hooks-caban-jacket/19662701",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M195001_2.jpg",
+    "note": "SSENSE: navy-fireman-hooks-caban-jacket (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JNS-0057-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-o-leg-jeans/19662411",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186008_1.jpg",
+    "note": "SSENSE: black-o-leg-jeans (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JNS-0057-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-o-leg-jeans/19662411",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186008_2.jpg",
+    "note": "SSENSE: black-o-leg-jeans (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JNS-0058-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-o-leg-jeans/19662381",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186005_1.jpg",
+    "note": "SSENSE: blue-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-JNS-0058-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/blue-o-leg-jeans/19662381",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M186005_2.jpg",
+    "note": "SSENSE: blue-o-leg-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-9003-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-zip-up-hoodie/19662091",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202035_1.jpg",
+    "note": "SSENSE: black-classic-logo-zip-up-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-HOD-9003-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/vetements/black-classic-logo-zip-up-hoodie/19662091",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669M202035_2.jpg",
+    "note": "SSENSE: black-classic-logo-zip-up-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-COT-0059-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-round-shoulder-open-back-trench-coat/19673671",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F067000_1.jpg",
+    "note": "www.ssense.com: beige-round-shoulder-open-back-trench-coat (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-COT-0059-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-round-shoulder-open-back-trench-coat/19673671",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F067000_2.jpg",
+    "note": "www.ssense.com: beige-round-shoulder-open-back-trench-coat (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-COT-0060-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-open-back-trench-midi-skirt/19673791",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F092002_1.jpg",
+    "note": "www.ssense.com: beige-open-back-trench-midi-skirt (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/vetements/products/VTM-COT-0060-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/vetements/beige-open-back-trench-midi-skirt/19673791",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262669F092002_2.jpg",
+    "note": "www.ssense.com: beige-open-back-trench-midi-skirt (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/vetements/collections/fall-winter-25.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ecaabe601ddb9cbbda/master/w_900,c_limit/00001-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/vetements/collections/spring-summer-25.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/66f7c0064c79e8cac78efe7d/master/w_900,c_limit/00001-vetements-spring-2025-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/vetements/collections/fall-winter-26.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ebba57d6f6027800ff/master/w_900,c_limit/00002-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 2"
+  },
+  {
+    "target": "/images/brands/vetements/collections/spring-summer-26.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ecaabe601ddb9cbbda/master/w_900,c_limit/00001-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/vetements/hero.webp",
+    "kind": "hero",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ecaabe601ddb9cbbda/master/w_1600,c_limit/00001-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/vetements/directors/1.webp",
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Demna_(designer)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg/960px-Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg",
+    "note": "Википедия: Demna (designer)"
+  },
+  {
+    "target": "/images/brands/vetements/history/1.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Demna_(designer)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg/960px-Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg",
+    "note": "Википедия: Demna (designer)"
+  },
+  {
+    "target": "/images/brands/vetements/history/2.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2015-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/6a3ee9d74a680d32c1716328/master/w_900,c_limit/00001-vetements-spring-2027-menswear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2015-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/vetements/history/3.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006eb7c71a6b48bc0590b/master/w_900,c_limit/00003-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 3"
+  },
+  {
+    "target": "/images/brands/vetements/history/4.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ed4c1e836ef07081b0/master/w_900,c_limit/00004-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 4"
+  },
+  {
+    "target": "/images/brands/vetements/history/5.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ee29243e677a9b1c1f/master/w_900,c_limit/00005-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 5"
+  },
+  {
+    "target": "/images/brands/vetements/history/6.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f05305c4f6d9f9db88/master/w_900,c_limit/00006-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 6"
+  },
+  {
+    "target": "/images/brands/vetements/history/7.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f1664beaa50ba06768/master/w_900,c_limit/00007-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 7"
+  },
+  {
+    "target": "/images/brands/vetements/history/8.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Zurich",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Altstadt_Z%C3%BCrich_2015.jpg/3840px-Altstadt_Z%C3%BCrich_2015.jpg",
+    "note": "Википедия: Zürich"
+  },
+  {
+    "target": "/images/brands/vetements/history/9.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f1664beaa50ba06769/master/w_900,c_limit/00008-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 8"
+  },
+  {
+    "target": "/images/brands/vetements/history/10.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2023-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/62c6f5562a20f7d328a7e205/master/w_900,c_limit/00001-vetements-spring-2023-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2023-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/vetements/history/11.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f2ba57d6f602780101/master/w_900,c_limit/00009-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 9"
+  },
+  {
+    "target": "/images/brands/vetements/history/12.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f4d404fcbd9b73c658/master/w_900,c_limit/00010-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 10"
+  },
+  {
+    "target": "/images/brands/vetements/history/13.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f44c1e836ef07081b2/master/w_900,c_limit/00011-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 11"
+  },
+  {
+    "target": "/images/brands/vetements/history/14.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f54c1e836ef07081b4/master/w_900,c_limit/00012-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 12"
+  },
+  {
+    "target": "/images/brands/vetements/history/15.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f6b66dc917107309ee/master/w_900,c_limit/00013-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 13"
+  },
+  {
+    "target": "/images/brands/vetements/history/16.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2024-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/65e24eb098178b21bb917fcb/master/w_900,c_limit/00001-vetements-fall-2024-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2024-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/vetements/history/17.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f7062dd0a247507aa3/master/w_900,c_limit/00014-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 14"
+  },
+  {
+    "target": "/images/brands/vetements/history/18.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f7af6d1ceb0a1e8430/master/w_900,c_limit/00015-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 15"
+  },
+  {
+    "target": "/images/brands/vetements/history/19.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f8a3479dc87749e690/master/w_900,c_limit/00016-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 16"
+  },
+  {
+    "target": "/images/brands/vetements/history/20.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f927ee769ad960309d/master/w_900,c_limit/00017-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 17"
+  },
+  {
+    "target": "/images/brands/vetements/history/21.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006f9edaea224be38b914/master/w_900,c_limit/00018-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 18"
+  },
+  {
+    "target": "/images/brands/vetements/history/22.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006fbff2349caa6a11f8a/master/w_900,c_limit/00019-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 19"
+  },
+  {
+    "target": "/images/brands/vetements/history/23.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006fcb66dc917107309f0/master/w_900,c_limit/00020-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 20"
+  },
+  {
+    "target": "/images/brands/vetements/history/24.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006fc6c4da41d21e1658f/master/w_900,c_limit/00021-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 21"
+  },
+  {
+    "target": "/images/brands/vetements/history/25.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006fdedaea224be38b916/master/w_900,c_limit/00022-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 22"
+  },
+  {
+    "target": "/images/brands/vetements/history/26.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006fe29243e677a9b1c21/master/w_900,c_limit/00023-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 23"
+  },
+  {
+    "target": "/images/brands/vetements/history/27.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e006ff4c1e836ef07081b6/master/w_900,c_limit/00024-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 24"
+  },
+  {
+    "target": "/images/brands/vetements/history/28.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070074a2dfcb4308a569/master/w_900,c_limit/00025-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 25"
+  },
+  {
+    "target": "/images/brands/vetements/history/29.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00701af6d1ceb0a1e8433/master/w_900,c_limit/00026-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 26"
+  },
+  {
+    "target": "/images/brands/vetements/history/30.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00702ff2349caa6a11f8d/master/w_900,c_limit/00027-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 27"
+  },
+  {
+    "target": "/images/brands/vetements/history/31.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00702b66dc917107309f2/master/w_900,c_limit/00028-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 28"
+  },
+  {
+    "target": "/images/brands/vetements/history/32.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00704694730553cda3232/master/w_900,c_limit/00029-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 29"
+  },
+  {
+    "target": "/images/brands/vetements/history/33.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070529243e677a9b1c23/master/w_900,c_limit/00030-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 30"
+  },
+  {
+    "target": "/images/brands/vetements/history/34.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00704664beaa50ba0676c/master/w_900,c_limit/00031-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 31"
+  },
+  {
+    "target": "/images/brands/vetements/history/35.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00708b66dc917107309f4/master/w_900,c_limit/00032-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 32"
+  },
+  {
+    "target": "/images/brands/vetements/history/36.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e007074c1e836ef07081b8/master/w_900,c_limit/00033-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 33"
+  },
+  {
+    "target": "/images/brands/vetements/history/37.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00707b750f04e80fe7068/master/w_900,c_limit/00034-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 34"
+  },
+  {
+    "target": "/images/brands/vetements/history/38.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00709ff2349caa6a11f8f/master/w_900,c_limit/00035-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 35"
+  },
+  {
+    "target": "/images/brands/vetements/history/39.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070adf95c6a1e4962160/master/w_900,c_limit/00036-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 36"
+  },
+  {
+    "target": "/images/brands/vetements/history/40.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070b29243e677a9b1c25/master/w_900,c_limit/00037-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 37"
+  },
+  {
+    "target": "/images/brands/vetements/history/41.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070ceee6c85df18be4ed/master/w_900,c_limit/00038-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 38"
+  },
+  {
+    "target": "/images/brands/vetements/history/42.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070d062dd0a247507aa5/master/w_900,c_limit/00039-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 39"
+  },
+  {
+    "target": "/images/brands/vetements/history/43.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070eb750f04e80fe706a/master/w_900,c_limit/00040-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 40"
+  },
+  {
+    "target": "/images/brands/vetements/history/44.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070f06d8f8fec1879da4/master/w_900,c_limit/00041-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 41"
+  },
+  {
+    "target": "/images/brands/vetements/history/45.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0070f0f112dd4f77f7874/master/w_900,c_limit/00042-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 42"
+  },
+  {
+    "target": "/images/brands/vetements/history/46.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00710b66dc917107309f7/master/w_900,c_limit/00043-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 43"
+  },
+  {
+    "target": "/images/brands/vetements/history/47.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e007124c1e836ef07081ba/master/w_900,c_limit/00044-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 44"
+  },
+  {
+    "target": "/images/brands/vetements/history/48.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00712694730553cda3236/master/w_900,c_limit/00045-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 45"
+  },
+  {
+    "target": "/images/brands/vetements/history/49.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e007147b27e756ae6dcc1e/master/w_900,c_limit/00046-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 46"
+  },
+  {
+    "target": "/images/brands/vetements/history/50.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e0071429243e677a9b1c28/master/w_900,c_limit/00047-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 47"
+  },
+  {
+    "target": "/images/brands/vetements/history/51.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00715a2ce3f047d9871f6/master/w_900,c_limit/00048-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 48"
+  },
+  {
+    "target": "/images/brands/vetements/history/52.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e00717a2ce3f047d9871f8/master/w_900,c_limit/00049-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 49"
+  },
+  {
+    "target": "/images/brands/vetements/directors/2.webp",
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
+    "url": "https://assets.vogue.com/photos/68e007178cd3619306be3566/master/w_900,c_limit/00050-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 50"
   }
 ]
