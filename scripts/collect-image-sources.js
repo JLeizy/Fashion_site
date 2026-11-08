@@ -193,11 +193,24 @@ async function shopifyItems() {
       // Карточки каталога → handle товара; фото и название — из /products/<handle>.js (тот же источник, что у витрины)
       const found = await page.evaluate(async ({ vendor }) => {
         const hs = [...new Set([...document.querySelectorAll('a[href*="/products/"]')].map((a) => (a.pathname.match(/\/products\/([^/?#]+)/) || [])[1]).filter(Boolean))];
+        // Фото и подпись из карточки каталога — на случай, если /products/<handle>.js закрыт защитой от ботов (Supreme)
+        const tile = (h) => {
+          const a = [...document.querySelectorAll(`a[href*="/products/${h}"]`)].find((x) => x.querySelector('img'));
+          const img = a && a.querySelector('img');
+          if (!img) return null;
+          const src = img.currentSrc || img.src || '';
+          const name = img.alt || (src.split('/').pop() || '').replace(/_\d+x\.\w+.*$/, '').replace(/[_]+/g, ' ');
+          return { handle: h, title: name, type: '', images: [src] };
+        };
         const out = [];
         for (const h of hs.slice(0, 160)) {
           try {
             const r = await fetch(`/products/${h}.js`);
-            if (!r.ok) continue;
+            if (!r.ok) {
+              const t = tile(h);
+              if (t && t.images[0]) out.push(t);
+              continue;
+            }
             const j = await r.json();
             if (vendor && !String(j.vendor || '').toLowerCase().includes(vendor.toLowerCase())) continue;
             out.push({ handle: h, title: j.title, type: j.type, images: (j.images || []).slice(0, 2) });
@@ -219,11 +232,12 @@ async function shopifyItems() {
     .filter((f) => f.images.length)
     .map((f) => {
       const abs = (u) => {
-        const url = new URL(u.startsWith('//') ? `https:${u}` : u, base);
+        const url = new URL((u.startsWith('//') ? `https:${u}` : u).replace(/_\d+x(\.\w+)/, '$1'), base);
         url.searchParams.set('width', '900');
         return url.href;
       };
-      const slug = `${f.title} ${f.type || ''}`.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      // Подписи из имён файлов вида BBSimonFurBomber разбиваются на слова, чтобы сработало сопоставление по категории
+      const slug = `${f.title} ${f.type || ''}`.replace(/([a-z])([A-Z])/g, '$1 $2').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
       return { code: f.handle, slug, gender: 'unisex', page: `${base}/products/${f.handle}`, images: [abs(f.images[0]), abs(f.images[1] || f.images[0])] };
     });
 }
