@@ -25888,5 +25888,25 @@
     "bytes": 69146,
     "width": 600,
     "height": 900
+  },
+  "/images/brands/chrome-hearts/directors/1.webp": {
+    "kind": "director",
+    "page": "https://commons.wikimedia.org/wiki/File:Richard_Stark_on_the_House_floor_in_2017.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Richard_Stark_on_the_House_floor_in_2017.jpg/960px-Richard_Stark_on_the_House_floor_in_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "date": "2026-11-08",
+    "note": "Wikimedia Commons: Richard Stark",
+    "bytes": 22274,
+    "width": 600,
+    "height": 324
+  },
+  "/images/brands/chrome-hearts/directors/2.webp": {
+    "kind": "director",
+    "page": "https://www.chromehearts.com/intimates/ch-plus-tights/092826AI6XXXXXX.html",
+    "url": "https://www.chromehearts.com/dw/image/v2/bfbv_prd/on/demandware.static/-/Sites-ch-master-catalog/default/dw97dbe10e/img_products/407092826AI6SZ4003_0006.png?sw=900&sh=1125",
+    "date": "2026-11-08",
+    "note": "Портрета в открытых источниках нет — вещь бренда из официального магазина: ch-plus-tights-intimates-ch-plus-tights-092826ai6xxxxxx",
+    "bytes": 26866,
+    "width": 600,
+    "height": 750
   }
 }
