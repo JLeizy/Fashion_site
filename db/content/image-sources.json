@@ -2478,1238 +2478,6 @@
     "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 47"
   },
   {
-    "target": "/images/brands/maison-margiela/products/MMG-BOT-0001-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-tabi-ankle-boots/19347961",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M228005_1.jpg",
-    "note": "SSENSE: black-tabi-ankle-boots"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-BOT-0001-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-tabi-ankle-boots/19347961",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M228005_2.jpg",
-    "note": "SSENSE: black-tabi-ankle-boots"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-BOT-0002-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/taupe-tabi-ankle-boots/19731311",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M228010_1.jpg",
-    "note": "SSENSE: taupe-tabi-ankle-boots; цвет на фото не совпадает с «ivory»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-BOT-0002-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/taupe-tabi-ankle-boots/19731311",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M228010_2.jpg",
-    "note": "SSENSE: taupe-tabi-ankle-boots; цвет на фото не совпадает с «ivory»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-BOT-0003-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/burgundy-tabi-ankle-boots/19336221",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F113008_1.jpg",
-    "note": "SSENSE: burgundy-tabi-ankle-boots"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-BOT-0003-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/burgundy-tabi-ankle-boots/19336221",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F113008_2.jpg",
-    "note": "SSENSE: burgundy-tabi-ankle-boots"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HEL-0004-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-tabi-slingback-ballerina-flats/18764631",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F118010_1.jpg",
-    "note": "SSENSE: black-tabi-slingback-ballerina-flats"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HEL-0004-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-tabi-slingback-ballerina-flats/18764631",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F118010_2.jpg",
-    "note": "SSENSE: black-tabi-slingback-ballerina-flats"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HEL-0005-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/blue-and-gray-tabi-slingback-ballerina-flats/19246251",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F118014_1.jpg",
-    "note": "SSENSE: blue-and-gray-tabi-slingback-ballerina-flats; цвет на фото не совпадает с «pink»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HEL-0005-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/blue-and-gray-tabi-slingback-ballerina-flats/19246251",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F118014_2.jpg",
-    "note": "SSENSE: blue-and-gray-tabi-slingback-ballerina-flats; цвет на фото не совпадает с «pink»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-LOF-0006-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-tabi-loafers/19348481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M231006_1.jpg",
-    "note": "SSENSE: black-tabi-loafers"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-LOF-0006-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-tabi-loafers/19348481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M231006_2.jpg",
-    "note": "SSENSE: black-tabi-loafers"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-LOF-0007-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/burgundy-tabi-daily-mule-loafers/19348591",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M234002_1.jpg",
-    "note": "SSENSE: burgundy-tabi-daily-mule-loafers; цвет на фото не совпадает с «brown»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-LOF-0007-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/burgundy-tabi-daily-mule-loafers/19348591",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M234002_2.jpg",
-    "note": "SSENSE: burgundy-tabi-daily-mule-loafers; цвет на фото не совпадает с «brown»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0008-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-future-low-top-sneakers/19348171",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237002_1.jpg",
-    "note": "SSENSE: white-future-low-top-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0008-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-future-low-top-sneakers/19348171",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237002_2.jpg",
-    "note": "SSENSE: white-future-low-top-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0009-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-traveler-sneakers/19348261",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237006_1.jpg",
-    "note": "SSENSE: black-traveler-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0009-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-traveler-sneakers/19348261",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237006_2.jpg",
-    "note": "SSENSE: black-traveler-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0010-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-and-white-chalkboard-replica-sneakers/19731251",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237040_1.jpg",
-    "note": "SSENSE: black-and-white-chalkboard-replica-sneakers"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0010-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-and-white-chalkboard-replica-sneakers/19731251",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237040_2.jpg",
-    "note": "SSENSE: black-and-white-chalkboard-replica-sneakers"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0011-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/off-white-replica-sneakers/19348351",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237010_1.jpg",
-    "note": "SSENSE: off-white-replica-sneakers"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0011-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/off-white-replica-sneakers/19348351",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237010_2.jpg",
-    "note": "SSENSE: off-white-replica-sneakers"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0012-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-future-low-top-sneakers/19348141",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237001_1.jpg",
-    "note": "SSENSE: white-future-low-top-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0012-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-future-low-top-sneakers/19348141",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237001_2.jpg",
-    "note": "SSENSE: white-future-low-top-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0013-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-future-sneakers/19348271",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M236000_1.jpg",
-    "note": "SSENSE: black-future-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SNK-0013-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-future-sneakers/19348271",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M236000_2.jpg",
-    "note": "SSENSE: black-future-sneakers (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-CRB-0014-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-5ac-shoulder-east-west-bag/19337151",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F048004_1.jpg",
-    "note": "SSENSE: black-5ac-shoulder-east-west-bag (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-CRB-0014-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-5ac-shoulder-east-west-bag/19337151",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F048004_2.jpg",
-    "note": "SSENSE: black-5ac-shoulder-east-west-bag (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-CRB-0015-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-high-tech-computer-bag/19730731",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170010_1.jpg",
-    "note": "SSENSE: black-high-tech-computer-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-CRB-0015-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-high-tech-computer-bag/19730731",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170010_2.jpg",
-    "note": "SSENSE: black-high-tech-computer-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TOT-0016-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5ac-soft-medium-tote/19346851",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170004_1.jpg",
-    "note": "SSENSE: black-5ac-soft-medium-tote (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TOT-0016-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5ac-soft-medium-tote/19346851",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170004_2.jpg",
-    "note": "SSENSE: black-5ac-soft-medium-tote (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TOT-0017-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5ac-city-bag/19346881",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170006_1.jpg",
-    "note": "SSENSE: black-5ac-city-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TOT-0017-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5ac-city-bag/19346881",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170006_2.jpg",
-    "note": "SSENSE: black-5ac-city-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-CRB-0018-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-box-east-west-small-bag/19337181",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F048007_1.jpg",
-    "note": "SSENSE: black-box-east-west-small-bag (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-CRB-0018-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-box-east-west-small-bag/19337181",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F048007_2.jpg",
-    "note": "SSENSE: black-box-east-west-small-bag (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TSH-0019-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-distorted-logo-t-shirt/19349021",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M213003_1.jpg",
-    "note": "SSENSE: white-distorted-logo-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TSH-0019-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-distorted-logo-t-shirt/19349021",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M213003_2.jpg",
-    "note": "SSENSE: white-distorted-logo-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TSH-0020-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-logo-cotton-t-shirt/19731621",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M213010_1.jpg",
-    "note": "SSENSE: black-logo-cotton-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TSH-0020-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-logo-cotton-t-shirt/19731621",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M213010_2.jpg",
-    "note": "SSENSE: black-logo-cotton-t-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-JKT-0021-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-and-black-reversible-bomber-jacket/19349301",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M175000_1.jpg",
-    "note": "SSENSE: gray-and-black-reversible-bomber-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-JKT-0021-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-and-black-reversible-bomber-jacket/19349301",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M175000_2.jpg",
-    "note": "SSENSE: gray-and-black-reversible-bomber-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-JKT-0022-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/gray-and-black-reversible-bomber-jacket/19336741",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F058000_1.jpg",
-    "note": "SSENSE: gray-and-black-reversible-bomber-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-JKT-0022-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/gray-and-black-reversible-bomber-jacket/19336741",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F058000_2.jpg",
-    "note": "SSENSE: gray-and-black-reversible-bomber-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-COT-0023-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-belted-herringbone-wool-coat/19731581",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M176001_1.jpg",
-    "note": "SSENSE: brown-belted-herringbone-wool-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «camel»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-COT-0023-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-belted-herringbone-wool-coat/19731581",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M176001_2.jpg",
-    "note": "SSENSE: brown-belted-herringbone-wool-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «camel»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-COT-0024-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-double-breasted-coat/19336731",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F059001_1.jpg",
-    "note": "SSENSE: black-double-breasted-coat (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-COT-0024-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-double-breasted-coat/19336731",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F059001_2.jpg",
-    "note": "SSENSE: black-double-breasted-coat (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-COT-0025-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/taupe-cutout-collar-trench-coat/19246231",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F067003_1.jpg",
-    "note": "SSENSE: taupe-cutout-collar-trench-coat (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-COT-0025-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/taupe-cutout-collar-trench-coat/19246231",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F067003_2.jpg",
-    "note": "SSENSE: taupe-cutout-collar-trench-coat (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SWT-0026-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-elbow-patch-sweater/19731611",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202010_1.jpg",
-    "note": "SSENSE: brown-elbow-patch-sweater; цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SWT-0026-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-elbow-patch-sweater/19731611",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202010_2.jpg",
-    "note": "SSENSE: brown-elbow-patch-sweater; цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SWT-0027-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-blend-patch-sweater/19348781",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M201000_1.jpg",
-    "note": "SSENSE: gray-wool-blend-patch-sweater (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SWT-0027-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-blend-patch-sweater/19348781",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M201000_2.jpg",
-    "note": "SSENSE: gray-wool-blend-patch-sweater (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SWT-0028-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-contrast-shirt-sweater/18200211",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252168M202005_1.jpg",
-    "note": "SSENSE: black-contrast-shirt-sweater (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SWT-0028-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-contrast-shirt-sweater/18200211",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252168M202005_2.jpg",
-    "note": "SSENSE: black-contrast-shirt-sweater (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SWT-0029-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/navy-acid-knit-sweater/19731441",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M206001_1.jpg",
-    "note": "SSENSE: navy-acid-knit-sweater (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SWT-0029-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/navy-acid-knit-sweater/19731441",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M206001_2.jpg",
-    "note": "SSENSE: navy-acid-knit-sweater (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SHR-0030-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-and-blue-striped-cotton-shirt/19349171",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M192006_1.jpg",
-    "note": "SSENSE: white-and-blue-striped-cotton-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SHR-0030-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-and-blue-striped-cotton-shirt/19349171",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M192006_2.jpg",
-    "note": "SSENSE: white-and-blue-striped-cotton-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SHR-0031-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-cotton-shirt/19349151",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M192004_1.jpg",
-    "note": "SSENSE: black-cotton-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SHR-0031-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-cotton-shirt/19349151",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M192004_2.jpg",
-    "note": "SSENSE: black-cotton-shirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TRS-0032-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-wool-wide-leg-trousers/19731421",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M191013_1.jpg",
-    "note": "SSENSE: brown-wool-wide-leg-trousers; цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TRS-0032-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-wool-wide-leg-trousers/19731421",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M191013_2.jpg",
-    "note": "SSENSE: brown-wool-wide-leg-trousers; цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TRS-0033-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/navy-and-gray-two-tone-wool-trousers/19363421",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M191002_1.jpg",
-    "note": "SSENSE: navy-and-gray-two-tone-wool-trousers"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-TRS-0033-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/navy-and-gray-two-tone-wool-trousers/19363421",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M191002_2.jpg",
-    "note": "SSENSE: navy-and-gray-two-tone-wool-trousers"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-JNS-0034-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/blue-distressed-denim-jeans/19731391",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M186006_1.jpg",
-    "note": "SSENSE: blue-distressed-denim-jeans (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-JNS-0034-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/blue-distressed-denim-jeans/19731391",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M186006_2.jpg",
-    "note": "SSENSE: blue-distressed-denim-jeans (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-JNS-0035-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/blue-stone-bleached-denim-jeans/19731401",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M186007_1.jpg",
-    "note": "SSENSE: blue-stone-bleached-denim-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-JNS-0035-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/blue-stone-bleached-denim-jeans/19731401",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M186007_2.jpg",
-    "note": "SSENSE: blue-stone-bleached-denim-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-DRS-0036-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/pink-lace-slip-midi-dress/19336801",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F054002_1.jpg",
-    "note": "SSENSE: pink-lace-slip-midi-dress; цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-DRS-0036-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/pink-lace-slip-midi-dress/19336801",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F054002_2.jpg",
-    "note": "SSENSE: pink-lace-slip-midi-dress; цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SKT-0037-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-ribbed-knit-midi-skirt/18765611",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F092000_1.jpg",
-    "note": "SSENSE: black-ribbed-knit-midi-skirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SKT-0037-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-ribbed-knit-midi-skirt/18765611",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F092000_2.jpg",
-    "note": "SSENSE: black-ribbed-knit-midi-skirt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HOD-0039-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-reversed-logo-hoodie/19348931",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202006_1.jpg",
-    "note": "SSENSE: black-reversed-logo-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HOD-0039-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-reversed-logo-hoodie/19348931",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202006_2.jpg",
-    "note": "SSENSE: black-reversed-logo-hoodie (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HOD-0040-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-logo-hoodie/18179731",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252168F097000_1.jpg",
-    "note": "SSENSE: black-logo-hoodie (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HOD-0040-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-logo-hoodie/18179731",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252168F097000_2.jpg",
-    "note": "SSENSE: black-logo-hoodie (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SHT-0041-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/cluster-short-pendant-earrings/19336961",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F022003_1.jpg",
-    "note": "SSENSE: cluster-short-pendant-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SHT-0041-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/cluster-short-pendant-earrings/19336961",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F022003_2.jpg",
-    "note": "SSENSE: cluster-short-pendant-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-JKT-0042-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5-zip-leather-jacket/19349321",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M181002_1.jpg",
-    "note": "SSENSE: black-5-zip-leather-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-JKT-0042-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5-zip-leather-jacket/19349321",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M181002_2.jpg",
-    "note": "SSENSE: black-5-zip-leather-jacket (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-BLT-0043-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-calfskin-45-belt/19347811",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M131002_1.jpg",
-    "note": "SSENSE: black-calfskin-45-belt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-BLT-0043-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-calfskin-45-belt/19347811",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M131002_2.jpg",
-    "note": "SSENSE: black-calfskin-45-belt (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-WAL-0046-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-four-stitches-wallet/19730891",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M164017_1.jpg",
-    "note": "SSENSE: black-four-stitches-wallet"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-WAL-0046-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-four-stitches-wallet/19730891",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M164017_2.jpg",
-    "note": "SSENSE: black-four-stitches-wallet"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-WAL-0047-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/taupe-four-stitches-wallet/19347481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M164007_1.jpg",
-    "note": "SSENSE: taupe-four-stitches-wallet"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-WAL-0047-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/taupe-four-stitches-wallet/19347481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M164007_2.jpg",
-    "note": "SSENSE: taupe-four-stitches-wallet"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SCF-0048-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/blue-silk-scarf/19740111",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F029003_1.jpg",
-    "note": "SSENSE: blue-silk-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SCF-0048-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/blue-silk-scarf/19740111",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F029003_2.jpg",
-    "note": "SSENSE: blue-silk-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SCF-0049-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/beige-porcelain-doll-print-silk-scarf/19740101",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F029002_1.jpg",
-    "note": "SSENSE: beige-porcelain-doll-print-silk-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SCF-0049-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/beige-porcelain-doll-print-silk-scarf/19740101",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F029002_2.jpg",
-    "note": "SSENSE: beige-porcelain-doll-print-silk-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HAT-0051-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-beanie/19348651",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M138001_1.jpg",
-    "note": "SSENSE: gray-wool-beanie; цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HAT-0051-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-beanie/19348651",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M138001_2.jpg",
-    "note": "SSENSE: gray-wool-beanie; цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HAT-0052-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-beanie/19348641",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M138000_1.jpg",
-    "note": "SSENSE: gray-wool-beanie"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-HAT-0052-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-beanie/19348641",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M138000_2.jpg",
-    "note": "SSENSE: gray-wool-beanie"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-RNG-0053-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/numbers-ring/19346701",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147013_1.jpg",
-    "note": "SSENSE: numbers-ring; цвет на фото не совпадает с «silver»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-RNG-0053-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/numbers-ring/19346701",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147013_1.jpg",
-    "note": "SSENSE: numbers-ring; цвет на фото не совпадает с «silver» (второго ракурса нет — повторено первое фото)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-EAR-0054-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/chandelier-stud-earrings/19738851",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F022007_1.jpg",
-    "note": "SSENSE: chandelier-stud-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-EAR-0054-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/chandelier-stud-earrings/19738851",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F022007_2.jpg",
-    "note": "SSENSE: chandelier-stud-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-PND-0055-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/antiqued-wax-solitaire-necklace/19730481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M145007_1.jpg",
-    "note": "SSENSE: antiqued-wax-solitaire-necklace (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-PND-0055-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/antiqued-wax-solitaire-necklace/19730481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M145007_2.jpg",
-    "note": "SSENSE: antiqued-wax-solitaire-necklace (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-BRC-0056-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-cuff-bracelet/19346491",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M142003_1.jpg",
-    "note": "SSENSE: logo-reference-cuff-bracelet (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-BRC-0056-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-cuff-bracelet/19346491",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M142003_2.jpg",
-    "note": "SSENSE: logo-reference-cuff-bracelet (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SUI-0038-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/purple-4-stitch-zipped-hoodie/19348901",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202005_1.jpg",
-    "note": "www.ssense.com: purple-4-stitch-zipped-hoodie (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SUI-0038-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/purple-4-stitch-zipped-hoodie/19348901",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202005_2.jpg",
-    "note": "www.ssense.com: purple-4-stitch-zipped-hoodie (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SUN-0044-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-small-high-tech-messenger-bag/19730691",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170009_1.jpg",
-    "note": "www.ssense.com: black-small-high-tech-messenger-bag (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SUN-0044-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-small-high-tech-messenger-bag/19730691",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170009_2.jpg",
-    "note": "www.ssense.com: black-small-high-tech-messenger-bag (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SUN-0045-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-high-tech-medium-backpack/19730811",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M166003_1.jpg",
-    "note": "www.ssense.com: black-high-tech-medium-backpack (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-SUN-0045-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-high-tech-medium-backpack/19730811",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M166003_2.jpg",
-    "note": "www.ssense.com: black-high-tech-medium-backpack (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-GLV-0050-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-box-medium-bag/19730781",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170011_1.jpg",
-    "note": "www.ssense.com: black-box-medium-bag (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-GLV-0050-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-box-medium-bag/19730781",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170011_2.jpg",
-    "note": "www.ssense.com: black-box-medium-bag (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-PFU-0057-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-spoon-bag-charm/19730961",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M148014_1.jpg",
-    "note": "www.ssense.com: black-spoon-bag-charm (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-PFU-0057-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-spoon-bag-charm/19730961",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M148014_2.jpg",
-    "note": "www.ssense.com: black-spoon-bag-charm (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-PFU-0058-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/numeric-diamond-pendant-necklace/19346541",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M145004_1.jpg",
-    "note": "www.ssense.com: numeric-diamond-pendant-necklace (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-PFU-0058-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/numeric-diamond-pendant-necklace/19346541",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M145004_2.jpg",
-    "note": "www.ssense.com: numeric-diamond-pendant-necklace (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-PFM-0059-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-ring/19346661",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147009_1.jpg",
-    "note": "www.ssense.com: logo-reference-ring (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-PFM-0059-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-ring/19346661",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147009_1.jpg",
-    "note": "www.ssense.com: logo-reference-ring (вещь бренда из официального магазина, не эта модель) (второго ракурса нет — повторено первое фото)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-PFW-0060-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-ring/19346671",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147010_1.jpg",
-    "note": "www.ssense.com: logo-reference-ring (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/products/MMG-PFW-0060-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-ring/19346671",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147010_1.jpg",
-    "note": "www.ssense.com: logo-reference-ring (вещь бренда из официального магазина, не эта модель) (второго ракурса нет — повторено первое фото)"
-  },
-  {
-    "target": "/images/brands/maison-margiela/collections/artisanal-2025.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/fall-2025-couture/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/686f80d95bb0a26ef93394cf/master/w_900,c_limit/00001-maison-margiela-fall-2025-couture-credit-gorunway.jpg",
-    "note": "Vogue Runway, fall-2025-couture, образ 1"
-  },
-  {
-    "target": "/images/brands/maison-margiela/collections/co-ed-spring-summer-2025.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fdd6a1db7b4ac77b8b4/master/w_900,c_limit/00001-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/maison-margiela/collections/fall-winter-2026.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/69cd2fe13fe35bf39be9fc89/master/w_900,c_limit/00001-maison-margiela-fall-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/maison-margiela/collections/spring-summer-2026.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fdd6a1db7b4ac77b8b4/master/w_900,c_limit/00001-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/maison-margiela/hero.webp",
-    "kind": "hero",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fdd6a1db7b4ac77b8b4/master/w_1600,c_limit/00001-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/banners/maison-margiela.webp",
-    "kind": "banner",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fde5d2354609a44a64e/master/w_1600,c_limit/00002-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 2"
-  },
-  {
-    "target": "/images/brands/maison-margiela/directors/3.webp",
-    "kind": "director",
-    "page": "https://en.wikipedia.org/wiki/John_Galliano",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/John_Galliano_-_d%C3%A9fil%C3%A9_Christian_Dior_-_25_juin_2010_%28cropped%29.png/960px-John_Galliano_-_d%C3%A9fil%C3%A9_Christian_Dior_-_25_juin_2010_%28cropped%29.png",
-    "note": "Википедия: John Galliano"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/1.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fde42a85ebe5ec460c0/master/w_900,c_limit/00003-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 3"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/2.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fe1c6626e6f95208de4/master/w_900,c_limit/00004-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 4"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/3.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fe151cb83d89e283197/master/w_900,c_limit/00005-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 5"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/4.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fe13d178100fe8f3ff1/master/w_900,c_limit/00006-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 6"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/5.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fe4a3479dc87749e8d5/master/w_900,c_limit/00007-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 7"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/6.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fe51f68e683ea2e16c4/master/w_900,c_limit/00008-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 8"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/7.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fe57248375310415c52/master/w_900,c_limit/00009-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 9"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/8.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fe739a01419ae03797d/master/w_900,c_limit/00010-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 10"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/9.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fe8989311c21046360c/master/w_900,c_limit/00011-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 11"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/10.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fe8989311c21046360e/master/w_900,c_limit/00012-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 12"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/11.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20feac7e4cad8be2a1b64/master/w_900,c_limit/00013-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 13"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/12.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20feca3479dc87749e8d7/master/w_900,c_limit/00014-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 14"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/13.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20feb39a01419ae03797f/master/w_900,c_limit/00015-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 15"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/14.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20feeb750f04e80fe7f08/master/w_900,c_limit/00016-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 16"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/15.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fef36a867a051064234/master/w_900,c_limit/00017-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 17"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/16.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fef3cf18b7344af158e/master/w_900,c_limit/00018-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 18"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/17.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ff0eee6c85df18be7fa/master/w_900,c_limit/00019-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 19"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/18.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ff2c6626e6f95208de7/master/w_900,c_limit/00020-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 20"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/19.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ff20dfe251f14ec6327/master/w_900,c_limit/00021-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 21"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/20.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ff3a59b7c4e10835a64/master/w_900,c_limit/00022-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 22"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/21.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ff55dd4f5bc70cc6816/master/w_900,c_limit/00023-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 23"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/22.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ff551cb83d89e283199/master/w_900,c_limit/00024-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 24"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/23.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ff74eea215299d7cfb5/master/w_900,c_limit/00025-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 25"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/24.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ff7577450c74892b7ff/master/w_900,c_limit/00026-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 26"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/25.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ff839a01419ae037981/master/w_900,c_limit/00027-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 27"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/26.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ffa7aac57869b0108ea/master/w_900,c_limit/00028-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 28"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/27.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ffa4ccf5988f3901b97/master/w_900,c_limit/00029-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 29"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/28.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ffc728e38de3604f248/master/w_900,c_limit/00030-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 30"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/29.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ffcaa8cadebe7d8dea1/master/w_900,c_limit/00031-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 31"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/30.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20ffd3cf18b7344af1590/master/w_900,c_limit/00032-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 32"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/31.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e20fffaeed0745abb3b4cd/master/w_900,c_limit/00033-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 33"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/32.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e2100061afab260bbb627e/master/w_900,c_limit/00034-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 34"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/33.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e210001f68e683ea2e16c6/master/w_900,c_limit/00035-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 35"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/34.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e2100239a01419ae037983/master/w_900,c_limit/00036-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 36"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/35.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e210046a1db7b4ac77b8b7/master/w_900,c_limit/00037-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 37"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/36.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e21003aa8cadebe7d8dea3/master/w_900,c_limit/00038-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 38"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/37.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e21005577450c74892b801/master/w_900,c_limit/00039-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 39"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/38.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e21007c5f2c64694bc7a93/master/w_900,c_limit/00040-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 40"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/39.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e2100842a85ebe5ec460c2/master/w_900,c_limit/00041-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 41"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/40.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e21008f427aa3df286954a/master/w_900,c_limit/00042-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 42"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/41.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e2100aeee6c85df18be7fc/master/w_900,c_limit/00043-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 43"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/42.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e2100b39a01419ae037985/master/w_900,c_limit/00044-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 44"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/43.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e2100c1603eb3f4fda8805/master/w_900,c_limit/00045-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 45"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/44.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e2100dc7e4cad8be2a1b66/master/w_900,c_limit/00046-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 46"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/45.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e2100e5253713f38c28220/master/w_900,c_limit/00047-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 47"
-  },
-  {
-    "target": "/images/brands/maison-margiela/history/46.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e2100f18168981adb8eb70/master/w_900,c_limit/00048-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 48"
-  },
-  {
-    "target": "/images/brands/maison-margiela/directors/1.webp",
-    "kind": "director",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e2101070bf01d0febb4c50/master/w_900,c_limit/00049-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 49"
-  },
-  {
-    "target": "/images/brands/maison-margiela/directors/2.webp",
-    "kind": "director",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e21011af6d1ceb0a1e8521/master/w_900,c_limit/00050-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 50"
-  },
-  {
-    "target": "/images/brands/maison-margiela/directors/4.webp",
-    "kind": "director",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
-    "url": "https://assets.vogue.com/photos/68e21011a84aa62deab2fadc/master/w_900,c_limit/00051-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
-    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 51"
-  },
-  {
     "target": "/images/brands/chanel/products/CHA-CRB-0001-1.webp",
     "kind": "product",
     "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/chanel/slideshow/details",
@@ -18254,5 +17022,1237 @@
     "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
     "url": "https://assets.vogue.com/photos/6ab6b0afe4ae2bd07764cddc/master/w_900,c_limit/00026-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
     "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2027-ready-to-wear, образ 26"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-BOT-0001-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-tabi-ankle-boots/19347961",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M228005_1.jpg",
+    "note": "SSENSE: black-tabi-ankle-boots"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-BOT-0001-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-tabi-ankle-boots/19347961",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M228005_2.jpg",
+    "note": "SSENSE: black-tabi-ankle-boots"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-BOT-0002-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/taupe-tabi-ankle-boots/19731311",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M228010_1.jpg",
+    "note": "SSENSE: taupe-tabi-ankle-boots; цвет на фото не совпадает с «ivory»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-BOT-0002-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/taupe-tabi-ankle-boots/19731311",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M228010_2.jpg",
+    "note": "SSENSE: taupe-tabi-ankle-boots; цвет на фото не совпадает с «ivory»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-BOT-0003-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/burgundy-tabi-ankle-boots/19336221",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F113008_1.jpg",
+    "note": "SSENSE: burgundy-tabi-ankle-boots"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-BOT-0003-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/burgundy-tabi-ankle-boots/19336221",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F113008_2.jpg",
+    "note": "SSENSE: burgundy-tabi-ankle-boots"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HEL-0004-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-tabi-slingback-ballerina-flats/18764631",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F118010_1.jpg",
+    "note": "SSENSE: black-tabi-slingback-ballerina-flats"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HEL-0004-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-tabi-slingback-ballerina-flats/18764631",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F118010_2.jpg",
+    "note": "SSENSE: black-tabi-slingback-ballerina-flats"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HEL-0005-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/blue-and-gray-tabi-slingback-ballerina-flats/19246251",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F118014_1.jpg",
+    "note": "SSENSE: blue-and-gray-tabi-slingback-ballerina-flats; цвет на фото не совпадает с «pink»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HEL-0005-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/blue-and-gray-tabi-slingback-ballerina-flats/19246251",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F118014_2.jpg",
+    "note": "SSENSE: blue-and-gray-tabi-slingback-ballerina-flats; цвет на фото не совпадает с «pink»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-LOF-0006-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-tabi-loafers/19348481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M231006_1.jpg",
+    "note": "SSENSE: black-tabi-loafers"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-LOF-0006-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-tabi-loafers/19348481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M231006_2.jpg",
+    "note": "SSENSE: black-tabi-loafers"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-LOF-0007-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/burgundy-tabi-daily-mule-loafers/19348591",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M234002_1.jpg",
+    "note": "SSENSE: burgundy-tabi-daily-mule-loafers; цвет на фото не совпадает с «brown»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-LOF-0007-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/burgundy-tabi-daily-mule-loafers/19348591",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M234002_2.jpg",
+    "note": "SSENSE: burgundy-tabi-daily-mule-loafers; цвет на фото не совпадает с «brown»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0008-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-future-low-top-sneakers/19348171",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237002_1.jpg",
+    "note": "SSENSE: white-future-low-top-sneakers (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0008-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-future-low-top-sneakers/19348171",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237002_2.jpg",
+    "note": "SSENSE: white-future-low-top-sneakers (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0009-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-traveler-sneakers/19348261",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237006_1.jpg",
+    "note": "SSENSE: black-traveler-sneakers (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0009-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-traveler-sneakers/19348261",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237006_2.jpg",
+    "note": "SSENSE: black-traveler-sneakers (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0010-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-and-white-chalkboard-replica-sneakers/19731251",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237040_1.jpg",
+    "note": "SSENSE: black-and-white-chalkboard-replica-sneakers"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0010-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-and-white-chalkboard-replica-sneakers/19731251",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237040_2.jpg",
+    "note": "SSENSE: black-and-white-chalkboard-replica-sneakers"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0011-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/off-white-replica-sneakers/19348351",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237010_1.jpg",
+    "note": "SSENSE: off-white-replica-sneakers"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0011-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/off-white-replica-sneakers/19348351",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237010_2.jpg",
+    "note": "SSENSE: off-white-replica-sneakers"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0012-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-future-low-top-sneakers/19348141",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237001_1.jpg",
+    "note": "SSENSE: white-future-low-top-sneakers (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0012-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-future-low-top-sneakers/19348141",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M237001_2.jpg",
+    "note": "SSENSE: white-future-low-top-sneakers (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0013-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-future-sneakers/19348271",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M236000_1.jpg",
+    "note": "SSENSE: black-future-sneakers (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SNK-0013-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-future-sneakers/19348271",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M236000_2.jpg",
+    "note": "SSENSE: black-future-sneakers (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-CRB-0014-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-5ac-shoulder-east-west-bag/19337151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F048004_1.jpg",
+    "note": "SSENSE: black-5ac-shoulder-east-west-bag (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-CRB-0014-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-5ac-shoulder-east-west-bag/19337151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F048004_2.jpg",
+    "note": "SSENSE: black-5ac-shoulder-east-west-bag (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-CRB-0015-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-high-tech-computer-bag/19730731",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170010_1.jpg",
+    "note": "SSENSE: black-high-tech-computer-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-CRB-0015-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-high-tech-computer-bag/19730731",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170010_2.jpg",
+    "note": "SSENSE: black-high-tech-computer-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «white»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TOT-0016-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5ac-soft-medium-tote/19346851",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170004_1.jpg",
+    "note": "SSENSE: black-5ac-soft-medium-tote (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TOT-0016-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5ac-soft-medium-tote/19346851",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170004_2.jpg",
+    "note": "SSENSE: black-5ac-soft-medium-tote (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TOT-0017-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5ac-city-bag/19346881",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170006_1.jpg",
+    "note": "SSENSE: black-5ac-city-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TOT-0017-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5ac-city-bag/19346881",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170006_2.jpg",
+    "note": "SSENSE: black-5ac-city-bag (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-CRB-0018-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-box-east-west-small-bag/19337181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F048007_1.jpg",
+    "note": "SSENSE: black-box-east-west-small-bag (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-CRB-0018-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-box-east-west-small-bag/19337181",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F048007_2.jpg",
+    "note": "SSENSE: black-box-east-west-small-bag (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TSH-0019-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-distorted-logo-t-shirt/19349021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M213003_1.jpg",
+    "note": "SSENSE: white-distorted-logo-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TSH-0019-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-distorted-logo-t-shirt/19349021",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M213003_2.jpg",
+    "note": "SSENSE: white-distorted-logo-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TSH-0020-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-logo-cotton-t-shirt/19731621",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M213010_1.jpg",
+    "note": "SSENSE: black-logo-cotton-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TSH-0020-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-logo-cotton-t-shirt/19731621",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M213010_2.jpg",
+    "note": "SSENSE: black-logo-cotton-t-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-JKT-0021-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-and-black-reversible-bomber-jacket/19349301",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M175000_1.jpg",
+    "note": "SSENSE: gray-and-black-reversible-bomber-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-JKT-0021-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-and-black-reversible-bomber-jacket/19349301",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M175000_2.jpg",
+    "note": "SSENSE: gray-and-black-reversible-bomber-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-JKT-0022-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/gray-and-black-reversible-bomber-jacket/19336741",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F058000_1.jpg",
+    "note": "SSENSE: gray-and-black-reversible-bomber-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-JKT-0022-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/gray-and-black-reversible-bomber-jacket/19336741",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F058000_2.jpg",
+    "note": "SSENSE: gray-and-black-reversible-bomber-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-COT-0023-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-belted-herringbone-wool-coat/19731581",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M176001_1.jpg",
+    "note": "SSENSE: brown-belted-herringbone-wool-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «camel»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-COT-0023-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-belted-herringbone-wool-coat/19731581",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M176001_2.jpg",
+    "note": "SSENSE: brown-belted-herringbone-wool-coat (ближайшая вещь той же категории); цвет на фото не совпадает с «camel»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-COT-0024-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-double-breasted-coat/19336731",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F059001_1.jpg",
+    "note": "SSENSE: black-double-breasted-coat (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-COT-0024-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-double-breasted-coat/19336731",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F059001_2.jpg",
+    "note": "SSENSE: black-double-breasted-coat (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-COT-0025-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/taupe-cutout-collar-trench-coat/19246231",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F067003_1.jpg",
+    "note": "SSENSE: taupe-cutout-collar-trench-coat (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-COT-0025-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/taupe-cutout-collar-trench-coat/19246231",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F067003_2.jpg",
+    "note": "SSENSE: taupe-cutout-collar-trench-coat (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SWT-0026-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-elbow-patch-sweater/19731611",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202010_1.jpg",
+    "note": "SSENSE: brown-elbow-patch-sweater; цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SWT-0026-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-elbow-patch-sweater/19731611",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202010_2.jpg",
+    "note": "SSENSE: brown-elbow-patch-sweater; цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SWT-0027-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-blend-patch-sweater/19348781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M201000_1.jpg",
+    "note": "SSENSE: gray-wool-blend-patch-sweater (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SWT-0027-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-blend-patch-sweater/19348781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M201000_2.jpg",
+    "note": "SSENSE: gray-wool-blend-patch-sweater (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SWT-0028-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-contrast-shirt-sweater/18200211",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252168M202005_1.jpg",
+    "note": "SSENSE: black-contrast-shirt-sweater (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SWT-0028-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-contrast-shirt-sweater/18200211",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252168M202005_2.jpg",
+    "note": "SSENSE: black-contrast-shirt-sweater (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SWT-0029-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/navy-acid-knit-sweater/19731441",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M206001_1.jpg",
+    "note": "SSENSE: navy-acid-knit-sweater (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SWT-0029-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/navy-acid-knit-sweater/19731441",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M206001_2.jpg",
+    "note": "SSENSE: navy-acid-knit-sweater (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SHR-0030-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-and-blue-striped-cotton-shirt/19349171",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M192006_1.jpg",
+    "note": "SSENSE: white-and-blue-striped-cotton-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SHR-0030-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/white-and-blue-striped-cotton-shirt/19349171",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M192006_2.jpg",
+    "note": "SSENSE: white-and-blue-striped-cotton-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SHR-0031-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-cotton-shirt/19349151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M192004_1.jpg",
+    "note": "SSENSE: black-cotton-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SHR-0031-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-cotton-shirt/19349151",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M192004_2.jpg",
+    "note": "SSENSE: black-cotton-shirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TRS-0032-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-wool-wide-leg-trousers/19731421",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M191013_1.jpg",
+    "note": "SSENSE: brown-wool-wide-leg-trousers; цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TRS-0032-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/brown-wool-wide-leg-trousers/19731421",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M191013_2.jpg",
+    "note": "SSENSE: brown-wool-wide-leg-trousers; цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TRS-0033-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/navy-and-gray-two-tone-wool-trousers/19363421",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M191002_1.jpg",
+    "note": "SSENSE: navy-and-gray-two-tone-wool-trousers"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-TRS-0033-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/navy-and-gray-two-tone-wool-trousers/19363421",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M191002_2.jpg",
+    "note": "SSENSE: navy-and-gray-two-tone-wool-trousers"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-JNS-0034-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/blue-distressed-denim-jeans/19731391",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M186006_1.jpg",
+    "note": "SSENSE: blue-distressed-denim-jeans (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-JNS-0034-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/blue-distressed-denim-jeans/19731391",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M186006_2.jpg",
+    "note": "SSENSE: blue-distressed-denim-jeans (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-JNS-0035-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/blue-stone-bleached-denim-jeans/19731401",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M186007_1.jpg",
+    "note": "SSENSE: blue-stone-bleached-denim-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-JNS-0035-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/blue-stone-bleached-denim-jeans/19731401",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M186007_2.jpg",
+    "note": "SSENSE: blue-stone-bleached-denim-jeans (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-DRS-0036-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/pink-lace-slip-midi-dress/19336801",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F054002_1.jpg",
+    "note": "SSENSE: pink-lace-slip-midi-dress; цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-DRS-0036-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/pink-lace-slip-midi-dress/19336801",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F054002_2.jpg",
+    "note": "SSENSE: pink-lace-slip-midi-dress; цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SKT-0037-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-ribbed-knit-midi-skirt/18765611",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F092000_1.jpg",
+    "note": "SSENSE: black-ribbed-knit-midi-skirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SKT-0037-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-ribbed-knit-midi-skirt/18765611",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261168F092000_2.jpg",
+    "note": "SSENSE: black-ribbed-knit-midi-skirt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HOD-0039-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-reversed-logo-hoodie/19348931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202006_1.jpg",
+    "note": "SSENSE: black-reversed-logo-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HOD-0039-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-reversed-logo-hoodie/19348931",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202006_2.jpg",
+    "note": "SSENSE: black-reversed-logo-hoodie (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HOD-0040-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-logo-hoodie/18179731",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252168F097000_1.jpg",
+    "note": "SSENSE: black-logo-hoodie (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HOD-0040-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/black-logo-hoodie/18179731",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252168F097000_2.jpg",
+    "note": "SSENSE: black-logo-hoodie (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SHT-0041-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/cluster-short-pendant-earrings/19336961",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F022003_1.jpg",
+    "note": "SSENSE: cluster-short-pendant-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SHT-0041-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/cluster-short-pendant-earrings/19336961",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F022003_2.jpg",
+    "note": "SSENSE: cluster-short-pendant-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-JKT-0042-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5-zip-leather-jacket/19349321",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M181002_1.jpg",
+    "note": "SSENSE: black-5-zip-leather-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-JKT-0042-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-5-zip-leather-jacket/19349321",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M181002_2.jpg",
+    "note": "SSENSE: black-5-zip-leather-jacket (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-BLT-0043-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-calfskin-45-belt/19347811",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M131002_1.jpg",
+    "note": "SSENSE: black-calfskin-45-belt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-BLT-0043-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-calfskin-45-belt/19347811",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M131002_2.jpg",
+    "note": "SSENSE: black-calfskin-45-belt (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-WAL-0046-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-four-stitches-wallet/19730891",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M164017_1.jpg",
+    "note": "SSENSE: black-four-stitches-wallet"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-WAL-0046-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-four-stitches-wallet/19730891",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M164017_2.jpg",
+    "note": "SSENSE: black-four-stitches-wallet"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-WAL-0047-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/taupe-four-stitches-wallet/19347481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M164007_1.jpg",
+    "note": "SSENSE: taupe-four-stitches-wallet"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-WAL-0047-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/taupe-four-stitches-wallet/19347481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M164007_2.jpg",
+    "note": "SSENSE: taupe-four-stitches-wallet"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SCF-0048-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/blue-silk-scarf/19740111",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F029003_1.jpg",
+    "note": "SSENSE: blue-silk-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SCF-0048-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/blue-silk-scarf/19740111",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F029003_2.jpg",
+    "note": "SSENSE: blue-silk-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SCF-0049-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/beige-porcelain-doll-print-silk-scarf/19740101",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F029002_1.jpg",
+    "note": "SSENSE: beige-porcelain-doll-print-silk-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SCF-0049-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/beige-porcelain-doll-print-silk-scarf/19740101",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F029002_2.jpg",
+    "note": "SSENSE: beige-porcelain-doll-print-silk-scarf (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HAT-0051-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-beanie/19348651",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M138001_1.jpg",
+    "note": "SSENSE: gray-wool-beanie; цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HAT-0051-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-beanie/19348651",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M138001_2.jpg",
+    "note": "SSENSE: gray-wool-beanie; цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HAT-0052-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-beanie/19348641",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M138000_1.jpg",
+    "note": "SSENSE: gray-wool-beanie"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-HAT-0052-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/gray-wool-beanie/19348641",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M138000_2.jpg",
+    "note": "SSENSE: gray-wool-beanie"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-RNG-0053-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/numbers-ring/19346701",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147013_1.jpg",
+    "note": "SSENSE: numbers-ring; цвет на фото не совпадает с «silver»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-RNG-0053-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/numbers-ring/19346701",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147013_2.jpg",
+    "note": "SSENSE: numbers-ring; цвет на фото не совпадает с «silver»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-EAR-0054-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/chandelier-stud-earrings/19738851",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F022007_1.jpg",
+    "note": "SSENSE: chandelier-stud-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-EAR-0054-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/maison-margiela/chandelier-stud-earrings/19738851",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168F022007_2.jpg",
+    "note": "SSENSE: chandelier-stud-earrings (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-PND-0055-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/antiqued-wax-solitaire-necklace/19730481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M145007_1.jpg",
+    "note": "SSENSE: antiqued-wax-solitaire-necklace (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-PND-0055-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/antiqued-wax-solitaire-necklace/19730481",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M145007_2.jpg",
+    "note": "SSENSE: antiqued-wax-solitaire-necklace (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-BRC-0056-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-cuff-bracelet/19346491",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M142003_1.jpg",
+    "note": "SSENSE: logo-reference-cuff-bracelet (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-BRC-0056-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-cuff-bracelet/19346491",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M142003_2.jpg",
+    "note": "SSENSE: logo-reference-cuff-bracelet (ближайшая вещь той же категории); цвет на фото не совпадает с «silver»"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SUI-0038-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/purple-4-stitch-zipped-hoodie/19348901",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202005_1.jpg",
+    "note": "www.ssense.com: purple-4-stitch-zipped-hoodie (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SUI-0038-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/purple-4-stitch-zipped-hoodie/19348901",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M202005_2.jpg",
+    "note": "www.ssense.com: purple-4-stitch-zipped-hoodie (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SUN-0044-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-small-high-tech-messenger-bag/19730691",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170009_1.jpg",
+    "note": "www.ssense.com: black-small-high-tech-messenger-bag (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SUN-0044-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-small-high-tech-messenger-bag/19730691",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170009_2.jpg",
+    "note": "www.ssense.com: black-small-high-tech-messenger-bag (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SUN-0045-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-high-tech-medium-backpack/19730811",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M166003_1.jpg",
+    "note": "www.ssense.com: black-high-tech-medium-backpack (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-SUN-0045-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-high-tech-medium-backpack/19730811",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M166003_2.jpg",
+    "note": "www.ssense.com: black-high-tech-medium-backpack (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-GLV-0050-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-box-medium-bag/19730781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170011_1.jpg",
+    "note": "www.ssense.com: black-box-medium-bag (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-GLV-0050-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-box-medium-bag/19730781",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M170011_2.jpg",
+    "note": "www.ssense.com: black-box-medium-bag (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-PFU-0057-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-spoon-bag-charm/19730961",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M148014_1.jpg",
+    "note": "www.ssense.com: black-spoon-bag-charm (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-PFU-0057-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-spoon-bag-charm/19730961",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M148014_2.jpg",
+    "note": "www.ssense.com: black-spoon-bag-charm (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-PFU-0058-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/numeric-diamond-pendant-necklace/19346541",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M145004_1.jpg",
+    "note": "www.ssense.com: numeric-diamond-pendant-necklace (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-PFU-0058-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/numeric-diamond-pendant-necklace/19346541",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M145004_2.jpg",
+    "note": "www.ssense.com: numeric-diamond-pendant-necklace (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-PFM-0059-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-ring/19346661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147009_1.jpg",
+    "note": "www.ssense.com: logo-reference-ring (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-PFM-0059-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-ring/19346661",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147009_2.jpg",
+    "note": "www.ssense.com: logo-reference-ring (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-PFW-0060-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-ring/19346671",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147010_1.jpg",
+    "note": "www.ssense.com: logo-reference-ring (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/products/MMG-PFW-0060-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/maison-margiela/logo-reference-ring/19346671",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262168M147010_2.jpg",
+    "note": "www.ssense.com: logo-reference-ring (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/maison-margiela/collections/artisanal-2025.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-couture/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/686f80d95bb0a26ef93394cf/master/w_900,c_limit/00001-maison-margiela-fall-2025-couture-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2025-couture, образ 1"
+  },
+  {
+    "target": "/images/brands/maison-margiela/collections/co-ed-spring-summer-2025.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fdd6a1db7b4ac77b8b4/master/w_900,c_limit/00001-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/maison-margiela/collections/fall-winter-2026.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/69cd2fe13fe35bf39be9fc89/master/w_900,c_limit/00001-maison-margiela-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/maison-margiela/collections/spring-summer-2026.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fdd6a1db7b4ac77b8b4/master/w_900,c_limit/00001-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/maison-margiela/hero.webp",
+    "kind": "hero",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fdd6a1db7b4ac77b8b4/master/w_1600,c_limit/00001-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/banners/maison-margiela.webp",
+    "kind": "banner",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fde5d2354609a44a64e/master/w_1600,c_limit/00002-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 2"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/1.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fde42a85ebe5ec460c0/master/w_900,c_limit/00003-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 3"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/2.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fe1c6626e6f95208de4/master/w_900,c_limit/00004-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 4"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/3.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fe151cb83d89e283197/master/w_900,c_limit/00005-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 5"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/4.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fe13d178100fe8f3ff1/master/w_900,c_limit/00006-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 6"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/5.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fe4a3479dc87749e8d5/master/w_900,c_limit/00007-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 7"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/6.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fe51f68e683ea2e16c4/master/w_900,c_limit/00008-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 8"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/7.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fe57248375310415c52/master/w_900,c_limit/00009-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 9"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/8.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fe739a01419ae03797d/master/w_900,c_limit/00010-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 10"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/9.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fe8989311c21046360c/master/w_900,c_limit/00011-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 11"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/10.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fe8989311c21046360e/master/w_900,c_limit/00012-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 12"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/11.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20feac7e4cad8be2a1b64/master/w_900,c_limit/00013-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 13"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/12.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20feca3479dc87749e8d7/master/w_900,c_limit/00014-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 14"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/13.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20feb39a01419ae03797f/master/w_900,c_limit/00015-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 15"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/14.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20feeb750f04e80fe7f08/master/w_900,c_limit/00016-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 16"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/15.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fef36a867a051064234/master/w_900,c_limit/00017-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 17"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/16.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fef3cf18b7344af158e/master/w_900,c_limit/00018-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 18"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/17.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ff0eee6c85df18be7fa/master/w_900,c_limit/00019-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 19"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/18.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ff2c6626e6f95208de7/master/w_900,c_limit/00020-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 20"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/19.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ff20dfe251f14ec6327/master/w_900,c_limit/00021-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 21"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/20.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ff3a59b7c4e10835a64/master/w_900,c_limit/00022-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 22"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/21.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ff55dd4f5bc70cc6816/master/w_900,c_limit/00023-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 23"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/22.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ff551cb83d89e283199/master/w_900,c_limit/00024-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 24"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/23.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ff74eea215299d7cfb5/master/w_900,c_limit/00025-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 25"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/24.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ff7577450c74892b7ff/master/w_900,c_limit/00026-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 26"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/25.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ff839a01419ae037981/master/w_900,c_limit/00027-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 27"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/26.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ffa7aac57869b0108ea/master/w_900,c_limit/00028-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 28"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/27.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ffa4ccf5988f3901b97/master/w_900,c_limit/00029-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 29"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/28.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ffc728e38de3604f248/master/w_900,c_limit/00030-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 30"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/29.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ffcaa8cadebe7d8dea1/master/w_900,c_limit/00031-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 31"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/30.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20ffd3cf18b7344af1590/master/w_900,c_limit/00032-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 32"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/31.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e20fffaeed0745abb3b4cd/master/w_900,c_limit/00033-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 33"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/32.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e2100061afab260bbb627e/master/w_900,c_limit/00034-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 34"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/33.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e210001f68e683ea2e16c6/master/w_900,c_limit/00035-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 35"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/34.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e2100239a01419ae037983/master/w_900,c_limit/00036-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 36"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/35.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e210046a1db7b4ac77b8b7/master/w_900,c_limit/00037-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 37"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/36.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e21003aa8cadebe7d8dea3/master/w_900,c_limit/00038-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 38"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/37.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e21005577450c74892b801/master/w_900,c_limit/00039-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 39"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/38.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e21007c5f2c64694bc7a93/master/w_900,c_limit/00040-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 40"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/39.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e2100842a85ebe5ec460c2/master/w_900,c_limit/00041-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 41"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/40.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e21008f427aa3df286954a/master/w_900,c_limit/00042-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 42"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/41.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e2100aeee6c85df18be7fc/master/w_900,c_limit/00043-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 43"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/42.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e2100b39a01419ae037985/master/w_900,c_limit/00044-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 44"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/43.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e2100c1603eb3f4fda8805/master/w_900,c_limit/00045-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 45"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/44.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e2100dc7e4cad8be2a1b66/master/w_900,c_limit/00046-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 46"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/45.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e2100e5253713f38c28220/master/w_900,c_limit/00047-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 47"
+  },
+  {
+    "target": "/images/brands/maison-margiela/history/46.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e2100f18168981adb8eb70/master/w_900,c_limit/00048-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 48"
+  },
+  {
+    "target": "/images/brands/maison-margiela/directors/1.webp",
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e2101070bf01d0febb4c50/master/w_900,c_limit/00049-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 49"
+  },
+  {
+    "target": "/images/brands/maison-margiela/directors/2.webp",
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e21011af6d1ceb0a1e8521/master/w_900,c_limit/00050-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 50"
+  },
+  {
+    "target": "/images/brands/maison-margiela/directors/3.webp",
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e21011a84aa62deab2fadc/master/w_900,c_limit/00051-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 51"
+  },
+  {
+    "target": "/images/brands/maison-margiela/directors/4.webp",
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/maison-martin-margiela",
+    "url": "https://assets.vogue.com/photos/68e2101339a01419ae037987/master/w_900,c_limit/00052-maison-margiela-spring-2026-ready-to-wear-credit-gorunway.jpg",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 52"
   }
 ]
