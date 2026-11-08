@@ -10997,1266 +10997,6 @@
     "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 52"
   },
   {
-    "target": "/images/brands/supreme/products/SUP-HOD-0001-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/aq2awcar5uc9hkkj",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_HeatherGrey.jpg?v=1793638853&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-heather-grey (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HOD-0001-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/aq2awcar5uc9hkkj",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_HeatherGrey.jpg?v=1793638853&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-heather-grey (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HOD-0002-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/fllzxczzbp-euinf",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Black.jpg?v=1793638883&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HOD-0002-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/fllzxczzbp-euinf",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Black.jpg?v=1793638883&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HOD-0003-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/vte07-okwy8xv-l",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Cardinal.jpg?v=1793638872&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-cardinal (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HOD-0003-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/vte07-okwy8xv-l",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Cardinal.jpg?v=1793638872&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-cardinal (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HOD-0004-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/y6t3ou81ddpu-jfg",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Navy.jpg?v=1793638836&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-navy (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HOD-0004-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/y6t3ou81ddpu-jfg",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Navy.jpg?v=1793638836&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-navy (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TSH-0005-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/l2ximvrxra-jkvoo",
-    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_White01.jpg?v=1793637153&width=900",
-    "note": "us.supreme.com: supreme-vaquera-bra-tee-white (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TSH-0005-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/l2ximvrxra-jkvoo",
-    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_White01.jpg?v=1793637153&width=900",
-    "note": "us.supreme.com: supreme-vaquera-bra-tee-white (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TSH-0006-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/vqv-q791pzb0fz3m",
-    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_Black01.jpg?v=1793637138&width=900",
-    "note": "us.supreme.com: supreme-vaquera-bra-tee-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TSH-0006-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/vqv-q791pzb0fz3m",
-    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_Black01.jpg?v=1793637138&width=900",
-    "note": "us.supreme.com: supreme-vaquera-bra-tee-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TSH-0007-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/hmws2dg-aviwunrt",
-    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_Fuschia01.jpg?v=1793637145&width=900",
-    "note": "us.supreme.com: supreme-vaquera-bra-tee-fuchsia (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TSH-0007-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/hmws2dg-aviwunrt",
-    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_Fuschia01.jpg?v=1793637145&width=900",
-    "note": "us.supreme.com: supreme-vaquera-bra-tee-fuchsia (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TSH-0008-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/do-l2b2ufbemcu3",
-    "url": "https://us.supreme.com/cdn/shop/files/T34_FW26_MannequinTee_White02.jpg?v=1793637200&width=900",
-    "note": "us.supreme.com: supreme-vaquera-mannequin-tee-white (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TSH-0008-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/do-l2b2ufbemcu3",
-    "url": "https://us.supreme.com/cdn/shop/files/T34_FW26_MannequinTee_White02.jpg?v=1793637200&width=900",
-    "note": "us.supreme.com: supreme-vaquera-mannequin-tee-white (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TSH-0009-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/7owb4ehoqcvusow5",
-    "url": "https://us.supreme.com/cdn/shop/files/T34_FW26_MannequinTee_Black02.jpg?v=1793637184&width=900",
-    "note": "us.supreme.com: supreme-vaquera-mannequin-tee-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TSH-0009-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/7owb4ehoqcvusow5",
-    "url": "https://us.supreme.com/cdn/shop/files/T34_FW26_MannequinTee_Black02.jpg?v=1793637184&width=900",
-    "note": "us.supreme.com: supreme-vaquera-mannequin-tee-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HOD-0010-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/phih1l3izrmebhd",
-    "url": "https://us.supreme.com/cdn/shop/files/SW54_FW26_VaqueraLipsZipUp_AshGrey02.jpg?v=1793637295&width=900",
-    "note": "us.supreme.com: supreme-vaquera-kisses-zip-up-hooded-sweatshirt-ash-grey (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HOD-0010-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/phih1l3izrmebhd",
-    "url": "https://us.supreme.com/cdn/shop/files/SW54_FW26_VaqueraLipsZipUp_AshGrey02.jpg?v=1793637295&width=900",
-    "note": "us.supreme.com: supreme-vaquera-kisses-zip-up-hooded-sweatshirt-ash-grey (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HOD-0011-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/evnlnfpvao3gfszw",
-    "url": "https://us.supreme.com/cdn/shop/files/SW5_FW26_VaqueraZipUp_NewNavy01.jpg?v=1793637264&width=900",
-    "note": "us.supreme.com: supreme-vaquera-christ-zip-up-hooded-sweatshirt-navy (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HOD-0011-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/evnlnfpvao3gfszw",
-    "url": "https://us.supreme.com/cdn/shop/files/SW5_FW26_VaqueraZipUp_NewNavy01.jpg?v=1793637264&width=900",
-    "note": "us.supreme.com: supreme-vaquera-christ-zip-up-hooded-sweatshirt-navy (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0012-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/r9relkv4_qj-4-sz",
-    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_Black01.jpg?v=1793637908&width=900",
-    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0012-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/r9relkv4_qj-4-sz",
-    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_Black01.jpg?v=1793637908&width=900",
-    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0013-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/bxuumn-8xnh2ihx",
-    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_OffWhite01.jpg?v=1793637893&width=900",
-    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-white (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0013-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/bxuumn-8xnh2ihx",
-    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_OffWhite01.jpg?v=1793637893&width=900",
-    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-white (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0014-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/saljh85b9sg5dnf",
-    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Pink01_1000df1e-0ee1-48b1-a825-3e8e2c719a85.jpg?v=1793804280&width=900",
-    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-pink (ближайшая вещь той же категории); цвет на фото не совпадает с «beige»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0014-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/saljh85b9sg5dnf",
-    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Pink01_1000df1e-0ee1-48b1-a825-3e8e2c719a85.jpg?v=1793804280&width=900",
-    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-pink (ближайшая вещь той же категории); цвет на фото не совпадает с «beige»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0015-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/e13o24o1-rop-0lr",
-    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Black01_8dea87f3-1c65-40dd-80bc-365dc552cf8a.jpg?v=1793804298&width=900",
-    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0015-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/e13o24o1-rop-0lr",
-    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Black01_8dea87f3-1c65-40dd-80bc-365dc552cf8a.jpg?v=1793804298&width=900",
-    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0016-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/n8cgbe8kbttiiokg",
-    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_Green01.jpg?v=1793637646&width=900",
-    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-olive (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0016-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/n8cgbe8kbttiiokg",
-    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_Green01.jpg?v=1793637646&width=900",
-    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-olive (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0017-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/lgz-qcdy1olq-pf",
-    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_BlackFloral01.jpg?v=1793637661&width=900",
-    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-floral (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JKT-0017-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/lgz-qcdy1olq-pf",
-    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_BlackFloral01.jpg?v=1793637661&width=900",
-    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-floral (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TRS-0018-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/wlag4tq03wmujpce",
-    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_PredatorCamo01.jpg?v=1793639033&width=900",
-    "note": "us.supreme.com: small-box-sweatpant-predator-camo (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TRS-0018-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/wlag4tq03wmujpce",
-    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_PredatorCamo01.jpg?v=1793639033&width=900",
-    "note": "us.supreme.com: small-box-sweatpant-predator-camo (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TRS-0019-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/0-nzng9s-hzbcq4m",
-    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_Cardinal01.jpg?v=1793639125&width=900",
-    "note": "us.supreme.com: small-box-sweatpant-cardinal (ближайшая вещь той же категории); цвет на фото не совпадает с «khaki»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TRS-0019-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/0-nzng9s-hzbcq4m",
-    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_Cardinal01.jpg?v=1793639125&width=900",
-    "note": "us.supreme.com: small-box-sweatpant-cardinal (ближайшая вещь той же категории); цвет на фото не совпадает с «khaki»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JNS-0020-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/ub_srjzeyaabuymx",
-    "url": "https://us.supreme.com/cdn/shop/files/P25_FW26_BaggyJean_LightWashedIndigo01.jpg?v=1788191000&width=900",
-    "note": "us.supreme.com: baggy-jean-light-washed-indigo; цвет на фото не совпадает с «blue»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JNS-0020-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/ub_srjzeyaabuymx",
-    "url": "https://us.supreme.com/cdn/shop/files/P25_FW26_BaggyJean_LightWashedIndigo01.jpg?v=1788191000&width=900",
-    "note": "us.supreme.com: baggy-jean-light-washed-indigo; цвет на фото не совпадает с «blue»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JNS-0021-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/zauhwzxgv-ftwltg",
-    "url": "https://us.supreme.com/cdn/shop/files/P25_FW26_BaggyJean_Black01.jpg?v=1788190931&width=900",
-    "note": "us.supreme.com: baggy-jean-black"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-JNS-0021-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/zauhwzxgv-ftwltg",
-    "url": "https://us.supreme.com/cdn/shop/files/P25_FW26_BaggyJean_Black01.jpg?v=1788190931&width=900",
-    "note": "us.supreme.com: baggy-jean-black"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TRS-0022-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/bg5wiwylhnq-v4_2",
-    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_HeatherGrey01.jpg?v=1793639070&width=900",
-    "note": "us.supreme.com: small-box-sweatpant-heather-grey"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TRS-0022-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/bg5wiwylhnq-v4_2",
-    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_HeatherGrey01.jpg?v=1793639070&width=900",
-    "note": "us.supreme.com: small-box-sweatpant-heather-grey"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TRS-0023-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/gq8c0qkai3qmjhvb",
-    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_Black01.jpg?v=1793639150&width=900",
-    "note": "us.supreme.com: small-box-sweatpant-black"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TRS-0023-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/gq8c0qkai3qmjhvb",
-    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_Black01.jpg?v=1793639150&width=900",
-    "note": "us.supreme.com: small-box-sweatpant-black"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SHT-0024-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/3vxfhvju9qgmvyds",
-    "url": "https://us.supreme.com/cdn/shop/files/SH5_FW26_DragonJacquardSoccerShort_Black01_Reshoot.jpg?v=1793026695&width=900",
-    "note": "us.supreme.com: supreme-meissen-jacquard-soccer-short-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SHT-0024-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/3vxfhvju9qgmvyds",
-    "url": "https://us.supreme.com/cdn/shop/files/SH5_FW26_DragonJacquardSoccerShort_Black01_Reshoot.jpg?v=1793026695&width=900",
-    "note": "us.supreme.com: supreme-meissen-jacquard-soccer-short-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SHT-0025-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/ln8isj5bh_augzcz",
-    "url": "https://us.supreme.com/cdn/shop/files/SH11_FW26_VaqueraShort_White01.jpg?v=1793637045&width=900",
-    "note": "us.supreme.com: supreme-vaquera-basketball-short-white (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SHT-0025-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/ln8isj5bh_augzcz",
-    "url": "https://us.supreme.com/cdn/shop/files/SH11_FW26_VaqueraShort_White01.jpg?v=1793637045&width=900",
-    "note": "us.supreme.com: supreme-vaquera-basketball-short-white (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SHR-0026-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/j3gisam7wsd-pthk",
-    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_PinkPlaid01.jpg?v=1791215267&width=900",
-    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-pink (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SHR-0026-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/j3gisam7wsd-pthk",
-    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_PinkPlaid01.jpg?v=1791215267&width=900",
-    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-pink (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SHR-0027-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/upmbtaordayb0co5",
-    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_BlackPlaid01.jpg?v=1791215279&width=900",
-    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-black (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SHR-0027-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/upmbtaordayb0co5",
-    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_BlackPlaid01.jpg?v=1791215279&width=900",
-    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-black (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SWT-0028-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/uxnsut2li4iemij8",
-    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Black.jpg?v=1793638197&width=900",
-    "note": "us.supreme.com: textured-sweater-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SWT-0028-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/uxnsut2li4iemij8",
-    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Black.jpg?v=1793638197&width=900",
-    "note": "us.supreme.com: textured-sweater-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SWT-0029-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/g2elu9xwrwqmqgme",
-    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Olive.jpg?v=1793638176&width=900",
-    "note": "us.supreme.com: textured-sweater-olive (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SWT-0029-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/g2elu9xwrwqmqgme",
-    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Olive.jpg?v=1793638176&width=900",
-    "note": "us.supreme.com: textured-sweater-olive (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HAT-0030-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/di8gml-dolb57ecj",
-    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_Black01.jpg?v=1793026365&width=900",
-    "note": "us.supreme.com: whipstitch-camp-cap-black"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HAT-0030-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/di8gml-dolb57ecj",
-    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_Black01.jpg?v=1793026365&width=900",
-    "note": "us.supreme.com: whipstitch-camp-cap-black"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HAT-0031-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/6me5prc_mp5lqeww",
-    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_Red01.jpg?v=1793026343&width=900",
-    "note": "us.supreme.com: whipstitch-camp-cap-red"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HAT-0031-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/6me5prc_mp5lqeww",
-    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_Red01.jpg?v=1793026343&width=900",
-    "note": "us.supreme.com: whipstitch-camp-cap-red"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HAT-0032-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/xt5yzv7cz72ficjh",
-    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Red01.jpg?v=1793640043&width=900",
-    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-red (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HAT-0032-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/xt5yzv7cz72ficjh",
-    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Red01.jpg?v=1793640043&width=900",
-    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-red (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HAT-0033-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/x7-nyauv7mh-rmsw",
-    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Black01.jpg?v=1793640085&width=900",
-    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-HAT-0033-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/x7-nyauv7mh-rmsw",
-    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Black01.jpg?v=1793640085&width=900",
-    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-black (ближайшая вещь той же категории)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-CRB-0034-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/4lm0w0dhtm8hgrna",
-    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BrownSilverLogo07.jpg?v=1786984230&width=900",
-    "note": "us.supreme.com: mini-shoulder-bag-brown; цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-CRB-0034-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/4lm0w0dhtm8hgrna",
-    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BrownSilverLogo07.jpg?v=1786984230&width=900",
-    "note": "us.supreme.com: mini-shoulder-bag-brown; цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-CRB-0035-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/c9q7qjqgnz0qxtlg",
-    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_RedSilverLogo07.jpg?v=1786984277&width=900",
-    "note": "us.supreme.com: mini-shoulder-bag-red"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-CRB-0035-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/c9q7qjqgnz0qxtlg",
-    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_RedSilverLogo07.jpg?v=1786984277&width=900",
-    "note": "us.supreme.com: mini-shoulder-bag-red"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-CRB-0038-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/5juolooevcihbviq",
-    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BlueSilverLogo07.jpg?v=1786984215&width=900",
-    "note": "us.supreme.com: mini-shoulder-bag-light-blue (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-CRB-0038-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/5juolooevcihbviq",
-    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BlueSilverLogo07.jpg?v=1786984215&width=900",
-    "note": "us.supreme.com: mini-shoulder-bag-light-blue (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SHR-0060-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/spftcpuly-eb9yno",
-    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Stripe02.jpg?v=1793638026&width=900",
-    "note": "us.supreme.com: eyelet-s-s-work-shirt-stripe (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SHR-0060-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/spftcpuly-eb9yno",
-    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Stripe02.jpg?v=1793638026&width=900",
-    "note": "us.supreme.com: eyelet-s-s-work-shirt-stripe (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BPK-0036-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/ijxw1kr-n29cte_t",
-    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_Navy01.jpg?v=1793026335&width=900",
-    "note": "us.supreme.com: whipstitch-camp-cap-navy (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BPK-0036-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/ijxw1kr-n29cte_t",
-    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_Navy01.jpg?v=1793026335&width=900",
-    "note": "us.supreme.com: whipstitch-camp-cap-navy (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BPK-0037-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/oldnzyydnelvt4-r",
-    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_LightOlive01.jpg?v=1793026327&width=900",
-    "note": "us.supreme.com: whipstitch-camp-cap-light-olive (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BPK-0037-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/oldnzyydnelvt4-r",
-    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_LightOlive01.jpg?v=1793026327&width=900",
-    "note": "us.supreme.com: whipstitch-camp-cap-light-olive (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TOT-0039-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/4lm0w0dhtm8hgrna",
-    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BrownSilverLogo07.jpg?v=1786984230&width=900",
-    "note": "us.supreme.com: mini-shoulder-bag-brown (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TOT-0039-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/4lm0w0dhtm8hgrna",
-    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BrownSilverLogo07.jpg?v=1786984230&width=900",
-    "note": "us.supreme.com: mini-shoulder-bag-brown (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TOT-0040-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/c9q7qjqgnz0qxtlg",
-    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_RedSilverLogo07.jpg?v=1786984277&width=900",
-    "note": "us.supreme.com: mini-shoulder-bag-red (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-TOT-0040-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/c9q7qjqgnz0qxtlg",
-    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_RedSilverLogo07.jpg?v=1786984277&width=900",
-    "note": "us.supreme.com: mini-shoulder-bag-red (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SNK-0041-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/y0-gwms2e-qfikpb",
-    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Olive01.jpg?v=1793640050&width=900",
-    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-olive (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SNK-0041-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/y0-gwms2e-qfikpb",
-    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Olive01.jpg?v=1793640050&width=900",
-    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-olive (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SNK-0042-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/_hkcmeac1b-pqgs1",
-    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_HeatherGrey01_211394b9-62b9-4f26-876b-d24bfab9e2e9.jpg?v=1793640107&width=900",
-    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-heather-grey (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SNK-0042-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/_hkcmeac1b-pqgs1",
-    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_HeatherGrey01_211394b9-62b9-4f26-876b-d24bfab9e2e9.jpg?v=1793640107&width=900",
-    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-heather-grey (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SNK-0043-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/2hwe4dmmfkgoioje",
-    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Slate01.jpg?v=1793640028&width=900",
-    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-slate (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SNK-0043-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/2hwe4dmmfkgoioje",
-    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Slate01.jpg?v=1793640028&width=900",
-    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-slate (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SNK-0044-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/9q9vfzaijrth6-ec",
-    "url": "https://us.supreme.com/cdn/shop/files/BN59_FW26_HimalayaCufflessBN_Multi_JP.jpg?v=1793639937&width=900",
-    "note": "us.supreme.com: diamond-beanie-navy (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SNK-0044-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/9q9vfzaijrth6-ec",
-    "url": "https://us.supreme.com/cdn/shop/files/BN59_FW26_HimalayaCufflessBN_Multi_JP.jpg?v=1793639937&width=900",
-    "note": "us.supreme.com: diamond-beanie-navy (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BOT-0045-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/p0oed95fry2agddl",
-    "url": "https://us.supreme.com/cdn/shop/files/BN59_FW26_HimalayaCufflessBN_Pink_JP_70cf91e2-1108-474c-87f7-63b1b79fa52d.jpg?v=1793639965&width=900",
-    "note": "us.supreme.com: diamond-beanie-pink (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BOT-0045-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/p0oed95fry2agddl",
-    "url": "https://us.supreme.com/cdn/shop/files/BN59_FW26_HimalayaCufflessBN_Pink_JP_70cf91e2-1108-474c-87f7-63b1b79fa52d.jpg?v=1793639965&width=900",
-    "note": "us.supreme.com: diamond-beanie-pink (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BOT-0046-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/bgifpwgtf_awch9l",
-    "url": "https://us.supreme.com/cdn/shop/files/BN59_FW26_HimalayaCufflessBN_Black_JP.jpg?v=1793639899&width=900",
-    "note": "us.supreme.com: diamond-beanie-black (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BOT-0046-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/bgifpwgtf_awch9l",
-    "url": "https://us.supreme.com/cdn/shop/files/BN59_FW26_HimalayaCufflessBN_Black_JP.jpg?v=1793639899&width=900",
-    "note": "us.supreme.com: diamond-beanie-black (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BLT-0047-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/_ml_ik8otscbioge",
-    "url": "https://us.supreme.com/cdn/shop/files/BN59_FW26_HimalayaCufflessBN_OffWhite_Reshoot.jpg?v=1793639909&width=900",
-    "note": "us.supreme.com: diamond-beanie-cream (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BLT-0047-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/_ml_ik8otscbioge",
-    "url": "https://us.supreme.com/cdn/shop/files/BN59_FW26_HimalayaCufflessBN_OffWhite_Reshoot.jpg?v=1793639909&width=900",
-    "note": "us.supreme.com: diamond-beanie-cream (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BLT-0048-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/m-r5bolut9l7f-wl",
-    "url": "https://us.supreme.com/cdn/shop/files/BN52_FW26_CrownBN_Black01_Reshoot.jpg?v=1793026071&width=900",
-    "note": "us.supreme.com: crown-beanie-black (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-BLT-0048-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/m-r5bolut9l7f-wl",
-    "url": "https://us.supreme.com/cdn/shop/files/BN52_FW26_CrownBN_Black01_Reshoot.jpg?v=1793026071&width=900",
-    "note": "us.supreme.com: crown-beanie-black (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SUN-0049-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/ytykaav7xvfc19g3",
-    "url": "https://us.supreme.com/cdn/shop/files/BN52_FW26_CrownBN_Orange01_Reshoot.jpg?v=1793026048&width=900",
-    "note": "us.supreme.com: crown-beanie-orange (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SUN-0049-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/ytykaav7xvfc19g3",
-    "url": "https://us.supreme.com/cdn/shop/files/BN52_FW26_CrownBN_Orange01_Reshoot.jpg?v=1793026048&width=900",
-    "note": "us.supreme.com: crown-beanie-orange (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SUN-0050-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/lmhwatepvpxh-bhy",
-    "url": "https://us.supreme.com/cdn/shop/files/BN52_FW26_CrownBN_HeatherGrey01_Reshoot.jpg?v=1793026056&width=900",
-    "note": "us.supreme.com: crown-beanie-heather-grey (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SUN-0050-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/lmhwatepvpxh-bhy",
-    "url": "https://us.supreme.com/cdn/shop/files/BN52_FW26_CrownBN_HeatherGrey01_Reshoot.jpg?v=1793026056&width=900",
-    "note": "us.supreme.com: crown-beanie-heather-grey (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-PND-0051-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/4nzzjhyky-offm5w",
-    "url": "https://us.supreme.com/cdn/shop/files/BN52_FW26_CrownBN_Royal01_Reshoot.jpg?v=1793026038&width=900",
-    "note": "us.supreme.com: crown-beanie-royal (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-PND-0051-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/4nzzjhyky-offm5w",
-    "url": "https://us.supreme.com/cdn/shop/files/BN52_FW26_CrownBN_Royal01_Reshoot.jpg?v=1793026038&width=900",
-    "note": "us.supreme.com: crown-beanie-royal (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-CHN-0052-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/fqzxjwdfhukxohnh",
-    "url": "https://us.supreme.com/cdn/shop/files/BN52_FW26_CrownBN_BrightPink01_Reshoot.jpg?v=1793026064&width=900",
-    "note": "us.supreme.com: crown-beanie-pink (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-CHN-0052-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/fqzxjwdfhukxohnh",
-    "url": "https://us.supreme.com/cdn/shop/files/BN52_FW26_CrownBN_BrightPink01_Reshoot.jpg?v=1793026064&width=900",
-    "note": "us.supreme.com: crown-beanie-pink (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-CHN-0053-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/wfjfisqkcur8gmf2",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_BlackReflective01.jpg?v=1789398490&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-black-reflective (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-CHN-0053-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/wfjfisqkcur8gmf2",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_BlackReflective01.jpg?v=1789398490&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-black-reflective (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-RNG-0054-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/tw-srj0t-eij71",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_NeonPurple_5c87983f-f33f-40c2-9a52-20671bf8b525.jpg?v=1789398514&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-purple (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-RNG-0054-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/tw-srj0t-eij71",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_NeonPurple_5c87983f-f33f-40c2-9a52-20671bf8b525.jpg?v=1789398514&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-purple (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-GLV-0055-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/hiahbjid8y-e7gcc",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_Yellow.jpg?v=1789398423&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-yellow (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-GLV-0055-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/hiahbjid8y-e7gcc",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_Yellow.jpg?v=1789398423&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-yellow (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SCF-0056-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/vud-6eqfinl3hxnk",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_Black.jpg?v=1789398495&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-black (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SCF-0056-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/vud-6eqfinl3hxnk",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_Black.jpg?v=1789398495&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-black (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SCF-0057-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/h7d1wdyojbkuqwro",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_PinkReflective01.jpg?v=1789398451&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-pink-reflective (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-SCF-0057-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/h7d1wdyojbkuqwro",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_PinkReflective01.jpg?v=1789398451&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-pink-reflective (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-WAL-0058-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/x0mrr4vayzh-wvzc",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_Olive.jpg?v=1789398457&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-olive (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-WAL-0058-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/x0mrr4vayzh-wvzc",
-    "url": "https://us.supreme.com/cdn/shop/files/BN10_FW26_LooseGaugeBN_Olive.jpg?v=1789398457&width=900",
-    "note": "us.supreme.com: loose-gauge-beanie-olive (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-COT-0059-1.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/uzvk5w-vcycnalba",
-    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Navy02.jpg?v=1793638037&width=900",
-    "note": "us.supreme.com: eyelet-s-s-work-shirt-navy (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/products/SUP-COT-0059-2.webp",
-    "kind": "product",
-    "page": "https://us.supreme.com/products/uzvk5w-vcycnalba",
-    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Navy02.jpg?v=1793638037&width=900",
-    "note": "us.supreme.com: eyelet-s-s-work-shirt-navy (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/supreme/directors/1.webp",
-    "kind": "director",
-    "page": "https://en.wikipedia.org/wiki/James_Jebbia",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/James_Jebbia.jpg/960px-James_Jebbia.jpg",
-    "note": "Википедия: James Jebbia"
-  },
-  {
-    "target": "/images/brands/supreme/directors/2.webp",
-    "kind": "director",
-    "page": "https://us.supreme.com/products/uzvk5w-vcycnalba",
-    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Navy02.jpg?v=1793638037&width=900",
-    "note": "Портрета в открытых источниках нет — вещь бренда из официального магазина: eyelet-s-s-work-shirt-navy"
-  },
-  {
-    "target": "/images/brands/supreme/collections/fall-winter-2025.webp",
-    "kind": "collection",
-    "page": "https://us.supreme.com/products/r9relkv4_qj-4-sz",
-    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_Black01.jpg?v=1793637908&width=900",
-    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/collections/spring-summer-2025.webp",
-    "kind": "collection",
-    "page": "https://us.supreme.com/products/bxuumn-8xnh2ihx",
-    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_OffWhite01.jpg?v=1793637893&width=900",
-    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-white (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/collections/fall-winter-2026.webp",
-    "kind": "collection",
-    "page": "https://us.supreme.com/products/e13o24o1-rop-0lr",
-    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Black01_8dea87f3-1c65-40dd-80bc-365dc552cf8a.jpg?v=1793804298&width=900",
-    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/collections/spring-summer-2026.webp",
-    "kind": "collection",
-    "page": "https://us.supreme.com/products/saljh85b9sg5dnf",
-    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Pink01_1000df1e-0ee1-48b1-a825-3e8e2c719a85.jpg?v=1793804280&width=900",
-    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-pink (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/hero.webp",
-    "kind": "hero",
-    "page": "https://us.supreme.com/products/n8cgbe8kbttiiokg",
-    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_Green01.jpg?v=1793637646&width=900",
-    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-olive (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/1.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/lgz-qcdy1olq-pf",
-    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_BlackFloral01.jpg?v=1793637661&width=900",
-    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-floral (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/2.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/spftcpuly-eb9yno",
-    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Stripe02.jpg?v=1793638026&width=900",
-    "note": "us.supreme.com: eyelet-s-s-work-shirt-stripe (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/3.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/uzvk5w-vcycnalba",
-    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Navy02.jpg?v=1793638037&width=900",
-    "note": "us.supreme.com: eyelet-s-s-work-shirt-navy (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/4.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/j3gisam7wsd-pthk",
-    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_PinkPlaid01.jpg?v=1791215267&width=900",
-    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-pink (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/5.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/upmbtaordayb0co5",
-    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_BlackPlaid01.jpg?v=1791215279&width=900",
-    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/6.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/x8kknwjfsv7wo-gz",
-    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_BrownPlaid01.jpg?v=1791215306&width=900",
-    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-brown (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/7.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/r3zjirgobzjwy5dq",
-    "url": "https://us.supreme.com/cdn/shop/files/S40_FW26_ThermalLinedZipPlaid_Blue01.jpg?v=1793026819&width=900",
-    "note": "us.supreme.com: thermal-lined-hooded-flannel-zip-up-shirt-blue (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/8.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/mviwqwaytlky6cui",
-    "url": "https://us.supreme.com/cdn/shop/files/S40_FW26_ThermalLinedZipPlaid_Black01.jpg?v=1793026832&width=900",
-    "note": "us.supreme.com: thermal-lined-hooded-flannel-zip-up-shirt-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/9.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/wmxkm_jmtmntcb33",
-    "url": "https://us.supreme.com/cdn/shop/files/S40_FW26_ThermalLinedZipPlaid_Brown01.jpg?v=1793026807&width=900",
-    "note": "us.supreme.com: thermal-lined-hooded-flannel-zip-up-shirt-brown (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/10.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/kdi5mnxmc3-o5dtm",
-    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_DirtyWash.jpg?v=1789398078&width=900",
-    "note": "us.supreme.com: small-box-shirt-light-washed-indigo-denim (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/11.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/sfbjd-oi4tipaszk",
-    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_BlackDenim.jpg?v=1789398104&width=900",
-    "note": "us.supreme.com: small-box-shirt-black-denim (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/12.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/fopudbb7diaeaeqp",
-    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_BlackWatch.jpg?v=1789398095&width=900",
-    "note": "us.supreme.com: small-box-shirt-plaid (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/13.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/4a0vdqg_7qzpo4qe",
-    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_Tan.jpg?v=1789398053&width=900",
-    "note": "us.supreme.com: small-box-shirt-tan (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/14.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/dhf0ry2wagzjxwoq",
-    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_Camo.jpg?v=1789398085&width=900",
-    "note": "us.supreme.com: small-box-shirt-woodland-camo (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/15.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/jkkuoiylwxdogsbz",
-    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_Pink.jpg?v=1789398064&width=900",
-    "note": "us.supreme.com: small-box-shirt-pink (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/16.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/c2dlke-rbac07kda",
-    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_WhiteDenim.jpg?v=1789398040&width=900",
-    "note": "us.supreme.com: small-box-shirt-white-denim (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/17.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/g2elu9xwrwqmqgme",
-    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Olive.jpg?v=1793638176&width=900",
-    "note": "us.supreme.com: textured-sweater-olive (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/18.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/bl5cv7asptthpvdn",
-    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Lt.Blue.jpg?v=1793638185&width=900",
-    "note": "us.supreme.com: textured-sweater-light-blue (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/19.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/mohnterahia90q7t",
-    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Pink.jpg?v=1793638129&width=900",
-    "note": "us.supreme.com: textured-sweater-pink (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/20.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/uxnsut2li4iemij8",
-    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Black.jpg?v=1793638197&width=900",
-    "note": "us.supreme.com: textured-sweater-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/21.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/zlxftej80b2zx-cs",
-    "url": "https://us.supreme.com/cdn/shop/files/SK4_FW26_LurexFairIsleCardigan_Brown.jpg?v=1792423483&width=900",
-    "note": "us.supreme.com: metallic-fair-isle-cardigan-brown (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/22.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/gddvshr0gzopybrz",
-    "url": "https://us.supreme.com/cdn/shop/files/SK4_FW26_LurexFairIsleCardigan_Pink.jpg?v=1792423470&width=900",
-    "note": "us.supreme.com: metallic-fair-isle-cardigan-pink (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/23.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/qto2q-9msn7r42al",
-    "url": "https://us.supreme.com/cdn/shop/files/SK4_FW26_LurexFairIsleCardigan_Black.jpg?v=1792423498&width=900",
-    "note": "us.supreme.com: metallic-fair-isle-cardigan-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/24.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/hifch4lnlzh-nxsb",
-    "url": "https://us.supreme.com/cdn/shop/files/SK23_FW26_BoucleSmallBoxSweater_WhiteMelange.jpg?v=1793027289&width=900",
-    "note": "us.supreme.com: boucl-small-box-sweater-multicolor (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/25.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/qnqcaja3chjrucn",
-    "url": "https://us.supreme.com/cdn/shop/files/SK23_FW26_BoucleSmallBoxSweater_SolidBlack.jpg?v=1793027319&width=900",
-    "note": "us.supreme.com: boucl-small-box-sweater-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/26.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/9jt_j9lyzmfawt9p",
-    "url": "https://us.supreme.com/cdn/shop/files/SK23_FW26_BoucleSmallBoxSweater_SolidBrown.jpg?v=1793027308&width=900",
-    "note": "us.supreme.com: boucl-small-box-sweater-brown (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/27.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/o1xtx7pi_cum8xhd",
-    "url": "https://us.supreme.com/cdn/shop/files/SK23_FW26_BoucleSmallBoxSweater_SolidHearherGrey.jpg?v=1793027302&width=900",
-    "note": "us.supreme.com: boucl-small-box-sweater-grey (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/28.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/cxv8iatd1a-4yawq",
-    "url": "https://us.supreme.com/cdn/shop/files/SK23_FW26_BoucleSmallBoxSweater_SolidLt.Blue.jpg?v=1793027295&width=900",
-    "note": "us.supreme.com: boucl-small-box-sweater-blue (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/29.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/z1xpe9ob7i43ln3r",
-    "url": "https://us.supreme.com/cdn/shop/files/KN48_FW26_VaqueraPrintedLSTop_Lt.Green01.jpg?v=1793637445&width=900",
-    "note": "us.supreme.com: supreme-vaquera-collage-l-s-top-green (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/30.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/myn-kgaxnzpefydo",
-    "url": "https://us.supreme.com/cdn/shop/files/KN48_FW26_VaqueraPrintedLSTop_OffWhite01.jpg?v=1793637426&width=900",
-    "note": "us.supreme.com: supreme-vaquera-collage-l-s-top-white (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/31.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/padxoxv97njeduad",
-    "url": "https://us.supreme.com/cdn/shop/files/KN48_FW26_VaqueraPrintedLSTop_WashedBlack01.jpg?v=1793637411&width=900",
-    "note": "us.supreme.com: supreme-vaquera-collage-l-s-top-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/32.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/tm5eto-jmf203erp",
-    "url": "https://us.supreme.com/cdn/shop/files/KN73_FW26_StarsBaseballJersey_Navy01_Reshoot.jpg?v=1793638292&width=900",
-    "note": "us.supreme.com: stars-baseball-jersey-navy (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/33.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/ewoiik6lizp__9bg",
-    "url": "https://us.supreme.com/cdn/shop/files/KN73_FW26_StarsBaseballJersey_Red01_Reshoot.jpg?v=1793638275&width=900",
-    "note": "us.supreme.com: stars-baseball-jersey-red (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/34.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/2i9ydq90aei2gv5",
-    "url": "https://us.supreme.com/cdn/shop/files/KN73_FW26_StarsBaseballJersey_Black01_Reshoot.jpg?v=1793638395&width=900",
-    "note": "us.supreme.com: stars-baseball-jersey-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/35.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/gw-xdk2yswsqw_zg",
-    "url": "https://us.supreme.com/cdn/shop/files/KN17_FW26_DragonJacquardSoccerJersey_Royal01.jpg?v=1793027491&width=900",
-    "note": "us.supreme.com: supreme-meissen-jacquard-soccer-jersey-royal (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/36.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/5stl0_xw9yiqkwe3",
-    "url": "https://us.supreme.com/cdn/shop/files/KN17_FW26_DragonJacquardSoccerJersey_Lt.Gold01.jpg?v=1793027505&width=900",
-    "note": "us.supreme.com: supreme-meissen-jacquard-soccer-jersey-light-gold (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/37.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/flqun4qqwfosl-9s",
-    "url": "https://us.supreme.com/cdn/shop/files/KN17_FW26_DragonJacquardSoccerJersey_Black01.jpg?v=1793027515&width=900",
-    "note": "us.supreme.com: supreme-meissen-jacquard-soccer-jersey-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/38.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/evnlnfpvao3gfszw",
-    "url": "https://us.supreme.com/cdn/shop/files/SW5_FW26_VaqueraZipUp_NewNavy01.jpg?v=1793637264&width=900",
-    "note": "us.supreme.com: supreme-vaquera-christ-zip-up-hooded-sweatshirt-navy (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/39.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/zhmfpywhwzj5iquk",
-    "url": "https://us.supreme.com/cdn/shop/files/SW5_FW26_VaqueraZipUp_Black01.jpg?v=1793637257&width=900",
-    "note": "us.supreme.com: supreme-vaquera-christ-zip-up-hooded-sweatshirt-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/40.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/phih1l3izrmebhd",
-    "url": "https://us.supreme.com/cdn/shop/files/SW54_FW26_VaqueraLipsZipUp_AshGrey02.jpg?v=1793637295&width=900",
-    "note": "us.supreme.com: supreme-vaquera-kisses-zip-up-hooded-sweatshirt-ash-grey (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/41.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/uettnchitvoeaqph",
-    "url": "https://us.supreme.com/cdn/shop/files/SW54_FW26_VaqueraLipsZipUp_WoodlandCamo02.jpg?v=1793637348&width=900",
-    "note": "us.supreme.com: supreme-vaquera-kisses-zip-up-hooded-sweatshirt-woodland-camo (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/42.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/evkagklpqnbni2yf",
-    "url": "https://us.supreme.com/cdn/shop/files/SW54_FW26_VaqueraLipsZipUp_Black02.jpg?v=1793637327&width=900",
-    "note": "us.supreme.com: supreme-vaquera-kisses-zip-up-hooded-sweatshirt-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/43.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/vte07-okwy8xv-l",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Cardinal.jpg?v=1793638872&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-cardinal (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/44.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/avntp3xkvdlsngm2",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_PredatorCamo.jpg?v=1793638827&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-predator-camo (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/45.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/y6t3ou81ddpu-jfg",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Navy.jpg?v=1793638836&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-navy (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/46.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/aq2awcar5uc9hkkj",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_HeatherGrey.jpg?v=1793638853&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-heather-grey (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/47.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/znydk431vvmxprgd",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Evergreen.jpg?v=1793638863&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-pine (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/48.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/fllzxczzbp-euinf",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Black.jpg?v=1793638883&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/49.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/0utzzrzuvz-zpb1l",
-    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Lt.Pink.jpg?v=1793638844&width=900",
-    "note": "us.supreme.com: small-box-hooded-sweatshirt-light-pink (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/50.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/98zjbgwikt95dxhz",
-    "url": "https://us.supreme.com/cdn/shop/files/SW71_FW26_DoggHoodedSweatshirt_Red.jpg?v=1793027183&width=900",
-    "note": "us.supreme.com: dogs-hooded-sweatshirt-red (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/51.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/ihx4ep4ckuby5kb4",
-    "url": "https://us.supreme.com/cdn/shop/files/SW71_FW26_DoggHoodedSweatshirt_HardwoodsCamo.jpg?v=1793027191&width=900",
-    "note": "us.supreme.com: dogs-hooded-sweatshirt-realtree-hardwoods-camo (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/52.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/jepxtrqfhw-c-dr",
-    "url": "https://us.supreme.com/cdn/shop/files/SW71_FW26_DoggHoodedSweatshirt_AshGrey.jpg?v=1793027205&width=900",
-    "note": "us.supreme.com: dogs-hooded-sweatshirt-ash-grey (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
-    "target": "/images/brands/supreme/history/53.webp",
-    "kind": "history",
-    "page": "https://us.supreme.com/products/qh-6a1dolxsxke5o",
-    "url": "https://us.supreme.com/cdn/shop/files/SW71_FW26_DoggHoodedSweatshirt_Black.jpg?v=1793027198&width=900",
-    "note": "us.supreme.com: dogs-hooded-sweatshirt-black (вещь бренда из официального магазина, иллюстрация)"
-  },
-  {
     "target": "/images/brands/vetements/products/VTM-TSH-0001-1.webp",
     "kind": "product",
     "page": "https://www.ssense.com/en-us/men/product/vetements/black-biker-cross-logo-longsleeve-t-shirt/19661041",
@@ -16826,5 +15566,971 @@
     "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/versace",
     "url": "https://assets.vogue.com/photos/67c2c4f92b04944ec6fd65cd/master/w_900,c_limit/00001-versace-fall-2025-ready-to-wear-credit-gorunway.jpg",
     "note": "Портрета в открытых источниках нет — Vogue Runway, fall-2025-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0001-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/aq2awcar5uc9hkkj",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_HeatherGrey.jpg?v=1793638853&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-heather-grey (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0001-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/aq2awcar5uc9hkkj",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_HeatherGrey.jpg?v=1793638853&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-heather-grey (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0002-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/fllzxczzbp-euinf",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Black.jpg?v=1793638883&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0002-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/fllzxczzbp-euinf",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Black.jpg?v=1793638883&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0003-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/vte07-okwy8xv-l",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Cardinal.jpg?v=1793638872&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-cardinal (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0003-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/vte07-okwy8xv-l",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Cardinal.jpg?v=1793638872&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-cardinal (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0004-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/y6t3ou81ddpu-jfg",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Navy.jpg?v=1793638836&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-navy (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0004-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/y6t3ou81ddpu-jfg",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Navy.jpg?v=1793638836&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-navy (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TSH-0005-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/l2ximvrxra-jkvoo",
+    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_White01.jpg?v=1793637153&width=900",
+    "note": "us.supreme.com: supreme-vaquera-bra-tee-white (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TSH-0005-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/l2ximvrxra-jkvoo",
+    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_White01.jpg?v=1793637153&width=900",
+    "note": "us.supreme.com: supreme-vaquera-bra-tee-white (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TSH-0006-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/vqv-q791pzb0fz3m",
+    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_Black01.jpg?v=1793637138&width=900",
+    "note": "us.supreme.com: supreme-vaquera-bra-tee-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TSH-0006-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/vqv-q791pzb0fz3m",
+    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_Black01.jpg?v=1793637138&width=900",
+    "note": "us.supreme.com: supreme-vaquera-bra-tee-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TSH-0007-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/hmws2dg-aviwunrt",
+    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_Fuschia01.jpg?v=1793637145&width=900",
+    "note": "us.supreme.com: supreme-vaquera-bra-tee-fuchsia (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TSH-0007-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/hmws2dg-aviwunrt",
+    "url": "https://us.supreme.com/cdn/shop/files/T32_FW26_PunkBraTee_Fuschia01.jpg?v=1793637145&width=900",
+    "note": "us.supreme.com: supreme-vaquera-bra-tee-fuchsia (ближайшая вещь той же категории); цвет на фото не совпадает с «grey»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TSH-0008-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/do-l2b2ufbemcu3",
+    "url": "https://us.supreme.com/cdn/shop/files/T34_FW26_MannequinTee_White02.jpg?v=1793637200&width=900",
+    "note": "us.supreme.com: supreme-vaquera-mannequin-tee-white (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TSH-0008-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/do-l2b2ufbemcu3",
+    "url": "https://us.supreme.com/cdn/shop/files/T34_FW26_MannequinTee_White02.jpg?v=1793637200&width=900",
+    "note": "us.supreme.com: supreme-vaquera-mannequin-tee-white (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TSH-0009-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/7owb4ehoqcvusow5",
+    "url": "https://us.supreme.com/cdn/shop/files/T34_FW26_MannequinTee_Black02.jpg?v=1793637184&width=900",
+    "note": "us.supreme.com: supreme-vaquera-mannequin-tee-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TSH-0009-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/7owb4ehoqcvusow5",
+    "url": "https://us.supreme.com/cdn/shop/files/T34_FW26_MannequinTee_Black02.jpg?v=1793637184&width=900",
+    "note": "us.supreme.com: supreme-vaquera-mannequin-tee-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0010-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/phih1l3izrmebhd",
+    "url": "https://us.supreme.com/cdn/shop/files/SW54_FW26_VaqueraLipsZipUp_AshGrey02.jpg?v=1793637295&width=900",
+    "note": "us.supreme.com: supreme-vaquera-kisses-zip-up-hooded-sweatshirt-ash-grey (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0010-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/phih1l3izrmebhd",
+    "url": "https://us.supreme.com/cdn/shop/files/SW54_FW26_VaqueraLipsZipUp_AshGrey02.jpg?v=1793637295&width=900",
+    "note": "us.supreme.com: supreme-vaquera-kisses-zip-up-hooded-sweatshirt-ash-grey (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0011-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/evnlnfpvao3gfszw",
+    "url": "https://us.supreme.com/cdn/shop/files/SW5_FW26_VaqueraZipUp_NewNavy01.jpg?v=1793637264&width=900",
+    "note": "us.supreme.com: supreme-vaquera-christ-zip-up-hooded-sweatshirt-navy (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HOD-0011-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/evnlnfpvao3gfszw",
+    "url": "https://us.supreme.com/cdn/shop/files/SW5_FW26_VaqueraZipUp_NewNavy01.jpg?v=1793637264&width=900",
+    "note": "us.supreme.com: supreme-vaquera-christ-zip-up-hooded-sweatshirt-navy (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0012-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/r9relkv4_qj-4-sz",
+    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_Black01.jpg?v=1793637908&width=900",
+    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0012-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/r9relkv4_qj-4-sz",
+    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_Black01.jpg?v=1793637908&width=900",
+    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0013-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/bxuumn-8xnh2ihx",
+    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_OffWhite01.jpg?v=1793637893&width=900",
+    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-white (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0013-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/bxuumn-8xnh2ihx",
+    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_OffWhite01.jpg?v=1793637893&width=900",
+    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-white (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0014-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/saljh85b9sg5dnf",
+    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Pink01_1000df1e-0ee1-48b1-a825-3e8e2c719a85.jpg?v=1793804280&width=900",
+    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-pink (ближайшая вещь той же категории); цвет на фото не совпадает с «beige»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0014-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/saljh85b9sg5dnf",
+    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Pink01_1000df1e-0ee1-48b1-a825-3e8e2c719a85.jpg?v=1793804280&width=900",
+    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-pink (ближайшая вещь той же категории); цвет на фото не совпадает с «beige»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0015-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/e13o24o1-rop-0lr",
+    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Black01_8dea87f3-1c65-40dd-80bc-365dc552cf8a.jpg?v=1793804298&width=900",
+    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0015-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/e13o24o1-rop-0lr",
+    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Black01_8dea87f3-1c65-40dd-80bc-365dc552cf8a.jpg?v=1793804298&width=900",
+    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0016-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/n8cgbe8kbttiiokg",
+    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_Green01.jpg?v=1793637646&width=900",
+    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-olive (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0016-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/n8cgbe8kbttiiokg",
+    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_Green01.jpg?v=1793637646&width=900",
+    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-olive (ближайшая вещь той же категории); цвет на фото не совпадает с «burgundy»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0017-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/lgz-qcdy1olq-pf",
+    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_BlackFloral01.jpg?v=1793637661&width=900",
+    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-floral (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JKT-0017-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/lgz-qcdy1olq-pf",
+    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_BlackFloral01.jpg?v=1793637661&width=900",
+    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-floral (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TRS-0018-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/wlag4tq03wmujpce",
+    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_PredatorCamo01.jpg?v=1793639033&width=900",
+    "note": "us.supreme.com: small-box-sweatpant-predator-camo (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TRS-0018-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/wlag4tq03wmujpce",
+    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_PredatorCamo01.jpg?v=1793639033&width=900",
+    "note": "us.supreme.com: small-box-sweatpant-predator-camo (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TRS-0019-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/0-nzng9s-hzbcq4m",
+    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_Cardinal01.jpg?v=1793639125&width=900",
+    "note": "us.supreme.com: small-box-sweatpant-cardinal (ближайшая вещь той же категории); цвет на фото не совпадает с «khaki»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TRS-0019-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/0-nzng9s-hzbcq4m",
+    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_Cardinal01.jpg?v=1793639125&width=900",
+    "note": "us.supreme.com: small-box-sweatpant-cardinal (ближайшая вещь той же категории); цвет на фото не совпадает с «khaki»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JNS-0020-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/ub_srjzeyaabuymx",
+    "url": "https://us.supreme.com/cdn/shop/files/P25_FW26_BaggyJean_LightWashedIndigo01.jpg?v=1788191000&width=900",
+    "note": "us.supreme.com: baggy-jean-light-washed-indigo; цвет на фото не совпадает с «blue»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JNS-0020-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/ub_srjzeyaabuymx",
+    "url": "https://us.supreme.com/cdn/shop/files/P25_FW26_BaggyJean_LightWashedIndigo01.jpg?v=1788191000&width=900",
+    "note": "us.supreme.com: baggy-jean-light-washed-indigo; цвет на фото не совпадает с «blue»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JNS-0021-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/zauhwzxgv-ftwltg",
+    "url": "https://us.supreme.com/cdn/shop/files/P25_FW26_BaggyJean_Black01.jpg?v=1788190931&width=900",
+    "note": "us.supreme.com: baggy-jean-black"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-JNS-0021-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/zauhwzxgv-ftwltg",
+    "url": "https://us.supreme.com/cdn/shop/files/P25_FW26_BaggyJean_Black01.jpg?v=1788190931&width=900",
+    "note": "us.supreme.com: baggy-jean-black"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TRS-0022-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/bg5wiwylhnq-v4_2",
+    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_HeatherGrey01.jpg?v=1793639070&width=900",
+    "note": "us.supreme.com: small-box-sweatpant-heather-grey"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TRS-0022-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/bg5wiwylhnq-v4_2",
+    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_HeatherGrey01.jpg?v=1793639070&width=900",
+    "note": "us.supreme.com: small-box-sweatpant-heather-grey"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TRS-0023-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/gq8c0qkai3qmjhvb",
+    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_Black01.jpg?v=1793639150&width=900",
+    "note": "us.supreme.com: small-box-sweatpant-black"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TRS-0023-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/gq8c0qkai3qmjhvb",
+    "url": "https://us.supreme.com/cdn/shop/files/P5_FW26_SmallBoxSweatpant_Black01.jpg?v=1793639150&width=900",
+    "note": "us.supreme.com: small-box-sweatpant-black"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SHT-0024-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/3vxfhvju9qgmvyds",
+    "url": "https://us.supreme.com/cdn/shop/files/SH5_FW26_DragonJacquardSoccerShort_Black01_Reshoot.jpg?v=1793026695&width=900",
+    "note": "us.supreme.com: supreme-meissen-jacquard-soccer-short-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SHT-0024-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/3vxfhvju9qgmvyds",
+    "url": "https://us.supreme.com/cdn/shop/files/SH5_FW26_DragonJacquardSoccerShort_Black01_Reshoot.jpg?v=1793026695&width=900",
+    "note": "us.supreme.com: supreme-meissen-jacquard-soccer-short-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SHT-0025-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/ln8isj5bh_augzcz",
+    "url": "https://us.supreme.com/cdn/shop/files/SH11_FW26_VaqueraShort_White01.jpg?v=1793637045&width=900",
+    "note": "us.supreme.com: supreme-vaquera-basketball-short-white (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SHT-0025-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/ln8isj5bh_augzcz",
+    "url": "https://us.supreme.com/cdn/shop/files/SH11_FW26_VaqueraShort_White01.jpg?v=1793637045&width=900",
+    "note": "us.supreme.com: supreme-vaquera-basketball-short-white (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SHR-0026-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/j3gisam7wsd-pthk",
+    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_PinkPlaid01.jpg?v=1791215267&width=900",
+    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-pink (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SHR-0026-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/j3gisam7wsd-pthk",
+    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_PinkPlaid01.jpg?v=1791215267&width=900",
+    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-pink (ближайшая вещь той же категории); цвет на фото не совпадает с «red»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SHR-0027-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/upmbtaordayb0co5",
+    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_BlackPlaid01.jpg?v=1791215279&width=900",
+    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-black (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SHR-0027-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/upmbtaordayb0co5",
+    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_BlackPlaid01.jpg?v=1791215279&width=900",
+    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-black (ближайшая вещь той же категории); цвет на фото не совпадает с «navy»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SWT-0028-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/uxnsut2li4iemij8",
+    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Black.jpg?v=1793638197&width=900",
+    "note": "us.supreme.com: textured-sweater-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SWT-0028-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/uxnsut2li4iemij8",
+    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Black.jpg?v=1793638197&width=900",
+    "note": "us.supreme.com: textured-sweater-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SWT-0029-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/g2elu9xwrwqmqgme",
+    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Olive.jpg?v=1793638176&width=900",
+    "note": "us.supreme.com: textured-sweater-olive (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SWT-0029-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/g2elu9xwrwqmqgme",
+    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Olive.jpg?v=1793638176&width=900",
+    "note": "us.supreme.com: textured-sweater-olive (ближайшая вещь той же категории); цвет на фото не совпадает с «green»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HAT-0030-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/di8gml-dolb57ecj",
+    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_Black01.jpg?v=1793026365&width=900",
+    "note": "us.supreme.com: whipstitch-camp-cap-black"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HAT-0030-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/di8gml-dolb57ecj",
+    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_Black01.jpg?v=1793026365&width=900",
+    "note": "us.supreme.com: whipstitch-camp-cap-black"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HAT-0031-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/6me5prc_mp5lqeww",
+    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_Red01.jpg?v=1793026343&width=900",
+    "note": "us.supreme.com: whipstitch-camp-cap-red"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HAT-0031-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/6me5prc_mp5lqeww",
+    "url": "https://us.supreme.com/cdn/shop/files/H90_FW26_WhipstitchCC_Red01.jpg?v=1793026343&width=900",
+    "note": "us.supreme.com: whipstitch-camp-cap-red"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HAT-0032-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/xt5yzv7cz72ficjh",
+    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Red01.jpg?v=1793640043&width=900",
+    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-red (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HAT-0032-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/xt5yzv7cz72ficjh",
+    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Red01.jpg?v=1793640043&width=900",
+    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-red (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HAT-0033-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/x7-nyauv7mh-rmsw",
+    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Black01.jpg?v=1793640085&width=900",
+    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-HAT-0033-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/x7-nyauv7mh-rmsw",
+    "url": "https://us.supreme.com/cdn/shop/files/BN20_FW26_NewEraPulldownCuffBN_Black01.jpg?v=1793640085&width=900",
+    "note": "us.supreme.com: new-era-pulldown-cuff-beanie-black (ближайшая вещь той же категории)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-CRB-0034-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/4lm0w0dhtm8hgrna",
+    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BrownSilverLogo07.jpg?v=1786984230&width=900",
+    "note": "us.supreme.com: mini-shoulder-bag-brown; цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-CRB-0034-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/4lm0w0dhtm8hgrna",
+    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BrownSilverLogo07.jpg?v=1786984230&width=900",
+    "note": "us.supreme.com: mini-shoulder-bag-brown; цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-CRB-0035-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/c9q7qjqgnz0qxtlg",
+    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_RedSilverLogo07.jpg?v=1786984277&width=900",
+    "note": "us.supreme.com: mini-shoulder-bag-red"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-CRB-0035-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/c9q7qjqgnz0qxtlg",
+    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_RedSilverLogo07.jpg?v=1786984277&width=900",
+    "note": "us.supreme.com: mini-shoulder-bag-red"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-CRB-0038-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/5juolooevcihbviq",
+    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BlueSilverLogo07.jpg?v=1786984215&width=900",
+    "note": "us.supreme.com: mini-shoulder-bag-light-blue (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-CRB-0038-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/5juolooevcihbviq",
+    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BlueSilverLogo07.jpg?v=1786984215&width=900",
+    "note": "us.supreme.com: mini-shoulder-bag-light-blue (ближайшая вещь той же категории); цвет на фото не совпадает с «black»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SHR-0060-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/spftcpuly-eb9yno",
+    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Stripe02.jpg?v=1793638026&width=900",
+    "note": "us.supreme.com: eyelet-s-s-work-shirt-stripe (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-SHR-0060-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/spftcpuly-eb9yno",
+    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Stripe02.jpg?v=1793638026&width=900",
+    "note": "us.supreme.com: eyelet-s-s-work-shirt-stripe (ближайшая вещь той же категории); цвет на фото не совпадает с «multicolor»"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TOT-0039-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/4lm0w0dhtm8hgrna",
+    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BrownSilverLogo07.jpg?v=1786984230&width=900",
+    "note": "us.supreme.com: mini-shoulder-bag-brown (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TOT-0039-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/4lm0w0dhtm8hgrna",
+    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_BrownSilverLogo07.jpg?v=1786984230&width=900",
+    "note": "us.supreme.com: mini-shoulder-bag-brown (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TOT-0040-1.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/c9q7qjqgnz0qxtlg",
+    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_RedSilverLogo07.jpg?v=1786984277&width=900",
+    "note": "us.supreme.com: mini-shoulder-bag-red (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/supreme/products/SUP-TOT-0040-2.webp",
+    "kind": "product",
+    "page": "https://us.supreme.com/products/c9q7qjqgnz0qxtlg",
+    "url": "https://us.supreme.com/cdn/shop/files/B9_FW26_MiniBag_RedSilverLogo07.jpg?v=1786984277&width=900",
+    "note": "us.supreme.com: mini-shoulder-bag-red (вещь бренда из официального магазина, не эта модель)"
+  },
+  {
+    "target": "/images/brands/supreme/directors/1.webp",
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/James_Jebbia",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/James_Jebbia.jpg/960px-James_Jebbia.jpg",
+    "note": "Википедия: James Jebbia"
+  },
+  {
+    "target": "/images/brands/supreme/directors/2.webp",
+    "kind": "director",
+    "page": "https://us.supreme.com/products/uzvk5w-vcycnalba",
+    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Navy02.jpg?v=1793638037&width=900",
+    "note": "Портрета в открытых источниках нет — вещь бренда из официального магазина: eyelet-s-s-work-shirt-navy"
+  },
+  {
+    "target": "/images/brands/supreme/collections/fall-winter-2025.webp",
+    "kind": "collection",
+    "page": "https://us.supreme.com/products/r9relkv4_qj-4-sz",
+    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_Black01.jpg?v=1793637908&width=900",
+    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/collections/spring-summer-2025.webp",
+    "kind": "collection",
+    "page": "https://us.supreme.com/products/bxuumn-8xnh2ihx",
+    "url": "https://us.supreme.com/cdn/shop/files/J49_FW26_BBSimonFurBomber_OffWhite01.jpg?v=1793637893&width=900",
+    "note": "us.supreme.com: supreme-b-b-simon-faux-fur-windstopper-hooded-bomber-jacket-white (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/collections/fall-winter-2026.webp",
+    "kind": "collection",
+    "page": "https://us.supreme.com/products/e13o24o1-rop-0lr",
+    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Black01_8dea87f3-1c65-40dd-80bc-365dc552cf8a.jpg?v=1793804298&width=900",
+    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/collections/spring-summer-2026.webp",
+    "kind": "collection",
+    "page": "https://us.supreme.com/products/saljh85b9sg5dnf",
+    "url": "https://us.supreme.com/cdn/shop/files/J81_FW26_ReversibleReflectivePuffy_Pink01_1000df1e-0ee1-48b1-a825-3e8e2c719a85.jpg?v=1793804280&width=900",
+    "note": "us.supreme.com: reversible-reflective-down-puffer-jacket-pink (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/hero.webp",
+    "kind": "hero",
+    "page": "https://us.supreme.com/products/n8cgbe8kbttiiokg",
+    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_Green01.jpg?v=1793637646&width=900",
+    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-olive (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/1.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/lgz-qcdy1olq-pf",
+    "url": "https://us.supreme.com/cdn/shop/files/J72_FW26_FurLinedHoodedJacket_BlackFloral01.jpg?v=1793637661&width=900",
+    "note": "us.supreme.com: faux-fur-lined-ventile-hooded-field-jacket-floral (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/2.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/spftcpuly-eb9yno",
+    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Stripe02.jpg?v=1793638026&width=900",
+    "note": "us.supreme.com: eyelet-s-s-work-shirt-stripe (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/3.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/uzvk5w-vcycnalba",
+    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Navy02.jpg?v=1793638037&width=900",
+    "note": "us.supreme.com: eyelet-s-s-work-shirt-navy (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/4.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/j3gisam7wsd-pthk",
+    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_PinkPlaid01.jpg?v=1791215267&width=900",
+    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-pink (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/5.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/upmbtaordayb0co5",
+    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_BlackPlaid01.jpg?v=1791215279&width=900",
+    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/6.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/x8kknwjfsv7wo-gz",
+    "url": "https://us.supreme.com/cdn/shop/files/S31_FW26_QuiltedLinedFlannelShirt_BrownPlaid01.jpg?v=1791215306&width=900",
+    "note": "us.supreme.com: quilted-lined-flannel-snap-shirt-brown (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/7.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/r3zjirgobzjwy5dq",
+    "url": "https://us.supreme.com/cdn/shop/files/S40_FW26_ThermalLinedZipPlaid_Blue01.jpg?v=1793026819&width=900",
+    "note": "us.supreme.com: thermal-lined-hooded-flannel-zip-up-shirt-blue (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/8.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/mviwqwaytlky6cui",
+    "url": "https://us.supreme.com/cdn/shop/files/S40_FW26_ThermalLinedZipPlaid_Black01.jpg?v=1793026832&width=900",
+    "note": "us.supreme.com: thermal-lined-hooded-flannel-zip-up-shirt-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/9.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/wmxkm_jmtmntcb33",
+    "url": "https://us.supreme.com/cdn/shop/files/S40_FW26_ThermalLinedZipPlaid_Brown01.jpg?v=1793026807&width=900",
+    "note": "us.supreme.com: thermal-lined-hooded-flannel-zip-up-shirt-brown (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/10.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/kdi5mnxmc3-o5dtm",
+    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_DirtyWash.jpg?v=1789398078&width=900",
+    "note": "us.supreme.com: small-box-shirt-light-washed-indigo-denim (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/11.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/sfbjd-oi4tipaszk",
+    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_BlackDenim.jpg?v=1789398104&width=900",
+    "note": "us.supreme.com: small-box-shirt-black-denim (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/12.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/fopudbb7diaeaeqp",
+    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_BlackWatch.jpg?v=1789398095&width=900",
+    "note": "us.supreme.com: small-box-shirt-plaid (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/13.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/4a0vdqg_7qzpo4qe",
+    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_Tan.jpg?v=1789398053&width=900",
+    "note": "us.supreme.com: small-box-shirt-tan (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/14.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/dhf0ry2wagzjxwoq",
+    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_Camo.jpg?v=1789398085&width=900",
+    "note": "us.supreme.com: small-box-shirt-woodland-camo (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/15.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/jkkuoiylwxdogsbz",
+    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_Pink.jpg?v=1789398064&width=900",
+    "note": "us.supreme.com: small-box-shirt-pink (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/16.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/c2dlke-rbac07kda",
+    "url": "https://us.supreme.com/cdn/shop/files/S11_FW26_SmallBoxShirt_WhiteDenim.jpg?v=1789398040&width=900",
+    "note": "us.supreme.com: small-box-shirt-white-denim (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/17.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/g2elu9xwrwqmqgme",
+    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Olive.jpg?v=1793638176&width=900",
+    "note": "us.supreme.com: textured-sweater-olive (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/18.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/bl5cv7asptthpvdn",
+    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Lt.Blue.jpg?v=1793638185&width=900",
+    "note": "us.supreme.com: textured-sweater-light-blue (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/19.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/mohnterahia90q7t",
+    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Pink.jpg?v=1793638129&width=900",
+    "note": "us.supreme.com: textured-sweater-pink (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/20.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/uxnsut2li4iemij8",
+    "url": "https://us.supreme.com/cdn/shop/files/SK35_FW26_TexturedLogoSweater_Black.jpg?v=1793638197&width=900",
+    "note": "us.supreme.com: textured-sweater-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/21.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/zlxftej80b2zx-cs",
+    "url": "https://us.supreme.com/cdn/shop/files/SK4_FW26_LurexFairIsleCardigan_Brown.jpg?v=1792423483&width=900",
+    "note": "us.supreme.com: metallic-fair-isle-cardigan-brown (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/22.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/gddvshr0gzopybrz",
+    "url": "https://us.supreme.com/cdn/shop/files/SK4_FW26_LurexFairIsleCardigan_Pink.jpg?v=1792423470&width=900",
+    "note": "us.supreme.com: metallic-fair-isle-cardigan-pink (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/23.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/qto2q-9msn7r42al",
+    "url": "https://us.supreme.com/cdn/shop/files/SK4_FW26_LurexFairIsleCardigan_Black.jpg?v=1792423498&width=900",
+    "note": "us.supreme.com: metallic-fair-isle-cardigan-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/24.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/hifch4lnlzh-nxsb",
+    "url": "https://us.supreme.com/cdn/shop/files/SK23_FW26_BoucleSmallBoxSweater_WhiteMelange.jpg?v=1793027289&width=900",
+    "note": "us.supreme.com: boucl-small-box-sweater-multicolor (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/25.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/qnqcaja3chjrucn",
+    "url": "https://us.supreme.com/cdn/shop/files/SK23_FW26_BoucleSmallBoxSweater_SolidBlack.jpg?v=1793027319&width=900",
+    "note": "us.supreme.com: boucl-small-box-sweater-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/26.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/9jt_j9lyzmfawt9p",
+    "url": "https://us.supreme.com/cdn/shop/files/SK23_FW26_BoucleSmallBoxSweater_SolidBrown.jpg?v=1793027308&width=900",
+    "note": "us.supreme.com: boucl-small-box-sweater-brown (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/27.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/o1xtx7pi_cum8xhd",
+    "url": "https://us.supreme.com/cdn/shop/files/SK23_FW26_BoucleSmallBoxSweater_SolidHearherGrey.jpg?v=1793027302&width=900",
+    "note": "us.supreme.com: boucl-small-box-sweater-grey (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/28.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/cxv8iatd1a-4yawq",
+    "url": "https://us.supreme.com/cdn/shop/files/SK23_FW26_BoucleSmallBoxSweater_SolidLt.Blue.jpg?v=1793027295&width=900",
+    "note": "us.supreme.com: boucl-small-box-sweater-blue (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/29.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/z1xpe9ob7i43ln3r",
+    "url": "https://us.supreme.com/cdn/shop/files/KN48_FW26_VaqueraPrintedLSTop_Lt.Green01.jpg?v=1793637445&width=900",
+    "note": "us.supreme.com: supreme-vaquera-collage-l-s-top-green (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/30.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/myn-kgaxnzpefydo",
+    "url": "https://us.supreme.com/cdn/shop/files/KN48_FW26_VaqueraPrintedLSTop_OffWhite01.jpg?v=1793637426&width=900",
+    "note": "us.supreme.com: supreme-vaquera-collage-l-s-top-white (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/31.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/padxoxv97njeduad",
+    "url": "https://us.supreme.com/cdn/shop/files/KN48_FW26_VaqueraPrintedLSTop_WashedBlack01.jpg?v=1793637411&width=900",
+    "note": "us.supreme.com: supreme-vaquera-collage-l-s-top-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/32.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/tm5eto-jmf203erp",
+    "url": "https://us.supreme.com/cdn/shop/files/KN73_FW26_StarsBaseballJersey_Navy01_Reshoot.jpg?v=1793638292&width=900",
+    "note": "us.supreme.com: stars-baseball-jersey-navy (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/33.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/ewoiik6lizp__9bg",
+    "url": "https://us.supreme.com/cdn/shop/files/KN73_FW26_StarsBaseballJersey_Red01_Reshoot.jpg?v=1793638275&width=900",
+    "note": "us.supreme.com: stars-baseball-jersey-red (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/34.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/2i9ydq90aei2gv5",
+    "url": "https://us.supreme.com/cdn/shop/files/KN73_FW26_StarsBaseballJersey_Black01_Reshoot.jpg?v=1793638395&width=900",
+    "note": "us.supreme.com: stars-baseball-jersey-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/35.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/gw-xdk2yswsqw_zg",
+    "url": "https://us.supreme.com/cdn/shop/files/KN17_FW26_DragonJacquardSoccerJersey_Royal01.jpg?v=1793027491&width=900",
+    "note": "us.supreme.com: supreme-meissen-jacquard-soccer-jersey-royal (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/36.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/5stl0_xw9yiqkwe3",
+    "url": "https://us.supreme.com/cdn/shop/files/KN17_FW26_DragonJacquardSoccerJersey_Lt.Gold01.jpg?v=1793027505&width=900",
+    "note": "us.supreme.com: supreme-meissen-jacquard-soccer-jersey-light-gold (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/37.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/flqun4qqwfosl-9s",
+    "url": "https://us.supreme.com/cdn/shop/files/KN17_FW26_DragonJacquardSoccerJersey_Black01.jpg?v=1793027515&width=900",
+    "note": "us.supreme.com: supreme-meissen-jacquard-soccer-jersey-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/38.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/evnlnfpvao3gfszw",
+    "url": "https://us.supreme.com/cdn/shop/files/SW5_FW26_VaqueraZipUp_NewNavy01.jpg?v=1793637264&width=900",
+    "note": "us.supreme.com: supreme-vaquera-christ-zip-up-hooded-sweatshirt-navy (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/39.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/zhmfpywhwzj5iquk",
+    "url": "https://us.supreme.com/cdn/shop/files/SW5_FW26_VaqueraZipUp_Black01.jpg?v=1793637257&width=900",
+    "note": "us.supreme.com: supreme-vaquera-christ-zip-up-hooded-sweatshirt-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/40.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/phih1l3izrmebhd",
+    "url": "https://us.supreme.com/cdn/shop/files/SW54_FW26_VaqueraLipsZipUp_AshGrey02.jpg?v=1793637295&width=900",
+    "note": "us.supreme.com: supreme-vaquera-kisses-zip-up-hooded-sweatshirt-ash-grey (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/41.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/uettnchitvoeaqph",
+    "url": "https://us.supreme.com/cdn/shop/files/SW54_FW26_VaqueraLipsZipUp_WoodlandCamo02.jpg?v=1793637348&width=900",
+    "note": "us.supreme.com: supreme-vaquera-kisses-zip-up-hooded-sweatshirt-woodland-camo (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/42.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/evkagklpqnbni2yf",
+    "url": "https://us.supreme.com/cdn/shop/files/SW54_FW26_VaqueraLipsZipUp_Black02.jpg?v=1793637327&width=900",
+    "note": "us.supreme.com: supreme-vaquera-kisses-zip-up-hooded-sweatshirt-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/43.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/vte07-okwy8xv-l",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Cardinal.jpg?v=1793638872&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-cardinal (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/44.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/avntp3xkvdlsngm2",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_PredatorCamo.jpg?v=1793638827&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-predator-camo (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/45.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/y6t3ou81ddpu-jfg",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Navy.jpg?v=1793638836&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-navy (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/46.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/aq2awcar5uc9hkkj",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_HeatherGrey.jpg?v=1793638853&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-heather-grey (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/47.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/znydk431vvmxprgd",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Evergreen.jpg?v=1793638863&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-pine (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/48.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/fllzxczzbp-euinf",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Black.jpg?v=1793638883&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-black (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/49.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/0utzzrzuvz-zpb1l",
+    "url": "https://us.supreme.com/cdn/shop/files/SW2_FW26_SmallBoxHoodedSweatshirt_Lt.Pink.jpg?v=1793638844&width=900",
+    "note": "us.supreme.com: small-box-hooded-sweatshirt-light-pink (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/50.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/98zjbgwikt95dxhz",
+    "url": "https://us.supreme.com/cdn/shop/files/SW71_FW26_DoggHoodedSweatshirt_Red.jpg?v=1793027183&width=900",
+    "note": "us.supreme.com: dogs-hooded-sweatshirt-red (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/51.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/ihx4ep4ckuby5kb4",
+    "url": "https://us.supreme.com/cdn/shop/files/SW71_FW26_DoggHoodedSweatshirt_HardwoodsCamo.jpg?v=1793027191&width=900",
+    "note": "us.supreme.com: dogs-hooded-sweatshirt-realtree-hardwoods-camo (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/52.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/jepxtrqfhw-c-dr",
+    "url": "https://us.supreme.com/cdn/shop/files/SW71_FW26_DoggHoodedSweatshirt_AshGrey.jpg?v=1793027205&width=900",
+    "note": "us.supreme.com: dogs-hooded-sweatshirt-ash-grey (вещь бренда из официального магазина, иллюстрация)"
+  },
+  {
+    "target": "/images/brands/supreme/history/53.webp",
+    "kind": "history",
+    "page": "https://us.supreme.com/products/qh-6a1dolxsxke5o",
+    "url": "https://us.supreme.com/cdn/shop/files/SW71_FW26_DoggHoodedSweatshirt_Black.jpg?v=1793027198&width=900",
+    "note": "us.supreme.com: dogs-hooded-sweatshirt-black (вещь бренда из официального магазина, иллюстрация)"
   }
 ]
