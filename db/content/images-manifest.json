@@ -18768,5 +18768,545 @@
     "bytes": 259598,
     "width": 900,
     "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-CRB-0014-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/commission/burgundy-moto-sling-bag/592885867",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262400F048001_1.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: burgundy-moto-sling-bag (ближайшая вещь той же категории)",
+    "bytes": 20780,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-CRB-0014-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/commission/burgundy-moto-sling-bag/592885867",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262400F048001_2.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: burgundy-moto-sling-bag (ближайшая вещь той же категории)",
+    "bytes": 20794,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-BLT-0041-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/the-frankie-shop/black-toni-leather-belt/19746241",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262115F001003_1.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: black-toni-leather-belt (ближайшая вещь той же категории)",
+    "bytes": 24258,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SUN-0043-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/silver-everyday-bb-sunglasses/16572816",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M134005_1.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: silver-everyday-bb-sunglasses (ближайшая вещь той же категории)",
+    "bytes": 7910,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/products/AMQ-SUN-0043-2.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/balenciaga/silver-everyday-bb-sunglasses/16572816",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262342M134005_2.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: silver-everyday-bb-sunglasses (ближайшая вещь той же категории)",
+    "bytes": 9120,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/alexander-mcqueen/history/1.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/69b7ea918fe468a48e7e8b90/master/w_900,c_limit/00026-alexander-mcqueen-spring-2019-ready-to-wear-credit-indigital-model-lineisy-montero.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 26",
+    "bytes": 104654,
+    "width": 900,
+    "height": 1352
+  },
+  "/images/brands/alexander-mcqueen/history/2.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/69e101ef381a07749cc3bb93/master/w_900,c_limit/00042-alexander-mcqueen-fall-2017-ready-to-wear-credit-indigital.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 42",
+    "bytes": 122230,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/3.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafcab701e1e3822f577b/master/w_900,c_limit/00002-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 2",
+    "bytes": 42968,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/4.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafcbb701e1e3822f577d/master/w_900,c_limit/00003-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 3",
+    "bytes": 38502,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/5.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafcd3920c4ee80ea2aef/master/w_900,c_limit/00004-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 4",
+    "bytes": 40190,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/6.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafcf3920c4ee80ea2af1/master/w_900,c_limit/00005-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 5",
+    "bytes": 49322,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/7.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafceeef29f933f505d31/master/w_900,c_limit/00006-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 6",
+    "bytes": 38382,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/8.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafd0af4dcae373006dfb/master/w_900,c_limit/00007-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 7",
+    "bytes": 51956,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/9.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafd1eef29f933f505d33/master/w_900,c_limit/00008-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 8",
+    "bytes": 44332,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/10.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafd274792b1d05e0078b/master/w_900,c_limit/00009-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 9",
+    "bytes": 44612,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/11.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafd4df8e1e63d9d61efe/master/w_900,c_limit/00010-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 10",
+    "bytes": 46678,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/12.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafd54b8bd9ce313b63f9/master/w_900,c_limit/00011-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 11",
+    "bytes": 53412,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/13.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafd646d3c556bbf10f51/master/w_900,c_limit/00012-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 12",
+    "bytes": 58244,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/14.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafd846d3c556bbf10f53/master/w_900,c_limit/00013-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 13",
+    "bytes": 70752,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/15.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafd99a0dad9356273833/master/w_900,c_limit/00014-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 14",
+    "bytes": 39672,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/16.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafda6d4bc3497d871e36/master/w_900,c_limit/00015-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 15",
+    "bytes": 46268,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/17.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafdc3920c4ee80ea2af4/master/w_900,c_limit/00016-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 16",
+    "bytes": 50510,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/18.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafdeb701e1e3822f5780/master/w_900,c_limit/00017-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 17",
+    "bytes": 58510,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/19.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafde9a0dad9356273835/master/w_900,c_limit/00018-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 18",
+    "bytes": 57058,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/20.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafdf8344168e795c2c2d/master/w_900,c_limit/00019-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 19",
+    "bytes": 59908,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/21.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafe146d3c556bbf10f55/master/w_900,c_limit/00020-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 20",
+    "bytes": 50320,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/22.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafe3917ffb640fe90f30/master/w_900,c_limit/00021-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 21",
+    "bytes": 60472,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/23.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafe3a6e923975f360770/master/w_900,c_limit/00022-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 22",
+    "bytes": 43380,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/24.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafe53920c4ee80ea2af6/master/w_900,c_limit/00023-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 23",
+    "bytes": 39626,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/25.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafe6af4dcae373006dfd/master/w_900,c_limit/00024-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 24",
+    "bytes": 40892,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/26.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafe7b701e1e3822f5782/master/w_900,c_limit/00025-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 25",
+    "bytes": 51632,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/27.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafe86d4bc3497d871e39/master/w_900,c_limit/00026-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 26",
+    "bytes": 43728,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/28.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafea74792b1d05e00790/master/w_900,c_limit/00027-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 27",
+    "bytes": 50112,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/29.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafec74792b1d05e00792/master/w_900,c_limit/00028-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 28",
+    "bytes": 46352,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/30.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafecc979d454cecb2337/master/w_900,c_limit/00029-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 29",
+    "bytes": 61030,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/31.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafee46d3c556bbf10f57/master/w_900,c_limit/00030-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 30",
+    "bytes": 43118,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/32.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccaff08344168e795c2c2f/master/w_900,c_limit/00031-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 31",
+    "bytes": 36316,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/33.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccaff1eef29f933f505d38/master/w_900,c_limit/00032-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 32",
+    "bytes": 36468,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/34.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccaff250e14cbb618b01a9/master/w_900,c_limit/00033-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 33",
+    "bytes": 46338,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/35.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccaff3af4dcae373006dff/master/w_900,c_limit/00034-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 34",
+    "bytes": 39790,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/36.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccaff5af4dcae373006e01/master/w_900,c_limit/00035-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 35",
+    "bytes": 40548,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/37.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccaff5d3646551c969f631/master/w_900,c_limit/00036-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 36",
+    "bytes": 44718,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/38.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccaff7b701e1e3822f5786/master/w_900,c_limit/00037-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 37",
+    "bytes": 60922,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/39.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccaff94b8bd9ce313b63fe/master/w_900,c_limit/00038-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 38",
+    "bytes": 50878,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/40.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccaffdaf4dcae373006e04/master/w_900,c_limit/00039-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 39",
+    "bytes": 121238,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/41.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccaffc6d4bc3497d871e3d/master/w_900,c_limit/00040-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 40",
+    "bytes": 97900,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/42.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccaffd3920c4ee80ea2af8/master/w_900,c_limit/00041-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 41",
+    "bytes": 96788,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/43.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccafff46d3c556bbf10f5b/master/w_900,c_limit/00042-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 42",
+    "bytes": 66352,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/44.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccb002a6e923975f360772/master/w_900,c_limit/00043-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 43",
+    "bytes": 64678,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/45.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccb001d3646551c969f633/master/w_900,c_limit/00044-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 44",
+    "bytes": 55660,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/46.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccb003df8e1e63d9d61f03/master/w_900,c_limit/00045-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 45",
+    "bytes": 65810,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/47.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccb00474792b1d05e00796/master/w_900,c_limit/00046-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 46",
+    "bytes": 61636,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/48.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccb008917ffb640fe90f37/master/w_900,c_limit/00047-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 47",
+    "bytes": 99754,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/alexander-mcqueen/history/49.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/alexander-mcqueen",
+    "url": "https://assets.vogue.com/photos/67ccb007917ffb640fe90f35/master/w_900,c_limit/00048-alexander-mcqueen-fall-2025-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 48",
+    "bytes": 57052,
+    "width": 900,
+    "height": 1350
   }
 }
