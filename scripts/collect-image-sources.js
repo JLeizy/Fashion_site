@@ -371,7 +371,7 @@ async function main() {
       if (!m) continue;
       matched += 1;
       if (m.exact) exact += 1;
-      const shop = plan.ssense ? 'SSENSE' : new URL(plan.shopify.base).hostname;
+      const shop = plan.ssense ? 'SSENSE' : new URL(m.page).hostname;
       const note = `${shop}: ${m.slug}${m.exact ? '' : ' (ближайшая вещь той же категории)'}${m.colorOk ? '' : `; цвет на фото не совпадает с «${p.color}»`}`;
       add(`${baseOf(p)}-1.webp`, 'product', m.page, m.images[0], note);
       add(`${baseOf(p)}-2.webp`, 'product', m.page, m.images[1], note);
