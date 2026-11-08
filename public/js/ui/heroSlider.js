@@ -84,17 +84,51 @@ void main() {
   gl_FragColor = color;
 }`;
 
-// SVG-заглушки растеризуем в canvas: так текстура не зависит от поддержки SVG в WebGL и имеет нужный размер
-function rasterize(src, width) {
+// Картинку растеризуем в canvas: текстура не зависит от поддержки форматов в WebGL и имеет нужный размер.
+// Вертикальный кадр показа на широком экране не растягиваем (иначе фигура обрезается и мылится):
+// холст в пропорциях экрана, фон — размытая и затемнённая копия кадра, сам кадр — целиком по высоте, правее текста.
+const PHOTO_X = 0.66; // центр кадра по ширине экрана (слева — заголовок слайда)
+function rasterize(src, width, aspect) {
   return new Promise((resolve) => {
     const img = new Image();
     img.decoding = 'async';
     img.onload = () => {
-      const ratio = (img.naturalHeight || 1080) / (img.naturalWidth || 1920);
+      const iw = img.naturalWidth || 1920;
+      const ih = img.naturalHeight || 1080;
       const canvas = document.createElement('canvas');
-      canvas.width = width;
-      canvas.height = Math.round(width * ratio);
-      canvas.getContext('2d').drawImage(img, 0, 0, canvas.width, canvas.height);
+      const g = canvas.getContext('2d');
+      if (aspect > 1.05 && iw / ih < 0.9) {
+        canvas.width = width;
+        canvas.height = Math.round(width / aspect);
+        const H = canvas.height;
+        const W = canvas.width;
+        // фон: тот же кадр, растянутый на всю ширину, сильно размытый и затемнённый
+        const bgScale = Math.max(W / iw, H / ih);
+        g.filter = 'blur(42px) brightness(0.42) saturate(0.9)';
+        g.drawImage(img, (W - iw * bgScale) / 2, (H - ih * bgScale) / 2, iw * bgScale, ih * bgScale);
+        g.filter = 'none';
+        // кадр целиком по высоте
+        const h = H;
+        const w = Math.round((iw / ih) * h);
+        const x = Math.min(W - w, Math.max(0, Math.round(W * PHOTO_X - w / 2)));
+        g.drawImage(img, x, 0, w, h);
+        // мягкие края кадра, чтобы он вливался в фон
+        const fade = Math.round(w * 0.12);
+        const left = g.createLinearGradient(x, 0, x + fade, 0);
+        left.addColorStop(0, 'rgba(0,0,0,0.55)');
+        left.addColorStop(1, 'rgba(0,0,0,0)');
+        g.fillStyle = left;
+        g.fillRect(x, 0, fade, h);
+        const right = g.createLinearGradient(x + w - fade, 0, x + w, 0);
+        right.addColorStop(0, 'rgba(0,0,0,0)');
+        right.addColorStop(1, 'rgba(0,0,0,0.55)');
+        g.fillStyle = right;
+        g.fillRect(x + w - fade, 0, fade, h);
+      } else {
+        canvas.width = width;
+        canvas.height = Math.round(width * (ih / iw));
+        g.drawImage(img, 0, 0, canvas.width, canvas.height);
+      }
       resolve(canvas);
     };
     img.onerror = () => resolve(null);
@@ -114,7 +148,7 @@ export async function createHeroSlider(root, { slides, interval = 7000, onChange
 
   // DOM-слои (fallback и для мгновенного первого кадра)
   stage.innerHTML = slides
-    .map((s, i) => `<div class="hero__img ${i === 0 ? 'is-active' : ''}" data-hero-img="${i}"><img src="${s.image}" alt="" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></div>`)
+    .map((s, i) => `<div class="hero__img ${i === 0 ? 'is-active' : ''}" data-hero-img="${i}" style="--hero-img: url('${s.image}')"><img src="${s.image}" alt="" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></div>`)
     .join('');
 
   // ---------- WebGL ----------
@@ -136,7 +170,9 @@ export async function createHeroSlider(root, { slides, interval = 7000, onChange
     const ctx = renderer.gl;
     if (!ctx) return null;
     const width = Math.min(2048, Math.round(window.innerWidth * Math.min(window.devicePixelRatio, 1.5)));
-    const canvases = await Promise.all(slides.map((s) => rasterize(s.image, width)));
+    const box = stage.getBoundingClientRect();
+    const aspect = box.width / Math.max(1, box.height);
+    const canvases = await Promise.all(slides.map((s) => rasterize(s.image, width, aspect)));
     if (canvases.some((c) => !c)) return null;
     const textures = canvases.map((image) => new Texture(ctx, { image, generateMipmaps: false, minFilter: ctx.LINEAR }));
     const size = (i) => [canvases[i].width, canvases[i].height];
