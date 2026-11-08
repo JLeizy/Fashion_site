@@ -15,6 +15,7 @@ export const CATEGORIES = [
       { slug: 'dresses', code: 'DRS', name_ru: 'Платья', name_en: 'Dresses' },
       { slug: 'skirts', code: 'SKT', name_ru: 'Юбки', name_en: 'Skirts' },
       { slug: 'suits', code: 'SUI', name_ru: 'Костюмы', name_en: 'Suits' },
+      { slug: 'underwear', code: 'UND', name_ru: 'Бельё', name_en: 'Underwear' },
     ],
   },
   {
@@ -45,6 +46,7 @@ export const CATEGORIES = [
       { slug: 'scarves', code: 'SCF', name_ru: 'Шарфы', name_en: 'Scarves' },
       { slug: 'wallets', code: 'WAL', name_ru: 'Кошельки', name_en: 'Wallets' },
       { slug: 'gloves', code: 'GLV', name_ru: 'Перчатки', name_en: 'Gloves' },
+      { slug: 'socks', code: 'SOK', name_ru: 'Носки', name_en: 'Socks' },
     ],
   },
   {
@@ -63,6 +65,12 @@ export const CATEGORIES = [
       { slug: 'fragrance-men', code: 'PFM', name_ru: 'Мужская', name_en: 'For him' },
       { slug: 'fragrance-women', code: 'PFW', name_ru: 'Женская', name_en: 'For her' },
       { slug: 'fragrance-unisex', code: 'PFU', name_ru: 'Унисекс', name_en: 'Unisex' },
+    ],
+  },
+  {
+    slug: 'home', name_ru: 'Для дома', name_en: 'Home', size_type: 'one_size',
+    children: [
+      { slug: 'homeware', code: 'HOM', name_ru: 'Предметы интерьера', name_en: 'Homeware' },
     ],
   },
 ];

@@ -2,7 +2,7 @@
 // атрибутом data-brand на <body> (brands.css). Данные — GET /api/brands/:slug, каталог — GET /api/products
 // с фиксированным фильтром brand (createCatalog). Коллекции — вкладки, режим «лукбук» — полноэкранная листалка.
 import { initApp } from '../app.js';
-import { $, $$, esc, icon, reducedMotion } from '../core/dom.js';
+import { $, $$, esc, icon, reducedMotion, initials } from '../core/dom.js';
 import { t, loc, onLangChange, countryName, fmtNumber } from '../core/i18n.js';
 import api from '../core/api.js';
 import { formatPrice, onCurrencyChange } from '../core/currency.js';
@@ -110,7 +110,7 @@ function renderAbout() {
       (d, i) => `<li class="lineage__item" data-reveal>
         <span class="lineage__years t-mono">${d.yearsFrom} — ${d.yearsTo || esc(t('brand.present'))}</span>
         <span class="lineage__dot" aria-hidden="true"></span>
-        <span class="lineage__photo"><img src="${esc(d.photo || '')}" alt="" loading="lazy"></span>
+        <span class="lineage__photo">${d.photo ? `<img src="${esc(d.photo)}" alt="" loading="lazy">` : `<span class="lineage__initials" aria-hidden="true">${esc(initials(...d.name.split(' ')))}</span>`}</span>
         <span class="lineage__name">${esc(d.name)}</span>
         <span class="lineage__n t-mono" aria-hidden="true">${pad(i + 1)}</span>
       </li>`

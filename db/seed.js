@@ -19,6 +19,7 @@ import { BRAND_VOICE, CATEGORY_SENTENCE, MATERIAL_SENTENCE, composition, care, C
 import { STAFF, BUYERS, ROLES, TEST_PASSWORD } from './seed-data/users.js';
 import { loadHistories } from './content/index.js';
 import { preferPhoto, photoOnly } from './imagePath.js';
+import { ruName } from '../scripts/lib/catalog-rules.js';
 import { makeTrackingNumber } from '../server/lib/tracking.js';
 import { orderStatusNotification, ticketReplyNotification, sellerApplicationNotification, returnDecisionNotification, productModerationNotification } from '../server/services/notificationTexts.js';
 
@@ -70,6 +71,32 @@ const ts = (ms) => new Date(ms).toISOString();
 const dateOnly = (ms) => new Date(ms).toISOString().slice(0, 10);
 const PUBLIC_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'public');
 const slugify = (text) => text.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+// Реальный каталог (npm run catalog): db/content/catalog/<бренд>.json — каждая запись = конкретная вещь из магазина,
+// фото, название, цвет и категория которой взяты из одной карточки. Русские названия — db/content/catalog-ru.json.
+const CONTENT_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), 'content');
+const readCatalog = (slug) => {
+  const file = path.join(CONTENT_DIR, 'catalog', `${slug}.json`);
+  return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : null;
+};
+const CATALOG_RU = fs.existsSync(path.join(CONTENT_DIR, 'catalog-ru.json')) ? JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, 'catalog-ru.json'), 'utf8')) : {};
+// Культовые модели брендов — по словам в названии реальной вещи
+const ICONIC = {
+  balenciaga: /triple s|speed|le cagole|hourglass|le city|\bcity\b|track/i, vetements: /dhl|antwerpen|polizei|limited edition/i,
+  gucci: /horsebit|jackie|dionysus|marmont|bamboo|ace\b|ophidia|interlocking/i, prada: /re-edition|re-nylon|galleria|cleo|monolith|triangle/i,
+  'enfants-riches-deprimes': /logo|classic/i, avavav: /x-ray|nun/i, supreme: /box logo|box/i, 'chrome-hearts': /cross|dagger|keeper|forever|floral|baby fat|\+22\+/i,
+  'louis-vuitton': /speedy|neverfull|keepall|alma|pochette|monogram/i, chanel: /classic|flap|2\.55|boy|chanel 22|chanel 25|slingback|ballerina|ballet/i,
+  'maison-margiela': /tabi|5ac|glam slam|replica|gat\b/i, givenchy: /antigona|voyou|4g|shark|g-tote|pandora/i,
+  versace: /medusa|barocco|greca|la greca/i, 'alexander-mcqueen': /oversized|seal|skull|knuckle/i, 'loro-piana': /summer walk|open walk|extra pocket|baby cashmere|l27/i,
+};
+// Цена, если в источнике её нет (фото из SSENSE): средняя цена той же категории у бренда в исходном списке моделей
+function fallbackPrice(slug, cat) {
+  const list = (MODELS[slug] || []).filter((m) => m[1] === cat).map((m) => m[4]);
+  const any = Object.values(MODELS).flat().filter((m) => m[1] === cat).map((m) => m[4]);
+  const src = list.length ? list : any;
+  return src.length ? round10(src.reduce((a, b) => a + b, 0) / src.length) : 1500;
+}
+const CATEGORY_NOUN_RU = Object.fromEntries(CATEGORIES.flatMap((r) => r.children.map((c) => [c.slug, c.name_ru])));
 
 // Пакетная вставка: один параметризованный INSERT … VALUES ($1,$2…),(…) на порцию строк
 async function insertMany(client, table, columns, rows, returning = null, chunk = 400) {
@@ -251,7 +278,7 @@ async function main() {
       await insertMany(
         client, 'creative_directors',
         ['brand_id', 'name', 'years_from', 'years_to', 'description_ru', 'description_en', 'key_collections_ru', 'key_collections_en', 'photo'],
-        directors.map((d, i) => [brandId[b.slug], d[0], d[1], d[2], d[3], d[4], d[5], d[6], preferPhoto(`/images/brands/${b.slug}/directors/${i + 1}.svg`)])
+        directors.map((d, i) => [brandId[b.slug], d[0], d[1], d[2], d[3], d[4], d[5], d[6], photoOnly(`/images/brands/${b.slug}/directors/${i + 1}.svg`)])
       );
       await insertMany(
         client, 'brand_timeline_events', ['brand_id', 'year', 'title_ru', 'title_en', 'description_ru', 'description_en'],
@@ -286,6 +313,51 @@ async function main() {
     // -----------------------------------------------------------------
     const productDrafts = [];
     for (const b of BRANDS) {
+      const catalog = readCatalog(b.slug);
+      if (catalog?.length) {
+        const brandCollections = collectionsByBrand[b.slug];
+        const newCollection = brandCollections.find((c) => c.is_new);
+        const oldCollections = brandCollections.filter((c) => !c.is_new);
+        const modelIndex = new Map();
+        catalog.forEach((item, idx) => {
+          // «fragrance» в каталоге — раздел; подкатегория аромата — по полу (мужской / женский / унисекс)
+          const catInfo = SUBCATEGORY_INFO[item.category === 'fragrance' ? 'fragrance-unisex' : item.category];
+          if (!catInfo || !item.images?.length) return;
+          if (!item.images.every((img) => fs.existsSync(path.join(PUBLIC_DIR, img)))) return;
+          const seq = idx + 1;
+          if (!modelIndex.has(item.model)) modelIndex.set(item.model, modelIndex.size + 1);
+          const cat = item.category === 'fragrance' ? (item.gender === 'women' ? 'fragrance-women' : item.gender === 'men' ? 'fragrance-men' : 'fragrance-unisex') : item.category;
+          const info = SUBCATEGORY_INFO[cat];
+          const sku = `${b.code}-${info.code}-${String(seq).padStart(4, '0')}`;
+          const voice = BRAND_VOICE[b.slug][seq % BRAND_VOICE[b.slug].length];
+          const material = MATERIAL_SENTENCE[item.material] ? item.material : 'cotton';
+          const preowned = item.preowned
+            ? ['Подлинная вещь с проверкой: прошла экспертизу и находится в отличном состоянии.', 'An authenticated piece in excellent condition.']
+            : null;
+          const descRu = [voice[0], CATEGORY_SENTENCE[cat][0], MATERIAL_SENTENCE[material][0], preowned?.[0]].filter(Boolean).join(' ');
+          const descEn = [voice[1], CATEGORY_SENTENCE[cat][1], MATERIAL_SENTENCE[material][1], preowned?.[1]].filter(Boolean).join(' ');
+          const [compRu, compEn] = composition(material, cat);
+          const [careRu, careEn] = care(material, cat);
+          const iconic = Boolean(ICONIC[b.slug]?.test(item.name_en));
+          const isNew = !item.preowned && chance(iconic ? 0.15 : 0.3);
+          const collection = isNew ? newCollection : pick(oldCollections);
+          const price = item.price_byn || fallbackPrice(b.slug, cat);
+          const hasDiscount = chance(iconic ? 0.08 : 0.18);
+          productDrafts.push({
+            brand: b, sku, model_code: `${b.code}-M${String(modelIndex.get(item.model)).padStart(3, '0')}`, cat, catInfo: info,
+            name_ru: CATALOG_RU[item.name_en] || ruName(item.name_en, item.category), name_en: item.name_en,
+            description_ru: descRu, description_en: descEn, composition_ru: compRu, composition_en: compEn, care_ru: careRu, care_en: careEn,
+            price_byn: price, old_price_byn: hasDiscount ? round10(price * randFloat(1.15, 1.4)) : null, gender: item.gender || 'unisex',
+            color: item.color, material, country: b.origin, is_limited: chance(0.04), is_new: isNew, is_iconic: iconic,
+            collection_id: collection?.id || null, views_count: iconic ? randInt(1500, 6500) : randInt(40, 1400),
+            created_at: isNew ? NOW - randInt(3, 45) * DAY : NOW - randInt(60, 420) * DAY,
+            // Вещи с ресейла (Fashionphile) — у продавцов-ресейлеров, в единственном экземпляре
+            seller: item.preowned ? (SUBCATEGORY_INFO[cat].parent === 'jewelry' ? U.seller2 : U.seller3) : U.official,
+            single: Boolean(item.preowned), preowned: Boolean(item.preowned), images: item.images, source: item.page,
+          });
+        });
+        continue;
+      }
       const models = MODELS[b.slug].map((m) => ({ m, colors: [...m[5]] }));
       let total = models.reduce((sum, x) => sum + x.colors.length, 0);
       // Обрезаем до 60 товаров: сначала убираем лишние цвета у некультовых моделей
@@ -340,7 +412,8 @@ async function main() {
     // fileURLToPath — корректный путь и на Windows (у URL.pathname там лишний «/» перед буквой диска)
     const excludedFile = path.join(path.dirname(fileURLToPath(import.meta.url)), 'content', 'excluded-products.json');
     const excludedSkus = new Set(fs.existsSync(excludedFile) ? Object.values(JSON.parse(fs.readFileSync(excludedFile, 'utf8'))).flat() : []);
-    for (let i = productDrafts.length - 1; i >= 0; i--) if (excludedSkus.has(productDrafts[i].sku)) productDrafts.splice(i, 1);
+    // (только для товаров из старого списка моделей — у реального каталога фото есть у каждой вещи)
+    for (let i = productDrafts.length - 1; i >= 0; i--) if (!productDrafts[i].images && excludedSkus.has(productDrafts[i].sku)) productDrafts.splice(i, 1);
     if (excludedSkus.size) console.log(`[seed] Исключено товаров без подходящего фото: ${excludedSkus.size}`);
     // Часть товаров принадлежит тестовым продавцам (архив, серебро, винтаж)
     const sellerPlan = [
@@ -349,7 +422,7 @@ async function main() {
       [U.seller3, ['chanel', 'louis-vuitton', 'maison-margiela'], (p) => SUBCATEGORY_INFO[p.cat].parent === 'bags' || p.cat === 'tshirts', 3],
     ];
     for (const [seller, brands, filter, every] of sellerPlan) {
-      productDrafts.filter((p) => brands.includes(p.brand.slug) && filter(p)).forEach((p, i) => { if (i % every === 0) p.seller = seller; });
+      productDrafts.filter((p) => !p.preowned && brands.includes(p.brand.slug) && filter(p)).forEach((p, i) => { if (i % every === 0) p.seller = seller; });
     }
 
     const productRows = await insertMany(
@@ -368,14 +441,20 @@ async function main() {
     productDrafts.forEach((p) => { p.id = productIdBySku[p.sku]; });
 
     await insertMany(client, 'product_images', ['product_id', 'url', 'sort_order', 'is_main'],
-      productDrafts.flatMap((p) => [
-        [p.id, preferPhoto(`/images/brands/${p.brand.slug}/products/${p.sku}-1.svg`), 1, true],
-        [p.id, preferPhoto(`/images/brands/${p.brand.slug}/products/${p.sku}-2.svg`), 2, false],
-      ]));
+      productDrafts.flatMap((p) =>
+        p.images
+          ? p.images.map((url, i) => [p.id, url, i + 1, i === 0])
+          : [
+              [p.id, preferPhoto(`/images/brands/${p.brand.slug}/products/${p.sku}-1.svg`), 1, true],
+              [p.id, preferPhoto(`/images/brands/${p.brand.slug}/products/${p.sku}-2.svg`), 2, false],
+            ]
+      ));
 
     const variantDrafts = [];
     for (const p of productDrafts) {
-      for (const label of sizeLabelsFor(p.catInfo.size_type, p.gender, rand)) {
+      const labels = sizeLabelsFor(p.catInfo.size_type, p.gender, rand);
+      // Вещь с ресейла — один экземпляр одного размера
+      for (const label of p.single ? [labels[Math.floor(labels.length / 2)]] : labels) {
         variantDrafts.push({ product: p, size_id: sizeId[`${p.catInfo.size_type}:${label}`], label, sku_variant: `${p.sku}-${label.replace(/\s+/g, '').replace('.', '').toUpperCase()}` });
       }
     }
@@ -401,6 +480,13 @@ async function main() {
       [[0, 38], [1, 20], [2, 16], [3, 12], [4, 8], [6, 6]],
     ];
     for (const v of variantDrafts) {
+      if (v.product.single) {
+        W.forEach((w, wi) => {
+          stock.set(stockKey(v.id, w), { quantity: wi === 0 ? 1 : 0, reserved: 0 });
+          if (wi === 0) movements.push([v.id, w, 'income', 1, null, U.warehouse, 'Приёмка вещи после экспертизы подлинности', ts(NOW - randInt(165, 175) * DAY)]);
+        });
+        continue;
+      }
       const soldOut = chance(0.05);
       W.forEach((w, wi) => {
         let qty = soldOut ? 0 : weighted(distribution[wi]);
@@ -609,7 +695,7 @@ async function main() {
 
       const itemRows = await insertMany(client, 'order_items',
         ['order_id', 'variant_id', 'product_id', 'seller_id', 'warehouse_id', 'product_name', 'product_name_en', 'size_label', 'sku', 'image_url', 'price_byn', 'quantity'],
-        order.items.map((it) => [orderId, it.variant.id, it.product.id, it.product.seller, it.warehouse, `${it.product.brand.name} — ${it.product.name_ru}`, `${it.product.brand.name} — ${it.product.name_en}`, it.variant.label, it.variant.sku_variant, preferPhoto(`/images/brands/${it.product.brand.slug}/products/${it.product.sku}-1.svg`), it.price, it.qty]),
+        order.items.map((it) => [orderId, it.variant.id, it.product.id, it.product.seller, it.warehouse, `${it.product.brand.name} — ${it.product.name_ru}`, `${it.product.brand.name} — ${it.product.name_en}`, it.variant.label, it.variant.sku_variant, it.product.images?.[0] || preferPhoto(`/images/brands/${it.product.brand.slug}/products/${it.product.sku}-1.svg`), it.price, it.qty]),
         'id');
       order.items.forEach((it, i) => { it.id = itemRows[i].id; });
 
@@ -799,14 +885,18 @@ async function main() {
     // -----------------------------------------------------------------
     // 13. Товары тестовых продавцов на модерации (pending / rejected / draft)
     // -----------------------------------------------------------------
+    // Название, цвет и фото — от реальной вещи той же марки и категории из каталога (фото совпадает с товаром)
     const moderationDemo = [
-      { seller: U.seller1, brand: 'balenciaga', cat: 'sneakers', sku: 'BAL-SNK-9001', ru: 'Кроссовки Triple S — образец 2017 года', en: 'Triple S Sneaker — 2017 Sample', price: 4800, color: 'grey', material: 'leather', status: 'pending' },
-      // Фото колец Chrome Hearts в открытых источниках нет — демо-кольцо этого продавца теперь Givenchy (фото есть)
-      { seller: U.seller2, brand: 'givenchy', cat: 'rings', sku: 'GIV-RNG-9002', ru: 'Винтажное кольцо 4G', en: 'Vintage 4G Ring', price: 5200, color: 'silver', material: 'silver925', status: 'pending' },
-      { seller: U.seller1, brand: 'vetements', cat: 'hoodies', sku: 'VTM-HOD-9003', ru: 'Худи Total Darkness (архив)', en: 'Total Darkness Hoodie (archive)', price: 2400, color: 'black', material: 'cotton', status: 'rejected', reason: 'Недостаточно фото для проверки подлинности: нужны крупные планы бирок и швов.' },
-      { seller: U.seller3, brand: 'chanel', cat: 'crossbody', sku: 'CHA-CRB-9004', ru: 'Винтажная сумка Classic Flap 1990-х', en: 'Vintage 1990s Classic Flap Bag', price: 28000, color: 'black', material: 'leather', status: 'draft' },
-      { seller: U.seller3, brand: 'louis-vuitton', cat: 'totes', sku: 'LVT-TOT-9005', ru: 'Винтажная сумка Speedy 30', en: 'Vintage Speedy 30 Bag', price: 5600, color: 'brown', material: 'canvas', status: 'pending' },
-    ];
+      { seller: U.seller1, brand: 'balenciaga', cat: 'sneakers', sku: 'BAL-SNK-9001', ru: 'образец из архива', en: 'archive sample', price: 4800, status: 'pending' },
+      { seller: U.seller2, brand: 'chrome-hearts', cat: 'rings', sku: 'CHH-RNG-9002', ru: 'из частной коллекции', en: 'from a private collection', price: 5200, status: 'pending' },
+      { seller: U.seller1, brand: 'vetements', cat: 'hoodies', sku: 'VTM-HOD-9003', ru: 'архив', en: 'archive', price: 2400, status: 'rejected', reason: 'Недостаточно фото для проверки подлинности: нужны крупные планы бирок и швов.' },
+      { seller: U.seller3, brand: 'chanel', cat: 'crossbody', sku: 'CHA-CRB-9004', ru: 'винтаж', en: 'vintage', price: 28000, status: 'draft' },
+      { seller: U.seller3, brand: 'louis-vuitton', cat: 'totes', sku: 'LVT-TOT-9005', ru: 'винтаж', en: 'vintage', price: 5600, status: 'pending' },
+    ].map((d) => {
+      const ref = productDrafts.find((p) => p.images && p.brand.slug === d.brand && p.cat === d.cat) || productDrafts.find((p) => p.images && p.brand.slug === d.brand);
+      if (!ref) return null;
+      return { ...d, cat: ref.cat, ru: `${ref.name_ru} (${d.ru})`, en: `${ref.name_en} (${d.en})`, color: ref.color, material: ref.material, images: ref.images };
+    }).filter(Boolean);
     for (const d of moderationDemo) {
       const b = BRANDS.find((x) => x.slug === d.brand);
       const [compRu, compEn] = composition(d.material, d.cat);
@@ -820,10 +910,7 @@ async function main() {
           `Вещь из частной коллекции, состояние отличное. ${CATEGORY_SENTENCE[d.cat][0]}`, `From a private collection, excellent condition. ${CATEGORY_SENTENCE[d.cat][1]}`,
           compRu, compEn, careRu, careEn, d.price, d.color, d.material, b.origin, d.status, d.reason || null, ts(NOW - randInt(1, 6) * DAY)]
       );
-      await insertMany(client, 'product_images', ['product_id', 'url', 'sort_order', 'is_main'], [
-        [prod.id, preferPhoto(`/images/brands/${d.brand}/products/${d.sku}-1.svg`), 1, true],
-        [prod.id, preferPhoto(`/images/brands/${d.brand}/products/${d.sku}-2.svg`), 2, false],
-      ]);
+      await insertMany(client, 'product_images', ['product_id', 'url', 'sort_order', 'is_main'], d.images.map((url, i) => [prod.id, url, i + 1, i === 0]));
       const sizeType = SUBCATEGORY_INFO[d.cat].size_type;
       const labels = sizeLabelsFor(sizeType, 'unisex', rand).slice(0, 3);
       const vRows = await insertMany(client, 'product_variants', ['product_id', 'size_id', 'sku_variant'],

@@ -207,3 +207,46 @@ export const IMAGE_PLAN = {
 };
 
 export default IMAGE_PLAN;
+
+// ---------- Источники реального каталога товаров (scripts/build-catalog.js, npm run catalog) ----------
+// Каждый товар сайта — конкретная вещь из источника; фото, цвет и название — из одной карточки.
+const shopPhotos = [{ type: 'shopPhotos' }]; // уже скачанные фото конкретных вещей (SSENSE, Supreme)
+const fashionphile = (collection, vendor, pages = 2) => ({ type: 'fashionphile', collections: [collection], vendor, pages });
+const pradaListings = [
+  'mens/bags/backpacks-and-belt-bags/c/10144US', 'mens/bags/messenger-bags/c/10147US', 'mens/shoes/sneakers/c/10155US', 'mens/shoes/loafers/c/10153US',
+  'mens/shoes/boots/c/10150US', 'mens/ready-to-wear/t-shirts-and-polo-shirts/c/10142US', 'mens/ready-to-wear/knitwear/c/10134US',
+  'mens/ready-to-wear/outerwear/c/10136US', 'mens/ready-to-wear/shirts/c/10138US', 'mens/ready-to-wear/trousers-and-bermudas/c/10141US',
+  'mens/accessories/belts/c/10157US', 'mens/accessories/sunglasses/c/10163US', 'mens/accessories/hats-and-gloves/c/10160US',
+  'mens/small-leather-goods/card-holders/c/10349US', 'womens/bags/shoulder-bags/c/10066US', 'womens/bags/top-handles/c/10067US',
+  'womens/bags/totes/c/10068US', 'womens/shoes/pumps-and-ballerinas/c/10075US', 'womens/shoes/loafers-and-lace-ups/c/10074US',
+  'womens/shoes/sandals-and-mules/c/10720US', 'womens/ready-to-wear/dresses/c/10050US', 'womens/ready-to-wear/skirts/c/10059US',
+  'womens/ready-to-wear/knitwear/c/10054US', 'womens/accessories/silks-and-scarves/c/10085US', 'womens/accessories/jewels/c/10621US',
+  'womens/accessories/sunglasses/c/10086US',
+].map((x) => `/us/en/${x}`);
+const CATALOG = {
+  balenciaga: shopPhotos,
+  givenchy: shopPhotos,
+  'maison-margiela': shopPhotos,
+  versace: shopPhotos,
+  vetements: shopPhotos,
+  'alexander-mcqueen': [...shopPhotos, fashionphile('alexander-mcqueen', 'Alexander McQueen', 1)],
+  avavav: shopPhotos,
+  supreme: shopPhotos,
+  chanel: [{
+    type: 'chanel', limit: 75,
+    listings: ['/us/fashion/handbags/c/1x1x1/', '/us/fashion/shoes/c/1x1x5/', '/us/fashion/costume-jewelry/c/1x1x3/', '/us/fashion/small-leather-goods/c/1x1x2/',
+      '/us/fashion/belts/c/1x1x6/', '/us/fashion/scarves/c/1x1x8/', '/us/fashion/headwear/c/1x1x11/', '/us/eyewear/sunglasses/c/2x1x1/'],
+  }],
+  prada: [{ type: 'prada', perListing: 4, listings: pradaListings }],
+  'enfants-riches-deprimes': [{ type: 'erd', listings: ['/collections/new-arrivals-men', '/collections/new-arrivals-women', '/collections/archive', '/collections/all'] }],
+  gucci: [fashionphile('gucci', 'Gucci')],
+  'louis-vuitton': [fashionphile('louis-vuitton', 'Louis Vuitton')],
+  'loro-piana': [fashionphile('loro-piana', 'Loro Piana')],
+  'chrome-hearts': [
+    { type: 'chromehearts', listings: ['/scents', '/baccarat', '/boxers-leggings', '/intimates', '/socks', '/scarf', '/slippers'] },
+    fashionphile('chrome-hearts', 'Chrome Hearts'),
+  ],
+};
+for (const [slug, sources] of Object.entries(CATALOG)) IMAGE_PLAN[slug].catalog = sources;
+// Вещи, которые на сайте не показываем (принт с перечёркнутой свастикой — коллекция Antihate)
+IMAGE_PLAN.vetements.catalogExclude = 'antihate|anti-hate|swastika';

@@ -8,15 +8,16 @@ import { store, wishlist, compare } from '../core/store.js';
 import { toast } from './toast.js';
 
 // «Номер линии» на бирке — отсылка к нумерации Margiela (1 — женская, 10 — мужская, 11 — аксессуары, 22 — обувь…)
-const LINE_NUMBER = { clothing: { women: 1, men: 10, unisex: 14 }, shoes: 22, bags: 11, accessories: 11, jewelry: 12, fragrance: 3 };
+const LINE_NUMBER = { clothing: { women: 1, men: 10, unisex: 14 }, shoes: 22, bags: 11, accessories: 11, jewelry: 12, fragrance: 3, home: 13 };
 const CATEGORY_ROOT = {
   tshirts: 'clothing', hoodies: 'clothing', sweaters: 'clothing', shirts: 'clothing', jackets: 'clothing', coats: 'clothing',
-  trousers: 'clothing', jeans: 'clothing', shorts: 'clothing', dresses: 'clothing', skirts: 'clothing', suits: 'clothing',
+  trousers: 'clothing', jeans: 'clothing', shorts: 'clothing', dresses: 'clothing', skirts: 'clothing', suits: 'clothing', underwear: 'clothing',
   sneakers: 'shoes', boots: 'shoes', heels: 'shoes', loafers: 'shoes', sandals: 'shoes',
   totes: 'bags', crossbody: 'bags', backpacks: 'bags', clutches: 'bags',
-  belts: 'accessories', sunglasses: 'accessories', headwear: 'accessories', scarves: 'accessories', wallets: 'accessories', gloves: 'accessories',
+  belts: 'accessories', sunglasses: 'accessories', headwear: 'accessories', scarves: 'accessories', wallets: 'accessories', gloves: 'accessories', socks: 'accessories',
   rings: 'jewelry', chains: 'jewelry', bracelets: 'jewelry', earrings: 'jewelry', pendants: 'jewelry',
   'fragrance-men': 'fragrance', 'fragrance-women': 'fragrance', 'fragrance-unisex': 'fragrance',
+  homeware: 'home',
 };
 
 export function lineNumber(product) {

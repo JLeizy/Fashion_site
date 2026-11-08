@@ -1,0 +1,1014 @@
+[
+ {
+  "key": "ss-19751841",
+  "model": "jacquard silk blend shirt",
+  "name_en": "Jacquard Silk Blend Shirt",
+  "name_ru": "Рубашка Jacquard Blend",
+  "category": "shirts",
+  "color": "white",
+  "material": "silk",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19751841-1.webp",
+   "/images/brands/versace/products/ss-19751841-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/white-jacquard-silk-blend-shirt/19751841",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M192034_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M192034_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19751411",
+  "model": "printed cotton jersey regular t shirt",
+  "name_en": "Printed Cotton Jersey Regular T-Shirt",
+  "name_ru": "Футболка Printed Regular",
+  "category": "tshirts",
+  "color": "black",
+  "material": "cotton",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19751411-1.webp",
+   "/images/brands/versace/products/ss-19751411-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-and-white-printed-cotton-jersey-regular-t-shirt/19751411",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M213032_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M213032_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19379251",
+  "model": "heavy soft fleece greca details logo sweatshirt",
+  "name_en": "Heavy Soft Fleece Greca Details and Logo Sweatshirt",
+  "name_ru": "Свитшот Heavy Soft Fleece Greca Details and Logo",
+  "category": "hoodies",
+  "color": "grey",
+  "material": "polyester",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19379251-1.webp",
+   "/images/brands/versace/products/ss-19379251-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/gray-heavy-soft-fleece-greca-details-and-logo-sweatshirt/19379251",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F098000_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F098000_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19760211",
+  "model": "icaro leather sneakers",
+  "name_en": "Icaro Leather Sneakers",
+  "name_ru": "Кроссовки Icaro",
+  "category": "sneakers",
+  "color": "black",
+  "material": "leather",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19760211-1.webp",
+   "/images/brands/versace/products/ss-19760211-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-and-gold-icaro-leather-sneakers/19760211",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M237015_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M237015_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19744061",
+  "model": "heels",
+  "name_en": "Heels",
+  "name_ru": "Туфли",
+  "category": "heels",
+  "color": "black",
+  "material": "leather",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19744061-1.webp",
+   "/images/brands/versace/products/ss-19744061-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/black-ballerina-heels/19744061",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F118002_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F118002_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19378821",
+  "model": "gianni nappa mule heels",
+  "name_en": "Gianni Metallic Nappa Mule Heels",
+  "name_ru": "Туфли Gianni Metallic",
+  "category": "sandals",
+  "color": "gold",
+  "material": "leather",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19378821-1.webp",
+   "/images/brands/versace/products/ss-19378821-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/gold-gianni-metallic-nappa-mule-heels/19378821",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F122000_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F122000_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19400711",
+  "model": "medusa croc effect loafers",
+  "name_en": "Medusa 95 Croc Effect Loafers",
+  "name_ru": "Лоферы Medusa 95 Croc Effect",
+  "category": "loafers",
+  "color": "black",
+  "material": "leather",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19400711-1.webp",
+   "/images/brands/versace/products/ss-19400711-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-medusa-95-croc-effect-loafers/19400711",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M231000_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M231000_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19759531",
+  "model": "orlando leather boots",
+  "name_en": "Orlando Leather Boots",
+  "name_ru": "Ботинки Orlando",
+  "category": "boots",
+  "color": "black",
+  "material": "leather",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19759531-1.webp",
+   "/images/brands/versace/products/ss-19759531-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-orlando-leather-boots/19759531",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M228001_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M228001_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19743841",
+  "model": "lamb leather small tote",
+  "name_en": "Lamb Leather Small Tote",
+  "name_ru": "Сумка-тоут Lamb Small",
+  "category": "totes",
+  "color": "black",
+  "material": "leather",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19743841-1.webp",
+   "/images/brands/versace/products/ss-19743841-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/black-lamb-leather-small-tote/19743841",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F049010_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F049010_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19743911",
+  "model": "severine leather shoulder bag",
+  "name_en": "Severine Leather Shoulder Bag",
+  "name_ru": "Сумка Severine",
+  "category": "crossbody",
+  "color": "black",
+  "material": "leather",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19743911-1.webp",
+   "/images/brands/versace/products/ss-19743911-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/black-severine-leather-shoulder-bag/19743911",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F046002_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F046002_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19744171",
+  "model": "liquid jersey maxi dress",
+  "name_en": "Liquid Jersey Maxi Dress",
+  "name_ru": "Платье Liquid Maxi",
+  "category": "dresses",
+  "color": "black",
+  "material": "cotton",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19744171-1.webp",
+   "/images/brands/versace/products/ss-19744171-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/black-liquid-jersey-maxi-dress/19744171",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F055000_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F055000_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19744221",
+  "model": "wool jacket mini dress",
+  "name_en": "Wool Jacket Mini Dress",
+  "name_ru": "Куртка Mini",
+  "category": "jackets",
+  "color": "black",
+  "material": "wool",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19744221-1.webp",
+   "/images/brands/versace/products/ss-19744221-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/black-wool-jacket-mini-dress/19744221",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F052009_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F052009_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19379311",
+  "model": "lace trim viscose blend ribbed knit midi skirt",
+  "name_en": "Lace Trim Viscose Blend Ribbed Knit Midi Skirt",
+  "name_ru": "Свитер Lace Trim Viscose Blend Ribbed Midi",
+  "category": "sweaters",
+  "color": "green",
+  "material": "viscose",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19379311-1.webp",
+   "/images/brands/versace/products/ss-19379311-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/green-lace-trim-viscose-blend-ribbed-knit-midi-skirt/19379311",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F092000_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F092000_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19744331",
+  "model": "wool coat",
+  "name_en": "Wool Coat",
+  "name_ru": "Пальто",
+  "category": "coats",
+  "color": "black",
+  "material": "wool",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19744331-1.webp",
+   "/images/brands/versace/products/ss-19744331-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/black-wool-coat/19744331",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F059001_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F059001_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-16663051",
+  "model": "mohair blend formal trousers",
+  "name_en": "Mohair Blend Formal Trousers",
+  "name_ru": "Брюки Mohair Blend Formal",
+  "category": "trousers",
+  "color": "black",
+  "material": "mohair",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-16663051-1.webp",
+   "/images/brands/versace/products/ss-16663051-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-mohair-blend-formal-trousers/16663051",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/242404M191005_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/242404M191005_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19399851",
+  "model": "distressed straight jeans",
+  "name_en": "Distressed Straight Jeans",
+  "name_ru": "Джинсы Distressed Straight",
+  "category": "jeans",
+  "color": "blue",
+  "material": "denim",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19399851-1.webp",
+   "/images/brands/versace/products/ss-19399851-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/blue-distressed-straight-jeans/19399851",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M186005_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M186005_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19400661",
+  "model": "double waistband swim shorts",
+  "name_en": "Double Waistband Swim Shorts",
+  "name_ru": "Шорты Double Waistband Swim",
+  "category": "shorts",
+  "color": "navy",
+  "material": "cotton",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19400661-1.webp",
+   "/images/brands/versace/products/ss-19400661-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/navy-double-waistband-swim-shorts/19400661",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M208012_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M208012_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-113428040",
+  "model": "medusa biggie sunglasses",
+  "name_en": "Medusa Biggie Sunglasses",
+  "name_ru": "Солнцезащитные очки Medusa Biggie",
+  "category": "sunglasses",
+  "color": "black",
+  "material": "acetate",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-113428040-1.webp",
+   "/images/brands/versace/products/ss-113428040-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-medusa-biggie-sunglasses/113428040",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M134033_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M134033_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19743681",
+  "model": "printed silk twill scarf",
+  "name_en": "Printed Silk Twill Scarf",
+  "name_ru": "Шарф Printed Twill",
+  "category": "scarves",
+  "color": "multicolor",
+  "material": "silk",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19743681-1.webp",
+   "/images/brands/versace/products/ss-19743681-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/multicolor-printed-silk-twill-scarf/19743681",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F029004_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F029004_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-16610751",
+  "model": "medusa biggie trifold wallet",
+  "name_en": "Medusa Biggie Trifold Wallet",
+  "name_ru": "Кошелёк Medusa Biggie Trifold",
+  "category": "wallets",
+  "color": "black",
+  "material": "leather",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-16610751-1.webp",
+   "/images/brands/versace/products/ss-16610751-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-medusa-biggie-trifold-wallet/16610751",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/242404M164003_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/242404M164003_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19400921",
+  "model": "medusa earrings",
+  "name_en": "Medusa Earrings",
+  "name_ru": "Серьги Medusa",
+  "category": "earrings",
+  "color": "multicolor",
+  "material": "brass",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19400921-1.webp",
+   "/images/brands/versace/products/ss-19400921-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/medusa-earrings/19400921",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M144002_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M144002_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19400831",
+  "model": "medusa necklace",
+  "name_en": "Medusa Necklace",
+  "name_ru": "Колье Medusa",
+  "category": "chains",
+  "color": "multicolor",
+  "material": "brass",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19400831-1.webp",
+   "/images/brands/versace/products/ss-19400831-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/medusa-necklace/19400831",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M145001_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M145001_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19404321",
+  "model": "la medusa leather bracelet",
+  "name_en": "LA Medusa Leather Bracelet",
+  "name_ru": "Браслет LA Medusa",
+  "category": "bracelets",
+  "color": "black",
+  "material": "leather",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19404321-1.webp",
+   "/images/brands/versace/products/ss-19404321-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-la-medusa-leather-bracelet/19404321",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M142001_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M142001_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19401121",
+  "model": "medusa ring",
+  "name_en": "Medusa Ring",
+  "name_ru": "Кольцо Medusa",
+  "category": "rings",
+  "color": "multicolor",
+  "material": "brass",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19401121-1.webp",
+   "/images/brands/versace/products/ss-19401121-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/medusa-ring/19401121",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M147006_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M147006_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-17890851",
+  "model": "barocco jacquard shirt",
+  "name_en": "Barocco Jacquard Shirt",
+  "name_ru": "Рубашка Barocco Jacquard",
+  "category": "shirts",
+  "color": "black",
+  "material": "cotton",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-17890851-1.webp",
+   "/images/brands/versace/products/ss-17890851-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-barocco-jacquard-shirt/17890851",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252404M192013_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/252404M192013_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19399001",
+  "model": "printed cotton jersey regular t shirt",
+  "name_en": "Printed Cotton Jersey Regular T-Shirt",
+  "name_ru": "Футболка Printed Regular",
+  "category": "tshirts",
+  "color": "white",
+  "material": "cotton",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19399001-1.webp",
+   "/images/brands/versace/products/ss-19399001-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/white-and-black-printed-cotton-jersey-regular-t-shirt/19399001",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M213000_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M213000_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19760221",
+  "model": "icaro leather sneakers",
+  "name_en": "Icaro Leather Sneakers",
+  "name_ru": "Кроссовки Icaro",
+  "category": "sneakers",
+  "color": "white",
+  "material": "leather",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19760221-1.webp",
+   "/images/brands/versace/products/ss-19760221-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/white-icaro-leather-sneakers/19760221",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M237016_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M237016_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19378841",
+  "model": "gianni satin heels",
+  "name_en": "Gianni Satin Heels",
+  "name_ru": "Туфли Gianni Satin",
+  "category": "heels",
+  "color": "red",
+  "material": "leather",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19378841-1.webp",
+   "/images/brands/versace/products/ss-19378841-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/red-gianni-satin-heels/19378841",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F122002_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F122002_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19759751",
+  "model": "la medusa slides",
+  "name_en": "LA Medusa Slides",
+  "name_ru": "Шлёпанцы LA Medusa",
+  "category": "sandals",
+  "color": "black",
+  "material": "leather",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19759751-1.webp",
+   "/images/brands/versace/products/ss-19759751-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-la-medusa-slides/19759751",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M231015_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M231015_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19743771",
+  "model": "pivot mini leather bucket bag",
+  "name_en": "Pivot Mini Leather Bucket Bag",
+  "name_ru": "Сумка-ведро Pivot Mini",
+  "category": "totes",
+  "color": "red",
+  "material": "leather",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19743771-1.webp",
+   "/images/brands/versace/products/ss-19743771-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/red-pivot-mini-leather-bucket-bag/19743771",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F048009_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F048009_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19379861",
+  "model": "cabine printed duchesse shoulder bag",
+  "name_en": "Cabine Printed Duchesse Shoulder Bag",
+  "name_ru": "Сумка Cabine Printed Duchesse",
+  "category": "crossbody",
+  "color": "red",
+  "material": "leather",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19379861-1.webp",
+   "/images/brands/versace/products/ss-19379861-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/red-cabine-printed-duchesse-shoulder-bag/19379861",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F048004_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F048004_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19751911",
+  "model": "blouson jacket",
+  "name_en": "Blouson Jacket",
+  "name_ru": "Куртка",
+  "category": "jackets",
+  "color": "black",
+  "material": "nylon",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19751911-1.webp",
+   "/images/brands/versace/products/ss-19751911-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-denim-blouson-jacket/19751911",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M177003_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M177003_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19751701",
+  "model": "embroidered wool knit crewneck sweater",
+  "name_en": "Embroidered Wool Knit Crewneck Sweater",
+  "name_ru": "Свитер Embroidered Crewneck",
+  "category": "sweaters",
+  "color": "black",
+  "material": "wool",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19751701-1.webp",
+   "/images/brands/versace/products/ss-19751701-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-embroidered-wool-knit-crewneck-sweater/19751701",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M201008_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M201008_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19399391",
+  "model": "nylon jogger track pants",
+  "name_en": "Nylon Jogger Track Pants",
+  "name_ru": "Джоггеры",
+  "category": "trousers",
+  "color": "black",
+  "material": "nylon",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19399391-1.webp",
+   "/images/brands/versace/products/ss-19399391-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-nylon-jogger-track-pants/19399391",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M191001_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M191001_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19399631",
+  "model": "tapered jeans",
+  "name_en": "Tapered Jeans",
+  "name_ru": "Джинсы Tapered",
+  "category": "jeans",
+  "color": "black",
+  "material": "denim",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19399631-1.webp",
+   "/images/brands/versace/products/ss-19399631-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-tapered-jeans/19399631",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M186003_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M186003_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19759661",
+  "model": "greca swim shorts",
+  "name_en": "Greca Swim Shorts",
+  "name_ru": "Шорты Greca Swim",
+  "category": "shorts",
+  "color": "black",
+  "material": "cotton",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19759661-1.webp",
+   "/images/brands/versace/products/ss-19759661-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/black-greca-swim-shorts/19759661",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M208021_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M208021_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19400981",
+  "model": "logo tag ring",
+  "name_en": "Logo Tag Ring",
+  "name_ru": "Кольцо Logo Tag",
+  "category": "rings",
+  "color": "multicolor",
+  "material": "brass",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19400981-1.webp",
+   "/images/brands/versace/products/ss-19400981-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/logo-tag-ring/19400981",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M147005_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M147005_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19399471",
+  "model": "knit athleisure polo",
+  "name_en": "Knit Athleisure Polo",
+  "name_ru": "Свитер Athleisure Polo",
+  "category": "tshirts",
+  "color": "navy",
+  "material": "knit",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19399471-1.webp",
+   "/images/brands/versace/products/ss-19399471-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/navy-knit-athleisure-polo/19399471",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M212013_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M212013_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19400991",
+  "model": "greca court nappa suede sneakers",
+  "name_en": "Greca Court Nappa and Suede Sneakers",
+  "name_ru": "Кроссовки Greca Court",
+  "category": "sneakers",
+  "color": "brown",
+  "material": "suede",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19400991-1.webp",
+   "/images/brands/versace/products/ss-19400991-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/brown-and-white-greca-court-nappa-and-suede-sneakers/19400991",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M237007_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M237007_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19759741",
+  "model": "la medusa slides",
+  "name_en": "LA Medusa Slides",
+  "name_ru": "Шлёпанцы LA Medusa",
+  "category": "sandals",
+  "color": "red",
+  "material": "leather",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19759741-1.webp",
+   "/images/brands/versace/products/ss-19759741-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/red-la-medusa-slides/19759741",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M231014_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M231014_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19743761",
+  "model": "pivot mini leather bucket bag",
+  "name_en": "Pivot Mini Leather Bucket Bag",
+  "name_ru": "Сумка-ведро Pivot Mini",
+  "category": "totes",
+  "color": "black",
+  "material": "leather",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19743761-1.webp",
+   "/images/brands/versace/products/ss-19743761-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/black-pivot-mini-leather-bucket-bag/19743761",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F048008_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F048008_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19399941",
+  "model": "chambray bomber jacket",
+  "name_en": "Chambray Denim Bomber Jacket",
+  "name_ru": "Бомбер Chambray",
+  "category": "jackets",
+  "color": "blue",
+  "material": "denim",
+  "gender": "men",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19399941-1.webp",
+   "/images/brands/versace/products/ss-19399941-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/men/product/versace/blue-chambray-denim-bomber-jacket/19399941",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M177002_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404M177002_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19379881",
+  "model": "embleme nappa bowling bag",
+  "name_en": "Embleme Nappa Bowling Bag",
+  "name_ru": "Сумка Embleme Bowling",
+  "category": "totes",
+  "color": "pink",
+  "material": "leather",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19379881-1.webp",
+   "/images/brands/versace/products/ss-19379881-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/pink-embleme-nappa-bowling-bag/19379881",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F048006_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F048006_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19744291",
+  "model": "v neck blouson leather jacket",
+  "name_en": "V-Neck Blouson Leather Jacket",
+  "name_ru": "Куртка V-Neck",
+  "category": "jackets",
+  "color": "black",
+  "material": "leather",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19744291-1.webp",
+   "/images/brands/versace/products/ss-19744291-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/black-v-neck-blouson-leather-jacket/19744291",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F064001_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F064001_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19379411",
+  "model": "embroidered logo nylon blouson jacket",
+  "name_en": "Embroidered Logo Nylon Blouson Jacket",
+  "name_ru": "Куртка Embroidered Logo",
+  "category": "jackets",
+  "color": "black",
+  "material": "nylon",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19379411-1.webp",
+   "/images/brands/versace/products/ss-19379411-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/black-embroidered-logo-nylon-blouson-jacket/19379411",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F063002_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F063002_2.jpg"
+  ]
+ },
+ {
+  "key": "ss-19392831",
+  "model": "cotton terry jacquard zip jacket",
+  "name_en": "Cotton Terry Jacquard Zip Jacket",
+  "name_ru": "Куртка Terry Jacquard Zip",
+  "category": "jackets",
+  "color": "navy",
+  "material": "cotton",
+  "gender": "women",
+  "price_byn": null,
+  "preowned": false,
+  "images": [
+   "/images/brands/versace/products/ss-19392831-1.webp",
+   "/images/brands/versace/products/ss-19392831-2.webp"
+  ],
+  "page": "https://www.ssense.com/en-us/women/product/versace/navy-cotton-terry-jacquard-zip-jacket/19392831",
+  "source": "ssense.com",
+  "image_urls": [
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F097000_1.jpg",
+   "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262404F097000_2.jpg"
+  ]
+ }
+]

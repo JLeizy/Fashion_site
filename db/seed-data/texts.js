@@ -101,6 +101,9 @@ export const CATEGORY_SENTENCE = {
   'fragrance-men': ['Мужской аромат в тяжёлом стеклянном флаконе.', 'A men’s fragrance in a heavy glass bottle.'],
   'fragrance-women': ['Женский аромат в тяжёлом стеклянном флаконе.', 'A women’s fragrance in a heavy glass bottle.'],
   'fragrance-unisex': ['Аромат унисекс в тяжёлом стеклянном флаконе.', 'A unisex fragrance in a heavy glass bottle.'],
+  underwear: ['Бельё из мягкого эластичного трикотажа с фирменной резинкой.', 'Underwear in soft stretch jersey with a signature waistband.'],
+  socks: ['Носки из плотного хлопка с усиленными пяткой и мыском.', 'Socks in dense cotton with reinforced heel and toe.'],
+  homeware: ['Предмет интерьера ручной работы — подарок или акцент в доме.', 'A handcrafted homeware piece — a gift or a statement for the home.'],
 };
 
 // Предложение о материале
@@ -122,6 +125,7 @@ export const MATERIAL_SENTENCE = {
   rubber: ['Гибкая резина повторяет форму и легко очищается.', 'Flexible rubber that moulds to shape and is easy to clean.'],
   silver925: ['Серебро 925 пробы с ручной полировкой и оксидированием.', 'Sterling silver, hand-polished and oxidised.'],
   gold18k: ['Золото 750 пробы (18 карат).', '18-karat gold.'],
+  gold22k: ['Золото 916 пробы (22 карата) — фирменный сплав Chrome Hearts.', '22-karat gold — the Chrome Hearts signature alloy.'],
   brass: ['Латунь с гальваническим покрытием.', 'Brass with an electroplated finish.'],
   acetate: ['Оправа из ацетата целлюлозы ручной полировки.', 'A hand-polished cellulose acetate frame.'],
   glass: ['Флакон из тяжёлого стекла.', 'A heavy glass bottle.'],
@@ -152,6 +156,7 @@ const COMPOSITION = {
   rubber: ['100% резина', '100% rubber'],
   silver925: ['Серебро 925 пробы', 'Sterling silver 925'],
   gold18k: ['Золото 750 пробы', '18K gold'],
+  gold22k: ['Золото 916 пробы', '22K gold'],
   brass: ['Латунь, гальваническое покрытие', 'Brass, electroplated finish'],
   acetate: ['Ацетат целлюлозы, металл', 'Cellulose acetate, metal'],
   glass: ['Флакон: стекло; крышка: металл', 'Bottle: glass; cap: metal'],
@@ -179,6 +184,7 @@ export function composition(material, category) {
 
 // Уход
 export function care(material, category) {
+  if (category === 'homeware') return ['Мыть вручную тёплой водой, не использовать посудомоечную машину и абразивы.', 'Hand wash in warm water; no dishwasher or abrasives.'];
   if (category.startsWith('fragrance')) {
     return ['Хранить при комнатной температуре вдали от прямого солнечного света.', 'Store at room temperature away from direct sunlight.'];
   }

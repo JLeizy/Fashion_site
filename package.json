@@ -18,9 +18,9 @@
     "setup": "npm run db:schema && npm run db:seed && npm run placeholders",
     "images": "node scripts/fetch-images.js",
     "images:collect": "node scripts/collect-image-sources.js",
-    "images:fill": "node scripts/fill-missing-product-images.js",
-    "images:check": "node scripts/check-product-photos.js",
-    "images:editorial": "node scripts/collect-editorial.js"
+    "images:editorial": "node scripts/collect-editorial.js",
+    "catalog": "node scripts/build-catalog.js",
+    "test": "playwright test"
   },
   "dependencies": {
     "@fontsource/caveat": "^5.3.0",
@@ -52,6 +52,7 @@
     "split-type": "^0.3.4"
   },
   "devDependencies": {
+    "@playwright/test": "^1.63.0",
     "embedded-postgres": "^18.4.0-beta.17",
     "sharp": "^0.35.5"
   }

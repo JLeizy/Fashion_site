@@ -1,0 +1,826 @@
+[
+ {
+  "key": "erd-03-0725",
+  "model": "nouveau combattimento racer jacket",
+  "name_en": "Nouveau Combattimento Racer Jacket",
+  "name_ru": "Куртка Nouveau Combattimento Racer",
+  "category": "jackets",
+  "color": "black",
+  "material": "leather",
+  "gender": "unisex",
+  "price_byn": 17820,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0725-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0725-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/nouveau-combattimento-racer-jacket-black-03-0725",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0725-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0725-B.png"
+  ]
+ },
+ {
+  "key": "erd-03-0736",
+  "model": "rommel coat",
+  "name_en": "Rommel Coat",
+  "name_ru": "Пальто Rommel",
+  "category": "coats",
+  "color": "black",
+  "material": "leather",
+  "gender": "unisex",
+  "price_byn": 44650,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0736-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0736-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/rommel-coat-black-03-0736",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0736-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0736-B.png"
+  ]
+ },
+ {
+  "key": "erd-07-0496",
+  "model": "hangover trousers",
+  "name_en": "Hangover Trousers",
+  "name_ru": "Брюки Hangover",
+  "category": "trousers",
+  "color": "grey",
+  "material": "wool",
+  "gender": "unisex",
+  "price_byn": 10160,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-07-0496-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-07-0496-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/hangover-trousers-dark-grey-07-0496",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/07-0496-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/07-0496-B.png"
+  ]
+ },
+ {
+  "key": "erd-05-0564",
+  "model": "tommy tonsil jeans",
+  "name_en": "Tommy Tonsil Jeans",
+  "name_ru": "Джинсы Tommy Tonsil",
+  "category": "jeans",
+  "color": "grey",
+  "material": "denim",
+  "gender": "unisex",
+  "price_byn": 5680,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-05-0564-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-05-0564-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/tommy-tonsil-jeans-charcoal-05-0564",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/05-0564-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/05-0564-B.png"
+  ]
+ },
+ {
+  "key": "erd-08-0398",
+  "model": "birthday cardigan",
+  "name_en": "Birthday Cardigan",
+  "name_ru": "Кардиган Birthday",
+  "category": "sweaters",
+  "color": "burgundy",
+  "material": "cashmere",
+  "gender": "unisex",
+  "price_byn": 9080,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-08-0398-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-08-0398-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/birthday-cardigan-bordeaux-brown-08-0398",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/08-0398-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/08-0398-B.png"
+  ]
+ },
+ {
+  "key": "erd-02-0652",
+  "model": "problems of genius assemblage zip hoodie",
+  "name_en": "Problems (of Genius) Assemblage Zip Hoodie",
+  "name_ru": "Худи Problems (of Genius) Assemblage Zip",
+  "category": "hoodies",
+  "color": "black",
+  "material": "canvas",
+  "gender": "unisex",
+  "price_byn": 7430,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-02-0652-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-02-0652-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/problems-of-genius-assemblage-zip-hoodie-faded-black-02-0652",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/02-0652-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/02-0652-B.png"
+  ]
+ },
+ {
+  "key": "erd-04-0373",
+  "model": "taste of cindy shirt",
+  "name_en": "Taste of Cindy Shirt",
+  "name_ru": "Рубашка Taste of Cindy",
+  "category": "shirts",
+  "color": "brown",
+  "material": "wool",
+  "gender": "unisex",
+  "price_byn": 7460,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-04-0373-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-04-0373-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/taste-of-cindy-shirt-brown-bordeaux-04-0373",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/04-0373-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/04-0373-B.png"
+  ]
+ },
+ {
+  "key": "erd-12-0449",
+  "model": "star of david necklace",
+  "name_en": "Star of David Necklace",
+  "name_ru": "Колье Star of David",
+  "category": "chains",
+  "color": "silver",
+  "material": "silver925",
+  "gender": "unisex",
+  "price_byn": 4290,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0449-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0449-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/star-of-david-necklace-antique-silver-12-0449",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/12-0449-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/12-0449-B.png"
+  ]
+ },
+ {
+  "key": "erd-08-0404",
+  "model": "la croix d hiver scarf",
+  "name_en": "LA Croix D'hiver Scarf",
+  "name_ru": "Шарф LA Croix D'hiver",
+  "category": "scarves",
+  "color": "burgundy",
+  "material": "cashmere",
+  "gender": "unisex",
+  "price_byn": 3140,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-08-0404-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-08-0404-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/la-croix-dhiver-scarf-bordeaux-navy-08-0404",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/08-0404-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/08-0404-B.png"
+  ]
+ },
+ {
+  "key": "erd-12-0298",
+  "model": "cross bracelet",
+  "name_en": "Rose and Cross Bracelet",
+  "name_ru": "Браслет Rose and Cross",
+  "category": "bracelets",
+  "color": "pink",
+  "material": "silver925",
+  "gender": "unisex",
+  "price_byn": 8880,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0298-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0298-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/rose-and-cross-bracelet-antique-silver-12-0298",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/12-0298-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/12-0298-B.png"
+  ]
+ },
+ {
+  "key": "erd-12-0450",
+  "model": "small heinrich charm earring pair",
+  "name_en": "Small Heinrich Charm Earring (Pair)",
+  "name_ru": "Серьги Small Heinrich Charm (Pair)",
+  "category": "earrings",
+  "color": "silver",
+  "material": "silver925",
+  "gender": "unisex",
+  "price_byn": 3960,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0450-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0450-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/small-heinrich-charm-earring-pair-antique-silver-12-0450",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/12-0450-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/12-0450-B.png"
+  ]
+ },
+ {
+  "key": "erd-12-0325",
+  "model": "ring",
+  "name_en": "Rose Ring",
+  "name_ru": "Кольцо Rose",
+  "category": "rings",
+  "color": "pink",
+  "material": "silver925",
+  "gender": "unisex",
+  "price_byn": 2280,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0325-1.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/rose-ring-antique-silver-12-0325",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/RoseRingA.png"
+  ]
+ },
+ {
+  "key": "erd-11-0835",
+  "model": "communist daughter dress",
+  "name_en": "Communist Daughter Dress",
+  "name_ru": "Платье Communist Daughter",
+  "category": "dresses",
+  "color": "brown",
+  "material": "wool",
+  "gender": "unisex",
+  "price_byn": 10690,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0835-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0835-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/communist-daughter-dress-brown-11-0835",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0835-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0835-B.png"
+  ]
+ },
+ {
+  "key": "erd-03-0751",
+  "model": "luftwaffe jacket",
+  "name_en": "Luftwaffe 77 Jacket",
+  "name_ru": "Куртка Luftwaffe 77",
+  "category": "jackets",
+  "color": "black",
+  "material": "nylon",
+  "gender": "unisex",
+  "price_byn": 25150,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0751-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0751-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/luftwaffe-77-jacket-distressed-black-03-0751",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0751-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0751-B.png"
+  ]
+ },
+ {
+  "key": "erd-03-0737",
+  "model": "vinny leather trench coat",
+  "name_en": "Vinny Leather Trench Coat",
+  "name_ru": "Тренч Vinny",
+  "category": "coats",
+  "color": "brown",
+  "material": "leather",
+  "gender": "unisex",
+  "price_byn": 37950,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0737-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0737-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/vinny-leather-trench-coat-worn-brown-03-0737",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0737-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0737-B.png"
+  ]
+ },
+ {
+  "key": "erd-05-0570",
+  "model": "paint pants",
+  "name_en": "Paint Pants",
+  "name_ru": "Брюки Paint",
+  "category": "trousers",
+  "color": "green",
+  "material": "canvas",
+  "gender": "unisex",
+  "price_byn": 5450,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-05-0570-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-05-0570-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/paint-pants-green-05-0570",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/05-0570-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/05-0570-B.png"
+  ]
+ },
+ {
+  "key": "erd-08-0396",
+  "model": "birthday cardigan",
+  "name_en": "Birthday Cardigan",
+  "name_ru": "Кардиган Birthday",
+  "category": "sweaters",
+  "color": "brown",
+  "material": "cashmere",
+  "gender": "unisex",
+  "price_byn": 9080,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-08-0396-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-08-0396-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/birthday-cardigan-brown-bordeaux-08-0396",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/08-0396-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/08-0396-B.png"
+  ]
+ },
+ {
+  "key": "erd-12-0313",
+  "model": "spoon necklace",
+  "name_en": "Spoon Necklace",
+  "name_ru": "Колье Spoon",
+  "category": "chains",
+  "color": "silver",
+  "material": "silver925",
+  "gender": "unisex",
+  "price_byn": 1880,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0313-1.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/spoon-necklace-silver-12-0313",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/12-0313-A.jpg"
+  ]
+ },
+ {
+  "key": "erd-08-0403",
+  "model": "la croix d hiver scarf",
+  "name_en": "LA Croix D'hiver Scarf",
+  "name_ru": "Шарф LA Croix D'hiver",
+  "category": "scarves",
+  "color": "black",
+  "material": "cashmere",
+  "gender": "unisex",
+  "price_byn": 3140,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-08-0403-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-08-0403-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/la-croix-dhiver-scarf-black-cream-08-0403",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/08-0403-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/08-0403-B.png"
+  ]
+ },
+ {
+  "key": "erd-12-0320",
+  "model": "chain bracelet",
+  "name_en": "Rose & Chain Bracelet",
+  "name_ru": "Браслет Rose &",
+  "category": "bracelets",
+  "color": "pink",
+  "material": "silver925",
+  "gender": "unisex",
+  "price_byn": 4460,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0320-1.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/rose-chain-bracelet-antique-silver-12-0320",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/140-214-A_83618326-2936-40a2-9dff-18744a633fc6.jpg"
+  ]
+ },
+ {
+  "key": "erd-12-0308",
+  "model": "safety pin earring",
+  "name_en": "Safety Pin Earring",
+  "name_ru": "Серьги Safety Pin",
+  "category": "earrings",
+  "color": "silver",
+  "material": "silver925",
+  "gender": "unisex",
+  "price_byn": 1190,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0308-1.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/safety-pin-earring-antique-silver-12-0308",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/140-194-A_377d9836-1eee-4af7-8426-ddfde0c73d6b.jpg"
+  ]
+ },
+ {
+  "key": "erd-12-0322",
+  "model": "pin up girl cameo ring",
+  "name_en": "Pin Up Girl Cameo Ring",
+  "name_ru": "Кольцо Pin Up Girl Cameo",
+  "category": "rings",
+  "color": "silver",
+  "material": "silver925",
+  "gender": "unisex",
+  "price_byn": 2480,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0322-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0322-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/pin-up-girl-cameo-ring-antique-silver-12-0322",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/12-0322-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/12-0322-B.png"
+  ]
+ },
+ {
+  "key": "erd-03-0726",
+  "model": "hospital jacket",
+  "name_en": "Hospital Jacket",
+  "name_ru": "Куртка Hospital",
+  "category": "jackets",
+  "color": "black",
+  "material": "leather",
+  "gender": "unisex",
+  "price_byn": 16170,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0726-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0726-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/hospital-jacket-black-03-0726",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0726-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0726-B.png"
+  ]
+ },
+ {
+  "key": "erd-03-0734",
+  "model": "wich pope coat",
+  "name_en": "Greenwich Pope Coat",
+  "name_ru": "Пальто Greenwich Pope",
+  "category": "coats",
+  "color": "green",
+  "material": "leather",
+  "gender": "unisex",
+  "price_byn": 23630,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0734-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0734-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/greenwich-pope-coat-green-03-0734",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0734-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0734-B.png"
+  ]
+ },
+ {
+  "key": "erd-11-0868",
+  "model": "soviet trousers",
+  "name_en": "Soviet Trousers",
+  "name_ru": "Брюки Soviet",
+  "category": "trousers",
+  "color": "grey",
+  "material": "wool",
+  "gender": "unisex",
+  "price_byn": 6530,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0868-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0868-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/soviet-trousers-dark-grey-11-0868",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0868-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0868-B.png"
+  ]
+ },
+ {
+  "key": "erd-08-0393",
+  "model": "asymmetrique knit blazer",
+  "name_en": "Asymmetrique Knit Blazer",
+  "name_ru": "Свитер Asymmetrique",
+  "category": "sweaters",
+  "color": "black",
+  "material": "knit",
+  "gender": "unisex",
+  "price_byn": 12540,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-08-0393-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-08-0393-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/asymmetrique-knit-blazer-black-08-0393",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/08-0393-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/08-0393-B.png"
+  ]
+ },
+ {
+  "key": "erd-12-0324",
+  "model": "buckle ring",
+  "name_en": "Buckle Ring",
+  "name_ru": "Кольцо Buckle",
+  "category": "rings",
+  "color": "silver",
+  "material": "silver925",
+  "gender": "unisex",
+  "price_byn": 2280,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0324-1.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/buckle-ring-antique-silver-12-0324",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/BuckleRingA.png"
+  ]
+ },
+ {
+  "key": "erd-03-0747",
+  "model": "hedonism bomber jacket",
+  "name_en": "Hedonism Bomber Jacket",
+  "name_ru": "Бомбер Hedonism",
+  "category": "jackets",
+  "color": "black",
+  "material": "knit",
+  "gender": "unisex",
+  "price_byn": 12210,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0747-1.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/hedonism-bomber-jacket-black-03-0747",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/bomb.png"
+  ]
+ },
+ {
+  "key": "erd-03-0735",
+  "model": "le triple serpent coat",
+  "name_en": "Le Triple Serpent Coat",
+  "name_ru": "Пальто Le Triple Serpent",
+  "category": "coats",
+  "color": "black",
+  "material": "leather",
+  "gender": "unisex",
+  "price_byn": 53820,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0735-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0735-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/le-triple-serpent-coat-black-03-0735",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0735-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0735-B.png"
+  ]
+ },
+ {
+  "key": "erd-12-0321",
+  "model": "cross ring",
+  "name_en": "Cross Ring",
+  "name_ru": "Кольцо Cross",
+  "category": "rings",
+  "color": "silver",
+  "material": "silver925",
+  "gender": "unisex",
+  "price_byn": 2440,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0321-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-12-0321-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/cross-ring-antique-silver-12-0321",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/12-0321-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/12-0321-B.png"
+  ]
+ },
+ {
+  "key": "erd-03-0740",
+  "model": "effigy blazer",
+  "name_en": "Effigy Blazer",
+  "name_ru": "Блейзер Effigy",
+  "category": "jackets",
+  "color": "black",
+  "material": "wool",
+  "gender": "unisex",
+  "price_byn": 15080,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0740-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-03-0740-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/effigy-blazer-black-03-0740",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0740-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/03-0740-B.png"
+  ]
+ },
+ {
+  "key": "erd-11-0829",
+  "model": "the orchid long coat",
+  "name_en": "The Orchid Long Coat Black",
+  "name_ru": "Пальто The Orchid Long Black",
+  "category": "coats",
+  "color": "black",
+  "material": "viscose",
+  "gender": "unisex",
+  "price_byn": 17460,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0829-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0829-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/the-orchid-long-coat-black-black-11-0829",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0829-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0829-B.png"
+  ]
+ },
+ {
+  "key": "erd-07-0487",
+  "model": "see no evil blazer",
+  "name_en": "See No Evil Blazer",
+  "name_ru": "Блейзер See No Evil",
+  "category": "jackets",
+  "color": "brown",
+  "material": "silk",
+  "gender": "unisex",
+  "price_byn": 14980,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-07-0487-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-07-0487-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/see-no-evil-blazer-brown-07-0487",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/07-0487-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/07-0487-B.png"
+  ]
+ },
+ {
+  "key": "erd-11-0831",
+  "model": "horse race date cape",
+  "name_en": "Horse Race Date Cape",
+  "name_ru": "Пальто Horse Race Date Cape",
+  "category": "coats",
+  "color": "brown",
+  "material": "leather",
+  "gender": "unisex",
+  "price_byn": 13460,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0831-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0831-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/horse-race-date-cape-brown-check-11-0831",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0831-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0831-B.png"
+  ]
+ },
+ {
+  "key": "erd-11-0823",
+  "model": "nico leather jacket",
+  "name_en": "Nico Leather Jacket",
+  "name_ru": "Куртка Nico",
+  "category": "jackets",
+  "color": "black",
+  "material": "leather",
+  "gender": "unisex",
+  "price_byn": 14090,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0823-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0823-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/nico-leather-jacket-black-11-0823",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0823-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0823-B.png"
+  ]
+ },
+ {
+  "key": "erd-11-0833",
+  "model": "domaine d ange coat",
+  "name_en": "Domaine D'ange Coat",
+  "name_ru": "Пальто Domaine D'ange",
+  "category": "coats",
+  "color": "blue",
+  "material": "cashmere",
+  "gender": "unisex",
+  "price_byn": 23830,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0833-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0833-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/domaine-dange-coat-blue-11-0833",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0833-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0833-B.png"
+  ]
+ },
+ {
+  "key": "erd-11-0817",
+  "model": "soviet blazer dark wool",
+  "name_en": "Soviet Blazer Dark Grey Melange Wool",
+  "name_ru": "Блейзер Soviet Dark Grey Melange",
+  "category": "jackets",
+  "color": "grey",
+  "material": "wool",
+  "gender": "unisex",
+  "price_byn": 15580,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0817-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0817-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/soviet-blazer-dark-grey-melange-wool-dark-grey-11-0817",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0817-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0817-B.png"
+  ]
+ },
+ {
+  "key": "erd-11-0825",
+  "model": "maria s weekend leather jacket",
+  "name_en": "Maria's Weekend Leather Jacket",
+  "name_ru": "Куртка Maria's Weekend",
+  "category": "jackets",
+  "color": "black",
+  "material": "leather",
+  "gender": "unisex",
+  "price_byn": 15020,
+  "preowned": false,
+  "images": [
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0825-1.webp",
+   "/images/brands/enfants-riches-deprimes/products/erd-11-0825-2.webp"
+  ],
+  "page": "https://www.enfantsrichesdeprimes.com/products/marias-weekend-leather-jacket-black-11-0825",
+  "source": "enfantsrichesdeprimes.com",
+  "image_urls": [
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0825-A.png",
+   "https://cdn.shopify.com/s/files/1/0729/7482/7794/files/11-0825-B.png"
+  ]
+ }
+]

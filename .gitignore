@@ -6,3 +6,9 @@ public/uploads/*
 *.log
 .DS_Store
 Thumbs.db
+
+# Заглушки фото товаров генерирует npm run placeholders (у товаров каталога всегда есть реальное фото)
+public/images/brands/*/products/*.svg
+# Отчёты автотестов
+test-results/
+playwright-report/
