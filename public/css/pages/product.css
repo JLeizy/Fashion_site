@@ -286,10 +286,12 @@
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-top: 1px solid var(--line-2);
-  transform: translateY(110%);
-  transition: transform 0.6s var(--ease-out);
+  /* Скрытая панель уезжает ниже нижнего меню и не видна — иначе она просвечивала сквозь полупрозрачное меню */
+  transform: translateY(calc(100% + var(--bottom-nav-h, 0px) + 12px));
+  visibility: hidden;
+  transition: transform 0.6s var(--ease-out), visibility 0s linear 0.6s;
 }
-.pp-sticky.is-visible { transform: none; }
+.pp-sticky.is-visible { transform: none; visibility: visible; transition: transform 0.6s var(--ease-out); }
 .pp-sticky__info { flex: 1; min-width: 0; }
 .pp-sticky__name { font-size: var(--fs-xs); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text-2); }
 .pp-sticky__price { font-size: var(--fs-sm); }
