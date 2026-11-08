@@ -20328,5 +20328,15 @@
     "bytes": 108218,
     "width": 900,
     "height": 1334
+  },
+  "/images/brands/balenciaga/history/1.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/balenciaga",
+    "url": "https://assets.vogue.com/photos/6abe78c938d33e11434e0d5f/master/w_900,c_limit/00001-balenciaga-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 1",
+    "bytes": 39288,
+    "width": 900,
+    "height": 1350
   }
 }
