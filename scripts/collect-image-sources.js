@@ -126,6 +126,34 @@ async function wikiImage(title) {
   }
 }
 
+// Wikimedia Commons: поиск фотографии по имени (если у статьи Википедии нет изображения)
+async function commonsImage(query) {
+  try {
+    const api = `https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=8&gsrsearch=${encodeURIComponent(query)}&prop=imageinfo&iiprop=url|mime&iiurlwidth=960`;
+    let res;
+    for (let attempt = 0; attempt < 4; attempt++) {
+      res = await fetch(api, { headers: { 'User-Agent': uaFor('wikipedia.org') } });
+      if (res.status !== 429 && res.status < 500) break;
+      await sleep(5000 * (attempt + 1));
+    }
+    if (!res.ok) return null;
+    const pages = Object.values((await res.json()).query?.pages || {}).sort((a, b) => (a.index || 0) - (b.index || 0));
+    const words = query.toLowerCase().split(/\s+/).filter((w) => w.length > 2);
+    for (const p of pages) {
+      const info = p.imageinfo?.[0];
+      if (!info || !/image\/(jpeg|png)/.test(info.mime || '')) continue;
+      const title = p.title.toLowerCase();
+      if (!words.every((w) => title.includes(w.normalize('NFD').replace(/[̀-ͯ]/g, '')) || title.includes(w))) continue;
+      return { url: info.thumburl || info.url, page: info.descriptionurl || `https://commons.wikimedia.org/wiki/${encodeURIComponent(p.title)}` };
+    }
+    return null;
+  } catch {
+    return null;
+  } finally {
+    await sleep(2000);
+  }
+}
+
 // ---------- Магазины: SSENSE и Shopify ----------
 let browserPromise = null;
 async function browser() {
@@ -167,6 +195,9 @@ async function ssenseItems() {
           const code = (t.img.match(/\/([0-9A-Z]+)_1\.jpg/) || [])[1];
           const slug = (t.href.match(/\/product\/[^/]+\/([^/]+)\/\d+/) || [])[1];
           if (!code || !slug || items.has(code)) continue;
+          // На страницах дизайнера SSENSE встречаются вещи других марок (рекомендации) — берём только свой бренд
+          const shopBrand = (t.href.match(/\/product\/([^/]+)\//) || [])[1];
+          if (shopBrand !== plan.ssense) continue;
           items.set(code, {
             code, slug, gender, page: t.href,
             images: [1, 2].map((a) => `https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/${code}_${a}.jpg`),
@@ -438,11 +469,18 @@ async function main() {
   }
 
   // ---------- Директора — Википедия ----------
+  const missingDirectors = [];
   for (const d of directors) {
     const title = plan.directors?.[d.name] === undefined ? d.name : plan.directors[d.name];
-    if (!title) continue; // null в плане — портрета нет (например, «дизайн-студия»)
-    const img = await wikiImage(title);
-    if (img) add(d.photo, 'director', img.page, img.url, `Википедия: ${title}`);
+    let img = title ? await wikiImage(title) : null;
+    if (img) {
+      add(d.photo, 'director', img.page, img.url, `Википедия: ${title}`);
+      continue;
+    }
+    // Нет фото в статье — ищем снимок человека на Wikimedia Commons по имени (у «дизайн-студии» портрета нет)
+    img = title && !/studio/i.test(d.name) ? await commonsImage(d.name.replace(/&.*$/, '').trim()) : null;
+    if (img) add(d.photo, 'director', img.page, img.url, `Wikimedia Commons: ${d.name}`);
+    else missingDirectors.push(d);
   }
 
   // ---------- Иллюстрации истории ----------
@@ -468,6 +506,16 @@ async function main() {
     if (!done && plan.fallbackSeasons) {
       const look = await nextFreeLook(plan.fallbackSeasons);
       if (look) add(s.image, 'history', look.page, vogueUrl(look, 900), `Vogue Runway, ${look.season}, образ ${look.num}`);
+    }
+  }
+  // Директорам, чьих портретов нет в открытых источниках, — кадр показа (Vogue) или вещь бренда, с честной пометкой
+  for (const d of missingDirectors) {
+    const look = plan.fallbackSeasons ? await nextFreeLook(plan.fallbackSeasons) : null;
+    if (look) {
+      add(d.photo, 'director', look.page, vogueUrl(look, 900), `Портрета в открытых источниках нет — образ показа: Vogue Runway, ${look.season}, образ ${look.num}`);
+    } else if (shopItems.length) {
+      const it = shopItems[(directors.indexOf(d) * 7) % shopItems.length];
+      add(d.photo, 'director', it.page, it.images[0], `Портрета в открытых источниках нет — вещь бренда из официального магазина: ${it.slug}`);
     }
   }
   // Марки без показов на Vogue (plan.shopFallback): коллекции, обложка и разделы истории без иллюстрации получают
