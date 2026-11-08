@@ -76,17 +76,18 @@ npm test
 - `server/routes/api/*.js` — REST API; над каждым маршрутом комментарий: что делает, какие таблицы читает/меняет, какая роль.
 - `server/services/orderService.js` — оформление заказа и смена статусов (транзакции, резерв и списание остатков).
 - `views/*.html` — страницы, `public/css`, `public/js` — стили и клиентская логика, `public/i18n/ru.json`, `en.json` — тексты интерфейса.
-- `public/images/brands/<бренд>/products/<sku>-1.svg` — SVG-заглушки фото (генерирует `npm run placeholders`).
+- `db/content/catalog/<бренд>.json` — каталог реальных вещей (источник товаров для `npm run db:seed`), фото — `public/images/brands/<бренд>/products/<ключ вещи>-1.webp`.
 
 ## Фотографии
 
 > Фотографии принадлежат их правообладателям; проект предназначен только для локальной демонстрации и не публикуется.
 
-- Реальное фото лежит рядом с заглушкой под тем же именем, но в формате `.webp`: `/images/brands/<бренд>/products/<sku>-1.webp`,
-  `-2.webp` (второй ракурс для смены при наведении), `directors/<n>.webp`, `history/<n>.webp`, `collections/<имя>.webp`, `hero.webp`,
-  `/images/banners/<бренд>.webp`. При `npm run db:seed` в БД пишется путь к `.webp`, если файл есть (`db/imagePath.js`), иначе к `.svg`.
-  Если фото не загрузится, страница сама подставит SVG-заглушку.
-- **Подобрать источники автоматически:** `npm run images:collect -- --brand balenciaga` — товары сопоставляются с вещами бренда на SSENSE (категория, модель, цвет; нужен Playwright), обложки коллекций, hero, баннер и иллюстрации истории — образы показов Vogue Runway, портреты — Википедия; план по брендам — `db/content/image-plan.js`. Результат дописывается в `db/content/image-sources.json`.
+- Фото товаров — `/images/brands/<бренд>/products/<ключ вещи>-1.webp` и `-2.webp` (второй ракурс для смены при наведении);
+  у каждого товара каталога фото есть всегда, SVG-заглушек у товаров нет. Остальное: `directors/<n>.webp`, `history/<n>.webp`,
+  `collections/<коллекция>.webp` (обложка) и `collections/<коллекция>/look-NN.webp` (лукбук), `hero.webp`, `/images/banners/<бренд>.webp`.
+  Если у раздела истории или директора нет настоящего фото — раздел идёт без иллюстрации, у директора — инициалы.
+- **Каталог товаров:** `npm run catalog -- --brand <бренд>` (или `--all`) — см. «Состояние фото и каталога» ниже.
+- **Лукбуки, обложки, история:** `npm run images:editorial -- --brand <бренд>` (или `--all`) — кадры показов Vogue Runway нужного сезона.
 - **Скачать / перекачать фото:** заполнить `db/content/image-sources.json` (массив
   `{ "target": "/images/brands/gucci/products/GUC-LOF-0001-1.webp", "kind": "product", "page": "страница-источник", "url": "прямая ссылка на картинку", "note": "примечание" }`;
   `kind` — `product | collection | history | director | hero | banner`; без `url` страница откроется в Chromium и возьмётся `og:image`), затем:
