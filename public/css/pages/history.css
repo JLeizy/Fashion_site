@@ -48,8 +48,11 @@
 .hs-sec__period { justify-self: end; font-size: 0.6875rem; letter-spacing: 0.16em; color: var(--text-3); }
 .hs-sec__title { grid-column: 1 / -1; font-size: clamp(2rem, 1.1rem + 2.6vw, 3.8rem); line-height: 1; max-width: 22ch; }
 .hs-sec__orn { position: absolute; left: 0; bottom: 0; width: min(100%, 520px); height: 14px; fill: var(--ornament); opacity: var(--ornament-opacity); }
-.hs-sec__img { margin: 0; overflow: hidden; }
-.hs-sec__img img { width: 100%; max-height: 70vh; object-fit: cover; object-position: center 25%; }
+/* Иллюстрация раздела показывается целиком (без обрезки и растяжения): вертикальный кадр показа — по центру,
+   по бокам — его же размытая копия вместо пустых полей */
+.hs-sec__img { position: relative; margin: 0; overflow: hidden; display: flex; justify-content: center; background: var(--surface); isolation: isolate; }
+.hs-sec__img::before { content: ''; position: absolute; inset: -40px; z-index: -1; background: var(--hs-img) center / cover no-repeat; filter: blur(36px) brightness(0.45) saturate(0.9); }
+.hs-sec__img img { display: block; width: auto; max-width: 100%; height: auto; max-height: min(80vh, 900px); object-fit: contain; }
 
 .hs-text { display: grid; gap: 1.15em; max-width: 68ch; font-size: clamp(1.02rem, 0.95rem + 0.25vw, 1.15rem); line-height: 1.78; color: var(--text-2); }
 .hs-text p { hyphens: auto; }

@@ -52,7 +52,7 @@ router.get('/brands/:slug', async (req, res) => {
   const b = rows[0];
   if (!b) throw new ApiError(404, 'catalog.brandNotFound');
 
-  const [collections, directors, iconic, stats, neighbours, looks] = await Promise.all([
+  const [collections, directors, iconic, stats, neighbours, looks, runway] = await Promise.all([
     // SQL: коллекции бренда с количеством опубликованных товаров, новые — первыми
     query(
       `SELECT col.id, col.name, col.season, col.year, col.is_new, col.cover_image,
@@ -100,6 +100,14 @@ router.get('/brands/:slug', async (req, res) => {
        ) t WHERE t.rn <= 12`,
       [b.id]
     ),
+    // SQL: лукбук — реальные кадры показа сезона (если скачаны), по порядку выхода
+    query(
+      `SELECT cl.collection_id, cl.image, cl.look_number
+         FROM collection_looks cl JOIN collections col ON col.id = cl.collection_id
+        WHERE col.brand_id = $1
+        ORDER BY cl.collection_id, cl.sort_order`,
+      [b.id]
+    ),
   ]);
   const list = neighbours.rows;
   const i = list.findIndex((x) => x.slug === b.slug);
@@ -128,9 +136,12 @@ router.get('/brands/:slug', async (req, res) => {
       isNew: c.is_new,
       cover: c.cover_image,
       productsCount: c.products_count,
-      looks: looks.rows
-        .filter((l) => l.collection_id === c.id)
-        .map((l) => ({ id: l.id, name: { ru: l.name_ru, en: l.name_en }, price: Number(l.price_byn), image: l.image })),
+      // Лукбук — кадры показа этого сезона; у марок без показов (Supreme, Chrome Hearts) — фото вещей коллекции
+      looks: runway.rows.some((l) => l.collection_id === c.id)
+        ? runway.rows.filter((l) => l.collection_id === c.id).map((l) => ({ image: l.image, lookNumber: l.look_number }))
+        : looks.rows
+            .filter((l) => l.collection_id === c.id)
+            .map((l) => ({ id: l.id, name: { ru: l.name_ru, en: l.name_en }, price: Number(l.price_byn), image: l.image })),
     })),
     directors: directors.rows.map((d) => ({
       id: d.id,

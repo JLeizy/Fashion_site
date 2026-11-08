@@ -18,7 +18,7 @@ import { MODELS } from './seed-data/models.js';
 import { BRAND_VOICE, CATEGORY_SENTENCE, MATERIAL_SENTENCE, composition, care, COLLECTION_TEXT, REVIEW_TEXTS, REVIEW_DETAIL } from './seed-data/texts.js';
 import { STAFF, BUYERS, ROLES, TEST_PASSWORD } from './seed-data/users.js';
 import { loadHistories } from './content/index.js';
-import { preferPhoto } from './imagePath.js';
+import { preferPhoto, photoOnly } from './imagePath.js';
 import { makeTrackingNumber } from '../server/lib/tracking.js';
 import { orderStatusNotification, ticketReplyNotification, sellerApplicationNotification, returnDecisionNotification, productModerationNotification } from '../server/services/notificationTexts.js';
 
@@ -68,6 +68,7 @@ const round10 = (value) => Math.round(value / 10) * 10;
 const money = (value) => Math.round(value * 100) / 100;
 const ts = (ms) => new Date(ms).toISOString();
 const dateOnly = (ms) => new Date(ms).toISOString().slice(0, 10);
+const PUBLIC_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'public');
 const slugify = (text) => text.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 // Пакетная вставка: один параметризованный INSERT … VALUES ($1,$2…),(…) на порцию строк
@@ -123,7 +124,7 @@ async function main() {
     await client.query(`TRUNCATE TABLE audit_log, notifications, ticket_messages, support_tickets, reviews, return_requests,
       order_status_history, order_items, orders, payment_methods, delivery_methods, promo_codes, viewed_products,
       comparisons, wishlist, cart_items, carts, stock_movements, stock, warehouses, product_variants, sizes,
-      product_images, products, categories, collections, creative_directors, brand_timeline_events,
+      product_images, products, categories, collection_looks, collections, creative_directors, brand_timeline_events,
       brand_history_sections, brands, seller_applications, addresses, "session", login_attempts, email_codes,
       users, roles, currency_rates, banners, newsletter_subscribers RESTART IDENTITY CASCADE`);
     await client.query('ALTER SEQUENCE order_number_seq RESTART WITH 1');
@@ -230,6 +231,16 @@ async function main() {
         'id, is_new, name'
       );
       collectionsByBrand[b.slug] = rows;
+      // Лукбук: кадры показа сезона, скачанные npm run images:editorial —
+      // public/images/brands/<бренд>/collections/<коллекция>/look-07.webp (число — номер выхода на показе)
+      const lookRows = [];
+      for (const c of rows) {
+        const dir = path.join(PUBLIC_DIR, 'images', 'brands', b.slug, 'collections', slugify(c.name));
+        if (!fs.existsSync(dir)) continue;
+        const files = fs.readdirSync(dir).filter((f) => /^look-\d+\.webp$/.test(f)).sort((x, y) => parseInt(x.slice(5), 10) - parseInt(y.slice(5), 10));
+        files.forEach((f, i) => lookRows.push([c.id, i + 1, `/images/brands/${b.slug}/collections/${slugify(c.name)}/${f}`, parseInt(f.slice(5), 10)]));
+      }
+      if (lookRows.length) await insertMany(client, 'collection_looks', ['collection_id', 'sort_order', 'image', 'look_number'], lookRows);
     }
 
     const histories = await loadHistories();
@@ -250,7 +261,7 @@ async function main() {
         await insertMany(
           client, 'brand_history_sections',
           ['brand_id', 'sort_order', 'period', 'title_ru', 'title_en', 'content_ru', 'content_en', 'quote_ru', 'quote_en', 'quote_author', 'image'],
-          history.sections.map((s, i) => [brandId[b.slug], i + 1, s.period || null, s.title_ru, s.title_en, s.content_ru, s.content_en || '', s.quote_ru || null, s.quote_en || null, s.quote_author || null, s.image || preferPhoto(`/images/brands/${b.slug}/history/${i + 1}.svg`)]),
+          history.sections.map((s, i) => [brandId[b.slug], i + 1, s.period || null, s.title_ru, s.title_en, s.content_ru, s.content_en || '', s.quote_ru || null, s.quote_en || null, s.quote_author || null, s.image || photoOnly(`/images/brands/${b.slug}/history/${i + 1}.svg`)]),
           null, 50
         );
       }

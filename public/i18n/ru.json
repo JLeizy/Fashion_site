@@ -656,6 +656,8 @@
     "statCategories": "Категорий",
     "house": "Модный дом",
     "lookOf": "Образ {i} из {n}",
+    "runwayLook": "выход {n}",
+    "runwayCredit": "Выход {n} · фото: Vogue Runway",
     "lookbookClose": "Закрыть лукбук",
     "collectionItems": {
       "one": "{n} вещь",

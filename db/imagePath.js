@@ -19,3 +19,9 @@ export function preferPhoto(svgUrl) {
 export const placeholderFor = (url) => String(url).replace(/\.(webp|jpe?g|png)$/i, '.svg');
 
 export default preferPhoto;
+
+// Только настоящее фото: путь к .webp, если файл есть, иначе null (иллюстрация не показывается вовсе)
+export function photoOnly(svgUrl) {
+  const url = preferPhoto(svgUrl);
+  return typeof url === 'string' && url.endsWith('.webp') ? url : null;
+}

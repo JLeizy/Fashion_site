@@ -14,7 +14,7 @@ DROP TABLE IF EXISTS
   order_status_history, order_items, orders, payment_methods, delivery_methods,
   promo_codes, viewed_products, comparisons, wishlist, cart_items, carts,
   stock_movements, stock, warehouses, product_variants, sizes, product_images, products,
-  categories, collections, creative_directors, brand_timeline_events, brand_history_sections,
+  categories, collection_looks, collections, creative_directors, brand_timeline_events, brand_history_sections,
   brands, seller_applications, addresses, "session", login_attempts, email_codes, users, roles,
   currency_rates, banners, newsletter_subscribers
 CASCADE;
@@ -246,6 +246,18 @@ CREATE TABLE collections (
 COMMENT ON TABLE collections IS 'Коллекции брендов (сезоны SS / FW / Resort / Pre-Fall). is_new — показывается в «Новых коллекциях» на главной';
 CREATE INDEX idx_collections_brand ON collections(brand_id);
 CREATE INDEX idx_collections_new ON collections(is_new) WHERE is_new;
+
+-- Образы лукбука коллекции: реальные кадры показа этого сезона (Vogue Runway), по порядку выхода моделей
+CREATE TABLE collection_looks (
+  id            SERIAL PRIMARY KEY,
+  collection_id INT NOT NULL REFERENCES collections(id) ON DELETE CASCADE,
+  sort_order    SMALLINT NOT NULL,
+  image         VARCHAR(500) NOT NULL,
+  look_number   SMALLINT,
+  UNIQUE (collection_id, sort_order)
+);
+COMMENT ON TABLE collection_looks IS 'Лукбук коллекции: кадры показа сезона (look_number — номер выхода на показе)';
+CREATE INDEX idx_collection_looks_col ON collection_looks(collection_id, sort_order);
 
 CREATE TABLE categories (
   id         SERIAL PRIMARY KEY,

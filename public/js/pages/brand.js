@@ -210,11 +210,16 @@ function openLookbook(collectionId) {
       <div class="lookbook__track" data-lb-track>${looks
         .map(
           (l, i) => `<figure class="look" data-look="${i}">
-            <span class="look__img"><img src="${esc(l.image)}" alt="${esc(loc(l.name))}" ${i > 2 ? 'loading="lazy"' : ''}></span>
+            <span class="look__img"><img src="${esc(l.image)}" alt="${esc(l.id ? loc(l.name) : `${col.name} — ${t('brand.runwayLook', { n: l.lookNumber })}`)}" ${i > 2 ? 'loading="lazy"' : ''}></span>
             <figcaption class="look__cap">
               <span class="look__n t-mono">${esc(t('brand.lookOf', { i: i + 1, n: looks.length }))}</span>
-              <a class="look__name link-u" href="/product/${l.id}">${esc(loc(l.name))}</a>
-              <span class="look__price t-mono" data-price="${l.price}">${formatPrice(l.price)}</span>
+              ${
+                l.id
+                  ? `<a class="look__name link-u" href="/product/${l.id}">${esc(loc(l.name))}</a>
+              <span class="look__price t-mono" data-price="${l.price}">${formatPrice(l.price)}</span>`
+                  : `<span class="look__name">${esc(`${data.brand.name} — ${col.name}`)}</span>
+              <span class="look__price t-mono">${esc(t('brand.runwayCredit', { n: l.lookNumber }))}</span>`
+              }
             </figcaption>
           </figure>`
         )

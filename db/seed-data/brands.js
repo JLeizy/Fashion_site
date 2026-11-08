@@ -12,7 +12,7 @@ export const BRANDS = [
     short_desc_ru: 'Дом, основанный Кристобалем Баленсиагой в 1917 году в Сан-Себастьяне и перенесённый в Париж в 1937-м. От скульптурных силуэтов «мастера» высокой моды — к индустриальной строгости и иронии современного Balenciaga.',
     short_desc_en: 'The house founded by Cristóbal Balenciaga in San Sebastián in 1917 and moved to Paris in 1937. From the sculptural silhouettes of the “master” of couture to the industrial rigour and irony of today’s Balenciaga.',
     palette: { bg: '#1B1C1E', bg2: '#2C2E32', fg: '#E9EAEC', accent: '#8E9196', frame: 'grid', font: 'grotesk' },
-    collections: [['Summer 25', 'SS', 2025, false], ['Winter 25', 'FW', 2025, false], ['Summer 26', 'SS', 2026, false], ['Winter 26', 'FW', 2026, true]],
+    collections: [['Winter 25', 'FW', 2025, false], ['Summer 26', 'SS', 2026, false], ['Winter 26', 'FW', 2026, false], ['Summer 27', 'SS', 2027, true]],
     directors: [
       ['Cristóbal Balenciaga', 1917, 1968,
         'Основатель дома. Кристиан Диор называл его «мастером всех нас». Работал с объёмом как скульптор: полуприлегающий силуэт, туника, платье-мешок, «бэби-долл».',
@@ -68,7 +68,7 @@ export const BRANDS = [
     short_desc_ru: 'Парижский коллектив, основанный в 2014 году Демной и Гурамом Гвасалия. Оверсайз, ирония и повседневные вещи, превращённые в высказывание, сделали Vetements символом моды 2010-х.',
     short_desc_en: 'A Paris collective founded in 2014 by Demna and Guram Gvasalia. Oversized cuts, irony and everyday clothes turned into statements made Vetements a symbol of 2010s fashion.',
     palette: { bg: '#E7E3D8', bg2: '#D7D2C4', fg: '#111111', accent: '#F2D21B', frame: 'tag', font: 'grotesk' },
-    collections: [['Spring–Summer 25', 'SS', 2025, false], ['Fall–Winter 25', 'FW', 2025, false], ['Spring–Summer 26', 'SS', 2026, false], ['Fall–Winter 26', 'FW', 2026, true]],
+    collections: [['Spring–Summer 24', 'SS', 2024, false], ['Fall–Winter 24', 'FW', 2024, false], ['Spring–Summer 25', 'SS', 2025, false], ['Spring–Summer 27', 'SS', 2027, true]],
     directors: [
       ['Demna', 2014, 2019,
         'Сооснователь и первый дизайнер коллектива; до Vetements работал в Maison Martin Margiela и Louis Vuitton.',
@@ -93,7 +93,7 @@ export const BRANDS = [
     short_desc_ru: 'Флорентийский дом, начавшийся в 1921 году с лавки кожаных изделий Гуччо Гуччи. Бамбуковая ручка, лоферы Horsebit, полоса Web и смелые повороты креативных директоров — от Тома Форда до Алессандро Микеле.',
     short_desc_en: 'The Florentine house that began in 1921 with Guccio Gucci’s leather shop. The bamboo handle, Horsebit loafers, the Web stripe and bold creative directors from Tom Ford to Alessandro Michele.',
     palette: { bg: '#0F3B2C', bg2: '#16503C', fg: '#EDE3CC', accent: '#B5242C', frame: 'botanical', font: 'serif' },
-    collections: [['Spring Summer 2025', 'SS', 2025, false], ['Fall Winter 2025', 'FW', 2025, false], ['Spring Summer 2026', 'SS', 2026, false], ['Pre-Fall 2026', 'Pre-Fall', 2026, false], ['Fall Winter 2026', 'FW', 2026, true]],
+    collections: [['Fall Winter 2025', 'FW', 2025, false], ['Spring Summer 2026', 'SS', 2026, false], ['Pre-Fall 2026', 'Pre-Fall', 2026, false], ['Fall Winter 2026', 'FW', 2026, false], ['Spring Summer 2027', 'SS', 2027, true]],
     directors: [
       ['Guccio Gucci', 1921, 1953,
         'Основатель. Работая в лондонском отеле Savoy, видел багаж аристократии; во Флоренции открыл лавку кожаных изделий.',
@@ -146,7 +146,7 @@ export const BRANDS = [
     short_desc_ru: 'Миланский дом, открывшийся в 1913 году в галерее Виктора Эммануила II. Миучча Прада превратила семейную марку кожгалантереи в интеллектуальный модный дом — от нейлонового рюкзака до совместных коллекций с Рафом Симонсом.',
     short_desc_en: 'The Milanese house opened in 1913 in the Galleria Vittorio Emanuele II. Miuccia Prada turned a family leather goods business into an intellectual fashion house — from the nylon backpack to the co-designed collections with Raf Simons.',
     palette: { bg: '#121314', bg2: '#1E2124', fg: '#E6E8EB', accent: '#7D8CA3', frame: 'minimal', font: 'sans-light' },
-    collections: [['Spring/Summer 2025', 'SS', 2025, false], ['Fall/Winter 2025', 'FW', 2025, false], ['Spring/Summer 2026', 'SS', 2026, false], ['Fall/Winter 2026', 'FW', 2026, true]],
+    collections: [['Fall/Winter 2025', 'FW', 2025, false], ['Spring/Summer 2026', 'SS', 2026, false], ['Fall/Winter 2026', 'FW', 2026, false], ['Spring/Summer 2027', 'SS', 2027, true]],
     directors: [
       ['Mario Prada', 1913, 1958,
         'Основатель: вместе с братом Мартино открыл магазин «Fratelli Prada» — кожгалантерея, дорожные сундуки, аксессуары.',
@@ -184,7 +184,7 @@ export const BRANDS = [
     short_desc_ru: '«Богатые депрессивные дети» — марка Анри Александра Леви, основанная в 2012 году. Панк, декаданс, ручная работа и мрачная поэзия; вещи выходят крошечными тиражами и стоят как произведения искусства.',
     short_desc_en: '“Depressed Rich Kids” — Henri Alexander Levy’s label founded in 2012. Punk, decadence, handwork and dark poetry, produced in tiny runs and priced like works of art.',
     palette: { bg: '#D2C4A2', bg2: '#BFAF88', fg: '#231A12', accent: '#7A1E1E', frame: 'scratch', font: 'hand' },
-    collections: [['Spring Summer 2025', 'SS', 2025, false], ['Fall Winter 2025', 'FW', 2025, false], ['Spring Summer 2026', 'SS', 2026, false], ['Fall Winter 2026', 'FW', 2026, true]],
+    collections: [['Fall Winter 2025', 'FW', 2025, false], ['Spring Summer 2026', 'SS', 2026, false], ['Fall Winter 2026', 'FW', 2026, false], ['Spring Summer 2027', 'SS', 2027, true]],
     directors: [
       ['Henri Alexander Levy', 2012, null,
         'Основатель и единственный креативный директор. Американский художник и дизайнер, соединяющий панк, литературу и аристократическую тоску.',
@@ -201,7 +201,7 @@ export const BRANDS = [
     short_desc_ru: 'Флорентийская марка шведского происхождения, известная абсурдистскими показами в Милане. Деформированные формы, кислотные цвета и юмор, который высмеивает серьёзность самой моды.',
     short_desc_en: 'A Florence-based label of Swedish origin known for absurdist shows in Milan. Distorted shapes, acid colours and humour that mocks fashion’s own seriousness.',
     palette: { bg: '#C6FF1A', bg2: '#A8E000', fg: '#121212', accent: '#FF3EA5', frame: 'warp', font: 'grotesk-heavy' },
-    collections: [['SS25', 'SS', 2025, false], ['FW25', 'FW', 2025, false], ['SS26', 'SS', 2026, false], ['FW26', 'FW', 2026, true]],
+    collections: [['FW25', 'FW', 2025, false], ['SS26', 'SS', 2026, false], ['FW26', 'FW', 2026, false], ['SS27', 'SS', 2027, true]],
     directors: [
       ['Beate Karlsson', 2021, null,
         'Шведский дизайнер, креативный директор AVAVAV; её показы в Милане превращаются в перформансы о хрупкости и абсурде моды.',
@@ -268,7 +268,7 @@ export const BRANDS = [
     short_desc_ru: 'Парижский дом, начавшийся в 1854 году с мастерской дорожных сундуков Луи Виттона. Канва Monogram, тема путешествий и союз ремесла с искусством — от Марка Джейкобса до Вирджила Абло и Фаррелла Уильямса.',
     short_desc_en: 'The Paris house that began in 1854 with Louis Vuitton’s trunk workshop. The Monogram canvas, the spirit of travel and a union of craft and art — from Marc Jacobs to Virgil Abloh and Pharrell Williams.',
     palette: { bg: '#4A2E1F', bg2: '#5E3B28', fg: '#EEDFC0', accent: '#C8A165', frame: 'trunk', font: 'geometric' },
-    collections: [['Spring-Summer 2025', 'SS', 2025, false], ['Fall-Winter 2025', 'FW', 2025, false], ['Cruise 2026', 'Resort', 2026, false], ['Spring-Summer 2026', 'SS', 2026, false], ['Fall-Winter 2026', 'FW', 2026, true]],
+    collections: [['Fall-Winter 2025', 'FW', 2025, false], ['Cruise 2026', 'Resort', 2026, false], ['Spring-Summer 2026', 'SS', 2026, false], ['Fall-Winter 2026', 'FW', 2026, false], ['Spring-Summer 2027', 'SS', 2027, true]],
     directors: [
       ['Louis Vuitton', 1854, 1892,
         'Основатель. В 13 лет пешком ушёл из Юры в Париж, учился у мастера упаковки багажа и создал плоский штабелируемый сундук.',
@@ -323,7 +323,7 @@ export const BRANDS = [
     short_desc_ru: 'Дом, начавшийся в 1910 году со шляпного магазина Габриэль Шанель на рю Камбон. Маленькое чёрное платье, твидовый костюм, сумка 2.55, жемчуг и аромат N°5 — словарь элегантности XX века.',
     short_desc_en: 'The house that began in 1910 with Gabrielle Chanel’s hat shop on rue Cambon. The little black dress, the tweed suit, the 2.55 bag, pearls and N°5 — the vocabulary of 20th-century elegance.',
     palette: { bg: '#0E0E0E', bg2: '#1B1B1B', fg: '#F2EFE9', accent: '#D8D2C6', frame: 'pearl', font: 'didone' },
-    collections: [['Spring-Summer 2025', 'SS', 2025, false], ['Fall-Winter 2025/26', 'FW', 2025, false], ['Spring-Summer 2026', 'SS', 2026, false], ['Cruise 2026/27', 'Resort', 2026, false], ['Fall-Winter 2026/27', 'FW', 2026, true]],
+    collections: [['Fall-Winter 2025/26', 'FW', 2025, false], ['Spring-Summer 2026', 'SS', 2026, false], ['Fall-Winter 2026/27', 'FW', 2026, false], ['Cruise 2026/27', 'Resort', 2027, false], ['Spring-Summer 2027', 'SS', 2027, true]],
     directors: [
       ['Gabrielle Chanel', 1910, 1971,
         'Основательница. Сделала модными джерси, маленькое чёрное платье и твидовый костюм; вернулась в моду в 1954 году.',
@@ -362,7 +362,7 @@ export const BRANDS = [
     short_desc_ru: 'Дом, основанный бельгийцем Мартином Маржела и Дженни Мейренс в 1988 году. Деконструкция, анонимность, белая бирка с четырьмя стежками и раздвоенный мысок таби — мода как концепция.',
     short_desc_en: 'The house founded by Belgian designer Martin Margiela and Jenny Meirens in 1988. Deconstruction, anonymity, the blank label with four stitches and the split-toe Tabi — fashion as a concept.',
     palette: { bg: '#F1EFEA', bg2: '#E3E0D8', fg: '#2A2A2A', accent: '#FFFFFF', frame: 'stitch', font: 'mono' },
-    collections: [['Co-Ed Spring-Summer 2025', 'SS', 2025, false], ['Artisanal 2025', 'FW', 2025, false], ['Spring-Summer 2026', 'SS', 2026, false], ['Fall-Winter 2026', 'FW', 2026, true]],
+    collections: [['Artisanal 2025', 'FW', 2025, false], ['Spring-Summer 2026', 'SS', 2026, false], ['Fall-Winter 2026', 'FW', 2026, false], ['Spring-Summer 2027', 'SS', 2027, true]],
     directors: [
       ['Martin Margiela', 1988, 2009,
         'Основатель, никогда не показывавший лицо публике. Ассистировал Жану-Полю Готье, в 1997–2003 годах одновременно руководил женской линией Hermès.',
@@ -399,7 +399,7 @@ export const BRANDS = [
     short_desc_ru: 'Парижский дом Юбера де Живанши, открытый в 1952 году. Дружба с Одри Хепбёрн, маленькое чёрное платье «Завтрака у Тиффани» и тёмная аристократическая элегантность, которую развивали Маккуин, Тиши и Сара Бёртон.',
     short_desc_en: 'Hubert de Givenchy’s Paris house, opened in 1952. His friendship with Audrey Hepburn, the little black dress of “Breakfast at Tiffany’s” and a dark aristocratic elegance carried on by McQueen, Tisci and Sarah Burton.',
     palette: { bg: '#0C0C0C', bg2: '#181818', fg: '#F3F3F3', accent: '#8A8A8A', frame: 'arch', font: 'roman' },
-    collections: [['Spring-Summer 2025', 'SS', 2025, false], ['Fall-Winter 2025', 'FW', 2025, false], ['Spring-Summer 2026', 'SS', 2026, false], ['Fall-Winter 2026', 'FW', 2026, true]],
+    collections: [['Fall-Winter 2025', 'FW', 2025, false], ['Spring-Summer 2026', 'SS', 2026, false], ['Fall-Winter 2026', 'FW', 2026, false], ['Spring-Summer 2027', 'SS', 2027, true]],
     directors: [
       ['Hubert de Givenchy', 1952, 1995,
         'Основатель, ученик Жака Фата и Эльзы Скиапарелли; другом и музой всей его жизни была Одри Хепбёрн.',
@@ -452,7 +452,7 @@ export const BRANDS = [
     short_desc_ru: 'Миланский дом Джанни Версаче, основанный в 1978 году. Золото, барокко, греческий меандр и Медуза; эпоха супермоделей, платье с булавками и зелёное платье Дженнифер Лопес.',
     short_desc_en: 'Gianni Versace’s Milanese house, founded in 1978. Gold, baroque, the Greek key and the Medusa; the supermodel era, the safety-pin dress and Jennifer Lopez’s green dress.',
     palette: { bg: '#0E0C08', bg2: '#1C170D', fg: '#EBDDB2', accent: '#C9A227', frame: 'greca', font: 'roman' },
-    collections: [['Spring-Summer 2025', 'SS', 2025, false], ['Fall-Winter 2025', 'FW', 2025, false], ['Spring-Summer 2026', 'SS', 2026, false], ['Fall-Winter 2026', 'FW', 2026, true]],
+    collections: [['Fall-Winter 2024', 'FW', 2024, false], ['Spring-Summer 2025', 'SS', 2025, false], ['Fall-Winter 2025', 'FW', 2025, false], ['Spring-Summer 2026', 'SS', 2026, true]],
     directors: [
       ['Gianni Versace', 1978, 1997,
         'Основатель из Реджо-ди-Калабрии; сын портнихи. Превратил подиум в шоу с супермоделями и смешал античность с поп-культурой.',
@@ -489,7 +489,7 @@ export const BRANDS = [
     short_desc_ru: 'Лондонский дом Ли Александра Маккуина, основанный в 1992 году. Портновская выучка Сэвил-роу, мрачный романтизм, викторианская драматургия и показы-перформансы, ставшие легендами.',
     short_desc_en: 'Lee Alexander McQueen’s London house, founded in 1992. Savile Row tailoring, dark romanticism, Victorian drama and performance-like shows that became legends.',
     palette: { bg: '#140B10', bg2: '#22121A', fg: '#E9DEDE', accent: '#9B1B2A', frame: 'thorn', font: 'serif-italic' },
-    collections: [['Spring/Summer 2025', 'SS', 2025, false], ['Autumn/Winter 2025', 'FW', 2025, false], ['Spring/Summer 2026', 'SS', 2026, false], ['Autumn/Winter 2026', 'FW', 2026, true]],
+    collections: [['Autumn/Winter 2025', 'FW', 2025, false], ['Spring/Summer 2026', 'SS', 2026, false], ['Autumn/Winter 2026', 'FW', 2026, false], ['Spring/Summer 2027', 'SS', 2027, true]],
     directors: [
       ['Lee Alexander McQueen', 1992, 2010,
         'Основатель. Учился портновскому делу на Сэвил-роу, окончил Central Saint Martins; четырежды назван британским дизайнером года.',
@@ -525,7 +525,7 @@ export const BRANDS = [
     short_desc_ru: 'Итальянская семейная компания из Кваруны, основанная в 1924 году. Викунья, baby cashmere, мокасины Summer Walk и ткани, ставшие эталоном «тихой роскоши».',
     short_desc_en: 'The Italian family company from Quarona, founded in 1924. Vicuña, baby cashmere, Summer Walk loafers and fabrics that became the benchmark of “quiet luxury”.',
     palette: { bg: '#E9E0D0', bg2: '#DCCFB9', fg: '#5E5244', accent: '#B9A483', frame: 'soft', font: 'serif-light' },
-    collections: [['Spring Summer 2025', 'SS', 2025, false], ['Fall Winter 2025', 'FW', 2025, false], ['Spring Summer 2026', 'SS', 2026, false], ['Fall Winter 2026', 'FW', 2026, true]],
+    collections: [['Fall Winter 2025', 'FW', 2025, false], ['Spring Summer 2026', 'SS', 2026, false], ['Fall Winter 2026', 'FW', 2026, false], ['Spring Summer 2027', 'SS', 2027, true]],
     directors: [
       ['Pietro Loro Piana', 1924, 1941,
         'Основал шерстяную фабрику в Кваруне (Пьемонт), продолжив текстильную традицию семьи.',

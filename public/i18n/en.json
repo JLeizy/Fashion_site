@@ -642,6 +642,8 @@
     "statCategories": "Categories",
     "house": "Fashion house",
     "lookOf": "Look {i} of {n}",
+    "runwayLook": "look {n}",
+    "runwayCredit": "Look {n} · photo: Vogue Runway",
     "lookbookClose": "Close lookbook",
     "collectionItems": {
       "one": "{n} piece",

@@ -72,7 +72,7 @@ function sectionHtml(s, i) {
       <h2 class="hs-sec__title b-title">${esc(loc(s.title))}</h2>
       <svg class="hs-sec__orn" aria-hidden="true"><use href="#orn-divider"/></svg>
     </header>
-    ${s.image ? `<figure class="hs-sec__img" data-clip-reveal><img src="${esc(s.image)}" alt="" loading="lazy"></figure>` : ''}
+    ${s.image ? `<figure class="hs-sec__img" data-clip-reveal style="--hs-img: url('${esc(s.image)}')"><img src="${esc(s.image)}" alt="" loading="lazy"></figure>` : ''}
     ${fallback ? `<p class="hs-fallback t-mono">${esc(t('history.noTranslation'))}</p>` : ''}
     <div class="hs-text">${richText(text)}</div>
     ${quoteText ? `<blockquote class="hs-quote" data-reveal><svg class="hs-quote__orn" aria-hidden="true"><use href="#orn-fleur"/></svg><p>${esc(quoteText)}</p>${q.author ? `<cite class="t-mono">— ${esc(q.author)}</cite>` : ''}</blockquote>` : ''}

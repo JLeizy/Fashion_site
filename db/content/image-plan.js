@@ -54,6 +54,8 @@ export const IMAGE_PLAN = {
     shopFallback: true, // товарам без пары в магазине — другая вещь бренда той же группы, с пометкой в источнике
     ssense: 'vetements',
     vogue: 'vetements',
+    // Показ весна–лето 2026: футболки с перечёркнутой свастикой (принт Antihate) — на сайте не используем ни один кадр
+    excludeShows: ['spring-2026-ready-to-wear'],
     directors: { Demna: 'Demna (designer)' },
     fallbackSeasons: ["spring-2027-ready-to-wear", "fall-2026-ready-to-wear", "spring-2026-ready-to-wear", "fall-2025-ready-to-wear", "spring-2025-ready-to-wear", "fall-2024-ready-to-wear", "spring-2024-ready-to-wear", "fall-2023-ready-to-wear", "spring-2023-ready-to-wear"],
     history: [
