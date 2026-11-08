@@ -44,6 +44,13 @@ export async function ensureEmbeddedPostgres({ quiet = false } = {}) {
   }
 
   const dataDir = config.embeddedPg.dataDir;
+  const logTail = [];
+  const remember = (message) => {
+    const text = String(message?.message || message || '').trim();
+    if (!text) return;
+    logTail.push(text);
+    if (logTail.length > 20) logTail.shift();
+  };
   const pg = new EmbeddedPostgres({
     databaseDir: dataDir,
     port: config.db.port,
@@ -53,8 +60,10 @@ export async function ensureEmbeddedPostgres({ quiet = false } = {}) {
     persistent: true,
     initdbFlags: ['--encoding=UTF8', '--locale-provider=icu', '--icu-locale=und', '--locale=C'],
     postgresFlags: ['-c', 'listen_addresses=127.0.0.1'],
-    onLog: () => {},
+    // Последние строки лога PostgreSQL — чтобы при сбое запуска показать причину, а не пустую ошибку
+    onLog: (message) => remember(message),
     onError: (message) => {
+      remember(message);
       const text = String(message?.message || message || '').trim();
       if (text && /error|fatal|panic/i.test(text)) console.error('[embedded-pg]', text);
     },
@@ -65,7 +74,23 @@ export async function ensureEmbeddedPostgres({ quiet = false } = {}) {
     if (!quiet) console.log('[embedded-pg] Первый запуск: создаю кластер БД в', dataDir);
     await pg.initialise();
   }
-  await pg.start();
+  // На Windows процесс PostgreSQL при остановке завершается принудительно и оставляет файл блокировки postmaster.pid;
+  // при следующем запуске PostgreSQL отказывается стартовать. Порт выше уже проверен — сервер не запущен,
+  // значит файл устаревший и его можно удалить.
+  const pidFile = path.join(dataDir, 'postmaster.pid');
+  if (!firstRun && fs.existsSync(pidFile)) {
+    fs.rmSync(pidFile, { force: true });
+    if (!quiet) console.log('[embedded-pg] Удалён устаревший файл блокировки postmaster.pid');
+  }
+  try {
+    await pg.start();
+  } catch (err) {
+    // embedded-postgres при сбое может вернуть пустую ошибку (undefined) — показываем причину из лога
+    const reason = err?.message || logTail.filter((l) => /fatal|error|panic|could not|не удалось/i.test(l)).slice(-3).join('\n') || logTail.slice(-3).join('\n');
+    throw new Error(`Встроенный PostgreSQL не запустился на порту ${config.db.port}.${reason ? `\n${reason}` : ''}\n`
+      + 'Что сделать: закрыть другие копии сервера (npm start / npm run setup), проверить, что порт свободен, '
+      + 'или указать другой PGPORT в .env и снова выполнить npm run setup.');
+  }
   if (!quiet) console.log(`[embedded-pg] PostgreSQL запущен на 127.0.0.1:${config.db.port}`);
 
   // Создаём рабочую базу, если её ещё нет

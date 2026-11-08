@@ -6,6 +6,7 @@
 //   отмена до передачи в доставку — снятие резерва (unreserve); принятый возврат — return.
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import pg from 'pg';
 import bcrypt from 'bcrypt';
 import { config } from '../config/index.js';
@@ -325,7 +326,8 @@ async function main() {
     }
     // Товары, для которых не нашлось фото вещи той же категории, в каталог не попадают
     // (список ведёт сборщик фото: db/content/excluded-products.json, по брендам)
-    const excludedFile = path.join(path.dirname(new URL(import.meta.url).pathname), 'content', 'excluded-products.json');
+    // fileURLToPath — корректный путь и на Windows (у URL.pathname там лишний «/» перед буквой диска)
+    const excludedFile = path.join(path.dirname(fileURLToPath(import.meta.url)), 'content', 'excluded-products.json');
     const excludedSkus = new Set(fs.existsSync(excludedFile) ? Object.values(JSON.parse(fs.readFileSync(excludedFile, 'utf8'))).flat() : []);
     for (let i = productDrafts.length - 1; i >= 0; i--) if (excludedSkus.has(productDrafts[i].sku)) productDrafts.splice(i, 1);
     if (excludedSkus.size) console.log(`[seed] Исключено товаров без подходящего фото: ${excludedSkus.size}`);

@@ -7,7 +7,12 @@ import { ensureEmbeddedPostgres, stopEmbeddedPostgres } from './db/embedded.js';
 import { pool, checkConnection } from './db/pool.js';
 import { createApp } from './server/app.js';
 
-await ensureEmbeddedPostgres();
+try {
+  await ensureEmbeddedPostgres();
+} catch (err) {
+  console.error(`[embedded-pg] ${err?.message || err}`);
+  process.exit(1);
+}
 
 try {
   const info = await checkConnection();
