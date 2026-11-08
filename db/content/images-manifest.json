@@ -25998,5 +25998,15 @@
     "bytes": 28988,
     "width": 600,
     "height": 900
+  },
+  "/images/brands/supreme/directors/2.webp": {
+    "kind": "director",
+    "page": "https://us.supreme.com/products/uzvk5w-vcycnalba",
+    "url": "https://us.supreme.com/cdn/shop/files/S35_FW26_EyeletWorkShirt_Navy02.jpg?v=1793638037&width=900",
+    "date": "2026-11-08",
+    "note": "Портрета в открытых источниках нет — вещь бренда из официального магазина: eyelet-s-s-work-shirt-navy",
+    "bytes": 11648,
+    "width": 600,
+    "height": 600
   }
 }
