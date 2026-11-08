@@ -11977,1315 +11977,6 @@
     "note": "Портрета в открытых источниках нет — платье Сары Бёртон для Alexander McQueen (Wikimedia Commons)"
   },
   {
-    "target": "/images/brands/gucci/products/GUC-SUN-0042-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-frame-sunglasses/503097932",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134038_1.jpg",
-    "note": "SSENSE: black-square-frame-sunglasses"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SUN-0042-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-frame-sunglasses/503097932",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134038_2.jpg",
-    "note": "SSENSE: black-square-frame-sunglasses"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-LOF-0001-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-geometric-frame-sunglasses/211821155",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134040_1.jpg",
-    "note": "www.ssense.com: brown-geometric-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-LOF-0001-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-geometric-frame-sunglasses/211821155",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134040_2.jpg",
-    "note": "www.ssense.com: brown-geometric-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-LOF-0002-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-runway-sunglasses/852198289",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134073_1.jpg",
-    "note": "www.ssense.com: gold-runway-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-LOF-0002-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-runway-sunglasses/852198289",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134073_2.jpg",
-    "note": "www.ssense.com: gold-runway-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-LOF-0003-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/taupe-runway-sunglasses/775300767",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134081_1.jpg",
-    "note": "www.ssense.com: taupe-runway-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-LOF-0003-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/taupe-runway-sunglasses/775300767",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134081_2.jpg",
-    "note": "www.ssense.com: taupe-runway-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0004-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-tiny-gg-logo-sunglasses/658210506",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134091_1.jpg",
-    "note": "www.ssense.com: gold-tiny-gg-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0004-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-tiny-gg-logo-sunglasses/658210506",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134091_2.jpg",
-    "note": "www.ssense.com: gold-tiny-gg-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0005-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-lettering-sunglasses/549272020",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134090_1.jpg",
-    "note": "www.ssense.com: gold-lettering-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0005-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-lettering-sunglasses/549272020",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134090_2.jpg",
-    "note": "www.ssense.com: gold-lettering-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0006-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-rivet-sunglasses/255167117",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134088_1.jpg",
-    "note": "www.ssense.com: brown-rivet-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0006-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-rivet-sunglasses/255167117",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134088_2.jpg",
-    "note": "www.ssense.com: brown-rivet-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0007-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rivet-sunglasses/960253776",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134092_1.jpg",
-    "note": "www.ssense.com: black-rivet-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0007-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rivet-sunglasses/960253776",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134092_2.jpg",
-    "note": "www.ssense.com: black-rivet-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0008-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-lettering-sunglasses/378797768",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134085_1.jpg",
-    "note": "www.ssense.com: gold-lettering-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0008-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-lettering-sunglasses/378797768",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134085_2.jpg",
-    "note": "www.ssense.com: gold-lettering-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0009-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-sign-sunglasses/985337119",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134077_1.jpg",
-    "note": "www.ssense.com: black-sign-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0009-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-sign-sunglasses/985337119",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134077_2.jpg",
-    "note": "www.ssense.com: black-sign-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0010-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-institutional-logo-sunglasses/27128440",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134076_1.jpg",
-    "note": "www.ssense.com: black-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0010-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-institutional-logo-sunglasses/27128440",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134076_2.jpg",
-    "note": "www.ssense.com: black-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0011-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-institutional-logo-sunglasses/963355752",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134072_1.jpg",
-    "note": "www.ssense.com: brown-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0011-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-institutional-logo-sunglasses/963355752",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134072_2.jpg",
-    "note": "www.ssense.com: brown-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0012-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-lettering-sunglasses/577618916",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134087_1.jpg",
-    "note": "www.ssense.com: black-lettering-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0012-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-lettering-sunglasses/577618916",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134087_2.jpg",
-    "note": "www.ssense.com: black-lettering-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0013-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-institutional-logo-sunglasses/160477910",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134075_1.jpg",
-    "note": "www.ssense.com: black-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TOT-0013-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-institutional-logo-sunglasses/160477910",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134075_2.jpg",
-    "note": "www.ssense.com: black-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0014-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-institutional-logo-sunglasses/921886235",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134082_1.jpg",
-    "note": "www.ssense.com: brown-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0014-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-institutional-logo-sunglasses/921886235",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134082_2.jpg",
-    "note": "www.ssense.com: brown-institutional-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0015-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-horsebit-top-bar-glasses/325966120",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M133004_1.jpg",
-    "note": "www.ssense.com: gold-horsebit-top-bar-glasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0015-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-horsebit-top-bar-glasses/325966120",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M133004_2.jpg",
-    "note": "www.ssense.com: gold-horsebit-top-bar-glasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0016-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-rimless-glasses/87801810",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M133005_1.jpg",
-    "note": "www.ssense.com: gold-rimless-glasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0016-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-rimless-glasses/87801810",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M133005_2.jpg",
-    "note": "www.ssense.com: gold-rimless-glasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0017-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-pilot-navigator-glasses/77504505",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M133001_1.jpg",
-    "note": "www.ssense.com: black-pilot-navigator-glasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CRB-0017-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-pilot-navigator-glasses/77504505",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M133001_2.jpg",
-    "note": "www.ssense.com: black-pilot-navigator-glasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0018-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-hailey-sunglasses/105380994",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134066_1.jpg",
-    "note": "www.ssense.com: black-hailey-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0018-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-hailey-sunglasses/105380994",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134066_2.jpg",
-    "note": "www.ssense.com: black-hailey-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0019-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-geometric-frame-sunglasses/538744540",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134039_1.jpg",
-    "note": "www.ssense.com: black-geometric-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0019-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-geometric-frame-sunglasses/538744540",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134039_2.jpg",
-    "note": "www.ssense.com: black-geometric-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0020-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rectangular-frame-sunglasses/192006285",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134041_1.jpg",
-    "note": "www.ssense.com: black-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0020-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rectangular-frame-sunglasses/192006285",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134041_2.jpg",
-    "note": "www.ssense.com: black-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0021-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-rectangular-frame-sunglasses/878509171",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134042_1.jpg",
-    "note": "www.ssense.com: brown-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0021-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-rectangular-frame-sunglasses/878509171",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134042_2.jpg",
-    "note": "www.ssense.com: brown-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0022-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/447996867",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134071_1.jpg",
-    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SNK-0022-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/447996867",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134071_2.jpg",
-    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0023-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/707247744",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134070_1.jpg",
-    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0023-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/707247744",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134070_2.jpg",
-    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0024-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/158935160",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134069_1.jpg",
-    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0024-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-sunglasses/158935160",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134069_2.jpg",
-    "note": "www.ssense.com: black-square-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0025-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-minimal-sunglasses/514621690",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134065_1.jpg",
-    "note": "www.ssense.com: black-minimal-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0025-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-minimal-sunglasses/514621690",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134065_2.jpg",
-    "note": "www.ssense.com: black-minimal-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0026-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-emblem-pilot-navigator-sunglasses/210191343",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134047_1.jpg",
-    "note": "www.ssense.com: silver-emblem-pilot-navigator-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0026-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-emblem-pilot-navigator-sunglasses/210191343",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134047_2.jpg",
-    "note": "www.ssense.com: silver-emblem-pilot-navigator-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0027-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-emblem-directional-sunglasses/659053512",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134050_1.jpg",
-    "note": "www.ssense.com: silver-emblem-directional-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0027-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-emblem-directional-sunglasses/659053512",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134050_2.jpg",
-    "note": "www.ssense.com: silver-emblem-directional-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0028-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-mask-frame-sunglasses/137298249",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134061_1.jpg",
-    "note": "www.ssense.com: black-mask-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JKT-0028-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-mask-frame-sunglasses/137298249",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134061_2.jpg",
-    "note": "www.ssense.com: black-mask-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0029-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-mask-frame-sunglasses/349139690",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134059_1.jpg",
-    "note": "www.ssense.com: black-mask-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0029-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-mask-frame-sunglasses/349139690",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134059_2.jpg",
-    "note": "www.ssense.com: black-mask-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0030-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-oval-frame-sunglasses/13523235",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134021_1.jpg",
-    "note": "www.ssense.com: black-oval-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0030-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-oval-frame-sunglasses/13523235",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134021_2.jpg",
-    "note": "www.ssense.com: black-oval-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0031-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-metal-frame-rectangular-sunglasses/571836801",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134053_1.jpg",
-    "note": "www.ssense.com: silver-metal-frame-rectangular-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0031-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-metal-frame-rectangular-sunglasses/571836801",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134053_2.jpg",
-    "note": "www.ssense.com: silver-metal-frame-rectangular-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0032-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-rectangular-frame-sunglasses/252557250",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134018_1.jpg",
-    "note": "www.ssense.com: silver-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SCF-0032-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-rectangular-frame-sunglasses/252557250",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134018_2.jpg",
-    "note": "www.ssense.com: silver-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SUI-0033-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-square-frame-sunglasses/819682155",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134044_1.jpg",
-    "note": "www.ssense.com: brown-square-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SUI-0033-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-square-frame-sunglasses/819682155",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134044_2.jpg",
-    "note": "www.ssense.com: brown-square-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SUI-0034-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rectangular-frame-sunglasses/102776066",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134058_1.jpg",
-    "note": "www.ssense.com: black-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SUI-0034-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rectangular-frame-sunglasses/102776066",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134058_2.jpg",
-    "note": "www.ssense.com: black-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SWT-0035-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-oval-frame-sunglasses/592518034",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134026_1.jpg",
-    "note": "www.ssense.com: black-oval-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SWT-0035-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-oval-frame-sunglasses/592518034",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134026_2.jpg",
-    "note": "www.ssense.com: black-oval-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SWT-0036-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-rectangular-frame-sunglasses/509780413",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134034_1.jpg",
-    "note": "www.ssense.com: silver-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SWT-0036-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-rectangular-frame-sunglasses/509780413",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134034_2.jpg",
-    "note": "www.ssense.com: silver-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SHR-0037-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-rectangular-frame-sunglasses/696918824",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134035_1.jpg",
-    "note": "www.ssense.com: gold-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SHR-0037-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-rectangular-frame-sunglasses/696918824",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134035_2.jpg",
-    "note": "www.ssense.com: gold-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-DRS-0038-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-oval-frame-sunglasses/837584063",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134020_1.jpg",
-    "note": "www.ssense.com: silver-oval-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-DRS-0038-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-oval-frame-sunglasses/837584063",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134020_2.jpg",
-    "note": "www.ssense.com: silver-oval-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SKT-0039-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-oval-frame-sunglasses/864768893",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134029_1.jpg",
-    "note": "www.ssense.com: gold-oval-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SKT-0039-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-oval-frame-sunglasses/864768893",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134029_2.jpg",
-    "note": "www.ssense.com: gold-oval-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JNS-0040-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-rectangular-frame-sunglasses/205654703",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134051_1.jpg",
-    "note": "www.ssense.com: gold-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-JNS-0040-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-rectangular-frame-sunglasses/205654703",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134051_2.jpg",
-    "note": "www.ssense.com: gold-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-BLT-0041-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-geometric-frame-sunglasses/123419556",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134031_1.jpg",
-    "note": "www.ssense.com: gold-geometric-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-BLT-0041-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-geometric-frame-sunglasses/123419556",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134031_2.jpg",
-    "note": "www.ssense.com: gold-geometric-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-HAT-0043-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-geometric-frame-sunglasses/344627311",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134022_1.jpg",
-    "note": "www.ssense.com: black-geometric-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-HAT-0043-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-geometric-frame-sunglasses/344627311",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134022_2.jpg",
-    "note": "www.ssense.com: black-geometric-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-WAL-0044-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rectangular-frame-sunglasses/912863409",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134045_1.jpg",
-    "note": "www.ssense.com: black-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-WAL-0044-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rectangular-frame-sunglasses/912863409",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134045_2.jpg",
-    "note": "www.ssense.com: black-rectangular-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-RNG-0045-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-shield-sunglasses/19289611",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134016_1.jpg",
-    "note": "www.ssense.com: brown-shield-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-RNG-0045-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-shield-sunglasses/19289611",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134016_2.jpg",
-    "note": "www.ssense.com: brown-shield-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-BRC-0046-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-shield-sunglasses/19289621",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134017_1.jpg",
-    "note": "www.ssense.com: black-shield-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-BRC-0046-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-shield-sunglasses/19289621",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134017_2.jpg",
-    "note": "www.ssense.com: black-shield-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CHN-0047-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-mask-frame-sunglasses/19289351",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134003_1.jpg",
-    "note": "www.ssense.com: brown-mask-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-CHN-0047-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-mask-frame-sunglasses/19289351",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134003_2.jpg",
-    "note": "www.ssense.com: brown-mask-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-EAR-0048-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-mask-frame-sunglasses/19289361",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134004_1.jpg",
-    "note": "www.ssense.com: black-mask-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-EAR-0048-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-mask-frame-sunglasses/19289361",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134004_2.jpg",
-    "note": "www.ssense.com: black-mask-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-PFW-0049-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gray-rectangular-logo-sunglasses/19289581",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134013_1.jpg",
-    "note": "www.ssense.com: gray-rectangular-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-PFW-0049-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gray-rectangular-logo-sunglasses/19289581",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134013_2.jpg",
-    "note": "www.ssense.com: gray-rectangular-logo-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-PFM-0050-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-square-sunglasses/19289371",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134005_1.jpg",
-    "note": "www.ssense.com: brown-square-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-PFM-0050-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/brown-square-sunglasses/19289371",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134005_2.jpg",
-    "note": "www.ssense.com: brown-square-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-PFW-0051-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rectangular-sunglasses/19289381",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134006_1.jpg",
-    "note": "www.ssense.com: black-rectangular-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-PFW-0051-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-rectangular-sunglasses/19289381",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134006_2.jpg",
-    "note": "www.ssense.com: black-rectangular-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-BOT-0052-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-and-brown-navigator-frame-sunglasses/19289501",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134009_1.jpg",
-    "note": "www.ssense.com: silver-and-brown-navigator-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-BOT-0052-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-and-brown-navigator-frame-sunglasses/19289501",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134009_2.jpg",
-    "note": "www.ssense.com: silver-and-brown-navigator-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SND-0053-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-pilot-sunglasses/19289541",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134011_1.jpg",
-    "note": "www.ssense.com: gold-pilot-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-SND-0053-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-pilot-sunglasses/19289541",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134011_2.jpg",
-    "note": "www.ssense.com: gold-pilot-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-BPK-0054-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-and-brown-sqaure-frame-sunglasses/19289481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134007_1.jpg",
-    "note": "www.ssense.com: gold-and-brown-sqaure-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-BPK-0054-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-and-brown-sqaure-frame-sunglasses/19289481",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134007_2.jpg",
-    "note": "www.ssense.com: gold-and-brown-sqaure-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-HOD-0055-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-frameless-rectangular-sunglasses/19289331",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134001_1.jpg",
-    "note": "www.ssense.com: gold-frameless-rectangular-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-HOD-0055-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-frameless-rectangular-sunglasses/19289331",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134001_2.jpg",
-    "note": "www.ssense.com: gold-frameless-rectangular-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0056-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-square-frame-sunglasses/19289591",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134014_1.jpg",
-    "note": "www.ssense.com: gold-square-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TSH-0056-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-square-frame-sunglasses/19289591",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134014_2.jpg",
-    "note": "www.ssense.com: gold-square-frame-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-COT-0057-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-frameless-rectangular-sunglasses/19289321",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134000_1.jpg",
-    "note": "www.ssense.com: black-frameless-rectangular-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-COT-0057-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-frameless-rectangular-sunglasses/19289321",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134000_2.jpg",
-    "note": "www.ssense.com: black-frameless-rectangular-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TRS-0058-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-rectangular-glasses/19289261",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M133000_1.jpg",
-    "note": "www.ssense.com: silver-rectangular-glasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-TRS-0058-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/silver-rectangular-glasses/19289261",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M133000_2.jpg",
-    "note": "www.ssense.com: silver-rectangular-glasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-GLV-0059-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-gg1771s-fashion-show-sunglasses/19666811",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261451M134072_1.jpg",
-    "note": "www.ssense.com: black-gg1771s-fashion-show-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-GLV-0059-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/black-gg1771s-fashion-show-sunglasses/19666811",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261451M134072_2.jpg",
-    "note": "www.ssense.com: black-gg1771s-fashion-show-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-HEL-0060-1.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-gg1278s-sunglasses/19666781",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261451M134069_1.jpg",
-    "note": "www.ssense.com: gold-gg1278s-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/products/GUC-HEL-0060-2.webp",
-    "kind": "product",
-    "page": "https://www.ssense.com/en-us/men/product/gucci/gold-gg1278s-sunglasses/19666781",
-    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/261451M134069_2.jpg",
-    "note": "www.ssense.com: gold-gg1278s-sunglasses (вещь бренда из официального магазина, не эта модель)"
-  },
-  {
-    "target": "/images/brands/gucci/collections/fall-winter-2025.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/67befe820f305c8b6eb54fc0/master/w_900,c_limit/00001-gucci-fall-2025-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/collections/spring-summer-2025.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/66eda92e035186e00b5a32b9/master/w_900,c_limit/00001-gucci-spring-2025-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/collections/fall-winter-2026.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69a6e8d36ae530252d0b9b77/master/w_900,c_limit/00001-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/collections/pre-fall-2026.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/pre-fall-2026/gucci",
-    "url": "https://assets.vogue.com/photos/69305b4adc46c427d039bde2/master/w_900,c_limit/00001-gucci-pre-fall-2026-credit-brand.jpg",
-    "note": "Vogue Runway, pre-fall-2026, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/collections/spring-summer-2026.webp",
-    "kind": "collection",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/68d0eb474a4ee5f94bd2271a/master/w_900,c_limit/00001-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/hero.webp",
-    "kind": "hero",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/68d0eb474a4ee5f94bd2271a/master/w_1600,c_limit/00001-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/banners/gucci.webp",
-    "kind": "banner",
-    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/68d0eb4788b582cdf7c3aff3/master/w_1600,c_limit/00002-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 2"
-  },
-  {
-    "target": "/images/brands/gucci/directors/1.webp",
-    "kind": "director",
-    "page": "https://en.wikipedia.org/wiki/Guccio_Gucci",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Guccio_Gucci_c.1940.JPG/960px-Guccio_Gucci_c.1940.JPG",
-    "note": "Википедия: Guccio Gucci"
-  },
-  {
-    "target": "/images/brands/gucci/directors/3.webp",
-    "kind": "director",
-    "page": "https://en.wikipedia.org/wiki/Tom_Ford",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Ford_cropped_2009.jpg/960px-Tom_Ford_cropped_2009.jpg",
-    "note": "Википедия: Tom Ford"
-  },
-  {
-    "target": "/images/brands/gucci/directors/8.webp",
-    "kind": "director",
-    "page": "https://en.wikipedia.org/wiki/Demna_(designer)",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg/960px-Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg",
-    "note": "Википедия: Demna (designer)"
-  },
-  {
-    "target": "/images/brands/gucci/history/1.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Guccio_Gucci",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Guccio_Gucci_c.1940.JPG/960px-Guccio_Gucci_c.1940.JPG",
-    "note": "Википедия: Guccio Gucci"
-  },
-  {
-    "target": "/images/brands/gucci/history/2.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Ponte_Vecchio",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ponte_Vecchio_from_Ponte_alle_Grazie.jpg/3840px-Ponte_Vecchio_from_Ponte_alle_Grazie.jpg",
-    "note": "Википедия: Ponte Vecchio"
-  },
-  {
-    "target": "/images/brands/gucci/history/3.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Arno",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/FirenzeDec092023_01.jpg/3840px-FirenzeDec092023_01.jpg",
-    "note": "Википедия: Arno"
-  },
-  {
-    "target": "/images/brands/gucci/history/4.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/650dc95f56d4d6232ee14ec4/master/w_900,c_limit/00001-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/5.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Via_Condotti",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Dolce_%26_Gabbana%2C_Via_dei_Condotti_%2846129645824%29.jpg/960px-Dolce_%26_Gabbana%2C_Via_dei_Condotti_%2846129645824%29.jpg",
-    "note": "Википедия: Via dei Condotti"
-  },
-  {
-    "target": "/images/brands/gucci/history/6.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Jackie_Kennedy_Color_Portrait_%283x4_cropped%29.jpg/960px-Jackie_Kennedy_Color_Portrait_%283x4_cropped%29.jpg",
-    "note": "Википедия: Jacqueline Kennedy Onassis"
-  },
-  {
-    "target": "/images/brands/gucci/history/7.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2016-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0dac84f33560347e4b5/master/w_900,c_limit/00001-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2016-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/8.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Aldo_Gucci",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Aldo_Gucci.png/960px-Aldo_Gucci.png",
-    "note": "Википедия: Aldo Gucci"
-  },
-  {
-    "target": "/images/brands/gucci/history/9.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Maurizio_Gucci",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Maurizio_Gucci_matrimonio.jpg/960px-Maurizio_Gucci_matrimonio.jpg",
-    "note": "Википедия: Maurizio Gucci"
-  },
-  {
-    "target": "/images/brands/gucci/history/10.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09c6e73ee112f59b41f/master/w_900,c_limit/00001-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/11.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Tom_Ford",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Ford_cropped_2009.jpg/960px-Tom_Ford_cropped_2009.jpg",
-    "note": "Википедия: Tom Ford"
-  },
-  {
-    "target": "/images/brands/gucci/history/12.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09c2a609d8eb36cf5a7/master/w_900,c_limit/00002-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 2"
-  },
-  {
-    "target": "/images/brands/gucci/history/13.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09c5fbf7dfb82c0712c/master/w_900,c_limit/00003-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 3"
-  },
-  {
-    "target": "/images/brands/gucci/history/14.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Patrizia_Reggiani",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Patrizia_Reggiani_matrimonio.jpg/960px-Patrizia_Reggiani_matrimonio.jpg",
-    "note": "Википедия: Patrizia Reggiani"
-  },
-  {
-    "target": "/images/brands/gucci/history/15.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09e21483a3e0e3ad2fe/master/w_900,c_limit/00004-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 4"
-  },
-  {
-    "target": "/images/brands/gucci/history/16.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09eb2f2cdb566d4b4f0/master/w_900,c_limit/00005-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 5"
-  },
-  {
-    "target": "/images/brands/gucci/history/17.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b09e867c872295c7320a/master/w_900,c_limit/00006-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 6"
-  },
-  {
-    "target": "/images/brands/gucci/history/18.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a03b71f1f036777eb3/master/w_900,c_limit/00007-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 7"
-  },
-  {
-    "target": "/images/brands/gucci/history/19.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a0babdf35ba65f60dc/master/w_900,c_limit/00008-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 8"
-  },
-  {
-    "target": "/images/brands/gucci/history/20.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a01f95c827276f8905/master/w_900,c_limit/00009-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 9"
-  },
-  {
-    "target": "/images/brands/gucci/history/21.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2017-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69ea3e3f13c90a1412590293/master/w_900,c_limit/00001-gucci-fall-2017-ready-to-wear-credit-indigital-model-alex-kasperowicz.jpg",
-    "note": "Vogue Runway, fall-2017-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/22.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2019-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6888b8f10b105644ee4c9cfe/master/w_900,c_limit/00001-gucci-spring-2019-ready-to-wear-credit-indigital-model-freya-lawrence.jpg",
-    "note": "Vogue Runway, spring-2019-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/23.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Dapper_Dan_(designer)",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Dapper_Dan_Interview_Dec_2019.png/960px-Dapper_Dan_Interview_Dec_2019.png",
-    "note": "Википедия: Dapper Dan (designer)"
-  },
-  {
-    "target": "/images/brands/gucci/history/24.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2019-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/68823c1198be69f20aa783a4/master/w_900,c_limit/00005-gucci-fall-2019-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, fall-2019-ready-to-wear, образ 5"
-  },
-  {
-    "target": "/images/brands/gucci/history/25.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2023-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/632dee9d42296b5636d31015/master/w_900,c_limit/00001-gucci-spring-2023-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2023-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/26.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/650dc960b1e840d912c4b873/master/w_900,c_limit/00002-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 2"
-  },
-  {
-    "target": "/images/brands/gucci/history/27.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2024-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/65d8d717dfdc058ef2e38339/master/w_900,c_limit/00001-gucci-fall-2024-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, fall-2024-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/28.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a391820000b8e35266/master/w_900,c_limit/00010-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 10"
-  },
-  {
-    "target": "/images/brands/gucci/history/29.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a26e73ee112f59b426/master/w_900,c_limit/00011-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 11"
-  },
-  {
-    "target": "/images/brands/gucci/history/30.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/66eda838632c17511b644937/master/w_900,c_limit/00003-gucci-spring-2025-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 3"
-  },
-  {
-    "target": "/images/brands/gucci/history/31.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/67befe8863b2a46f2677d5a1/master/w_900,c_limit/00005-gucci-fall-2025-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 5"
-  },
-  {
-    "target": "/images/brands/gucci/history/32.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/650dc969634464cc7d6e0d1b/master/w_900,c_limit/00010-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 10"
-  },
-  {
-    "target": "/images/brands/gucci/history/33.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Grace_Kelly",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Grace_Kelly_1956_%28cropped%29.jpg/960px-Grace_Kelly_1956_%28cropped%29.jpg",
-    "note": "Википедия: Grace Kelly"
-  },
-  {
-    "target": "/images/brands/gucci/history/34.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2017-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69ef31da517df6c5446e7bf6/master/w_900,c_limit/00001-gucci-spring-2017-ready-to-wear-credit-indigital-model-maria-zakrzewska.jpg",
-    "note": "Vogue Runway, spring-2017-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/35.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2016-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69f086688b90da29e75166bb/master/w_900,c_limit/00001-gucci-fall-2016-ready-to-wear-credit-indigital.jpg",
-    "note": "Vogue Runway, fall-2016-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/36.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/House_of_Gucci",
-    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/House.of.Gucci.film.jpeg/960px-House.of.Gucci.film.jpeg",
-    "note": "Википедия: House of Gucci"
-  },
-  {
-    "target": "/images/brands/gucci/history/37.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Kate_Moss",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Kate_Moss_-_Decort%C3%A9_advertisement_%28cropped2%29.jpg/960px-Kate_Moss_-_Decort%C3%A9_advertisement_%28cropped2%29.jpg",
-    "note": "Википедия: Kate Moss"
-  },
-  {
-    "target": "/images/brands/gucci/history/38.webp",
-    "kind": "history",
-    "page": "https://en.wikipedia.org/wiki/Primavera_(Botticelli)",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Botticelli-primavera.jpg/3840px-Botticelli-primavera.jpg",
-    "note": "Википедия: Primavera (Botticelli)"
-  },
-  {
-    "target": "/images/brands/gucci/history/39.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2018-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6887675f6099b76b3b00e7c8/master/w_900,c_limit/00001-gucci-fall-2018-ready-to-wear-credit-indigital-model-unia-pakhomova.jpg",
-    "note": "Vogue Runway, fall-2018-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/40.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2020-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/687f70d254d6f2f9785c7f4a/master/w_900,c_limit/00001-gucci-spring-2020-ready-to-wear-credit-gorunway-model-varya-b.jpg",
-    "note": "Vogue Runway, spring-2020-ready-to-wear, образ 1"
-  },
-  {
-    "target": "/images/brands/gucci/history/41.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69a6e8d842e63b8b62766929/master/w_900,c_limit/00005-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 5"
-  },
-  {
-    "target": "/images/brands/gucci/history/42.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/69a6e8df162e29636a2cb982/master/w_900,c_limit/00010-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
-    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 10"
-  },
-  {
-    "target": "/images/brands/gucci/history/43.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a3384c0f0c1111c804/master/w_900,c_limit/00012-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 12"
-  },
-  {
-    "target": "/images/brands/gucci/history/44.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a54c6cb78a5595e0f5/master/w_900,c_limit/00013-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 13"
-  },
-  {
-    "target": "/images/brands/gucci/history/45.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a5e70928d204bb8b72/master/w_900,c_limit/00014-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 14"
-  },
-  {
-    "target": "/images/brands/gucci/history/46.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a5907dfdfaaebeaa05/master/w_900,c_limit/00015-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 15"
-  },
-  {
-    "target": "/images/brands/gucci/history/47.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a76a03a5525c7c8214/master/w_900,c_limit/00016-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 16"
-  },
-  {
-    "target": "/images/brands/gucci/history/48.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a73b71f1f036777ebd/master/w_900,c_limit/00017-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 17"
-  },
-  {
-    "target": "/images/brands/gucci/history/49.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0a73e7d2167222a92a1/master/w_900,c_limit/00018-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 18"
-  },
-  {
-    "target": "/images/brands/gucci/history/50.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0aa21483a3e0e3ad308/master/w_900,c_limit/00019-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 19"
-  },
-  {
-    "target": "/images/brands/gucci/history/51.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0aa05cb49bf2749f9a1/master/w_900,c_limit/00020-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 20"
-  },
-  {
-    "target": "/images/brands/gucci/history/52.webp",
-    "kind": "history",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0aa0914bb0197abd74a/master/w_900,c_limit/00021-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 21"
-  },
-  {
-    "target": "/images/brands/gucci/directors/2.webp",
-    "kind": "director",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0ac0914bb0197abd751/master/w_900,c_limit/00022-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2027-ready-to-wear, образ 22"
-  },
-  {
-    "target": "/images/brands/gucci/directors/4.webp",
-    "kind": "director",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0ac5ac10a45bed20cc1/master/w_900,c_limit/00023-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2027-ready-to-wear, образ 23"
-  },
-  {
-    "target": "/images/brands/gucci/directors/5.webp",
-    "kind": "director",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0ac1ddcdeb21e437df5/master/w_900,c_limit/00024-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2027-ready-to-wear, образ 24"
-  },
-  {
-    "target": "/images/brands/gucci/directors/6.webp",
-    "kind": "director",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0ae7c0b16b1d942a4c1/master/w_900,c_limit/00025-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2027-ready-to-wear, образ 25"
-  },
-  {
-    "target": "/images/brands/gucci/directors/7.webp",
-    "kind": "director",
-    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
-    "url": "https://assets.vogue.com/photos/6ab6b0afe4ae2bd07764cddc/master/w_900,c_limit/00026-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
-    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2027-ready-to-wear, образ 26"
-  },
-  {
     "target": "/images/brands/maison-margiela/products/MMG-BOT-0001-1.webp",
     "kind": "product",
     "page": "https://www.ssense.com/en-us/men/product/maison-margiela/black-tabi-ankle-boots/19347961",
@@ -18100,5 +16791,740 @@
     "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/vetements",
     "url": "https://assets.vogue.com/photos/68e007178cd3619306be3566/master/w_900,c_limit/00050-vetements-spring-2026-ready-to-wear-credit-gorunway.jpg",
     "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, spring-2026-ready-to-wear, образ 50"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SUN-0042-1.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-frame-sunglasses/503097932",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134038_1.jpg",
+    "note": "SSENSE: black-square-frame-sunglasses"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SUN-0042-2.webp",
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/men/product/gucci/black-square-frame-sunglasses/503097932",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262451M134038_2.jpg",
+    "note": "SSENSE: black-square-frame-sunglasses"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0023-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09c6e73ee112f59b41f/master/w_900,c_limit/00001-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0023-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09c2a609d8eb36cf5a7/master/w_900,c_limit/00002-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0024-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09c5fbf7dfb82c0712c/master/w_900,c_limit/00003-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0024-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09e21483a3e0e3ad2fe/master/w_900,c_limit/00004-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0025-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09eb2f2cdb566d4b4f0/master/w_900,c_limit/00005-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0025-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b09e867c872295c7320a/master/w_900,c_limit/00006-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0026-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a03b71f1f036777eb3/master/w_900,c_limit/00007-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0026-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a0babdf35ba65f60dc/master/w_900,c_limit/00008-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0027-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a01f95c827276f8905/master/w_900,c_limit/00009-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0027-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a391820000b8e35266/master/w_900,c_limit/00010-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0028-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a26e73ee112f59b426/master/w_900,c_limit/00011-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JKT-0028-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a3384c0f0c1111c804/master/w_900,c_limit/00012-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SUI-0033-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a54c6cb78a5595e0f5/master/w_900,c_limit/00013-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SUI-0033-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a5e70928d204bb8b72/master/w_900,c_limit/00014-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SUI-0034-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a5907dfdfaaebeaa05/master/w_900,c_limit/00015-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SUI-0034-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a76a03a5525c7c8214/master/w_900,c_limit/00016-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SWT-0035-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a73b71f1f036777ebd/master/w_900,c_limit/00017-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SWT-0035-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0a73e7d2167222a92a1/master/w_900,c_limit/00018-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SWT-0036-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0aa21483a3e0e3ad308/master/w_900,c_limit/00019-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SWT-0036-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0aa05cb49bf2749f9a1/master/w_900,c_limit/00020-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SHR-0037-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0aa0914bb0197abd74a/master/w_900,c_limit/00021-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SHR-0037-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0ac0914bb0197abd751/master/w_900,c_limit/00022-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-DRS-0038-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0ac5ac10a45bed20cc1/master/w_900,c_limit/00023-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-DRS-0038-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0ac1ddcdeb21e437df5/master/w_900,c_limit/00024-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SKT-0039-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0ae7c0b16b1d942a4c1/master/w_900,c_limit/00025-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-SKT-0039-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0afe4ae2bd07764cddc/master/w_900,c_limit/00026-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JNS-0040-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0af15110f31831bffb5/master/w_900,c_limit/00027-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-JNS-0040-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b0262d21ec6246f2d7/master/w_900,c_limit/00028-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-HOD-0055-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b165db88057ecb0b92/master/w_900,c_limit/00029-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-HOD-0055-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b1bb458945b5d070d5/master/w_900,c_limit/00030-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0056-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b36a03a5525c7c821b/master/w_900,c_limit/00031-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TSH-0056-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b411b212da29f40074/master/w_900,c_limit/00032-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-COT-0057-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b3ea64f154b719953a/master/w_900,c_limit/00033-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-COT-0057-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b5a42406d1097283b5/master/w_900,c_limit/00034-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TRS-0058-1.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b61d6b5b2a1ddfcacd/master/w_900,c_limit/00035-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/products/GUC-TRS-0058-2.webp",
+    "kind": "product",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b7cf5181efbb596d3c/master/w_900,c_limit/00036-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ показа (реальная вещь бренда, не точная модель)"
+  },
+  {
+    "target": "/images/brands/gucci/collections/fall-winter-2025.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/67befe820f305c8b6eb54fc0/master/w_900,c_limit/00001-gucci-fall-2025-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/collections/spring-summer-2025.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/66eda92e035186e00b5a32b9/master/w_900,c_limit/00001-gucci-spring-2025-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/collections/fall-winter-2026.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8d36ae530252d0b9b77/master/w_900,c_limit/00001-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/collections/pre-fall-2026.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/pre-fall-2026/gucci",
+    "url": "https://assets.vogue.com/photos/69305b4adc46c427d039bde2/master/w_900,c_limit/00001-gucci-pre-fall-2026-credit-brand.jpg",
+    "note": "Vogue Runway, pre-fall-2026, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/collections/spring-summer-2026.webp",
+    "kind": "collection",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/68d0eb474a4ee5f94bd2271a/master/w_900,c_limit/00001-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/hero.webp",
+    "kind": "hero",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/68d0eb474a4ee5f94bd2271a/master/w_1600,c_limit/00001-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/banners/gucci.webp",
+    "kind": "banner",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/68d0eb4788b582cdf7c3aff3/master/w_1600,c_limit/00002-gucci-spring-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 2"
+  },
+  {
+    "target": "/images/brands/gucci/directors/1.webp",
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Guccio_Gucci",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Guccio_Gucci_c.1940.JPG/960px-Guccio_Gucci_c.1940.JPG",
+    "note": "Википедия: Guccio Gucci"
+  },
+  {
+    "target": "/images/brands/gucci/directors/3.webp",
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Tom_Ford",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Ford_cropped_2009.jpg/960px-Tom_Ford_cropped_2009.jpg",
+    "note": "Википедия: Tom Ford"
+  },
+  {
+    "target": "/images/brands/gucci/directors/8.webp",
+    "kind": "director",
+    "page": "https://en.wikipedia.org/wiki/Demna_(designer)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg/960px-Georgian_fashion_designer_Demna_Gvasalia_speaking_with_Ukrainian_President_Volodymyr_Zelenskyy_%28cropped%29.jpg",
+    "note": "Википедия: Demna (designer)"
+  },
+  {
+    "target": "/images/brands/gucci/history/1.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Guccio_Gucci",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Guccio_Gucci_c.1940.JPG/960px-Guccio_Gucci_c.1940.JPG",
+    "note": "Википедия: Guccio Gucci"
+  },
+  {
+    "target": "/images/brands/gucci/history/2.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Ponte_Vecchio",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ponte_Vecchio_from_Ponte_alle_Grazie.jpg/3840px-Ponte_Vecchio_from_Ponte_alle_Grazie.jpg",
+    "note": "Википедия: Ponte Vecchio"
+  },
+  {
+    "target": "/images/brands/gucci/history/3.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Arno",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/FirenzeDec092023_01.jpg/3840px-FirenzeDec092023_01.jpg",
+    "note": "Википедия: Arno"
+  },
+  {
+    "target": "/images/brands/gucci/history/4.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/650dc95f56d4d6232ee14ec4/master/w_900,c_limit/00001-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/5.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b84c6cb78a5595e0fc/master/w_900,c_limit/00037-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 37"
+  },
+  {
+    "target": "/images/brands/gucci/history/6.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Jackie_Kennedy_Color_Portrait_%283x4_cropped%29.jpg/960px-Jackie_Kennedy_Color_Portrait_%283x4_cropped%29.jpg",
+    "note": "Википедия: Jacqueline Kennedy Onassis"
+  },
+  {
+    "target": "/images/brands/gucci/history/7.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2016-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0dac84f33560347e4b5/master/w_900,c_limit/00001-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2016-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/8.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Aldo_Gucci",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Aldo_Gucci.png/960px-Aldo_Gucci.png",
+    "note": "Википедия: Aldo Gucci"
+  },
+  {
+    "target": "/images/brands/gucci/history/9.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Maurizio_Gucci",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Maurizio_Gucci_matrimonio.jpg/960px-Maurizio_Gucci_matrimonio.jpg",
+    "note": "Википедия: Maurizio Gucci"
+  },
+  {
+    "target": "/images/brands/gucci/history/10.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b84a6cdc86c41bf3ef/master/w_900,c_limit/00038-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 38"
+  },
+  {
+    "target": "/images/brands/gucci/history/11.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Tom_Ford",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tom_Ford_cropped_2009.jpg/960px-Tom_Ford_cropped_2009.jpg",
+    "note": "Википедия: Tom Ford"
+  },
+  {
+    "target": "/images/brands/gucci/history/12.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0b9167da7fc95151067/master/w_900,c_limit/00039-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 39"
+  },
+  {
+    "target": "/images/brands/gucci/history/13.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0ba4c1edad2a1ed648c/master/w_900,c_limit/00040-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 40"
+  },
+  {
+    "target": "/images/brands/gucci/history/14.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Patrizia_Reggiani",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Patrizia_Reggiani_matrimonio.jpg/960px-Patrizia_Reggiani_matrimonio.jpg",
+    "note": "Википедия: Patrizia Reggiani"
+  },
+  {
+    "target": "/images/brands/gucci/history/15.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0bb1ddcdeb21e437e03/master/w_900,c_limit/00041-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 41"
+  },
+  {
+    "target": "/images/brands/gucci/history/16.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0bbe9e24626162fb224/master/w_900,c_limit/00042-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 42"
+  },
+  {
+    "target": "/images/brands/gucci/history/17.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab6b0bc74573a80644b74bc/master/w_900,c_limit/00043-gucci-spring-2027-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 43"
+  },
+  {
+    "target": "/images/brands/gucci/history/18.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab76f81d1f44c7990bd5b38/master/w_900,c_limit/00044-gucci-spring-2027-ready-to-wear-detail-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 44"
+  },
+  {
+    "target": "/images/brands/gucci/history/19.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab76f81ee8256bafc8160c2/master/w_900,c_limit/00045-gucci-spring-2027-ready-to-wear-detail-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 45"
+  },
+  {
+    "target": "/images/brands/gucci/history/20.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab76f83c461b6d307654a09/master/w_900,c_limit/00046-gucci-spring-2027-ready-to-wear-detail-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 46"
+  },
+  {
+    "target": "/images/brands/gucci/history/21.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2017-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69ea3e3f13c90a1412590293/master/w_900,c_limit/00001-gucci-fall-2017-ready-to-wear-credit-indigital-model-alex-kasperowicz.jpg",
+    "note": "Vogue Runway, fall-2017-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/22.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2019-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6888b8f10b105644ee4c9cfe/master/w_900,c_limit/00001-gucci-spring-2019-ready-to-wear-credit-indigital-model-freya-lawrence.jpg",
+    "note": "Vogue Runway, spring-2019-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/23.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Dapper_Dan_(designer)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Dapper_Dan_Interview_Dec_2019.png/960px-Dapper_Dan_Interview_Dec_2019.png",
+    "note": "Википедия: Dapper Dan (designer)"
+  },
+  {
+    "target": "/images/brands/gucci/history/24.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2019-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/68823c1198be69f20aa783a4/master/w_900,c_limit/00005-gucci-fall-2019-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2019-ready-to-wear, образ 5"
+  },
+  {
+    "target": "/images/brands/gucci/history/25.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2023-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/632dee9d42296b5636d31015/master/w_900,c_limit/00001-gucci-spring-2023-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2023-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/26.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/650dc960b1e840d912c4b873/master/w_900,c_limit/00002-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 2"
+  },
+  {
+    "target": "/images/brands/gucci/history/27.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2024-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/65d8d717dfdc058ef2e38339/master/w_900,c_limit/00001-gucci-fall-2024-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, fall-2024-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/28.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab76f83e54db57a4fe3eca1/master/w_900,c_limit/00047-gucci-spring-2027-ready-to-wear-detail-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 47"
+  },
+  {
+    "target": "/images/brands/gucci/history/29.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab76f83104ef380ba16970c/master/w_900,c_limit/00048-gucci-spring-2027-ready-to-wear-detail-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 48"
+  },
+  {
+    "target": "/images/brands/gucci/history/30.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2025-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/66eda838632c17511b644937/master/w_900,c_limit/00003-gucci-spring-2025-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, spring-2025-ready-to-wear, образ 3"
+  },
+  {
+    "target": "/images/brands/gucci/history/31.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/67befe8863b2a46f2677d5a1/master/w_900,c_limit/00005-gucci-fall-2025-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2025-ready-to-wear, образ 5"
+  },
+  {
+    "target": "/images/brands/gucci/history/32.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2024-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/650dc969634464cc7d6e0d1b/master/w_900,c_limit/00010-gucci-spring-2024-ready-to-wear-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2024-ready-to-wear, образ 10"
+  },
+  {
+    "target": "/images/brands/gucci/history/33.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Grace_Kelly",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Grace_Kelly_1956_%28cropped%29.jpg/960px-Grace_Kelly_1956_%28cropped%29.jpg",
+    "note": "Википедия: Grace Kelly"
+  },
+  {
+    "target": "/images/brands/gucci/history/34.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2017-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69ef31da517df6c5446e7bf6/master/w_900,c_limit/00001-gucci-spring-2017-ready-to-wear-credit-indigital-model-maria-zakrzewska.jpg",
+    "note": "Vogue Runway, spring-2017-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/35.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2016-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69f086688b90da29e75166bb/master/w_900,c_limit/00001-gucci-fall-2016-ready-to-wear-credit-indigital.jpg",
+    "note": "Vogue Runway, fall-2016-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/36.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/House_of_Gucci",
+    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/House.of.Gucci.film.jpeg/960px-House.of.Gucci.film.jpeg",
+    "note": "Википедия: House of Gucci"
+  },
+  {
+    "target": "/images/brands/gucci/history/37.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Kate_Moss",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Kate_Moss_-_Decort%C3%A9_advertisement_%28cropped2%29.jpg/960px-Kate_Moss_-_Decort%C3%A9_advertisement_%28cropped2%29.jpg",
+    "note": "Википедия: Kate Moss"
+  },
+  {
+    "target": "/images/brands/gucci/history/38.webp",
+    "kind": "history",
+    "page": "https://en.wikipedia.org/wiki/Primavera_(Botticelli)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Botticelli-primavera.jpg/3840px-Botticelli-primavera.jpg",
+    "note": "Википедия: Primavera (Botticelli)"
+  },
+  {
+    "target": "/images/brands/gucci/history/39.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2018-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6887675f6099b76b3b00e7c8/master/w_900,c_limit/00001-gucci-fall-2018-ready-to-wear-credit-indigital-model-unia-pakhomova.jpg",
+    "note": "Vogue Runway, fall-2018-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/40.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2020-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/687f70d254d6f2f9785c7f4a/master/w_900,c_limit/00001-gucci-spring-2020-ready-to-wear-credit-gorunway-model-varya-b.jpg",
+    "note": "Vogue Runway, spring-2020-ready-to-wear, образ 1"
+  },
+  {
+    "target": "/images/brands/gucci/history/41.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8d842e63b8b62766929/master/w_900,c_limit/00005-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 5"
+  },
+  {
+    "target": "/images/brands/gucci/history/42.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8df162e29636a2cb982/master/w_900,c_limit/00010-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 10"
+  },
+  {
+    "target": "/images/brands/gucci/history/43.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab76f85e612bb3815406ca5/master/w_900,c_limit/00049-gucci-spring-2027-ready-to-wear-detail-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 49"
+  },
+  {
+    "target": "/images/brands/gucci/history/44.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab76f85cea531deaf6921f1/master/w_900,c_limit/00050-gucci-spring-2027-ready-to-wear-detail-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 50"
+  },
+  {
+    "target": "/images/brands/gucci/history/45.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab76f8571e5da9baab53e7a/master/w_900,c_limit/00051-gucci-spring-2027-ready-to-wear-detail-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 51"
+  },
+  {
+    "target": "/images/brands/gucci/history/46.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab76f86942440ceaa35e554/master/w_900,c_limit/00052-gucci-spring-2027-ready-to-wear-detail-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 52"
+  },
+  {
+    "target": "/images/brands/gucci/history/47.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab76f8774573a80644b76b6/master/w_900,c_limit/00053-gucci-spring-2027-ready-to-wear-detail-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 53"
+  },
+  {
+    "target": "/images/brands/gucci/history/48.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/6ab76f8771508c42174fe8a4/master/w_900,c_limit/00054-gucci-spring-2027-ready-to-wear-detail-credit-gorunway.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 54"
+  },
+  {
+    "target": "/images/brands/gucci/history/49.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69f0b1cdaa98084a01922dcf/master/w_900,c_limit/00055-gucci-resort-2017-credit-indigital-model-julie-hoomans.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 55"
+  },
+  {
+    "target": "/images/brands/gucci/history/50.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69ef1fd55933f67215bfdebb/master/w_900,c_limit/00080-gucci-fall-2017-ready-to-wear-credit-indigital-model-tessa-bruinsma.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 80"
+  },
+  {
+    "target": "/images/brands/gucci/history/51.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2027-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/5fba4ff8bdddef8a81d061c3/master/w_900,c_limit/00094-gucci-ss21-pf21.jpg",
+    "note": "Vogue Runway, spring-2027-ready-to-wear, образ 94"
+  },
+  {
+    "target": "/images/brands/gucci/history/52.webp",
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8d275300db6e628e0dd/master/w_900,c_limit/00002-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Vogue Runway, fall-2026-ready-to-wear, образ 2"
+  },
+  {
+    "target": "/images/brands/gucci/directors/2.webp",
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8d2d34aaf50ee468686/master/w_900,c_limit/00003-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, fall-2026-ready-to-wear, образ 3"
+  },
+  {
+    "target": "/images/brands/gucci/directors/4.webp",
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8d7fffa071ef1933589/master/w_900,c_limit/00004-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, fall-2026-ready-to-wear, образ 4"
+  },
+  {
+    "target": "/images/brands/gucci/directors/5.webp",
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8d8c6655877971ab0f7/master/w_900,c_limit/00006-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, fall-2026-ready-to-wear, образ 6"
+  },
+  {
+    "target": "/images/brands/gucci/directors/6.webp",
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8dbe86285b2183efd47/master/w_900,c_limit/00007-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, fall-2026-ready-to-wear, образ 7"
+  },
+  {
+    "target": "/images/brands/gucci/directors/7.webp",
+    "kind": "director",
+    "page": "https://www.vogue.com/fashion-shows/fall-2026-ready-to-wear/gucci",
+    "url": "https://assets.vogue.com/photos/69a6e8dd113b585837febe90/master/w_900,c_limit/00008-gucci-fall-2026-ready-to-wear-credit-brand.jpg",
+    "note": "Портрета в открытых источниках нет — образ показа: Vogue Runway, fall-2026-ready-to-wear, образ 8"
   }
 ]
