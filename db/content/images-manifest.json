@@ -18318,5 +18318,455 @@
     "bytes": 28742,
     "width": 900,
     "height": 1350
+  },
+  "/images/brands/versace/products/VER-BLT-0040-1.webp": {
+    "kind": "product",
+    "page": "https://www.ssense.com/en-us/women/product/the-frankie-shop/black-toni-leather-belt/19746241",
+    "url": "https://img.ssensemedia.com/image/upload/b_white,c_lpad,g_center,ar_4:5/f_jpg,c_limit,w_900,q_90/262115F001003_1.jpg",
+    "date": "2026-11-08",
+    "note": "SSENSE: black-toni-leather-belt (ближайшая вещь той же категории)",
+    "bytes": 24258,
+    "width": 900,
+    "height": 1125
+  },
+  "/images/brands/versace/history/1.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b264e66d159c179e6c72/master/w_900,c_limit/00003-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 3",
+    "bytes": 230974,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/2.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b2651147784e294ea95d/master/w_900,c_limit/00004-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 4",
+    "bytes": 76452,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/3.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b266b313665b7a49419c/master/w_900,c_limit/00005-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 5",
+    "bytes": 73418,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/4.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b268b454d13f004f3099/master/w_900,c_limit/00006-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 6",
+    "bytes": 83098,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/5.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b2692162591814458ae6/master/w_900,c_limit/00007-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 7",
+    "bytes": 247494,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/6.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b269624e08e9797d62c1/master/w_900,c_limit/00008-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 8",
+    "bytes": 83760,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/7.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b26b23d40900ae1c7f9b/master/w_900,c_limit/00009-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 9",
+    "bytes": 82550,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/8.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b26ceca78298640b7bcf/master/w_900,c_limit/00010-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 10",
+    "bytes": 81228,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/9.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b26cf5980fc0b85bdccf/master/w_900,c_limit/00011-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 11",
+    "bytes": 68328,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/10.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b26fa88fc574542ba1c3/master/w_900,c_limit/00012-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 12",
+    "bytes": 79872,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/11.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b26fd0f7c03d065c1cd6/master/w_900,c_limit/00013-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 13",
+    "bytes": 68878,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/12.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b270a049cfac9b256411/master/w_900,c_limit/00014-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 14",
+    "bytes": 81440,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/13.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b272d0f7c03d065c1cd8/master/w_900,c_limit/00015-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 15",
+    "bytes": 61510,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/14.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b272b52835869503b250/master/w_900,c_limit/00016-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 16",
+    "bytes": 78116,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/15.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b272a88fc574542ba1c5/master/w_900,c_limit/00017-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 17",
+    "bytes": 82532,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/16.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b275e66d159c179e6c74/master/w_900,c_limit/00018-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 18",
+    "bytes": 218206,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/17.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b2752162591814458ae8/master/w_900,c_limit/00019-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 19",
+    "bytes": 65062,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/18.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b275e5f4450cc2f70536/master/w_900,c_limit/00020-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 20",
+    "bytes": 85912,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/19.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b2787a524a80ef36398e/master/w_900,c_limit/00021-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 21",
+    "bytes": 76062,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/20.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b278597fdddc4addb286/master/w_900,c_limit/00022-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 22",
+    "bytes": 82494,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/21.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b2782162591814458aea/master/w_900,c_limit/00023-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 23",
+    "bytes": 71266,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/22.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b27be5f4450cc2f70538/master/w_900,c_limit/00024-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 24",
+    "bytes": 88700,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/23.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b27cf1b494a95da3ffa3/master/w_900,c_limit/00025-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 25",
+    "bytes": 214286,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/24.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b27c01fba4c8e7d4b392/master/w_900,c_limit/00026-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 26",
+    "bytes": 90898,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/25.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b27e2162591814458aec/master/w_900,c_limit/00027-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 27",
+    "bytes": 81448,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/26.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b27f1147784e294ea960/master/w_900,c_limit/00028-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 28",
+    "bytes": 91408,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/27.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b280c5d54711ccf1f2cb/master/w_900,c_limit/00029-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 29",
+    "bytes": 82004,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/28.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b281b313665b7a4941a1/master/w_900,c_limit/00030-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 30",
+    "bytes": 87454,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/29.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b28201fba4c8e7d4b394/master/w_900,c_limit/00031-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 31",
+    "bytes": 62470,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/30.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b2832a2de5ac38ff8708/master/w_900,c_limit/00032-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 32",
+    "bytes": 87516,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/31.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b28516be93b51b3e7b90/master/w_900,c_limit/00033-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 33",
+    "bytes": 94580,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/32.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b285867b950f618ca2f8/master/w_900,c_limit/00034-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 34",
+    "bytes": 82930,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/33.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b286bfae228e774cfc7b/master/w_900,c_limit/00035-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 35",
+    "bytes": 82844,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/34.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b2896fd9ca1fa9aa8878/master/w_900,c_limit/00036-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 36",
+    "bytes": 75160,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/35.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b2891147784e294ea963/master/w_900,c_limit/00037-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 37",
+    "bytes": 89878,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/36.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b28a1147784e294ea964/master/w_900,c_limit/00038-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 38",
+    "bytes": 103490,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/37.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b28cf1b494a95da3ffa7/master/w_900,c_limit/00039-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 39",
+    "bytes": 200968,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/38.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b28d23d40900ae1c7f9d/master/w_900,c_limit/00040-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 40",
+    "bytes": 118836,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/39.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b28d6fd9ca1fa9aa887a/master/w_900,c_limit/00041-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 41",
+    "bytes": 73724,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/40.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b28fcafa31681524d51e/master/w_900,c_limit/00042-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 42",
+    "bytes": 215028,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/41.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b290c5d54711ccf1f2cd/master/w_900,c_limit/00043-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 43",
+    "bytes": 81562,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/42.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b290b454d13f004f309c/master/w_900,c_limit/00044-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 44",
+    "bytes": 88150,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/43.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b292b454d13f004f309e/master/w_900,c_limit/00045-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 45",
+    "bytes": 89094,
+    "width": 900,
+    "height": 1350
+  },
+  "/images/brands/versace/history/44.webp": {
+    "kind": "history",
+    "page": "https://www.vogue.com/fashion-shows/spring-2026-ready-to-wear/versace",
+    "url": "https://assets.vogue.com/photos/68f0b297c5d54711ccf1f2d1/master/w_900,c_limit/00046-versace-spring-2026-ready-to-wear-credit-brand.jpg",
+    "date": "2026-11-08",
+    "note": "Vogue Runway, spring-2026-ready-to-wear, образ 46",
+    "bytes": 259598,
+    "width": 900,
+    "height": 1350
   }
 }
