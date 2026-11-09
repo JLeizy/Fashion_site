@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ERD Amfibia" id="amfibia-erd">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+                <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="user" value="Пользователь" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1"><mxGeometry x="120" y="420" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="order" value="Заказ" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1"><mxGeometry x="520" y="420" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="product" value="Товар" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1"><mxGeometry x="920" y="420" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="brand" value="Бренд" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1"><mxGeometry x="920" y="110" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="category" value="Категория" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1"><mxGeometry x="1320" y="420" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="review" value="Отзыв" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1"><mxGeometry x="520" y="760" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="r_order" value="Оформляет" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="330" y="410" width="110" height="80" as="geometry" /></mxCell>
+        <mxCell id="r_contains" value="Содержит" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="725" y="410" width="110" height="80" as="geometry" /></mxCell>
+        <mxCell id="r_brand" value="Производит" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="935" y="255" width="110" height="80" as="geometry" /></mxCell>
+        <mxCell id="r_cat" value="Относится" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1130" y="410" width="110" height="80" as="geometry" /></mxCell>
+        <mxCell id="r_leaves" value="Оставляет" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="135" y="750" width="110" height="80" as="geometry" /></mxCell>
+        <mxCell id="r_has" value="Имеет" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="935" y="750" width="110" height="80" as="geometry" /></mxCell>
+        <mxCell id="a_u1" value="&lt;u&gt;ID пользователя&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="-90" y="290" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_u2" value="ФИО" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="-90" y="370" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_u3" value="Email" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="-90" y="450" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_u4" value="Телефон" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="-90" y="530" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_o1" value="&lt;u&gt;ID заказа&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="298" y="312" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_o2" value="Номер заказа" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="393" y="206" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_o3" value="Дата заказа" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="525" y="168" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_o4" value="Сумма" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="657" y="206" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_o5" value="Статус" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="361" y="533" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_p1" value="&lt;u&gt;ID товара&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="743" y="523" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_p3" value="Название" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="820" y="600" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_p2" value="Артикул" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1030" y="600" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_p4" value="Цена" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1107" y="523" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_p5" value="Цвет" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1107" y="313" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_b1" value="&lt;u&gt;ID бренда&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="740" y="20" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_b2" value="Название бренда" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="880" y="-50" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_b3" value="Страна" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1020" y="-50" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_b4" value="Год основания" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1160" y="20" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_c1" value="&lt;u&gt;ID категории&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1500" y="330" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_c2" value="Название категории" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1500" y="510" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_r1" value="&lt;u&gt;ID отзыва&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="320" y="880" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_r2" value="Оценка" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="455" y="880" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_r3" value="Текст" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="590" y="880" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_r4" value="Дата отзыва" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="725" y="880" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="a_q" value="Количество" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1"><mxGeometry x="775" y="303" width="130" height="64" as="geometry" /></mxCell>
+        <mxCell id="e0" value="1" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="user" target="r_order"><mxGeometry x="-0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e1" value="М" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="r_order" target="order"><mxGeometry x="0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e2" value="М" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="order" target="r_contains"><mxGeometry x="-0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e3" value="М" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="r_contains" target="product"><mxGeometry x="0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e4" value="1" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="brand" target="r_brand"><mxGeometry x="-0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e5" value="М" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="r_brand" target="product"><mxGeometry x="0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e6" value="М" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="product" target="r_cat"><mxGeometry x="-0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e7" value="1" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="r_cat" target="category"><mxGeometry x="0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e8" value="1" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="user" target="r_leaves"><mxGeometry x="-0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e9" value="М" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="r_leaves" target="review"><mxGeometry x="0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e10" value="1" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="product" target="r_has"><mxGeometry x="-0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e11" value="М" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontStyle=1;" edge="1" parent="1" source="r_has" target="review"><mxGeometry x="0.6" relative="1" as="geometry"><mxPoint as="offset" /></mxGeometry></mxCell>
+        <mxCell id="e12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_u1" target="user"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_u2" target="user"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_u3" target="user"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_u4" target="user"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_o1" target="order"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_o2" target="order"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_o3" target="order"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_o4" target="order"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_o5" target="order"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_p1" target="product"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_p3" target="product"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_p2" target="product"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_p4" target="product"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_p5" target="product"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_b1" target="brand"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_b2" target="brand"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_b3" target="brand"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e29" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_b4" target="brand"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e30" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_c1" target="category"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_c2" target="category"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e32" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_r1" target="review"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e33" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_r2" target="review"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_r3" target="review"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e35" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_r4" target="review"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="a_q" target="r_contains"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
