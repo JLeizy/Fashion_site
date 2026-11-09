@@ -1,0 +1,516 @@
+erDiagram
+  roles {
+    serial id PK
+    varchar code
+    varchar name_ru
+    varchar name_en
+  }
+  users {
+    serial id PK
+    varchar email
+    varchar password_hash
+    varchar first_name
+    varchar last_name
+    varchar phone
+    varchar avatar
+    int role_id FK
+    varchar status
+    boolean email_verified
+    boolean two_factor_enabled
+    varchar preferred_lang
+    varchar preferred_theme
+    varchar preferred_currency
+    timestamptz last_login_at
+    timestamptz created_at
+    timestamptz updated_at
+  }
+  email_codes {
+    serial id PK
+    int user_id FK
+    varchar code
+    varchar type
+    timestamptz expires_at
+    boolean used
+    smallint attempts
+    timestamptz created_at
+  }
+  login_attempts {
+    serial id PK
+    varchar email
+    varchar ip
+    boolean success
+    timestamptz created_at
+  }
+  session {
+    varchar sid PK
+    json sess
+    timestamp expire
+  }
+  addresses {
+    serial id PK
+    int user_id FK
+    varchar country
+    varchar city
+    varchar street
+    varchar house
+    varchar apartment
+    varchar postal_code
+    varchar recipient
+    varchar phone
+    boolean is_default
+    timestamptz created_at
+    timestamptz updated_at
+  }
+  seller_applications {
+    serial id PK
+    int user_id FK
+    varchar shop_name
+    text description
+    varchar status
+    int reviewed_by FK
+    text comment
+    timestamptz reviewed_at
+    timestamptz created_at
+  }
+  brands {
+    serial id PK
+    varchar name
+    varchar slug
+    varchar country
+    smallint founded_year
+    varchar founder
+    text short_desc_ru
+    text short_desc_en
+    varchar hero_image
+    varchar accent_color
+    smallint sort_order
+    timestamptz created_at
+    timestamptz updated_at
+  }
+  brand_history_sections {
+    serial id PK
+    int brand_id FK
+    smallint sort_order
+    varchar period
+    varchar title_ru
+    varchar title_en
+    text content_ru
+    text content_en
+    text quote_ru
+    text quote_en
+    varchar quote_author
+    varchar image
+    timestamptz created_at
+    timestamptz updated_at
+  }
+  brand_timeline_events {
+    serial id PK
+    int brand_id FK
+    smallint year
+    varchar title_ru
+    varchar title_en
+    text description_ru
+    text description_en
+  }
+  creative_directors {
+    serial id PK
+    int brand_id FK
+    varchar name
+    smallint years_from
+    smallint years_to
+    text description_ru
+    text description_en
+    text key_collections_ru
+    text key_collections_en
+    varchar photo
+  }
+  collections {
+    serial id PK
+    int brand_id FK
+    varchar name
+    varchar season
+    smallint year
+    boolean is_new
+    varchar cover_image
+    text description_ru
+    text description_en
+    timestamptz created_at
+  }
+  collection_looks {
+    serial id PK
+    int collection_id FK
+    smallint sort_order
+    varchar image
+    smallint look_number
+  }
+  categories {
+    serial id PK
+    int parent_id FK
+    varchar slug
+    varchar name_ru
+    varchar name_en
+    varchar size_type
+    smallint sort_order
+  }
+  products {
+    serial id PK
+    varchar sku
+    varchar model_code
+    int brand_id FK
+    int collection_id FK
+    int category_id FK
+    int seller_id FK
+    varchar name_ru
+    varchar name_en
+    text description_ru
+    text description_en
+    varchar composition_ru
+    varchar composition_en
+    text care_ru
+    text care_en
+    numeric price_byn
+    numeric old_price_byn
+    varchar gender
+    varchar color
+    varchar material
+    varchar country_of_origin
+    boolean is_limited
+    boolean is_new
+    boolean is_iconic
+    varchar moderation_status
+    text rejection_reason
+    boolean is_authenticated
+    int views_count
+    numeric rating_avg
+    int reviews_count
+    tsvector search_vector
+    timestamptz created_at
+    timestamptz updated_at
+  }
+  product_images {
+    serial id PK
+    int product_id FK
+    varchar url
+    smallint sort_order
+    boolean is_main
+  }
+  sizes {
+    serial id PK
+    varchar type
+    varchar value_eu
+    varchar value_it
+    varchar value_us
+    varchar value_int
+    smallint sort_order
+  }
+  product_variants {
+    serial id PK
+    int product_id FK
+    int size_id FK
+    varchar sku_variant
+  }
+  warehouses {
+    serial id PK
+    varchar name
+    varchar city
+    varchar address
+    timestamptz created_at
+  }
+  stock {
+    serial id PK
+    int variant_id FK
+    int warehouse_id FK
+    int quantity
+    int reserved
+    timestamptz updated_at
+  }
+  stock_movements {
+    serial id PK
+    int variant_id FK
+    int warehouse_id FK
+    varchar type
+    int quantity
+    int order_id FK
+    int user_id FK
+    text comment
+    timestamptz created_at
+  }
+  carts {
+    serial id PK
+    int user_id FK
+    timestamptz created_at
+    timestamptz updated_at
+  }
+  cart_items {
+    serial id PK
+    int cart_id FK
+    int variant_id FK
+    int quantity
+    timestamptz added_at
+  }
+  wishlist {
+    serial id PK
+    int user_id FK
+    int product_id FK
+    timestamptz created_at
+  }
+  comparisons {
+    serial id PK
+    int user_id FK
+    int product_id FK
+    timestamptz created_at
+  }
+  viewed_products {
+    serial id PK
+    int user_id FK
+    int product_id FK
+    timestamptz viewed_at
+  }
+  promo_codes {
+    serial id PK
+    varchar code
+    smallint discount_percent
+    timestamptz valid_from
+    timestamptz valid_to
+    int usage_limit
+    int used_count
+    boolean is_active
+    timestamptz created_at
+    timestamptz updated_at
+  }
+  delivery_methods {
+    serial id PK
+    varchar code
+    varchar name_ru
+    varchar name_en
+    numeric price_byn
+    smallint days_min
+    smallint days_max
+    boolean is_pickup
+    boolean is_active
+    smallint sort_order
+  }
+  payment_methods {
+    serial id PK
+    varchar code
+    varchar name_ru
+    varchar name_en
+    boolean is_online
+    boolean is_active
+    smallint sort_order
+  }
+  orders {
+    serial id PK
+    varchar order_number
+    varchar tracking_number
+    int user_id FK
+    varchar contact_name
+    varchar contact_phone
+    varchar contact_email
+    int address_id FK
+    text address_snapshot
+    int delivery_method_id FK
+    int payment_method_id FK
+    numeric subtotal_byn
+    numeric delivery_price_byn
+    numeric discount_byn
+    numeric total_byn
+    int promo_code_id FK
+    varchar currency
+    numeric exchange_rate
+    numeric total_in_currency
+    varchar status
+    varchar payment_status
+    int courier_id FK
+    text comment
+    date expected_delivery_date
+    timestamptz created_at
+    timestamptz updated_at
+  }
+  order_items {
+    serial id PK
+    int order_id FK
+    int variant_id FK
+    int product_id FK
+    int seller_id FK
+    int warehouse_id FK
+    varchar product_name
+    varchar product_name_en
+    varchar size_label
+    varchar sku
+    varchar image_url
+    numeric price_byn
+    int quantity
+  }
+  order_status_history {
+    serial id PK
+    int order_id FK
+    varchar status
+    int changed_by FK
+    text comment
+    timestamptz created_at
+  }
+  return_requests {
+    serial id PK
+    int order_id FK
+    int order_item_id FK
+    int user_id FK
+    int quantity
+    varchar reason_code
+    text reason
+    varchar photo
+    varchar status
+    int resolved_by FK
+    text comment
+    timestamptz resolved_at
+    int received_by FK
+    timestamptz received_at
+    timestamptz created_at
+  }
+  reviews {
+    serial id PK
+    int product_id FK
+    int user_id FK
+    int order_item_id FK
+    smallint rating
+    text text
+    varchar status
+    int moderated_by FK
+    timestamptz moderated_at
+    timestamptz created_at
+  }
+  support_tickets {
+    serial id PK
+    int user_id FK
+    int order_id FK
+    varchar subject
+    varchar status
+    int assigned_to FK
+    timestamptz created_at
+    timestamptz updated_at
+  }
+  ticket_messages {
+    serial id PK
+    int ticket_id FK
+    int user_id FK
+    text message
+    varchar image
+    boolean is_staff
+    timestamptz created_at
+  }
+  notifications {
+    serial id PK
+    int user_id FK
+    varchar type
+    varchar title_ru
+    varchar title_en
+    text text_ru
+    text text_en
+    varchar link
+    boolean is_read
+    timestamptz created_at
+  }
+  currency_rates {
+    serial id PK
+    varchar code
+    numeric rate_to_byn
+    timestamptz updated_at
+    int updated_by FK
+  }
+  audit_log {
+    serial id PK
+    int user_id FK
+    varchar action
+    varchar entity
+    int entity_id
+    jsonb old_data
+    jsonb new_data
+    varchar ip
+    timestamptz created_at
+  }
+  banners {
+    serial id PK
+    varchar title_ru
+    varchar title_en
+    varchar subtitle_ru
+    varchar subtitle_en
+    varchar image
+    varchar link
+    int brand_id FK
+    int collection_id FK
+    smallint sort_order
+    boolean is_active
+    timestamptz created_at
+    timestamptz updated_at
+  }
+  newsletter_subscribers {
+    serial id PK
+    varchar email
+    varchar lang
+    timestamptz created_at
+  }
+  roles ||--o{ users : "role_id"
+  users ||--o{ email_codes : "user_id"
+  users ||--o{ addresses : "user_id"
+  users ||--o{ seller_applications : "user_id"
+  users ||--o{ seller_applications : "reviewed_by"
+  brands ||--o{ brand_history_sections : "brand_id"
+  brands ||--o{ brand_timeline_events : "brand_id"
+  brands ||--o{ creative_directors : "brand_id"
+  brands ||--o{ collections : "brand_id"
+  collections ||--o{ collection_looks : "collection_id"
+  categories ||--o{ categories : "parent_id"
+  brands ||--o{ products : "brand_id"
+  collections ||--o{ products : "collection_id"
+  categories ||--o{ products : "category_id"
+  users ||--o{ products : "seller_id"
+  products ||--o{ product_images : "product_id"
+  products ||--o{ product_variants : "product_id"
+  sizes ||--o{ product_variants : "size_id"
+  product_variants ||--o{ stock : "variant_id"
+  warehouses ||--o{ stock : "warehouse_id"
+  product_variants ||--o{ stock_movements : "variant_id"
+  warehouses ||--o{ stock_movements : "warehouse_id"
+  users ||--o{ stock_movements : "user_id"
+  orders ||--o{ stock_movements : "order_id"
+  users ||--o{ carts : "user_id"
+  carts ||--o{ cart_items : "cart_id"
+  product_variants ||--o{ cart_items : "variant_id"
+  users ||--o{ wishlist : "user_id"
+  products ||--o{ wishlist : "product_id"
+  users ||--o{ comparisons : "user_id"
+  products ||--o{ comparisons : "product_id"
+  users ||--o{ viewed_products : "user_id"
+  products ||--o{ viewed_products : "product_id"
+  users ||--o{ orders : "user_id"
+  addresses ||--o{ orders : "address_id"
+  delivery_methods ||--o{ orders : "delivery_method_id"
+  payment_methods ||--o{ orders : "payment_method_id"
+  promo_codes ||--o{ orders : "promo_code_id"
+  users ||--o{ orders : "courier_id"
+  orders ||--o{ order_items : "order_id"
+  product_variants ||--o{ order_items : "variant_id"
+  products ||--o{ order_items : "product_id"
+  users ||--o{ order_items : "seller_id"
+  warehouses ||--o{ order_items : "warehouse_id"
+  orders ||--o{ order_status_history : "order_id"
+  users ||--o{ order_status_history : "changed_by"
+  orders ||--o{ return_requests : "order_id"
+  order_items ||--o{ return_requests : "order_item_id"
+  users ||--o{ return_requests : "user_id"
+  users ||--o{ return_requests : "resolved_by"
+  users ||--o{ return_requests : "received_by"
+  products ||--o{ reviews : "product_id"
+  users ||--o{ reviews : "user_id"
+  order_items ||--o{ reviews : "order_item_id"
+  users ||--o{ reviews : "moderated_by"
+  users ||--o{ support_tickets : "user_id"
+  orders ||--o{ support_tickets : "order_id"
+  users ||--o{ support_tickets : "assigned_to"
+  support_tickets ||--o{ ticket_messages : "ticket_id"
+  users ||--o{ ticket_messages : "user_id"
+  users ||--o{ notifications : "user_id"
+  users ||--o{ currency_rates : "updated_by"
+  users ||--o{ audit_log : "user_id"
+  brands ||--o{ banners : "brand_id"
+  collections ||--o{ banners : "collection_id"
