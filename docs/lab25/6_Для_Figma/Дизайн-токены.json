@@ -1,0 +1,2271 @@
+{
+ "name": "Amfibia — дизайн-токены",
+ "version": "1.0",
+ "generated": "2026-11-23",
+ "colors": {
+  "Amfibia": {
+   "Фон": {
+    "value": "#0b0b0c",
+    "opacity": 1,
+    "css": "--bg"
+   },
+   "Фон_2": {
+    "value": "#111113",
+    "opacity": 1,
+    "css": "--bg-2"
+   },
+   "Фон_3": {
+    "value": "#18181b",
+    "opacity": 1,
+    "css": "--bg-3"
+   },
+   "Поверхность": {
+    "value": "#131315",
+    "opacity": 1,
+    "css": "--surface"
+   },
+   "Поверхность_2": {
+    "value": "#1b1b1f",
+    "opacity": 1,
+    "css": "--surface-2"
+   },
+   "Поверхность_3": {
+    "value": "#24242a",
+    "opacity": 1,
+    "css": "--surface-3"
+   },
+   "Текст": {
+    "value": "#ede6da",
+    "opacity": 1,
+    "css": "--text"
+   },
+   "Текст_вторичный": {
+    "value": "#bdb6aa",
+    "opacity": 1,
+    "css": "--text-2"
+   },
+   "Текст_приглушённый": {
+    "value": "#8a857d",
+    "opacity": 1,
+    "css": "--text-3"
+   },
+   "Линия_1": {
+    "value": "#ede6da",
+    "opacity": 0.11,
+    "css": "--line"
+   },
+   "Линия_2": {
+    "value": "#ede6da",
+    "opacity": 0.22,
+    "css": "--line-2"
+   },
+   "Линия_3": {
+    "value": "#ede6da",
+    "opacity": 0.4,
+    "css": "--line-3"
+   },
+   "Акцент": {
+    "value": "#5a0f1c",
+    "opacity": 1,
+    "css": "--accent"
+   },
+   "Акцент_наведение": {
+    "value": "#74172a",
+    "opacity": 1,
+    "css": "--accent-2"
+   },
+   "Акцент_текст": {
+    "value": "#d9707f",
+    "opacity": 1,
+    "css": "--accent-text"
+   },
+   "Текст_на_акценте": {
+    "value": "#ede6da",
+    "opacity": 1,
+    "css": "--on-accent"
+   },
+   "Серебро": {
+    "value": "#b8b8b8",
+    "opacity": 1,
+    "css": "--silver"
+   },
+   "Фокус": {
+    "value": "#d9707f",
+    "opacity": 1,
+    "css": "--focus"
+   },
+   "Успех": {
+    "value": "#86b694",
+    "opacity": 1,
+    "css": "--success"
+   },
+   "Ошибка": {
+    "value": "#e2727d",
+    "opacity": 1,
+    "css": "--danger"
+   },
+   "Предупреждение": {
+    "value": "#d8b46e",
+    "opacity": 1,
+    "css": "--warning"
+   },
+   "Затемнение": {
+    "value": "#050506",
+    "opacity": 0.72,
+    "css": "--overlay"
+   },
+   "Фон_шапки": {
+    "value": "#0b0b0c",
+    "opacity": 0.72,
+    "css": "--header-bg"
+   },
+   "Орнамент": {
+    "value": "#b8b8b8",
+    "opacity": 1,
+    "css": "--ornament"
+   },
+   "Виньетка": {
+    "value": "#000000",
+    "opacity": 0.6,
+    "css": "--vignette"
+   },
+   "Загрузка_1": {
+    "value": "#141416",
+    "opacity": 1,
+    "css": "--skeleton-a"
+   },
+   "Загрузка_2": {
+    "value": "#202024",
+    "opacity": 1,
+    "css": "--skeleton-b"
+   },
+   "Выделение": {
+    "value": "#5a0f1c",
+    "opacity": 1,
+    "css": "--selection-bg"
+   },
+   "Текст_выделения": {
+    "value": "#ede6da",
+    "opacity": 1,
+    "css": "--selection-text"
+   }
+  },
+  "Светлая": {
+   "Фон": {
+    "value": "#f7f5f2",
+    "opacity": 1,
+    "css": "--bg"
+   },
+   "Фон_2": {
+    "value": "#efece7",
+    "opacity": 1,
+    "css": "--bg-2"
+   },
+   "Фон_3": {
+    "value": "#e6e2db",
+    "opacity": 1,
+    "css": "--bg-3"
+   },
+   "Поверхность": {
+    "value": "#ffffff",
+    "opacity": 1,
+    "css": "--surface"
+   },
+   "Поверхность_2": {
+    "value": "#f2efea",
+    "opacity": 1,
+    "css": "--surface-2"
+   },
+   "Поверхность_3": {
+    "value": "#e8e4dd",
+    "opacity": 1,
+    "css": "--surface-3"
+   },
+   "Текст": {
+    "value": "#0b0b0c",
+    "opacity": 1,
+    "css": "--text"
+   },
+   "Текст_вторичный": {
+    "value": "#3b3834",
+    "opacity": 1,
+    "css": "--text-2"
+   },
+   "Текст_приглушённый": {
+    "value": "#5e5a55",
+    "opacity": 1,
+    "css": "--text-3"
+   },
+   "Линия_1": {
+    "value": "#0b0b0c",
+    "opacity": 0.1,
+    "css": "--line"
+   },
+   "Линия_2": {
+    "value": "#0b0b0c",
+    "opacity": 0.2,
+    "css": "--line-2"
+   },
+   "Линия_3": {
+    "value": "#0b0b0c",
+    "opacity": 0.42,
+    "css": "--line-3"
+   },
+   "Акцент": {
+    "value": "#0b0b0c",
+    "opacity": 1,
+    "css": "--accent"
+   },
+   "Акцент_наведение": {
+    "value": "#2a2a2c",
+    "opacity": 1,
+    "css": "--accent-2"
+   },
+   "Акцент_текст": {
+    "value": "#0b0b0c",
+    "opacity": 1,
+    "css": "--accent-text"
+   },
+   "Текст_на_акценте": {
+    "value": "#f7f5f2",
+    "opacity": 1,
+    "css": "--on-accent"
+   },
+   "Серебро": {
+    "value": "#6a6a6a",
+    "opacity": 1,
+    "css": "--silver"
+   },
+   "Фокус": {
+    "value": "#0b0b0c",
+    "opacity": 1,
+    "css": "--focus"
+   },
+   "Успех": {
+    "value": "#2f6b43",
+    "opacity": 1,
+    "css": "--success"
+   },
+   "Ошибка": {
+    "value": "#a3182c",
+    "opacity": 1,
+    "css": "--danger"
+   },
+   "Предупреждение": {
+    "value": "#8a5a00",
+    "opacity": 1,
+    "css": "--warning"
+   },
+   "Затемнение": {
+    "value": "#f7f5f2",
+    "opacity": 0.8,
+    "css": "--overlay"
+   },
+   "Фон_шапки": {
+    "value": "#f7f5f2",
+    "opacity": 0.78,
+    "css": "--header-bg"
+   },
+   "Орнамент": {
+    "value": "#0b0b0c",
+    "opacity": 1,
+    "css": "--ornament"
+   },
+   "Виньетка": {
+    "value": "#000000",
+    "opacity": 0.05,
+    "css": "--vignette"
+   },
+   "Загрузка_1": {
+    "value": "#ece8e2",
+    "opacity": 1,
+    "css": "--skeleton-a"
+   },
+   "Загрузка_2": {
+    "value": "#f6f3ef",
+    "opacity": 1,
+    "css": "--skeleton-b"
+   },
+   "Выделение": {
+    "value": "#0b0b0c",
+    "opacity": 1,
+    "css": "--selection-bg"
+   },
+   "Текст_выделения": {
+    "value": "#f7f5f2",
+    "opacity": 1,
+    "css": "--selection-text"
+   }
+  },
+  "Тёмная": {
+   "Фон": {
+    "value": "#151517",
+    "opacity": 1,
+    "css": "--bg"
+   },
+   "Фон_2": {
+    "value": "#1a1a1d",
+    "opacity": 1,
+    "css": "--bg-2"
+   },
+   "Фон_3": {
+    "value": "#212125",
+    "opacity": 1,
+    "css": "--bg-3"
+   },
+   "Поверхность": {
+    "value": "#1c1c1f",
+    "opacity": 1,
+    "css": "--surface"
+   },
+   "Поверхность_2": {
+    "value": "#242428",
+    "opacity": 1,
+    "css": "--surface-2"
+   },
+   "Поверхность_3": {
+    "value": "#2e2e33",
+    "opacity": 1,
+    "css": "--surface-3"
+   },
+   "Текст": {
+    "value": "#ffffff",
+    "opacity": 1,
+    "css": "--text"
+   },
+   "Текст_вторичный": {
+    "value": "#cfcfd4",
+    "opacity": 1,
+    "css": "--text-2"
+   },
+   "Текст_приглушённый": {
+    "value": "#9a9aa0",
+    "opacity": 1,
+    "css": "--text-3"
+   },
+   "Линия_1": {
+    "value": "#ffffff",
+    "opacity": 0.1,
+    "css": "--line"
+   },
+   "Линия_2": {
+    "value": "#ffffff",
+    "opacity": 0.2,
+    "css": "--line-2"
+   },
+   "Линия_3": {
+    "value": "#ffffff",
+    "opacity": 0.4,
+    "css": "--line-3"
+   },
+   "Акцент": {
+    "value": "#9a9aa0",
+    "opacity": 1,
+    "css": "--accent"
+   },
+   "Акцент_наведение": {
+    "value": "#b6b6bc",
+    "opacity": 1,
+    "css": "--accent-2"
+   },
+   "Акцент_текст": {
+    "value": "#d4d4d9",
+    "opacity": 1,
+    "css": "--accent-text"
+   },
+   "Текст_на_акценте": {
+    "value": "#151517",
+    "opacity": 1,
+    "css": "--on-accent"
+   },
+   "Серебро": {
+    "value": "#b8b8b8",
+    "opacity": 1,
+    "css": "--silver"
+   },
+   "Фокус": {
+    "value": "#ffffff",
+    "opacity": 1,
+    "css": "--focus"
+   },
+   "Успех": {
+    "value": "#8fc49d",
+    "opacity": 1,
+    "css": "--success"
+   },
+   "Ошибка": {
+    "value": "#ef8a8a",
+    "opacity": 1,
+    "css": "--danger"
+   },
+   "Предупреждение": {
+    "value": "#e0c07a",
+    "opacity": 1,
+    "css": "--warning"
+   },
+   "Затемнение": {
+    "value": "#0a0a0b",
+    "opacity": 0.7,
+    "css": "--overlay"
+   },
+   "Фон_шапки": {
+    "value": "#151517",
+    "opacity": 0.74,
+    "css": "--header-bg"
+   },
+   "Орнамент": {
+    "value": "#cfcfd4",
+    "opacity": 1,
+    "css": "--ornament"
+   },
+   "Виньетка": {
+    "value": "#000000",
+    "opacity": 0.42,
+    "css": "--vignette"
+   },
+   "Загрузка_1": {
+    "value": "#1e1e21",
+    "opacity": 1,
+    "css": "--skeleton-a"
+   },
+   "Загрузка_2": {
+    "value": "#2a2a2f",
+    "opacity": 1,
+    "css": "--skeleton-b"
+   },
+   "Выделение": {
+    "value": "#ffffff",
+    "opacity": 1,
+    "css": "--selection-bg"
+   },
+   "Текст_выделения": {
+    "value": "#151517",
+    "opacity": 1,
+    "css": "--selection-text"
+   }
+  }
+ },
+ "productColors": {
+  "Чёрный": {
+   "value": "#161616",
+   "css": "--c-black"
+  },
+  "Белый": {
+   "value": "#f4f2ee",
+   "css": "--c-white"
+  },
+  "Слоновая_кость": {
+   "value": "#efe8d8",
+   "css": "--c-ivory"
+  },
+  "Бежевый": {
+   "value": "#d9c7a7",
+   "css": "--c-beige"
+  },
+  "Кэмел": {
+   "value": "#b8915c",
+   "css": "--c-camel"
+  },
+  "Коричневый": {
+   "value": "#6b4630",
+   "css": "--c-brown"
+  },
+  "Серый": {
+   "value": "#8c8c8c",
+   "css": "--c-grey"
+  },
+  "Серебристый": {
+   "gradient": "linear-gradient(135deg, #8d9095, #e9ebee 45%, #a8abb0)",
+   "stops": [
+    "#8d9095",
+    "#e9ebee",
+    "#a8abb0"
+   ],
+   "css": "--c-silver"
+  },
+  "Золотой": {
+   "gradient": "linear-gradient(135deg, #a07a17, #f1d77a 45%, #b8901d)",
+   "stops": [
+    "#a07a17",
+    "#f1d77a",
+    "#b8901d"
+   ],
+   "css": "--c-gold"
+  },
+  "Красный": {
+   "value": "#b3122e",
+   "css": "--c-red"
+  },
+  "Бордовый": {
+   "value": "#6e1a2b",
+   "css": "--c-burgundy"
+  },
+  "Розовый": {
+   "value": "#e8a0b6",
+   "css": "--c-pink"
+  },
+  "Зелёный": {
+   "value": "#2f5d46",
+   "css": "--c-green"
+  },
+  "Хаки": {
+   "value": "#8a8456",
+   "css": "--c-khaki"
+  },
+  "Тёмно-синий": {
+   "value": "#1f2a44",
+   "css": "--c-navy"
+  },
+  "Синий": {
+   "value": "#3557a0",
+   "css": "--c-blue"
+  },
+  "Голубой": {
+   "value": "#9ec1e3",
+   "css": "--c-lightblue"
+  },
+  "Жёлтый": {
+   "value": "#f2d21b",
+   "css": "--c-yellow"
+  },
+  "Фиолетовый": {
+   "value": "#6b3fa0",
+   "css": "--c-purple"
+  },
+  "Оранжевый": {
+   "value": "#e07b2a",
+   "css": "--c-orange"
+  },
+  "Разноцветный": {
+   "gradient": "conic-gradient(#b3122e, #c9a227, #2f5d46, #3557a0, #6b3fa0, #b3122e)",
+   "stops": [
+    "#b3122e",
+    "#c9a227",
+    "#2f5d46",
+    "#3557a0",
+    "#6b3fa0",
+    "#b3122e"
+   ],
+   "css": "--c-multicolor"
+  }
+ },
+ "effects": {
+  "Amfibia/Тень_карточки": {
+   "type": "DROP_SHADOW",
+   "x": 0,
+   "y": 10,
+   "blur": 30,
+   "color": "#000000",
+   "opacity": 0.35,
+   "css": "--shadow-1"
+  },
+  "Amfibia/Тень_окна": {
+   "type": "DROP_SHADOW",
+   "x": 0,
+   "y": 30,
+   "blur": 80,
+   "color": "#000000",
+   "opacity": 0.6,
+   "css": "--shadow-2"
+  },
+  "Светлая/Тень_карточки": {
+   "type": "DROP_SHADOW",
+   "x": 0,
+   "y": 10,
+   "blur": 30,
+   "color": "#0b0b0c",
+   "opacity": 0.08,
+   "css": "--shadow-1"
+  },
+  "Светлая/Тень_окна": {
+   "type": "DROP_SHADOW",
+   "x": 0,
+   "y": 30,
+   "blur": 80,
+   "color": "#0b0b0c",
+   "opacity": 0.16,
+   "css": "--shadow-2"
+  },
+  "Тёмная/Тень_карточки": {
+   "type": "DROP_SHADOW",
+   "x": 0,
+   "y": 10,
+   "blur": 30,
+   "color": "#000000",
+   "opacity": 0.3,
+   "css": "--shadow-1"
+  },
+  "Тёмная/Тень_окна": {
+   "type": "DROP_SHADOW",
+   "x": 0,
+   "y": 30,
+   "blur": 80,
+   "color": "#000000",
+   "opacity": 0.55,
+   "css": "--shadow-2"
+  }
+ },
+ "motion": {
+  "easings": {
+   "Плавный_выход": {
+    "css": "--ease-out",
+    "bezier": [
+     0.16,
+     1,
+     0.3,
+     1
+    ],
+    "use": "появление, открытие окон и панелей, наведение"
+   },
+   "Плавный_вход_выход": {
+    "css": "--ease-in-out",
+    "bezier": [
+     0.77,
+     0,
+     0.175,
+     1
+    ],
+    "use": "смена слайдов, шторка между страницами"
+   },
+   "Плавный_вход": {
+    "css": "--ease-in",
+    "bezier": [
+     0.7,
+     0,
+     0.84,
+     0
+    ],
+    "use": "закрытие, уход элементов"
+   },
+   "Пружина": {
+    "css": "--ease-back",
+    "bezier": [
+     0.34,
+     1.56,
+     0.64,
+     1
+    ],
+    "use": "счётчики, сердечко «в избранное», бейджи"
+   }
+  },
+  "durations": {
+   "Быстро": {
+    "css": "--dur-1",
+    "ms": 160
+   },
+   "Обычно": {
+    "css": "--dur-2",
+    "ms": 320
+   },
+   "Медленно": {
+    "css": "--dur-3",
+    "ms": 640
+   },
+   "Очень_медленно": {
+    "css": "--dur-4",
+    "ms": 1100
+   }
+  },
+  "transitions": [
+   {
+    "what": "Переход между страницами",
+    "trigger": "клик по ссылке",
+    "how": "шторка с орнаментом закрывает и открывает экран",
+    "ms": 1100,
+    "easing": "Плавный_вход_выход",
+    "figma": "Navigate → Dissolve"
+   },
+   {
+    "what": "Заставка",
+    "trigger": "первый вход на сайт",
+    "how": "логотип рисуется контуром, затем заливается; полоса загрузки",
+    "ms": 2200,
+    "easing": "Плавный_вход_выход",
+    "figma": "After delay 2,2 с → Navigate → Dissolve"
+   },
+   {
+    "what": "Слайдер на главной",
+    "trigger": "стрелки, автопрокрутка",
+    "how": "кадр раскрывается маской снизу вверх",
+    "ms": 1300,
+    "easing": "Плавный_вход_выход",
+    "figma": "Navigate → Smart animate"
+   },
+   {
+    "what": "Мега-меню",
+    "trigger": "наведение / клик «Бренды», «Каталог»",
+    "how": "панель выезжает из-под шапки",
+    "ms": 320,
+    "easing": "Плавный_выход",
+    "figma": "Open overlay → Move in сверху"
+   },
+   {
+    "what": "Поиск",
+    "trigger": "иконка лупы",
+    "how": "панель на весь экран, затемнение фона",
+    "ms": 320,
+    "easing": "Плавный_выход",
+    "figma": "Open overlay → Dissolve"
+   },
+   {
+    "what": "Мини-корзина",
+    "trigger": "иконка корзины, «В корзину»",
+    "how": "панель выезжает справа",
+    "ms": 640,
+    "easing": "Плавный_выход",
+    "figma": "Open overlay → Move in справа"
+   },
+   {
+    "what": "Модальные окна",
+    "trigger": "кнопки «Быстрый просмотр», «Таблица размеров», «Удалить»…",
+    "how": "окно появляется с лёгким подъёмом",
+    "ms": 320,
+    "easing": "Плавный_выход",
+    "figma": "Open overlay → Dissolve (центр)"
+   },
+   {
+    "what": "Закрытие окна",
+    "trigger": "крестик, клик по затемнению, Esc",
+    "how": "окно исчезает",
+    "ms": 160,
+    "easing": "Плавный_вход",
+    "figma": "Close overlay / Back"
+   },
+   {
+    "what": "Кнопка",
+    "trigger": "наведение",
+    "how": "заливка «выезжает» слева направо, текст меняет цвет",
+    "ms": 320,
+    "easing": "Плавный_выход",
+    "figma": "While hovering → Change to (вариант «Наведение»)"
+   },
+   {
+    "what": "Карточка товара",
+    "trigger": "наведение",
+    "how": "второй ракурс фото, появляются «Сравнить», «Быстрый просмотр»",
+    "ms": 640,
+    "easing": "Плавный_выход",
+    "figma": "While hovering → Change to"
+   },
+   {
+    "what": "Ссылка",
+    "trigger": "наведение",
+    "how": "подчёркивание прорисовывается слева направо",
+    "ms": 320,
+    "easing": "Плавный_выход",
+    "figma": "While hovering → Change to"
+   },
+   {
+    "what": "Избранное",
+    "trigger": "клик по сердечку",
+    "how": "сердечко «подпрыгивает» и заливается",
+    "ms": 640,
+    "easing": "Пружина",
+    "figma": "On click → Change to (Smart animate)"
+   },
+   {
+    "what": "Блоки при прокрутке",
+    "trigger": "прокрутка страницы",
+    "how": "появление снизу на 40 px с проявлением",
+    "ms": 1100,
+    "easing": "Плавный_выход",
+    "figma": "Smart animate / не требуется в статике"
+   },
+   {
+    "what": "Бегущая строка брендов",
+    "trigger": "постоянно",
+    "how": "бесконечная прокрутка лент в разные стороны",
+    "ms": 40000,
+    "easing": "Линейная",
+    "figma": "не требуется в статике"
+   },
+   {
+    "what": "Уведомление (toast)",
+    "trigger": "действие выполнено",
+    "how": "выезжает снизу, исчезает через 4 с",
+    "ms": 640,
+    "easing": "Плавный_выход",
+    "figma": "After delay → Close overlay"
+   },
+   {
+    "what": "Шаги оформления",
+    "trigger": "«Далее»",
+    "how": "текущий шаг сворачивается, следующий раскрывается",
+    "ms": 640,
+    "easing": "Плавный_выход",
+    "figma": "Navigate → Smart animate"
+   }
+  ]
+ },
+ "layout": {
+  "frame": 1920,
+  "container": 1720,
+  "columns": 12,
+  "margin": 100,
+  "gutter": 24,
+  "headerHeight": 84,
+  "headerCompact": 62,
+  "radius": {
+   "Малый": 2,
+   "Большой": 6,
+   "Круг": "50%"
+  },
+  "lineWidth": 1,
+  "spacing": [
+   4,
+   8,
+   12,
+   16,
+   24,
+   32,
+   40,
+   56,
+   72,
+   96,
+   120
+  ]
+ },
+ "brands": [
+  {
+   "slug": "balenciaga",
+   "name": "Balenciaga",
+   "font": "Unbounded",
+   "weight": 900,
+   "italic": false,
+   "trackingEm": -0.03,
+   "accent": "#8e9196",
+   "accentText": "#b9bcc0",
+   "accentTextLight": "#4a4d52"
+  },
+  {
+   "slug": "vetements",
+   "name": "Vetements",
+   "font": "Inter",
+   "weight": 900,
+   "italic": false,
+   "trackingEm": -0.05,
+   "accent": "#f2d21b",
+   "accentText": "#f2d21b",
+   "accentTextLight": "#7a6500"
+  },
+  {
+   "slug": "gucci",
+   "name": "Gucci",
+   "font": "Playfair Display",
+   "weight": 400,
+   "italic": true,
+   "trackingEm": -0.01,
+   "accent": "#1f5e43",
+   "accentText": "#79c7a0",
+   "accentTextLight": "#1f5e43"
+  },
+  {
+   "slug": "prada",
+   "name": "Prada",
+   "font": "Inter",
+   "weight": 300,
+   "italic": false,
+   "trackingEm": 0.32,
+   "accent": "#7d8ca3",
+   "accentText": "#aebbcf",
+   "accentTextLight": "#44516a"
+  },
+  {
+   "slug": "enfants-riches-deprimes",
+   "name": "Enfants Riches Déprimés",
+   "font": "Caveat",
+   "weight": 700,
+   "italic": false,
+   "trackingEm": 0,
+   "accent": "#7a1e1e",
+   "accentText": "#db8f80",
+   "accentTextLight": "#7a1e1e"
+  },
+  {
+   "slug": "avavav",
+   "name": "AVAVAV",
+   "font": "Rubik Glitch",
+   "weight": 400,
+   "italic": false,
+   "trackingEm": 0,
+   "accent": "#c6ff1a",
+   "accentText": "#c6ff1a",
+   "accentTextLight": "#8a1050"
+  },
+  {
+   "slug": "supreme",
+   "name": "Supreme",
+   "font": "Inter",
+   "weight": 900,
+   "italic": true,
+   "trackingEm": -0.04,
+   "accent": "#da291c",
+   "accentText": "#ff7468",
+   "accentTextLight": "#b81f14"
+  },
+  {
+   "slug": "chrome-hearts",
+   "name": "Chrome Hearts",
+   "font": "UnifrakturMaguntia",
+   "weight": 400,
+   "italic": false,
+   "trackingEm": 0,
+   "accent": "#c0c0c0",
+   "accentText": "#d6d6d6",
+   "accentTextLight": "#4a4a4a"
+  },
+  {
+   "slug": "louis-vuitton",
+   "name": "Louis Vuitton",
+   "font": "Cormorant Garamond",
+   "weight": 500,
+   "italic": false,
+   "trackingEm": 0.16,
+   "accent": "#c8a165",
+   "accentText": "#dcbd85",
+   "accentTextLight": "#7a5a22"
+  },
+  {
+   "slug": "chanel",
+   "name": "Chanel",
+   "font": "Playfair Display",
+   "weight": 400,
+   "italic": false,
+   "trackingEm": 0.24,
+   "accent": "#d8d2c6",
+   "accentText": "#ebe5d9",
+   "accentTextLight": "#111111"
+  },
+  {
+   "slug": "maison-margiela",
+   "name": "Maison Margiela",
+   "font": "JetBrains Mono",
+   "weight": 400,
+   "italic": false,
+   "trackingEm": -0.02,
+   "accent": "#f2f0eb",
+   "accentText": "#f2f0eb",
+   "accentTextLight": "#2a2a2a"
+  },
+  {
+   "slug": "givenchy",
+   "name": "Givenchy",
+   "font": "Forum",
+   "weight": 400,
+   "italic": false,
+   "trackingEm": 0.2,
+   "accent": "#ececec",
+   "accentText": "#f3f3f3",
+   "accentTextLight": "#0c0c0c"
+  },
+  {
+   "slug": "versace",
+   "name": "Versace",
+   "font": "Forum",
+   "weight": 400,
+   "italic": false,
+   "trackingEm": 0.12,
+   "accent": "#c9a227",
+   "accentText": "#e2c04f",
+   "accentTextLight": "#7d6210"
+  },
+  {
+   "slug": "alexander-mcqueen",
+   "name": "Alexander McQueen",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "italic": true,
+   "trackingEm": -0.01,
+   "accent": "#9b1b2a",
+   "accentText": "#e3808b",
+   "accentTextLight": "#7a0e1a"
+  },
+  {
+   "slug": "loro-piana",
+   "name": "Loro Piana",
+   "font": "Cormorant Garamond",
+   "weight": 300,
+   "italic": false,
+   "trackingEm": 0.3,
+   "accent": "#b9a483",
+   "accentText": "#dccbaa",
+   "accentTextLight": "#6b5a40"
+  }
+ ],
+ "fonts": [
+  "UnifrakturMaguntia",
+  "Cormorant Garamond",
+  "Inter",
+  "JetBrains Mono",
+  "Forum",
+  "Playfair Display",
+  "Rubik Glitch",
+  "Caveat",
+  "Unbounded"
+ ],
+ "textStyles": [
+  {
+   "name": "Логотип/448 Regular",
+   "family": "UnifrakturMaguntia",
+   "size": 448,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 95,
+   "sample": "Amfibia",
+   "where": [
+    "Кабинеты сотрудников",
+    "Страницы брендов",
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Логотип/42 Regular",
+   "family": "UnifrakturMaguntia",
+   "size": 42,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 124,
+   "sample": "Amfibia",
+   "where": [
+    "Состояния и переходы",
+    "Кабинеты сотрудников",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Логотип/34 Regular · трекинг +0.04",
+   "family": "UnifrakturMaguntia",
+   "size": 34,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 1.36,
+   "usage": 18,
+   "sample": "Amfibia",
+   "where": [
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Логотип/29 Regular",
+   "family": "UnifrakturMaguntia",
+   "size": 29,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 15,
+   "sample": "Не дизайнер по образованию",
+   "where": [
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Заголовки/240 Regular Italic",
+   "family": "Cormorant Garamond",
+   "size": 240,
+   "weight": 400,
+   "italic": true,
+   "letterSpacingPx": 0,
+   "usage": 15,
+   "sample": "Compare",
+   "where": [
+    "Покупка",
+    "Витрина",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Заголовки/144 Regular · трекинг -0.04",
+   "family": "Cormorant Garamond",
+   "size": 144,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": -5.76,
+   "usage": 13,
+   "sample": "Индустриальная  строгость",
+   "where": [
+    "Состояния и переходы",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Заголовки/128 Medium",
+   "family": "Cormorant Garamond",
+   "size": 128,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 28,
+   "sample": "Доставка и  оплата",
+   "where": [
+    "Покупка",
+    "Состояния и переходы",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Заголовки/72 Medium",
+   "family": "Cormorant Garamond",
+   "size": 72,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 144,
+   "sample": "Куртка Couture Seam Quilted Givenchy Paris",
+   "where": [
+    "Кабинеты сотрудников",
+    "Личный кабинет",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Заголовки/72 Medium Italic",
+   "family": "Cormorant Garamond",
+   "size": 72,
+   "weight": 500,
+   "italic": true,
+   "letterSpacingPx": 0,
+   "usage": 97,
+   "sample": "Страница не найдена",
+   "where": [
+    "Кабинеты сотрудников",
+    "Страницы брендов",
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Заголовки/67 Regular",
+   "family": "Cormorant Garamond",
+   "size": 67,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 15,
+   "sample": "06",
+   "where": [
+    "Информационные страницы"
+   ]
+  },
+  {
+   "name": "Заголовки/67 Regular Italic",
+   "family": "Cormorant Garamond",
+   "size": 67,
+   "weight": 400,
+   "italic": true,
+   "letterSpacingPx": 0,
+   "usage": 15,
+   "sample": "1917",
+   "where": [
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Заголовки/51 Regular",
+   "family": "Cormorant Garamond",
+   "size": 51,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 15,
+   "sample": "ом, основанный  Кристобалем Баленсиагой  в 1917 году в Сан- ",
+   "where": [
+    "Страницы брендов"
+   ]
+  },
+  {
+   "name": "Заголовки/44 Medium",
+   "family": "Cormorant Garamond",
+   "size": 44,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 41,
+   "sample": "Как подобрать размер ботинок Tabi?",
+   "where": [
+    "Покупка",
+    "Состояния и переходы",
+    "Вход и регистрация"
+   ]
+  },
+  {
+   "name": "Заголовки/40 Regular",
+   "family": "Cormorant Garamond",
+   "size": 40,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 24,
+   "sample": "602 308",
+   "where": [
+    "Кабинеты сотрудников",
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Заголовки/37 Regular",
+   "family": "Cormorant Garamond",
+   "size": 37,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 22,
+   "sample": "Игорь Василевский",
+   "where": [
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Заголовки/34 Medium",
+   "family": "Cormorant Garamond",
+   "size": 34,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 15,
+   "sample": "Как мы защищаем данные",
+   "where": [
+    "Информационные страницы"
+   ]
+  },
+  {
+   "name": "Заголовки/32 Regular Italic",
+   "family": "Cormorant Garamond",
+   "size": 32,
+   "weight": 400,
+   "italic": true,
+   "letterSpacingPx": 0,
+   "usage": 15,
+   "sample": "1924",
+   "where": [
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Заголовки/30 Regular",
+   "family": "Cormorant Garamond",
+   "size": 30,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 15,
+   "sample": "Enfants Riches  Déprimés",
+   "where": [
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Заголовки/29 Medium · трекинг +0.16",
+   "family": "Cormorant Garamond",
+   "size": 29,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 4.64,
+   "usage": 16,
+   "sample": "УПАКОВЩИК И МАСТЕР КОРОБОК",
+   "where": [
+    "Истории брендов",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Заголовки/29 SemiBold Italic",
+   "family": "Cormorant Garamond",
+   "size": 29,
+   "weight": 600,
+   "italic": true,
+   "letterSpacingPx": 0,
+   "usage": 15,
+   "sample": "Легенда о принце Чарльзе",
+   "where": [
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Заголовки/28 Regular",
+   "family": "Cormorant Garamond",
+   "size": 28,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 183,
+   "sample": "Лоферы Medusa 95 Croc Effect",
+   "where": [
+    "Страницы брендов",
+    "Кабинеты сотрудников",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Заголовки/28 Medium",
+   "family": "Cormorant Garamond",
+   "size": 28,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 47,
+   "sample": "Проверка подлинности",
+   "where": [
+    "Страницы брендов",
+    "Личный кабинет",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Заголовки/26 Regular Italic",
+   "family": "Cormorant Garamond",
+   "size": 26,
+   "weight": 400,
+   "italic": true,
+   "letterSpacingPx": 0,
+   "usage": 95,
+   "sample": "Ваш email",
+   "where": [
+    "Кабинеты сотрудников",
+    "Страницы брендов",
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Заголовки/24 SemiBold",
+   "family": "Cormorant Garamond",
+   "size": 24,
+   "weight": 600,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 37,
+   "sample": "ЕЛ",
+   "where": [
+    "Кабинеты сотрудников",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Заголовки/23 Regular",
+   "family": "Cormorant Garamond",
+   "size": 23,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 78,
+   "sample": "Креативные директора",
+   "where": [
+    "Кабинеты сотрудников",
+    "Админ-панель",
+    "Состояния и переходы"
+   ]
+  },
+  {
+   "name": "Заголовки/22 Regular",
+   "family": "Cormorant Garamond",
+   "size": 22,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 19,
+   "sample": "Enfants Riches Déprimés",
+   "where": [
+    "Состояния и переходы"
+   ]
+  },
+  {
+   "name": "Заголовки/20 Medium",
+   "family": "Cormorant Garamond",
+   "size": 20,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 506,
+   "sample": "Сумка Small — кожа ягнёнка, золотистый металл",
+   "where": [
+    "Страницы брендов",
+    "Витрина",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Заголовки/18 Regular",
+   "family": "Cormorant Garamond",
+   "size": 18,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 358,
+   "sample": "Куртка Couture Seam Quilted Givenchy  Paris",
+   "where": [
+    "Покупка",
+    "Кабинеты сотрудников",
+    "Страницы брендов"
+   ]
+  },
+  {
+   "name": "Заголовки/15 Regular",
+   "family": "Cormorant Garamond",
+   "size": 15,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 70,
+   "sample": "Сумка-тоут GG Supreme Monogram Small Zip Top",
+   "where": [
+    "Кабинеты сотрудников",
+    "Покупка",
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Заголовки/13 SemiBold",
+   "family": "Cormorant Garamond",
+   "size": 13,
+   "weight": 600,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 92,
+   "sample": "АЖ",
+   "where": [
+    "Админ-панель",
+    "Кабинеты сотрудников",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Текст/29 Light · трекинг +0.32",
+   "family": "Inter",
+   "size": 29,
+   "weight": 300,
+   "italic": false,
+   "letterSpacingPx": 9.28,
+   "usage": 13,
+   "sample": "ЛОГОТИП КАК ДОКУМЕНТ  ИСТОРИИ",
+   "where": [
+    "Истории брендов",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Текст/29 Black Italic · трекинг -0.04",
+   "family": "Inter",
+   "size": 29,
+   "weight": 900,
+   "italic": true,
+   "letterSpacingPx": -1.16,
+   "usage": 15,
+   "sample": "Скейтерская подлинность",
+   "where": [
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Текст/18 Regular",
+   "family": "Inter",
+   "size": 18,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 289,
+   "sample": "От ателье на улице Георга V до показов в бывших бойнях Париж",
+   "where": [
+    "Истории брендов",
+    "Информационные страницы",
+    "Состояния и переходы"
+   ]
+  },
+  {
+   "name": "Текст/17 Regular",
+   "family": "Inter",
+   "size": 17,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 43,
+   "sample": "В Гетарии сегодня работает музей Cristóbal Balenciaga Museoa",
+   "where": [
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Текст/15 Regular",
+   "family": "Inter",
+   "size": 15,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 219,
+   "sample": "Строгая геометрия и неожиданные материалы — от нейлона до ко",
+   "where": [
+    "Кабинеты сотрудников",
+    "Админ-панель",
+    "Информационные страницы"
+   ]
+  },
+  {
+   "name": "Текст/14 Regular · трекинг +0.16",
+   "family": "Inter",
+   "size": 14,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 2.24,
+   "usage": 420,
+   "sample": "★★★★★",
+   "where": [
+    "Страницы брендов",
+    "Витрина",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Текст/13 Regular",
+   "family": "Inter",
+   "size": 13,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 4530,
+   "sample": "Худи с историей: «Титаник» и  «Беверли-Хиллз»",
+   "where": [
+    "Кабинеты сотрудников",
+    "Истории брендов",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Текст/13 Bold",
+   "family": "Inter",
+   "size": 13,
+   "weight": 700,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 53,
+   "sample": "AMFIBIA Минск — центральный склад",
+   "where": [
+    "Админ-панель",
+    "Кабинеты сотрудников",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Текст/12 Regular · трекинг -0.16",
+   "family": "Inter",
+   "size": 12,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": -1.92,
+   "usage": 45,
+   "sample": "⋮⋮",
+   "where": [
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Текст/11 Regular",
+   "family": "Inter",
+   "size": 11,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 633,
+   "sample": "Все торговые марки принадлежат их владельцам.",
+   "where": [
+    "Кабинеты сотрудников",
+    "Страницы брендов",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Текст/11 Regular · трекинг +0.04",
+   "family": "Inter",
+   "size": 11,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0.44,
+   "usage": 103,
+   "sample": "Софья Морозова · sofia.morozova@example.com ·",
+   "where": [
+    "Админ-панель",
+    "Кабинеты сотрудников"
+   ]
+  },
+  {
+   "name": "Текст/11 Regular · трекинг +0.16",
+   "family": "Inter",
+   "size": 11,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 1.76,
+   "usage": 78,
+   "sample": "ALEXANDER MCQUEEN",
+   "where": [
+    "Состояния и переходы",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Текст/11 Medium",
+   "family": "Inter",
+   "size": 11,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 22,
+   "sample": "Александра Верш…",
+   "where": [
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/29 Regular",
+   "family": "JetBrains Mono",
+   "size": 29,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 13,
+   "sample": "«Шестёрка» и седьмой",
+   "where": [
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Метки/28 Regular",
+   "family": "JetBrains Mono",
+   "size": 28,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 15,
+   "sample": "15 900,00 Br",
+   "where": [
+    "Покупка",
+    "Состояния и переходы",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Метки/18 Regular · трекинг +0.04",
+   "family": "JetBrains Mono",
+   "size": 18,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0.72,
+   "usage": 22,
+   "sample": "AMF-2026-000257",
+   "where": [
+    "Кабинеты сотрудников"
+   ]
+  },
+  {
+   "name": "Метки/15 Regular",
+   "family": "JetBrains Mono",
+   "size": 15,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 73,
+   "sample": "Платье Communist Daughter · ERD-DRS-0013",
+   "where": [
+    "Кабинеты сотрудников",
+    "Страницы брендов",
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/15 Medium",
+   "family": "JetBrains Mono",
+   "size": 15,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 18,
+   "sample": "1 666",
+   "where": [
+    "Кабинеты сотрудников"
+   ]
+  },
+  {
+   "name": "Метки/13 Regular",
+   "family": "JetBrains Mono",
+   "size": 13,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 1578,
+   "sample": "С нами с 27 января 2026 г. ·  заказов: 17",
+   "where": [
+    "Страницы брендов",
+    "Кабинеты сотрудников",
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/13 Regular · трекинг +0.12",
+   "family": "JetBrains Mono",
+   "size": 13,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 1.56,
+   "usage": 29,
+   "sample": "AF971474065BY",
+   "where": [
+    "Витрина",
+    "Состояния и переходы",
+    "Покупка"
+   ]
+  },
+  {
+   "name": "Метки/13 SemiBold",
+   "family": "JetBrains Mono",
+   "size": 13,
+   "weight": 600,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 26,
+   "sample": "0",
+   "where": [
+    "Кабинеты сотрудников",
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/13 Bold",
+   "family": "JetBrains Mono",
+   "size": 13,
+   "weight": 700,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 73,
+   "sample": "AMF-2026-000289",
+   "where": [
+    "Информационные страницы",
+    "Кабинеты сотрудников",
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/12 Regular · трекинг +0.20",
+   "family": "JetBrains Mono",
+   "size": 12,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 2.4,
+   "usage": 46,
+   "sample": "VISA",
+   "where": [
+    "Истории брендов",
+    "Покупка"
+   ]
+  },
+  {
+   "name": "Метки/12 Medium · трекинг +0.12",
+   "family": "JetBrains Mono",
+   "size": 12,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 1.44,
+   "usage": 62,
+   "sample": "↕",
+   "where": [
+    "Кабинеты сотрудников",
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/11 Regular",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 1563,
+   "sample": "В других валютах: $3,063.87 · 2 828,18 €",
+   "where": [
+    "Страницы брендов",
+    "Кабинеты сотрудников",
+    "Состояния и переходы"
+   ]
+  },
+  {
+   "name": "Метки/11 Regular · трекинг +0.20",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 2.2,
+   "usage": 1093,
+   "sample": "ПРОВЕДИТЕ КУРСОРОМ ПО БЛОКУ",
+   "where": [
+    "Страницы брендов",
+    "Кабинеты сотрудников",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Метки/11 Regular · трекинг +0.24",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 2.64,
+   "usage": 1043,
+   "sample": "МОДНЫЙ ДОМ · СОЕДИНЕННЫЕ ШТАТЫ · 2012",
+   "where": [
+    "Страницы брендов",
+    "Витрина",
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Метки/11 Regular · трекинг +0.12",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 1.32,
+   "usage": 557,
+   "sample": "Заявка на рассмотрении у модератора",
+   "where": [
+    "Страницы брендов",
+    "Кабинеты сотрудников",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Метки/11 Regular · трекинг +0.08",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0.88,
+   "usage": 516,
+   "sample": "Основатель: Richard Stark · Соединенные Штаты",
+   "where": [
+    "Кабинеты сотрудников",
+    "Страницы брендов",
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/11 Regular · трекинг +0.16",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 1.76,
+   "usage": 382,
+   "sample": "ОСНОВАТЕЛЬ — MARTIN MARGIELA, JENNY MEIRENS",
+   "where": [
+    "Состояния и переходы",
+    "Истории брендов",
+    "Кабинеты сотрудников"
+   ]
+  },
+  {
+   "name": "Метки/11 Regular · трекинг +0.04",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0.44,
+   "usage": 146,
+   "sample": "Тестовая карта: 4242 4242 4242 4242",
+   "where": [
+    "Кабинеты сотрудников",
+    "Админ-панель",
+    "Покупка"
+   ]
+  },
+  {
+   "name": "Метки/11 Medium · трекинг +0.24",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 2.64,
+   "usage": 498,
+   "sample": "ОТПРАВИТЬ НА МОДЕРАЦИЮ",
+   "where": [
+    "Страницы брендов",
+    "Кабинеты сотрудников",
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Метки/11 Medium · трекинг +0.20",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 2.2,
+   "usage": 290,
+   "sample": "ОДОБРИТЬ — РОЛЬ «ПРОДАВЕЦ»",
+   "where": [
+    "Страницы брендов",
+    "Админ-панель",
+    "Кабинеты сотрудников"
+   ]
+  },
+  {
+   "name": "Метки/11 Medium · трекинг +0.16",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 1.76,
+   "usage": 128,
+   "sample": "ЗАГОЛОВОК (RU)",
+   "where": [
+    "Админ-панель",
+    "Кабинеты сотрудников",
+    "Информационные страницы"
+   ]
+  },
+  {
+   "name": "Метки/11 Medium",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 14,
+   "sample": "◷",
+   "where": [
+    "Кабинеты сотрудников"
+   ]
+  },
+  {
+   "name": "Метки/11 Bold",
+   "family": "JetBrains Mono",
+   "size": 11,
+   "weight": 700,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 73,
+   "sample": "AMF-2026-000268",
+   "where": [
+    "Админ-панель",
+    "Кабинеты сотрудников"
+   ]
+  },
+  {
+   "name": "Метки/10 Regular",
+   "family": "JetBrains Mono",
+   "size": 10,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 675,
+   "sample": "Alexander McQueen · AMQ-BOT-0002-41 · Алматы",
+   "where": [
+    "Истории брендов",
+    "Админ-панель",
+    "Страницы брендов"
+   ]
+  },
+  {
+   "name": "Метки/10 Regular · трекинг +0.20",
+   "family": "JetBrains Mono",
+   "size": 10,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 2,
+   "usage": 337,
+   "sample": "ТАК ТОВАР УВИДЯТ ПОКУПАТЕЛИ",
+   "where": [
+    "Страницы брендов",
+    "Кабинеты сотрудников",
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/10 Regular · трекинг +0.12",
+   "family": "JetBrains Mono",
+   "size": 10,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 1.2,
+   "usage": 168,
+   "sample": "ФРАНЦИЯ · MARTIN MARGIELA, JENNY MEIRENS",
+   "where": [
+    "Админ-панель",
+    "Кабинеты сотрудников",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Метки/10 Regular · трекинг +0.04",
+   "family": "JetBrains Mono",
+   "size": 10,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0.4,
+   "usage": 47,
+   "sample": "Ждёт ответа",
+   "where": [
+    "Кабинеты сотрудников",
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/10 Regular · трекинг +0.16",
+   "family": "JetBrains Mono",
+   "size": 10,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 1.6,
+   "usage": 25,
+   "sample": "РАЗВЕРНУТЬ БИРКУ",
+   "where": [
+    "Кабинеты сотрудников",
+    "Админ-панель",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Метки/10 Regular · трекинг +0.08",
+   "family": "JetBrains Mono",
+   "size": 10,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0.8,
+   "usage": 18,
+   "sample": "Покупатель",
+   "where": [
+    "Админ-панель",
+    "Кабинеты сотрудников"
+   ]
+  },
+  {
+   "name": "Метки/10 Regular · трекинг +0.32",
+   "family": "JetBrains Mono",
+   "size": 10,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 3.2,
+   "usage": 13,
+   "sample": "ЛИСТАЙТЕ",
+   "where": [
+    "Состояния и переходы",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Метки/10 Medium · трекинг +0.12",
+   "family": "JetBrains Mono",
+   "size": 10,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 1.2,
+   "usage": 751,
+   "sample": "VERIFIED BY AMFIBIA",
+   "where": [
+    "Страницы брендов",
+    "Витрина",
+    "Личный кабинет"
+   ]
+  },
+  {
+   "name": "Метки/10 Medium",
+   "family": "JetBrains Mono",
+   "size": 10,
+   "weight": 500,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 20,
+   "sample": "1",
+   "where": [
+    "Покупка"
+   ]
+  },
+  {
+   "name": "Метки/10 Bold",
+   "family": "JetBrains Mono",
+   "size": 10,
+   "weight": 700,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 284,
+   "sample": "18",
+   "where": [
+    "Админ-панель",
+    "Личный кабинет",
+    "Покупка"
+   ]
+  },
+  {
+   "name": "Метки/9 Regular · трекинг +0.16",
+   "family": "JetBrains Mono",
+   "size": 9,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 1.44,
+   "usage": 232,
+   "sample": "AMFIBIA МИНСК — ЦЕНТРАЛЬНЫЙ СКЛАД",
+   "where": [
+    "Кабинеты сотрудников",
+    "Админ-панель",
+    "Информационные страницы"
+   ]
+  },
+  {
+   "name": "Метки/9 Regular · трекинг +0.08",
+   "family": "JetBrains Mono",
+   "size": 9,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0.72,
+   "usage": 131,
+   "sample": "51 РАЗДЕЛОВ ИСТОРИИ",
+   "where": [
+    "Кабинеты сотрудников",
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/9 Regular · трекинг +0.28",
+   "family": "JetBrains Mono",
+   "size": 9,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 2.52,
+   "usage": 110,
+   "sample": "НАСТРОЙКИ",
+   "where": [
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/9 Regular",
+   "family": "JetBrains Mono",
+   "size": 9,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 64,
+   "sample": "PRA-JKT-0008-XXL · XXL × 1",
+   "where": [
+    "Кабинеты сотрудников"
+   ]
+  },
+  {
+   "name": "Метки/9 Regular · трекинг +0.20",
+   "family": "JetBrains Mono",
+   "size": 9,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 1.8,
+   "usage": 30,
+   "sample": "15",
+   "where": [
+    "Админ-панель",
+    "Ошибки"
+   ]
+  },
+  {
+   "name": "Метки/9 Regular · трекинг +0.24",
+   "family": "JetBrains Mono",
+   "size": 9,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 2.16,
+   "usage": 22,
+   "sample": "БРЕНДЫ И ИСТОРИИ · ФРАНЦИЯ · 1917",
+   "where": [
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/9 Regular · трекинг +0.32",
+   "family": "JetBrains Mono",
+   "size": 9,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 2.88,
+   "usage": 22,
+   "sample": "ATELIER · ADMIN",
+   "where": [
+    "Админ-панель"
+   ]
+  },
+  {
+   "name": "Метки/9 Regular · трекинг +0.12",
+   "family": "JetBrains Mono",
+   "size": 9,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 1.08,
+   "usage": 15,
+   "sample": "НОВАЯ",
+   "where": [
+    "Страницы брендов"
+   ]
+  },
+  {
+   "name": "Бренды/29 Regular · трекинг +0.12",
+   "family": "Forum",
+   "size": 29,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 3.48,
+   "usage": 19,
+   "sample": "FLORENTINE FLOWERS",
+   "where": [
+    "Истории брендов",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Бренды/29 Regular · трекинг +0.24",
+   "family": "Playfair Display",
+   "size": 29,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 6.96,
+   "usage": 16,
+   "sample": "ПАНСИОН И МАСТЕРСКАЯ",
+   "where": [
+    "Истории брендов",
+    "Витрина"
+   ]
+  },
+  {
+   "name": "Бренды/29 Regular",
+   "family": "Rubik Glitch",
+   "size": 29,
+   "weight": 400,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 14,
+   "sample": "КАК ПРИШЛА БЕАТА КАРЛССОН",
+   "where": [
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Бренды/29 Bold",
+   "family": "Caveat",
+   "size": 29,
+   "weight": 700,
+   "italic": false,
+   "letterSpacingPx": 0,
+   "usage": 14,
+   "sample": "Название как автопортрет",
+   "where": [
+    "Истории брендов"
+   ]
+  },
+  {
+   "name": "Бренды/27 Black · трекинг -0.04",
+   "family": "Unbounded",
+   "size": 27,
+   "weight": 900,
+   "italic": false,
+   "letterSpacingPx": -1.08,
+   "usage": 13,
+   "sample": "BALENCIAGA",
+   "where": [
+    "Состояния и переходы",
+    "Витрина"
+   ]
+  }
+ ],
+ "textCoverage": 97.1
+}

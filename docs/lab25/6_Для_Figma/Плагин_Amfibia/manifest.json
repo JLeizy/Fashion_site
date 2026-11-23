@@ -1,0 +1,29 @@
+{
+  "name": "Amfibia — стили и переходы",
+  "id": "amfibia-lab25-prototype",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma"
+  ],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ]
+  },
+  "menu": [
+    {
+      "name": "Всё сразу: стили + переходы",
+      "command": "all"
+    },
+    {
+      "name": "Только стили",
+      "command": "styles"
+    },
+    {
+      "name": "Только переходы",
+      "command": "links"
+    }
+  ]
+}

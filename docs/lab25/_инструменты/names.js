@@ -137,8 +137,13 @@
     kpi: 'Показатель', kpis: 'Показатели', tools: 'Инструменты', search: 'Поиск', select: 'Список', avatar: 'Аватар', role: 'Роль', email: 'Email', id: 'Номер', cell: 'Ячейка', th: 'Заголовок_колонки',
   };
 
-  const clean = (s, max = 32) => String(s || '').replace(/\s+/g, ' ').trim().slice(0, max).trim().replace(/[«»"'.,:;!?()\[\]{}·•→←↗⌄…\/\\|]+/g, '').trim().replace(/\s+/g, '_');
-  const labelOf = (el) => clean(el.getAttribute('aria-label') || el.getAttribute('title') || el.innerText || el.value || '');
+  const unCaps = (t) => (/[А-ЯЁ]{2,}/.test(t) && !/[a-zа-яё]/.test(t) ? t.toLowerCase().replace(/^./, (c) => c.toUpperCase()).replace(/\b(byn|usd|eur|csv|en|ru|sku|id)\b/gi, (m) => m.toUpperCase()) : t);
+  const clean = (s, max = 32) => unCaps(String(s || '').replace(/\s+/g, ' ').trim().slice(0, max).trim().replace(/[«»"'.,:;!?()\[\]{}·•→←↗⌄↕↑↓…\/\\|]+/g, '').trim()).replace(/\s+/g, '_');
+  const labelOf = (el) => clean(el.getAttribute('aria-label') || el.getAttribute('title') || el.innerText || el.textContent || el.value || '');
+
+  // текст пункта меню без чисел-счётчиков
+  const navText = (el) => clean([...el.childNodes].map((c) => (c.nodeType === 3 ? c.data : /badge|count/.test(c.className?.baseVal ?? c.className ?? '') ? '' : c.innerText || '')).join(' ')).replace(/_?\d+$/, '') || 'пункт';
+  const short = (el, max = 40) => { const t = (el.innerText || el.textContent || '').trim(); return t && t.length <= max && !/\n/.test(t) ? clean(t) : ''; };
 
   function interactive(el) {
     const cl = el.classList;
@@ -146,13 +151,14 @@
     if (cl.contains('icon-btn')) return 'Кнопка_' + (labelOf(el) || 'иконка');
     if (cl.contains('btn')) return 'Кнопка_' + (labelOf(el) || 'кнопка');
     if (cl.contains('nav-link')) return 'Пункт_' + labelOf(el);
-    if (cl.contains('chip')) return 'Чип_' + labelOf(el);
+    if (cl.contains('chip')) { const l = labelOf(el); return l ? 'Чип_' + l : 'Чип'; }
     if (cl.contains('tab') || cl.contains('auth__tab')) return 'Вкладка_' + labelOf(el);
     if (cl.contains('size-btn')) return 'Размер_' + labelOf(el);
     if (cl.contains('check') && tag === 'label') { const t = [...el.childNodes].map((c) => (c.nodeType === 3 ? c.data : c.classList && c.classList.contains('check__count') ? '' : c.innerText || '')).join(' '); return 'Чекбокс_' + (clean(t, 26) || 'вариант'); }
     if (cl.contains('swatch-btn')) return 'Цвет_' + labelOf(el);
-    if (cl.contains('acc-nav__link')) return 'Пункт_' + clean(el.innerText);
+    if (cl.contains('acc-nav__link') || cl.contains('adm-nav__link') || cl.contains('mega__link') || cl.contains('mobile-menu__link')) return 'Пункт_' + navText(el);
     if (cl.contains('pp-icon')) return 'Кнопка_' + (labelOf(el) || 'иконка');
+    if (cl.contains('dropdown')) return el.querySelector('[data-theme-toggle]') ? 'Выбор_темы' : el.querySelector('[data-currency-label]') ? 'Выбор_валюты' : 'Выпадающий_список';
     if (cl.contains('pagination') || cl.contains('seg')) return null;
     return null;
   }
@@ -185,7 +191,11 @@
     for (const c of el.classList) {
       if (c.includes('--')) continue;
       const m = c.match(/__([\w-]+)$/);
-      if (m && Object.prototype.hasOwnProperty.call(ELEM, m[1])) return ELEM[m[1]] || null;
+      if (m && Object.prototype.hasOwnProperty.call(ELEM, m[1])) {
+        const v = ELEM[m[1]];
+        if (['Ссылка', 'Кнопка', 'Пункт', 'Вкладка'].includes(v)) { const t = v === 'Вкладка' ? navText(el) : short(el); if (t && t !== 'пункт') return v + '_' + t.replace(/_?\d+$/, ''); }
+        return v || null;
+      }
     }
     if (tag === 'header') return 'Шапка_блока';
     if (tag === 'footer') return 'Низ_блока';
@@ -207,7 +217,11 @@
     if (tag === 'aside') return 'Боковая_колонка';
     if (tag === 'li' || tag === 'article') {
       const cs = getComputedStyle(el);
-      if (cs.backgroundColor !== 'rgba(0, 0, 0, 0)' || parseFloat(cs.borderBottomWidth) || el.children.length > 1) return tag === 'li' ? 'Пункт' : 'Карточка';
+      if (cs.backgroundColor !== 'rgba(0, 0, 0, 0)' || parseFloat(cs.borderBottomWidth) || el.children.length > 1) {
+        if (tag === 'li') { const t = short(el, 26); return t ? 'Пункт_' + t : 'Пункт'; }
+        return 'Карточка';
+      }
+      if (tag === 'li' && !el.children.length) { const t = short(el, 26); if (t) return 'Пункт_' + t; }
     }
     return null;
   };

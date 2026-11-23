@@ -72,9 +72,15 @@ async function canvas(page, html, { theme = 'amfibia' } = {}) {
     document.head.appendChild(st);
     document.querySelectorAll('[data-var]').forEach((e) => { e.textContent = getComputedStyle(e.closest('[data-theme]')).getPropertyValue(e.dataset.var).trim().toUpperCase(); });
   }, { html, css: SHEET_CSS, theme });
-  await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map((i) => (i.complete ? 0 : new Promise((r) => (i.onload = i.onerror = r))))); });
+  await page.evaluate(async () => {
+    document.querySelectorAll('img').forEach((i) => { i.loading = 'eager'; if (i.dataset.src && !i.src) i.src = i.dataset.src; });
+    await document.fonts.ready;
+    await Promise.all([...document.images].map((i) => (i.complete ? 0 : new Promise((r) => { i.onload = i.onerror = r; setTimeout(r, 5000); }))));
+  });
   await page.waitForTimeout(500);
 }
+
+const L_capture = (page, frameName, outFile) => L.capture(page, { frameName, outFile });
 
 (async () => {
   const browser = await L.chromium.launch();
@@ -109,32 +115,61 @@ async function canvas(page, html, { theme = 'amfibia' } = {}) {
 
   // ====================== СТИЛИ ======================
   if (!only || only.test('Стили')) {
-    const types = [
-      ['logo', 'Логотип', 'Amfibia'], ['h1', 'Заголовок H1 — слайд', 'Индустриальная строгость'], ['h2', 'Заголовок H2 — секция', 'Новые коллекции'], ['ppname', 'Заголовок H3 — товар', 'Слингбэки — кожа ягнёнка'],
-      ['cardname', 'Название в карточке', 'Лоферы Medusa 95 Croc Effect'], ['body', 'Основной текст', 'Подлинные вещи 15 модных домов с проверкой и доставкой по Беларуси'],
-      ['eyebrow', 'Надзаголовок', 'Сезон осень — зима 2026'], ['nav', 'Пункт меню', 'Каталог'], ['btn', 'Кнопка', 'Смотреть коллекцию'], ['price', 'Цена', '4 160,00 Br'], ['cardbrand', 'Бренд в карточке', 'Versace'],
-    ];
+    const T = JSON.parse(fs.readFileSync(path.join(DOCS, '6_Для_Figma', 'Дизайн-токены.json'), 'utf8'));
     const icons = ['search', 'heart', 'compare', 'bag', 'bell', 'user', 'close', 'menu', 'arrow-right', 'arrow-left', 'arrow-up', 'arrow-ne', 'chevron-down', 'chevron-right', 'chevron-left', 'plus', 'minus', 'trash', 'check', 'star', 'eye', 'filter',
       'grid2', 'grid3', 'grid4', 'list', 'globe', 'palette', 'truck', 'shield', 'return', 'chat', 'box', 'pin', 'phone', 'mail', 'logout', 'settings', 'home', 'catalog', 'book', 'play', 'pause', 'expand', 'ruler', 'upload', 'download', 'edit',
       'lock', 'clock', 'refresh', 'sparkle', 'info', 'warning', 'card', 'cash', 'sun', 'moon'];
     const orns = ['cross', 'cross-filigree', 'fleur', 'dagger', 'divider', 'corner', 'arch', 'star'];
+    const sec = (n, t, d, inner) => `<section class="sh-sec" data-layer="${n}_${t.replace(/[ ,—]+/g, '_')}"><div class="sh-sec__head" data-layer="Заголовок_секции"><span class="sh-sec__n">${n}</span><h2 class="sh-sec__t">${t}</h2><p class="sh-sec__d">${d}</p></div>${inner}</section>`;
+    const themeKey = { Amfibia: 'amfibia', 'Светлая': 'light', 'Тёмная': 'dark' };
+    const hexA = (c) => c.value.toUpperCase() + (c.opacity < 1 ? ` · ${Math.round(c.opacity * 100)}%` : '');
+    const rgba = (c) => { const h = c.value.slice(1); const r = parseInt(h.slice(0, 2), 16), g = parseInt(h.slice(2, 4), 16), b = parseInt(h.slice(4, 6), 16); return `rgba(${r},${g},${b},${c.opacity ?? 1})`; };
+    const themes = Object.entries(T.colors).map(([tn, cols]) => `<div class="sh-theme" data-theme="${themeKey[tn]}" data-layer="Тема_${tn}" style="background:var(--bg)">
+      <p class="sh-theme__t" data-layer="Название_темы">${tn === 'Amfibia' ? 'Amfibia — основная' : tn}</p>
+      <div class="sh-sw" data-layer="Образцы" style="grid-template-columns:repeat(5,1fr)">${Object.entries(cols).map(([n, c]) => `<div class="sh-swatch" data-layer="Цвет_${n}"><div class="sh-swatch__c" data-layer="Образец" style="background:${rgba(c)};height:56px"></div><p class="sh-swatch__n" data-layer="Имя">${n.replace(/_/g, ' ')}</p><p class="sh-swatch__v" data-layer="Значение">${hexA(c)}</p></div>`).join('')}</div></div>`).join('');
+    const prod = Object.entries(T.productColors).map(([n, c]) => `<div class="sh-swatch" data-layer="Цвет_товара_${n}"><div class="sh-swatch__c" data-layer="Образец" style="height:64px;border-radius:50%;width:64px;background:${c.value || c.gradient}" ${c.gradient && /conic/.test(c.gradient) ? 'data-proto-raster' : ''}></div><p class="sh-swatch__n" data-layer="Имя">${n.replace(/_/g, ' ')}</p><p class="sh-swatch__v" data-layer="Значение">${c.value ? c.value.toUpperCase() : 'градиент'}</p></div>`).join('');
+    const brands = T.brands.map((b) => `<div data-layer="Бренд_${b.name.replace(/[^\p{L}\p{N}]+/gu, '_')}" style="border:1px solid var(--line-2);border-radius:6px;padding:22px 22px 18px;display:grid;gap:12px;align-content:start;overflow:hidden">
+      <p data-layer="Название" style="margin:0;font-family:'${b.font}';font-weight:${b.weight};font-style:${b.italic ? 'italic' : 'normal'};letter-spacing:${b.trackingEm}em;font-size:34px;line-height:1.1;color:var(--text);white-space:nowrap">${b.name.toUpperCase() === b.name || ['Balenciaga', 'Vetements', 'Supreme', 'AVAVAV'].includes(b.name) ? b.name.toUpperCase() : b.name}</p>
+      <div data-layer="Цвета" style="display:flex;gap:8px;align-items:center"><span data-layer="Акцент" style="width:28px;height:28px;border-radius:50%;background:${b.accent}"></span><span data-layer="Акцент_текст" style="width:28px;height:28px;border-radius:50%;background:${b.accentText}"></span><span data-layer="Акцент_светлая_тема" style="width:28px;height:28px;border-radius:50%;background:${b.accentTextLight};border:1px solid var(--line-2)"></span></div>
+      <p class="sh-swatch__v" data-layer="Параметры" style="line-height:1.6">${b.font} · ${b.weight}${b.italic ? ' Italic' : ''} · трекинг ${b.trackingEm}em<br>${b.accent} · ${b.accentText} · ${b.accentTextLight}</p></div>`).join('');
+    const fontUse = { UnifrakturMaguntia: 'логотип, водяной знак', 'Cormorant Garamond': 'заголовки страниц, названия товаров', Inter: 'основной текст, описания, формы', 'JetBrains Mono': 'метки, кнопки, цены, навигация', Forum: 'бренды Givenchy, Versace', 'Playfair Display': 'бренды Gucci, Chanel', Unbounded: 'бренд Balenciaga', Caveat: 'бренд Enfants Riches Déprimés', 'Rubik Glitch': 'бренд AVAVAV' };
+    const fonts = T.fonts.map((f) => `<div data-layer="Шрифт_${f.replace(/ /g, '_')}" style="border-top:1px solid var(--line);padding:22px 0;display:grid;grid-template-columns:140px 1fr 360px;align-items:center;gap:24px">
+      <span data-layer="Аа" style="font-family:'${f}';font-size:72px;line-height:1">Аа</span><span data-layer="Алфавит" style="font-family:'${f}';font-size:24px;line-height:1.4;color:var(--text-2)">Абвгдеёжзийклмнопрстуфхцчшщъыьэюя<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</span>
+      <span class="sh-type__spec" data-layer="Где_используется"><b style="color:var(--text);font-weight:500">${f}</b><br>${fontUse[f] || ''}</span></div>`).join('');
+    const tstyles = T.textStyles.map((t) => { const shown = Math.min(t.size, 88); return `<div class="sh-type" data-layer="Стиль_${t.name.replace(/[\/ ·]+/g, '_')}" style="grid-template-columns:330px 1fr 380px">
+      <span class="sh-type__name" data-layer="Название_стиля" style="text-transform:none;letter-spacing:.02em">${t.name}</span>
+      <span data-layer="Пример" style="font-family:'${t.family}';font-size:${shown}px;font-weight:${t.weight};font-style:${t.italic ? 'italic' : 'normal'};letter-spacing:${(t.letterSpacingPx * shown) / t.size}px;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${(t.sample || 'Amfibia').replace(/</g, '')}</span>
+      <span class="sh-type__spec" data-layer="Параметры">${t.family} · ${t.weight}${t.italic ? ' Italic' : ''} · ${t.size} px${t.letterSpacingPx ? ' · трекинг ' + t.letterSpacingPx + ' px' : ''}${shown < t.size ? ' · показан в ' + shown + ' px' : ''}<br>встречается ${t.usage} раз · ${t.where.join(', ')}</span></div>`; }).join('');
+    const bezPath = (b) => { const W = 220, H = 160; const P = (x, y) => `${(x * W).toFixed(1)} ${(H - y * H).toFixed(1)}`; return `M${P(0, 0)} C${P(b[0], b[1])} ${P(b[2], b[3])} ${P(1, 1)}`; };
+    const eases = Object.entries(T.motion.easings).map(([n, e]) => `<div data-layer="Кривая_${n}" style="border:1px solid var(--line-2);border-radius:6px;padding:22px;display:grid;gap:14px">
+      <svg width="260" height="200" viewBox="-20 -20 260 200" style="overflow:visible"><path d="M0 160 H220 M0 0 V160" fill="none" stroke="#45433f" stroke-width="1"/><path d="${bezPath([0, 0, 1, 1])}" fill="none" stroke="#45433f" stroke-width="1" stroke-dasharray="4 4"/><path d="${bezPath(e.bezier)}" fill="none" stroke="#d9707f" stroke-width="2.5" stroke-linecap="round"/></svg>
+      <p style="margin:0;font-family:var(--font-display);font-size:26px" data-layer="Название">${n.replace(/_/g, ' ')}</p><p class="sh-type__spec" data-layer="Параметры">cubic-bezier(${e.bezier.join(', ')}) · ${e.css}<br>${e.use}</p></div>`).join('');
+    const durs = Object.entries(T.motion.durations).map(([n, d]) => `<div data-layer="Длительность_${n}" style="display:grid;grid-template-columns:220px 1fr 120px;align-items:center;gap:20px;border-top:1px solid var(--line);padding:16px 0"><span class="sh-type__name">${n.replace(/_/g, ' ')}</span><span data-layer="Шкала" style="height:8px;background:#5a0f1c;width:${(d.ms / 1100) * 100}%"></span><span class="sh-type__spec">${d.ms} мс · ${d.css}</span></div>`).join('');
+    const trs = `<div data-layer="Таблица_переходов" style="margin-top:36px"><div class="sh-type" style="grid-template-columns:260px 280px 1fr 120px 200px 320px;color:var(--text-3)" data-layer="Шапка_таблицы">${['Элемент', 'Когда', 'Что происходит', 'Длительность', 'Кривая', 'Как сделать в Figma'].map((h) => `<span class="sh-type__name">${h}</span>`).join('')}</div>
+      ${T.motion.transitions.map((t, i) => `<div class="sh-type" data-layer="Переход_${i + 1}_${t.what.replace(/[ ,«»—]+/g, '_')}" style="grid-template-columns:260px 280px 1fr 120px 200px 320px;align-items:start;font-size:14px"><span style="font-family:var(--font-display);font-size:20px">${t.what}</span><span style="color:var(--text-2)">${t.trigger}</span><span style="color:var(--text-2)">${t.how}</span><span class="sh-type__spec">${t.ms >= 10000 ? t.ms / 1000 + ' с' : t.ms + ' мс'}</span><span class="sh-type__spec">${t.easing.replace(/_/g, ' ')}</span><span class="sh-type__spec" style="color:var(--accent-text)">${t.figma}</span></div>`).join('')}</div>`;
+    const shadows = Object.entries(T.effects).map(([n, e]) => { const [tn] = n.split('/'); return `<div data-theme="${themeKey[tn]}" data-layer="Тень_${n.replace(/\//g, '_')}" style="background:var(--bg);padding:40px;border-radius:6px;border:1px solid var(--line-2)"><div data-proto-raster style="padding:24px"><div style="height:120px;background:var(--surface);border-radius:6px;box-shadow:${e.x}px ${e.y}px ${e.blur}px ${rgba({ value: e.color, opacity: e.opacity })}"></div></div><p class="sh-swatch__n" style="color:var(--text)">${n.replace(/\//g, ' — ').replace(/_/g, ' ')}</p><p class="sh-swatch__v">X ${e.x} · Y ${e.y} · размытие ${e.blur} · ${e.color.toUpperCase()} ${Math.round(e.opacity * 100)}%</p></div>`; }).join('');
+    const L = T.layout;
     const html = `<div class="sh" data-layer="Стили">
       <div class="sh-head" data-layer="Заголовок_страницы"><div data-layer="Название"><span class="sh-logo" data-layer="Логотип">Amfibia</span><h1 data-layer="Заголовок">Стили</h1></div>
-        <p data-layer="Описание">Дизайн-токены интернет-магазина Amfibia: три темы оформления, шрифты и типографическая шкала, сетка 12 колонок, иконки и орнаменты. Все значения взяты из CSS сайта (tokens.css).</p></div>
-      <section class="sh-sec" data-layer="01_Цвета"><div class="sh-sec__head" data-layer="Заголовок_секции"><span class="sh-sec__n">01</span><h2 class="sh-sec__t">Цвета — три темы</h2><p class="sh-sec__d">Контраст текста проверен по WCAG AA: основной текст 16,5 : 1, вторичный 5,4 : 1, акцент 6,2 : 1</p></div>
-        <div class="sh-themes" data-layer="Темы">${['amfibia', 'light', 'dark'].map((t) => swatches(t, COLOR_VARS)).join('')}</div></section>
-      <section class="sh-sec" data-layer="02_Типографика"><div class="sh-sec__head" data-layer="Заголовок_секции"><span class="sh-sec__n">02</span><h2 class="sh-sec__t">Типографика</h2><p class="sh-sec__d">UnifrakturMaguntia — логотип · Cormorant Garamond — заголовки · Inter — текст · JetBrains Mono — метки, кнопки, цены</p></div>
-        <div data-layer="Стили_текста">${types.map(([k, n, s]) => `<div class="sh-type" data-layer="Текст_${n.replace(/[ —]+/g, '_')}"><span class="sh-type__name" data-layer="Название_стиля">${n}</span><span data-layer="Пример" style="${font(k)}">${s}</span><span class="sh-type__spec" data-layer="Параметры">${spec(k)}</span></div>`).join('')}</div></section>
-      <section class="sh-sec" data-layer="03_Сетка"><div class="sh-sec__head" data-layer="Заголовок_секции"><span class="sh-sec__n">03</span><h2 class="sh-sec__t">Сетка 1920</h2><p class="sh-sec__d">12 колонок · контейнер 1720 px · поля по 100 px · промежуток 24 px · высота шапки 84 px</p></div>
+        <p data-layer="Описание">Все стили интерфейса Amfibia: 3 темы × ${Object.keys(T.colors.Amfibia).length} цветов, ${Object.keys(T.productColors).length} цвет товаров, стили 15 брендов, ${T.fonts.length} шрифтов, ${T.textStyles.length} текстовых стилей (покрывают ${T.textCoverage}% всех текстов прототипа), сетка, отступы, скругления, тени, анимации и переходы, иконки и орнаменты. Значения взяты из CSS сайта; те же стили создаёт плагин из папки «6_Для_Figma».</p></div>
+      ${sec('01', 'Цвета интерфейса — три темы', 'Контраст текста по WCAG AA: основной 16,5 : 1, вторичный 5,4 : 1, акцент 6,2 : 1', `<div class="sh-themes" data-layer="Темы" style="grid-template-columns:1fr;gap:24px">${themes}</div>`)}
+      ${sec('02', 'Цвета товаров', 'Кружки-образцы фильтра «Цвет» и выбора цвета на странице товара', `<div data-layer="Цвета_товаров" style="display:grid;grid-template-columns:repeat(11,1fr);gap:20px">${prod}</div>`)}
+      ${sec('03', 'Стили брендов', 'У каждого дома свой «голос» заголовков: шрифт, начертание, трекинг и акцентные цвета (тёмная и светлая темы)', `<div data-layer="Бренды" style="display:grid;grid-template-columns:repeat(5,1fr);gap:20px">${brands}</div>`)}
+      ${sec('04', 'Шрифты', 'Бесплатные Google Fonts — все есть в Figma', `<div data-layer="Шрифты">${fonts}</div>`)}
+      ${sec('05', 'Текстовые стили', `Собраны со всех экранов прототипа: ${T.textStyles.length} стилей покрывают ${T.textCoverage}% текстов. Имя стиля = группа / кегль / начертание / трекинг`, `<div data-layer="Стили_текста">${tstyles}</div>`)}
+      ${sec('06', 'Сетка, отступы, скругления', `Фрейм ${L.frame} · ${L.columns} колонок · контейнер ${L.container} · поля ${L.margin} · промежуток ${L.gutter} · шапка ${L.headerHeight} px (в прокрутке ${L.headerCompact})`, `
         <div class="sh-grid" data-layer="Сетка_12_колонок"><div class="sh-grid__cols" data-layer="Колонки">${Array.from({ length: 12 }, (_, i) => `<div class="sh-grid__col" data-layer="Колонка_${i + 1}"></div>`).join('')}</div>
-          <span class="sh-grid__lbl" style="left:110px;top:16px">КОНТЕЙНЕР 1720</span><span class="sh-grid__lbl" style="left:12px;top:200px">100</span><span class="sh-grid__lbl" style="right:12px;top:200px">100</span><span class="sh-grid__lbl" style="left:110px;bottom:16px">КОЛОНКА 121 · ПРОМЕЖУТОК 24</span></div></section>
-      <section class="sh-sec" data-layer="04_Иконки"><div class="sh-sec__head" data-layer="Заголовок_секции"><span class="sh-sec__n">04</span><h2 class="sh-sec__t">Иконки</h2><p class="sh-sec__d">Линейные, 24 × 24, обводка 1,5 px, цвет — текущий цвет текста</p></div>
-        <div class="sh-icons" data-layer="Набор_иконок">${icons.map((i) => `<div class="sh-icon" data-layer="Иконка_${i}"><svg class="icon"><use href="#i-${i}"/></svg><span>${i}</span></div>`).join('')}</div></section>
-      <section class="sh-sec" data-layer="05_Орнаменты"><div class="sh-sec__head" data-layer="Заголовок_секции"><span class="sh-sec__n">05</span><h2 class="sh-sec__t">Орнаменты</h2><p class="sh-sec__d">Готические элементы: кресты, лилия, кинжал, разделитель, уголок, арка</p></div>
-        <div class="sh-orns" data-layer="Набор_орнаментов">${orns.map((o) => `<div class="sh-orn" data-layer="Орнамент_${o}"><svg><use href="#orn-${o}"/></svg><span>${o}</span></div>`).join('')}</div></section>
+          <span class="sh-grid__lbl" style="left:110px;top:16px">КОНТЕЙНЕР ${L.container}</span><span class="sh-grid__lbl" style="left:12px;top:200px">${L.margin}</span><span class="sh-grid__lbl" style="right:12px;top:200px">${L.margin}</span><span class="sh-grid__lbl" style="left:110px;bottom:16px">КОЛОНКА 121 · ПРОМЕЖУТОК ${L.gutter}</span></div>
+        <div data-layer="Отступы" style="display:flex;gap:28px;align-items:flex-end;margin-top:48px">${L.spacing.map((v) => `<div data-layer="Отступ_${v}" style="display:grid;gap:10px;justify-items:center"><span style="width:${v}px;height:${v}px;background:rgba(217,112,127,.35);border:1px solid #d9707f"></span><span class="sh-swatch__v">${v}</span></div>`).join('')}</div>
+        <div data-layer="Скругления_и_линии" style="display:flex;gap:40px;margin-top:48px;align-items:center">${Object.entries(L.radius).map(([n, r]) => `<div data-layer="Скругление_${n}" style="display:grid;gap:10px;justify-items:center"><span style="width:96px;height:96px;border:1px solid var(--text-2);border-radius:${typeof r === 'number' ? r + 'px' : r}"></span><span class="sh-swatch__v">${n} · ${typeof r === 'number' ? r + ' px' : r}</span></div>`).join('')}
+          ${['--line', '--line-2', '--line-3'].map((v, i) => `<div data-layer="Линия_${i + 1}" style="display:grid;gap:10px;width:200px"><span style="height:1px;background:var(${v})"></span><span class="sh-swatch__v">Линия ${i + 1} · 1 px · ${v}</span></div>`).join('')}</div>`)}
+      ${sec('07', 'Тени и наложения', 'Тень карточки и тень окна в каждой теме; затемнение под окнами — цвет «Затемнение» темы', `<div data-layer="Тени" style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">${shadows}</div>`)}
+      ${sec('08', 'Анимации и переходы', 'Кривые и длительности из CSS сайта и все анимированные переходы интерфейса с подсказкой, как повторить их во вкладке Prototype', `<div data-layer="Кривые" style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px">${eases}</div><div data-layer="Длительности" style="margin-top:40px">${durs}</div>${trs}`)}
+      ${sec('09', 'Иконки', 'Линейные, 24 × 24, обводка 1,5 px, цвет — текущий цвет текста', `<div class="sh-icons" data-layer="Набор_иконок">${icons.map((i) => `<div class="sh-icon" data-layer="Иконка_${i}"><svg class="icon"><use href="#i-${i}"/></svg><span>${i}</span></div>`).join('')}</div>`)}
+      ${sec('10', 'Орнаменты', 'Готические элементы: кресты, лилия, кинжал, разделитель, уголок, арка', `<div class="sh-orns" data-layer="Набор_орнаментов">${orns.map((o) => `<div class="sh-orn" data-layer="Орнамент_${o}"><svg><use href="#orn-${o}"/></svg><span>${o}</span></div>`).join('')}</div>`)}
     </div>`;
     await canvas(page, html);
-    await L.capture(page, { frameName: 'Стили', outFile: path.join(DOCS, '1_Стили', 'Стили.svg') });
+    await L_capture(page, 'Стили', path.join(DOCS, '1_Стили', 'Стили.svg'));
   }
 
   // ====================== КОМПОНЕНТЫ ======================
@@ -200,7 +235,28 @@ async function canvas(page, html, { theme = 'amfibia' } = {}) {
         ${item('Аккордеон', 'Аккордеон', `<div style="width:520px">${s('acc')}</div>`)}
         ${item('Отзыв', 'Отзыв', `<div style="width:520px">${s('review')}</div>`)}
       </div>`)}
-      ${block('08', 'Подвал', 'Рассылка, четыре колонки ссылок, копирайт', `<div data-layer="Подвал / По умолчанию" style="margin-left:-100px;width:1920px">${s('footer')}</div>`)}
+      ${block('08', 'Состояния элементов', 'Как элементы выглядят при наведении, нажатии, фокусе с клавиатуры, ошибке и блокировке — для вариантов компонентов в Figma', (() => {
+        const st = (name, cells) => `<div data-layer="${name}" style="display:grid;grid-template-columns:220px repeat(6,1fr);gap:20px;align-items:center;border-top:1px solid var(--line);padding:22px 0"><span class="sh-type__name" data-layer="Название">${name.replace(/_/g, ' ')}</span>${cells.map(([cap, html]) => `<div class="sh-item" data-layer="${name} / ${cap}"><span class="sh-cap" data-layer="Подпись">${cap}</span>${html}</div>`).join('')}</div>`;
+        const btn = (cls, extra = '') => `<a class="btn ${cls}" ${extra}>Смотреть</a>`;
+        const inp = (extra = '', val = '') => `<input class="input" style="width:100%" placeholder="Email" ${val ? `value="${val}"` : ''} ${extra}>`;
+        const card = s('card');
+        return `<div data-layer="Таблица_состояний">
+          ${st('Кнопка_основная', [['Обычная', btn('')], ['Наведение', btn('', 'data-force="hover"')], ['Нажатие', btn('', 'data-force="hover active"')], ['Фокус', btn('', 'data-force="focus focus-visible"')], ['Неактивная', '<button class="btn" disabled>Смотреть</button>']])}
+          ${st('Кнопка_контурная', [['Обычная', btn('btn--ghost')], ['Наведение', btn('btn--ghost', 'data-force="hover"')], ['Нажатие', btn('btn--ghost', 'data-force="hover active"')], ['Фокус', btn('btn--ghost', 'data-force="focus focus-visible"')], ['Неактивная', '<button class="btn btn--ghost" disabled>Смотреть</button>']])}
+          ${st('Кнопка_акцентная', [['Обычная', btn('btn--accent')], ['Наведение', btn('btn--accent', 'data-force="hover"')], ['Нажатие', btn('btn--accent', 'data-force="hover active"')], ['Фокус', btn('btn--accent', 'data-force="focus focus-visible"')], ['Загрузка', '<a class="btn btn--accent is-loading"><span class="btn__label">Смотреть</span></a>']])}
+          ${st('Кнопка_иконка', [['Обычная', '<button class="icon-btn"><svg class="icon"><use href="#i-heart"/></svg></button>'], ['Наведение', '<button class="icon-btn" data-force="hover"><svg class="icon"><use href="#i-heart"/></svg></button>'], ['Фокус', '<button class="icon-btn" data-force="focus focus-visible"><svg class="icon"><use href="#i-heart"/></svg></button>'], ['Со счётчиком', '<button class="icon-btn"><svg class="icon"><use href="#i-bag"/></svg><span class="badge">3</span></button>']])}
+          ${st('Ссылка', [['Обычная', '<a class="link-u" href="#">Все новинки</a>'], ['Наведение', '<a class="link-u" href="#" data-force="hover">Все новинки</a>'], ['Пункт_меню', '<a class="nav-link link-u" href="#">Новинки</a>'], ['Пункт_меню_наведение', '<a class="nav-link link-u" href="#" data-force="hover">Новинки</a>']])}
+          ${st('Поле_ввода', [['Пустое', inp()], ['Наведение', inp('data-force="hover"')], ['Фокус', inp('data-force="focus focus-visible"')], ['Заполненное', inp('', 'eva@example.com')], ['Ошибка', inp('aria-invalid="true" style="width:100%;border-color:var(--danger)"', 'eva@')], ['Неактивное', inp('disabled', 'eva@example.com')]])}
+          ${st('Чекбокс', [['Выключен', '<label class="check"><input type="checkbox"><span class="check__box"></span><span>Gucci</span></label>'], ['Включён', '<label class="check"><input type="checkbox" checked><span class="check__box"></span><span>Gucci</span></label>'], ['Наведение', '<label class="check" data-force="hover"><input type="checkbox"><span class="check__box"></span><span>Gucci</span></label>'], ['Неактивный', '<label class="check"><input type="checkbox" disabled><span class="check__box"></span><span>Gucci</span></label>']])}
+          ${st('Переключатель', [['Выключен', '<label class="switch"><input type="checkbox"><span class="switch__track"></span><span>Со скидкой</span></label>'], ['Включён', '<label class="switch"><input type="checkbox" checked><span class="switch__track"></span><span>Со скидкой</span></label>']])}
+          ${st('Размер', [['Доступен', '<button class="size-btn">M</button>'], ['Наведение', '<button class="size-btn" data-force="hover">M</button>'], ['Выбран', '<button class="size-btn" aria-pressed="true">M</button>'], ['Нет_в_наличии', '<button class="size-btn" disabled>M</button>']])}
+          ${st('Чип', [['Обычный', '<button class="chip">Обувь</button>'], ['Наведение', '<button class="chip" data-force="hover">Обувь</button>'], ['Выбран', '<button class="chip chip--active">Обувь ×</button>']])}
+          <div data-layer="Карточка_товара_состояния" style="display:grid;grid-template-columns:220px 1fr 1fr 1fr 1fr;gap:20px;align-items:start;border-top:1px solid var(--line);padding:22px 0"><span class="sh-type__name">Карточка товара</span>
+            <div class="sh-item" data-layer="Карточка_товара / Обычная"><span class="sh-cap">Обычная</span>${card}</div>
+            <div class="sh-item" data-layer="Карточка_товара / Наведение"><span class="sh-cap">Наведение: второй ракурс и действия</span>${card.replace('<article ', '<article data-force="hover" ')}</div></div>
+        </div>`;
+      })())}
+      ${block('09', 'Подвал', 'Рассылка, четыре колонки ссылок, копирайт', `<div data-layer="Подвал / По умолчанию" style="margin-left:-100px;width:1920px">${s('footer')}</div>`)}
     </div>`;
     await canvas(page, html);
     await page.evaluate(() => {
@@ -208,7 +264,20 @@ async function canvas(page, html, { theme = 'amfibia' } = {}) {
       document.querySelectorAll('[data-layer="Фильтр"] .filter__list > *').forEach((e, i) => { if (i >= 6) e.remove(); });
       const t = document.querySelector('.sh-tile > *'); if (t) { t.style.width = '100%'; t.style.height = '100%'; t.style.gridArea = 'auto'; }
     });
+    const cdp = await page.context().newCDPSession(page);
+    await cdp.send('DOM.enable');
+    await cdp.send('CSS.enable');
+    const { root } = await cdp.send('DOM.getDocument', { depth: -1 });
+    const { nodeIds } = await cdp.send('DOM.querySelectorAll', { nodeId: root.nodeId, selector: '[data-force]' });
+    for (const id of nodeIds) {
+      const { attributes } = await cdp.send('DOM.getAttributes', { nodeId: id });
+      const states = attributes[attributes.indexOf('data-force') + 1].split(/\s+/);
+      await cdp.send('CSS.forcePseudoState', { nodeId: id, forcedPseudoClasses: states });
+    }
+    console.log('состояний включено:', nodeIds.length);
+    await page.waitForTimeout(300);
     await L.capture(page, { frameName: 'Компоненты', outFile: path.join(DOCS, '2_Компоненты', 'Компоненты.svg') });
+    await cdp.detach();
   }
 
   // ====================== ОБЛОЖКА ======================
