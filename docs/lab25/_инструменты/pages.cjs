@@ -72,15 +72,8 @@ async function shot(ctx, f) {
   await shot(guest, { folder: V, file: '01_Главная_1920.svg', url: '/' });
   await shot(guest, { folder: V, file: '02_Каталог_1920.svg', url: '/catalog' });
   await shot(guest, { folder: V, file: '03_Каталог_фильтр_Balenciaga_1920.svg', url: '/catalog?brand=balenciaga&sort=price_desc', prep: trimTo('.catalog__grid > *', 12) });
-  await shot(guest, { folder: V, file: '04_Бренд_Balenciaga_1920.svg', url: '/brand/balenciaga' });
-  await shot(guest, { folder: V, file: '05_Бренд_Chanel_1920.svg', url: '/brand/chanel' });
-  await shot(guest, { folder: V, file: '06_Товар_1920.svg', url: '/product/' + hero.id, setup: async (p) => { await p.locator('[data-pp-sizes] [data-variant]:not([disabled])').nth(1).click().catch(() => {}); await wait(p, 300); } });
-  await shot(guest, { folder: V, file: '07_Истории_брендов_1920.svg', url: '/histories' });
-  await shot(guest, {
-    folder: V, file: '08_История_бренда_1920.svg', url: '/history/balenciaga',
-    // длинная статья: оставляем 3 первых раздела, хронологию и финал
-    prep: trimTo('.hs-article > .hs-sec', 3) + trimTo('.tl2__decade', 2) + trimTo('.hs-dir', 4),
-  });
+  await shot(guest, { folder: V, file: '04_Товар_1920.svg', url: '/product/' + hero.id, setup: async (p) => { await p.locator('[data-pp-sizes] [data-variant]:not([disabled])').nth(1).click().catch(() => {}); await wait(p, 300); } });
+  await shot(guest, { folder: V, file: '05_Истории_брендов_1920.svg', url: '/histories' });
 
   const ER = '08_Ошибки';
   await shot(guest, { folder: ER, file: '01_Ошибка_403_1920.svg', url: '/403' });
@@ -150,7 +143,7 @@ async function shot(ctx, f) {
     await shot(guest, { folder: ST, file: `${theme === 'light' ? '11' : '12'}_Главная_тема_${label}_1920.svg`, url: '/', viewport: true, setup: async (p) => { await p.evaluate((t) => { document.documentElement.dataset.theme = t; localStorage.setItem('amf:theme', t); }, theme); await wait(p, 600); } });
     await shot(guest, { folder: ST, file: `${theme === 'light' ? '13' : '14'}_Каталог_тема_${label}_1920.svg`, url: '/catalog', viewport: true, setup: async (p) => { await p.evaluate((t) => { document.documentElement.dataset.theme = t; }, theme); await wait(p, 600); } });
   }
-  await shot(guest, { folder: '01_Витрина', file: '09_Сравнение_пустое_1920.svg', url: '/compare', setup: async (p) => { await p.evaluate(() => { for (const k of Object.keys(localStorage)) if (/compare/i.test(k)) localStorage.removeItem(k); }); await p.reload({ waitUntil: 'networkidle' }); await L.settle(p); } });
+  await shot(guest, { folder: '01_Витрина', file: '06_Сравнение_пустое_1920.svg', url: '/compare', setup: async (p) => { await p.evaluate(() => { for (const k of Object.keys(localStorage)) if (/compare/i.test(k)) localStorage.removeItem(k); }); await p.reload({ waitUntil: 'networkidle' }); await L.settle(p); } });
   await shot(guest, { folder: '02_Покупка', file: '09_Отслеживание_заказа_1920.svg', url: '/tracking' });
   await guest.close();
 
@@ -185,7 +178,7 @@ async function shot(ctx, f) {
     await p.locator('[data-pp-add]').click().catch(() => {});
     await wait(p, 1500);
   } });
-  await shot(buyer, { folder: '01_Витрина', file: '10_Сравнение_1920.svg', url: '/compare' });
+  await shot(buyer, { folder: '01_Витрина', file: '07_Сравнение_1920.svg', url: '/compare' });
 
   // Оформление: 5 шагов
   const coSteps = [
