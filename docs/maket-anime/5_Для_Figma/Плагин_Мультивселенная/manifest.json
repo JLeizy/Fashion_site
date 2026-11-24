@@ -1,0 +1,36 @@
+{
+  "name": "Мультивселенная — стили и переходы",
+  "id": "multiverse-anime-styles-links",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma"
+  ],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ]
+  },
+  "menu": [
+    {
+      "name": "Всё сразу: стили и переходы",
+      "command": "all"
+    },
+    {
+      "name": "Только стили",
+      "command": "styles"
+    },
+    {
+      "name": "Только переходы",
+      "command": "links"
+    },
+    {
+      "separator": true
+    },
+    {
+      "name": "Проверка: что будет сделано (ничего не меняет)",
+      "command": "check"
+    }
+  ]
+}
