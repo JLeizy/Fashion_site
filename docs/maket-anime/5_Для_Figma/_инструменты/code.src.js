@@ -126,7 +126,9 @@ function paintKey(p) {
   if (p.type === 'SOLID') return `S:${c255(p.color.r)},${c255(p.color.g)},${c255(p.color.b)}|${Math.round(opOf(p) * 100)}`;
   if (p.type === 'GRADIENT_LINEAR') {
     const st = p.gradientStops.map((s) => `${s.position.toFixed(3)}:${c255(s.color.r)},${c255(s.color.g)},${c255(s.color.b)},${Math.round(s.color.a * 100)}`).join(';');
-    const tr = p.gradientTransform.map((r) => r.map((v) => v.toFixed(3)).join(',')).join(';');
+    // цвет линейного градиента зависит только от первой строки матрицы (положение вдоль оси);
+    // вторая строка у одинаковых на вид градиентов разная — она зависит от пропорций слоя
+    const tr = p.gradientTransform[0].map((v) => v.toFixed(3)).join(',');
     return `G:${st}|${tr}|${Math.round(opOf(p) * 100)}`;
   }
   return null;
@@ -235,11 +237,17 @@ function textState(t) {
 const R = {
   paintCreated: [], paintReused: [], textCreated: [], textReused: [], gridCreated: [], gridReused: [],
   fills: 0, strokes: 0, textFills: 0, texts: 0, textsShifted: 0, alreadyStyled: 0, gridsSet: 0, gridsHad: 0,
-  textSkip: new Map(), colorsLeft: new Map(), deviations: [], frameChecks: [], reverted: 0,
+  textSkip: new Map(), skipEx: new Map(), colorsLeft: new Map(), deviations: [], frameChecks: [], reverted: 0,
   links: 0, scrolls: 0, linksKept: 0, linksMissing: [], burgerCleared: 0, burgerWarn: [], otherPage: 0,
   flows: [], comp: 0, errors: [],
 };
-const skip = (why) => R.textSkip.set(why, (R.textSkip.get(why) || 0) + 1);
+const skip = (why, t, f) => {
+  R.textSkip.set(why, (R.textSkip.get(why) || 0) + 1);
+  if (!t) return;
+  if (!R.skipEx.has(why)) R.skipEx.set(why, []);
+  const ex = R.skipEx.get(why);
+  if (ex.length < 5) ex.push(`«${normText(t.characters).slice(0, 40)}» — ${f ? f.node.name : ''}`);
+};
 
 async function planPaints(S) {
   const existing = await figma.getLocalPaintStylesAsync();
@@ -280,10 +288,10 @@ async function planTextStyles(S) {
     for (const t of f.node.findAll((n) => n.type === 'TEXT')) {
       if (inInstance(t)) continue;
       if (t.textStyleId !== '') { R.alreadyStyled++; continue; }
-      if (t.hasMissingFont) { skip('шрифта нет в Figma'); continue; }
-      if (t.fontName === figma.mixed || t.fontSize === figma.mixed) { skip('несколько шрифтов в одном слое'); continue; }
+      if (t.hasMissingFont) { skip('шрифта нет в Figma', t, f); continue; }
+      if (t.fontName === figma.mixed || t.fontSize === figma.mixed) { skip('несколько шрифтов в одном слое', t, f); continue; }
       const r = roleOf(t, table, f.bp);
-      if (!r || !roles.has(r)) { skip('шрифт не из дизайн-системы'); continue; }
+      if (!r || !roles.has(r)) { skip('шрифт не из дизайн-системы', t, f); continue; }
       const rigid = t.characters.includes('\n') || inFlow(t, f.node) || Math.abs(t.rotation || 0) > 0.01 || hidden(t);
       roles.get(r).entries.push({ t, f, rigid });
     }
@@ -375,11 +383,11 @@ async function stylesStep(S) {
     }
   }
   for (const role of roles.values()) {
-    if (!role.values) { for (const e of role.entries) skip('шрифта стиля нет в Figma'); continue; }
+    if (!role.values) { for (const e of role.entries) skip('шрифта стиля нет в Figma', e.t, e.f); continue; }
     for (const e of role.entries) {
       const c = compat(e, role.values);
       if (c === 'ok' || c === 'shift') job(e.f).texts.push({ e, role, shift: c === 'shift' });
-      else skip(`отличается ${c} от стиля «${role.spec.name}»`);
+      else skip(`отличается ${c} от стиля «${role.spec.name}»`, e.t, e.f);
     }
   }
 
@@ -461,19 +469,19 @@ async function stylesStep(S) {
     for (const { n, sp } of j.fills) {
       if (!sp.style) continue;
       const old = clone(n.fills);
-      try { await n.setFillStyleIdAsync(sp.style.id); undo.push({ kind: 'fill', n, old }); if (n.type === 'TEXT') R.textFills++; else R.fills++; } catch (e) { R.errors.push(`цвет «${n.name}»: ${e.message || e}`); }
+      try { await n.setFillStyleIdAsync(sp.style.id); undo.push({ kind: 'fill', n, old, grp: old[0] && old[0].type !== 'SOLID' ? 'grad' : 'other' }); if (n.type === 'TEXT') R.textFills++; else R.fills++; } catch (e) { R.errors.push(`цвет «${n.name}»: ${e.message || e}`); }
     }
     for (const { n, sp } of j.strokes) {
       if (!sp.style) continue;
       const old = clone(n.strokes);
-      try { await n.setStrokeStyleIdAsync(sp.style.id); undo.push({ kind: 'stroke', n, old }); R.strokes++; } catch (e) { R.errors.push(`обводка «${n.name}»: ${e.message || e}`); }
+      try { await n.setStrokeStyleIdAsync(sp.style.id); undo.push({ kind: 'stroke', n, old, grp: 'other' }); R.strokes++; } catch (e) { R.errors.push(`обводка «${n.name}»: ${e.message || e}`); }
     }
     for (const { e, role, shift } of j.texts) {
       const t = e.t;
       if (!role.style) continue;
       const old = textState(t);
       try {
-        if (!(await loadFont(t.fontName)) || !(await loadFont(role.style.fontName))) { skip('шрифт не загрузился'); continue; }
+        if (!(await loadFont(t.fontName)) || !(await loadFont(role.style.fontName))) { skip('шрифт не загрузился', t, j.f); continue; }
         await t.setTextStyleIdAsync(role.style.id);
         let ok = true;
         const rb = t.absoluteRenderBounds;
@@ -482,11 +490,15 @@ async function stylesStep(S) {
           const dx = old.rb.x - rb.x, dy = old.rb.y - rb.y;
           if (Math.abs(dx) > 0.001 || Math.abs(dy) > 0.001) { t.x += dx; t.y += dy; }
           const rb2 = t.absoluteRenderBounds;
-          ok = !!rb2 && Math.abs(rb2.x - old.rb.x) < 0.02 && Math.abs(rb2.y - old.rb.y) < 0.02 && Math.abs(rb2.width - old.rb.width) < 0.05 && Math.abs(rb2.height - old.rb.height) < 0.05;
+          ok = !!rb2 && Math.abs(rb2.x - old.rb.x) < 0.05 && Math.abs(rb2.y - old.rb.y) < 0.05 && Math.abs(rb2.width - old.rb.width) < 0.1 && Math.abs(rb2.height - old.rb.height) < 0.1;
+        } else if (!old.rb && !rb && !e.rigid) {
+          // в слое нет видимых букв (например, пробел) — держим середину рамки на месте
+          t.y += (old.h - t.height) / 2;
+          ok = true;
         } else ok = Math.abs(t.width - old.w) < 0.01 && Math.abs(t.height - old.h) < 0.01;
         if (e.rigid && (Math.abs(t.width - old.w) > 0.01 || Math.abs(t.height - old.h) > 0.01)) ok = false;
-        if (!ok) { await restoreText(t, old); skip('после привязки буквы сдвинулись бы — оставлено как было'); continue; }
-        undo.push({ kind: 'text', n: t, old, shift });
+        if (!ok) { await restoreText(t, old); skip('после привязки буквы сдвинулись бы — оставлено как было', t, j.f); continue; }
+        undo.push({ kind: 'text', n: t, old, shift, grp: 'text' });
         R.texts++;
         if (shift) R.textsShifted++;
       } catch (err) {
@@ -501,17 +513,24 @@ async function stylesStep(S) {
     try { res = await comparePng(before, await exportFrame(j.f.node)); } catch (e) { res = { error: (e && e.message) || String(e) }; }
     if (res.error) { R.frameChecks.push({ name, res: `сравнение не удалось: ${res.error}` }); continue; }
     if (res.same) { R.frameChecks.push({ name, res: 'ok' }); continue; }
-    // есть отличие — отменить все привязки в этом фрейме
-    for (const u of undo.reverse()) {
-      try {
-        if (u.kind === 'fill') { await u.n.setFillStyleIdAsync(''); u.n.fills = u.old; if (u.n.type === 'TEXT') R.textFills--; else R.fills--; }
-        if (u.kind === 'stroke') { await u.n.setStrokeStyleIdAsync(''); u.n.strokes = u.old; R.strokes--; }
-        if (u.kind === 'text') { await restoreText(u.n, u.old); R.texts--; if (u.shift) R.textsShifted--; }
-        R.reverted++;
-      } catch (e) {}
+    // есть отличие — отменяем по шагам: градиенты, затем тексты, затем остальное, пока фрейм не станет как был
+    const undone = [];
+    for (const grp of ['grad', 'text', 'other']) {
+      const part = undo.filter((u) => u.grp === grp);
+      if (!part.length) continue;
+      for (const u of part.reverse()) {
+        try {
+          if (u.kind === 'fill') { await u.n.setFillStyleIdAsync(''); u.n.fills = u.old; if (u.n.type === 'TEXT') R.textFills--; else R.fills--; }
+          if (u.kind === 'stroke') { await u.n.setStrokeStyleIdAsync(''); u.n.strokes = u.old; R.strokes--; }
+          if (u.kind === 'text') { await restoreText(u.n, u.old); R.texts--; if (u.shift) R.textsShifted--; }
+          R.reverted++;
+        } catch (e) {}
+      }
+      undone.push({ grad: 'градиенты', text: 'стили текста', other: 'цвета и обводки' }[grp]);
+      try { res = await comparePng(before, await exportFrame(j.f.node)); } catch (e) { res = { same: false }; }
+      if (res.same) break;
     }
-    try { res = await comparePng(before, await exportFrame(j.f.node)); } catch (e) { res = { same: false }; }
-    R.frameChecks.push({ name, res: res.same ? 'reverted' : 'reverted-diff', changed: res.changed });
+    R.frameChecks.push({ name, res: res.same ? 'reverted' : 'reverted-diff', changed: res.changed, undone: undone.join(', ') });
   }
 }
 
@@ -597,6 +616,21 @@ function planLinks(S) {
   return plan;
 }
 
+// верх страницы для «прокрутки наверх»: шапка, а если кнопка лежит в шапке — подложка шапки или первый экран
+const contains = (a, b) => { for (let p = b; p; p = p.parent) if (p === a) return true; return false; };
+function topTarget(F, src) {
+  const header = byName(F, /^шапка/);
+  if (header && !contains(header, src)) return header;
+  if (header && 'children' in header) {
+    const box = (n) => n.absoluteBoundingBox || { y: n.y, width: n.width, height: n.height };
+    const kids = header.children.filter((c) => !contains(c, src) && c.visible !== false)
+      .sort((a, b) => box(a).y - box(b).y || box(b).width * box(b).height - box(a).width * box(a).height);
+    if (kids.length) return kids[0];
+  }
+  const hero = byName(F, /^первый экран/);
+  return hero && !contains(hero, src) ? hero : null;
+}
+
 async function setReactions(node, reactions) {
   if (typeof node.setReactionsAsync === 'function') await node.setReactionsAsync(reactions);
   else node.reactions = reactions;
@@ -620,8 +654,8 @@ async function linksStep(S) {
       if (!it.dest) { R.linksMissing.push(`${f.node.name}: не понял, куда ведёт ${it.label}`); continue; }
       if (it.dest === f.key) {
         // ссылка на ту же страницу — прокрутка наверх
-        const top = byName(f.node, /^шапка/) || byName(f.node, /^первый экран/);
-        if (!top) continue;
+        const top = topTarget(f.node, node);
+        if (!top) { R.linksMissing.push(`${f.node.name}: не найден верх страницы для ${it.label}`); continue; }
         action = SCROLL(top.id, true);
         scroll = true;
       } else {
@@ -721,7 +755,10 @@ function report(S) {
     out(`Сетки: ${DRY ? 'будет создано' : 'создано'} ${R.gridCreated.length}${R.gridReused.length ? `, уже были ${R.gridReused.length}` : ''}; ${will}назначено фреймам: ${R.gridsSet}${R.gridsHad ? `, у ${R.gridsHad} сетка уже была` : ''}.`);
     out(`${DRY ? 'Будет привязано' : 'Привязано'} к стилям: заливки ${R.fills}, обводки ${R.strokes}, цвет текста ${R.textFills}, текстовые стили ${R.texts}${R.textsShifted ? ` (у ${R.textsShifted} подправлено положение слоя, чтобы буквы не сдвинулись)` : ''}.`, 'ok');
     if (R.alreadyStyled) out(`Тексты, у которых стиль уже был: ${R.alreadyStyled} — не тронуты.`, 'dim');
-    if (R.textSkip.size) { out('Тексты без стиля (оставлены как есть):', 'warn'); for (const [k, v] of R.textSkip) out(`  ${k}: ${v}`, 'warn'); }
+    if (R.textSkip.size) {
+      out('Тексты без стиля (оставлены как есть):', 'warn');
+      for (const [k, v] of R.textSkip) { out(`  ${k}: ${v}`, 'warn'); for (const x of R.skipEx.get(k) || []) out(`      ${x}`, 'dim'); }
+    }
     if (R.colorsLeft.size) {
       out('Цвета в макете не из палитры (оставлены как есть):', 'warn');
       for (const [k, v] of [...R.colorsLeft.entries()].sort((a, b) => b[1] - a[1]).slice(0, 15)) out(`  ${k}: ${v}`, 'warn');
@@ -735,7 +772,7 @@ function report(S) {
       out(`Проверка: ${ok.length} из ${R.frameChecks.length} фреймов после изменений совпадают с исходными пиксель в пиксель.`, ok.length === R.frameChecks.length ? 'ok' : 'warn');
       for (const c of R.frameChecks) {
         if (c.res === 'ok') continue;
-        if (c.res === 'reverted') out(`  ${c.name}: нашлись отличия — привязки в этом фрейме отменены, фрейм как был.`, 'warn');
+        if (c.res === 'reverted') out(`  ${c.name}: нашлись отличия — в этом фрейме отменены привязки (${c.undone}), фрейм как был.`, 'warn');
         else if (c.res === 'reverted-diff') out(`  ${c.name}: отличия остались и после отмены (${c.changed} пикс.) — проверь фрейм.`, 'err');
         else out(`  ${c.name}: ${c.res}`, 'warn');
       }

@@ -34,6 +34,7 @@ function base(type, name, parent) {
         if (!a.destinationId || !ALL.has(a.destinationId)) throw new Error('нет слоя ' + a.destinationId);
         if (!['NAVIGATE', 'SCROLL_TO', 'CHANGE_TO', 'OVERLAY', 'SWAP'].includes(a.navigation)) throw new Error('плохая навигация');
         if (a.navigation === 'SCROLL_TO' && top(ALL.get(a.destinationId)) !== top(n)) throw new Error('прокрутка в другой кадр');
+        if (a.navigation === 'SCROLL_TO') { for (let q = n; q; q = q.parent) if (q === ALL.get(a.destinationId)) throw new Error(`Reaction at index 0 was invalid (destination ${a.destinationId} was rejected)`); }
         if (a.navigation === 'NAVIGATE' && ALL.get(a.destinationId).parent.type !== 'PAGE') throw new Error('переход не на кадр');
         if (a.navigation === 'CHANGE_TO' && ALL.get(a.destinationId).parent !== n.parent) throw new Error('CHANGE_TO не на вариант');
         if (a.transition && !['DISSOLVE', 'SMART_ANIMATE', 'SCROLL_ANIMATE', 'MOVE_IN'].includes(a.transition.type)) throw new Error('плохая анимация');
@@ -51,12 +52,12 @@ const ALL = new Map();
 const top = (n) => { while (n.parent && n.parent.type !== 'PAGE') n = n.parent; return n; };
 const frameOf = (n) => top(n);
 
-function paintsFrom(p) {
+function paintsFrom(p, w = 100, h = 100) {
   if (!p) return [];
   if (p.image) return [{ type: 'IMAGE', imageHash: 'h' + uid, scaleMode: 'FILL', visible: true, opacity: 1, blendMode: 'NORMAL' }];
   if (p.grad) {
     const st = p.grad.stops.map(([pos, hex, a]) => ({ position: pos, color: Object.assign(hexRgb(hex), { a }) }));
-    return [{ type: 'GRADIENT_LINEAR', gradientTransform: p.grad.h ? [[1, 0, 0], [0, 1, 0]] : [[0, 1, 0], [-1, 0, 1]], gradientStops: st, visible: true, opacity: 1, blendMode: 'NORMAL' }];
+    return [{ type: 'GRADIENT_LINEAR', gradientTransform: p.grad.h ? [[1, 0, 0], [0, w / h, 0]] : [[0, 1, 0], [-h / w, 0, 1]], gradientStops: st, visible: true, opacity: 1, blendMode: 'NORMAL' }];
   }
   return [{ type: 'SOLID', color: hexRgb(p.hex), opacity: p.op, visible: true, blendMode: 'NORMAL', boundVariables: {} }];
 }
@@ -131,7 +132,7 @@ function textNode(parent, name, chars, fam, style, size, fill) {
 // «отрисовка» кадра: всё, что видно глазом (без рамок слоёв и привязок к стилям)
 function render(F) {
   const rows = [];
-  const pk = (ps) => ps.map((p) => p.type === 'SOLID' ? `S${Math.round(p.color.r * 255)},${Math.round(p.color.g * 255)},${Math.round(p.color.b * 255)},${Math.round((p.opacity ?? 1) * 1000)}` : p.type + JSON.stringify(p.gradientStops || p.imageHash) + JSON.stringify(p.gradientTransform || '')).join('+');
+  const pk = (ps) => ps.map((p) => p.type === 'SOLID' ? `S${Math.round(p.color.r * 255)},${Math.round(p.color.g * 255)},${Math.round(p.color.b * 255)},${Math.round((p.opacity ?? 1) * 1000)}` : p.type + JSON.stringify(p.gradientStops || p.imageHash) + JSON.stringify(p.gradientTransform ? p.gradientTransform[0] : '')).join('+');
   const w = (n) => {
     if (n.visible === false) return;
     if (n.type === 'TEXT') {
@@ -161,7 +162,7 @@ function frame(pageNode, name, data, x) {
   F.setGridStyleIdAsync = async (id) => { const s = styles.get(id); if (!s) throw new Error('нет сетки'); F.layoutGrids = clone(s.layoutGrids); F.gridStyleId = id; };
   const build = (e, parent) => {
     if (e.k === 'g') { const g = base('GROUP', e.id, parent); for (const c of e.kids) build(c, g); return g; }
-    if (e.k === 'shape') { const s = base(e.id.startsWith('Фон') || e.id.includes('Картинка') ? 'RECTANGLE' : 'VECTOR', e.id, parent); stylable(s); Object.assign(s, { x: e.x, y: e.y, width: e.w, height: e.h }); s.fills = paintsFrom(e.fill); s.strokes = paintsFrom(e.stroke); return s; }
+    if (e.k === 'shape') { const s = base(e.id.startsWith('Фон') || e.id.includes('Картинка') ? 'RECTANGLE' : 'VECTOR', e.id, parent); stylable(s); Object.assign(s, { x: e.x, y: e.y, width: e.w, height: e.h }); s.fills = paintsFrom(e.fill, e.w, e.h); s.strokes = paintsFrom(e.stroke); return s; }
     if (e.k === 'text') {
       const style = e.w >= 600 ? 'Bold' : 'Regular';
       for (const ln of e.lines) {
@@ -174,7 +175,7 @@ function frame(pageNode, name, data, x) {
   return F;
 }
 let X = 0;
-const order = ['Обложка', 'Ангельские_ритмы_375', 'Ван-Пис_375', 'Блич_375', 'Главная_375', 'Ангельские_ритмы_768', 'Ван-Пис_768', 'Блич_768', 'Главная_768', 'Ангельские_ритмы_1440', 'Блич_1440', 'Ван-Пис_1440', 'Главная_1440'];
+const order = ['Обложка', 'Ангельские_ритмы_375', 'Ван-Пис_375', 'Блич_375', 'Главная_375', 'Ангельские_ритмы_768', 'Ван-Пис_768', 'Блич_768', 'Главная_768', 'Ангельские_ритмы_1440', 'Блич_1440', 'Ван-Пис_1440', 'Главная_1440'].reverse();
 for (const n of order) { frame(pMaket, n + ' 1', FR[n], X); X += FR[n].w + 100; }
 frame(pStyles, 'Стили', FR['Стили'], 0);
 frame(pComp, 'Компоненты', FR['Компоненты'], 0);
@@ -260,6 +261,12 @@ const renders0 = new Map(pMaket.children.map((f) => [f.name, render(f)]));
 const snap0 = snapshot();
 (async () => {
   const t0 = Date.now();
+  if (process.env.PREV) {
+    new Function('figma', '__html__', fs.readFileSync(process.env.PREV, 'utf8'))(figma, '');
+    for (let i = 0; i < 2000 && done === null; i++) await new Promise((r) => setTimeout(r, 10));
+    console.log('--- ПРОШЛАЯ ВЕРСИЯ ---\n' + log.filter((l) => /градиент|Ошибки|прокрутка «|Добавлено|Проверка:|сдвинулись/.test(l)).join('\n') + '\n--- НОВАЯ ВЕРСИЯ ---');
+    log.length = 0; done = null; figma.showUI = () => setTimeout(() => ui.onmessage({ type: 'ready' }), 5);
+  }
   new Function('figma', '__html__', CODE)(figma, '');
   for (let i = 0; i < 2000 && done === null; i++) await new Promise((r) => setTimeout(r, 10));
   if (process.env.TWICE) { // второй запуск: ничего нового не создаётся и не дублируется
