@@ -1,7 +1,7 @@
 {
  "name": "Amfibia — дизайн-токены",
  "version": "1.0",
- "generated": "2026-11-23",
+ "generated": "2026-11-24",
  "colors": {
   "Amfibia": {
    "Фон": {
@@ -1011,12 +1011,13 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 95,
+   "lineHeightPx": null,
+   "usage": 97,
    "sample": "Amfibia",
    "where": [
     "Кабинеты сотрудников",
-    "Страницы брендов",
-    "Истории брендов"
+    "Личный кабинет",
+    "Страницы брендов"
    ]
   },
   {
@@ -1026,7 +1027,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 124,
+   "lineHeightPx": null,
+   "usage": 127,
    "sample": "Amfibia",
    "where": [
     "Состояния и переходы",
@@ -1041,6 +1043,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 1.36,
+   "lineHeightPx": null,
    "usage": 18,
    "sample": "Amfibia",
    "where": [
@@ -1054,6 +1057,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 15,
    "sample": "Не дизайнер по образованию",
    "where": [
@@ -1067,6 +1071,7 @@
    "weight": 400,
    "italic": true,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 15,
    "sample": "Compare",
    "where": [
@@ -1082,6 +1087,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": -5.76,
+   "lineHeightPx": 126.72,
    "usage": 13,
    "sample": "Индустриальная  строгость",
    "where": [
@@ -1096,7 +1102,8 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 28,
+   "lineHeightPx": 117.75,
+   "usage": 29,
    "sample": "Доставка и  оплата",
    "where": [
     "Покупка",
@@ -1111,7 +1118,8 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 144,
+   "lineHeightPx": 68.39,
+   "usage": 148,
    "sample": "Куртка Couture Seam Quilted Givenchy Paris",
    "where": [
     "Кабинеты сотрудников",
@@ -1126,12 +1134,13 @@
    "weight": 500,
    "italic": true,
    "letterSpacingPx": 0,
-   "usage": 97,
+   "lineHeightPx": null,
+   "usage": 99,
    "sample": "Страница не найдена",
    "where": [
     "Кабинеты сотрудников",
-    "Страницы брендов",
-    "Истории брендов"
+    "Личный кабинет",
+    "Страницы брендов"
    ]
   },
   {
@@ -1141,6 +1150,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 15,
    "sample": "06",
    "where": [
@@ -1154,6 +1164,7 @@
    "weight": 400,
    "italic": true,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 15,
    "sample": "1917",
    "where": [
@@ -1167,6 +1178,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 15,
    "sample": "ом, основанный  Кристобалем Баленсиагой  в 1917 году в Сан- ",
    "where": [
@@ -1180,6 +1192,7 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": 45.75,
    "usage": 41,
    "sample": "Как подобрать размер ботинок Tabi?",
    "where": [
@@ -1195,6 +1208,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 24,
    "sample": "602 308",
    "where": [
@@ -1209,6 +1223,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 22,
    "sample": "Игорь Василевский",
    "where": [
@@ -1222,6 +1237,7 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 15,
    "sample": "Как мы защищаем данные",
    "where": [
@@ -1235,6 +1251,7 @@
    "weight": 400,
    "italic": true,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 15,
    "sample": "1924",
    "where": [
@@ -1248,6 +1265,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": 30.41,
    "usage": 15,
    "sample": "Enfants Riches  Déprimés",
    "where": [
@@ -1261,6 +1279,7 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 4.64,
+   "lineHeightPx": null,
    "usage": 16,
    "sample": "УПАКОВЩИК И МАСТЕР КОРОБОК",
    "where": [
@@ -1275,6 +1294,7 @@
    "weight": 600,
    "italic": true,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 15,
    "sample": "Легенда о принце Чарльзе",
    "where": [
@@ -1288,7 +1308,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 183,
+   "lineHeightPx": 29.39,
+   "usage": 187,
    "sample": "Лоферы Medusa 95 Croc Effect",
    "where": [
     "Страницы брендов",
@@ -1303,7 +1324,8 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 47,
+   "lineHeightPx": null,
+   "usage": 50,
    "sample": "Проверка подлинности",
    "where": [
     "Страницы брендов",
@@ -1318,12 +1340,13 @@
    "weight": 400,
    "italic": true,
    "letterSpacingPx": 0,
-   "usage": 95,
+   "lineHeightPx": null,
+   "usage": 97,
    "sample": "Ваш email",
    "where": [
     "Кабинеты сотрудников",
-    "Страницы брендов",
-    "Истории брендов"
+    "Личный кабинет",
+    "Страницы брендов"
    ]
   },
   {
@@ -1333,7 +1356,8 @@
    "weight": 600,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 37,
+   "lineHeightPx": null,
+   "usage": 39,
    "sample": "ЕЛ",
    "where": [
     "Кабинеты сотрудников",
@@ -1347,6 +1371,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 78,
    "sample": "Креативные директора",
    "where": [
@@ -1362,6 +1387,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": 23.51,
    "usage": 19,
    "sample": "Enfants Riches Déprimés",
    "where": [
@@ -1375,6 +1401,7 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": 23,
    "usage": 506,
    "sample": "Сумка Small — кожа ягнёнка, золотистый металл",
    "where": [
@@ -1390,7 +1417,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 358,
+   "lineHeightPx": 20.69,
+   "usage": 378,
    "sample": "Куртка Couture Seam Quilted Givenchy  Paris",
    "where": [
     "Покупка",
@@ -1405,6 +1433,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 70,
    "sample": "Сумка-тоут GG Supreme Monogram Small Zip Top",
    "where": [
@@ -1420,7 +1449,8 @@
    "weight": 600,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 92,
+   "lineHeightPx": null,
+   "usage": 94,
    "sample": "АЖ",
    "where": [
     "Админ-панель",
@@ -1435,6 +1465,7 @@
    "weight": 300,
    "italic": false,
    "letterSpacingPx": 9.28,
+   "lineHeightPx": 33.11,
    "usage": 13,
    "sample": "ЛОГОТИП КАК ДОКУМЕНТ  ИСТОРИИ",
    "where": [
@@ -1449,6 +1480,7 @@
    "weight": 900,
    "italic": true,
    "letterSpacingPx": -1.16,
+   "lineHeightPx": null,
    "usage": 15,
    "sample": "Скейтерская подлинность",
    "where": [
@@ -1462,6 +1494,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": 32.75,
    "usage": 289,
    "sample": "От ателье на улице Георга V до показов в бывших бойнях Париж",
    "where": [
@@ -1477,6 +1510,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": 30.11,
    "usage": 43,
    "sample": "В Гетарии сегодня работает музей Cristóbal Balenciaga Museoa",
    "where": [
@@ -1490,7 +1524,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 219,
+   "lineHeightPx": 24,
+   "usage": 220,
    "sample": "Строгая геометрия и неожиданные материалы — от нейлона до ко",
    "where": [
     "Кабинеты сотрудников",
@@ -1505,6 +1540,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 2.24,
+   "lineHeightPx": null,
    "usage": 420,
    "sample": "★★★★★",
    "where": [
@@ -1520,12 +1556,13 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 4530,
+   "lineHeightPx": 20.8,
+   "usage": 4660,
    "sample": "Худи с историей: «Титаник» и  «Беверли-Хиллз»",
    "where": [
     "Кабинеты сотрудников",
-    "Истории брендов",
-    "Личный кабинет"
+    "Личный кабинет",
+    "Истории брендов"
    ]
   },
   {
@@ -1535,6 +1572,7 @@
    "weight": 700,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 53,
    "sample": "AMFIBIA Минск — центральный склад",
    "where": [
@@ -1550,6 +1588,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": -1.92,
+   "lineHeightPx": null,
    "usage": 45,
    "sample": "⋮⋮",
    "where": [
@@ -1563,7 +1602,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 633,
+   "lineHeightPx": 17.59,
+   "usage": 637,
    "sample": "Все торговые марки принадлежат их владельцам.",
    "where": [
     "Кабинеты сотрудников",
@@ -1578,6 +1618,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0.44,
+   "lineHeightPx": null,
    "usage": 103,
    "sample": "Софья Морозова · sofia.morozova@example.com ·",
    "where": [
@@ -1592,6 +1633,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 1.76,
+   "lineHeightPx": null,
    "usage": 78,
    "sample": "ALEXANDER MCQUEEN",
    "where": [
@@ -1606,23 +1648,11 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 22,
    "sample": "Александра Верш…",
    "where": [
     "Админ-панель"
-   ]
-  },
-  {
-   "name": "Метки/29 Regular",
-   "family": "JetBrains Mono",
-   "size": 29,
-   "weight": 400,
-   "italic": false,
-   "letterSpacingPx": 0,
-   "usage": 13,
-   "sample": "«Шестёрка» и седьмой",
-   "where": [
-    "Истории брендов"
    ]
   },
   {
@@ -1632,12 +1662,13 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 15,
+   "lineHeightPx": null,
+   "usage": 17,
    "sample": "15 900,00 Br",
    "where": [
     "Покупка",
-    "Состояния и переходы",
-    "Личный кабинет"
+    "Личный кабинет",
+    "Состояния и переходы"
    ]
   },
   {
@@ -1647,6 +1678,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0.72,
+   "lineHeightPx": null,
    "usage": 22,
    "sample": "AMF-2026-000257",
    "where": [
@@ -1660,7 +1692,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 73,
+   "lineHeightPx": null,
+   "usage": 74,
    "sample": "Платье Communist Daughter · ERD-DRS-0013",
    "where": [
     "Кабинеты сотрудников",
@@ -1675,6 +1708,7 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 18,
    "sample": "1 666",
    "where": [
@@ -1688,7 +1722,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 1578,
+   "lineHeightPx": 20.79,
+   "usage": 1596,
    "sample": "С нами с 27 января 2026 г. ·  заказов: 17",
    "where": [
     "Страницы брендов",
@@ -1703,6 +1738,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 1.56,
+   "lineHeightPx": null,
    "usage": 29,
    "sample": "AF971474065BY",
    "where": [
@@ -1718,6 +1754,7 @@
    "weight": 600,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 26,
    "sample": "0",
    "where": [
@@ -1732,6 +1769,7 @@
    "weight": 700,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 73,
    "sample": "AMF-2026-000289",
    "where": [
@@ -1747,6 +1785,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 2.4,
+   "lineHeightPx": null,
    "usage": 46,
    "sample": "VISA",
    "where": [
@@ -1761,6 +1800,7 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 1.44,
+   "lineHeightPx": null,
    "usage": 62,
    "sample": "↕",
    "where": [
@@ -1775,7 +1815,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 1563,
+   "lineHeightPx": null,
+   "usage": 1614,
    "sample": "В других валютах: $3,063.87 · 2 828,18 €",
    "where": [
     "Страницы брендов",
@@ -1790,7 +1831,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 2.2,
-   "usage": 1093,
+   "lineHeightPx": null,
+   "usage": 1111,
    "sample": "ПРОВЕДИТЕ КУРСОРОМ ПО БЛОКУ",
    "where": [
     "Страницы брендов",
@@ -1805,7 +1847,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 2.64,
-   "usage": 1043,
+   "lineHeightPx": null,
+   "usage": 1048,
    "sample": "МОДНЫЙ ДОМ · СОЕДИНЕННЫЕ ШТАТЫ · 2012",
    "where": [
     "Страницы брендов",
@@ -1820,7 +1863,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 1.32,
-   "usage": 557,
+   "lineHeightPx": null,
+   "usage": 570,
    "sample": "Заявка на рассмотрении у модератора",
    "where": [
     "Страницы брендов",
@@ -1835,7 +1879,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0.88,
-   "usage": 516,
+   "lineHeightPx": null,
+   "usage": 525,
    "sample": "Основатель: Richard Stark · Соединенные Штаты",
    "where": [
     "Кабинеты сотрудников",
@@ -1850,7 +1895,8 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 1.76,
-   "usage": 382,
+   "lineHeightPx": 17.59,
+   "usage": 385,
    "sample": "ОСНОВАТЕЛЬ — MARTIN MARGIELA, JENNY MEIRENS",
    "where": [
     "Состояния и переходы",
@@ -1865,6 +1911,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0.44,
+   "lineHeightPx": null,
    "usage": 146,
    "sample": "Тестовая карта: 4242 4242 4242 4242",
    "where": [
@@ -1880,12 +1927,13 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 2.64,
-   "usage": 498,
+   "lineHeightPx": null,
+   "usage": 506,
    "sample": "ОТПРАВИТЬ НА МОДЕРАЦИЮ",
    "where": [
     "Страницы брендов",
     "Кабинеты сотрудников",
-    "Истории брендов"
+    "Личный кабинет"
    ]
   },
   {
@@ -1895,7 +1943,8 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 2.2,
-   "usage": 290,
+   "lineHeightPx": null,
+   "usage": 295,
    "sample": "ОДОБРИТЬ — РОЛЬ «ПРОДАВЕЦ»",
    "where": [
     "Страницы брендов",
@@ -1910,6 +1959,7 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 1.76,
+   "lineHeightPx": null,
    "usage": 128,
    "sample": "ЗАГОЛОВОК (RU)",
    "where": [
@@ -1925,6 +1975,7 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 14,
    "sample": "◷",
    "where": [
@@ -1938,6 +1989,7 @@
    "weight": 700,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 73,
    "sample": "AMF-2026-000268",
    "where": [
@@ -1952,6 +2004,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 675,
    "sample": "Alexander McQueen · AMQ-BOT-0002-41 · Алматы",
    "where": [
@@ -1967,12 +2020,13 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 2,
-   "usage": 337,
+   "lineHeightPx": null,
+   "usage": 346,
    "sample": "ТАК ТОВАР УВИДЯТ ПОКУПАТЕЛИ",
    "where": [
     "Страницы брендов",
     "Кабинеты сотрудников",
-    "Админ-панель"
+    "Личный кабинет"
    ]
   },
   {
@@ -1982,6 +2036,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 1.2,
+   "lineHeightPx": null,
    "usage": 168,
    "sample": "ФРАНЦИЯ · MARTIN MARGIELA, JENNY MEIRENS",
    "where": [
@@ -1997,6 +2052,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0.4,
+   "lineHeightPx": null,
    "usage": 47,
    "sample": "Ждёт ответа",
    "where": [
@@ -2011,6 +2067,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 1.6,
+   "lineHeightPx": null,
    "usage": 25,
    "sample": "РАЗВЕРНУТЬ БИРКУ",
    "where": [
@@ -2026,6 +2083,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0.8,
+   "lineHeightPx": null,
    "usage": 18,
    "sample": "Покупатель",
    "where": [
@@ -2040,6 +2098,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 3.2,
+   "lineHeightPx": null,
    "usage": 13,
    "sample": "ЛИСТАЙТЕ",
    "where": [
@@ -2054,7 +2113,8 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 1.2,
-   "usage": 751,
+   "lineHeightPx": null,
+   "usage": 755,
    "sample": "VERIFIED BY AMFIBIA",
    "where": [
     "Страницы брендов",
@@ -2069,6 +2129,7 @@
    "weight": 500,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 20,
    "sample": "1",
    "where": [
@@ -2082,7 +2143,8 @@
    "weight": 700,
    "italic": false,
    "letterSpacingPx": 0,
-   "usage": 284,
+   "lineHeightPx": null,
+   "usage": 296,
    "sample": "18",
    "where": [
     "Админ-панель",
@@ -2097,6 +2159,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 1.44,
+   "lineHeightPx": 14.39,
    "usage": 232,
    "sample": "AMFIBIA МИНСК — ЦЕНТРАЛЬНЫЙ СКЛАД",
    "where": [
@@ -2112,6 +2175,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0.72,
+   "lineHeightPx": null,
    "usage": 131,
    "sample": "51 РАЗДЕЛОВ ИСТОРИИ",
    "where": [
@@ -2126,6 +2190,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 2.52,
+   "lineHeightPx": null,
    "usage": 110,
    "sample": "НАСТРОЙКИ",
    "where": [
@@ -2139,6 +2204,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 64,
    "sample": "PRA-JKT-0008-XXL · XXL × 1",
    "where": [
@@ -2152,6 +2218,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 1.8,
+   "lineHeightPx": null,
    "usage": 30,
    "sample": "15",
    "where": [
@@ -2166,6 +2233,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 2.16,
+   "lineHeightPx": null,
    "usage": 22,
    "sample": "БРЕНДЫ И ИСТОРИИ · ФРАНЦИЯ · 1917",
    "where": [
@@ -2179,6 +2247,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 2.88,
+   "lineHeightPx": null,
    "usage": 22,
    "sample": "ATELIER · ADMIN",
    "where": [
@@ -2192,6 +2261,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 1.08,
+   "lineHeightPx": null,
    "usage": 15,
    "sample": "НОВАЯ",
    "where": [
@@ -2205,6 +2275,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 3.48,
+   "lineHeightPx": null,
    "usage": 19,
    "sample": "FLORENTINE FLOWERS",
    "where": [
@@ -2219,6 +2290,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 6.96,
+   "lineHeightPx": null,
    "usage": 16,
    "sample": "ПАНСИОН И МАСТЕРСКАЯ",
    "where": [
@@ -2233,6 +2305,7 @@
    "weight": 400,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 14,
    "sample": "КАК ПРИШЛА БЕАТА КАРЛССОН",
    "where": [
@@ -2246,6 +2319,7 @@
    "weight": 700,
    "italic": false,
    "letterSpacingPx": 0,
+   "lineHeightPx": null,
    "usage": 14,
    "sample": "Название как автопортрет",
    "where": [
@@ -2259,6 +2333,7 @@
    "weight": 900,
    "italic": false,
    "letterSpacingPx": -1.08,
+   "lineHeightPx": null,
    "usage": 13,
    "sample": "BALENCIAGA",
    "where": [
@@ -2267,5 +2342,5 @@
    ]
   }
  ],
- "textCoverage": 97.1
+ "textCoverage": 97
 }

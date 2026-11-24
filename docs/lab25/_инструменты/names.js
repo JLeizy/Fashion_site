@@ -25,7 +25,7 @@
     'home-section': 'Секция', 'home-num': 'Номер_секции', 'home-title': 'Заголовок', 'home-head': 'Заголовок_секции', 'home-head__link': 'Ссылка_Все', 'brands-grid-wrap': '',
     'brands-grid': 'Сетка_брендов', 'brand-tile': 'Плитка_бренда', 'brand-tile__media': 'Фото', 'brand-tile__veil': 'Затемнение', 'brand-tile__num': 'Номер', 'brand-tile__name': 'Название', 'brand-tile__meta': 'Подпись',
     'pp-rail': 'Карусель', 'pp-rail__head': 'Заголовок', 'pp-rail__nav': 'Стрелки', 'home-rail': 'Карусель_товаров', rail: 'Лента', rail__item: '',
-    'p-card': 'Карточка_товара', 'p-card__media': 'Фото_товара', 'p-card__labels': 'Метки', 'p-card__actions': 'Действия', 'p-card__action': 'Кнопка', 'p-card__sizes': 'Размеры',
+    'p-card': 'Карточка_товара', 'p-card__media': 'Фото_товара', 'p-card__labels': 'Метки', 'p-card__actions': 'Действия', 'p-card__sizes': 'Размеры',
     'p-card__body': 'Описание', 'p-card__brand': 'Бренд', 'p-card__name': 'Название', 'p-card__price': 'Цена', 'p-card__meta': 'Рейтинг_и_цвета',
     label: 'Метка', label__text: 'Текст', 'mm-tag': 'Значок_подлинности', 'color-dot': 'Цвет', stars: 'Звёзды',
     iconic: 'Культовые_вещи', iconic__list: 'Список', iconic__item: 'Вещь', iconic__media: 'Фото', iconic__clip: '', iconic__text: 'Текст', iconic__n: 'Номер', iconic__brand: 'Бренд', iconic__name: 'Название', iconic__desc: 'Описание', iconic__meta: 'Подпись',
@@ -91,7 +91,7 @@
     'error-page': 'Ошибка', 'error-page__code': 'Код_ошибки', 'error-page__body': 'Текст', 'error-page__num': 'Номер', 'error-page__title': 'Заголовок', 'error-page__text': 'Описание', 'error-page__actions': 'Кнопки', 'error-page__links': 'Ссылки',
     // вход
     auth: 'Вход', auth__canvas: 'Фон_анимация', auth__art: 'Иллюстрация', auth__title: 'Заголовок', auth__lead: 'Вводный_текст', auth__perks: 'Преимущества', auth__vertical: 'Вертикальная_надпись',
-    auth__panel: 'Панель_формы', auth__stage: '', auth__tabs: 'Вкладки', auth__tab: null, auth__heading: 'Заголовок_формы', auth__sub: 'Подзаголовок', auth__form: 'Форма', auth__small: 'Мелкий_текст',
+    auth__panel: 'Панель_формы', auth__stage: '', auth__tabs: 'Вкладки', auth__tab: null, auth__heading: 'Заголовок_формы', auth__sub: 'Подзаголовок', auth__form: 'Форма',
     auth__switch: 'Переключение', auth__terms: 'Условия', 'auth-view': '', flip: 'Карточка_формы', flip__inner: '', flip__face: 'Сторона', field: 'Поле', field__label: 'Подпись', field__addon: 'Кнопка_в_поле',
     field__hint: 'Подсказка', field__error: 'Ошибка', 'form-grid': 'Поля', phone: 'Телефон', phone__country: 'Код_страны', phone__input: 'Поле_номера', strength: 'Надёжность_пароля', strength__bars: 'Шкала',
     strength__rules: 'Правила', 'auth-demo': 'Демо-аккаунты', 'auth-demo__note': 'Примечание', 'auth-demo__grid': 'Роли',
@@ -122,6 +122,7 @@
     // админка и сотрудники
     adm: 'Админ-панель', 'adm-side': 'Боковое_меню', 'adm-logo': 'Логотип', 'adm-logo__word': 'Amfibia', 'adm-logo__sub': 'Подпись', 'adm-nav': 'Меню', 'adm-me': 'Профиль', 'adm-main': 'Основная_часть',
     'adm-top': 'Верхняя_панель', 'adm-top__title': 'Заголовок', 'adm-top__h': 'Название_раздела', 'adm-top__tools': 'Инструменты', 'adm-cur': 'Валюта', 'adm-themes': 'Темы', 'adm-view': 'Раздел', 'adm-scrim': '',
+    bgrid: 'Сетка_брендов', bt: 'Карточка_бренда', bt__n: 'Номер', bt__name: 'Название', bt__meta: 'Цифры',
     'ed-sec': 'Раздел_формы', 'ed-sec__head': 'Заголовок_раздела', 'ed-sec__n': 'Номер', 'ed-photos': 'Фото_товара', 'ed-sizes': 'Размеры',
   };
 
@@ -157,7 +158,8 @@
     if (cl.contains('check') && tag === 'label') { const t = [...el.childNodes].map((c) => (c.nodeType === 3 ? c.data : c.classList && c.classList.contains('check__count') ? '' : c.innerText || '')).join(' '); return 'Чекбокс_' + (clean(t, 26) || 'вариант'); }
     if (cl.contains('swatch-btn')) return 'Цвет_' + labelOf(el);
     if (cl.contains('acc-nav__link') || cl.contains('adm-nav__link') || cl.contains('mega__link') || cl.contains('mobile-menu__link')) return 'Пункт_' + navText(el);
-    if (cl.contains('pp-icon')) return 'Кнопка_' + (labelOf(el) || 'иконка');
+    if (cl.contains('pp-icon') || cl.contains('p-card__action')) return 'Кнопка_' + (labelOf(el) || 'иконка');
+    if (cl.contains('pp-link') && labelOf(el)) return (tag === 'a' ? 'Ссылка_' : 'Кнопка_') + labelOf(el);
     if (cl.contains('dropdown')) return el.querySelector('[data-theme-toggle]') ? 'Выбор_темы' : el.querySelector('[data-currency-label]') ? 'Выбор_валюты' : 'Выпадающий_список';
     if (cl.contains('pagination') || cl.contains('seg')) return null;
     return null;

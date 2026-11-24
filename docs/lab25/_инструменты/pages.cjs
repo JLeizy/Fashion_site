@@ -277,7 +277,7 @@ async function shot(ctx, f) {
   const adm = [['', 'Дашборд'], ['products', 'Модерация_товаров'], ['reviews', 'Модерация_отзывов'], ['sellers', 'Заявки_продавцов'], ['orders', 'Заказы'], ['brands', 'Бренды'],
     ['collections', 'Коллекции'], ['categories', 'Категории'], ['banners', 'Баннеры'], ['users', 'Пользователи'], ['warehouses', 'Склады'], ['delivery', 'Способы_доставки'],
     ['payment', 'Способы_оплаты'], ['promos', 'Промокоды'], ['rates', 'Курсы_валют'], ['audit', 'Журнал_действий']];
-  for (const [i, [u, n]] of adm.entries()) await shot(owner, { folder: AD, file: `${String(i + 1).padStart(2, '0')}_${n}_1920.svg`, url: '/admin' + (u ? '/' + u : ''), prep: trimTo('.dt tbody tr, table tbody tr', 14) });
+  for (const [i, [u, n]] of adm.entries()) await shot(owner, { folder: AD, file: `${String(i + 1).padStart(2, '0')}_${n}_1920.svg`, url: '/admin' + (u ? '/' + u : ''), prep: trimTo('.dt tbody tr, table tbody tr', 14) + "document.head.insertAdjacentHTML('beforeend', '<style>.adm-side{position:relative!important;height:auto!important;min-height:100vh}.adm-nav{overflow:visible!important}</style>');" });
   await owner.close();
 
   fs.writeFileSync(path.join(__dirname, 'log-' + (process.argv[2] || 'all').replace(/\W/g, '') + '.json'), JSON.stringify(log, null, 1));

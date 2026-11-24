@@ -63,6 +63,15 @@ async function asRole(browser, email) {
   await shot(guest, { folder: ST, file: '19_Галерея_на_весь_экран_1920.svg', url: '/product/' + hero.id, viewport: true, setup: async (p) => click(p, '[data-gallery-expand]', 1500) });
   await shot(guest, { folder: ST, file: '20_Окно_Войдите_1920.svg', url: '/catalog', viewport: true, setup: async (p) => { await p.locator('.p-card').first().hover(); await click(p, '.p-card [data-card-wish]', 1500); } });
   await shot(guest, { folder: ST, file: '21_Лукбук_коллекции_1920.svg', url: '/brand/balenciaga', viewport: true, setup: async (p) => { await p.locator('[data-lookbook]').first().scrollIntoViewIfNeeded(); await click(p, '[data-lookbook]', 1800); await p.evaluate(() => window.scrollTo(0, 0)); } });
+  await shot(guest, { folder: ST, file: '24_Каталог_наведение_на_карточку_1920.svg', url: '/catalog', viewport: true, setup: async (p) => {
+    const cdp = await p.context().newCDPSession(p);
+    await cdp.send('DOM.enable'); await cdp.send('CSS.enable');
+    const { root } = await cdp.send('DOM.getDocument', { depth: -1 });
+    const { nodeId } = await cdp.send('DOM.querySelector', { nodeId: root.nodeId, selector: '.p-card' });
+    await cdp.send('CSS.forcePseudoState', { nodeId, forcedPseudoClasses: ['hover'] });
+    p.__cdp = cdp;
+    await wait(p, 800);
+  } });
   await guest.close();
 
   // ---------- Покупатель ----------
@@ -70,7 +79,11 @@ async function asRole(browser, email) {
   const orders = (await api(bp, 'GET', '/api/orders?status=all&limit=50')).json;
   const olist = orders?.items || orders?.orders || orders?.rows || [];
   const cancellable = olist.find((o) => ['confirmed', 'assembling', 'new', 'pending'].includes(o.status));
-  const delivered = olist.filter((o) => o.status === 'delivered');
+  const delivered = [];
+  for (let pg = 1; pg <= 4; pg++) {
+    const d = (await api(bp, 'GET', '/api/orders?status=done&page=' + pg)).json;
+    delivered.push(...(d?.items || d?.orders || d?.rows || []).filter((o) => o.status === 'delivered'));
+  }
   const tickets = (await api(bp, 'GET', '/api/tickets')).json;
   const tlist = tickets?.items || tickets?.tickets || tickets?.rows || [];
   // корзина и сравнение не пустые — для окон подтверждения
@@ -78,13 +91,15 @@ async function asRole(browser, email) {
   if (!(cart?.items || []).length) { const v = hero.variants.find((x) => x.available > 0); if (v) await api(bp, 'POST', '/api/cart/items', { variantId: v.variantId, quantity: 1 }); }
   await api(bp, 'POST', '/api/compare', { productId: hero.id });
   let returnOrder = null;
-  for (const o of delivered.slice(0, 8)) {
+  for (const o of delivered.slice(0, 30)) {
     await bp.goto(L.B + '/account/orders/' + o.id, { waitUntil: 'networkidle' });
     if (await bp.locator('[data-return]').count()) { returnOrder = o; break; }
   }
   console.log('отмена:', cancellable?.id, cancellable?.status, 'возврат:', returnOrder?.id, 'обращений:', tlist.length);
   await bp.close();
 
+  if (cancellable) await shot(buyer, { folder: A, file: '19_Заказ_ожидает_сборки_1920.svg', url: '/account/orders/' + cancellable.id });
+  if (returnOrder) await shot(buyer, { folder: A, file: '20_Заказ_доставлен_1920.svg', url: '/account/orders/' + returnOrder.id });
   if (cancellable) await shot(buyer, { folder: A, file: '13_Отмена_заказа_окно_1920.svg', url: '/account/orders/' + cancellable.id, viewport: true, setup: async (p) => click(p, '[data-cancel]', 1200) });
   if (returnOrder) await shot(buyer, { folder: A, file: '14_Оформление_возврата_окно_1920.svg', url: '/account/orders/' + returnOrder.id, viewport: true, setup: async (p) => click(p, '[data-return]', 1200) });
   await shot(buyer, { folder: A, file: '15_Новый_адрес_окно_1920.svg', url: '/account/addresses', viewport: true, setup: async (p) => click(p, '[data-add]', 1200) });
@@ -156,9 +171,9 @@ async function asRole(browser, email) {
     const u = (await api(p, 'GET', '/api/admin/users?limit=5&role=buyer')).json;
     const uid = (u?.rows || u?.items || u?.users || []).find((x) => x.role === 'buyer')?.id || (u?.rows || u?.items || u?.users || [])[0]?.id;
     await p.close();
-    await shot(c, { folder: AD, file: '17_Бренд_подробно_1920.svg', url: '/admin/brands/1' });
+    await shot(c, { folder: AD, file: '17_Бренд_подробно_1920.svg', url: '/admin/brands/1', prep: "document.head.insertAdjacentHTML('beforeend', '<style>.adm-side{position:relative!important;height:auto!important;min-height:100vh}.adm-nav{overflow:visible!important}</style>');" });
     await shot(c, { folder: AD, file: '18_Бренд_редактирование_окно_1920.svg', url: '/admin/brands/1', viewport: true, setup: async (p) => click(p, '[data-edit]', 1600) });
-    if (uid) await shot(c, { folder: AD, file: '19_Пользователь_подробно_1920.svg', url: '/admin/users/' + uid });
+    if (uid) await shot(c, { folder: AD, file: '19_Пользователь_подробно_1920.svg', url: '/admin/users/' + uid, prep: "document.head.insertAdjacentHTML('beforeend', '<style>.adm-side{position:relative!important;height:auto!important;min-height:100vh}.adm-nav{overflow:visible!important}</style>');" });
     if (uid) await shot(c, { folder: AD, file: '20_Пользователь_редактирование_окно_1920.svg', url: '/admin/users/' + uid, viewport: true, setup: async (p) => click(p, '[data-edit]', 1600) });
     await shot(c, { folder: AD, file: '21_Промокод_новый_окно_1920.svg', url: '/admin/promos', viewport: true, setup: async (p) => click(p, '[data-add]', 1400) });
     await shot(c, { folder: AD, file: '22_Удаление_подтверждение_1920.svg', url: '/admin/warehouses', viewport: true, setup: async (p) => click(p, '[data-del]', 1200) });

@@ -24,7 +24,7 @@ for folder in sorted(os.listdir(PROTO)):
         # текст внутри именованных групп (для карточек брендов, историй, коллекций)
         for g in root.iter(NS + 'g'):
             gid = g.get('id')
-            if gid and re.match(r'^(Плитка_бренда|История|Карточка_коллекции|Вещь|Бренд|Экран)_?', gid):
+            if gid and re.match(r'^(Плитка_бренда|История|Карточка_коллекции|Вещь|Бренд|Экран|Заказ|Пункт|Строка|Карточка|Возврат)_?', gid):
                 texts[gid] = ' '.join(t.strip() for t in g.itertext() if t.strip())[:200]
         frames[name] = {'folder': folder, 'ids': ids, 'set': set(ids), 'texts': texts}
 
@@ -71,19 +71,22 @@ def brand_by_text(text, pool):
 
 links = []
 seen = set()
-def add(src, to, trigger=None, regex=None, anim='dissolve', label='', limit=None, action='NAVIGATE'):
+def add(src, to, trigger=None, regex=None, anim='dissolve', label='', limit=None, action='NAVIGATE', trig='ON_CLICK', timeout=None):
     if src not in frames or (action != 'BACK' and (not to or to not in frames)) or src == to: return False
     ids = frames[src]['ids']
-    if trigger is not None and trigger not in frames[src]['set']:
+    if trigger == '__frame__': pass
+    elif trigger is not None and trigger not in frames[src]['set']:
         alt = next((i for i in ids if i.lower() == trigger.lower()), None)
         if not alt: return False
         trigger = alt
     if regex is not None:
         if not any(re.search(regex, i, re.I) for i in ids): return False
-    key = (src, trigger or regex, to, action)
+    key = (src, trigger or regex, to, action, trig)
     if key in seen: return False
     seen.add(key)
     L = {'from': src, 'to': to, 'action': action, 'anim': anim, 'label': label}
+    if trig != 'ON_CLICK': L['trig'] = trig
+    if timeout: L['timeout'] = timeout
     if trigger is not None: L['trigger'] = trigger
     else: L['regex'] = regex; L['limit'] = limit or 60
     links.append(L)
@@ -100,6 +103,8 @@ for n, fr in frames.items():
                               ('Пункт_ИСТОРИИ', H['hist'], 'Истории'), ('Кнопка_Поиск', H['search'], 'Поиск'), ('Кнопка_Тема', H['theme'], 'Тема'), ('Валюта', H['cur'], 'Валюта'),
                               ('Кнопка_Избранное', H['wish'] if logged else H['prompt'], 'Избранное'), ('Кнопка_Сравнение', H['cmp'], 'Сравнение'), ('Кнопка_Корзина', H['mini'], 'Корзина'),
                               ('Кнопка_Профиль', H['acc'] if logged else H['login'], 'Профиль'), ('Кнопка_Уведомления', H['notifP'], 'Уведомления')]:
+            if trig == 'Пункт_НОВИНКИ' and n == find('11_Главная_тема'): to = find('13_Каталог_тема')
+            if trig == 'Пункт_НОВИНКИ' and n == find('12_Главная_тема'): to = find('14_Каталог_тема')
             add(n, to, trig, label=lab, anim='fast' if to in (H['megaB'], H['megaC'], H['theme'], H['cur'], H['notifP']) else 'dissolve')
     # 2. Подвал
     if 'Подвал' in s:
@@ -127,10 +132,10 @@ for n, fr in frames.items():
             if not m: continue
             k = norm(m.group(1))
             target = None
-            for a in admin:
-                t = norm(a.split('_', 1)[1].rsplit('_1920', 1)[0])
-                if k and (t == k or t.startswith(k) or k.startswith(t) or (len(k) > 4 and k[:5] in t[:12])):
-                    target = a; break
+            tn = [(a, norm(a.split('_', 1)[1].rsplit('_1920', 1)[0])) for a in admin]
+            for test in (lambda t: t == k, lambda t: t.startswith(k) or k.startswith(t), lambda t: len(k) > 4 and k[:5] in t[:12]):
+                target = next((a for a, t in tn if k and test(t)), None)
+                if target: break
             if not target:
                 extra = {'возвраты': H['deskRet'], 'обращения': H['desk'], 'склад': H['stock'], 'товары': admin[1], 'отзывы': admin[2], 'заявки': admin[3]}
                 target = next((v for kk, v in extra.items() if k.startswith(kk)), None)
@@ -150,7 +155,7 @@ def fx(src, pairs):
     for trig, to, *rest in pairs:
         lab = rest[0] if rest else trig.replace('Кнопка_', '').replace('_', ' ')
         ok = add(src, to, regex=trig[3:], label=lab) if trig.startswith('re:') else add(src, to, trig, label=lab)
-        if not ok and to and (src, trig if not trig.startswith('re:') else trig[3:], to, 'NAVIGATE') not in seen: missed.append((src, trig, to))
+        if not ok and to and src != to: missed.append((src, trig, to))
 fx(H['home'], [('Кнопка_Смотреть_коллекцию', brands[0]), ('Кнопка_Весь_каталог', H['catalog']), ('Ссылка_Все_товары', H['catalog']), ('Ссылка_Все_новинки', H['catalog'])])
 # плитки брендов, коллекции, истории на главной — по тексту внутри
 for src in [H['home']]:
@@ -167,7 +172,7 @@ for gid, text in frames[H['hist']]['texts'].items():
         st = brand_by_text(text, stories)
         if st: add(H['hist'], st, gid, label='История ' + st.split('_', 2)[2].rsplit('_1920', 1)[0].replace('_', ' '))
 for c in [H['catalog'], H['catf'], find('13_Каталог_тема'), find('14_Каталог_тема'), H['cmpBar']]:
-    fx(c, [('Кнопка_Быстрый_просмотр', H['quick']), ('Кнопка_Добавить_к_сравнению', H['cmpBar']), ('Кнопка_Сравнить', H['cmp']), ('Чекбокс_Balenciaga', H['catf'], 'Фильтр Balenciaga')])
+    fx(c, [('Чекбокс_Balenciaga', H['catf'], 'Фильтр Balenciaga'), ('Кнопка_Сравнить', H['cmp'])])
 fx(H['catf'], [('re:^Чип_Balenciaga', H['catalog'], 'Убрать фильтр'), ('Кнопка_Сбросить_всё', H['catalog'])])
 fx(H['empty'], [('Кнопка_Сбросить_всё', H['catalog']), ('re:^Чип_Supreme', H['catalog'], 'Убрать фильтр')])
 fx(H['product'], [('Кнопка_В_корзину', H['added']), ('Кнопка_Таблица_размеров', H['sizes']), ('Кнопка_Полноэкранный_просмотр', H['gallery']), ('Кнопка_Добавить_в_избранное', H['prompt'])])
@@ -202,12 +207,27 @@ for a, b in [(H['co1'], H['co2']), (H['co2'], H['co3']), (H['co3'], H['co4']), (
 fx(H['co5'], [('Кнопка_Оформить_заказ', H['done'])])
 fx(H['done'], [('Кнопка_Отследить_заказ', H['trk2']), ('Кнопка_Отследить', H['trk2']), ('Кнопка_Мои_заказы', H['orders']), ('Кнопка_Продолжить_покупки', H['catalog'])])
 fx(H['trk'], [('Кнопка_Найти', H['trk2'])])
-fx(H['orders'], [('re:^Заказ_\\d+$', H['order'], 'Клик по заказу')])
+order_frames = [H['order'], find('19_Заказ_ожидает'), find('20_Заказ_доставлен')]
+num_of = {}
+for of in order_frames:
+    m = re.search(r'AMF-\d{4}-\d{6}', ' '.join(frames[of]['ids']))
+    if m: num_of[m.group(0)] = of
+for src in [H['orders'], H['acc']]:
+    for gid, text in frames[src]['texts'].items():
+        if re.match(r'^Заказ_\d+$', gid):
+            m = re.search(r'AMF-\d{4}-\d{6}', text)
+            add(src, num_of.get(m.group(0) if m else '', H['order']), gid, label='Заказ ' + (m.group(0) if m else ''))
+fx(find('19_Заказ_ожидает'), [('Кнопка_Отменить_заказ', H['cancelM']), ('Кнопка_Отследить', H['trk2']), ('Ссылка_Написать_в_поддержку', H['support']), ('Ссылка_Мои_заказы', H['orders'])])
+for gid, text in frames[H['returns']]['texts'].items():
+    for num, of in num_of.items():
+        if num in text and re.match(r'^(Пункт|Строка|Карточка|Возврат)', gid): add(H['returns'], of, gid, label='Заказ ' + num)
+fx(find('20_Заказ_доставлен'), [('Кнопка_Вернуть', H['returnM'], 'Вернуть товар'), ('Ссылка_Написать_в_поддержку', H['support']), ('Ссылка_Мои_заказы', H['orders'])])
 fx(H['acc'], [('re:^Заказ_\\d+$', H['order'], 'Последний заказ'), ('Ссылка_Все_заказы', H['orders'])])
-fx(H['order'], [('Кнопка_Отменить_заказ', H['cancelM']), ('re:^Кнопка_Оформить_возврат|^Кнопка_Вернуть', H['returnM'], 'Возврат'), ('Кнопка_Отследить', H['trk2']), ('Ссылка_Вопрос_по_заказу', H['support'])])
+fx(H['order'], [('Кнопка_Отследить', H['trk2'])])
 fx(H['addr'], [('Кнопка_Добавить_адрес', H['addrM']), ('Кнопка_Добавить', H['addrM']), ('Кнопка_Удалить', H['addrDel'])])
 fx(H['support'], [('re:^Обращение', H['ticket'], 'Обращение')])
 fx(H['wish0'], [('Кнопка_В_каталог', H['catalog'])])
+add(H['login'], H['loginErr'], 'Кнопка_Войти', label='Войти (неверный пароль)')
 for lg in [H['login'], H['loginErr']]:
     fx(lg, [('Вкладка_РЕГИСТРАЦИЯ', H['reg']), ('Кнопка_ВОЙТИ', H['acc']), ('Кнопка_Войти', H['acc']), ('Ссылка_Забыли_пароль', H['forgot']), ('Кнопка_Забыли_пароль', H['forgot']),
             ('Чип_Покупатель', H['acc']), ('Чип_Продавец', H['shop']), ('Чип_Кладовщик', H['stock']), ('Чип_Курьер', H['courier']), ('Чип_Поддержка', H['desk']), ('Чип_Модератор', H['dash']), ('Чип_Владелец', H['dash'])])
@@ -218,16 +238,16 @@ fx(H['reset'], [('Кнопка_Сохранить_пароль', H['login']), ('
 for e in [n for n in frames if frames[n]['folder'].startswith('08_')]:
     fx(e, [('Кнопка_На_главную', H['home']), ('Кнопка_В_каталог', H['catalog']), ('Кнопка_Войти', H['login'])])
 fx(H['shop'], [('Кнопка_Добавить_товар', H['shopNew']), ('re:^Кнопка_Редактировать|^Кнопка_Изменить', H['shopEdit'], 'Изменить'), ('Кнопка_Удалить', H['shopDel'])])
-for s_ in [H['shop'], H['shopOrders'], H['shopStats'], H['shopRev'], H['shopNew'], H['shopEdit']]:
-    fx(s_, [('re:^Вкладка_Товары', H['shop'], 'Товары'), ('re:^Вкладка_Заказы', H['shopOrders'], 'Заказы'), ('re:^Вкладка_Статистика', H['shopStats'], 'Статистика'), ('re:^Вкладка_Отзывы', H['shopRev'], 'Отзывы'), ('Ссылка_Все_товары', H['shop'])])
+for s_ in [H['shop'], H['shopOrders'], H['shopStats'], H['shopRev']]:
+    fx(s_, [('re:^Вкладка_(\\d+_)?Товары', H['shop'], 'Товары'), ('re:^Вкладка_(\\d+_)?Заказы', H['shopOrders'], 'Заказы'), ('re:^Вкладка_(\\d+_)?Статистика', H['shopStats'], 'Статистика'), ('re:^Вкладка_(\\d+_)?Отзывы', H['shopRev'], 'Отзывы'), ('Ссылка_Все_товары', H['shop'])])
 for s_ in [H['stock'], H['queue'], H['stockRet'], H['moves']]:
-    fx(s_, [('re:^Вкладка_Остатки', H['stock'], 'Остатки'), ('re:^Вкладка_Очередь', H['queue'], 'Очередь сборки'), ('re:^Вкладка_Возвраты', H['stockRet'], 'Возвраты'), ('re:^Вкладка_Журнал', H['moves'], 'Журнал')])
+    fx(s_, [('re:^Вкладка_(\\d+_)?Остатки', H['stock'], 'Остатки'), ('re:^Вкладка_(\\d+_)?Очередь', H['queue'], 'Очередь сборки'), ('re:^Вкладка_(\\d+_)?Возвраты', H['stockRet'], 'Возвраты'), ('re:^Вкладка_(\\d+_)?Журнал', H['moves'], 'Журнал')])
 fx(H['stock'], [('re:^Кнопка_Приёмка|^Кнопка_Принять', H['income'], 'Приёмка')])
 for s_ in [H['courier'], H['done2']]:
-    fx(s_, [('re:^Вкладка_В_доставке', H['courier'], 'В доставке'), ('re:^Вкладка_Доставлен', H['done2'], 'Доставленные')])
+    fx(s_, [('re:^Вкладка_(\\d+_)?В_доставке', H['courier'], 'В доставке'), ('re:^Вкладка_(\\d+_)?Доставлен', H['done2'], 'Доставленные')])
 fx(H['courier'], [('re:^Ссылка_AMF|^Пункт_\\d+$', H['route'], 'Маршрутный лист')])
 for s_ in [H['desk'], H['deskRet'], H['deskOrders'], H['deskTicket']]:
-    fx(s_, [('re:^Вкладка_Обращения', H['desk'], 'Обращения'), ('re:^Вкладка_Возвраты', H['deskRet'], 'Возвраты'), ('re:^Вкладка_Заказы', H['deskOrders'], 'Заказы')])
+    fx(s_, [('re:^Вкладка_(\\d+_)?Обращения', H['desk'], 'Обращения'), ('re:^Вкладка_(\\d+_)?Возвраты', H['deskRet'], 'Возвраты'), ('re:^Вкладка_(\\d+_)?Заказы', H['deskOrders'], 'Заказы')])
 fx(H['desk'], [('re:^Обращение|^Пункт_Как', H['deskTicket'], 'Обращение')])
 fx(H['deskRet'], [('re:^Кнопка_Одобрить', H['deskDecide'], 'Одобрить')])
 fx(H['desk'], [('re:^Пункт_\\d+$', H['deskTicket'], 'Обращение')])
@@ -240,9 +260,38 @@ fx(find('14_Промокоды'), [('re:^Кнопка_Добавить', H['prom
 fx(find('11_Склады'), [('Кнопка_Удалить', H['delConfirm'])])
 fx(H['pre'], [])
 
-flows = [[H['home'], 'Покупатель — главная'], [H['login'], 'Вход и регистрация'], [H['acc'], 'Личный кабинет'], [H['shop'], 'Продавец'], [H['stock'], 'Склад'], [H['courier'], 'Курьер'], [H['desk'], 'Поддержка'], [H['dash'], 'Админ-панель']]
+fx(H['theme'], [('Кнопка_Светлая', find('11_Главная_тема')), ('Кнопка_Тёмная', find('12_Главная_тема')), ('Кнопка_Amfibia', H['home'])])
+add(H['search'], H['searchR'], 'Строка_поиска', label='Ввод запроса')
+add(H['searchR'], H['searchE'], 'Строка_поиска', label='Другой запрос')
+add(H['searchE'], H['search'], 'Строка_поиска', label='Изменить запрос')
+add(H['catalog'], H['empty'], 'Фильтр_цены', label='Цена без результатов')
+add(H['wish'], H['wish0'], 'Заголовок_страницы', label='Убрать все вещи (пустое состояние)')
+flows = [[H['pre'], 'Покупатель — с заставки'], [find('02_Ошибка_404'), 'Ошибка 404'], [find('01_Ошибка_403'), 'Ошибка 403'], [find('03_Ошибка_500'), 'Ошибка 500'], [H['login'], 'Вход и регистрация'], [H['acc'], 'Личный кабинет'], [H['shop'], 'Продавец'], [H['stock'], 'Склад'], [H['courier'], 'Курьер'], [H['desk'], 'Поддержка'], [H['dash'], 'Админ-панель']]
 # Заставка: переход по задержке не поддерживается API — даём клик
-add(H['pre'], H['home'], regex=r'^Заставка|^Логотип', label='Клик / через 2,2 с')
+add(H['pre'], H['home'], '__frame__', trig='AFTER_TIMEOUT', timeout=2.2, label='Через 2,2 с')
+hov = find('Каталог_наведение')
+for c in [H['catalog'], H['catf'], find('13_Каталог_тема'), find('14_Каталог_тема')]:
+    add(c, hov, 'Карточка_товара_1', trig='MOUSE_ENTER', anim='fast', label='Наведение на карточку')
+add(hov, H['catalog'], 'Карточка_товара_1', trig='MOUSE_LEAVE', anim='fast', label='Убрать курсор')
+fx(hov, [('Кнопка_Быстрый_просмотр', H['quick']), ('Кнопка_Сравнить', H['cmpBar']), ('Кнопка_В_избранное', H['prompt'], 'Сердце (гость)')])
+add(hov, H['product'], regex=r'^Карточка_товара_\d+$', label='Клик по карточке')
+fx(find('06_Бренды_1920'), [('re:^Карточка_бренда_\\d+$', H['brandAdm'], 'Карточка бренда')])
+for gid, text in frames[H['megaB']]['texts'].items():
+    if re.match(r'^Бренд_\d+$', gid):
+        b = brand_by_text(text, brands)
+        if b: add(H['megaB'], b, gid, label=b.split('_', 2)[2].rsplit('_1920', 1)[0].replace('_', ' '))
+fx(H['support'], [('re:^Как подобрать', H['ticket'], 'Обращение')])
+for lg in [H['login'], H['loginErr'], H['code'], H['forgot'], H['reset'], H['reg']]:
+    fx(lg, [('Чип_Создатель_магазина', H['dash'], 'Владелец'), ('Чип_Покупатель', H['acc']), ('Чип_Продавец', H['shop']), ('Чип_Кладовщик', H['stock']), ('Чип_Курьер', H['courier']), ('Чип_Поддержка', H['desk']), ('Чип_Модератор', H['dash'])])
+fx(H['cart0'], [('Кнопка_Смотреть_новинки', H['catalog'])])
+fx(H['wish0'], [('Кнопка_Каталог', H['catalog'])])
+fx(H['prompt'], [('Кнопка_Зарегистрироваться', H['reg']), ('Ссылка_Забыли_пароль', H['forgot'])])
+fx(H['order'], [('Ссылка_Написать_в_поддержку', H['support']), ('Ссылка_Мои_заказы', H['orders'])])
+fx(H['done'], [('Ссылка_Продолжить_покупки', H['catalog'])])
+fx(H['searchR'], [('re:^Кнопка_Все_результаты', H['catalog'], 'Все результаты')])
+fx(H['catf'], [('re:^Чип_Сбросить', H['catalog'], 'Сбросить всё')])
+fx(H['product'], [('Кнопка_Таблица_размеров', H['sizes']), ('Кнопка_В_избранное', H['prompt'], 'Сердце (гость)'), ('Кнопка_Сравнить', H['cmp']), ('Ссылка_Каталог', H['catalog'])])
+fx(H['home'], [('re:^Ссылка_Все$', H['catalog'], 'Все'), ('Ссылка_Все_новинки', H['catalog'])])
 
 # ---------- отчёт ----------
 by_from = collections.Counter(L['from'] for L in links)
@@ -250,12 +299,75 @@ nolinks = [n for n in frames if n not in by_from]
 print('переходов:', len(links), '«назад»:', sum(1 for L in links if L['action'] == 'BACK'), 'экранов с переходами:', len(by_from), 'из', len(frames))
 print('без исходящих:', nolinks)
 if '-m' in sys.argv:
-    for m in missed: print('нет слоя:', m[0], '|', m[1])
+    have = {(l['from'], l['to']) for l in links}
+    for m in missed:
+        if (m[0], m[2]) not in have: print('нет слоя:', m[0], '|', m[1], '→', m[2])
 if '-v' in sys.argv:
     for L in links: print(L['from'], '|', L.get('trigger') or L.get('regex'), '→', L['to'] or 'НАЗАД')
 
 os.makedirs(OUT, exist_ok=True)
 tokens = json.load(open(os.path.join(OUT, 'Дизайн-токены.json'), encoding='utf-8'))
+
+# ---------- тексты для шага «Тексты» плагина ----------
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from postfix import pick, KEEP, AVAILABLE
+font_tab, font_idx = [], {}
+style_tab = tokens['textStyles']
+color_tab, color_idx = [], {}
+def font_id(fam, w, it):
+    st = 'Book' if fam == 'UnifrakturMaguntia' else 'Regular' if fam in KEEP or fam not in AVAILABLE else pick(fam, w, it)
+    k = (fam, st)
+    if k not in font_idx: font_idx[k] = len(font_tab); font_tab.append({'family': fam, 'style': st})
+    return font_idx[k]
+def theme_of(name, folder):
+    if 'тема_Светлая' in name: return 'Светлая'
+    if 'тема_Тёмная' in name or folder.startswith('06_'): return 'Тёмная'
+    if folder in ('', 'Стили', 'Компоненты'): return None
+    return 'Amfibia'
+def color_id(theme, fill, op):
+    if not theme or not fill or fill == 'none': return -1
+    for nm, c in tokens['colors'][theme].items():
+        if c['value'].lower() == fill.lower() and abs((c.get('opacity') or 1) - op) < 0.03:
+            key = f'Тема {theme}/{nm.replace("_", " ")}'
+            if key not in color_idx: color_idx[key] = len(color_tab); color_tab.append(key)
+            return color_idx[key]
+    return -1
+def style_id(fam, size, w, it, ls):
+    em = round((ls / size) / 0.04) * 0.04 if size else 0
+    lspx = round(round(em, 2) * size * 100) / 100
+    for i, t in enumerate(style_tab):
+        if t['family'] == fam and t['size'] == round(size) and t['weight'] == w and t['italic'] == it and abs(t['letterSpacingPx'] - lspx) < 0.011: return i
+    return -1
+texts = {}
+svgs = [(os.path.join(PROTO, d, f), d) for d in sorted(os.listdir(PROTO)) for f in sorted(os.listdir(os.path.join(PROTO, d))) if f.endswith('.svg')]
+svgs += [(os.path.join(DOCS, d, f), '') for d in ('1_Стили', '2_Компоненты', '4_Обложка', '5_Карта_переходов') for f in os.listdir(os.path.join(DOCS, d)) if f.endswith('.svg')]
+nt = nmulti = 0
+for path, folder in svgs:
+    fname = os.path.basename(path)[:-4]
+    theme = theme_of(fname, folder)
+    out = []
+    for el in ET.parse(path).getroot().iter(NS + 'text'):
+        tsp = el.findall(NS + 'tspan')
+        lines = [(t.text or '') for t in tsp] if tsp else [el.text or '']
+        if not ''.join(lines).strip(): continue
+        fam = [x.strip().strip("'") for x in (el.get('font-family') or 'Inter').split(',')][-1]
+        w = int(el.get('font-weight') or 400); it = el.get('font-style') == 'italic'
+        size = float(el.get('font-size') or 16); ls = float(el.get('letter-spacing') or 0)
+        ys = [float(t.get('y')) for t in tsp if t.get('y')]
+        gap = round(ys[1] - ys[0], 2) if len(ys) > 1 else 0
+        anc = {'middle': 1, 'end': 2}.get(el.get('text-anchor'), 0)
+        op = float(el.get('fill-opacity') or 1)
+        xs = [float(t.get('x')) for t in tsp if t.get('x')]
+        rec = [el.get('id') or '', lines, font_id(fam, w, it), round(ls, 2), gap, anc, style_id(fam, size, w, it, ls), color_id(theme, el.get('fill'), op)]
+        if len(lines) > 1 and xs and max(xs) - min(xs) > 1.5:
+            # строки начинаются в разных местах (продолжение фразы) — не склеиваем, каждая строка отдельно
+            for li, ln in enumerate(lines): out.append([rec[0] if li == 0 else '', [ln], rec[2], rec[3], 0, anc, rec[6], rec[7]])
+        else:
+            out.append(rec); nmulti += len(lines) > 1
+        nt += 1
+    texts[fname] = out
+print('текстов:', nt, 'многострочных:', nmulti, 'шрифтов:', len(font_tab), 'цветовых привязок:', len(color_tab), 'со стилем:', sum(1 for v in texts.values() for e in v if e[6] >= 0))
+
 json.dump({'links': links, 'flows': flows}, open(os.path.join(OUT, 'Переходы.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 anim_ru = {'dissolve': 'Dissolve 320 мс', 'fast': 'Dissolve 160 мс', 'slide': 'Move in 640 мс', 'smart': 'Smart animate 640 мс', 'instant': 'Instant'}
 with open(os.path.join(OUT, 'Переходы.csv'), 'w', encoding='utf-8-sig') as f:
@@ -266,12 +378,12 @@ with open(os.path.join(OUT, 'Переходы.csv'), 'w', encoding='utf-8-sig') 
 # плагин
 pdir = os.path.join(OUT, 'Плагин_Amfibia')
 os.makedirs(pdir, exist_ok=True)
-manifest = {'name': 'Amfibia — стили и переходы', 'id': 'amfibia-lab25-prototype', 'api': '1.0.0', 'main': 'code.js', 'editorType': ['figma'], 'documentAccess': 'dynamic-page',
+manifest = {'name': 'Amfibia — стили, тексты, переходы', 'id': 'amfibia-lab25-prototype', 'api': '1.0.0', 'main': 'code.js', 'editorType': ['figma'], 'documentAccess': 'dynamic-page',
             'networkAccess': {'allowedDomains': ['none']},
-            'menu': [{'name': 'Всё сразу: стили + переходы', 'command': 'all'}, {'name': 'Только стили', 'command': 'styles'}, {'name': 'Только переходы', 'command': 'links'}]}
+            'menu': [{'name': 'Всё сразу: стили, тексты, переходы', 'command': 'all'}, {'name': '1. Только стили', 'command': 'styles'}, {'name': '2. Только тексты (склеить абзацы, шрифты, стили)', 'command': 'texts'}, {'name': '3. Только переходы', 'command': 'links'}]}
 json.dump(manifest, open(os.path.join(pdir, 'manifest.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
 code = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'plugin-code.js'), encoding='utf-8').read()
-data = {'tokens': tokens, 'links': links, 'flows': flows, 'easing': tokens['motion']['easings']['Плавный_выход']['bezier']}
+data = {'tokens': tokens, 'links': links, 'flows': flows, 'easing': tokens['motion']['easings']['Плавный_выход']['bezier'], 'fonts': font_tab, 'colors': color_tab, 'texts': texts}
 code = code.replace('/*DATA*/ {}', json.dumps(data, ensure_ascii=False))
 open(os.path.join(pdir, 'code.js'), 'w', encoding='utf-8').write(code)
 print('плагин:', os.path.getsize(os.path.join(pdir, 'code.js')) // 1024, 'КБ')

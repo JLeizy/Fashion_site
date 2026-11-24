@@ -99,7 +99,7 @@ const brands = brandSlugs.map((slug, i) => {
   const at = (k) => (a.match(new RegExp(`${k}="([^"]*)"`)) || [])[1];
   const name = brandFiles[i].replace(/^\d+_Бренд_/, '').replace(/_1920\.svg$/, '').replace(/_/g, ' ');
   const size = parseFloat(at('font-size') || 0);
-  return { slug, name, font: at('font-family'), weight: Number(at('font-weight') || 400), italic: /italic/.test(a), trackingEm: size ? Math.round((parseFloat(at('letter-spacing') || 0) / size) * 100) / 100 : 0,
+  return { slug, name, font: (at('font-family') || '').split(',').pop().trim(), weight: Number(at('font-weight') || 400), italic: /italic/.test(a), trackingEm: size ? Math.round((parseFloat(at('letter-spacing') || 0) / size) * 100) / 100 : 0,
     accent: g(dark, 'b-accent'), accentText: g(dark, 'b-accent-text'), accentTextLight: g(light, 'b-accent-text') };
 });
 
@@ -119,10 +119,14 @@ const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((e) => {
     const size = Math.round(parseFloat(at('font-size') || 0));
     if (!size) continue;
     const em = Math.round(((parseFloat(at('letter-spacing') || 0) / size) / 0.04)) * 0.04;
-    const key = [at('font-family'), size, Number(at('font-weight') || 400), /italic/.test(a), Math.round(em * 100) / 100].join('|');
+    const fam = (at('font-family') || '').split(',').pop().trim();
+    const key = [fam, size, Number(at('font-weight') || 400), /italic/.test(a), Math.round(em * 100) / 100].join('|');
     const text = [...m[2].matchAll(/>([^<]*)</g)].map((x) => x[1]).join(' ').trim();
-    const st = stats.get(key) || { n: 0, sample: '', where: {} };
+    const st = stats.get(key) || { n: 0, sample: '', where: {}, gaps: {} };
     st.n++;
+    const ys = [...m[2].matchAll(/<tspan[^>]* y="([\d.]+)"/g)].map((x) => parseFloat(x[1]));
+    const xs = [...m[2].matchAll(/<tspan x="([\d.]+)"/g)].map((x) => parseFloat(x[1]));
+    if (ys.length > 1 && Math.max(...xs) - Math.min(...xs) < 1.5) { const g = (Math.round((ys[1] - ys[0]) * 100) / 100).toFixed(2); st.gaps[g] = (st.gaps[g] || 0) + 1; }
     if (!st.sample || (text.length > st.sample.length && text.length < 46)) st.sample = text.slice(0, 60);
     st.where[folder] = (st.where[folder] || 0) + 1;
     stats.set(key, st);
@@ -142,6 +146,7 @@ for (const [key, st] of sorted) {
   textStyles.push({
     name: `${group}/${size} ${WEIGHT[weight] || weight}${italic === 'true' ? ' Italic' : ''}${track}`,
     family, size: Number(size), weight: Number(weight), italic: italic === 'true', letterSpacingPx: Math.round(Number(em) * Number(size) * 100) / 100,
+    lineHeightPx: Object.keys(st.gaps).length ? Number(Object.entries(st.gaps).sort((a, b) => b[1] - a[1])[0][0]) : null,
     usage: st.n, sample: st.sample, where: Object.entries(st.where).sort((a, b) => b[1] - a[1]).slice(0, 3).map((x) => x[0]),
   });
 }
